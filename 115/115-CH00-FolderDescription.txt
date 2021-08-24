@@ -1,0 +1,23 @@
+^^ CHAPTER 0 - Getting Started && Introductions
+
+^= =
+
+### What to expect
+
+You might be new to college. You could be new to programming. Maybe you're new to Java. Perhaps you're new to computers. We all have different backgrounds and experiences. 
+
+And that's awesome!
+
+We'll spend the first few days of this class working on getting to know each other (since we'll be helping each other all semester long), learning the tools, and talking about computer science.
+
+^===
+
+### Assignments
+
+* ASSIGNMENT - Plagiarism Agreement
+
+^=
+
+<br /><br />
+
+In the meantime, can you hypothesize why I chose to use two "&&" signs in the chapter title? What do you think it means?
