@@ -1,0 +1,28 @@
+^^ LABS - Chapter 1
+
+^= = = ,,,
+
+<center>
+LINUX TERMINAL COMMANDS<br /><br />
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vQfuC8yTedXTgcQh7FS9381aJctD5Gf9DlNALSlj3uViDGX7LMF_0Z97Qa4kxO1RicDMP47y4HanqbU/pub?w=200&h=200" alt="An illustration of a laptop displaying the logo for Kalie Linux (which is a stylized dragon)." />
+<br /><br /></center>
+
+
+^=== ,,,
+
+<center>
+LINUX TERMINAL COMMANDS<br /><br />
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vR1XnLMhUaxUJclPfYbHbN8wO22mWnTsXyzKESMSgA-lkswliHJVKR4xFZ7DhbNt1H7T-1pzE0ucpGG/pub?w=200&h=200" alt="An illustration of a Linux terminal screen. Black background with the words: 'root@kali:~#' in red." />
+<br /><br /></center>
+
+^=== ,,,
+
+<center>
+DARKNET DIARIES #33<br /><br />
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vR7QsvLnrIHcZ8O_f8iS3yAIf-g1BSfAXScG6N-uEVRLW1Mqe5Y-PcgtOWPByWinKsLZZ-6wATa4Ef1/pub?w=200&h=200" alt="An illustration of a password list. Most of the passwords are in white font (over a black background, but in the center is the passsword 'rockyou' in red." />
+<br /><br /></center>
+
+^=
+
+
+
