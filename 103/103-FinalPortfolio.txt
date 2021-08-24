@@ -1,0 +1,96 @@
+^^ FINAL PORTFOLIO
+
+# You did it!
+You've (almost) made it through the class! This is your moment to shine!
+
+Your job is to create a portfolio of your work. It should highlight what you've done this semester. It should be something you are proud of. It should show growth. It should be a first step in showing off what you are capable of!
+
+You can build on the framework you established in the Web Design unit, though you don't need to. In the past, some students have started from scratch to build a portfolio.
+
+<hr width="80%" />
+
+^= =
+
+
+
+## Requirements
+
+You'll need to have the following:
+
+* A **landing page** that welcomes visitors to your portfolio. A landing page is what people see when they first get to your portfolio. It can include things like who you are, what you want to do after college, hobbies you have, and anything else you'd like to share.
+
+* A **resume page** that has an embedded version of your resume.
+
+* **Eight pieces** of work you want to share (more on this below).
+
+* **Reflections** on each piece (more on this below).
+
+^===
+
+![Animated GIF of a student's portfolio.](https://daveghidiu.com/assets/portfolio.gif)
+
+^=
+
+<hr width="80%" />
+<br />
+
+^= = ,
+
+### Pieces to include
+You need to include the following artifacts in your portfolio:
+* Infographic
+* Twine game
+* HTML or CSS website
+
+You also need to include at least two other pieces from this class. So far, that's a grand total of *five* artifacts. Since you need *eight* artifacts, you get to choose what the last three are. Maybe you want to embed a Java program that you made in CS1. Maybe you have an essay from Technical Ethics that you're proud of. Perhaps you are a photographer and have some images to share.
+
+The point is that **you** get to decide which pieces to include!
+
+^=== ,
+
+### Reflections
+You also need to include reflections for each piece. They should include:
+* Lessons you learned working on the artifact
+* What you like about your artifact
+* What you would change about your artifact
+* How you think the experience of working on this piece may help you in the future
+
+^=
+           
+<br />
+<br />
+
+^= = = ,,,
+
+<center>Embed PDF in Google Sites<br /></center>
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/NYAMzhOOItE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+^=== ,,,
+
+<center>Embed Twine in Google Sites<br /></center>
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/zRdA_deksfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+^=== ,,,
+
+<center>Embed a Java program<br /></center>
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/fRnByenQwec" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+^=
+
+A few things to keep in mind:
+* You are more than welcome to include other things, too. Google Sites makes it super easy to include neat things like a photo gallery or a YouTube video.
+
+* If you embed a Google Doc, Google Slides, Google Sheet, or any file - such as a PDF - that is stored in your Google Drive, *you need to make sure that the file is shared such that "anyone with the link" can view it.
+
+* You should **definitely** view your site in "Incognito mode" before submitting.
+
+<br />
+<br />
+
+^^ SAMPLE WORK
+
+<center><iframe width="100%" height="350px" src="https://docs.google.com/drawings/d/1CbN1EO1wFFLMyBw5zU_PQnheossw4CWX6M390TvJy5E/preview" frameborder="0"></iframe></center><center><em><span style="font-size: 10pt;">Thumbnails of student work</span></em></center>
+
