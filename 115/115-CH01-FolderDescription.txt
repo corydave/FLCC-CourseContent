@@ -1,0 +1,29 @@
+^^ CHAPTER 1 - Introduction
+
+# Experiences for this chapter
+
+^= =
+
+This chapter is an examination of the tools you need to get started programming. We'll look at the Mimir IDE (integrated development environment), some basic output, and the typical flow of the course. 
+
+In class we'll look at how to use Blackboard and Mimir together. 
+
+In the meantime, what do you think the following code will do?
+
+```java
+System.out.println("Bart Simpson");
+```
+
+^===
+
+* READING GUIDE - Chapter 1 Reading Guide
+
+* LAB - ```HelloWorld```
+
+* LAB - ```Initials```
+
+* LAB - ```Rectangle```
+
+* LAB - ```Triangle```
+
+^=
