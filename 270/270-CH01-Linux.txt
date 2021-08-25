@@ -1,0 +1,26 @@
+^^LINUX
+
+# What is Linux?
+
+^= =
+
+Linux is an operating system (much like Windows and MacOS are operating systems). The biggest difference is that Linux is not only free, but open source. That means that anyone can download the code, modify it, and repackage it. That's one of the reasons there are a lot of different flavors of Linux. Perhaps you've heard of Ubuntu. Or Kali. Or Red Hat. Those are all different distros (distributions) of Linux. And it's totally cool - anyone can make their own distro because Linus is open source.
+
+We'll be using a distribution of Linux called Ubuntu (it is probably the most popular version of Linux. Later on in the Networking and Cybersecurity program, Jonathan Wiessman will have you using other version, like Kali - it isdesigned for penetration testing and ethical hacking, so it comes pre-installed with the tools that are really neat. If you decide to go with a different version, just know that you'll probably have to install different software throughout the semester.
+
+^===
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/Jva7L4lwCDQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+^=
+
+# Is Linux hard to use?
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vRiJTpXBS5tFwJCOi5V2BJOcaVtnmOYKuP0UOwh1PnH6JffzTfv2fWM_dMjVIwIAgcEaNIjwQly96WP/pub?w=240&amp;h=240" style="float: left;" alt="The Ubuntu Logo - A stylized vector image (orange) of three people with open arms forming a circle" title="The Ubuntu Logo - A stylized vector image (orange) of three people with open arms forming a circle" />
+
+Linux sometimes gets a bad reputation because people think it's all text based. While it is true that there is a terminal that is text based, most distros have a graphical user interface (GUI) that makes it easy to use. However, you'll hopefully gain an appreciation for the terminal over the semester and find that it is efficient to use (and fun!).
+In Unit I you'll be installing a version of Linux on your own computer. Don't panic! It's not hard (although it's probably the most technically challenging thing we'll be doing this semester). We will be using a virtual machine for your Linux install. A virtual machine is software (like VMWare or VirtualBox) that interface with the hardware on your computer so that when you run Linux, it is no different than actually installing Linux as the main operating system on your computer. There are a few advantages of virtualization. In most cases, virtualization is safer (because if you get malware in your VM (virtual machine), it typically can't "jump" to your main operating system. Virtualization is super handy for running multiple operating systems at once. For instance, in CSC-260 Networking Technologies class, you may virtualize a few different instances of Windows at the same time. To give you an example, on my Mac, I can virtualize a number of Linux and Windows operating systems simultaneously (with 16 GB of RAM).
+
+Don't panic! We'll go over, step-by-step, how to get Linux up and running on your machine. I actually use a Chromebook for most of my Linux work (modern Chromebooks come with a virtualized Linux bash!). And if you find your computer just can't virtualize (sometimes you have to get super nerdy and edit the BIOS), you can always use a cloud shell for Linux. In the next unit, I'll show you how.
+
+In this class, we will be using ***Ubuntu*** as our distribution. Some of my videos in this class show Kali Linux  - but I started using Ubuntu more recently and you should too. Of course, if you have your own preferred distribution already, you can use whatever you want. 
