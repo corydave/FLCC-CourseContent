@@ -41,7 +41,7 @@ Note that it's possible that the LTP doesn't reflect some classes you might need
 
 ^=== ,
 
-There are some extra semester hidden, too, in case you need more than four - you can expand them from the left side.
+There are some extra semesters hidden, too, in case you need more than four - you can expand them from the left side.
 
 ^=== ,
 
