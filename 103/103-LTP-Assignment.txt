@@ -27,3 +27,26 @@ There are a few steps you'll need to do to fill out this LTP:
 <br />
 
 When you are done, you should share the URL of your Long-Term Planning Sheet here. Please paste it in the "Write Submission" portion of this assignment, not the "Comments" section.
+
+
+
+
+
+
+## Tips
+
+^= = = ,
+
+Note that it's possible that the LTP doesn't reflect some classes you might need to take (mostly math prerequisites). You can add them at the bottom using the checkboxes!
+
+^=== ,
+
+There are some extra semester hidden, too, in case you need more than four - you can expand them from the left side.
+
+^=== ,
+
+Make sure you take a tour through the rest of the tabs in the document, too, so you can understand the SUNY General Education classes, see some course descriptions, etc.
+
+^=
+
+
