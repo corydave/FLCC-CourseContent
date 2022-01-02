@@ -2,6 +2,8 @@
 
 # DESCRIPTION
 
+<div sytle="display:block;">
+<div style="display:block;width:100%;">
 <div style="float:left;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vTSZ-juIZZ3w4xS9zq89XGqn5PyF25UFt2iAWPVvE0ocMa47khHmzj55dzCTzweOYVCG6UBiKxH6Wyb/pub?w=200&h=200" alt="A chat bubble indicating conversation or discussion." style="margin: 0pt 10pt 10pt 0pt;float:left;"  /></div>
 
 Here's your chance to introduce yourself to everyone else! Where are you from? What are you excited about this semester? What do you enjoy doing in your free time?
@@ -12,9 +14,15 @@ This is a chance for you to help us understand who you are! Post a picture of wh
 
 You should spend some time looking at posts from other people. Tell us what you really like about what you see in other people's posts.
 
+</div>
+<div style="display:block;width:100%;clear:left;">
+
 
 # SPECIFICATIONS
 
 * You should embed an image of your workspace, not attach it. If you don't know how to post an image in Blackboard, [check out this video](https://www.youtube.com/watch?v=0thaco45FgE).
 
 * If you have an iPhone, you might wind up storing your photo as an HEIC file. This file is not supported by most web browsers, so you'll have to convert it to a more common format like JPG or PNG before embedding it.
+
+</div>
+</div>
