@@ -21,6 +21,8 @@ You should spend some time looking at posts from other people. Tell us what you 
 
 * You should embed an image of your workspace, not attach it. If you don't know how to post an image in Blackboard, [check out this video](https://www.youtube.com/watch?v=0thaco45FgE).
 
+* If you do not want to share a photo of your entire workspace, you can just share an image of your computer or phone - whatever it is you primarily work with.
+
 * If you have an iPhone, you might wind up storing your photo as an HEIC file. This file is not supported by most web browsers, so you'll have to convert it to a more common format like JPG or PNG before embedding it.
 
 </div>
