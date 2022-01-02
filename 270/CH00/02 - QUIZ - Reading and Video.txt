@@ -5,11 +5,11 @@
 <div style="display:block;width:100%;">
 <div style="float:left;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vTJdorhsj-CX3a18EXZSey3LEMa2NlIZxQ9r7z_SPB03RVcJyNYWG0NwsIoV-5sYUuz4u-2S0HEjCPg/pub?w=200&h=200" alt="An icon for a quiz. Some boxes with checkmarks and ‘X’s." style="margin: 0pt 10pt 10pt 0pt;float:left;"  /></div>
 
-Every unit starts off with a reading. The book for this course is free and available as a PDF or a Google Doc. But for this first unit, the reading is the Course Syllabus.
+Every chapter starts off with a reading. The book for this course is free and available as a PDF or a Google Doc. But for this first chapter, the reading is the Course Syllabus.
 
-The reading for this class is meant to be informative, relevant, and not-awful-to-read. Most of the units in this class have about 15 pages of reading, and it can be somewhat dense at times. Please make sure you do the readings!
+The reading for this class is meant to be informative, relevant, and not-awful-to-read. Most of the chapters in this class have about 15 pages of reading, and it can be somewhat dense at times. Please make sure you do the readings!
 
-Every unit also has a quiz based on the reading. You need to score an 80% or better on the quiz to see the rest of the content in the unit. 
+Every chapter also has a quiz based on the reading. You need to score an 80% or better on the quiz to see the rest of the content in the chapter. 
 
 Don't worry! You can take the quiz as many times as you'd like (but keep in mind that if you take a quiz after the due date, it will not be automatically graded and you'll have to email me and let me know - so it's in your best interest to take the quizzes before the due date.
 
