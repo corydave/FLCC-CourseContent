@@ -1,0 +1,64 @@
+^^ START HERE
+
+# Welcome
+
+Hiya! Welcome to CSC-270: Principles of Information Security! This semester we'll be looking at all sorts of ways to keep information safe. We'll crack some passwords. Fake some tweets. Set up some honeypots. Encrypt messages. Decrypt messages. Learn about secure software design. Look at laws governing the sector.
+
+This class has a lot of hands-on labs to help you gain experience with different facets of information security.
+
+We'll also look at the theories and methodologies for securing information (the CIA model - not *that* CIA), RAID configurations, MFA, MTTR, and a host of other acronyms.
+
+I'm stoked to work with you this semester, and you can get started right now! You should thoroughly dig into the Course Information section on the course menu to the left. Poke and prod in the Course Content section, too. That's where all the good stuff lives! Note that almost all the content is made available to you so you can work ahead.
+
+If you have any questions, you can email me at dave.ghidiu@flcc.edu or hit me up on [Discord](https://discord.com/invite/5MYms7h).
+
+# First things first
+
+The best thing you can do to get started is go through Chapter 0. There are a lot of weirdo things I do in this class and Chapter 0 starts the calibration process.
+
+<center><b>CHANGE VIDEO</b></center><br /><br />
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/XLNlsJruCLs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br /><br />
+
+# Strategies for Successful Online Study
+
+* Be realistic about what is involved in online study.
+
+* Take responsibility for your own learning.
+  * Log in to the course at least once a day.
+  * Identify how to contact your instructor.
+  * Use preview week to look at the expectations of you.
+
+<img alt="An illustration of smattering of online learning tools and devices. A tablet, a computer, a phone, a book, a pen, a diploma, the internet, and a textbook." style="float:right;border-radius:30px;margin-bottom:15px;margin-right:10px;" src="https://docs.google.com/drawings/d/e/2PACX-1vTenfQK8fRGDPt65wwAoyW7VG_-jbUJ7QMn4h4ZqI64CdqZOi4U9mvymYm5VYUcfahq6sWwyimWJig8/pub?w=400&h=268" />
+
+
+* Know the syllabus.
+  * Order your textbooks early.
+  * Look ahead to view all of the major assignments.
+
+
+* Plan your time.
+  * Schedule time each day to complete assignments or do readings.
+  * Review the course schedule and plan your time accordingly.
+
+
+* Identify a study space.
+  * Identify a space in your home where you can use a computer, read quietly, and work without distraction.
+Look for spaces outside the home to work, such as a library or a computer lab.
+
+
+* Check your technology.
+  * Do you have a reliable computer?
+  * Does your main computer meet the minimum technology requirements?
+
+
+* Stay connected.
+  * Make connections with other students through discussion and group work.
+  * Ask questions when you have them.
+Communicate effectively.
+  * When emailing your instructor, use proper grammar and good form. It’s a best practice to include a greeting and complete sentence structure.
+  * Follow the course rubrics for online discussions.
+
+Practice by changing this text (on the left)
