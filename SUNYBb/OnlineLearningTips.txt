@@ -16,9 +16,7 @@ If you have any questions, you can email me at dave.ghidiu@flcc.edu or hit me up
 
 The best thing you can do to get started is go through Chapter 0. There are a lot of weirdo things I do in this class and Chapter 0 starts the calibration process.
 
-<center><b>CHANGE VIDEO</b></center><br /><br />
-
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/XLNlsJruCLs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/dNEXwGEdTGU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br /><br />
 
