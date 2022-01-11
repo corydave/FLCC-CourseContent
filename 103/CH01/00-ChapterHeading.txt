@@ -7,9 +7,10 @@ Let's look at some of the cool beginnings of computing sciences! We'll check out
 
 Don't panic! We don't do much math in this class (though this chapter has a bit of math in it).
 
-<br /><br />
-<p style="text-align: center;"><span style="font-size: x-small;"><strong>Image CC-0 by <a rel="noreferrer noopener" target="_blank" href="https://unsplash.com/@furbee">Oscar Nord</a> via <a rel="noreferrer noopener" target="_blank" href="https://unsplash.com/">Unsplash</a></strong></span></p>
+<br />
 
+<span style="font-size: x-small;"><strong>Image CC-0 by <a rel="noreferrer noopener" target="_blank" href="https://unsplash.com/@furbee">Oscar Nord</a> via <a rel="noreferrer noopener" target="_blank" href="https://unsplash.com/">Unsplash</a></strong></span>
+<br /><br />
 
 # Schedule
 
