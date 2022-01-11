@@ -1,0 +1,16 @@
+^^ CHAPTER 4 - Game Design
+
+# Description
+<img style="float: right;" title="The high scores of a video game (maybe from the 1980s) are shown. Each name has a high score next to it, and each line of text is a different color." title="Multicolored code that is out of focus on a computer screen." alt="The high scores of a video game (maybe from the 1980s) are shown. Each name has a high score next to it, and each line of text is a different color." title="Multicolored code that is out of focus on a computer screen."  src="https://docs.google.com/drawings/d/e/2PACX-1vT4HjzEVBLJT9zDRRYwJCxJGetg8nqYRM9-LBGeZLHf6oAb6garM3rUMMgk5uSb6w2RjOvUy1Ard-cn/pub?w=200&amp;h=200" />
+
+Let's take a peek at making video games! Regrettably, we won't be able to make a super-awesome, rich graphics game. But that's okay - we have a Game Design program at FLCC for that. This chapter is just a quick little dip into making games. We'll be making a text-based game (that relies on story and interaction) using Twine. You may have played games like these (think Zork or something like Telltale games).
+
+<br />
+
+<span style="font-size: x-small;"><b><span size="1" style="font-size: xx-small;">Image CC-0 by <a href="https://unsplash.com/@element5digital?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noreferrer noopener">Element5 Digital</a>&nbsp;via <a href="https://www.unsplash.com" target="_blank" rel="noreferrer noopener">Unsplash</a></span></b></span>
+
+<br /><br />
+
+# Schedule
+
+<div style="clear:both;"><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vSXz-OagQq2MzgyUVfAgS2a4mO-_S4YD2KPooMG8HJymTNEIMb2X6C5ePBAH_YswdLVJDV5JvpMf491/pubhtml/sheet?headers=false&amp;gid=318211283&amp;range=A1:D26' width="720" height="603" frameborder="0"></iframe></div>
