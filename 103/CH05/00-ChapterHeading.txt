@@ -1,0 +1,26 @@
+^^ CHAPTER 5 - Careers & Planning
+
+# Description
+<img style="float: right;" 
+title="A good old fashioned paper planner." alt="A good old fashioned paper planner."  src="https://docs.google.com/drawings/d/e/2PACX-1vQ-LZ0vytsT7WncdUDV_NLhjbOu_BqC2-htNHe_TgWuigGHixA8X16wg00RTb0tkj_W2pmJx3D85zHD/pub?w=200&amp;h=200" />
+
+I know we haven't looked at all the possible career paths in computer science, but we have to start planning for next semester.
+
+This chapter has two objectives: Look at possible careers *and* plan out your next few semesters at FLCC. You might have a vague idea of where you'd like to be after you graduate. As we look at careers this unit, start thinking about what the job landscape looks like. Is it aligned with what interests you? Do you think you might want to consider a different career path?
+
+After looking at different jobs in the sector, we'll be building a rough schedule for the next few semesters at FLCC.
+
+
+<br />
+
+<span style="font-size: x-small;"><b><span style="font-size: xx-small;" size="1">Image CC-0 by <a rel="noreferrer noopener" target="_blank" href="https://unsplash.com/@esteejanssens">Est&eacute;e Janssens</a>&nbsp;via <a rel="noreferrer noopener" target="_blank" href="https://www.unsplash.com">Unsplash</a></span></b></span>
+
+<br /><br />
+
+# Schedule
+
+<div style="clear:both;">
+
+<iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vSXz-OagQq2MzgyUVfAgS2a4mO-_S4YD2KPooMG8HJymTNEIMb2X6C5ePBAH_YswdLVJDV5JvpMf491/pubhtml/sheet?headers=false&amp;gid=1265930329&amp;range=A1:D18' width="720" height="435" frameborder="0"></iframe>
+
+</div>
