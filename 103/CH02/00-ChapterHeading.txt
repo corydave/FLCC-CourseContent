@@ -1,1 +1,15 @@
-ad
+^^ CHAPTER 2 - Computational Thinking
+
+# Description
+<img style="float: right;" title="A circular image divided into four equal quadrants. The top left shows the parts of a computer arranged neatly on a table, the upper right is a big pattern, the lower left is graphs and charts, and the lower right are abstracted lights." alt="A circular image divided into four equal quadrants. The top left shows the parts of a computer arranged neatly on a table, the upper right is a big pattern, the lower left is graphs and charts, and the lower right are abstracted lights."  src="https://docs.google.com/drawings/d/e/2PACX-1vSJKbbo2_7tIRE8JR4W_B6_mLNRtNisTdJjr0VaAC3jQ1EFMcIsQ39k6RsfQfLWMokJwrYGv5iew0RG/pub?w=200&amp;h=200" />
+
+Computational Thinking is one strategy we use to contextualize problems and help form solutions. It's a way of thinking that helps us reason through problems similar to how computers to. This unit is broken down into a few different parts!
+
+<br />
+
+<span style="font-size: x-small;"><b><span size="1" style="font-size: xx-small;">Image CC-0 by </span><a href="https://unsplash.com/@madebyvadim" target="_blank" rel="noreferrer noopener"><span style="font-size: 10px;">Vadim&nbsp;Sherbakov</span></a><span size="1" style="font-size: xx-small;">&nbsp;via </span><a href="https://unsplash.com/" target="_blank" rel="noreferrer noopener" style="font-size: x-small;">Unsplash</a><span size="1" style="font-size: xx-small;">&nbsp;|&nbsp;Image CC-0 by <a href="https://unsplash.com/@daniel_von_appen" target="_blank" rel="noreferrer noopener">Daniel von Appen</a> via <a href="https://www.unsplash.com" target="_blank" rel="noreferrer noopener">Unsplash</a> | Image CC-0 by <a href="https://unsplash.com/@firmbee" target="_blank" rel="noreferrer noopener">William Iven</a> via <a href="https://www.unsplash.com" target="_blank" rel="noreferrer noopener">Unsplash</a> | Image CC-0 by <a href="https://unsplash.com/@sebastianmuller" target="_blank" rel="noreferrer noopener">Sebastian Muller</a> via <a href="https://www.unsplash.com" target="_blank" rel="noreferrer noopener">Unsplash</a></span><b style="font-family: 'Open Sans', sans-serif; letter-spacing: normal; font-weight: bold; color: #000000; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff; text-decoration-style: initial; text-decoration-color: initial; text-shadow: none;"></b></b></span>
+<br /><br />
+
+# Schedule
+
+<div style="clear:both;"><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vSXz-OagQq2MzgyUVfAgS2a4mO-_S4YD2KPooMG8HJymTNEIMb2X6C5ePBAH_YswdLVJDV5JvpMf491/pubhtml/sheet?headers=false&amp;gid=1499791358&amp;range=A1:D20' width="720" height="477" frameborder="0"></iframe></div>
