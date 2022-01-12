@@ -1,0 +1,21 @@
+^^ CHAPTER 7 - Networking && Cybersecurity
+
+# Description
+<img style="float: right;" 
+title="A picture of a person in a hoody wearing a Guy Fawkes mask." title=" picture of a person in a hoody wearing a Guy Fawkes mask." title="A picture of a person in a hoody wearing a Guy Fawkes mask." title=" picture of a person in a hoody wearing a Guy Fawkes mask." alt="A tablet (most likely an iPad Pro) is shown in the hands of a user." title="A tablet (most likely an iPad Pro) is shown in the hands of a user."  src="https://docs.google.com/drawings/d/e/2PACX-1vT2VcMR3xlhEIvVU2eGZMTXdnQJG134z7Lv7bl23LTPajusb53C_p3CWhcDwg3VO4nVm8vY4lGPji9D/pub?w=200&amp;h=200" />
+
+Staying safe online is more getting more complicated every day. Between viruses, ransomware, phishing, and hacking, protecting information is getting harder and harder.
+
+<br />
+
+<span style="font-size: x-small;"><b><span size="1" style="font-size: xx-small;">Image CC-0 by </span><span size="1" style="font-size: xx-small;"><a href="https://unsplash.com/@luthermeb?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noreferrer noopener"><span size="1" style="font-size: xx-small;">Luther Bottrill</span></a><span style="font-size: xx-small;">&nbsp;via </span><a href="https://www.unsplash.com" target="_blank" rel="noreferrer noopener" style="font-size: xx-small;">Unsplash</a></span></b></span>
+
+<br /><br />
+
+# Schedule
+
+<div style="clear:both;">
+
+<iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vSXz-OagQq2MzgyUVfAgS2a4mO-_S4YD2KPooMG8HJymTNEIMb2X6C5ePBAH_YswdLVJDV5JvpMf491/pubhtml/sheet?headers=false&amp;gid=1250865820&amp;range=A1:D14' width="720" height="351" frameborder="0"></iframe>
+
+</div>
