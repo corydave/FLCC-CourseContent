@@ -1,7 +1,7 @@
 ^^ CHAPTER 3 - Web Design
 
 # Description
-<img style="float: right;" title="An image of what looks to be some hand drawn website sketches, implying the first step of the web design process." alt="An image of what looks to be some hand drawn website sketches, implying the first step of the web design process."  src="https://docs.google.com/drawings/d/e/2PACX-1vQq97KKBRmI_3Y-f1bOsp4MP-1jnGCcDf5PME17WR6lZVvK4dI4OggC4e50W5SWA_BdVBsIKsOxBphR/pub?w=200&amp;h=200" alt="Multicolored code that is out of focus on a computer screen." />
+<img style="float: right;" title="An image of what looks to be some hand drawn website sketches, implying the first step of the web design process." alt="An image of what looks to be some hand drawn website sketches, implying the first step of the web design process."  src="https://docs.google.com/drawings/d/e/2PACX-1vQq97KKBRmI_3Y-f1bOsp4MP-1jnGCcDf5PME17WR6lZVvK4dI4OggC4e50W5SWA_BdVBsIKsOxBphR/pub?w=200&amp;h=200" />
 
 This unit is a brief introduction to web design. It starts with basic HTML (the foundational scripting language to create webpages) and then adds in some CSS (the really slick ways to add sweet, sweet design elements to your page), and then moves to server storage and the notion of a **CMS** (a *content management system* is something like Wordpress that helps you manage all your web content) and **front end** designers like Google Sites.
 
