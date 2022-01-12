@@ -2,7 +2,7 @@
 
 # Description
 <img style="float: right;" 
-title="A tablet (most likely an iPad Pro) is shown in the hands of a user." title="A tablet (most likely an iPad Pro) is shown in the hands of a user." alt="A tablet (most likely an iPad Pro) is shown in the hands of a user." title="A tablet (most likely an iPad Pro) is shown in the hands of a user."  src="https://docs.google.com/drawings/d/e/2PACX-1vRxHBMobgvhU4HqlJAlgFXcrltWvCIPQTuO00cvDhBA9Vx4QZr_W-7T3Oaxee48nHemwBlL3n4dIlPG/pub?w=200&amp;h=200" />
+title="A tablet (most likely an iPad Pro) is shown in the hands of a user." alt="A tablet (most likely an iPad Pro) is shown in the hands of a user." alt="A tablet (most likely an iPad Pro) is shown in the hands of a user." src="https://docs.google.com/drawings/d/e/2PACX-1vRxHBMobgvhU4HqlJAlgFXcrltWvCIPQTuO00cvDhBA9Vx4QZr_W-7T3Oaxee48nHemwBlL3n4dIlPG/pub?w=200&amp;h=200" />
 
 Hardware is the physical parts of a computer (the USB port, the monitor, the printer, the motherboard, the CPU). An operating system is the software that mediates actions between the user and the hardware. 
 
