@@ -1,6 +1,6 @@
 ^^ SHARE - Chapter 0 SHARE Assignments
 
-# DESCRIPTION
+# Description
 
 <div style="display:block;width:100%;">
 <div style="float:left;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vQFsxo-D6VdS69ucVCz3KIOxiI_CmYKaL7SCbcP4n_bN0AYZ0GD1X37r85w1SAvjlmHHcM1DF2fP1jP/pub?w=200&h=200" alt="An icon of a sharing logo. One node with a few diverging paths leaving from it and connecting other nodes." style="margin: 0pt 10pt 10pt 0pt;float:left;"  /></div>
@@ -11,7 +11,7 @@ This folder contains the SHARE assignments for this chapter. Please read the ins
 
 <div style="display:block;width:100%;clear:left;">
 
-# SHARE ASSIGNMENTS
+# SHARE Assignments
 
 * ASSIGNMENT - FlipGrid Introduction [10 minutes]
 * DISCUSSION - Your Work Area [15-25 minutes]
