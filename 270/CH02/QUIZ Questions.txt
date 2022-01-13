@@ -1,0 +1,26 @@
+^^ AUTHOR - Author quiz questions
+
+# Description
+
+<div style="display:block;width:100%;">
+<div style="float:left;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vQBQeHzVRzZqhkC32744qRdNLdgfktbRwkpb7_I0LRKQdxWQ14jtVv2LVURnYzafLR5xBYh28B3Ktnb/pub?w=200&amp;h=200" alt="A blue circle with a white question mark (?) in it." title="A blue circle with a white question mark (?) in it." style="margin: 0pt 10pt 10pt 0pt;float:left;"  /></div>
+
+
+Your job is to submit questions based on the lab experiences in this chapter. Your questions may appear on the final and may be used on quizzes for future classes.
+
+You will be guided through the creation process with specific instructions and examples.
+
+The only thing you need to submit is in the form below; there is nothing to submit in Blackboard
+
+
+</div>
+
+<div style="display:block;width:100%;clear:left;">
+
+# Questions
+
+<br />
+
+<center><iframe width="640" height="2066" src="https://docs.google.com/forms/d/e/1FAIpQLSddW53T97u10qebedrHNyisOtEeZREYckRzAuDImSMKU8WL6g/viewform?usp=pp_url&amp;entry.2044127363=@X@user.full_name@X@" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></center>
+
+</div>
