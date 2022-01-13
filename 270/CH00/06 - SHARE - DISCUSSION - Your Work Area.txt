@@ -1,6 +1,6 @@
 ^^ DISCUSSION - Your Work Area
 
-# DESCRIPTION
+# Description
 
 <div style="display:block;width:100%;">
 <div style="float:left;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vTSZ-juIZZ3w4xS9zq89XGqn5PyF25UFt2iAWPVvE0ocMa47khHmzj55dzCTzweOYVCG6UBiKxH6Wyb/pub?w=200&h=200" alt="A chat bubble indicating conversation or discussion." style="margin: 0pt 10pt 10pt 0pt;float:left;"  /></div>
@@ -17,7 +17,7 @@ You should spend some time looking at posts from other people. Tell us what you 
 <div style="display:block;width:100%;clear:left;">
 
 
-# SPECIFICATIONS
+# Specifications
 
 * You should embed an image of your workspace, not attach it. If you don't know how to post an image in Blackboard, [check out this video](https://www.youtube.com/watch?v=0thaco45FgE).
 
