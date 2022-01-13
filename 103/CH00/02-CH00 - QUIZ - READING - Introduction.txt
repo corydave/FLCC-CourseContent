@@ -1,6 +1,6 @@
 ^^ QUIZ - Reading and Video
 
-# DESCRIPTION
+# Description
 
 <div style="display:block;width:100%;">
 <div style="float:left;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vTJdorhsj-CX3a18EXZSey3LEMa2NlIZxQ9r7z_SPB03RVcJyNYWG0NwsIoV-5sYUuz4u-2S0HEjCPg/pub?w=200&h=200" alt="An icon for a quiz. Some boxes with checkmarks and ‘X’s." style="margin: 0pt 10pt 10pt 0pt;float:left;"  /></div>
@@ -17,7 +17,7 @@ Don't worry! You can take the quiz as many times as you'd like (but keep in mind
 
 <div style="display:block;width:100%;clear:left;">
 
-# SPECIFICATIONS
+# Specifications
 
 * The quiz has 9 questions based on the Course Syllabus and the Welcome and Course Orientation video.
 
