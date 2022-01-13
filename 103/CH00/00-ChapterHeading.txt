@@ -1,0 +1,20 @@
+^^ CHAPTER 0 - Introduction && Orientation
+
+# Description
+<img style="float: right;" title="A fancy directional compass pointing NNE, resting on a piece of barnwood." alt="A fancy directional compass pointing NNE, resting on a piece of barnwood."  src="https://docs.google.com/drawings/d/e/2PACX-1vTUzYDH-ZI__BvHaPSIk5bZ0ntG7N7CT3GzssxvrdLHu7pTPteKqmv0jW-GcrJnWSu2-Tzi4VtMSaU3/pub?w=200&amp;h=200" />
+
+Welcome to CSC-103, Computing Sciences Portal! This class has some oddities that probably require some explaining. This chapter is dedicated to acquainting you to my weirdness and peculiarities😁.
+
+There are a few different assignments in this chapter, but you should start off by reading the syllabus and also watching the orientation video. Both of those will help you understand how the course works.
+
+If you have any questions, you can always email me at dave.ghidiu@flcc.edu. 
+
+<br />
+
+<span style="font-size: x-small;"><b><span size="1" style="font-size: xx-small;">Image CC-0 by <a href="https://unsplash.com/@reskp" target="_blank" rel="noreferrer noopener">Jametlene Reskp</a> via <a href="https://www.unsplash.com" target="_blank" rel="noreferrer noopener">Unsplash</a></span></b></span>
+
+<br /><br />
+
+# Schedule
+
+<div style="clear:both;"><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vSXz-OagQq2MzgyUVfAgS2a4mO-_S4YD2KPooMG8HJymTNEIMb2X6C5ePBAH_YswdLVJDV5JvpMf491/pubhtml/sheet?headers=false&amp;gid=1072565424&amp;range=B1:D11' width="720" height="288" frameborder="0"></iframe></div>
