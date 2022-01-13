@@ -1,6 +1,6 @@
 ^^ LABS - Chapter 0 Labs
 
-# DESCRIPTION
+# Description
 
 <div style="display:block;width:100%;">
 <div style="float:left;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vTWlJEHleCcDGLiQhNGlXQTtaL5Ze8GBmKgGSsCNEUZDHWGV4OVBtA8-zkXpUVzYvRcHgBBFSiNT1ky/pub?w=200&h=200" alt="An icon of a laptop." style="margin: 0pt 10pt 10pt 0pt;float:left;"  /></div>
@@ -13,7 +13,7 @@ Please make sure that the documents are shared such that "Anyone with the link c
 
 <div style="display:block;width:100%;clear:left;">
 
-# LABS
+# Labs
 
 * First Security Lab [10-20 minutes]
 
