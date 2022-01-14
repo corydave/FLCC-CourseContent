@@ -1,0 +1,43 @@
+^^ READING - Technical Writing
+
+# What is technical writing?
+
+Technical writing is a way to simplify complex text. This could be instructions, memos, reports, descriptions, LinkedIn posts, APIs, and other media that requires a distillation of important facts.
+
+Technical writing is an entire discipline so we won't go into too much detail. But there are some easy tips you can use to start transitioning your text into technical writing. You can read the article [5 Tips to Improve Your Technical Writing Skills](https://community.articulate.com/articles/5-tips-to-improve-your-technical-writing-skills) for more details, but some of the big takeaways are:
+
+1. Avoid words like "you" and "me" - those are conversational and violate the idea of concise text.
+
+2. Format your text - using white space can add visual cues and cushions that make your text appear more friendly.
+
+3. Be clear and concise - phrases like "As you can see" and "Everybody knows" are fillers that don't advance the reader's understanding.
+
+# Example
+
+^= = = ,
+
+<br />Here's a subtle example of technical writing:
+
+<center><i>The moth was removed by Grace Hopper.</i><br /><br />
+
+can be rewritten as
+
+<br />
+
+<i>Grace Hopper removed the moth.</i>
+
+</center><br />
+
+In this example, we were able to remove the words "was" and "by". In doing so, we freed up valuable text and we also contextualized the phrase as more authoritatively factual. We also relied more on the active verb, *removed* and got rid of the passive voice of "was".
+
+If you want to learn more, be sure to check out [Google's ***free*** Technical Writing courses](https://developers.google.com/tech-writing).
+
+<br />
+
+^=
+
+<br /><br />
+
+# Video
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/dtNV3tdZklY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
