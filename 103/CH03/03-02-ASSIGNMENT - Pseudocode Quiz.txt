@@ -1,0 +1,56 @@
+^^ ASSIGNMENT - Pseudocode Quiz
+
+# Description
+
+<div style="display:block;width:100%;">
+<div style="float:left;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vTJdorhsj-CX3a18EXZSey3LEMa2NlIZxQ9r7z_SPB03RVcJyNYWG0NwsIoV-5sYUuz4u-2S0HEjCPg/pub?w=200&h=200" alt="An icon for a quiz. Some boxes with checkmarks and ‘X’s." style="margin: 0pt 10pt 10pt 0pt;float:left;"  /></div>
+
+Whereas *flowcharts* visually depict a process, *pseudocode* is more nuanced; it is a generic framework for writing an algorithm. It is agnostic of programming languages and contains fundamental structures that most languages have.
+
+For instance, Java (and most other languages) have the notion of loops, though there are a lot of differences in how loops are written from language to language. Consider the following two loops - the first from Java and the second in Python:
+
+```java
+  while (counter < 10) {
+    System.out.println("Hi");
+    counter++;
+}
+```
+```python
+  while counter < 10:
+    print("Hi")
+    i = i + 1
+```
+
+Despite the syntax, these loops accomplish the same thing. The important thing is that both could be represented a bit more abstractly:
+
+```java
+  WHILE counter less than 10
+    output the word "Hi"
+    increase counter by one
+  END WHILE
+```
+Note that in this example, Java has the code indented in the **while** loop (as it should be, but failure to indent does not affect performance). Python *requires* that the lines of code to be repeated are indented - that's how the compiler knows which lines of code are attached to the **while** loop).
+
+In pseudocode, you should not only indent the lines that will be repeated in the loop but *also* be sure to indicate when the loop ends (as in the example above).
+
+This quiz assesses your understanding the basic tenets of pseudocode.
+
+You need to score a 100% on the quiz to see the flowchart assignment.
+
+Don't worry! You can take the quiz as many times as you'd like (but keep in mind that if you take a quiz after the due date, it will not be automatically graded and you'll have to email me and let me know - so it's in your best interest to take the quizzes before the due date.
+
+</div>
+
+<div style="display:block;width:100%;clear:left;">
+
+# Specifications
+
+* This quiz is multiple choice.
+
+* You may take it as many times as you wish.
+
+* It is open book! 
+
+* You must score a 100% 
+
+</div>
