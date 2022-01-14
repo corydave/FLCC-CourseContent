@@ -1,4 +1,4 @@
-^^ CHAPTER 6 - Hardware && Operating Systems
+^^ CHAPTER 2 - Hardware && Operating Systems
 
 # Description
 <img style="float: right;" 
