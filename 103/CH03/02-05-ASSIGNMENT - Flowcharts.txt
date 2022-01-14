@@ -1,0 +1,27 @@
+^^ ASSIGNMENT - Flowcharts
+
+# Description
+
+Design a broad-stroke flowchart. For example, it could be a flowchart of how you operate in the morning. No, you may not do the same flowchart. Yes, you may include mention of Crocs in your flowchart 😊.
+
+<center><img src="https://docs.google.com/drawings/d/e/2PACX-1vTmyR1m7owHglP7qYZCd_QhGYjHID1dBqNR0_jThr0eeq1Tbu_vWkWdEgPpOCFc9fd_Lqcskb48OkTw/pub?w=611&amp;h=990" width="551" height="894" alt="Example of a flowchart" title="Example of a flowchart" /></center>
+
+# Specifications
+
+* This flowchart should have multiple subroutines (often called a "pre-defined process"). In this example, the pre-defined processes include "Make coffee", "Brush teeth", "Get changed", and "Drive to work". You do not need to also create the subroutines.
+
+* The flowchart should be complete. That is, it should accurately and completely represent the tasks it is designed to describe. There should not be any flow issues (for instance, a nonsensical path or incomplete path).
+
+* There *can* be multiple ending points (for instance, a decision in the flowchart might lead to two different outcomes as end states).
+
+* Your work should be cloud-based. Make sure the work is available to "anyone with the link can comment"). 
+
+* Please paste the link in the WRITE SUBMISSION portion of Blackboard, not the COMMENTS section.
+
+^= = =,,,
+
+**NOTE:** Be sure to check out the rubric for this assignment to make sure you address all relevant parts.
+
+^=
+
+<br /><br />
