@@ -1,0 +1,62 @@
+^^ ASSIGNMENT - Computational Thinking Problems
+
+# Description
+
+Your task for this assignment is to pick one difficult problem (or two easier problems) and develop a solution. Note that the solution you arrive at may not be the most optimal, but it solution should be a result of an iterative process. That is, you will almost certainly develop an initial solution but improve on it.
+
+Keep in mind the main tenets of *technical writing*. You should be concise, accurate, and clear. Historically, many submissions for this assignment check off the box for concise but are not written clearly and are not necessarily accurate. Be sure to have someone else read over your work to see if it makes sense to them.
+
+^= = 
+
+^= = = ,,,
+
+<center><b>EASY [Pick two]</b></center><br />
+
+* **Towers of Hanoi**
+* **Lockers**
+* **Sorting a deck of cards**
+* **Patterns**
+* **Jeff Kline Code**
+
+^=
+
+
+^===
+
+^= = = ,,,
+
+<center><b>HARD [Pick one]</b></center><br />
+
+* **Widget Durability**
+* **Dr. Frankenstein's Switch**
+* **Poisoned Bug Juice**
+
+<br />
+<br />
+
+^=
+
+^=
+
+
+
+# Specifications
+
+* You must include a clearly articulated reframing of the problem such that anyone reading your work can easily understand what the task is - this should be your explanation of the problem in your own words.
+
+* You must also have a log of how the problem was solved - a step-by-step guide so that the reader can appreciate the evolution of the solution.
+
+* Include a record of any mistakes that were made along the way, and the lessons learned from them.
+
+* Also include a debriefing that clarifies which computational thinking strategies you used (was it decomposed? Was a model made? Was there a pattern? Was there abstraction? Data analysis? Something else?)
+
+* This must be submitted as a cloud-based document and be shared such that *anyone with the link can comment*.
+
+^= = = ,,
+
+<span style="font-size:10pt;"><i>In the past, students have found that many of these problems are easier to solve using decomposition. For instance, with the Towers of Hanoi, try solving it with 1 disc. Then try solving it with 2 discs. Then try with 3 discs. See if you can find a pattern and then extrapolate it. Or for the Poisoned Bug Juice problem, try solving it with only 10 people instead of 1000. Then see if you can scale up.</i></span>
+
+^=
+
+<br />
+
