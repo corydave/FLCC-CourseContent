@@ -37,12 +37,9 @@ You'll need to have the following:
 ^= = ,
 
 ### Pieces to include
-You need to include the following artifacts in your portfolio:
-* Infographic
-* Twine game
-* HTML or CSS website
+You need to include the **Infographic** in your portfolio. You also need to have at least five other pieces from this class. That means you can include two pieces from other classes (or something you've done in the past) if you choose.
 
-You also need to include at least two other pieces from this class. So far, that's a grand total of *five* artifacts. Since you need *eight* artifacts, you get to choose what the last three are. Maybe you want to embed a Java program that you made in CS1. Maybe you have an essay from Technical Ethics that you're proud of. Perhaps you are a photographer and have some images to share.
+Maybe you want to embed a Java program that you made in CS1. Maybe you have an essay from Technical Ethics that you're proud of. Perhaps you are a photographer and have some images to share.
 
 The point is that **you** get to decide which pieces to include!
 
