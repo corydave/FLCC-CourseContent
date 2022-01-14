@@ -1,0 +1,56 @@
+^^ ASSIGNMENT - Infographic
+
+# What is an *infographic*?
+
+Regardless of your career in computing sciences, you'll need to be able to communicate succinctly and effectively. Technical writing is the term used to describe writing that clearly informs the reader in an approachable way. Some examples of technical writing you are likely to encounter in this sector include:
+
+* Instruction manuals
+* "Quick Start" illustrations
+* Standard Operating Procedures (SOPs)
+* Service Level Agreements (SLAs)
+* Troubleshooting steps
+* Request for Proposals (RFPs)
+
+Great technical writing is an art; learning how to distill critical information into tiny, digestible pieces is not easy. But it can be done well.
+
+# Intent of assignment
+
+The intent of this assignment is three-fold:
+
+1. Research an influential topic or person in computer science
+2. Create a technical writing document (in this case, an infographic) that succinctly conveys information to the reader and is built from reliable sources
+3. Familiarize yourself with infographic software
+
+# Tools you might like
+I have intentionally omitted tutorials for making infographics; one of the lessons in this assignment is exploration. Throughout your career, you will inevitably be tasked with learning new software. Now is a perfect time to learn how to become comfortable with probing, telescoping, and experimenting. Naturally, YouTube has plenty of video tutorials that you can use (and you'll most likely be able to extract ideas for infographics from these videos, too) and some sites like Canva also have tutorials. You may use any infographic tool you want, but I recommend (in ranked order):
+
+* [Canva](https://www.canva.com/create/infographics/)
+* [Infogram](https://infogram.com/templates#infographics)
+* [Piktochart](https://piktochart.com/)
+* [Venngage](https://venngage.com/)
+
+# Ideas for topics
+Your topic should be something pivotal or transformative in computing sciences or a contributor to the field. For instance, students in the past have picked topics such as Grace Hopper, the transistor, quantum computing, Tim Berners-Lee, fiber optics, 5G, and Wolfenstein. Please explore a topic or person that interests you, but make sure your choice is defendable as transformational. For instance, an infogram on Halo (while cool!) doesn't necessarily explore a groundbreaking achievement. Wolfenstein, however, does, since it was one of the first 3D FPS games that pushed current technology to the limit and paved a path for future games.
+
+Although you don't need to find a topic or person from these sites, you might find that the [Computer History Museum](https://www.computerhistory.org/timeline/computers/) and this [list of pioneers in computer science](https://en.wikipedia.org/wiki/List_of_pioneers_in_computer_science) might offer good ideas. 
+
+Note that there is a rubric for this assignment that you can visit before submitting your work. You can also see sweet examples of student submission below.
+
+# Citations
+Some students in the past have made their facts or quotes hyperlinks that jump to the actual source. That's not awesome because it doesn't work well in cases where the document gets printed out. In the Raspberry Pi example below, Jordan put superscript numbers next to facts and quotes and then listed all the sources as footnotes. The footnotes were also hyperlinks! In this case, the document works well as an electronic document because the hyperlinks take the reader directly to the source. If the document gets printed out, then readers can still find the facts through the URLs. This is what you should strive for!
+
+# Submission
+You may submit your work as a PDF or a link to the document. If you elect to submit a link, please make sure you test the link in Incognito mode (if you cannot access your work in Incognito mode, I won't be able to see it either). Also make sure you put the link in the "Write Submission" portion of Blackboard, not the "Comments" section.
+
+# Need help?
+If you get stuck at any point on this assignment, you should email me! Even if you just want to bounce ideas off me or see if your topic makes sense.
+
+Check out the following submissions from previous students for ideas!
+
+<center>
+
+<iframe width="100%" height="350px" src="https://docs.google.com/drawings/d/1ivTxTXLZcuUEKb5JF8_RpBLwWrOW4U1IwRyN_vpp7GM/preview" frameborder="0"></iframe>
+
+<span style="font-size: 10pt;"><i>Thumbnails of student work</i></span>
+
+</center>
