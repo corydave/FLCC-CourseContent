@@ -3,6 +3,6 @@
 # Experiences
 
 * PRESENTATION History of Computers
-* ASSIGNMENT - Infographic
+* **ASSIGNMENT - Infographic**
 * READING - Technical Writing
-* ASSIGNMENT - Instructions
+* **ASSIGNMENT - Instructions**
