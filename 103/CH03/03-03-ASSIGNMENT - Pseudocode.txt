@@ -1,4 +1,4 @@
-^^ ASSIGNMENT - ASSIGNMENT - Pseudocode
+^^ ASSIGNMENT - Pseudocode
 
 # Description
 
@@ -31,3 +31,5 @@ The reserved words are:
 **NOTE:** Be sure to check out the rubric for this assignment to make sure you address all relevant parts.
 
 ^=
+
+<br /><br />
