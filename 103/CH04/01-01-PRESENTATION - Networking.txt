@@ -1,0 +1,11 @@
+^^ PRESENTATION - Networking
+
+# Presentation
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/hlJZWGWolkA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center><br />
+
+[Link to Google Slides](https://docs.google.com/presentation/d/1RBu6gNpM9FJ_RdXLdUd88NGD0vB2R0ff8F6k31cDQ40/edit)
+
+</center><br />
