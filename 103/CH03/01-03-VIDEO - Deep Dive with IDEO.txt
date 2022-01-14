@@ -1,0 +1,7 @@
+^^ VIDEO - Deep Dive with IDEO
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/2Dtrkrz0yoU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center><br /><br />
+
+If you like this video, you should totally [check out other projects IDEO has worked on](https://www.ideo.com/work/products).</center>
