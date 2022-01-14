@@ -1,0 +1,43 @@
+^^ VIDEOS - More on Bases
+
+# Quick instructional videos
+
+^= =
+
+## Base Conversion
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/TDK-9y7luWM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+^===
+
+## Error Correction
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/Ksn0-r1g1YQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+^=
+
+<br /><br />
+
+# Practical Uses
+
+^= =
+
+## SOLUTION to the Impossible Chessboard Puzzle
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/ZtfhkH9H0V8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+^===
+
+## How to send a self-correcting message
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/X8jsijhllIA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+^=
+
+<br /><br />
+
+# Hexidecimal in Hollywood
+
+## The Martian Hexadecimal Scene
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/k-GH3mbvUro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
