@@ -2,9 +2,16 @@
 
 # Description
 
+<div style="float:left;"><a href="https://docs.google.com/document/d/1Ve9DpK_gPSJ-7orGe0fKyYXyeQOvSkCcb8b5p_q1QO8/copy" target="_blank"><img src="https://docs.google.com/drawings/d/e/2PACX-1vRUZfPZc2cgnb0WR3XrhbET-pQb4032n7DnTdsgfT6R2egt-p4g12iusu8UJeZZ7r0-U9PNRyKd1GPr/pub?w=200&h=280" alt="A thumbnail of the Computational Thinking Problems." style="margin: 0pt 10pt 10pt 0pt;float:left;"  /></a></div>
+
 Your task for this assignment is to pick one difficult problem (or two easier problems) and develop a solution. Note that the solution you arrive at may not be the most optimal, but it solution should be a result of an iterative process. That is, you will almost certainly develop an initial solution but improve on it.
 
 Keep in mind the main tenets of *technical writing*. You should be concise, accurate, and clear. Historically, many submissions for this assignment check off the box for concise but are not written clearly and are not necessarily accurate. Be sure to have someone else read over your work to see if it makes sense to them.
+
+You can get a [copy of the Problem Set here](https://docs.google.com/document/d/1Ve9DpK_gPSJ-7orGe0fKyYXyeQOvSkCcb8b5p_q1QO8/copy).
+
+<div style="display:block;width:100%;clear:left;">
+
 
 ^= = 
 
@@ -38,7 +45,9 @@ Keep in mind the main tenets of *technical writing*. You should be concise, accu
 
 ^=
 
+</div>
 
+<br />
 
 # Specifications
 
