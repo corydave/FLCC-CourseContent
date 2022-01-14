@@ -8,28 +8,28 @@ Keep in mind the main tenets of *technical writing*. You should be concise, accu
 
 ^= = 
 
-^= = = ,,,
+^= = = ,
 
 <center><b>EASY [Pick two]</b></center><br />
 
-* **Towers of Hanoi**
-* **Lockers**
-* **Sorting a deck of cards**
-* **Patterns**
-* **Jeff Kline Code**
+* Towers of Hanoi
+* Lockers
+* Sorting a deck of cards
+* Patterns
+* Jeff Kline Code
 
 ^=
 
 
 ^===
 
-^= = = ,,,
+^= = = ,
 
 <center><b>HARD [Pick one]</b></center><br />
 
-* **Widget Durability**
-* **Dr. Frankenstein's Switch**
-* **Poisoned Bug Juice**
+* Widget Durability
+* Dr. Frankenstein's Switch
+* Poisoned Bug Juice
 
 <br />
 <br />
