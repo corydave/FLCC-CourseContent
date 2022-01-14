@@ -1,0 +1,64 @@
+^^ ASSIGNMENT - Router Configuration
+
+# Description
+
+<div style="float:left;"><a href="https://script.google.com/macros/s/AKfycbzsEInBoW_FTa-Mg8q9MG0ft4_BCVdDECR_F_AIbgNEfoPwWMw17RdrKr_G9Xp32mShdw/exec?name=@X@user.full_name@X@&course=@X@course.id@X@
+" target="_blank"><img src="https://docs.google.com/drawings/d/e/2PACX-1vSiBmieUmU8wVIbYkveCLLAyiKtmJeSIL-p094vRO4U9lUg7QL4-e3BciRxxOsh-VSH2Fjgx7uyq7dG/pub?w=200&h=280" alt="A thumbnail of the Router Configuration assignment." style="margin: 0pt 10pt 10pt 0pt;float:left;"  /></a></div>
+
+Your home router is a workhorse. It brokers data 24/7, every day of the year. And it's more than just a router. It's a very sophisticated piece of equipment.
+
+Modern routers are even more intelligent (mesh routers, IoT devices, etc.). But here's the catch - there's probably a lot of configurations you can make to your router to make it more secure and private (in fact, in CSC-270, Principles of Information Security, we'll dive even deeper than we will today although you can [get a sneak peek at hardening your router](https://docs.google.com/document/d/1fph2WKP7Cr-UcVP7NYtVzNRstiCBXUexD7FKS2yr810/preview)).
+
+You can always connect to your router (in the early, dark days of the internet, we actually had to plug our computer into the router to configure it) by going to the IP address of your router. Usually it's something like ```192.168.1.1``` or something similar. Heck, many modern routers even have an app for your phone!
+
+For this assignment, you will be going to a website that *looks* like a router configuration page, but isn’t (so if you screw something up, it won’t affect the network you are on).
+
+Your job is to poke around through the different tabs and make the following changes. 
+
+If you want a soft copy of the instructions, [click here to get your very own](https://docs.google.com/document/d/1WUzgn0pPqGyJdZsOnuxdt9U5i3sDSpwJAY__4ijzy6k/copy)!
+
+<br /><center>
+
+Regardless, you can find the **[online router simulator here](https://script.google.com/macros/s/AKfycbzsEInBoW_FTa-Mg8q9MG0ft4_BCVdDECR_F_AIbgNEfoPwWMw17RdrKr_G9Xp32mShdw/exec?name=@X@user.full_name@X@&course=@X@course.id@X@
+)!**
+
+</center><br />
+
+
+	
+
+<div style="display:block;width:100%;clear:left;">
+
+# Specifications
+
+* **Log in to the router**. The username is ```admin``` and the password is also ```admin``` (that's actually really insecure - but you probably knew that).
+
+* **Change the router name**. The default name doesn’t mean much to most people. Change it to something more meaningful - ***name it after yourself*** (this is how you will get a grade attached to your work)!
+
+* **Change the DNS servers**. The default DNS servers are run by the ISP, and that’s no good! Use the two servers: **```1.1.1.1```** and **```9.9.9.9```**
+
+* **Update the firmware**! The router may already be updated, but you’ll have to check to make sure. You should also *change the update mechanism to automatic* if it isn't already configured that way.
+
+* **Change the password**! Right now, the default password of ‘```admin```’ is not secure! Change it to something more secure. But for the scope of this assignment, ***do not use any of your personal passwords***! Make up a new one. You will not be assessed on the strength of the password - you’ll only be assessed if you change it. But on your router at home, use a real solid password.
+
+* **Change both SSID names**. This router has two different networks (a 2.4 and a 5.0). Change both names to something meaningful. The SSID is what your friends will see when they log on to your WiFi.
+
+* **Change both SSID passwords**. Again, for this simulation, don’t use any password that is your personal one.
+
+* **Disable UPnP**. This "Universal Plug and Play" feature was needed a while go so devices on your network could open up any port they wanted to. That's, uh, not good. Early iterations of the Xbox *required* that you have UPnP turned on! Shame on you, Microsoft!
+
+* **Disable remote login**. Look for the option that says “Prohibit configuration from Internet Management Port...”. If your router is configured to allow remote login, bad actors can get into your router and your home network. This is bad for a number of reasons! Bad actors could be using your devices as bots for attacks. They could be stealing your bandwidth. They could be using your smart home devices, too!
+
+</div>
+
+^===,,,
+
+<br />
+
+**NOTE:** When you save the router settings, the lab is submitted automatically; no need to actually submit anything.
+
+<br />
+
+^=
+
+<br /><br />
