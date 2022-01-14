@@ -1,0 +1,50 @@
+^^ ASSIGNMENT - Library Research Tutorial
+
+# Description
+
+<div style="display:block;width:100%;">
+
+The Library is housed at the Canandaigua campus. It has three floors, though you can only access the library on the second floor. The staff and faculty in the library are super helpful and will help you with any question you have and will assist you with any research project.
+
+The Library website has a tutorial for students who are getting started with research. You can expect to do some research while you are at FLCC, and the Library is there to help you. Take the online tutorial - if you pass the quiz at the end, you'll get a certificate. Submit that here.
+
+Note that you can take other tutorials online, too, and get cleared to use some of the sweet toys at the library (like the 3D Printer). Note that you must include a PDF or screenshot of your CERTIFICATE, not the email that will be sent to you. It looks like this:
+
+<center><img src="https://docs.google.com/drawings/d/e/2PACX-1vQNPgZhx_ukqS0r9TNmE0wQLrEo82HQtmCUMvuQhk3eDlYUyYJP90oaMOQgvWwQDqIDMBDDHIwq9d6Q/pub?w=952&amp;h=480" alt="Screenshot of Bart Simpson's Library Certificate of Completion" height="480" width="951" /></center>
+
+There are a few different ways to take a screenshot on a computer, and it varies across operating systems:
+
+* On a PC, press WINDOWS KEY + SHIFT + S
+
+* On a Mac, press SHIFT + COMMAND + 3
+
+* On a Chromebook, press SHIFT + CONTROL + SHOW WINDOWS
+
+</div>
+<div style="display:block;width:100%;clear:left;">
+
+^= = = ,
+
+**NOTE:** You're going to have to submit this file twice! I will give you a zero the first time you submit. Not because you did a lousy job. Not because I'm a jerk. Not because I don't have faith in your work. But because there is a valuable skill here - *how to resubmit in Blackboard*. There is this wonky behavior in Blackboard where if you are in the grade book and you click on an assignment, you can't see the "Start Submission" button. Instead, you have to go through all the folders and find where you submitted the assignment the first time. *Then* you'll see that button. Here's a [quick video](https://www.youtube.com/watch?v=8w-u3XV1ge0).
+
+^=
+
+<br /><br />
+
+^= =
+
+# Specifications
+
+* Submit a screenshot for this assignment that shows your name and your grade.
+
+* You do not need to get a 100% on this tutorial, but you should have a grade above 65%.
+
+* You do not have to link the FLCC library to Google Scholar, but it's cool to do so!
+
+^===
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/Y8qtz-lzZ0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+^=
+
+</div>
