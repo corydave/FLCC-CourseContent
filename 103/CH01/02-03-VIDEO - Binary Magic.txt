@@ -1,0 +1,5 @@
+^^ VIDEO - Binary Magic
+
+After watching the presentation on number systems, hopefully this magic trick will make a bit more sense 😬🥳🎉:
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/NRlhEr5Beto" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe>
