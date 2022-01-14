@@ -10,4 +10,4 @@
 
 * **ASSIGNMENT - Shopping Cart Redesign**
 
-* **ASSIGNMENT - Computational Thinking Problems
+* **ASSIGNMENT - Computational Thinking Problems**
