@@ -36,3 +36,25 @@ When you are done, you should submit a link to a cloud-based document (such as G
 * Please put the link in the "Write Submission" portion of the assignment, not the "Comments" section.
 
 </div>
+
+<hr />
+
+# Further Exploration
+
+If you are interested in learning a bit more about Linux and file structures, check out these two videos.
+
+^= =
+
+## Linux Directories Explained in 100 Seconds
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/42iQKuQodW4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+^===
+
+## Linux Directories Explained in 1233 Seconds
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/A3G-3hp88mo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+^=
+
+asdf
