@@ -5,7 +5,7 @@
 <div style="display:block;width:100%;">
 <div style="float:left;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vTSZ-juIZZ3w4xS9zq89XGqn5PyF25UFt2iAWPVvE0ocMa47khHmzj55dzCTzweOYVCG6UBiKxH6Wyb/pub?w=200&h=200" alt="A chat bubble indicating conversation or discussion." style="margin: 0pt 10pt 10pt 0pt;float:left;"  /></div>
 
-Time to share what you are working with! 
+Time to share your hardware with us! 
 
 The intent of this discussion is to share your computer hardware. Maybe you have a laptop. Maybe you have a sick gaming computer. Maybe you have a mining rig. Me, I mostly use a Chromebook. But whatever you use, share it with us! Be sure to include specs:
 
