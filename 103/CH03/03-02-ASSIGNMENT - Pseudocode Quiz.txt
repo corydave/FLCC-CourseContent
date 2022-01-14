@@ -51,6 +51,8 @@ Don't worry! You can take the quiz as many times as you'd like (but keep in mind
 
 * It is open book! 
 
-* You must score a 100% 
+* You must score a 100%.
+
+* Note that if you take this quiz after the due date, it will not be graded automatically and you will not have access to the Pseudocode assignment.  You will have to email me to let me know you took the quiz so I can grade it.
 
 </div>
