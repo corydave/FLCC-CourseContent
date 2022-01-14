@@ -1,0 +1,13 @@
+^^ DISCUSSION - Magic Trick! How is it done?
+
+# Check out this magic trick
+
+<center><iframe width="320" height="240" style="border-collapse: collapse; width: 80%; height: 600px;" src="https://dghidiu.csc.flcc.edu/binary/BinaryChooseANumber.html" frameborder="0"></iframe>
+
+<a href="http://dghidiu.csc.flcc.edu/binary/BinaryChooseANumber.html" target="_blank" rel="noopener">If you can't see the trick, click here.</a></center><br />
+
+# Your thoughts
+
+Try this once or twice. Did it work? Could the website guess your number? How do you think this works? The only requirement for this Discussion is that you interact at least once (that is, you could make an original post or you could reply to someone else's post). 
+
+Please don't say "process of elimination" - that ain't it 😁.
