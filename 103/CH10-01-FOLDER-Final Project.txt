@@ -1,0 +1,13 @@
+^^ FINAL PROJECT
+
+# Portfolio
+
+<div style="display:block;width:100%;">
+<div style="float:left;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vS-oH74VEkMDh_cvzv4k9sAHfN1cI1Q819-ioYd18jgRUl80GduBrvNV8SSr3KEcTuvSXD7kYCd1qpD/pub?w=200&h=200" alt="An icon for a portfolio. It looks to be a leather portfolio and intimates a lot of professionalism." style="margin: 0pt 10pt 10pt 0pt;float:left;"  /></div>
+
+For your final project, you'll be finalizing your portfolio! You'll start the project in the Web Authoring unit, and by the end of the semester you'll have several pieces of work that you can insert into this portfolio.
+
+One thing that makes this portfolio so potent is that you will be adding a reflection for each piece that you choose to showcase. The details are included in the description of the assignment, but you might want to start thinking about how your reflections can show growth and understanding through the semester.
+
+
+</div>
