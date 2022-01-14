@@ -1,0 +1,11 @@
+^^ PRESENTATION - Operating Systems
+
+# Presentation
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/yNOFIsbGcZs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center><br />
+
+[Link to Google Slides](https://docs.google.com/presentation/d/1XRbn4bkkjMHNv0mkN42-FwTIlcVA--GI3_G_P9F5he8/edit)
+
+</center><br />
