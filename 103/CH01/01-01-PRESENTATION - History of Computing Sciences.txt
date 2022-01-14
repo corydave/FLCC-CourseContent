@@ -1,0 +1,11 @@
+^^ PRESENTATION - History of Computing Sciences
+
+# Presentation
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/sCmPO-m1zm0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center><br />
+
+[Link to Google Slides](https://docs.google.com/presentation/d/1uG2_nA7Qc0H74kD6PDSiDOOr78h_mclijT40PJ4L9tw/edit)
+
+</center><br />
