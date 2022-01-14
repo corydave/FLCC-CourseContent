@@ -2,8 +2,7 @@
 
 # Description
 
-<div style="float:left;"><a href="https://script.google.com/macros/s/AKfycbzsEInBoW_FTa-Mg8q9MG0ft4_BCVdDECR_F_AIbgNEfoPwWMw17RdrKr_G9Xp32mShdw/exec?name=@X@user.full_name@X@&course=@X@course.id@X@
-" target="_blank"><img src="https://docs.google.com/drawings/d/e/2PACX-1vSiBmieUmU8wVIbYkveCLLAyiKtmJeSIL-p094vRO4U9lUg7QL4-e3BciRxxOsh-VSH2Fjgx7uyq7dG/pub?w=200&h=280" alt="A thumbnail of the Router Configuration assignment." style="margin: 0pt 10pt 10pt 0pt;float:left;"  /></a></div>
+<div style="float:left;"><a href="https://script.google.com/macros/s/AKfycbzsEInBoW_FTa-Mg8q9MG0ft4_BCVdDECR_F_AIbgNEfoPwWMw17RdrKr_G9Xp32mShdw/exec?name=@X@user.full_name@X@&course=@X@course.id@X@" target="_blank"><img src="https://docs.google.com/drawings/d/e/2PACX-1vSiBmieUmU8wVIbYkveCLLAyiKtmJeSIL-p094vRO4U9lUg7QL4-e3BciRxxOsh-VSH2Fjgx7uyq7dG/pub?w=200&h=280" alt="A thumbnail of the Router Configuration assignment." style="margin: 0pt 10pt 10pt 0pt;float:left;"  /></a></div>
 
 Your home router is a workhorse. It brokers data 24/7, every day of the year. And it's more than just a router. It's a very sophisticated piece of equipment.
 
@@ -20,7 +19,7 @@ If you want a soft copy of the instructions, [click here to get your very own](h
 <br /><center>
 
 Regardless, you can find the **[online router simulator here](https://script.google.com/macros/s/AKfycbzsEInBoW_FTa-Mg8q9MG0ft4_BCVdDECR_F_AIbgNEfoPwWMw17RdrKr_G9Xp32mShdw/exec?name=@X@user.full_name@X@&course=@X@course.id@X@
-)!**
+)** or scroll down to the bottom of this page.
 
 </center><br />
 
@@ -49,7 +48,7 @@ Regardless, you can find the **[online router simulator here](https://script.goo
 
 * **Disable remote login**. Look for the option that says “Prohibit configuration from Internet Management Port...”. If your router is configured to allow remote login, bad actors can get into your router and your home network. This is bad for a number of reasons! Bad actors could be using your devices as bots for attacks. They could be stealing your bandwidth. They could be using your smart home devices, too!
 
-^===,,,
+^= = =,,,
 
 <br />
 
@@ -60,6 +59,12 @@ Regardless, you can find the **[online router simulator here](https://script.goo
 ^=
 
 <br /><br />
+
+<center>
+<iframe src="https://script.google.com/macros/s/AKfycbzsEInBoW_FTa-Mg8q9MG0ft4_BCVdDECR_F_AIbgNEfoPwWMw17RdrKr_G9Xp32mShdw/exec?name=@X@user.full_name@X@&course=@X@course.id@X@" width="95%" height="1200px">...Loading...</iframe>
+</center>
+
+
 
 
 </div>
