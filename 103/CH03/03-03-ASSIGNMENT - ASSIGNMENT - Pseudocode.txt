@@ -1,0 +1,33 @@
+^^ ASSIGNMENT - ASSIGNMENT - Pseudocode
+
+# Description
+
+Choose a daily task (like making espresso or putting gas in a car) and write a pseudocode solution. The end result should be such that anyone should be able to look at the pseudocode and understand your instructions. 
+
+Remember that pseudocode is similar to an outline of a paper - it's a draft of your thoughts. It should be logically complete (that is, the algorithm should be sound), and you should make use of indenting and each of the reserved words.
+
+The reserved words are:
+
+* **START**
+* **READ (or INPUT)**
+* **PRINT (or OUTPUT)**
+* **IF**
+* **ELSE**
+* **WHILE**
+* **END**
+
+# Specifications
+
+* You ***must*** use all the reserved words in this assignment.
+
+* Please make sure your pseudocode is formatted appropriately - this includes indenting and **END** statements for loops and **IF** statements.
+
+* Your work should be cloud-based. Make sure the work is available to "anyone with the link can comment"). 
+
+* Please paste the link in the WRITE SUBMISSION portion of Blackboard, not the COMMENTS section.
+
+^= = =,,,
+
+**NOTE:** Be sure to check out the rubric for this assignment to make sure you address all relevant parts.
+
+^=
