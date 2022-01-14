@@ -1,0 +1,13 @@
+^^ ASSIGNMENT - Windows 7 & 10 Tips
+
+# Presentation
+
+The [YouTube video about Windows 7 & 10 Tips](https://www.youtube.com/watch?v=ddSBflmFZq4) demonstrates some useful features that may help you navigate the operating system and increase your productivity. Watch the video and then answer the 12 questions. You may find it useful to answer the questions as you are watching the video - the time stamp of where the tip is covered is included in each question.
+
+You may take this quiz as many times as you'd like.
+
+<br />
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/ddSBflmFZq4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br /><center><span style="font-size: 10pt;"><i>To access the version with timestamps, <a href="https://www.youtube.com/watch?v=ddSBflmFZq4" target="_blank">click here.</a></i></span></center>
