@@ -1,0 +1,36 @@
+^^ DISCUSSION - Shopping Cart Deficiencies
+
+# Description
+
+<div style="display:block;width:100%;">
+<div style="float:left;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vTSZ-juIZZ3w4xS9zq89XGqn5PyF25UFt2iAWPVvE0ocMa47khHmzj55dzCTzweOYVCG6UBiKxH6Wyb/pub?w=200&h=200" alt="A chat bubble indicating conversation or discussion." style="margin: 0pt 10pt 10pt 0pt;float:left;"  /></div>
+
+Shopping carts have been around for almost 100 years yet there have been very little changes to the original design. Some improvements have been made (like having anti-bacterial coating on them), but in general the overall look and feel of the shopping cart hasn't changed.
+
+Surely there are issues that can be identified in the current iteration of the shopping cart. Wobbly wheels, proclivity to tipping, and inability to move laterally are some of the many issues we've probably all experienced.
+
+You must post a problem that plagues shopping carts. **Make sure you read other posts first so you don't post a duplicate thought**. You must then comment on at least two other posts, presenting a workable solution to the problem presented in each post. Don't worry about how off-the-wall-wacky your solution is - this is a brainstorming session. Naturally, hyper-impractical ideas like "laser beams to shoot shoppers that get in my way" are not productive, so avoid them.
+
+Issues raised during this discussion will inform your Shopping Cart Redesign assignment.
+
+<br />
+
+^= = = ,,
+
+**NOTE:** This is due *before* the work in the rest of the chapter; that is because this conversation should help you ponder solutions to redesigning the shopping cart.
+
+^=
+
+<br />
+
+</div>
+
+<div style="display:block;width:100%;clear:left;">
+
+# Specifications
+
+* In this Discussion Forum, you need to make at least ONE ***novel*** post that does not replicate an existing post.
+
+* You must reply to TWO other posts with fairly practical solutions.
+
+</div>
