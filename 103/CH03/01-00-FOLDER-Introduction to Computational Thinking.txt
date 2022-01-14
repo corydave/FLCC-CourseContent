@@ -1,0 +1,13 @@
+^^ Introduction to Computational Thinking
+
+# Experiences
+
+* PRESENTATION - Introduction to Computational Thinking
+
+* **DISCUSSION - Shopping Cart Deficiencies**
+
+* VIDEO - Deep Dive [Watch after posting in discussion]
+
+* **ASSIGNMENT - Shopping Cart Redesign**
+
+* **ASSIGNMENT - Computational Thinking Problems
