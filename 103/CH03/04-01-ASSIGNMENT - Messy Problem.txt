@@ -1,0 +1,53 @@
+^^ ASSIGNMENT - Computational Thinking Problems
+
+# Description
+
+<div style="float:left;"><a href="https://docs.google.com/document/d/1BGsUEwH9AbzpFRObM2IqjayRXBmf5RPwe2ZTB31RO08/copy" target="_blank"><img src="https://docs.google.com/drawings/d/e/2PACX-1vTb3u8hjoZWScdsT9n1KfIMziDY0l-DXx4tziVuSLAU6AcJEDKg2WWl99O7cKevRShARrXJxnyEHxFX/pub?w=200&h=280" alt="A thumbnail of the Computational Thinking Problems." style="margin: 0pt 10pt 10pt 0pt;float:left;" /></a></div>
+
+These problems are multi-step, messy problems (a messy problem is one that is abstract, requires a lot of steps and some conversions, and probably has more than one "right" answer).
+
+You will be assigned ONE of these problems. Research it as much as you can and then present an answer. There are a few problems that may require you to be on campus (most of them can be researched from anywhere - even problems that seem like you need to be on campus). If you find you are stymied by the remoteness of your problem, email me 😁.
+
+Please read the entire assignment carefully - there are examples of a good submission and a not-so-good submission at the end of the assignment. Those examples should help inform your solution.
+
+This assignment is graded on your solution (your pathway, your journey), not the final answer. As such, one of the vital ingredients in this process is developing an algorithm - a procedure - that helps you solve the problem. ***So make sure to include a flowchart!***
+
+If you have any questions along the way, please email me!
+
+
+
+You can get a [copy of the Problem Set here](https://docs.google.com/document/d/1BGsUEwH9AbzpFRObM2IqjayRXBmf5RPwe2ZTB31RO08/copy).
+
+
+
+<br />
+
+<div style="display:block;width:100%;clear:left;">
+
+# Specifications
+
+* This is a complex assignment; it is an attestation to the knowledge you've acquired in this chapter. As such, the effort and awesomeness of this assignment should be of the highest standard.
+
+* Similar to the *Computational Thinking Problems*, you should present a log, a journey, of the path that took you to your solution.
+
+* Don't worry if your answer is right; just be concerned if your answer *seems* like it might be right. For instance, there is a question about the number of blades of grass at CMAC. I've had students submit radically different answers (like, off by billions from each other), yet their *processes* were sound and made sense. Each of those students with solid solutions received perfect scores.
+
+* Include a flowchart.
+
+* The final presentation should be something you are proud of.
+
+* The final presentation should also be something that I can hand to a twelve year old kid and they can follow your logic and your solution.
+
+* Any information you research should be cited. Hyperlinks are fine.
+
+* This must be submitted as a cloud-based document and be shared such that *anyone with the link can comment*.
+
+^= = =,,,
+
+**NOTE:** Be sure to check out the rubric for this assignment to make sure you address all relevant parts.
+
+^=
+
+<br /><br />
+
+</div>
