@@ -1,0 +1,39 @@
+^^ ASSIGNMENT - Technical Writing Instruction Set
+
+^= =
+
+# Description
+
+Your task is to author a document in a technical writing style. Specifically, you'll be creating an instruction set (How-To Guide) for a mundane task. For instance, this video is a comical exploration into the pitfalls of poor technical writing (in this case, making a peanut butter and jelly sandwich).
+
+You'll be asked to pick a topic and describe it in excruciating detail. The challenge lies in distilling the details into coherent, concise steps.
+
+^===
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/Ct-lOOUqmyY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+^=
+
+# Things to keep in mind
+
+1. Consider your audience when you are writing. Will they have any knowledge of what you are writing about? The safest bet is to assume they won't have any relevant prior background knowledge.
+
+2. Example topics: How to make spaghetti, how to play Mario Kart, how to use a lawn mower, how to play a clarinet...
+
+3. Technical writing language is short and uncomplicated, clear and concise. Remember to be task oriented and use active verbs, and create something that's easily visually scannable.
+
+# Specifications
+
+* One page maximum
+
+* Single spaced
+
+* 12 point font size
+
+* Use any font face you choose
+
+* Include at least one bulleted or numbered list
+
+* Set page margins to be 0.5 on all four sides
+
+* Make sensible use of formatting such as bold, underlining, and text color
