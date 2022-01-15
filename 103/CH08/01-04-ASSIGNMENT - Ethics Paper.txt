@@ -1,0 +1,56 @@
+^^ ASSIGNMENT - Ethics Paper
+
+<div style="width:70%;padding:20px;margin-left:auto;margin-right:auto;font-family:Times New Roman, serif;font-size:24pt;"><center>
+"Your [computer] scientists were so preoccupied with whether or not they could, they didn’t stop to think if they should."</center>
+</div>
+
+<center>
+
+**- Dr. Ian Malcolm -**
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vTSoZzlp6kaSktxFJvUPUkFt6xeDEDl70W92Pp2Fy6XCd_ZcU7g8hlF9cWEmAb7B7VTy7S1kqefoOT6/pub?w=200&amp;h=200" width="200" height="200" alt="A head shot of Dr. Ian Malcolm, famed chaotician" title="A head shot of Dr. Ian Malcolm, famed chaotician" style="border: 0px; cursor: default; margin: 0px; padding: 0px; outline: 0px; font-weight: inherit; font-style: inherit; font-family: inherit; font-size: 13px; vertical-align: middle; max-width: 100%; height: auto;" /><br /><span style="font-size:8pt;"><i>CC-BY-SA Georges Biard, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Jeff_Goldblum_Deauville_2017.jpg)</i></span>
+</center>
+
+# Description
+
+As technology grows at an astoundingly exponential rate, society is more capable today than ever before to produce incredible products and services. But we are at a crossroads - the limiting factor is no longer what does technology allow us to do, rather what are the ethical consequences to what we can do. There are examples everywhere that mirror this sentiment:
+
+* Do companies such as Apple have an obligation to society or law enforcement to open devices of criminals?
+
+* Companies (Uber and Yahoo, for example) have had data breaches that exposed client information to hackers. Do these companies have an obligation to inform the users? What about trying to cover the data breaches up (as Uber did)?
+
+* Self driving cars are rapidly becoming a reality. But there are a lot of concerns about these cars. One dilemma is a perversion of the Trolley Problem. If a car needs to decide between striking a pedestrian in a crosswalk or running into a concrete abutment, how is that decision made? What if the car owner pays more for "preferred treatment"?
+
+* Some jobs are in danger of being lost because of automation. Self driving cars may displace taxi drivers and truck drivers. Self checkout lanes at grocery stores minimize the amount of front-end employees. Does this mean that we shouldn't pursue advances in automation? What if we can eliminate danger (like using robots to mine coal)?
+
+* Progress in Artificial Intelligence is at an all-time high. But is there a danger in this? Can we lean too much on information gleaned from AI? Is there a problem with approaching sentient beings? Isaac Asminov created the "Three Laws of Robotics". Is this enough? What are other concerns about AI?
+
+* Unmanned drones (and other vehicles) are commonplace in defense (they can deploy weapons, perform reconnaissance, etc.). They take the human risk out of combat, but risk distancing the operator from humane decisions. Should there be limits on this type of technology, or is this acceptable in war? Russia has announced that they will not abide by any UN ban on LAWS (Lethal Autonomous Weapon System) - so this is worth a serious discussion.
+
+* Fake news is a hot topic - it potentially affected our national election. Services such as Google, Twitter, and Facebook are being blamed for the spread of misinformation. As platforms for content exchange, not content creation, are they liable for this? If so, what makes these organizations more liable than a personal blog? Why are they held to a higher standard?
+
+* Google Assistant and Amazon's Alexa are examples of digital assistants that are "always listening". Do they have an obligation to report crimes they witness in a household?
+
+The above examples are some of the many debates we are having. You can choose from this list - or introduce your own ethical dilemma. Once you define your topic, you should research the topic and write a paper.
+
+# Specifications
+
+* Your paper should be at least two pages long.
+
+* Use 12 point Times New Roman.
+
+* Use 1.5 line spacing.
+
+* Real-life examples should be used, if possible.
+
+* Citations can be hyperlinks if you'd like, but feel free to use APA or MLA if you prefer.
+
+* Your paper should carefully consider the pros and cons.
+
+* Your position needs to be clearly reasoned and presented.
+
+* Submit a link to a cloud-based document such as Google Docs.
+
+* Verify that the document is shared such that anyone with the link can comment.
+
+* Please put the link in the "Write Submission" portion of the assignment, not the "Comments" section.
