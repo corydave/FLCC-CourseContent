@@ -1,0 +1,21 @@
+^^ ASSIGNMENT - Connect with me in LinkedIn
+
+LinkedIn is the best website for networking in the professional realm. It is one of the best places to follow thought leaders in your industry, make connections with others, and get leads on jobs. You have to create an account in LinkedIn. Create a profile! 
+
+You'll get credit for this assignment by CONNECTING with me. There are a few different ways you can have a relationship in LinkedIn. A "Connection" is like a "Friend Request" in Facebook. That's what we're going for here. Don't get confused and "FOLLOW" me instead. You can find my profile here:
+
+<center><b>
+
+https://www.linkedin.com/in/daveghidiu/
+
+</center></b>
+
+It's important to maintain a LinkedIn presence, even if you aren't looking for jobs now. The longer you have an account (and are active), the more of a history you will have and the more connections you will have. This makes landing job interviews easier in the future!
+
+When you send a **connection** request, all you have to do is submit "I connected with you" in this assignment.
+
+# Specifications
+
+* Make sure you **connect** with me, not **follow** me.
+
+* Once you have sent the **connection request**, submit in this assignment the text, "I have connected with you" or something similar.
