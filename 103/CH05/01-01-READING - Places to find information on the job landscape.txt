@@ -1,6 +1,6 @@
 ^^ READING - Places to find information on the job landscape
 
-# Rationale
+# Description
 
 There are a lot of different places to find job postings for the technology sector. As the landscape is rapidly changing, more resources and tools are emerging.
 
@@ -15,6 +15,8 @@ One thing I always look at is different job search sites. Even if I'm not lookin
 
 Even before the COVID-19 pandemic, I would always look at jobs that let me work from home. To me, that's an important stipulation as it allows me flexibility. So here are some helpful sites for you to look at:
 
+<br />
+
 ^= =
 
 [<img src="https://docs.google.com/drawings/d/e/2PACX-1vQcmfimHbzZBiLtuPQnKI6pVnv-OPiidnrXCcQpONQPO9f7CDGr_WyuCyCZ0C_C4kj8-a322EqfJGaI/pub?w=75&h=75" alt="LinkedIn Logo" style="float:left;margin-right:10px;" /><span style="text-decoration: none;font-weight:bold;font-color:black;">LinkedIn Jobs</span>](https://www.linkedin.com/jobs/)<br />A professional networking site (like Facebook, but for your career). It is easy to apply to these jobs if you have a LinkedIn account.
@@ -24,6 +26,7 @@ Even before the COVID-19 pandemic, I would always look at jobs that let me work 
 [<img src="https://docs.google.com/drawings/d/e/2PACX-1vS3r1LbJ6mdxPteZj6fBpnq-DC5Ao1mDxNIMZe9-kqqsgRXEWkFHSTMfnBbltp8ZgFZMuvp2FdL5Ofk
 /pub?w=75&h=75" alt="The indeed.com logo - a lowercase ‘i’ with a swoosh above it" style="float:left;margin-right:10px;" /><span style="text-decoration: none;font-weight:bold;font-color:black;">indeed.com](https://www.indeed.com/)<br />A job search that aggregates jobs from many other sources. It’s my favorite! Indeed also allows you to search for jobs that are “work from home” and “remote” and you can apply to most jobs very easily from the website
 
+<br />
 
 
 ^=
@@ -54,12 +57,18 @@ Even before the COVID-19 pandemic, I would always look at jobs that let me work 
 
 ^= =
 
-[<img src="https://docs.google.com/drawings/d/e/2PACX-1vTyDXZtZjH2Ho-6rkq_TiCNpGNUWmhA2FwCJmbV50Ak7rSll-QvjPda7c393isfkavFy7DRCY_IvNju/pub?w=75&h=75" alt="The Dice logo. A rounded red rectangle with on pointy corner and the text ‘Dice’ in white." style="float:left;margin-right:10px;" /><span style="text-decoration: none;font-weight:bold;font-color:black;">Dice</span>](https://www.dice.com/)<br />A job search site for jobs in the technology industry. Has a filter for remote work!
+[<img src="https://docs.google.com/drawings/d/e/2PACX-1vQKgnqTVfdfmH0rHGExwsbdNDKzjlHE45seT1pkjtsFgUKrCvLhbncT5auxF-VPTP5Xm1O_YvXFxcZa
+/pub?w=75&h=75" alt="A green circle with two letters in script font - ‘up’" style="float:left;margin-right:10px;" /><span style="text-decoration: none;font-weight:bold;font-color:black;">Upwork</span>](https://www.upwork.com/)<br />Another freelancing website (similar to Fiverr, but many of the gigs can be long term).
 
 
 ^===
 
-[<img src="https://docs.google.com/drawings/d/e/2PACX-1vQeDv4kCIwEX3reJbNZGbLIztaOCxIv2i998a9vgbugk427AwrSReYWxY3yAaACzCNEvg9rTwG3uPo_/pub?w=75&h=75" alt="A stylized green rectangle that kind of looks like a glass door." style="float:left;margin-right:10px;" /><span style="text-decoration: none;font-weight:bold;font-color:black;">Glassdoor</span>](https://www.glassdoor.com/index.htm)<br />This is the site to go to when you want information about a place to work. You can see canasdfsadfasddid reviews from employees, salary ranges, and common interview questions.
-
+[<img src="https://docs.google.com/drawings/d/e/2PACX-1vQiHaVrInFN0S3zsnn_mjqN_qKWIOTno8YMgXdVS96dBYDG6cCrDdjGFfMRNzPgwqIx3M4E1YziWVlT/pub?w=75&h=75" alt="A lowercase ‘gi’ in green." style="float:left;margin-right:10px;" /><span style="text-decoration: none;font-weight:bold;font-color:black;">GamesIndustry.biz</span>](https://jobs.gamesindustry.biz/)<br />Post jobs and find jobs in the game industry.
 
 ^=
+
+<br /><br />
+
+You can always use [<b>FLCC Career Services</b>](https://www.flcc.edu/career/) to help with job prospects, resumes, and other career related questions.
+
+<br /><br />
