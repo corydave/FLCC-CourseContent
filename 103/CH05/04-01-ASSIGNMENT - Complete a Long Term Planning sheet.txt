@@ -1,0 +1,66 @@
+^^ ASSIGNMENT - Complete a Long Term Planning sheet
+
+^= =
+
+# Description
+
+The *Long-Term Planning Sheet* is a document where you'll lay out all the courses you have taken, you are taking, and what you have to take in the next few semesters. Nothing you do in this sheet is set in stone - you can always take whatever classes you want, whenever you want. But the intention here is to get you thinking clearly about what's left in your academic pursuit here at FLCC!
+
+This is a Google Sheet, so make sure you bookmark it or save the URL somewhere so you can access it in future semesters.
+
+# Steps
+
+1. Go [here and fill out the form](https://docs.google.com/forms/d/e/1FAIpQLSdl5dodF_swxwlysDUIfikAS56vt62dY0LqUxccoLo-JzdChQ/viewform) to get a Long-Term Planning Sheet; you can use any email address that works for you.
+
+2. Once you get an email with the link to your LTP, fill it out with the courses you've taken, the courses you are taking now, and the courses you will need to take.
+
+3. If you don't know which courses you need to take, you can look at the **Program Evaluation** in [Webadvisor](https://webadvisor.flcc.edu/).
+
+4. You can also look at the [Course Descriptions](https://flcc.edu/courses/) if you are curious.
+
+^===
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/arFldxVALrU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+^=
+
+When you are done, you should submit the URL of your Long Term Planning Sheet here. Please paste it in the "Write Submission" portion of this assignment, not the "Comments" section.
+
+# Tips
+
+^= = =
+
+^= = =,,,
+
+Note that it's possible that the LTP doesn't reflect some classes you might need to take (mostly math prerequisites). You can add them at the bottom using the checkboxes!
+
+^=
+
+^===
+
+^= = =,,,
+
+There are some extra semester hidden, too, in case you need more than four - you can expand them from the left side.<br /><br />
+
+^=
+
+^===
+
+^= = =,,,
+
+Make sure you take a tour through the rest of the tabs in the document, too, so you can understand the SUNY General Education classes, see some course descriptions, etc.
+
+^=
+
+^=
+
+<br />
+
+# Specifications
+
+* Submit a link to a cloud-based document such as Google Docs.
+
+* Verify that the document is shared such that anyone with the link can comment.
+
+* Please put the link in the "Write Submission" portion of the assignment, not the "Comments" section.
+
