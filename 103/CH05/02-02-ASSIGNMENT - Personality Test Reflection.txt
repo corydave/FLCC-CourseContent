@@ -1,0 +1,26 @@
+^^ ASSIGNMENT - Personality Test Reflection
+
+# Description
+
+After taking the personality test check out what some of the more popular careers are (according to the results)
+
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vTPNdQjx2--ajr2FHCbLxgm5RXsPQE3HAnycgrLyraztRyVF0BEx3HJOOnsVZbkBonfyE0C5iqNjqG_/pubhtml/sheet?headers=false&amp;gid=294435647&amp;range=A1:F7' width="340" height="160" frameborder="0">...Loading...</iframe></center>
+
+
+Submit a one or two page reflection. 
+
+* Do you think the result is accurate?
+
+* Are you surprised by the findings? If so, how? 
+
+* How do you think you could use the results to inform future career growth?
+
+* Are you a believer in the Myers-Briggs test or not🤔?
+
+# Specifications
+
+* Submit a link to a cloud-based document such as Google Docs.
+
+* Verify that the document is shared such that anyone with the link can comment.
+
+* Please put the link in the "Write Submission" portion of the assignment, not the "Comments" section.
