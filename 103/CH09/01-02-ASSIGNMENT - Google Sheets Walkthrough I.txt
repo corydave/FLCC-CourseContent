@@ -1,0 +1,31 @@
+^^ ASSIGNMENT - Google Sheets Walkthrough I
+
+# Description
+
+^= =
+
+Let's look at how Google Sheets can really be leveraged. Sheets is *such a potent tool* and you should really know a few of the cool things you can do with it.
+
+I've made a video that walks through some of the really nifty things you can do with Sheets. Your job is to follow along and do all the cool things, too!
+
+I've made you a Sheet with the same data, but the entire sheet is unformatted. You'll have to follow along and when you're done, your document should look very similar to mine.
+
+To get a copy of the Google Sheet, make sure you are logged into your account and [**click here**](https://docs.google.com/spreadsheets/d/1ktXvHIfHSIuKE34AxBafmoBdTEkhBl-vOayhr3pyoiE/copy).
+
+Share the link so that "Anybody with the link can ***edit***" in the "Write submission" portion of this assignment in Blackboard.
+
+^===
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/OHClPHJa7Xc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+^=
+
+# Specifications
+
+* Submit a link to the Google Sheet.
+
+* Verify that the document is shared such that anyone with the link can ***edit***.
+
+* Please put the link in the "Write Submission" portion of the assignment, not the "Comments" section.
+
+ *Submit the PDF version of your Google Sheet, too.
