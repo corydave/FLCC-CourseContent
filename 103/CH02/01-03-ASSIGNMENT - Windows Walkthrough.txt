@@ -4,17 +4,12 @@
 
 <div style="float:left;"><a href="https://docs.google.com/document/d/1lX28m3nYPF81xGuQMuG9_wnKGbk4KX09UBsTD6ESVcY/copy" target="_blank"><img src="https://docs.google.com/drawings/d/e/2PACX-1vSRHJAReEu56yKpNXB0-NjvhNXdDPvACzpf7xfmZ4LLbga4CS71AesCkRSZXrrwLGsSKQPq393ttcdH/pub?w=200&h=280" alt="A thumbnail of the Windows Walkthrough assignment." style="margin: 0pt 10pt 10pt 0pt;float:left;"  /></a></div>
 
-You should see buttons for "Google Docs", and "Word". You should click on whichever format you prefer to work in.
+This experience will guide you through some basics of using Windows (you can use Windows 7, 8, 10, and 11 for this). You'll need to [click here to get a copy of the Google Doc](https://docs.google.com/document/d/1lX28m3nYPF81xGuQMuG9_wnKGbk4KX09UBsTD6ESVcY/copy). 
 
-This experience will guide you through some basics of using Windows (you can use Windows 7, 8, 10, and 11 for this). As you read through the document, you will be prompted to take screenshots and paste them into boxes - the boxes will resize automatically.
+As you read through the document, you will be prompted to take screenshots and paste them into boxes - the boxes will resize automatically.
 
 When you are done, you should submit a link to a cloud-based document (such as Google Docs) such that anyone with the link can comment.
 
-<center>
-<div style="display: inline-block; margin: 3px; padding: 5px; background: #1e90ff; font-weight: bold; color: white; width: 200px; text-align: center;"><a href="https://docs.google.com/document/d/1lX28m3nYPF81xGuQMuG9_wnKGbk4KX09UBsTD6ESVcY/copy" target="_blank" style="text-decoration: none; color: white; font-weight: bold;" rel="noopener">Google Doc</a></div>
-
-<div style="display: inline-block; margin: 3px;  padding: 5px; background: blue; font-weight: bold; color: white; width: 200px; text-align: center;"><a href="https://docs.google.com/document/d/1lX28m3nYPF81xGuQMuG9_wnKGbk4KX09UBsTD6ESVcY/export?format=doc" style="text-decoration: none; color: white; font-weight: bold;">Word</a></div>
-</center>
 
 <div style="display:block;width:100%;clear:left;">
 
