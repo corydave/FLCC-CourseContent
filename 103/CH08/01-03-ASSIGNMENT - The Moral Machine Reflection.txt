@@ -1,0 +1,23 @@
+^^ ASSIGNMENT - The Moral Machine Reflection
+
+# Description
+
+One of the hot topics in computer ethics right now concerns self-driving cars. There will be times when the computer in a car will need to make a decision - who's life gets saved when a collision happens. For instance, it could be the case that someone is jaywalking and the car could swerve to avoid the pedestrian, but that would kill the driver because the car would run into a tree. Alternatively, the car could not change course and kill the pedestrian.
+
+The folks at MIT have made an interactive activity that is attempting to see what the general consensus is on these situations (though it goes into more detail - what if the pedestrians are not jay walking? What if the pedestrian is a pregnant mother? What if the pedestrian is a convicted felon?). 
+
+Your job is to spend a few minutes going through [the thirteen scenarios of The Moral Machine](http://moralmachine.mit.edu/), and then write a reflection about it. 
+
+You do not need to reveal where your preferences were, but rather reflect on the process. Were you surprised? Are you willing to share what you thought the hardest choice was? Did your value change throughout the experience? What did you think of the general answers (when you finish the thirteen scenarios, you'll get a report that shows where you stand compared to everyone else). Your grade is not dependent on your answers, nor should you feel compelled to discuss your answers. The intent of this exercise is to make you think about technology and morality.
+
+This does not need to be anything formal. Just a paragraph or two about the exercise.
+
+# Specifications
+
+* You do not have to submit anything that reveals the choices you made (unless you'd like to).
+
+* Submit a link to a cloud-based document such as Google Docs.
+
+* Verify that the document is shared such that anyone with the link can comment.
+
+* Please put the link in the "Write Submission" portion of the assignment, not the "Comments" section.
