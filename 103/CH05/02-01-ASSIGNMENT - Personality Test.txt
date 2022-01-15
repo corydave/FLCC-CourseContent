@@ -1,0 +1,25 @@
+^^ ASSIGNMENT - Personality Test
+
+# Description
+
+Some jobs might ask you to take a personality test; one of the more popular personality tests is the Myers-Briggs. Despite it's wide-scale adoption, the jury is still out on the efficacy.
+
+Vox published the scathing article [Why the Myers-Briggs test is totally meaningless](https://www.vox.com/2014/7/15/5881947/myers-briggs-personality-test-meaningless), Psychology Today countered with [In Defense of the Myers-Briggs](https://www.psychologytoday.com/us/blog/my-brothers-keeper/202002/in-defense-the-myers-briggs), and USA Today is on the fence ([Here's why people still take the Myers-Briggs test — even though it might not mean anything](https://www.usatoday.com/story/news/nation/2019/05/06/myers-briggs-type-indicator-does-not-matter/3635592002/)).
+
+At any rate, it's still good to know your results as it might come up in an interview some day. You can [take the personality test here](http://www.humanmetrics.com/cgi-win/jtypes2.asp); it will take roughly 15 minutes.
+
+When you are done, save the results as a PDF or a screenshot and submit them here.
+
+Also, the Computing Sciences department is interested in your anonymous results (as we get lots of data, we can share the results with future students). Please consider filling out this form.
+
+# Specifications
+
+* Submit either a PDF or a screenshot of your results.
+
+* Consider filling out this form, too!
+
+<br />
+
+<center>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfj5mzPwWJnygvj_UwTL-mwcRFLp27A30uNE2ejRejBDnLabg/viewform?embedded=true" width="100%" height="1412" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</center>
