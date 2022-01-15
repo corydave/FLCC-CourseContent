@@ -1,0 +1,23 @@
+^^ ASSIGNMENT - Job Report
+
+# Description
+
+<div style="float:left;"><a href="https://docs.google.com/document/d/1DqlF9750CCaLl6M9yOBWFNbPreEIJy4DKo5QTfFDha4/copy" target="_blank"><img src="https://docs.google.com/drawings/d/e/2PACX-1vTlIPT04ZmBVYpyuWGr162VGkv95AVzH705VL1zyCYGU3BGFeOXg67wSfCSOTPgUYpT6Y1hPMl-d_CG/pub?w=200&h=280" alt="A thumbnail of the Linux Walkthrough assignment." style="margin: 0pt 10pt 10pt 0pt;float:left;"  /></a></div>
+
+It's time to look for a job! Using the search engines you've explored, find a job that you think you would be qualified for after getting this degree. 
+
+You will have to get a copy of the [Job Report Google Doc](https://docs.google.com/document/d/1DqlF9750CCaLl6M9yOBWFNbPreEIJy4DKo5QTfFDha4/copy) and answer the questions. This experience is designed to help you interrogate what is really important in a job and consider the different variables that might affect your calculus. You'll also have to think about what actions you'll need to do to prepare for a job (schooling, certifications, internships, etc.).
+
+
+<div style="display:block;width:100%;clear:left;">
+
+# Specifications
+
+* Submit a link to a cloud-based document such as Google Docs.
+
+* Verify that the document is shared such that anyone with the link can comment.
+
+* Please put the link in the "Write Submission" portion of the assignment, not the "Comments" section.
+
+</div>
+
