@@ -1,0 +1,22 @@
+^^ ASSIGNMENT - Game Concept Document
+
+# Description
+
+Hopefully you've gained perspective on interaction fiction. [Zork](https://archive.org/embed/msdos_Zork_I_-_The_Great_Underground_Empire_1980) and [Oregon Trail](https://archive.org/embed/msdos_Oregon_Trail_The_1990) were the trailblazers, but newer games and experiences such as [You are Jeff Bezos](https://direkris.itch.io/you-are-jeff-bezos), [Lifeline](https://store.steampowered.com/app/585290/Lifeline/), [Somewhere](https://twinery.org/forum/discussion/6155/announcing-somewhere-a-twine-game-for-mobile), and [Spent](https://playspent.org/) have advanced the field of interactive fiction.
+
+You will be building a game in Twine that captures the magic of interactive fiction. But first, you need to plan it!
+
+Click on [this link](https://docs.google.com/document/d/17g7GalZDfmDCSNKxmdOaz41cWJu3cbuJa927gH_nHqE/copy) to make a copy of the Google Doc. Fill out the document and submit a link to your work (make sure you change the sharing settings so that "Anyone with the link can COMMENT")! 
+
+Your Game Design Document should be an overview (big picture, 30,000 foot view) of a game you will be designing using TWINE.
+
+This means that your game will most likely be text based and have decisions that the player will need to make. You can totally have images (and even music) if you'd like. But primarily your game will be story driven.
+
+
+# Specifications
+
+* Submit a link to a cloud-based document such as Google Docs.
+
+* Verify that the document is shared such that anyone with the link can comment.
+
+* Please put the link in the "Write Submission" portion of the assignment, not the "Comments" section.
