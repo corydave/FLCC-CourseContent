@@ -12,4 +12,4 @@ This unit is a brief introduction to web design. It starts with basic HTML (the 
 
 # Schedule
 
-<div style="clear:both;"><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vSXz-OagQq2MzgyUVfAgS2a4mO-_S4YD2KPooMG8HJymTNEIMb2X6C5ePBAH_YswdLVJDV5JvpMf491/pubhtml/sheet?headers=false&amp;gid=277957836&amp;range=A1:D12' width="720" height="309" frameborder="0"></iframe></div>
+<div style="clear:both;"><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vSXz-OagQq2MzgyUVfAgS2a4mO-_S4YD2KPooMG8HJymTNEIMb2X6C5ePBAH_YswdLVJDV5JvpMf491/pubhtml/sheet?headers=false&amp;gid=277957836&amp;range=A1:D14' width="720" height="351" frameborder="0"></iframe></iframe></div>
