@@ -1,0 +1,56 @@
+^^ ACTIVITY - Play Zork && Oregon Trail
+
+# Description
+
+Game design has gotten extremely advanced and competitive in the past two decades. Even before the pandemic and quarantine, the gaming industry was bigger than Hollywood ($100 billion) and North American sports ($75 billion). 
+
+*Combined*. Don't believe me? Check out [this MarketWatch article](https://www.marketwatch.com/story/videogames-are-a-bigger-industry-than-sports-and-movies-combined-thanks-to-the-pandemic-11608654990).
+
+Or just try to buy a new Xbox or PS5.
+
+Let's look at some of the original games that also took the world by storm.
+
+
+## Zork
+
+One of the most iconic games in home computing is Zork. Iconic, that is, if you were playing games at home in the late seventies. Zork is a pioneer in *interactive fiction* and text-based games. It was so popular that Zork would spawn two sequels and launch a genre of game that is still around today.
+
+Contemporary games are in a different class of games, though text-based adventures still have a place (consider the success of [Telltale Games](https://telltale.com/) - until recently, that is). There still is a demand for "interactive fiction" games (the dynamics of text-based adventure with some stylistic graphics).
+
+To fully appreciate the experience of a strictly text-based game, you should try playing Zork (if you use the Safari browser, you might experience issues - use Chrome or Firefox instead)!
+
+^= =
+
+^youtube  <iframe width="200" height="200" src="http://iplayif.com/?story=http%3A%2F%2Fwww.ifarchive.org%2Fif-archive%2Fgames%2Fzcode%2Fzdungeon.z5" frameborder="0" allowfullscreen style="position: absolute;top:0;left: 0;width: 100%;height: 100%;"></iframe>
+
+<br />
+<center>
+
+[Click here if the embed doesn't load](http://iplayif.com/?story=http%3A%2F%2Fwww.ifarchive.org%2Fif-archive%2Fgames%2Fzcode%2Fzdungeon.z5)
+
+</center>
+
+^===
+
+^youtube <iframe width="800" height="800" src="https://docs.google.com/document/d/e/2PACX-1vQpVBZTPxGBnTS0jzCYIWIJmobFIPAa9fmC6FYsytBxEO1NvAWDFi80pQ_swuk8zavqqrM872UmAJRA/pub?embedded=true" frameborder="0"></iframe>
+
+^=
+
+## Oregon Trail
+
+If you went to school in the eighties or nineties, you played this game. It endures even today as nostalgic evidence of how immersive video games can be. Cool fact - The Oregon Trail computer game predates the tabletop sensation *Dungeon's & Dragons* by three years!
+
+Check out the game here:
+
+^youtube <iframe width="200" height="200" src="https://archive.org/embed/msdos_Oregon_Trail_The_1990" frameborder="0" allowfullscreen style="position: absolute;top:0;left: 0;width: 100%;height: 100%;"></iframe>
+
+<br />
+<center>
+
+[Click here if the embed doesn't load](https://archive.org/embed/msdos_Oregon_Trail_The_1990)
+
+If you're stuck in the game, you can always check out [this reddit thread](https://www.reddit.com/r/AskReddit/comments/84msfe/redditors_who_actually_beat_oregon_trail_how_did/dw9r769/?utm_source=share&utm_medium=web2x&context=3).
+
+</center>
+
+<br /><br />
