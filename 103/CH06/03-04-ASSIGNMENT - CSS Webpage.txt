@@ -1,0 +1,43 @@
+^^ ASSIGNMENT - CSS Webpage
+
+# Description
+
+Leveraging cascading style sheets (CSS), create a website that makes use of neat styling. You should have at least five classes in your style sheet. Consult notes from class for examples, or use some of these resources:
+
+* [w3schools - CSS and HTML](http://www.w3schools.com/cssref/) - a good introduction to CSS and HTML
+
+* [CSS Tricks website](https://css-tricks.com/) - for advance, super sweet CSS tips
+
+* [CodePen](https://codepen.io/) - a cool online HTML/CSS editor
+
+* [StackBlitz](https://stackblitz.com/) - another cool online HTML/CSS editor
+
+Each class should have at least four attributes, though you can have more than four if you'd like.
+You should have at least 12 different attributes in your CSS. This means that you can repeat some of them, but you need to have at least 12 unique attributes.
+
+You will need to include a :hover style, too.
+If multiple files are involved, please submit the assignment as one .zip file.
+The ugliest website gets an award!
+
+# Specifications
+
+* CSS includes at least five classes.
+
+* Each class includes at least four attributes.
+
+* At least 12 unique attributes.
+
+* Include `:hover` style as well.
+
+* If multiple files are involved, please submit them as one .zip file.
+
+* The uglier, the better. Seriously.
+
+
+^= = =,,,
+
+**NOTE:** Be sure to check out the rubric for this assignment to make sure you address all relevant parts.
+
+^=
+
+<br /><br />
