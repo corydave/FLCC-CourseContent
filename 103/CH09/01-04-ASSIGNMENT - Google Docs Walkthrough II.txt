@@ -1,0 +1,33 @@
+^^ ASSIGNMENT - Google Docs Walkthrough II
+
+# Description
+
+^= =
+
+Coming soon
+
+<B>CHANGE VIDEO</B>
+
+^===
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/PKkhvehhXlw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+^=
+
+# Specifications
+
+* Submit a link to the Google Sheet.
+
+* Verify that the document is shared such that anyone with the link can ***edit***.
+
+* Please put the link in the "Write Submission" portion of the assignment, not the "Comments" section.
+
+ *Submit the PDF version of your Google Sheet, too.
+ 
+^= = =,,,
+
+**NOTE:** Be sure to check out the rubric for this assignment to make sure you address all relevant parts.
+
+^=
+
+<br /><br />
