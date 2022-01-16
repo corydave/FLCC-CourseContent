@@ -1,0 +1,7 @@
+^^ TOOLS - Example Files in Twine
+
+Check out these examples for some inspiration (CSS, advanced commands). If you want to import them, right-click on each filename and then choose "Save link as". Then import them into Twine.
+
+* [Binary - Guess a Number (binary.html)](https://daveghidiu.com/FLCC/CSC103/binary.html)
+
+* [RAID Simulation (raid.html)](https://daveghidiu.com/FLCC/CSC103/raid.html)
