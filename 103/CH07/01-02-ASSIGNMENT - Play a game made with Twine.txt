@@ -1,0 +1,39 @@
+^^ ASSIGNMENT - Play a game made with Twine
+<div style="width:70%;padding:20px;margin-left:auto;margin-right:auto;font-family:Times New Roman, serif;font-size:24pt;"><center>
+"Interactive fiction, often abbreviated IF, is software simulating environments in which players use text commands to control characters and influence the environment. Works in this form can be understood as literary narratives, either in the form of Interactive narratives or Interactive narrations."</center>
+</div>
+
+<center>
+
+[**Wikipedia**](https://en.wikipedia.org/wiki/Interactive_fiction)
+
+</center>
+
+# Description
+
+[Twine](https://twinery.org/) is a game engine that allows people to make interactive fiction games with minimal amount of programming ([Quest](http://textadventures.co.uk/quest) is another platform that also allows for easy-to-make interactive fiction games). Ultimately, we'll be making a game with Twine (or Quest), so it's important to get a feel for what the games can do. Interactive fiction is a genre of games that allow the user to 
+
+There are some very popular games in the IF realm:
+
+* [You are Jeff Bezos](https://direkris.itch.io/you-are-jeff-bezos) (this game is fairly new, and is more of a thought experiment)
+
+* [The Uncle Who Works for Nintendo](https://ztul.itch.io/the-uncle-who-works-for-nintendo)
+
+* [With Those We Love Alive](http://slimedaughter.com/games/twine/wtwla/)
+
+* [Queers In Love at the End of the World](https://w.itch.io/end-of-the-world)
+
+* [The Temple of No](https://crowscrowscrows.itch.io/the-temple-of-no) (a good example of mixing stylistic graphics with IF)
+
+* [Depression Quest](http://www.depressionquest.com/dqfinal.html)
+
+In addition to these Twine games, you might be interested in these two games as well. They are interactive fiction but have a slightly different experience. Both of them take a modern twist on text-based games and make them "texting-based" games. The second game, [Somewhere](https://twinery.org/forum/discussion/6155/announcing-somewhere-a-twine-game-for-mobile), is made with Twine!
+
+^= =
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/VqkbmMb1ygU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+^===
+
+<center><img src="http://i.imgur.com/rQYxgff.gif" alt="An animated gif of a cool Twine game that uses texting as it's mechanic" />
+
