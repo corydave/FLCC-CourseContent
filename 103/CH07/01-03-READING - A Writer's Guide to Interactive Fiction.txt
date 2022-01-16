@@ -1,0 +1,9 @@
+^^ READING - A Writer's Guide to Interactive Fiction
+
+# Description
+
+At the height of the interaction fiction genre, Andrew Plotkin was a thought leader in the sector. Check out his thoughts here. You can also [read the same document here](https://docs.google.com/document/d/1gFImNdwsDSBRH71-UYAco6UzllEomLG0eUoK39EN6_o/preview).
+
+<br />
+
+^youtube <iframe width="1000" height="1100" src="https://docs.google.com/document/d/1gFImNdwsDSBRH71-UYAco6UzllEomLG0eUoK39EN6_o/preview"></iframe>
