@@ -1,0 +1,9 @@
+^^ ASSIGNMENT - Submit a .zip file of an HTML file
+
+# Description
+
+Following the example in the previous video, submit a .zip file that contains the HTML file (you can paste the code below into your HTML file, or you can author your own page).
+
+# Specifications
+
+* Please submit a .zip file, not an .html file
