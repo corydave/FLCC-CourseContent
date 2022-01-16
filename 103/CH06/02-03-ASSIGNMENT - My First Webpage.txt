@@ -1,0 +1,33 @@
+^^ ASSIGNMENT - My First Webpage
+
+# Description
+
+For your first website, write code for a simple website. It needs to have the following items:
+
+```html
+<head></head>
+<title></title>
+<body></body>
+<br />
+<hr />
+<b></b>
+<u></u>
+<i></i>
+<a></a>
+<font></font>
+<iframe></iframe>
+<center></center>
+<img />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+```
+
+Your file should have proper formatting (indenting for instance) - see the examples in this chapter for reference. Formatting includes tabs for code sandwiched between opened and closed tags. 
+
+If your website has more than one file (such as an image), then please submit all the files.
+
+# Specifications
+
+* Please submit a .zip file, not an .html file.
+
+* If you have multiple files (such as images or other HTML files, please include them in the .zip file).
