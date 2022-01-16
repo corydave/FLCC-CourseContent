@@ -6,4 +6,4 @@ Following the example in the previous video, submit a .zip file that contains th
 
 # Specifications
 
-* Please submit a .zip file, not an .html file
+* Please submit a .zip file, not an .html file.
