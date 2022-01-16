@@ -1,0 +1,20 @@
+^^ ACTIVITY - Play Spent
+
+Spent is a simulation (which is a genre in gaming). Here is a description from their website:
+
+<div style="background-color:#dddddd;padding:10px;margin:10px;width:70%;padding:20px;margin-left:auto;margin-right:auto;font-family:Times New Roman, serif;font-size:24pt;"><center>
+Launched by McKinney in 2011, SPENT has been played more than 10 million times across the globe. The goal of the game: Start with $1,000 and make the decisions necessary to reach the end of the month with something still left in your pocket. We wish you luck. </center>
+</div>
+
+<center>
+
+[<img src="https://docs.google.com/drawings/d/e/2PACX-1vSUndEedwqUMrVv3t1PuXUIHUx1faGEAqeOGdjNLrIKkBcXYjgtpxE-ZvBHsM7LaToMlyLUi7-NNNa7/pub?w=479&h=379" alt="The title screen for the simulation 'Spent'." />](https://playspent.org/)
+
+
+</center>
+
+You can access the game here: http://playspent.org/
+
+As you are playing, make sure you pay attention to your reactions. The simulation is meant to be realistic. Maybe a bit provocative. How does it make you feel? What happens at the end of the simulation? Did you make it through?
+
+I'm going to ask you to write a reflection after going through the simulation.
