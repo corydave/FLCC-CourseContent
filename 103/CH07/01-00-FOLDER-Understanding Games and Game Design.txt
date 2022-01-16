@@ -2,8 +2,6 @@
 
 # Experiences
 
-* DISCUSSION - Video Game Reflection
-
 * ACTIVITY - Play Zork && Oregon Trail
 
 * ACTIVITY - Play a game made with Twine
