@@ -21,3 +21,11 @@ This does not need to be anything formal. Just a paragraph or two about the exer
 * Verify that the document is shared such that anyone with the link can comment.
 
 * Please put the link in the "Write Submission" portion of the assignment, not the "Comments" section.
+
+^= = =,,,
+
+**NOTE:** Be sure to check out the rubric for this assignment to make sure you address all relevant parts.
+
+^=
+
+<br /><br />
