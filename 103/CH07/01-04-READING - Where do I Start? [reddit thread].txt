@@ -1,0 +1,5 @@
+^^ READING - Where do I Start? [reddit thread]
+
+# Description
+
+If you'd like a bit of guidance as you're getting started with interactive fiction, consider this [reddit thread](https://www.reddit.com/r/gamedev/comments/5qmmbp/trying_to_make_a_text_adventure_where_do_i_start/) - you might find it useful.
