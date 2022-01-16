@@ -1,4 +1,4 @@
-^^ CHAPTER 4 - Game Design
+^^ CHAPTER 7 - Game Design
 
 # Description
 <img style="float: right;" title="The high scores of a video game (maybe from the 1980s) are shown. Each name has a high score next to it, and each line of text is a different color." alt="The high scores of a video game (maybe from the 1980s) are shown. Each name has a high score next to it, and each line of text is a different color." src="https://docs.google.com/drawings/d/e/2PACX-1vT4HjzEVBLJT9zDRRYwJCxJGetg8nqYRM9-LBGeZLHf6oAb6garM3rUMMgk5uSb6w2RjOvUy1Ard-cn/pub?w=200&amp;h=200" />
