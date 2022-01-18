@@ -8,7 +8,7 @@ Hiya! Welcome to CSC-103: Computing Sciences Portal! This class has two main thr
 
 * Diving into **First Year Experience** topics. This includes learning about the services that FLCC makes available to students as well as strategies for studying, test-taking, and time management.
 
-This class has a lot of hands-on experiences and is constantly shifting gears. But don't be fooled! We've scientifically engineered this course such that each chapter builds on previous chapters. For instance, we'll look at web authoring before we look at game design because you can use your webauthoring skills when developing games.
+This class has a lot of hands-on experiences and is constantly shifting gears. But don't be fooled! We've scientifically engineered this course such that each chapter builds on previous chapters. For instance, we'll look at web authoring before we look at game design because you can use your web authoring skills when developing games.
 
 I'm stoked to work with you this semester, and you can get started right now! You should thoroughly dig into the Course Information section on the course menu to the left. Poke and prod in the Course Content section, too. That's where all the good stuff lives! Note that almost all the content is made available to you so you can work ahead.
 
