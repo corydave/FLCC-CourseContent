@@ -1,0 +1,88 @@
+^^ START HERE
+
+# Welcome
+
+Hiya! Welcome to CSC-721: Hardware and Operating Systems! This class has two main throughlines:
+
+* **Hardware:** We will look at the nitty gritty of hardware. Nuanced, picky stuff. Like, do you know the difference between L1, L2, and L3 cache? Yeah, we'll get that detailed.
+
+* **Operating Systems:** We'll spend a lot of time working with Windows, but we'll also check out Linux and even MacOS a bit.
+
+This class covers the content for not one, *but two* CompTIA A+ exams (220-1001 and 220-1002). There are 9 competencies that the CompTIA A+ certification validates:
+
+^= = = ,,
+
+* Hardware
+* Operating Systems
+* Software Troubleshooting
+ 
+^=== ,,
+
+* Networking
+* Hardware & Network Troubleshooting
+* Security
+
+^=== ,,
+
+* Mobile Devices
+* Virtualization & Cloud Computing
+* Operational Procedures
+
+^=
+
+<br />
+
+This class has a lot of hands-on experiences and is constantly shifting gears. Every chapter is a different topic!
+
+We'll be using software called TestOut for this class. Every single thing you need to know is in there. The videos are great, the simulations are really freakin' slick, and you'll be able to take away everything covered on both CompTIA A+ exams!
+
+If you have any questions, you can email me at dave.ghidiu@flcc.edu or hit me up on [Discord](https://discord.com/invite/5MYms7h).
+
+# First things first
+
+The first thing you should do is go through Chapter 0 in this course (in Blackboard). There are some basic orientation things in there.
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/TLaELa0Djnw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br />
+
+# Strategies for Successful Online Study
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vTenfQK8fRGDPt65wwAoyW7VG_-jbUJ7QMn4h4ZqI64CdqZOi4U9mvymYm5VYUcfahq6sWwyimWJig8/pub?w=400&h=268" style="float:right;" alt="An illustration of smattering of online learning tools and devices. A tablet, a computer, a phone, a book, a pen, a diploma, the internet, and a textbook." title="An illustration of smattering of online learning tools and devices. A tablet, a computer, a phone, a book, a pen, a diploma, the internet, and a textbook." />
+
+* Be realistic about what is involved in online study.
+
+* Take responsibility for your own learning.
+
+    * Log in to the course at least once a day.
+    * Identify how to contact your instructor.
+    * Use preview week to look at the expectations of you.
+
+
+* Know the syllabus.
+    * Order your textbooks early.
+    * Look ahead to view all of the major assignments.
+
+
+* Plan your time.
+    * Schedule time each day to complete assignments or do readings.
+    * Review the course schedule and plan your time accordingly.
+
+
+* Identify a study space.
+    * Identify a space in your home where you can use a computer, read quietly, and work without distraction.         
+    * Look for spaces outside the home to work, such as a library or a computer lab.
+
+
+* Check your technology.
+    * Do you have a reliable computer?
+    * Does your main computer meet the minimum technology requirements?
+
+
+* Stay connected.
+    * Make connections with other students through discussion and group work.
+    * Ask questions when you have them. Communicate effectively.
+    * When emailing your instructor, use proper grammar and good form. It’s a best practice to include a greeting and complete sentence structure.
+    * Follow the course rubrics for online discussions.
+
+<center><span font-size:9pt;><i>Success tips are from SUNY Online</i></span></center>
