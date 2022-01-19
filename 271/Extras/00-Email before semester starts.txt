@@ -1,0 +1,36 @@
+^^ Early bird gets the worm!
+
+# Welcome
+
+Hey folks! Welcome to Hardware & Operating Systems!
+
+I know the semester hasn't started, but I wanted to get you a chance to see the content a bit early! As you probably know, we will be using a product called TestOut LabSim™ this semester. TestOut is really neat - it has great videos, amazing simulations, and covers every bit of information you need for both CompTIA A+ certifications!
+
+If you have access to TestOut already, great! If you don't, you may want to get it soon. You can get it in the bookstore. I know it's expensive, and I'm sorry for that (there's nothing I can do about the price - I tried). But the good news is I believe you get access to all the material for a bit after the course ends so you can study for the A+ exams with it if you want.
+
+Here's what you need to know:
+
+<br />
+
+^= = ,,
+This is an invitation to join our class on LabSim™!
+
+School: Finger Lakes Community College
+Class: FLCC-CSC-271 - Hardware & Operating Systems
+
+Use this link to join:
+
+<Center> [REDACTED] </center>
+
+IMPORTANT: This invitation will expire in 7 days.
+
+If you have not already done so, you'll need to purchase an activation code for the TestOut courseware used with this class. You can get it at the bookstore.
+
+Let me know if you have any questions.
+
+For additional support, please contact the TestOut team at 800-877-4889 or support@testout.com.
+
+^=
+
+<br /><br />
+You can look at TestOut LabSim™ now, but you'll have to wait until Friday, January 21 to peek into Blackboard. I can't wait to meet you!
