@@ -2,7 +2,7 @@
 
 # Welcome
 
-Hiya! Welcome to CSC-721: Hardware and Operating Systems! This class has two main throughlines:
+Hiya! Welcome to CSC-271: Hardware and Operating Systems! This class has two main throughlines:
 
 * **Hardware:** We will look at the nitty gritty of hardware. Nuanced, picky stuff. Like, do you know the difference between L1, L2, and L3 cache? Yeah, we'll get that detailed.
 
@@ -42,7 +42,7 @@ If you have any questions, you can email me at dave.ghidiu@flcc.edu or hit me up
 
 The first thing you should do is go through Chapter 0 in this course (in Blackboard). There are some basic orientation things in there.
 
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/TLaELa0Djnw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/Pl8fb4UWEB8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <br />
 
