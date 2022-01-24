@@ -4,13 +4,13 @@
 
 <div style="display:block;width:100%;">
 
-The Library is housed at the Canandaigua campus. It has three floors, though you can only access the library on the second floor. The staff and faculty in the library are super helpful and will help you with any question you have and will assist you with any research project.
+The Library is housed at the Canandaigua campus. It has three floors, though you can only access the library on the second floor. The staff and faculty in the library are super helpful and will help you with any question you have and will assist you with any research project. They also have a lot of supports and resources for fully online students who don't visit campus at all.
 
 The Library website has a tutorial for students who are getting started with research. You can expect to do some research while you are at FLCC, and the Library is there to help you. Take the online tutorial - if you pass the quiz at the end, you'll get a certificate. Submit that here.
 
 Note that you can take other tutorials online, too, and get cleared to use some of the sweet toys at the library (like the 3D Printer). Note that you must include a PDF or screenshot of your CERTIFICATE, not the email that will be sent to you. It looks like this:
 
-<center><img src="https://docs.google.com/drawings/d/e/2PACX-1vQNPgZhx_ukqS0r9TNmE0wQLrEo82HQtmCUMvuQhk3eDlYUyYJP90oaMOQgvWwQDqIDMBDDHIwq9d6Q/pub?w=952&amp;h=480" alt="Screenshot of Bart Simpson's Library Certificate of Completion" height="480" width="951" /></center>
+<center><img src="https://docs.google.com/drawings/d/e/2PACX-1vQNPgZhx_ukqS0r9TNmE0wQLrEo82HQtmCUMvuQhk3eDlYUyYJP90oaMOQgvWwQDqIDMBDDHIwq9d6Q/pub?w=952&amp;h=480" alt="Screenshot of Bart Simpson's Library Certificate of Completion"  width="90%" /></center>
 
 There are a few different ways to take a screenshot on a computer, and it varies across operating systems:
 
