@@ -4,7 +4,7 @@
 
 # Assignments
 
-Chapter 1 in [TestOut](https://w3.testout.com/) is due this week. It's a good preliminary dive into the basics of computing. 
+Chapter 1 in [TestOut](https://w3.testout.com/) is the chapter we are working on this week. It's a good preliminary dive into the basics of computing.
 
 <br /><br />
 
