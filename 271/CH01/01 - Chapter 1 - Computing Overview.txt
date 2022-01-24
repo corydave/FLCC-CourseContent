@@ -1,0 +1,26 @@
+^^ Chapter 1 - Computing Overview
+
+<div style="float:right;padding-left:10px;padding-bottom:10px;"><iframe width="260" height="250" frameborder="0" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSVszv5W4sMZDVwaz-xYWJU583eUH20aSkt0grsZWFjLuP4d5U2Gjd_v2DBX56ZBW2VE5MTKD8IFHWg/pubhtml/sheet?headers=false&amp;gid=1882322455&amp;range=A1:A2"></iframe></div>
+
+# Assignments
+
+Chapter 1 in [TestOut](https://w3.testout.com/) is due this week. It's a good preliminary dive into the basics of computing. 
+
+<br /><br />
+
+# Wakelet
+
+If you'd like to contribute to the Wakelet board this chapter, you can [join here to post](https://wakelet.com/i/invite?code=0hp7f40z) or use the QR code.
+
+<br />
+
+<div style="clear:both;">
+
+<center>
+
+^youtube <iframe class="wakeletEmbed" width="100%" height="760px" src="https://embed.wakelet.com/wakes/pUDMeztnX2yVWO3oLK9qf/list" style="border: none" allow="autoplay"></iframe><!-- Please only call https://embed-assets.wakelet.com/wakelet-embed.js once per page --><script src="https://embed-assets.wakelet.com/wakelet-embed.js" charset="UTF-8"></script>
+
+
+</center>
+
+</div>
