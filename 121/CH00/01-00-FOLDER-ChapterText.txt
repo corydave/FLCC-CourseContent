@@ -10,10 +10,6 @@ In this chapter, there are a few experiences where we will get to know each othe
 
 <div style="clear:both;">
 
-^=,,,
-
-**NOTE:** The content in this chapter is not yet ready. It will become available January 24.
-
-^=
+<iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vQxQU3Z_qJqXJJLdKHi9zJnaPihlqmonB8qf_9jl0f_R9Lp4CSiYqFDk4WN-89tQH2TMQOglJ5KAGWN/pubhtml/sheet?headers=false&amp;gid=0&amp;range=A1:D12' width="720" height="309" frameborder="0"></iframe>
 
 </div>
