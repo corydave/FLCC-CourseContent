@@ -1,5 +1,7 @@
 ^^ ASSIGNMENT - Sharing a Google Doc
 
+^= =
+
 # Description
 
 [Click here](https://docs.google.com/document/d/1-SS3BpBd8vE_6HERIqf-wuCO2khSy6Wf_viSPfujDYE/copy) to make a copy of the Google Doc I have prepared for you. All it says in the doc is "SOMETHING COOL". 
@@ -14,7 +16,11 @@ Your task is to put something cool in the Doc and share it with me. This assignm
 
 4. The process of resubmitting work.
 
+^===
 
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/EeJJ7ZN6gDk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+^=
 
 # Specifications
 
@@ -29,3 +35,5 @@ Your task is to put something cool in the Doc and share it with me. This assignm
 * You will receive a zero the first time you submit; don't take it personally! You'll just have to resubmit it.
 
 * There will be a video posted Tuesday morning that shows how to do all this 😁.
+
+
