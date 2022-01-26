@@ -25,7 +25,11 @@ There are a few different ways to take a screenshot on a computer, and it varies
 
 ^= = = ,
 
-**NOTE:** You're going to have to submit this file twice! I will give you a zero the first time you submit. Not because you did a lousy job. Not because I'm a jerk. Not because I don't have faith in your work. But because there is a valuable skill here - *how to resubmit in Blackboard*. There is this wonky behavior in Blackboard where if you are in the grade book and you click on an assignment, you can't see the "Start Submission" button. Instead, you have to go through all the folders and find where you submitted the assignment the first time. *Then* you'll see that button. Here's a [quick video](https://www.youtube.com/watch?v=8w-u3XV1ge0).
+**NOTE:** You're going to have to submit this file twice! I will give you a zero the first time you submit. Not because you did a lousy job. Not because I'm a jerk. Not because I don't have faith in your work. But because there is a valuable skill here - *how to resubmit in Blackboard*. 
+
+There is this wonky behavior in Blackboard where if you are in the grade book and you click on an assignment, you can't see the "Start Submission" button. Instead, you have to go through all the folders and find where you submitted the assignment the first time. *Then* you'll see that button. Here's a [quick video](https://www.youtube.com/watch?v=8w-u3XV1ge0).
+
+After you submit it, I'll grade it. Once you see the zero in the grade book, please resubmit again and I'll grade it properly.
 
 ^=
 
@@ -43,13 +47,17 @@ There are a few that might help as you prepare to do some light research at FLCC
 
 <br /><br />
 
-^= =
+^=
 
 # Specifications
 
 * Submit a screenshot for this assignment that shows your name and your grade.
 
 * You do not need to get a 100% on this tutorial, but you should have a grade above 65%.
+
+* Submit this file the first time and wait for me to grade it. You will receive a zero on the first submission.
+
+* After it is graded, please resubmit and you'll get a proper grade 😁.
 
 * You do not have to link the FLCC library to Google Scholar, but it's cool to do so!
 
