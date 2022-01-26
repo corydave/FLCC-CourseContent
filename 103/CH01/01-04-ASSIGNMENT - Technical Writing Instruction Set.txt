@@ -8,6 +8,8 @@ Your task is to author a document in a technical writing style. Specifically, yo
 
 You'll be asked to pick a topic and describe it in excruciating detail. The challenge lies in distilling the details into coherent, concise steps.
 
+Please submit the work as a link to a cloud-based document such as Google Docs. Make sure the document is shared such that "Anyone with the link can comment". Need help on that? [Check out this video](https://www.youtube.com/watch?v=uRyxsd3cuLA).
+
 ^===
 
 ^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/Ct-lOOUqmyY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -37,3 +39,8 @@ You'll be asked to pick a topic and describe it in excruciating detail. The chal
 * Set page margins to be 0.5 on all four sides
 
 * Make sensible use of formatting such as bold, underlining, and text color
+
+* You should only be pasting a link to your document here.
+
+* Please paste the link in the "WRITE SUBMISSION" portion, not the "COMMENTS" section.
+
