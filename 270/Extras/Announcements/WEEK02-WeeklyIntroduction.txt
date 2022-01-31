@@ -20,7 +20,13 @@ This week we will start to experiment in Linux. The first lab in the chapter req
 
 ^===
 
-^youtube 
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/flwKYiOiyxg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center>
+
+[Link to video](https://www.youtube.com/watch?v=flwKYiOiyxg)
+
+</center>
 
 ^=
 
