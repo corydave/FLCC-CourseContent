@@ -14,11 +14,19 @@ This week we will be looking at an introduction to Computing Sciences. A few thi
 
 * The INFOGRAPHIC assignment has a rubric attached - you should look at the rubric *before* submitting your work. It will tell you exactly what you need to include 😁.
 
+* The INFOGRAPHIC is also an assessment piece (watch the video or look in the syllabus for more details).
+
 * The assignment where you are converting to and from different bases is certainly the most math we will do all semester, and it is probably one of the hardest assignments. Don't get bent out of shape if it seems like it's too much; it's not a great indicator of what to expect in this class.
 
 ^===
 
 ^youtube  <iframe width="560" height="315" src="https://www.youtube.com/embed/rqNftO76vNw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center>
+
+[Link to video](https://www.youtube.com/watch?v=rqNftO76vNw)
+
+</center>
 
 ^=
 
