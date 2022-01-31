@@ -25,6 +25,12 @@ This week we'll be setting up a Google Site as your portfolio. On Wednesday, you
 
 ^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/N4Y9mI86hOU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<center>
+
+[Link to video](https://www.youtube.com/watch?v=N4Y9mI86hOU)
+
+</center>
+
 ^=
 
 # Grading
