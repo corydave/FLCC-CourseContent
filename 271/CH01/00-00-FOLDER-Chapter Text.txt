@@ -20,5 +20,4 @@ This chapter is especially important because you'll get exposed to the TestOut p
 * Complete all content in Chapter 1 in [TestOut](https://w3.testout.com/).
 * Optionally, feel free to add to the [Wakelet board](https://wakelet.com/i/invite?code=0hp7f40z) in this chapter (in Blackboard).
 
-
-
+<br />
