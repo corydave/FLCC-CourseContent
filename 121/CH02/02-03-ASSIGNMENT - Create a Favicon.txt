@@ -1,0 +1,57 @@
+^^ ASSIGNMENT - Create a Favicon
+
+^= =
+
+# Description
+A *favicon* is a graphical representation of a website; it is an icon that helps solidify your branding. 
+
+Consider the following favicon examples.
+
+* The left favicon is for my personal site and uses the primary colors that signify simplicity and Google - they make my initials.
+
+* The FLCC Professional Development Hub uses the FLCC green and red and also a graphic of interlocking to show a balance of interconnectedness. 
+
+* The FringeEdTech favicon is declarative - it's just the words "fringe educational technology".
+
+* In the EmbeddedEducation favicon, again we see the primary colors mixed together making an "e".
+
+* The PhishingDemo.org favicon is circular and has a fish pondering whether or not it should go after a hook.
+
+<center><img src="https://docs.google.com/drawings/d/e/2PACX-1vRSEtsv4zC_crbi3kWwt9pHZPmu17-iD__OEGwSukObgBtzng2G7a3neQ_aP7oaXVAQfl59ErDMBkV0/pub?w=1601&h=330" width="70%" alt="A collection of favicons (each one is radically different than the others, highlighting different features of different favicons)." title="A collection of favicons (each one is radically different than the others, highlighting different features of different favicons)." ​/></center>
+
+^===
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/QX_7AK61km8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center>
+
+[Link to video](https://www.youtube.com/watch?v=QX_7AK61km8)
+
+</center>
+
+^=
+
+<br />
+
+Favicons do not need to be deep in meaning, but they *should* uniquely identify your  generally convey how you see yourself and can include fantasy elements like fangs, elf-ears, wings, stylized hair, or whatever else you'd like to broadcast to the world.
+
+Your job is to create a favicon. You should totally Google Drawings to do it. When you're done, submit a link to it. You can [watch the video](https://www.youtube.com/watch?v=kbLVX-RGOfg) and follow along if you'd like. Be creative! Remember that this will be a signal to visitors of your portfolio what to expect.
+
+# Specifications
+* Though you may use any software you'd like to create your favicon, it should be stored in a Google Drawing when it's finished.
+
+* The size of the favicon must be 128 by 128 pixels.
+
+* Your favicon does not need to have any transparency.
+
+* Please paste a link to the Google Drawing in the "WRITE SUBMISSION" portion of Blackboard.
+
+* Your Google Drawing must be shared such that "Anyone with the link can comment".
+
+* There IS a rubric for this assignment - check it out before submitting!
+
+<center>
+
+## Let's be careful out there!
+
+</center>
