@@ -1,0 +1,56 @@
+<div id="ch03Button" onclick="ch03ContentsToggle()">
+
+<CENTER>
+
+^^ Chapter 3 - System Components<br />&#9660;
+
+</CENTER>
+
+
+</div>
+
+<div id="ch03Contents" style="display:none;">
+
+# Description
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vQAwGkPg3cS0UsK6oaZh03tFzQC0IuCyQ2qw1B8kJ2Z_VwB2zvSlV7HZ_yGh0nMeTZlLkwbwHNgLl_l
+/pub?w=240&amp;h=180" alt="A circuit board shaped like a heart with bandaids over one part of it." title="A circuit board shaped like a heart with bandaids over one part of it." style="float:right;border-radius:25px;margin-right:20px;margin-left:20px;margin-top:0px;margin-bottom:20px;">
+
+
+Let's take a peek at the different aspects of being a PC Tech. This is a job that many of you will have (I did it for a while - I loved it!). There is always something new - whether it is new technology or new challenges. 
+
+Literally, just yesterday (February 1, 2022), I had a friend ask me to help with a problem I had never seen before. She had a tower that had a "corrupt BIOS". 
+
+Always something new!
+
+* 3.1 Cases and Form Factors
+* 3.2 Power Supplies
+* 3.3 Motherboards and Buses
+* 3.4 Motherboard Troubleshooting
+* 3.5 Processors
+* 3.6 Processor Troubleshooting
+* 3.7 Memory
+* 3.8 Memory Installation
+* 3.9 Memory Troubleshooting
+* 3.10 BIOS/UEFI
+* 3.11 Expansion Cards
+* 3.12 Video
+* 3.13 Audio
+* 3.14 Cooling
+
+# Specifications
+* Complete all content in Chapter 3 in [TestOut](https://w3.testout.com/).
+* Optionally, feel free to add to the [Wakelet board](https://wakelet.com/i/invite?code=j25qxrir) in this chapter (in Blackboard).
+
+</div>
+
+<script>
+function ch03ContentsToggle() {
+  var content = document.getElementById("ch03Contents");
+  if (content.style.display === "none") {
+    content.style.display = "inline-block";
+  } else {
+    content.style.display = "none";
+  }
+}
+</script>
