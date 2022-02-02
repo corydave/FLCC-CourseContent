@@ -1,49 +1,48 @@
-<div style="padding: .5rem 0 0 0;font-size: 1.2rem; font-family: 'Ariel', 'Helvetica', sans-serif; ">
-<div style="margin: 0 auto; max-width: 130ch; background-color: white; ">
-<div style="padding: .5em; margin: 0 0 .5em 0; font-size: 2em; font-weight: bold; background-color: #940000; color: #e9e9e9; "> ASSIGNMENT - Create an Avatar</div>
-<div style="display: grid; gap: 2px; grid-template-columns: repeat(auto-fit, minmax( clamp( 50% - 2px, ((55ch   * 2  - 2px * 1) - 100%) * 999,    100%), 1fr));">
-<div style="">
-<h4 style="font-size: 1.3em; margin: 0px; padding: .5em 1rem .5em 1rem; "><b>Description</b></h4>
-<p style="margin: 0px; padding: 0 1rem .5em 1rem; ">An <em>avatar</em> is a depiction of yourself that is oftentimes an illustration and does not necessarily have to mirror your physical presence.</p>
-<p style="margin: 0px; padding: 0 1rem .5em 1rem; ">Avatars generally convey how you see yourself and can include fantasy elements like fangs, elf-ears, wings, stylized hair, or whatever else you&#39;d like to broadcast to the world.</p>
-<p style="margin: 0px; padding: 0 1rem .5em 1rem; ">A prolific thought leader in the educational technology space is Kasey Bell from <a target='_blank'  href="https://shakeuplearning.com/">Shake Up Learning</a>. Here&#39;s her avatar:</p>
+^^ ASSIGNMENT - Create an Avatar
+
+^= =
+
+# Description
+An *avatar* is a depiction of yourself that is oftentimes an illustration and does not necessarily have to mirror your physical presence.
+
+Avatars generally convey how you see yourself and can include fantasy elements like fangs, elf-ears, wings, stylized hair, or whatever else you'd like to broadcast to the world.
+
+A prolific thought leader in the educational technology space is Kasey Bell from [Shake Up Learning](https://shakeuplearning.com/). Here's her avatar:
+
 <center>
 <br />
 <img src="https://shakeuplearning.com/wp-content/themes/shakeup/images/header.png" alt="An illustration of Kasey Bell from Shake Up Learning." width="50%" /><br /><br />
 </center>
 
-<p style="margin: 0px; padding: 0 1rem .5em 1rem; ">Your job is to create an avatar. You can totally use the resources mentioned in the video:</p>
-<ul>
-<li><a target='_blank'  href="https://avatarmaker.com/">AvatarMaker</a></li>
-<li><a target='_blank'  href="https://www.adobe.com/express/create/avatar">Adobe&#39;s avatar maker</a></li>
-</ul>
-<p style="margin: 0px; padding: 0 1rem .5em 1rem; ">You&#39;ll need to create an avatar and submit a link to it. You can <a target='_blank'  href="https://www.youtube.com/watch?v=kbLVX-RGOfg">watch the video</a> and follow along if you&#39;d like. Be creative! As you are creating your avatar, think about how you want your students (and their parents) to see you.</p>
-</div>
-<div style="">
-<div style="position:relative; padding-bottom:56.25%;">
-<iframe style="width:100%; height:100%; position:absolute; left:0px; top:0px;"width="560" height="315" src="https://www.youtube.com/embed/kbLVX-RGOfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-</div>
-</div>
-<h4 style="font-size: 1.3em; margin: 0px; padding: .5em 1rem .5em 1rem; "><b>Specifications</b></h4>
-<ul>
-<li><p style="margin: 0px; padding: 0 1rem .5em 1rem; ">Though you may use any software you&#39;d like to create your avatar, it should be stored in a Google Drawing when it&#39;s finished.</p>
-</li>
-<li><p style="margin: 0px; padding: 0 1rem .5em 1rem; ">The size of the avatar must be 400 by 400 pixels.</p>
-</li>
-<li><p style="margin: 0px; padding: 0 1rem .5em 1rem; ">Your avatar must be cropped into a circle.</p>
-</li>
-<li><p style="margin: 0px; padding: 0 1rem .5em 1rem; ">Your avatar must have transparency.</p>
-</li>
-<li><p style="margin: 0px; padding: 0 1rem .5em 1rem; ">Please paste a link to the Google Drawing in the &quot;WRITE SUBMISSION&quot; portion of Blackboard.</p>
-</li>
-<li><p style="margin: 0px; padding: 0 1rem .5em 1rem; ">Your Google Drawing must be shared such that &quot;Anyone with the link can comment&quot;.</p>
-</li>
-<li><p style="margin: 0px; padding: 0 1rem .5em 1rem; ">There IS a rubric for this assignment - check it out before submitting!</p>
-</li>
-</ul>
+Your job is to create an avatar. You can totally use the resources mentioned in the video:
+* [AvatarMaker](https://avatarmaker.com/)
+* [Adobe's avatar maker](https://www.adobe.com/express/create/avatar)
+
+You'll need to create an avatar and submit a link to it. You can [watch the video](https://www.youtube.com/watch?v=kbLVX-RGOfg) and follow along if you'd like. Be creative! As you are creating your avatar, think about how you want your students (and their parents) to see you.
+
+^===
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/kbLVX-RGOfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+^=
+
+# Specifications
+* Though you may use any software you'd like to create your avatar, it should be stored in a Google Drawing when it's finished.
+
+* The size of the avatar must be 400 by 400 pixels.
+
+* Your avatar must be cropped into a circle.
+
+* Your avatar must have transparency.
+
+* Please paste a link to the Google Drawing in the "WRITE SUBMISSION" portion of Blackboard.
+
+* Your Google Drawing must be shared such that "Anyone with the link can comment".
+
+* There IS a rubric for this assignment - check it out before submitting!
+
 <center>
 
-<h5 style="font-size: 1.17em; margin: 0px; padding: .5em 1rem .5em 1rem; "><b>Let&#39;s be careful out there!</b></h5>
+## Let's be careful out there!
+
 </center>
-</div>
-</div>
