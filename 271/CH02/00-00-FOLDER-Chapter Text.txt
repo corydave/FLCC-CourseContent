@@ -1,0 +1,26 @@
+^^ Chapter 2 - PC Technician Responsibilities
+
+# Description
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vQAwGkPg3cS0UsK6oaZh03tFzQC0IuCyQ2qw1B8kJ2Z_VwB2zvSlV7HZ_yGh0nMeTZlLkwbwHNgLl_l
+/pub?w=240&amp;h=180" alt="A circuit board shaped like a heart with bandaids over one part of it." title="A circuit board shaped like a heart with bandaids over one part of it." style="float:right;border-radius:25px;margin-right:20px;margin-left:20px;margin-top:-20px;margin-bottom:20px;">
+
+
+Let's take a peek at the different aspects of being a PC Tech. This is a job that many of you will have (I did it for a while - I loved it!). There is always something new - whether it is new technology or new challenges. 
+
+Literally, just yesterday (February 1, 2022), I had a friend ask me to help with a problem I had never seen before. She had a tower that had a "corrupt BIOS". 
+
+Always something new!
+
+* 2.1 Protection and Safety
+* 2.2 Professionalism
+* 2.3 Change Management
+* 2.4 PC Tools
+* 2.5 PC Maintenance
+* 2.6 Troubleshooting Process Overview
+
+# Specifications
+* Complete all content in Chapter 2 in [TestOut](https://w3.testout.com/).
+* Optionally, feel free to add to the [Wakelet board](https://wakelet.com/i/invite?code=j25qxrir) in this chapter (in Blackboard).
+
+<br />
