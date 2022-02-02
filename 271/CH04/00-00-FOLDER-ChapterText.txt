@@ -1,0 +1,46 @@
+<div id="ch04Button" onclick="ch04ContentsToggle()">
+
+<CENTER>
+
+^^ Chapter 4 - Peripheral Devices [4-5 hours]<br />&#9660;
+
+</CENTER>
+
+
+</div>
+
+<div id="ch04Contents" style="display:none;">
+
+# Description
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vTh1H-KCL4OHcofc3tcpN405G1KQUmqame7V5xTC0TWPOq3ISzFMkaIRdk98H-MNH5BoKUzXlRn4A3R
+/pub?w=240&amp;h=180" alt="An illustration of a computer monitor that shows different symbols (charging, USB, and Bluetooth)." title="An illustration of a computer monitor that shows different symbols (charging, USB, and Bluetooth)." style="float:right;border-radius:25px;margin-right:20px;margin-left:20px;margin-top:0px;margin-bottom:20px;">
+
+
+One of my favorite parts about this chapter is the introduction to troubleshooting. I know it sounds like common sense and maybe a bit boring, but troubleshooting is one of the differentiators between a *good* tech and a *great* tech.
+
+* 4.1 Peripheral Devices
+* 4.2 USB
+* 4.3 Display Devices
+* 4.4 Video Troubleshooting
+* 4.5 Device Driver Management
+* 4.6 Device Driver Troubleshooting
+
+# Specifications
+
+* Complete all content in Chapter 1 in [TestOut](https://w3.testout.com/).
+* Optionally, feel free to add to the [Wakelet board](https://wakelet.com/i/invite?code=qaprjyss) in this chapter (in Blackboard).
+
+
+</div>
+
+<script>
+function ch04ContentsToggle() {
+  var content = document.getElementById("ch04Contents");
+  if (content.style.display === "none") {
+    content.style.display = "inline-block";
+  } else {
+    content.style.display = "none";
+  }
+}
+</script>
