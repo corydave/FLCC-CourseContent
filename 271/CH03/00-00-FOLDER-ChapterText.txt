@@ -13,15 +13,10 @@
 
 # Description
 
-<img src="https://docs.google.com/drawings/d/e/2PACX-1vQAwGkPg3cS0UsK6oaZh03tFzQC0IuCyQ2qw1B8kJ2Z_VwB2zvSlV7HZ_yGh0nMeTZlLkwbwHNgLl_l
-/pub?w=240&amp;h=180" alt="A circuit board shaped like a heart with bandaids over one part of it." title="A circuit board shaped like a heart with bandaids over one part of it." style="float:right;border-radius:25px;margin-right:20px;margin-left:20px;margin-top:0px;margin-bottom:20px;">
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vQo7VRsAX9djzCul2A99RZ0KOm1VaSJjq306kftHis4ahw7D2rBHML8iaC-GZTNZqyRKFb3Ma14MTAw
+/pub?w=240&amp;h=180" alt="An illustration of a motherboard." title="An illustration of a motherboard." style="float:right;border-radius:25px;margin-right:20px;margin-left:20px;margin-top:0px;margin-bottom:20px;">
 
-
-Let's take a peek at the different aspects of being a PC Tech. This is a job that many of you will have (I did it for a while - I loved it!). There is always something new - whether it is new technology or new challenges. 
-
-Literally, just yesterday (February 1, 2022), I had a friend ask me to help with a problem I had never seen before. She had a tower that had a "corrupt BIOS". 
-
-Always something new!
+THIS. This is the chapter if you are a hardware nerd. If you've built your own computer, you're gonna love this chapter. If you *want* to build a computer, you're gonna love this chapter. If you like [this Wikipedia article about form factors](https://en.wikipedia.org/wiki/Computer_form_factor), you're gonna love this chapter.
 
 * 3.1 Cases and Form Factors
 * 3.2 Power Supplies
@@ -40,7 +35,7 @@ Always something new!
 
 # Specifications
 * Complete all content in Chapter 3 in [TestOut](https://w3.testout.com/).
-* Optionally, feel free to add to the [Wakelet board](https://wakelet.com/i/invite?code=j25qxrir) in this chapter (in Blackboard).
+* Optionally, feel free to add to the [Wakelet board](https://wakelet.com/i/invite?code=xmpocmc7) in this chapter (in Blackboard).
 
 </div>
 
