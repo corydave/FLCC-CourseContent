@@ -1,5 +1,39 @@
 ^^ ASSIGNMENT - Set Up a Google Site for this class
 
-# Description
+^= =
 
-Coming soon.
+# Description
+A *Google Site* is a tool Google makes that lets us make sweet, responsive websites without any code. It has a "drag and drop" interface for easy use and handles much of the design work for us.
+
+We will be building a portfolio using Google Sites during this semester; this step sets up the basic framework. You might find that down the road you can use this portfolio as a showpiece during a job application process. Or maybe you'll use it as evidence for consideration to an academic program. Or perhaps you'll just use it as a repository for cool tools that you can draw from later.
+
+I'm building my site right along with you. My current progress is right about where your progress is. [Check it out for reference!](https://sites.google.com/view/mr-ghidiu/home)
+
+^===
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/t2C19sBAbOs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center>
+
+[Link to video](https://www.youtube.com/watch?v=t2C19sBAbOs)
+
+</center>
+
+^=
+
+<br />
+
+# Specifications
+
+
+* Please paste a link to the Google Drawing in the "WRITE SUBMISSION" portion of Blackboard.
+
+* Your Google Drawing must be shared such that "Anyone with the link can comment".
+
+* There IS a rubric for this assignment - check it out before submitting!
+
+<center>
+
+## Let's be careful out there!
+
+</center>
