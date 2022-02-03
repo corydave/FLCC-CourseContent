@@ -1,0 +1,15 @@
+^^ RESOURCES - Avatar makers & image editing software
+
+<center>
+<iframe src="https://docs.google.com/drawings/d/1S5w8u7XAMw56grt_PnMOerUW8v-HAc3lIxoHSIwQf5o/preview" width="100%" frameborder="0" title="An interactive image with links to avatarmaker.com, adobe.com, drawings.google.com, pixabay.com, and unsplash.com." longdesc="An interactive image with links to avatarmaker.com, adobe.com, drawings.google.com, pixabay.com, and unsplash.com.">...loading...</iframe>
+</center>
+
+* [AvatarMaker.com](https://avatarmaker.com/) to help make an avatar
+
+* [Adobe Avatar Maker](https://www.adobe.com/express/create/avatar) to help make an avatar
+
+* [Google Drawings](https://drawings.google.com/) for modifying and hosting images
+
+* [Pixabay](https://pixabay.com/) for freely licensed photos and illustrations
+
+* [Unsplash](https://unsplash.com/) for freely licensed, professional photos
