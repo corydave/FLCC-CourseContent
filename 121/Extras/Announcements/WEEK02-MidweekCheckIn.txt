@@ -1,0 +1,39 @@
+^^ WEEK 02 - Midweek Check In
+
+^= =
+
+# Welcome to Chapter 2
+I know it's a bit wonky since it's like the middle of the week yet we're staring a new chapter. But that's OK! That's how this class works. Work is always due on Wednesdays.
+
+# Chapter 2 Overview
+This week we'll start to build our portfolio (yeah, I'm building mine right along with you!). We have a few things going on this week:
+
+1. Learn a bit about images (.png vs .jpg, for instance)
+
+2. Make an avatar
+
+3. Make a "favicon"
+
+4. Start making a portfolio!
+
+Don't panic - there are video walkthroughs for each of these experiences. There is also a journal at the end asking you to reflect on how your avatar and favicon represent you.
+
+^===
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/NuzI9wxGmbc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center>
+
+[Link to video](https://www.youtube.com/watch?v=NuzI9wxGmbc)
+
+</center>
+
+^=
+
+<center>
+
+## Let's be careful out there!
+
+</center>
+
+<br /><br />
