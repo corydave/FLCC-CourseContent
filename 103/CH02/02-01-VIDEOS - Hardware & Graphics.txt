@@ -1,0 +1,35 @@
+^^ VIDEOS - Hardware & Graphics
+
+# Description
+
+Check out these two videos. The first video (it's a bit dry) talks about the basics of a Central Processing Unit (CPU - it's like the brain of a computer). 
+
+If you play Minecraft, you might enjoy [this video](https://www.youtube.com/watch?v=LqyyNa9jtRE) which shows how logic gates are used when playing with Redstone in Minecraft.
+
+The second video is a really neat overview of how graphics worked back in the old days. It's really impressive how creative the game designers had to get to cheat the system and make graphics that probably should have never existed.
+
+^= = ,
+
+<center><b>Fundamenals of a CPU</b></center><br />
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/cNN_tTXABUA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center><br />
+
+[Link to video](https://www.youtube.com/watch?v=cNN_tTXABUA)
+
+</center><br />
+
+^=== ,
+
+<center><b>Old school graphics cheating the system!</b></center><br />
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/Tfh0ytz8S0k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center><br />
+
+[Link to video](https://www.youtube.com/watch?v=Tfh0ytz8S0k)
+
+</center><br />
+
+^=
