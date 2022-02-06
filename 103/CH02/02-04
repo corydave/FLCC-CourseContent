@@ -1,0 +1,26 @@
+^^ ASSIGNMENT - Old School Sprite Creation
+
+^= =
+
+## Description
+
+Use the technique demonstrated in the ["How oldschool graphics worked" video][video] to calculate the data needed to generate a hardware sprite on a Commodore 64. 
+
+[video]:https://youtu.be/Tfh0ytz8S0k
+
+The included "smiling ghost" image can be the subject, or you may make your own sprite. If you make your own sprite, you must attach an image for me to check you on and it must have very few repeated rows.
+
+- *Note that there is only one byte per line in this example to keep it simpler than the 3 bytes per line in the video.*
+- *The results should be decimal numbers as shown in the video*
+
+## How to Submit Work
+
+When finished you can type the list of 11 numbers in the **written submission** area below. 
+
+If you created your own image, attach it before submitting.
+
+^===
+
+![8 by 10 grid showing a ghost sprite plotted out as pixel art](https://asullivan.csc.flcc.edu/lms-content/pics/portal-sprite-c64-ghost-smile.png)
+
+^=
