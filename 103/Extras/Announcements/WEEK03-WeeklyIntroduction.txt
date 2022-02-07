@@ -1,0 +1,32 @@
+^^ WEEK 03 - Weekly Introduction
+
+^= =
+
+# What to expect
+This chapter we will be looking at hardware and operating systems. We'll scope out some of the lesser known things in Windows and we'll dabble in Linux.
+
+There is a *really* neat video about graphics on old school computers (and how clever designers were able to push the limit of hardware and trick computers into doing things they shouldn't have been able to do!).
+
+# Gratitude
+Thank you SO MUCH for all your hard work! And for meeting with me one-on-one. I really cherish those meetings. If I haven't met with you yet, I look forward to doing so. Thank you for carving out time.
+
+# Bug Bounty
+You may have noticed a column called "Bug Bounty" in the grade book - if you find an error in the class (a due date, a typo, something that is factually incorrect), then lemme know! Bonus points to the first person to find the issue!
+
+^===
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/LU2LjvhVJDo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center><br />
+
+[Link to video](https://www.youtube.com/watch?v=LU2LjvhVJDo)
+
+<br /></center>
+
+^=
+
+<center><br />
+
+# LET'S BE CAREFUL OUT THERE!
+
+<br /></center>
