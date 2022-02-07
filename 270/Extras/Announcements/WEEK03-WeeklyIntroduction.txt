@@ -1,9 +1,9 @@
 ^^ WEEK 03 - Weekly Introduction
 
+^= =
+
 # What to look forward to
 This week we'll be looking at passwords and people (the weak point of many systems!). Do you know what hashing a password means? Or salting a password? Do you know if you've been pwned? We'll look at all these questions.
-
-^= =
 
 # What to look out for
 
@@ -16,7 +16,13 @@ Many of the LinkedIn posts from Chapter 1 were awesome! It's a unique assignment
 
 ^===
 
-^youtube 
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/Ktpd_9jM0mM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center><br />
+
+[Link to video](https://www.youtube.com/watch?v=Ktpd_9jM0mM)
+
+<br /></center>
 
 ^=
 
