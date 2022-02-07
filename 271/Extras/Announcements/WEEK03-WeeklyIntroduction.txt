@@ -8,15 +8,21 @@ Folks, if you like building your own computer, nerding out about PSUs, showing o
 # What to watch out for
 This chapter is one of the longest - probably twice as long as the previous chapters. Make sure you assess the workload early on this week so you can plan accordingly.
 
-^===
-
-^youtube
-
-^=
 
 # Transferring grades
 As a reminder, I manually transfer the grades from TestOut to Blackboard every Monday around noon. If you aren't finished with chapter 1 or chapter 2 yet, don't worry; finish them by next Monday and they'll be transferred. Remember, there is a 2 week grace period built into the work in this class.
 
+^===
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/7ppOgneNp2M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center><br />
+
+[Link to video](https://www.youtube.com/watch?v=7ppOgneNp2M)
+
+<br /></center>
+
+^=
 
 # Thank you so much
 I appreciate meeting you one-on-one. I know it's hard to juggle a schedule and meet with me, but I'm always ecstatic to chat with you.
@@ -27,3 +33,7 @@ I appreciate meeting you one-on-one. I know it's hard to juggle a schedule and m
 # LET'S BE CAREFUL OUT THERE!
 
 </center><br />
+
+
+
+
