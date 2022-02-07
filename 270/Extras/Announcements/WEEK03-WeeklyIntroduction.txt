@@ -1,0 +1,30 @@
+^^ WEEK 03 - Weekly Introduction
+
+# What to look forward to
+This week we'll be looking at passwords and people (the weak point of many systems!). Do you know what hashing a password means? Or salting a password? Do you know if you've been pwned? We'll look at all these questions.
+
+^= =
+
+# What to look out for
+
+### John the Ripper Lab
+
+The biggest mistake I see in this chapter is usually on the **John the Ripper** lab; it is imperative that you *crack* a password (oftentimes people will pick a really hard password and the feeble password dictionary that comes with JTR won't work). So make sure you read the instructions carefully. Note that JTR might not work on some recent versions of Linux - you can always use the [Google Cloud Shell](https://shell.cloud.google.com/?show=terminal) if you are having issues.
+
+### LinkedIn Posts
+Many of the LinkedIn posts from Chapter 1 were awesome! It's a unique assignment, and it's tough to get right the first time around. Please read the comments (available in the grade book) so you can course correct if necessary. I tend to be pretty picky with these assignments (since they have downstream affects in your academic and professional pursuits). 
+
+^===
+
+^youtube 
+
+^=
+
+# Gratitude
+I'm super grateful for a few things so far:
+* Meeting with you one-on-one has been amazing so far - thank you for carving out time and meeting with me! I look forward to meeting everyone else in the next few weeks.
+
+* Telling me I'm wrong. Seriously. There's a maxim in software design called "Linus's Law" - it says that "given enough eyeballs, all bugs are shallow". That roughly translates to one person is unable to fix all their mistakes, but when many people look at code (or, in this class, course content) it is easier to find all the bugs. I welcome that - please, *please* email me if you find errors. There is a column in the grade book called "BUG BOUNTY". If you are the first to report a mistake, you get extra credit! 
+
+# Grades
+I should have everything graded by the end of today (tomorrow at the latest). Please make sure you are reading the comments!!!!
