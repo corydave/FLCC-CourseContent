@@ -8,15 +8,23 @@ The work that I've seen so far for Chapter 2 is *insane*! It's so cool!!! Thank 
 #  Incognito mode
 Don't forget you should test your Google Site (or any link, really) before submitting it by using *incognito mode*. In your browser, you can use the menu bar and select "Incognito Window" or "Incognito Mode". Then paste your link in the new window; if you can see the contents, I should be able to as well!
 
-<center>
-<img src="https://docs.google.com/drawings/d/e/2PACX-1vTBqWsMFbqf4Q-G5aymQZe2wolRFo8wpnx746YAzYy-n5bkBFLc6jHDGVb04zlSlSd6u5vfMauvNIrb/pub?w=400&h=400" alt="Screenshot from Google Chrome browser showing how to engage Incognito Mode" title="Screenshot from Google Chrome browser showing how to engage Incognito Mode" />
-</center>
+
 
 ^===
 
-^youtube 
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/_YpTCiwb4_A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center><br />
+
+[Link to video](https://www.youtube.com/watch?v=_YpTCiwb4_A)
+
+<br /></center>
 
 ^=
+
+<center>
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vTBqWsMFbqf4Q-G5aymQZe2wolRFo8wpnx746YAzYy-n5bkBFLc6jHDGVb04zlSlSd6u5vfMauvNIrb/pub?w=400&h=400" alt="Screenshot from Google Chrome browser showing how to engage Incognito Mode" title="Screenshot from Google Chrome browser showing how to engage Incognito Mode" />
+</center>
 
 # Gratitude post
 Thank you so much for working so hard, being patient while learning how this course works, and for meeting with me one-on-one. I know it's hard sometimes to carve out time to meet with me, and I appreciate it!
