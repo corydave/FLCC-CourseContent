@@ -1,26 +1,30 @@
-^^ ASSIGNMENT - Old School Sprite Creation
+^^ ASSIGNMENT - Old School Graphics
 
 ^= =
 
-## Description
+# Description
 
-Use the technique demonstrated in the ["How oldschool graphics worked" video][video] to calculate the data needed to generate a hardware sprite on a Commodore 64. 
+Time to make an old school graphic! In the example here, you can see a ghost that looks a bit like the ghosts from Pac Man. You will [make a copy of this Google Sheet](https://docs.google.com/spreadsheets/d/1LBScLzdzUcoe-2ts7wfROXlAbjjOdOxsE7h7RX7A5VA/copy), design a sprite, and then add the numbers on the blank lines to the left of the image.
 
-[video]:https://youtu.be/Tfh0ytz8S0k
+Use the technique demonstrated in the ["How oldschool graphics worked" video](https://youtu.be/Tfh0ytz8S0k?t=306) to calculate the data needed to generate a hardware sprite on a Commodore 64. 
 
-The included "smiling ghost" image can be the subject, or you may make your own sprite. If you make your own sprite, you must attach an image for me to check you on and it must have very few repeated rows.
+Note that in the video, the image had 3 bytes of data per line; we'll only be using one byte of data.
 
-- *Note that there is only one byte per line in this example to keep it simpler than the 3 bytes per line in the video.*
-- *The results should be decimal numbers as shown in the video*
+To make your own sprite in the Google Sheet, simply put an "X" in a cell. That cell will turn gray. To revert the cell back to white, click into the cell and hit delete or backspace.
 
-## How to Submit Work
 
-When finished you can type the list of 11 numbers in the **written submission** area below. 
+# Specifications
 
-If you created your own image, attach it before submitting.
+* The lines in column L should each contain a number between 0 and 255 - that number correlates to the value of the colored bits in each line.
+
+* This must be submitted as a cloud-based document and be shared such that *anyone with the link can comment*.
+
+* Please paste the link in the "Write Submission" portion in Blackboard, not the "Comments" section.
+
 
 ^===
 
-![8 by 10 grid showing a ghost sprite plotted out as pixel art](https://asullivan.csc.flcc.edu/lms-content/pics/portal-sprite-c64-ghost-smile.png)
+![8 by 10 grid showing a ghost sprite plotted out as pixel art](https://docs.google.com/drawings/d/e/2PACX-1vRyCZwBdHVW2TLn_J-PJ3GurHNsb-t1YSy0421tHMu8eI94vCmRQ1jwdINw8DBCC677Ks_zOvSwDbBk/pub?w=613&h=524
+)
 
 ^=
