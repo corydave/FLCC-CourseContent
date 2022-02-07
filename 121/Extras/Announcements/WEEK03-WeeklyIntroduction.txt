@@ -9,7 +9,7 @@ The work that I've seen so far for Chapter 2 is *insane*! It's so cool!!! Thank 
 Don't forget you should test your Google Site (or any link, really) before submitting it by using *incognito mode*. In your browser, you can use the menu bar and select "Incognito Window" or "Incognito Mode". Then paste your link in the new window; if you can see the contents, I should be able to as well!
 
 <center>
-<img src="https://docs.google.com/drawings/d/e/2PACX-1vTBqWsMFbqf4Q-G5aymQZe2wolRFo8wpnx746YAzYy-n5bkBFLc6jHDGVb04zlSlSd6u5vfMauvNIrb/pub?w=300&h=300" alt="Screenshot from Google Chrome browser showing how to engage Incognito Mode" title="Screenshot from Google Chrome browser showing how to engage Incognito Mode" />
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vTBqWsMFbqf4Q-G5aymQZe2wolRFo8wpnx746YAzYy-n5bkBFLc6jHDGVb04zlSlSd6u5vfMauvNIrb/pub?w=400&h=400" alt="Screenshot from Google Chrome browser showing how to engage Incognito Mode" title="Screenshot from Google Chrome browser showing how to engage Incognito Mode" />
 </center>
 
 ^===
