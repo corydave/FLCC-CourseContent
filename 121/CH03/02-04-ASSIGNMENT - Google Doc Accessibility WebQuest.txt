@@ -1,0 +1,43 @@
+^^ ASSIGNMENT - Google Doc Accessibility WebQuest
+
+^= =
+
+# Description
+
+After the reading about accessibility and watching the videos, hopefully I've done a good job of establishing the landscape of why it is important to provide accessible content. 
+
+Hopefully you are also equipped with some tools to help you create accessible materials.
+
+This is a WebQuest. Yes, I know that is such an outdated term. But this experience is kind of like a WebQuest. 
+
+Here's the deal - you'll be making a copy of a Google Doc. There are a few different things you'll have to research (questions 1-6). The video walkthrough here does not cover that part. 
+
+But the last few questions (7-10) ask you to make the document accessible (the walkthrough video *does* show how to do that).
+
+Make a [copy of the Google Doc](https://docs.google.com/document/d/190f1DAIFPh-2wobhH8oqrUJ4I0yMCTGwGfbVu1SaAdA/copy) and then get to work 😄!
+
+^===
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/lFN9h8ZsrQw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center><br />
+
+[Link to video](https://www.youtube.com/watch?v=lFN9h8ZsrQw)
+
+</center><br />
+
+^=
+
+# Specifications
+
+* Change the name of the Google Doc to include your name.
+
+* Add your name *in* the Google Doc, next to "NAME".
+
+* Answer questions 1-6 with your own thoughts. You can totally use any resource you want for this - even resources outside of the readings and videos (use Google if you'd like).
+
+* For questions 7-10, you'll be tasked with doing different things in the document (like ALT tags and styles). Do those things :)
+
+* Share the document so that "Anyone with the link can comment". Copy the link and paste it here in the "WRITE SUBMISSION" portion.
+
+* Have a nice day!
