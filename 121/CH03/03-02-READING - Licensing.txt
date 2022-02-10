@@ -12,7 +12,9 @@ It is really important to note that it is *super easy* to be in violation of cop
 
 Therefore, I *highly* recommend using assets that are in the public domain or are shared under the Creative Commons (or similar) license.
 
-^===
+[Click here to read the document](https://docs.google.com/document/d/1lhfGN-xvavlmzOzpTTJ5i8tY_5wNpqoOTofz1up7PMA/edit). Note that it's a Google Doc that you can comment on. If you find a typo or you think there is a confusing part or you want to add some thoughts, go for it!
+
+^=== ,
 
 
 Some of the best sites for Creative Commons and Public Domain assets:
