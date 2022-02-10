@@ -16,9 +16,11 @@ About halfway through the week. Here are the things you need to know for the wee
 
 <center>
 
-<iframe width="190" height="315" src="https://www.youtube.com/embed/e1q2Vw2ADSs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/R3qXKFx2mrI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-[Link to video](https://www.youtube.com/watch?v=e1q2Vw2ADSs)
+<br />
+
+[Link to video](https://www.youtube.com/watch?v=R3qXKFx2mrI)
 
 </center>
 
