@@ -1,18 +1,10 @@
 ^^ WEEK 03 - Midweek Check In
 
+^= =
+
 Hey folks! The week is about half over and hopefully you've had some time to explore the experiences in chapter 2.
 
 Since we are looking at passwords and people (perhaps the two biggest weak points in any system), it is appropriate that the latest episode of NPR's Planet Money podcast is about a super-famous hack where people were fished. If you like heists, check it out:
-
-<br /><center>
-
-<iframe src="https://www.npr.org/player/embed/1079528331/1079719988" width="100%" height="290" frameborder="0" scrolling="no" title="NPR embedded audio player"></iframe><br />
-<br />
-
-[Link to episode](https://www.npr.org/2022/02/09/1079528331/a-swift-getaway)
-
-</center>
-
 
 A few things to consider:
 
@@ -28,10 +20,33 @@ A few things to consider:
 
     * [Post #3](https://www.linkedin.com/posts/activity-6893983035327676416-yJck)
 
-The one-on-one meetings have been AWESOME! Looking forward to more!
+^===
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/nDhBbdSa0bc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <center>
 
-## LET'S BE CAREFUL OUT THERE 😁
+[Link to video](https://www.youtube.com/watch?v=nDhBbdSa0bc)
 
-</CENTER>
+</center>
+
+^=
+
+The one-on-one meetings have been AWESOME! Looking forward to more!
+
+<br /><center>
+
+<iframe src="https://www.npr.org/player/embed/1079528331/1079719988" width="80%" height="290" frameborder="0" scrolling="no" title="NPR embedded audio player"></iframe><br />
+<br />
+
+[Link to episode](https://www.npr.org/2022/02/09/1079528331/a-swift-getaway)
+
+</center>
+
+<center>
+
+## Let's be careful out there!
+
+</center>
+
+<br /><br />
