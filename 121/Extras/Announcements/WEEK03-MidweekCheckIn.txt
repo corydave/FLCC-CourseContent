@@ -1,0 +1,41 @@
+^^ WEEK 03 - Midweek Check In
+
+^= =
+
+# Welcome to Chapter 3
+You. Are. Awesome.
+
+Keep up the amazing work! Seriously!
+
+# Chapter 3 Overview
+Now we are going to turn our attention to copyright and accessibility. Both of these are <span style="text-decoration: line-through;">boring</span> super important! And actually can be really interesting. 
+
+The big takeaways for me this chapter:
+
+1. [unsplash.com](https://www.unsplash.com) is *awesome* for getting copyright-free images.
+
+2. Don't design things with a mind for *accessibility* - go for *universal design for learning*.
+
+There are some readings this chapter, some videos, and some experiences (with video walkthroughs!).
+
+Your second journal entry is also part of this experience - as you are working your way through the content, think about your experiences as a student and if your teachers considered copyright and/or accessibility as design criteria.
+
+^===
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/NuzI9wxGmbc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center>
+
+[Link to video](https://www.youtube.com/watch?v=NuzI9wxGmbc)
+
+</center>
+
+^=
+
+<center>
+
+## Let's be careful out there!
+
+</center>
+
+<br /><br />
