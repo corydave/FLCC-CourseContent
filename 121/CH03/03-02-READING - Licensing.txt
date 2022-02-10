@@ -1,0 +1,36 @@
+^^ READING - Licensing
+
+# Description
+
+^= =
+
+<div style="float:left;"><a href="https://docs.google.com/document/d/1lhfGN-xvavlmzOzpTTJ5i8tY_5wNpqoOTofz1up7PMA/edit" target="_blank"><img src="https://docs.google.com/drawings/d/e/2PACX-1vTbypi66Dbmf0X2gFhVmon1sCJYVCAlHszY1kW6RMkL5B3VORmSdg-8gSDAeg7JrP_E0swBQ_fJYKRQ/pub?w=200&h=280" alt="A thumbnail of the reading entitled LICENSING." style="margin: 0pt 10pt 10pt 0pt;float:left;"  /></a></div>
+
+First we will examine the main tenets of copyright (including fair use and royalty-free). Then we'll look at alternatives (such as public domain and Creative Commons. There are a *ton* of images, illustrations, movies, music, and other assets out there that are not only legal for you to use, but also legal for you to *modify*!
+
+It is really important to note that it is *super easy* to be in violation of copyright law. The best piece of advice I can give educators is to never, *ever* right click on an image and choose "Save image as". That is the textbook definition of copyright infringement. Even if you don't think you'll ever get caught, it does set a poor example for your students.
+
+Therefore, I *highly* recommend using assets that are in the public domain or are shared under the Creative Commons (or similar) license.
+
+^===
+
+
+Some of the best sites for Creative Commons and Public Domain assets:
+
+## PHOTOS
+* [Unsplash](https://unsplash.com/)
+* [Pixabay](https://pixabay.com/)
+* [Gratisography](https://gratisography.com/)
+* [Pexels](https://www.pexels.com/)
+
+## ILLUSTRATIONS
+* [Pixabay](https://pixabay.com/)
+
+## MUSIC
+* [Free Music Archive](https://freemusicarchive.org/)
+* [Incompetech](https://incompetech.filmmusic.io/)
+* [YouTube Audio Library](http://youtube.com/audiolibrary)
+
+^=
+
+
