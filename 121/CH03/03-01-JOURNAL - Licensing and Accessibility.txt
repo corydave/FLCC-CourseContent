@@ -9,6 +9,8 @@ Have you seen educators break one or both of these laws? What is your biggest ta
 
 ### Here is my response:
 
+<div style="padding-left:20px;">
+
 I have *definitely* seen educators in violation of copyright and accessibility laws. Many educators (and this is not limited to the domain - I see people *everywhere* doing this) are quick to use "fair use" as a shield. But the reality is that fair use is a tenuous equivocation at best. I'll admit that when I was a teacher (especially early on in my career), I didn't really care if I was using copyrighted material in my teachings. I'd use images, copyrighted cartoon characters, music, and videos that did not belong to me. I think that I justified it by saying that it was for the greater good - I was teaching the next generation!
 
 But really what I was doing was breaking the law and modeling poor habits to my students. 
@@ -19,13 +21,12 @@ As far as accessibility is concerned, I witness a lot of infractions that could 
 
 I know it's a pain, but adding ALT tags is definitely worth it. And using styles in Google Docs (Microsoft Word has them, too) is a game changer. Not only does it make the content more accessible, but it also provides other benefits like document outlines and easy-to-change formatting.
 
-The hardest thing to to 
+The hardest thing to do with accessibility, in my opinion, is to get other educators on board. I used to get a lot of resistance like, "I don't have time" or "it's too hard" or "but I don't have any students who need it". Unfortunately, it kind of doesn't matter. Some day you *will* have students who benefit from these things. And compliance with the law is always good! I think showing people how to do ALT tags is easy and quick.
 
-
-
-
-
-<br /><br />
+</div>
+<br />
+<hr />
+<br />
 <div style="clear:both;width:80%;margin-left:auto;margin-right:auto;">
 
 ^=,
