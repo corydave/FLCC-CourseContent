@@ -9,7 +9,17 @@ Have you seen educators break one or both of these laws? What is your biggest ta
 
 ### Here is my response:
 
-I have *definitely* seen educators in violation of copyright and accessibility laws. Many educators (and this is not limited to the domain - I see people *everywhere* doing this) are quick to 
+I have *definitely* seen educators in violation of copyright and accessibility laws. Many educators (and this is not limited to the domain - I see people *everywhere* doing this) are quick to use "fair use" as a shield. But the reality is that fair use is a tenuous equivocation at best. I'll admit that when I was a teacher (especially early on in my career), I didn't really care if I was using copyrighted material in my teachings. I'd use images, copyrighted cartoon characters, music, and videos that did not belong to me. I think that I justified it by saying that it was for the greater good - I was teaching the next generation!
+
+But really what I was doing was breaking the law and modeling poor habits to my students. 
+
+Honestly, if [unsplash](https://www.unsplash.com) and [Pixabay](https://www.pixabay.com) had been around back then, I would have totally used them. The images at unsplash are incredible. Pixabay has amazing illustrations. It's ridiculous that all that stuff is free to use *and* you can modify it however you want. 
+
+As far as accessibility is concerned, I witness a lot of infractions that could get people sued all the time. Tools like Blackboard make it easier to be compliant. For instance, when I post content I'll get a prompt if I include an image and I don't add the ALT tag. Blackboard *also* has a tool called "A11y" that will check my content to make sure it's accessible.
+
+I know it's a pain, but adding ALT tags is definitely worth it. And using styles in Google Docs (Microsoft Word has them, too) is a game changer. Not only does it make the content more accessible, but it also provides other benefits like document outlines and easy-to-change formatting.
+
+The hardest thing to to 
 
 
 
