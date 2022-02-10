@@ -22,11 +22,11 @@ Your second journal entry is also part of this experience - as you are working y
 
 ^===
 
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/NuzI9wxGmbc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/O3k9ztDqc1Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <center>
 
-[Link to video](https://www.youtube.com/watch?v=NuzI9wxGmbc)
+[Link to video](https://www.youtube.com/watch?v=O3k9ztDqc1Q)
 
 </center>
 
