@@ -1,0 +1,37 @@
+^^ WEEK 03 - Midweek Check In
+
+Hey folks! The week is about half over and hopefully you've had some time to explore the experiences in chapter 2.
+
+Since we are looking at passwords and people (perhaps the two biggest weak points in any system), it is appropriate that the latest episode of NPR's Planet Money podcast is about a super-famous hack where people were fished. If you like heists, check it out:
+
+<br /><center>
+
+<iframe src="https://www.npr.org/player/embed/1079528331/1079719988" width="100%" height="290" frameborder="0" scrolling="no" title="NPR embedded audio player"></iframe><br />
+<br />
+
+[Link to episode](https://www.npr.org/2022/02/09/1079528331/a-swift-getaway)
+
+</center>
+
+
+A few things to consider:
+
+1. You *need* to crack a password in the John the Ripper lab! Just going through the motions doesn't guarantee that you've cracked a password! Look at the results!
+
+2. Please [check out this **amazing** submission](https://docs.google.com/document/d/1X-geStZ30CAVgPWwi2HsMGko6ATxvDCtcqB7-JV6ws4/preview) from Cody in response to the first Darknet Diaries lab (episode #33 - RockYou)
+
+3. Please make sure you read the instructions *carefully* for the LinkedIn assignment. Depending on your LinkedIn settings, you may be able to see three MORE posts (from Shannon this time) which are stellar examples of what you should be writing:
+
+    * [Post #1](https://www.linkedin.com/posts/activity-6895404748082937856-4gFN)
+
+    * [Post #2](https://www.linkedin.com/posts/activity-6895738513904787456-gS3a)
+
+    * [Post #3](https://www.linkedin.com/posts/activity-6893983035327676416-yJck)
+
+The one-on-one meetings have been AWESOME! Looking forward to more!
+
+<center>
+
+## LET'S BE CAREFUL OUT THERE 😁
+
+</CENTER>
