@@ -1,0 +1,9 @@
+^^ VIDEO - Searching for Creative Commons Items
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/D4bneA-QeUI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center><br />
+
+[Link to video](https://www.youtube.com/watch?v=D4bneA-QeUI)
+
+</center><br />
