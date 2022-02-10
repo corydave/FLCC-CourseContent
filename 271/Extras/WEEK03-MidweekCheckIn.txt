@@ -1,0 +1,21 @@
+^^ WEEK 02 - Midweek Check In
+
+Hiya! I hope your week is going well - the weather has been fantastic! Here's what's cooking:
+
+1. Chapter 3 in TestOut is due Monday.
+
+2. If you haven't finished chapter 0 (in Blackboard) or chapter 1 (in TestOut), the absolute final deadline is Monday at noon.
+
+3. There's a rather tricky lab in TestOut this week. Just a tip - if the computer isn't powering up, check to see that the voltage regulator is at 110 instead of 220...
+
+Just a little **xkcd** humor for you:
+
+<center>
+
+<img src="https://imgs.xkcd.com/comics/repairs.png" alt="xkcd comic about how well something works." />
+
+[Link to comic](https://xkcd.com/1994/)
+
+</center>
+
+<br /><br />
