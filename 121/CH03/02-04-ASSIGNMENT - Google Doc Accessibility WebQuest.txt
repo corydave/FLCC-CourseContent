@@ -34,7 +34,7 @@ Make a [copy of the Google Doc](https://docs.google.com/document/d/190f1DAIFPh-2
 
 * Add your name *in* the Google Doc, next to "NAME".
 
-* Answer questions 1-6 with your own thoughts. You can totally use any resource you want for this - even resources outside of the readings and videos (use Google if you'd like).
+* Answer questions 1-6 with your own thoughts. You can totally use any resource you want for this - even resources outside of the readings and videos (use Google if you'd like). Be sure to cite your sources (the best way is to use hyperlinks, but you can cite however you'd like).
 
 * For questions 7-10, you'll be tasked with doing different things in the document (like ALT tags and styles). Do those things :)
 
