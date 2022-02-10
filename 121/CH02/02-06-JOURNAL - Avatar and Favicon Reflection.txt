@@ -8,7 +8,9 @@ This week we designed an avatar, built a favicon, and started work on a Google S
 
 ## Take a minute to reflect on your avatar and favicon. How did you express yourself in your avatar and favicon?
 
-Here is my response:
+### Here is my response:
+
+<div style="padding-left:20px;">
 
 I wanted to encapsulate myself as best as I could. My intention is that if you haven't seen me in real life, but you *have* seen my avatar, I'd like you to maybe recognize me. I chose to use a shirt, tie, and jacket because that's typically how I dress for class. I chose blue eyes (like, really blue) because I think that's one of my prominent features on my face. The hair is a bit off. I've always had short hair (ever since Forrest Gump came out in 1994, I've had a pretty similar haircut. But over the past year, I've started growing it out. I would love hair like what's in my avatar, but I'm not quite there yet. And my eyebrows are actually a bit too heavy in the avatar, but I didn't realize it until just now as I'm reflecting on it. I'll have to go back and change it.
 
@@ -16,9 +18,10 @@ I wanted to encapsulate myself as best as I could. My intention is that if you h
 
 As far as my favicon goes, the one I am using is *not* the one I made in the video. The one I've included here are my initials, D and G. They are made up of geometric shapes (I was a geometry teacher for eight years!) and they use the primary colors for two reasons - I want to exude a feeling of simplicity (like, a clean, crisp educational experience for my students - something easy, like coloring back in elementary school) and because they are a nod to Google's logo (and I believe a lot of Google's tools are really helpful in education.
 
-
-
-<br /><br />
+</div>
+<br />
+<hr />
+<br />
 <div style="clear:both;width:80%;margin-left:auto;margin-right:auto;">
 
 ^=,
