@@ -1,4 +1,6 @@
-^^ WEEK 02 - Midweek Check In
+^^ WEEK 03 - Midweek Check In
+
+^= =
 
 Hiya! I hope your week is going well - the weather has been fantastic! Here's what's cooking:
 
@@ -7,6 +9,29 @@ Hiya! I hope your week is going well - the weather has been fantastic! Here's wh
 2. If you haven't finished chapter 0 (in Blackboard) or chapter 1 (in TestOut), the absolute final deadline is Monday at noon.
 
 3. There's a rather tricky lab in TestOut this week. Just a tip - if the computer isn't powering up, check to see that the voltage regulator is at 110 instead of 220...
+
+
+<br /><br />
+
+^===
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/nDhBbdSa0bc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center>
+
+[Link to video](https://www.youtube.com/watch?v=nDhBbdSa0bc)
+
+</center>
+
+^=
+
+<center>
+
+## Let's be careful out there!
+
+</center>
+
+<br /><br />
 
 Just a little **xkcd** humor for you:
 
@@ -17,5 +42,3 @@ Just a little **xkcd** humor for you:
 [Link to comic](https://xkcd.com/1994/)
 
 </center>
-
-<br /><br />
