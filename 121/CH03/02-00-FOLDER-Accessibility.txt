@@ -8,4 +8,4 @@
 
 * VIDEO - How screen readers work
 
-* **ASSIGNMENT - Google Doc Accessibility Webquest**
+* **ASSIGNMENT - Google Doc Accessibility WebQuest**
