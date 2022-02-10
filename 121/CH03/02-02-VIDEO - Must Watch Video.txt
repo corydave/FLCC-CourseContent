@@ -1,0 +1,32 @@
+^^ VIDEO - Must Watch Video
+
+^= =
+
+This is a tweet from Steve Saylor. He is blind. And he plays video games ([his YouTube channel](https://www.youtube.com/c/SteveSaylorsnowball) is quite prolific - he has reactions, reviews, and first impressions as he plays video games). Steve also [advocates for accessibility in games](https://www.vice.com/en/article/akzgwb/blind-gamer-steve-saylor-is-fighting-for-accessibility-in-video-games).
+
+In June of 2020, one of his videos went viral - it was a reaction to the game "The Last of Us 2". You don't have to be familiar with the game to appreciate his two minute video; all you need to know is that he has been fighting for years to get more accessibility features in video games and that The Last of Us 2 delivered the best accessibility features in a game. 
+
+Full stop.
+
+There are probably lots of examples of accessibility that I could have included here - a lot of pieces that relate to schools, classrooms, and students. But I chose this one for two reasons:
+
+1. Accessibility is oftentimes an afterthought. The potency of accessibility done right should resonate with you. It should be haunting. And this two minute video does that.
+
+2. Accessibility isn't an education issue; accessibility is a societal issue that extends to every domain.
+
+Hopefully you can take away how important accessibility features are for people who need them. And remember this for when you develop your own materials.
+
+^===
+
+<center>
+  
+<a href="https://twitter.com/stevesaylor/status/1271404306697158659" target="_blank" rel="noreferrer noopener">Link to tweet</a><br /><br />
+<blockquote class="twitter-tweet">
+<p lang="en" dir="ltr">I've been reluctant to post this.<br /><br />I recorded my reaction when I saw the <a href="https://twitter.com/hashtag/accessibility?src=hash&amp;ref_src=twsrc%5Etfw">#accessibility</a> settings in <a href="https://twitter.com/hashtag/TheLastofUsPartII?src=hash&amp;ref_src=twsrc%5Etfw">#TheLastofUsPartII</a> for the first time thinking it would be a fun video for posterity. I...did not expect this.<br /><br />This is why we do what we do. 😢<br /><br />Thank you <a href="https://twitter.com/Naughty_Dog?ref_src=twsrc%5Etfw">@Naughty_Dog</a>. <a href="https://t.co/D5Or2B9Tfw">pic.twitter.com/D5Or2B9Tfw</a></p>
+&mdash; Steve Saylor (@stevesaylor) <a href="https://twitter.com/stevesaylor/status/1271404306697158659?ref_src=twsrc%5Etfw">June 12, 2020</a></blockquote>
+
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8" type="text/javascript"></script>
+
+</center>
+
+^=
