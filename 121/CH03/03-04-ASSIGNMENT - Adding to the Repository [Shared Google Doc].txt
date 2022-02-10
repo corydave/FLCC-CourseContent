@@ -20,7 +20,7 @@ By the end of this exercise, we should have access to a list of all sorts of dif
 
 ^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/_relaqce5uA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<center>><br />
+<center><br />
 
 [Link to video](https://www.youtube.com/watch?v=_relaqce5uA)
 
