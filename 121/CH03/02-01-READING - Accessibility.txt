@@ -1,0 +1,37 @@
+^^ READING - Accessibility
+
+# Description
+
+^= =
+
+<div style="float:left;"><a href="https://docs.google.com/document/d/1gsYqL-jpQ2CATAe1dDl0CWXWF4DBneS7QAooj_iuT8A/edit" target="_blank"><img src="https://docs.google.com/drawings/d/e/2PACX-1vQA-2XZNLIkpc_gVvr99NQpe9rvJpCTHkwnsXCFhJ8u4xN5AKh9_cUa6UAGeKQaKL3Fog5OYNPCkc8N
+/pub?w=200&h=280" alt="A thumbnail of the reading entitled ACCESSIBILITY." style="margin: 0pt 10pt 10pt 0pt;float:left;"  /></a></div>
+
+There are federal and state laws that mandate you, as an educator, provide equal learning opportunities to all students. Oftentimes this means taking care to make considerations for *all* students.
+
+This might mean extra time for tests, but it also means making sure that students who are deaf or hard of hearing get the same content as students who can hear. Visually impaired students should have the same content as students who can see.
+
+This reading is a primer on some of the big-ticket items that you can do to ensure students have equal opportunities to apprehend all the content in your course.
+
+[Click here to read the document](https://docs.google.com/document/d/1gsYqL-jpQ2CATAe1dDl0CWXWF4DBneS7QAooj_iuT8A/edit). Note that it's a Google Doc that you can comment on. If you find a typo or you think there is a confusing part or you want to add some thoughts, go for it!
+
+^=== ,
+
+Some of the best (and easiest) things you can do in your courses to be compliant with accessibility laws:
+
+* Transcripts for videos
+
+* Captions for videos
+
+* Styles in documents
+
+* ALT tags with images
+
+* Images should not include text
+
+* Make PDFs accessible
+
+* Be colorblind aware
+
+^=
+
