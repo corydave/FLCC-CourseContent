@@ -1,0 +1,37 @@
+^^ WEEK 04 - Weekly Introduction [Part II]
+
+^= =
+
+# Welcome
+
+Welcome to Chapter 3 - Computational Thinking! This is a fun introduction into the domain of "how computer professionals think". It's not everything you need to know, but hopefully you walk away with some very positive experiences and a fresh perspective of how you attack problems.
+
+^===
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/OYeMByT00_k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center>
+
+[Link to video](https://www.youtube.com/watch?v=OYeMByT00_k)
+
+</center><br />
+
+^=
+
+# Please note
+
+This chapter spans two weeks. The first week has a few things that are noteworthy:
+
+* The discussion about shopping carts is due 2/18; there is no grace period for this assignment. That is because the conversation in the Discussion will inform the work that is due 2/21.
+
+* There is no video for making a flowchart... yet. Don't worry! It will be posted soon! But you can get started without it; you don't need it to do the assignment.
+
+* In both the FLOWCHARTS and PSEUDOCODE assignments, there are quizzes that you must take (and pass!) before you can see the actual assignment.
+
+* The MESSY PROBLEM is one of the most critical assignments of the semester; please make sure you spend a lot of time on the assignment (and read the instructions). If you have questions on it (especially if you live far away from campus), contact me!
+
+<center><br />
+
+## Let's be careful out there!
+
+<br /></center>
