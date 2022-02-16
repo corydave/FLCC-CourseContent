@@ -1,0 +1,28 @@
+^^ WEEK 04 - Weekly Introduction [Part II]
+
+^= =
+
+# Welcome
+
+Hey folks! This chapter is a bit smaller (okay, substantially smaller) than previous chapters. Chances are, this will be a cakewalk for some of you. If you've hung around computers a lot, you'll probably know most of the content in this chapter just by virtue of dorking around on a computer!
+
+The grades from TestOut will be transferred today!
+
+
+^===
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/O5if-8JbAto" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center>
+
+[Link to video](https://www.youtube.com/watch?v=O5if-8JbAto)
+
+</center><br />
+
+^=
+
+<center><br />
+
+## Let's be careful out there!
+
+<br /></center>
