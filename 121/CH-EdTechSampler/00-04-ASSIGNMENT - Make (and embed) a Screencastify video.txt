@@ -1,0 +1,54 @@
+^^ ASSIGNMENT - Make (and embed) a Screencastify video
+
+^= =
+
+A *screencast* is when the screen of a computer is recorded to demonstrate how to use software. Making screencasts is a good way to show students how to use software. You've probably seen screencasts on YouTube (you've definitely seen them in this class). 
+
+There are a lot of different screencasting options out there. I prefer [Screencastify](https://www.screencastify.com/) (it's a Chrome extension, so you don't need to install any software on your computer and it will work on all your computers - as long as you are using the Chrome browser).
+
+Other options include:
+
+* [WeVideo](https://www.wevideo.com/hub) - Great software for capturing your screen and editing the video - free and paid plans
+
+* [Camtasia](https://www.techsmith.com/video-editor.html) - I use this on my PC and Mac - it's worth the price if you screencast often
+
+* [Screencast-O-Matic](https://screencast-o-matic.com/) - This is also a Chrome extension, but for a small subscription you can get desktop editing capabilities
+
+* [Adobe Captivate](https://www.adobe.com/products/captivate.html) - High end software, but unless you have a big budget, I would look at other options
+
+* [Techsmith Capture](https://www.techsmith.com/jing-tool.html) - Formerly known as Jing, this is decent software made by the same company that makes Camtasia (and it's free!)
+
+* [Loom](https://www.loom.com/) - One of the easiest ways to capture your screen and your face at the same time. Crops your video as a circle, too!
+
+^===
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/wY4-WOsn9YI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center><br />
+
+[Link to video](https://www.youtube.com/watch?v=wY4-WOsn9YI)
+
+</center>
+
+^=
+
+One of the best sources for screencast tips comes from a recent episode from the Cult of Pedagogy podcast ([#144: Everything You Need to Know About Building a Great Screencast Video](https://www.cultofpedagogy.com/screencast-videos/)). Even though the episode is 47 minutes long, it's definitely worth your time to listen to it.
+
+<center><audio controls="controls"> 
+  <source src="https://traffic.libsyn.com/secure/force-cdn/highwinds/cultofpedagogy/Episode_144.mp3" type="audio/mpeg" /> Your browser does not support the audio element. 
+ </audio></center><br >
+
+Pick a topic that seems grade appropriate for the littles you'll be teaching. Once it's done, embed the video into your Google Site and submit the link to the page where the video is here.
+
+
+
+<div style="clear:both;">
+
+# Specifications
+* Pick a topic that you imagine you might use when you are teaching (so it must be age appropriate)
+* You do not have to have your face in the video, but you can if you want to
+* Please embed the video into your Google Site under the "Interactives" page
+* Copy the link to this specific item and paste it into Blackboard
+
+
+</div>
