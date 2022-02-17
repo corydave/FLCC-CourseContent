@@ -1,0 +1,31 @@
+^^ WEEK 04 - Weekly Introduction [Part II]
+
+^= =
+
+# Welcome
+
+This is one of my favorite chapters from this class. Ransomware, as you know, is a growing (and persistent) threat to security. If you've been watching the news, you've probably seen that our government is starting to pass legislation regarding ransomware (more on that in chapter 9!).
+
+This chapter is a little shorter than the previous chapter, but there are some things to think about with the labs:
+
+* The chroot Jail lab cannot be done verbatim to the way I did it in my lab; some of the files will be different. The *process* in the lab is the same, but you'll just have to ensure you copy the right files.
+
+* The VirusTotal lab isn't optional, but handling a live virus is optional. If you *do* decide to handle a live virus, please make sure you are sandboxed and in a Virtual Machine you don't mind losing (should you screw something up). 
+
+^===
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/PJqG9dpyBjY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center>
+
+[Link to video](https://www.youtube.com/watch?v=PJqG9dpyBjY)
+
+</center><br />
+
+^=
+
+<center><br />
+
+## Let's be careful out there!
+
+<br /></center>
