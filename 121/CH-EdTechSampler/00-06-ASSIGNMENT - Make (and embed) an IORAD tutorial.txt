@@ -39,22 +39,15 @@ You will have to:
 
 </center><br >
 
-Pick a topic that seems grade appropriate for the littles you'll be teaching. Once it's done, embed the book into your Google Site and submit the link to the page where the video is here.
-
-
+Pick a topic that seems grade appropriate for the kiddos you'll be teaching. Once it's done, embed the tutorial into your Google Site and submit the link to the page where the video is here.
 
 <div style="clear:both;">
 
 # Specifications
 
 * Pick a topic that you imagine you might use when you are teaching (so it must be age appropriate)
-* A cover with your name on it
-* At least six pages
-* A back cover
-* Beautiful images with citations (even CC0 should be listed - see my example)
-* At least three text boxes
-  * One text box should be rotated
-*One page should use a background offered by BookCreator (the back cover of my book uses a background)
+* You should have at least five steps
+* The written instructions should be modified to be clearn and concise
 * Please embed the book into your Google Site under the "Interactives" page
 * Copy the link to this specific item and paste it into Blackboard
 
