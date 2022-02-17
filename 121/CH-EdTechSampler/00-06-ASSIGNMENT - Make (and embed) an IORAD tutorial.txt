@@ -1,0 +1,62 @@
+^^ ASSIGNMENT - Make (and embed) an IORAD tutorial
+
+^= =
+
+[IORAD](https://www.iorad.com/) is an interesting piece of software; it allows you to make step-by-step tutorials. Once you create it, you can distribute it as an interactive tutorial (where the participant has to walk through the process by clicking on buttons), a PDF instruction manual, a video, a step-by-step list, or as a quiz. 
+
+It's quick to learn, but you need to spend some time if you want to master it (which you do not need to for this class). You will, however, be making a tutorial using IORAD for this assignment. It does NOT need to be a tutorial that covers a complicated topic; it can be pretty simple (like how to log into a website like FlipGrid, or how parents can access grades in a class, or how to do something in Google Docs, for example). 
+
+It should:
+* **Be easy to understand from the text:** you might have to tweak the words that are automatically generated
+
+* **Be accurate:** the hit-boxes must be accurate and the steps/flow of the tutorial should lead to accurate completion
+
+* **Be presentable:** the final product should be good-to-go for a class you would be teaching
+
+You will have to:
+* Install the Chrome Extension (or Firefox, or Edge).
+
+* Watch this tutorial video - note that the tutorial goes over some advanced maneuvers (the dragging and dropping, for instance). You do not need to include the more difficult moves in your tutorial.
+
+
+^===
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/bR1A3kMYAYY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center><br />
+
+[Link to video](https://www.youtube.com/watch?v=iFJq4bR1A3kMYAYYcQZqhI)
+
+</center>
+
+^=
+
+
+
+<center>
+
+<div style="max-width: 100%; width: 800px; margin: 0 auto;"> <div style="display: none;"> <p style="display: none; text-align: center; margin-top: 10px;"> <i style="font-style: italic; font-weight: bold; color: #CCCCCC; font-size: 18px;">6 STEPS</i> </p> <p style='font-size: 15px; line-height: 136%; margin-top: 59px; margin-bottom: 51px;'> 1. The first step is to open the blog in your browser. Here I used the CCCAT blog. </p> <p style="text-align: center;"> <img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=1873673&step_number=1&width=800&height=600&mobile_width=450&mobile_height=400&apply_resize=true&min_zoom=0.5" style="max-width: 100%;max-height: 100%;border: none;" alt="Step 1 image" /> </p> <p style='font-size: 15px; line-height: 136%; margin-top: 59px; margin-bottom: 51px;'> 2. Click on the image for the post you want to read and comment on. </p> <p style="text-align: center;"> <img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=1873673&step_number=2&width=800&height=600&mobile_width=450&mobile_height=400&apply_resize=true&min_zoom=0.5" style="max-width: 100%;max-height: 100%;border: none;" alt="Step 2 image" /> </p> <p style='font-size: 15px; line-height: 136%; margin-top: 59px; margin-bottom: 51px;'> 3. Scroll down to the bottom and click in <b style="font-weight:normal;color:#FF00D6">Enter your comment...</b> </p> <p style="text-align: center;"> <img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=1873673&step_number=3&width=800&height=600&mobile_width=450&mobile_height=400&apply_resize=true&min_zoom=0.5" style="max-width: 100%;max-height: 100%;border: none;" alt="Step 3 image" /> </p> <p style='font-size: 15px; line-height: 136%; margin-top: 59px; margin-bottom: 51px;'> 4. Type in your comment. </p> <p style="text-align: center;"> <img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=1873673&step_number=4&width=800&height=600&mobile_width=450&mobile_height=400&apply_resize=true&min_zoom=0.5" style="max-width: 100%;max-height: 100%;border: none;" alt="Step 4 image" /> </p> <p style='font-size: 15px; line-height: 136%; margin-top: 59px; margin-bottom: 51px;'> 5. Scroll down and hit "Publish". That's it. You're done. </p> <p style="text-align: center;"> <img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=1873673&step_number=5&width=800&height=600&mobile_width=450&mobile_height=400&apply_resize=true&min_zoom=0.5" style="max-width: 100%;max-height: 100%;border: none;" alt="Step 5 image" /> </p> <p style='font-size: 15px; line-height: 136%; margin-top: 59px; margin-bottom: 51px;'> 6. Scroll down and hit "Publish". That's it. You're done. </p> <p style="text-align: center;"> <img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=1873673&step_number=6&width=800&height=600&mobile_width=450&mobile_height=400&apply_resize=true&min_zoom=0.5" style="max-width: 100%;max-height: 100%;border: none;" alt="Step 6 image" /> </p> </div> </div> <h3 style="display: none; font-size: 18px; margin-top: 89px; margin-bottom: 15px;"> Here's an interactive tutorial </h3> <i style="display: none; font-size: 15px; margin-top: 0; margin-bottom: 43px;">** Best experienced in Full Screen (click the icon in the top right corner before you begin) **</i> <p style="display: none;"> <a href="https://www.iorad.com/player/1873673/How-to-leave-comments-on-a-Blogger-site">https://www.iorad.com/player/1873673/How-to-leave-comments-on-a-Blogger-site</a> </p> <p style="border: 0; min-width: 100%; margin-bottom: 0; height: 501px;"> <iframe src="https://www.iorad.com/player/1873673/How-to-leave-comments-on-a-Blogger-site?src=iframe&oembed=1" width="100%" height="500px" style="width: 100%; height: 500px; " referrerpolicy="strict-origin-when-cross-origin" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen" allow="camera; microphone"></iframe> </p>
+
+</center><br >
+
+Pick a topic that seems grade appropriate for the littles you'll be teaching. Once it's done, embed the book into your Google Site and submit the link to the page where the video is here.
+
+
+
+<div style="clear:both;">
+
+# Specifications
+
+* Pick a topic that you imagine you might use when you are teaching (so it must be age appropriate)
+* A cover with your name on it
+* At least six pages
+* A back cover
+* Beautiful images with citations (even CC0 should be listed - see my example)
+* At least three text boxes
+  * One text box should be rotated
+*One page should use a background offered by BookCreator (the back cover of my book uses a background)
+* Please embed the book into your Google Site under the "Interactives" page
+* Copy the link to this specific item and paste it into Blackboard
+
+
+</div>
