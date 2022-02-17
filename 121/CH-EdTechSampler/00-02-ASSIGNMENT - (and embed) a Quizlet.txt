@@ -1,0 +1,35 @@
+^^ ASSIGNMENT - Make (and embed) a Quizlet
+
+^= =
+
+[Quizlet](https://quizlet.com/) is a tool that lets you make flashcards.
+
+Teachers can use it to create study aids for students (it has been shown that interleaving is a very effective way of studying, and flashcards that embrace interleaving are an easy way to leverage this). 
+
+Students can make flashcards too. Some teachers might actually create a set of flashcards and have each student create flashcards to add to the set.
+
+Your job is to make a set of flashcards that cover a specific topic of your choosing. You must have at least six cards and at least one of them must include an image.
+
+^===
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/ZXXh9ZgAzz4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center><br />
+
+[Link to video](https://www.youtube.com/watch?v=ZXXh9ZgAzz4)
+
+</center>
+
+^=
+
+<div style="clear:both;">
+
+# Specifications
+* Pick a topic that you imagine you might use when you are teaching (so it must be age appropriate)
+* Please include at least 6 flashcards
+* Make sure there is an image on at least two of the flashcards
+* Please embed this Quizlet into your Google Site under the "Interactives" page
+* Copy the link to this specific item and paste it into Blackboard
+
+
+</div>
