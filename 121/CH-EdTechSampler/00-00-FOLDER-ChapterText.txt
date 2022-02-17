@@ -1,0 +1,32 @@
+^^ Chapter 4 - EdTech Sampler
+
+# Experiences for this chapter
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vR5BA0q-NVVQwckAW5WJIG1ohNQi0k027EGTyg_uSGhictS42zohBAMo3ykXgRgy1jWVbn0iui7aLtK
+/pub?w=240&amp;h=180" alt="TThe logos for BookCreator, Screencastify, Quizlet, and Padlet." title="The logos for BookCreator, Screencastify, Quizlet, and Padlet." style="float:right;border-radius:25px;margin-right:20px;margin-left:20px;margin-top:-20px;margin-bottom:20px;">
+
+While much of this course focuses on what you can do with Google products, there are *tons* of other tools out there that can help you as you teach.
+
+The tools we will be looking at here are a sampling of some of the really neat tools out there. As you get experience with each tool, ponder how you might leverage it in your classroom; you'll talk about that in your Journal.
+
+* **Padlet** is a way to curate content with your students. It is similar to Pinterest.
+
+* **Quizlet** is a cool way to make flashcards and other retrieval activities.
+
+* **Screencastify** is an easy way to record the screen in your browser and is useful for making tutorials *and* giving feedback to students. One of the newer features makes it easy to put in questions that students have to answer *while watching* the video.
+
+* **BookCreator** is an awesome way to make a really nice looking digital book that can include videos, images, and other multimedia.
+
+* **IORAD** is a neat, interactive way to make a tutorial (your students will have to click exactly where you click - it's really neat!).
+
+<div style="clear:both;">
+
+<iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vQxQU3Z_qJqXJJLdKHi9zJnaPihlqmonB8qf_9jl0f_R9Lp4CSiYqFDk4WN-89tQH2TMQOglJ5KAGWN/pubhtml/sheet?headers=false&amp;gid=1250865820&amp;range=A1:D13'style="width:100%;max-width:720px;height:330" frameborder="0"></iframe>
+
+</div>
+
+<center><br />
+
+## Let's be careful out there!
+
+<br /></center>
