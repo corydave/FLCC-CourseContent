@@ -1,0 +1,31 @@
+^^ WEEK 04 - Midweek Check In
+
+^= =
+
+# Welcome to Chapter 4
+Welcome to the weekend! Two things in this video, folks.
+
+* A bit about the chroot jail lab (if you are having issues, make sure you are super careful with the files you are copying.
+
+* A cool primer on how to use sudo and sudo -i when you need admin access.
+
+Enjoy the weekend, take a small walk outside (even if it's cold). Even 10 minutes is refreshing!
+
+^===
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/tmnUNLKJyZA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center>
+
+[Link to video](https://www.youtube.com/watch?v=tmnUNLKJyZA)
+
+</center>
+
+^=
+
+<center><br />
+
+## Let's be careful out there!
+
+<br /></center>
+
