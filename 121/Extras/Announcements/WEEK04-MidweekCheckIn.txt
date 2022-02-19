@@ -1,0 +1,30 @@
+^^ WEEK 04 - Midweek Check In
+
+^= =
+
+# Welcome to Chapter 4
+
+This chapter is spread across ***two weeks***. There is no work due on Wednesday, February 23!
+
+There are essentially five projects (each one has a video walkthrough) and then you'll be posting each project in your Google Sites portfolio.
+
+If you have any questions, please let me know! The first video shows you exactly how to embed each item *and* post the precise links from your Google Site.
+
+^===
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/AsqcGFP4Aes" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center>
+
+[Link to video](https://www.youtube.com/watch?v=AsqcGFP4Aes)
+
+</center>
+
+^=
+
+<center><br />
+
+## Let's be careful out there!
+
+<br /></center>
+
