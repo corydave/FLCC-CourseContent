@@ -1,0 +1,28 @@
+^^ WEEK 05 - Weekly Introduction
+
+# Cryptography & Information
+This chapter is really neat (I think it is, anyhow). We'll be making fake tweets, hiding information in images, and practicing one of the older forms of encryption (and the only one proven to be completely unbreakable).
+
+# A few notes
+* For the **One Time Pad Cipher Lab**, you'll need to look at *the individual, unique code* that has been assigned to you.
+
+* For the **Steganography Lab** and the **Using GnuPG Lab**, you'll need to be *very careful* with the deliverables. You'll need to submit a few different things in Blackboard (in addition to the link to the Google Doc).
+
+
+# Grades
+Hey folks - I know there are a number of assignments that haven't been entered into the grade book yet. One of the challenges of this high-touch course is that there are a lot of experiences. I assure you I'll have them done as soon as I can. I thank you for your patience!
+
+Please note that work handed in late (but within the grace period) won't be graded as fast as work that was handed in on time.
+
+# Need anything?
+If you need *anything*, let me know. I'm here for you!
+
+
+<center><br />
+
+# LET'S BE CAREFUL OUT THERE!
+
+</center><br />
+
+
+
