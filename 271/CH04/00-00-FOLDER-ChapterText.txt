@@ -28,8 +28,8 @@ One of my favorite parts about this chapter is the introduction to troubleshooti
 
 # Specifications
 
-* Complete all content in Chapter 1 in [TestOut](https://w3.testout.com/).
-* Optionally, feel free to add to the [Wakelet board](https://wakelet.com/i/invite?code=qaprjyss) in this chapter (in Blackboard).
+* Complete all content in Chapter 4 in [TestOut](https://w3.testout.com/).
+* Optionally, feel free to add to the [Wakelet board](https://wakelet.com/i/invite?code=qaprjyss) in this chapter
 
 
 </div>
