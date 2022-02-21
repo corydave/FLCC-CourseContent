@@ -1,0 +1,48 @@
+<div id="ch05Button" onclick="ch05ContentsToggle()">
+
+<CENTER>
+
+^^ Chapter 5 - Storage [8-9 hours]<br />&#9660;
+
+</CENTER>
+
+
+</div>
+
+<div id="ch05Contents" style="display:none;">
+
+# Description
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vTsQGSUMLsry7z4azg_J_L8FPRn9BssAwozrH7B5RHzF6GIa75rZ8l2mHpeCz1gmfnB5nzLQsKHZUK3/pub?w=240&amp;h=180" alt="An illustration of a computer hard drive and a rack of storage devices." title="An illustration of a computer hard drive and a rack of storage devices." style="float:right;border-radius:25px;margin-right:20px;margin-left:20px;margin-top:0px;margin-bottom:20px;">
+
+As I was looking over the topics here and digging through TestOut, I was hoping to find the "this is the most important part of this chapter" topic. But I couldn't find one. I think the reason I value all of these is because of the recent and persistent attacks on information (ransomware, for instance). It is *mission critical* to understand management issues, protection issues, and mean-time-to-repair. Backups are table stakes.
+
+* 5.1 Storage Devices
+* 5.2 SATA
+* 5.3 Optical Media
+* 5.4 RAID
+* 5.5 File Systems
+* 5.6 File System Creation
+* 5.7 Storage Management
+* 5.8 Storage Spaces
+* 5.9 Disk Optimization
+* 5.10 Storage Troubleshooting
+
+# Specifications
+
+* Complete all content in Chapter 5 in [TestOut](https://w3.testout.com/).
+* Optionally, feel free to add to the [Wakelet board](https://wakelet.com/i/invite?code=7x0qy9dx) in this chapter
+
+
+</div>
+
+<script>
+function ch05ContentsToggle() {
+  var content = document.getElementById("ch05Contents");
+  if (content.style.display === "none") {
+    content.style.display = "inline-block";
+  } else {
+    content.style.display = "none";
+  }
+}
+</script>
