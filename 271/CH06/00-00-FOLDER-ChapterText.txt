@@ -1,0 +1,50 @@
+<div id="ch06Button" onclick="ch06ContentsToggle()">
+
+<CENTER>
+
+^^ Chapter 6 - Networking [9-10 hours]<br />&#9660;
+
+</CENTER>
+
+
+</div>
+
+<div id="ch06Contents" style="display:none;">
+
+# Description
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vRaFIxh7toolUqfClOGScjon6V412wZJx55YXhzGs1hYhtVyshRsBV58hkM7LgAWzsRbfZHsQdL1xba/pub?w=240&amp;h=180" alt="A photograph of servers and switches with ethernet cables neatly arranged." title="A photograph of servers and switches with ethernet cables neatly arranged." style="float:right;border-radius:25px;margin-right:20px;margin-left:20px;margin-top:0px;margin-bottom:20px;">
+
+Buckle up - it's about to get rockin'!
+
+Networking has *a lot* of things to know. A LOT. Like, tons. You'll have to know the protocols. You'll have to know the acronyms. You'll have to understand how the internet works (all 7 layers). You'll have to know how to troubleshoot. It's gonna be a wild ride!
+
+* 6.1 Networking Overview
+* 6.2 Network Hardware
+* 6.3 Networking Media
+* 6.4 Ethernet
+* 6.5 IP Networking
+* 6.6 IP Configuration
+* 6.7 IP Version 6
+* 6.8 Internet Connectivity
+* 6.9 Network Utilities
+* 6.10 Network Troubleshooting
+
+# Specifications
+
+* Complete all content in Chapter 6 in [TestOut](https://w3.testout.com/).
+* Optionally, feel free to add to the [Wakelet board](https://wakelet.com/i/invite?code=w980xojd) in this chapter
+
+
+</div>
+
+<script>
+function ch06ContentsToggle() {
+  var content = document.getElementById("ch06Contents");
+  if (content.style.display === "none") {
+    content.style.display = "inline-block";
+  } else {
+    content.style.display = "none";
+  }
+}
+</script>
