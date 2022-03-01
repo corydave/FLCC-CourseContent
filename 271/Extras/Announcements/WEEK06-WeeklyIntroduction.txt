@@ -1,0 +1,32 @@
+^^ WEEK 06 - Weekly Introduction
+
+^= =
+
+# Did somebody say... Networking???
+It's time to 
+I actually find them pretty fun. And knowing about RAIDs will be a big asset for you.
+
+# What to watch out for
+Do you know the difference between CAT6 and CAT5E? Do you know what POE means (for Ethernet)? Do you wanna do a deep dive into packets, TCP, and other nerdy things (if the answer is "no", *too bad!*)?
+
+This chapter will probably take around 9 or 10 hours. And I'm not gonna lie, it gets nerdy. Like, real nerdy. There are a LOT of things to know. If you are in CSC-260 - Networking Technologies, you get it 😆.
+
+# Transferring grades
+All grades from TestOut have been transferred. As of noon, 2/28, the grades are accurate. Just a reminder, grades from chapters 4, 5, and 6 are the only ones that can be adjusted now. There's still time!
+
+# Need anything?
+If you need *anything*, let me know. I'm here for you!
+
+^===
+
+^youtube
+
+^=
+
+<center><br />
+
+# LET'S BE CAREFUL OUT THERE!
+
+</center><br />
+
+
