@@ -1,0 +1,33 @@
+^^ WEEK 06 - Weekly Introduction
+
+^= =
+
+# What to expect this week
+We'll be looking at *Networking* and *Cybersecurity* this week. Please note there is a video for Cybersecurity that I haven't posted yet. It will be up by Wednesday!
+
+There are a few videos that **you should totally watch**. The best one is Hacking WiFi at Starbucks. But all the videos are super fascinating in my opinion.
+
+# A few observations
+The **ping** command wasn't working on all Google Cloud Shell. If you *do* want to use it in the future, you can install it by typing:
+
+```java
+sudo apt install iputils-ping 
+```
+
+Also, *please* check the comments for all the work you submit. In many cases I encourage you to resubmit! One of the biggest issues was that the Google Docs (or Slides) were not shared appropriately. That's an easy fix!
+
+^===
+
+^youtube 
+
+^=
+
+
+# Computational Thinking Problems
+Um... folks? The submissions this semester are the best I've ever seen! *So much awesomeness!!!!* Thank you for bringing me along on the journey with your brain; the debriefs/narratives were AMAZING!
+
+<center><br />
+
+### Let's be careful out there!
+
+</center><br />
