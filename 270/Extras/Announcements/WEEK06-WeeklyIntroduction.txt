@@ -1,0 +1,30 @@
+^^ WEEK 06 - Weekly Introduction
+
+^= =
+
+# What to expect this week
+
+We'll be looking at ways **you** can stay safer online. You *always* have to be on the lookout. Trust no one. Everyone is out to get you. Be paranoid. 
+
+The experiences in this chapter are designed to equip you with tools to help you be aware of the threats and mitigate the threats.
+
+# One thing to look out for
+In the *Fiddling with DNS* lab, oftentimes students change the **`hosts`** file but the DNS doesn't change; make sure you:
+1. Wait a few seconds before attempting to access the website
+2. Use the text-based browser from the Linux prompt because sometimes full-blown browsers don't necessarily consult the **`hosts`** file.
+
+^===
+
+^youtube 
+
+^=
+
+
+# Grades
+I believe everything (up to the things due yesterday) have been graded. Thanks for your hard work and I hope you are enjoying the experiences so far. Don't forget you can *always* leave feedback for me (anonymously) [here](https://docs.google.com/forms/d/e/1FAIpQLSfbONCf7XKC_XEJ2m1HZ5_NpfDLA-sSk7tXcY9ocW1bnX6zow/viewform?&entry.1243583268=2022+-+Spring).
+
+<center><br />
+
+### Let's be careful out there!
+
+</center><br />
