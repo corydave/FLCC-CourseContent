@@ -18,7 +18,13 @@ Also, *please* check the comments for all the work you submit. In many cases I e
 
 ^===
 
-^youtube 
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/gSvMtsAdftA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center><br />
+
+[Link to video](https://www.youtube.com/watch?v=gSvMtsAdftA)
+
+<br /></center>
 
 ^=
 
