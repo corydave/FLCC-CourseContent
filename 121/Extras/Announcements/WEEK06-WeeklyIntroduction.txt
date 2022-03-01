@@ -15,7 +15,13 @@ Don't forget that the way to submit each of the five artifacts is to embed them 
 
 ^===
 
-^youtube 
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/sdK0tWLjcdM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center><br />
+
+[Link to video](https://www.youtube.com/watch?v=sdK0tWLjcdM)
+
+<br /></center>
 
 ^=
 
