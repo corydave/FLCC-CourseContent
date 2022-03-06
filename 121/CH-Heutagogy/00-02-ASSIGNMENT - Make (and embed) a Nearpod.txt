@@ -1,0 +1,28 @@
+^^ ASSIGNMENT - Make (and embed) a Nearpod
+
+<img src="https://cdn.nearpod.com/1646337704351/img/global/nearpod-logo-white-fill.svg" alt="Nearpod logo" width="85%" style="margin:0px 10px 0px 20px;max-width:400px; float:right;" />
+
+# Description
+I'm not going to tell you what Nearpod is. You're going to have to figure it out! Your job is to figure out what [Nearpod](https://nearpod.com/) is and design an educational experience for your students using Nearpod.
+
+# Rationale
+No matter where you wind up working, two things are true about technology:
+
+1. Despite what we cover in this class, you will find that your school uses different technology
+
+2. Even *if* your school uses only technology that we've examined in class, newer opportunities will emerge and you'll have to learn how to use new tools.
+
+Because of this, you need to be equipped with experience in sense-making new tools and figuring things out yourself. Up until now, you've pretty much had video tutorials walking you through each step of the way. That's not going away - there are *plenty* of video tutorials out there for Nearpod - you just have to find them.
+
+# Specifications
+
+* You can (and should!) use any resources out there to learn about Nearpod. Find out why educators use it. Find out how to use it. Think about how you would use it with your students.
+
+* This should be representative of how you want your students and their parents to view the caliber of your work. It should appropriately represent your effort and exude quality.
+
+* Embed your final Nearpod product into your Google Site (under the "Interactives" tab).
+
+* Leave a link to the Nearpod product in Blackboard.
+
+* Have fun! This is exciting! You get to learn a new tool and design something you might use when you are in a classroom!
+
