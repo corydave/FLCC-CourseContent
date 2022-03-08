@@ -13,7 +13,13 @@ This chapter is a bit shorter than the last one but I think it's one of the most
 
 ^===
 
-^youtube 
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/HYm1dRg1tsg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center><br />
+
+[Link to video](https://www.youtube.com/watch?v=HYm1dRg1tsg)
+
+</center><br />
 
 ^=
 
