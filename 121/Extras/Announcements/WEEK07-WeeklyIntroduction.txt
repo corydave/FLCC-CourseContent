@@ -11,7 +11,13 @@ I know this might feel uncomfortable; I know you might not feel safe with no gua
 
 ^===
 
-^youtube 
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/IqRtKuniEJw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center><br />
+
+[Link to video](https://www.youtube.com/watch?v=IqRtKuniEJw)
+
+</center><br />
 
 ^=
 
