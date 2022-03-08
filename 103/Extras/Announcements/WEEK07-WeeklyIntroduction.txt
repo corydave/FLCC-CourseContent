@@ -15,7 +15,13 @@ Note that this is a two week chapter - the second week is allocated towards gett
 
 ^===
 
-^youtube 
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/0W5RDXYrDe0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center><br />
+
+[Link to video](https://www.youtube.com/watch?v=0W5RDXYrDe0)
+
+</center><br />
 
 ^=
 
