@@ -1,0 +1,36 @@
+^^ WEEK 07 - Weekly Introduction
+
+^= =
+
+# Wireless Networking
+Time to look at WiFi and radios!
+
+If you are in CSC-270 right now (Information Security), then you'll get a double-dose of WiFi (much of the current unit in that class talks about home networks).
+
+If you aren't in the class, you're missing out!
+
+This chapter is a bit shorter than the last one but I think it's one of the most enjoyable.
+
+^===
+
+^youtube 
+
+^=
+
+# Grades
+All grades in Blackboard are current as of noon on Monday, 3/7. Just a reminder that there is a two week grace period on all work. If you see an issue with your grades, lemme know!
+
+# TestOut
+Nothing tricky this week - but if you get stuck, lemme know!
+
+<center><br />
+
+## Let's be careful out there!
+
+</center><br />
+
+
+
+
+
+
