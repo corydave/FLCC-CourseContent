@@ -1,0 +1,37 @@
+^^ WEEK 07 - Weekly Introduction
+
+^= =
+
+# Staying safe at home
+Hey! Hey you! You got any of those internet of things things? What about routers? You got any of those? 
+
+Almost everyone has a router. Ever think about that? It's a complex piece of electronics that stays on 24/7. It is CONSTANTLY barraged with millions of packets (some of them malicious). Routers do way more than route traffic - they protect you. But with all the botnets out there, you can be confident that there are bots just waiting to get into your router and IoT devices.
+
+When was the last time you updated your router? Do you even know if your router auto-updates? Do you know if you have any exposed ports? There are a *lot* of vulnerabilities that people often don't consider ("Oh, I'll just put a password on my router and I'm protected!"). 
+
+^===
+
+^youtube 
+
+^=
+
+Happily, mesh networks and modern routers go a long way in protecting your network, but you should still audit their security. 
+
+This chapter looks at a few ways to do that.
+
+# What to look out for
+* The IoT Lab only asks for *one* of two labs; you get to pick which one!
+
+* Be on the lookout for something "malicious" (it's safely malicious) in the Wireshark lab.
+
+<center><br />
+
+## Let's be careful out there!
+
+</center><br />
+
+
+
+
+
+
