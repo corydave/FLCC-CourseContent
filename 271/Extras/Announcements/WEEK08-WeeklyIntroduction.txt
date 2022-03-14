@@ -1,0 +1,28 @@
+^^ WEEK 08 - Weekly Introduction
+
+^= =
+
+# PRINTERS!
+Hey folks - another short unit as we look towards break!!!! If you work in an IT capacity you will almost certainly find yourself troubleshooting printers. They are fickle machines with a lot of moving parts that have a small threshold for error. 
+
+Have you ever thought about how a printer with duplex (printing on both sides) works? Do you know the difference between toner and ink? 
+
+Buckle in. We're gonna look at how to emerge victorious when dealing with printers.
+
+Oh yeah. Also, they are a pretty popular entry point for network intruders!
+
+^===
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/zS9U3Gc832Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center><br />
+
+[Link to video](https://www.youtube.com/watch?v=zS9U3Gc832Y)
+
+^=
+
+<center><br />
+
+## Let's be careful out there!
+
+</center><br />
