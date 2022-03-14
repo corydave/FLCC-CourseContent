@@ -1,0 +1,48 @@
+<div id="ch08Button" onclick="ch08ContentsToggle()">
+
+<CENTER>
+
+^^ Chapter 8 - Printing [4-5 hours]<br />&#9660;
+
+</CENTER>
+
+
+</div>
+
+<div id="ch08Contents" style="display:none;">
+
+# Description
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vRE2Zh3LqHqiLY1t95--A2RWaarKmjq_Omf4dlCLH9qKD7K6ZWtEnSIgZok9gaTXl396VIhixg5OfFg/pub?w=240&h=180" alt="A photo of a small office printer." title="A photo of a small office printer." style="float:right;border-radius:25px;margin-right:20px;margin-left:20px;margin-top:0px;margin-bottom:20px;">
+
+Printers. You know them. You love them. You hate them. You don't see a need for them.
+
+Even as the world moves past hardcopies, almost every business has printers to maintain. You need printers for receipts. Some people prefer to print out email and other documents. Offices need to send snail mail. Flyers need to be made. Brochures.
+
+If you haven't wrestled with a printer, you haven't been initiated into the office world yet!
+
+* 8.1 Printers
+* 8.2 Printer Configuration
+* 8.3 Network Printing
+* 8.4 Printing Management
+* 8.5 Printer Maintenance
+* 8.6 Printer Troubleshooting
+
+# Specifications
+
+* Complete all content in Chapter 8 in [TestOut](https://w3.testout.com/).
+* Optionally, feel free to add to the [Wakelet board](https://wakelet.com/i/invite?code=33rnp89a) in this chapter
+
+
+</div>
+
+<script>
+function ch08ContentsToggle() {
+  var content = document.getElementById("ch08Contents");
+  if (content.style.display === "none") {
+    content.style.display = "inline-block";
+  } else {
+    content.style.display = "none";
+  }
+}
+</script>
