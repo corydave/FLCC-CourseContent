@@ -1,0 +1,29 @@
+^^ WEEK 08 - Weekly Introduction
+
+^= =
+
+# Staying safe at work
+On the surface, this chapter might not look any more important than others. And I'd like to think that everything is equally important. But some of the things in this chapter will relate directly to your job if you elect to cybersecurity.
+
+You're going to have to be on the look out for rogue devices on your network. You'll need to be prepared to restore data. You'll need to worry about staff cybersecurity training. You'll need to look out for open ports. You'll need to trap the bad actors. 
+
+There is a LOT going on in the workplace; this chapter just scratches the surface.
+
+As a reminder, chapters 8, 9, and 10 are not ready for you yet - but they will be after break!
+
+
+^===
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/zS9U3Gc832Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center><br />
+
+[Link to video](https://www.youtube.com/watch?v=zS9U3Gc832Y)
+
+^=
+
+<center><br />
+
+## Let's be careful out there!
+
+</center><br />
