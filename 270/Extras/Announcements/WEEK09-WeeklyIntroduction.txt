@@ -1,0 +1,15 @@
+^^ WEEK 09 - Weekly Introduction
+
+# Hot off the press!
+Hey there folks! Chapter 8 is *hot off the press*. I hope you like it - it's my favorite topic in Information Security. There are a number of videos in the reading; you should be sure to watch them all (there are links in the Google Doc).
+
+All told, I think those videos total under an hour of viewing. You should DEFINITELY check them out.
+
+# Labs
+One of the labs (the Phishing Website Experience) needed to be redesigned (Google shut down my domain because the website was flagged as malicious!). I'd happily accept any feedback on the new lab. Actually, I'd happily accept any feedback on ANY of the labs :)
+
+<center><br />
+
+## Let's be careful out there!
+
+</center><br />
