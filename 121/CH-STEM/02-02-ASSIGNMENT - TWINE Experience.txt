@@ -5,7 +5,6 @@
 Your mission is to create a Twine experience. You get to decide the modality.
 
 * You can create an experience you've designed for your students (like making healthy decisions).
-
 * You can create an example of an experience you would expect your students to create.
 
 # Specifications
