@@ -1,0 +1,12 @@
+^^ ASSIGNMENT - Hour of Code
+
+# Description
+Every year, thousands of schools across the country honor [Grace Hopper](https://en.wikipedia.org/wiki/Grace_Hopper) by conducting an "Hour of Code". This is a chance for students of all ages to get a taste of STEM, coding, and exercising their creativity.
+
+Typically the Hour of Code is in the second week of December (Grace Hopper's birthday is 12/9). There are hundreds of pre-made activities that educators can elect to have their students engage.
+
+Your job is to pick one of the activities, go through the tutorial/activity, and then submit the certificate (or evidence of completion).
+
+You'll be reflecting on it in your journal for this chapter.
+
+You can look through the activities at [code.org/learn](https://code.org/learn) and then pick one that interests you.
