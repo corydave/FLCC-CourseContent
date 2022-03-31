@@ -1,0 +1,29 @@
+^^ Chapter 6 - STEAM
+
+# Experiences for this chapter
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vSxEyBA4vKFDbUOWaiKMU6oT6xJXUwYc0Qam47ELSIWOqinm4zW7gIBlVd2HO9bjruFi0T5_BHc8K7l/pub?w=240&amp;h=180" alt="The word ‘STEM’ and illustrations of a beaker, a rocket, a pencil and gear, and a bar chart." title="The word ‘STEM’ and illustrations of a beaker, a rocket, a pencil and gear, and a bar chart." style="float:right;border-radius:25px;margin-right:20px;margin-left:20px;margin-top:-20px;margin-bottom:20px;">
+
+**STEM**. Science. Technology. Engineering. Math.
+
+Sometimes you'll see **STEAM** instead. The "A" stands for "Arts", and the paradigm is a bit different. STEM typically refers to the hard sciences whereas STEAM uses hard and soft sciences as an approach to understanding problems and solving them.
+
+This chapter we will actually be focusing on computer programming (coding). Don't panic! Just because we're looking at *programming* doesn't mean we'll actually be using Java or C++ to make stuff. In fact, there is a huge movement now in "No-Code Platforms". The art of programming isn't the mastery of the language, it's the art of the algorithm; creating the process and thinking through the flow.
+
+We'll start by reading about STEM. There's an optional podcast (it's short!), and then a video about [The Hour of Code](https://hourofcode.com/us). This is something that many school districts do in the first or second week of December. It's an opportunity to engage kiddos in computer programming (in a fun and approachable way).
+
+After that, we'll take a peak at Twine (cool software that let's you make Choose your Own Adventure games, for example).
+
+
+
+<div style="clear:both;">
+
+<iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vQxQU3Z_qJqXJJLdKHi9zJnaPihlqmonB8qf_9jl0f_R9Lp4CSiYqFDk4WN-89tQH2TMQOglJ5KAGWN/pubhtml/sheet?headers=false&amp;gid=277957836&amp;range=A1:D14'style="width:100%;max-width:720px;height:351px" frameborder="0"></iframe>
+
+</div>
+
+<center><br />
+
+## Let's be careful out there!
+
+<br /></center>
