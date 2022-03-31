@@ -1,0 +1,13 @@
+^^ VIDEO - The Hour of Code is Here
+
+Before watching the two videos, check out the official [Hour of Code website](https://hourofcode.com/us). You can sign up to host a session in your school (you don't have to do that), but if you scroll to the bottom of the page you can read more about the Hour of Code.
+<br />
+<br />
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/KsOIlDT145A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center><br />
+
+[Link to video](https://www.youtube.com/watch?v=KsOIlDT145A)
+
+<br /></center>
