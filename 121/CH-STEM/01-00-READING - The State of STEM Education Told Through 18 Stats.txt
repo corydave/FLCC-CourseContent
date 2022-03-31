@@ -1,0 +1,5 @@
+^^ READING - The State of STEM Education Told Through 18 Stats
+
+[This article](https://www.idtech.com/blog/stem-education-statistics) starts with an estimation that by 2025, 3.5 million jobs will need to be filled. One problem with STEM is that enthusiasm for STEM pursuits erode in schools. We *do* know that excitement for STEM starts to [wane around high school](https://news.microsoft.com/features/why-do-girls-lose-interest-in-stem-new-research-has-some-answers-and-what-we-can-do-about-it/). A Microsoft study found that the [precise age is 15](https://money.cnn.com/2017/02/28/technology/girls-math-science-engineering/index.html). There are studies that suggest what three problems are - and [offer three solutions](https://www.edutopia.org/article/keeping-girls-stem-3-barriers-3-solutions).
+
+At any rate, please read the article [The State of STEM Education Told Through 18 Stats](https://www.idtech.com/blog/stem-education-statistics).
