@@ -11,11 +11,11 @@ I am not going to give you much more instruction than that 😁.
 
 * **Nearpod** - You have to figure out what Nearpod is, how to use it, and then create an experience using Nearpod for me.
 
-* **Pear Deck** - You also have to figure out what 
+* **Pear Deck** - You also have to figure out what Pear Deck is, how to use it, and then create an experience using Pear Deck for me.
 
 <div style="clear:both;">
 
-<iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vQxQU3Z_qJqXJJLdKHi9zJnaPihlqmonB8qf_9jl0f_R9Lp4CSiYqFDk4WN-89tQH2TMQOglJ5KAGWN/pubhtml/sheet?headers=false&amp;gid=1265930329&amp;range=A1:D9'style="width:100%;max-width:720px;height:246" frameborder="0"></iframe>
+<iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vQxQU3Z_qJqXJJLdKHi9zJnaPihlqmonB8qf_9jl0f_R9Lp4CSiYqFDk4WN-89tQH2TMQOglJ5KAGWN/pubhtml/sheet?headers=false&amp;gid=1265930329&amp;range=A1:D9'style="width:100%;max-width:720px;height:246px" frameborder="0"></iframe>
 
 </div>
 
