@@ -1,0 +1,32 @@
+^^ VIDEO - Using Twine
+
+^= =
+
+# What is Twine?
+
+[Twine](https://twinery.org/) is a tool that can be used a number of different ways. The main way people use Twine is for interactive stories (you know, like the [Choose Your Own Adventure books](https://en.wikipedia.org/wiki/Choose_Your_Own_Adventure)). Giving the player the option to make choices as they progress through a story is a great way to get people engaged. Teachers can use Twine to create experiences for their students. Teachers can also teach students how to use Twine to create projects. 
+
+For instance, maybe your students just finished reading the [Very Hungry Caterpillar](https://en.wikipedia.org/wiki/The_Very_Hungry_Caterpillar). You could have your students make "fan fiction" where the player of the game gets to make decisions on what the caterpillar eats (healthy choices or unhealthy choices). 
+
+This video walks through the basics of using Twine. The main things you need to pay attention to are how to create (and link to) different passages and how to include images or videos.
+
+^===
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/E0BuooM1o1k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center><br />
+
+[Link to video](https://www.youtube.com/watch?v=E0BuooM1o1k)
+
+</center><br />
+
+^=
+# Cool! So how will we be using Twine?
+
+You'll be making your own Twine experience after watching this video, so as you are watching keep those wheels turning!
+
+# Examples of Twine
+
+* [A Cool Math Trick](https://daveghidiu.com/assets/binary.html)
+* [A nerdy computer BIOS simulation](https://daveghidiu.com/security/RAID/)
+* [Online games made by other people](https://itch.io/games/made-with-twine)
