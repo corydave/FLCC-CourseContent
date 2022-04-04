@@ -1,0 +1,51 @@
+<div id="ch10Button" onclick="ch10ContentsToggle()">
+
+<CENTER>
+
+^^ Chapter 10 - System Implementation [4-5 hours]<br />&#9660;
+
+</CENTER>
+
+
+</div>
+
+<div id="ch10Contents" style="display:block;">
+
+# Description
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vRNPhH6zpZiEpSowvorMMYWXRKL_uHQSVf8z7sLCkGb9bzLCk3XBzs8jR2catm_qsxw-1YZcfj0TuJD/pub?w=240&h=180" alt="An illustration of a computer in a computer." title="An illustration of a computer in a computer." style="float:right;border-radius:25px;margin-right:20px;margin-left:20px;margin-top:0px;margin-bottom:20px;">
+
+Installing operating systems can be fun. It can also be time consuming. And it can be aggravating. But you know what makes it a bit more palatable? 
+
+*Virtualization*. 
+
+I find creating virtual machines to be *super fun and cool*. I know it sounds daunting, but it's not bad. And if you haven't installed virtualization software on your computer (I really like [VirtualBox](https://www.virtualbox.org/) but I know some people prefer [VMWare](https://www.vmware.com/products/workstation-player.html)), you should totally get into it.
+
+Spoiler alert - you'll *need to* for classes in the Networking & Cybersecurity program!
+
+One of the reasons I have an affinity for virtualization is because it makes dorking around with high-stakes consequences  a safe move.
+
+* 10.1 Component Selection
+* 10.2 Windows Pre-Installation
+* 10.3 Windows Installation
+* 10.4 Post-Installation
+* 10.5 Virtualization
+
+# Specifications
+
+* Complete all content in Chapter 10 in [TestOut](https://w3.testout.com/).
+* Optionally, feel free to add to the [Wakelet board](https://wakelet.com/i/invite?code=vxnfpphm) in this chapter
+
+
+</div>
+
+<script>
+function ch10ContentsToggle() {
+  var content = document.getElementById("ch10Contents");
+  if (content.style.display === "none") {
+    content.style.display = "inline-block";
+  } else {
+    content.style.display = "none";
+  }
+}
+</script>
