@@ -9,7 +9,7 @@
 
 </div>
 
-<div id="ch10Contents" style="display:block;">
+<div id="ch10Contents" style="display:none;">
 
 # Description
 
