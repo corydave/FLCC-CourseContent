@@ -15,7 +15,13 @@ Hey folks - a few things. After talking to some students in the class, you can s
 
 ^===
 
-^youtube 
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/BDMoLFMNpTc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center><br />
+
+[Link to video](https://www.youtube.com/watch?v=BDMoLFMNpTc)
+
+</center><br />
 
 ^=
 
