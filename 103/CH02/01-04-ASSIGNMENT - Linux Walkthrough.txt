@@ -13,7 +13,7 @@ For this assignment, you will need two things:
 
 In the Google Doc, there are screenshots in blue boxes. That's where I put my screenshots when I was making the walkthrough. As you go through the exercise, you will need to take a screenshot of some things, delete mine, and paste yours inside the blue box. If you need help learning how to do screenshots, [check out this video](https://www.youtube.com/watch?v=xFbjVvCXAwo) (it's less than two minutes).
 
-This experience will guide you through some basics of using Windows (you can use Windows 7, 8, 10, and 11 for this). As you read through the document, you will be prompted to take screenshots and paste them into boxes - the boxes will resize automatically.
+This experience will guide you through some basics of using Linux. As you read through the document, you will be prompted to take screenshots and paste them into boxes - the boxes will resize automatically.
 
 When you are done, you should submit a link to a cloud-based document (such as Google Docs) such that anyone with the link can comment.
 
