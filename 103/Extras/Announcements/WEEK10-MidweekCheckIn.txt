@@ -1,0 +1,11 @@
+^^ WEEK 10 - Midweek Check In
+
+# Current Chapter
+Web Authoring is coming to a close. You should use this time to make sure that *your Google Site works in **incognitio** mode!*
+
+Every semester I have students submitting a link that is not accessible to me. The best way to prevent that from happening is verifying that the Google Site is visible in incognito mode.
+
+# Next Chapter
+The next chapter is Game Design - and it's a fun one (I think, anyhow).
+
+Weather looks pretty good this weekend. Make sure you take a break from work!
