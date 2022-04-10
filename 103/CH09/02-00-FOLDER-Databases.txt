@@ -4,4 +4,4 @@
 
 * PRESENTATION - Databases
 
-* **ASSIGNMENT - Database Organization**
+* **ASSIGNMENT - Making an app from a database**
