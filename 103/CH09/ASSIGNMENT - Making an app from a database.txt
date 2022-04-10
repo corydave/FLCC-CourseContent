@@ -1,5 +1,45 @@
 ^^ ASSIGNMENT - Making an app from a database
 
-# Description
+^= =
 
-<br /><Br /><Br /><B><CENTER>COMING SOON</B></CENTER><br /><br />
+# Background
+Databases are handy when you are tracking data that is multidimensional. As an example, an address book typically can be handled in a spreadsheet because the data is relatively flat (that is, there are two dimensions - rows and columns).
+
+But when data gets more sophisticated and becomes dependent on other data, then a database is necessary. Consider a POS system (Point of Sale) in a restaurant. When a party sits down at a table, a check will be opened in the POS system. Let's say there are five people at the table - the server has to track which of the five people order each item (and how much of each item). Some of the items have multiple options (what are the sides? how is the steak cooked? are there allergies?), and then there are different prices for the items. Oh yeah - there is also an inventory management system baked into the POS system. Oftentimes daily specials are limited, so some software has to track that inventory.
+
+^===
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/1wZrGiWtgMQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center><br />
+
+[Link to video](https://www.youtube.com/watch?v=1wZrGiWtgMQ)
+
+</center>
+
+^=
+
+# Description
+In this experience, you will be creating a sweet, sweet POS system for a hardware store! Actually, I guess you can create it for any type of store you want, but the video tutorial is for a hardware store. Feel free to substitute the items with whatever you'd like - you don't need 4x4s and hammers. 
+
+Note that this will be very rudimentary since it's most likely your first dive into databases. We actually won't be automating too many processes or including an inventory. But we *will* include 
+
+# Specifications
+* You will need to use [Airtable](https://airtable.com/) to create a database. There are four tables you'll need: *Customers*, *Items*, *Receipts*, and *Item Detail*.
+
+* You'll need to embed some of the tables into a page at your Google Site. This page can be "hidden from the navigation" of your Google Site, but you'll need to submit the specific link to your work. [Check out an example here](https://sites.google.com/view/daveghidiu/database).
+
+* You can use the [customer base and item list found here](https://docs.google.com/spreadsheets/d/1LZgYt3j4v-IyF1tS8PVtFcOMgM_fIPkBs7ZQUw_0Sl8/edit#gid=0) or just make up your own! Note that you should have at least four customers and five items to create a data set that is rich enough to play with.
+
+* The tables (and views) you need to embed are:
+
+  * "Add a customer" as a *form*
+  * "List of products" as a *gallery*
+  * "Start a tab" as a *form*
+  * "Add item to a tab" as a *form*
+  * "All transactions" as a *gallery*
+
+
+* Note that you should watch the video in it's entirety. Yes, it's a long video (around 24 minutes). This topic is probably pretty new to most of you, but the video walks through every step you need to take to make a POS system.
+
+* You do not need to use unique IDs for your primary keys, but if you decide that you'd like to, it's easy! You can [follow this quick video](https://www.youtube.com/watch?v=bZANO7qzSH8) for instructions.
