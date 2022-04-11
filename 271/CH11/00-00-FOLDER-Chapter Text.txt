@@ -1,0 +1,45 @@
+<div id="ch11Button" onclick="ch11ContentsToggle()">
+
+<CENTER>
+
+^^ Chapter 11 - File Management [5-6 hours]<br />&#9660;
+
+</CENTER>
+
+
+</div>
+
+<div id="ch11Contents" style="display:block;">
+
+# Description
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vQos9S5i35fiwDMiM_djOs8QWPVIvD295L4ILbHrUd_56aiqArX3F2nTMcR5YVZkoiynhSOMnlNiC0o/pub?w=240&h=180" alt="An illustration of files on a computer desktop." title="An illustration of files on a computer desktop." style="float:right;border-radius:25px;margin-right:20px;margin-left:20px;margin-top:0px;margin-bottom:20px;">
+
+Gotta admit - file management sounds kind of boring.
+
+Especially since cloud services like Google Drive, Dropbox, and OneDrive have redefined how files exist, how files are referenced, and how files are shared. Regardless, many organizations rely on internal file sharing. Managing permissions in Windows and Linux isn't hard, but it is tedious.
+
+* 11.1 Windows File Locations
+* 11.2 Manage Files on Windows
+* 11.3 NTFS Permissions
+* 11.4 Shared Folders
+* 11.5 Linux File Management
+
+# Specifications
+
+* Complete all content in Chapter 11 in [TestOut](https://w3.testout.com/).
+* Optionally, feel free to add to the [Wakelet board](https://wakelet.com/i/invite?code=flekom05) in this chapter
+
+
+</div>
+
+<script>
+function ch11ContentsToggle() {
+  var content = document.getElementById("ch11Contents");
+  if (content.style.display === "none") {
+    content.style.display = "inline-block";
+  } else {
+    content.style.display = "none";
+  }
+}
+</script>
