@@ -1,0 +1,16 @@
+^^ VIRTUAL POSTCARD #10
+
+# LAKER DAY IS TUESDAY!!!
+Don't forget - there are no classes or office hours on Tuesday. There are plenty of opportunities offered for you to check out - [visit the official website!](https://flcc.edu/lakerday/). Be sure to take note of the tacos and ice cream sundaes.
+
+The Computing Sciences department will be hosting a programming competition from 10AM to 12PM. We will have special food for participants, too!
+
+# Virtual Postcard
+
+<center>
+
+[Link to video](https://www.youtube.com/watch?v=yHAnQV5qOes)
+
+</center><br />
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/yHAnQV5qOes" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
