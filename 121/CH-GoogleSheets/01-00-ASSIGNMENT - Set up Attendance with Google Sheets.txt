@@ -1,0 +1,40 @@
+^^ ASSIGNMENT - Set up Attendance with Google Sheets
+
+^= =
+
+# Description
+Google Sheets is very helpful when organizing data. Maybe you just want to track your students progress across a project. Or maybe you want a more customizable grade book. There are tons of reasons why you might decide to use Google Sheets or Microsoft Excel.
+
+Today we'll build a simple tool - an attendance tracker that automates counting. The skills we'll cover in this experience translate to many other tasks (for example formatting, conditional formatting, and formulas).
+
+You can watch the video here and follow along! Note that the formulas are necessary (the formulas to tally the absences and tardies) so please don't just type in the numbers!.
+
+^===
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/qunHbMOkxSo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center>
+
+[Link to video](https://www.youtube.com/watch?v=qunHbMOkxSo)
+
+</center>
+
+^=
+
+<br />
+
+If you have any questions, just ask!
+
+# Specifications
+* There are a lot of things that this exercise covers - please make sure you check the rubric to see what is expected.
+
+* Please paste a link to the Google Sheet in the "WRITE SUBMISSION" portion of Blackboard (not "COMMENTS").
+
+* Your Google Sheet must be shared such that "Anyone with the link can ***EDIT***".
+
+
+<center>
+
+## Let's be careful out there!
+
+</center>
