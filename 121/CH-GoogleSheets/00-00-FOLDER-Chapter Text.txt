@@ -1,0 +1,26 @@
+^^ Chapter 7 - Google Sheets
+
+# Experiences for this chapter
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vTPM-XbBWxoqcRK8ZOjMrpq4dmXD_TYWhuPHHxpBRNqi3oXioJ-F_texl0ythbBJlBcGm-YaLmd3S4U/pub?w=240&amp;h=180" alt="The icon for Google Sheets." title="The icon for Google Sheets." style="float:right;border-radius:25px;margin-right:20px;margin-left:20px;margin-top:-20px;margin-bottom:20px;">
+
+Spreadsheets. Most people hate them. But they are such a potent tool! I use them to organize my classes (I have one spreadsheet for this class that has one tab for all the due dates. I have 11 other tabs, one for each chapter and it has all the assignments on it)
+
+We'll be building two tools from scratch - an attendance form and also an interactive rubric. Oftentimes students ask what the purpose of this chapter is since there are tools that do both of these things already.
+
+Please understand that I've been very deliberate with the tools used in these experiences. There's a chance your district will have software for making rubrics, for instance (although if your school *doesn't have a rubric tool* you'll be all set). But the skills needed to build the interactive rubric are transferrable to other arenas, too. For instance, the experience includes checkboxes, coloring font and cells, conditional formatting, etc.
+
+There are video walkthroughs for both of these experiences 😁. If you have any questions, let me know!!!!
+
+<div style="clear:both;">
+
+
+<iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vQxQU3Z_qJqXJJLdKHi9zJnaPihlqmonB8qf_9jl0f_R9Lp4CSiYqFDk4WN-89tQH2TMQOglJ5KAGWN/pubhtml/sheet?headers=false&amp;gid=318211283&amp;range=A1:D6'style="width:100%;max-width:720px;height:183px" frameborder="0"></iframe>
+
+</div>
+
+<center><br />
+
+## Let's be careful out there!
+
+<br /></center>
