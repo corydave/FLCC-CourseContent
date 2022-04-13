@@ -12,6 +12,13 @@ Please understand that I've been very deliberate with the tools used in these ex
 
 There are video walkthroughs for both of these experiences 😁. If you have any questions, let me know!!!!
 
+# Notes
+There are two things to keep in mind:
+
+1. Your school might use Microsoft Office instead of Google. That's OK - Microsoft Excel is similar enough that the skills you acquire here will transfer.
+
+2. One of the most valuable things educators say they use Google Sheets (or Microsoft Excel) for is **mail merging**. It helps with seating charts, labels, and sending notes home to parents. We won't cover that in this class, but there are plenty of tutorials out there that you can explore when you're ready!
+
 <div style="clear:both;">
 
 
