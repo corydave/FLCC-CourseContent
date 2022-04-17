@@ -1,0 +1,26 @@
+^^ READING - Chapter 10 - Secure Software Design
+
+<div style="float:left;"><a href="https://docs.google.com/document/d/1teB7BaxyIevRnq_YfwZyn0ll611HkHDAzaO7zyWKaaU/" target="_blank"><img src="https://docs.google.com/drawings/d/e/2PACX-1vRwpmRtZ2PWrA_UVCyiwUAhlAi6Kzt9DKuJss0fIfvkKdcNqE6GYkN127FphhdYxcFbHA8fkXxL40rc/pub?w=200&h=280" alt="A thumbnail of Chapter 10 - Secure Software Design." title="A thumbnail of Chapter 10 - Secure Software Design." style="margin: 0pt 10pt 10pt 0pt;float:left;"  /></a></div>
+
+You can [read the chapter here](https://docs.google.com/document/d/1teB7BaxyIevRnq_YfwZyn0ll611HkHDAzaO7zyWKaaU/) or access it from [OpenCompSci.com](https://www.opencompsci.com/books/information-security/10-secure-software-design). If you use the first link, the Google Doc version of the reading, please comment on it if you'd like (to address mistakes, provide more examples, comment on the content, etc.).
+
+<br />
+
+Chapter 10 includes the following topics:
+
+<div style="margin-left:220px;">
+
+
+* 10.1 Introduction to Software Security
+
+* 10.2 Using Other Software as Building Blocks
+
+* 10.3 Privacy
+
+* 10.4 Software Design
+
+* 10.5 Updating Software
+
+* 10.6 Deployed Applications and Web Applications
+
+</div>
