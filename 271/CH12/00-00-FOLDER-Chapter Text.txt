@@ -1,0 +1,55 @@
+<div id="ch12Button" onclick="ch12ContentsToggle()">
+
+<CENTER>
+
+^^ Chapter 12 - System Management [15-16 hours]<br />&#9660;
+
+</CENTER>
+
+
+</div>
+
+<div id="ch12Contents" style="display:none;">
+
+# Description
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vTsQwgx-rfG-dJkWqCWj9LEdeaqAOUrNC1qpTLCpWKK-9ambZmLhzN9oDjdtreNplp5dm_iO7VQ0upf/pub?w=240&h=180" alt="An illustration of what looks to be a skew window with different colors in each of the four panes." title="An illustration of what looks to be a skew window with different colors in each of the four panes." style="float:right;border-radius:25px;margin-right:20px;margin-left:20px;margin-top:0px;margin-bottom:20px;">
+
+There *is* a certain cache when it comes to System Administration (if you haven't taken CSC-231 yet, you'll find learn way more than you ever wanted to about System Administration).
+
+This chapter is long, and there is **a ton** of stuff to know. But it's important. It's all important 
+
+* 12.1 Windows System Tools
+* 12.2 Preferences and Settings
+* 12.3 Performance Monitoring
+* 12.4 Active Directory
+* 12.5 Users and Groups
+* 12.6 Remote Services
+* 12.7 Windows Application Management
+* 12.8 Linux Application Management
+* 12.9 Digital Content Management
+* 12.10 Updates
+* 12.11 System Backup
+* 12.12 System Recovery
+* 12.13 Virtual Memory
+* 12.14 Operating System Troubleshooting
+* 12.15 Windows Boot Errors
+
+# Specifications
+
+* Complete all content in Chapter 12 in [TestOut](https://w3.testout.com/).
+* Optionally, feel free to add to the [Wakelet board](https://wakelet.com/i/invite?code=0qffj2f9) in this chapter
+
+
+</div>
+
+<script>
+function ch12ContentsToggle() {
+  var content = document.getElementById("ch12Contents");
+  if (content.style.display === "none") {
+    content.style.display = "inline-block";
+  } else {
+    content.style.display = "none";
+  }
+}
+</script>
