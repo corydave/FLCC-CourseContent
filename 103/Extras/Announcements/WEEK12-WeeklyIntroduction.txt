@@ -1,0 +1,31 @@
+^^ WEEK 12 - Weekly Introduction
+
+^= =
+
+# What's going on this week
+ETHICS! I always go into this chapter thinking no one is going to like it, but I typically find that in general people *love* it. You really get to step back from the technical creation process and interrogate the human side of technology.
+
+Unmanned drones. Always-on home technology. Biased algorithms. Even the way society changes and adapts to the technology (for instance the recent news about [girls contracting tics from TikTok](https://fortune.com/2022/03/31/teen-girls-tourette-tics-tiktok/#:~:text=most%20to%20you.-,Teen%20girls%20are%20developing%20neurological%20tics%20and%20disorders%2C%20potentially%20from,videos%20catered%20to%20their%20interests.).
+
+This chapter gives you an opportunity to find something that you find ethically troubling with technology and dive deeper.
+
+# Grades
+I know there is still some work to grade, but I'm working through it. Thank you for your patience!
+
+^===
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/yHAnQV5qOes" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center><br />
+
+[Link to video](https://www.youtube.com/watch?v=yHAnQV5qOes)
+
+</center><br />
+
+^=
+
+<center><br />
+
+## Let's be careful out there
+
+</center>
