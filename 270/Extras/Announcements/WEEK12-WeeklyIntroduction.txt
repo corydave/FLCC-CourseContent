@@ -3,16 +3,30 @@
 ^= =
 
 # What's going on this week
-This. Is. A. BIG. CHAPTER. There is *a lot* to take in. Please, please, *please* do not wait until the last day.
+This is it! The last chapter in the textbook! It's also a new chapter - Secure Software Design. It was written by John Ghidiu (my twin brother!). He's a software engineer and knows a thing or two about design.
 
-Chapter 13 is also really big. So plan accordingly.
+The labs in this unit are pretty slick - make sure you go through them carefully and understand exactly what is due. Everybody needs to do the first three
 
-In case you didn't see the calendar, Chapter 12 is not due on 4/25; it's due the following Monday (May 2). That gives you two weeks to work through Chapter 12 and get a head start on Chapter 13.
+* LAB - Install Java 15 (or Greater)
+* LAB - Install WebGoat
+* LAB - Broken Authentication - Password Reset
 
-Don't forget that all work is due the last day of the semester - no exceptions 😭.
+But then you get to choose. You can do the client-side labs:
 
-# Grades
-All grades in Blackboard have been updated. Please make sure you review them as they are the official grades. If you have a question regarding your grades, please let me know!
+* Bypass Front-End Restrictions
+* Client Side Filtering
+* HTML Tampering [20-40 minutes]
+
+<center>
+
+***OR***
+
+</center>
+
+You can do the SQL Injection lab:
+
+* SQL Injection
+
 
 ^===
 
@@ -25,6 +39,14 @@ All grades in Blackboard have been updated. Please make sure you review them as 
 </center><br />
 
 ^=
+
+
+# Grades
+I know there is still some work to grade, don't panic! I'm working on it now. You should see some movement in the grade book this week. I appreciate your patience.
+
+# Next week
+The last assignment in this class is the InfoSec report. It isn't due until May 9 so you should certainly spend time between 4/25 and 5/2 working on it. Be sure to scope out work from previous semesters so you have an idea of what to expect.
+
 
 <center><br />
 
