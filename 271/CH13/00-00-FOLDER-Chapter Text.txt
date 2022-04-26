@@ -1,0 +1,54 @@
+<div id="ch13Button" onclick="ch13ContentsToggle()">
+
+<CENTER>
+
+^^ Chapter 13 - Security [10-11 hours]<br />&#9660;
+
+</CENTER>
+
+
+</div>
+
+<div id="ch13Contents" style="display:none;">
+
+# Description
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vT2y4Je0asp6ngCYMMsIPTg2oeprvs_7nG3-qZowrHouo_m6b9O8UM209vBPuYI0ZAfcPPkcyZnac7E/pub?w=240&h=180" alt="The words LETS BE CAREFUL OUT THERE and an illustration of a shield with a lock on it." title="The words LETS BE CAREFUL OUT THERE and an illustration of a shield with a lock on it." style="float:right;border-radius:25px;margin-right:20px;margin-left:20px;margin-top:0px;margin-bottom:20px;">
+
+
+If you like this chapter, you'll *love* CSC-270 - Principles of Information Security. Physical security like mantraps. Digital security like honeypots. Ransomware. Phishing. All the cool stuff!
+
+Like the previous chapter, this chapter is long, and there is **a ton** of stuff to know. But it's important. It's all important 
+
+* 13.1 Security Best Practices
+* 13.2 Incident Response
+* 13.3 Physical Security
+* 13.4 Social Engineering
+* 13.5 BIOS/UEFI Security
+* 13.6 Malware Protection
+* 13.7 Authentication
+* 13.8 File Encryption
+* 13.9 Network Security
+* 13.10 Firewalls
+* 13.11 Proxy Servers
+* 13.12 VPN
+* 13.13 Security Troubleshooting
+
+# Specifications
+
+* Complete all content in Chapter 13 in [TestOut](https://w3.testout.com/).
+* Optionally, feel free to add to the [Wakelet board](https://wakelet.com/i/invite?code=cak8qp0a) in this chapter
+
+
+</div>
+
+<script>
+function ch13ContentsToggle() {
+  var content = document.getElementById("ch13Contents");
+  if (content.style.display === "none") {
+    content.style.display = "inline-block";
+  } else {
+    content.style.display = "none";
+  }
+}
+</script>
