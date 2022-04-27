@@ -1,0 +1,18 @@
+^^ WEEK 13 - Weekly Introduction
+
+# Continue Work on Chapter 12
+System Management - it's a slog (I know), but Chapter 13 - Security - is AWESOME!
+
+I've updated the grades (the two-week grace period is still in place). If you need anything, please let me know!
+
+<center><br />
+
+[Link to video](https://www.youtube.com/watch?v=G8bzrnfwBIg)
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/G8bzrnfwBIg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br />
+
+## Let's be careful out there!
+
+</center>
