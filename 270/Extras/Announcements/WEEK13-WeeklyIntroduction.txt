@@ -1,0 +1,22 @@
+^^ WEEK 13 - Weekly Introduction
+
+# InfoSec Report
+This chapter ***is two weeks long!!!*** This is a culminating experience - everything you've done this semester leads up to this assignment. All the LinkedIn summaries. All the stuff we've looked at - passwords, cryptography, information, malware, firewalls, ransomware... *everything*. Your task is to write a report from a cybersecurity hack. It will have to be thorough and include a debriefing from *you*. You should help the reader of your work understand what could have been done better to prevent the issue. There are more specifications in the description and some sample work. 
+
+All the submissions will be put into a book and made available to everyone!
+
+# Labs from last week
+A few people emailed me about the Bypass Front End Restrictions lab. I made a [video tutorial for the lab](https://www.youtube.com/watch?v=j7C74QkEEbQ) and if you'd like to use it as a step-by-step guide, you can! I won't be taking off points for that lab.
+
+
+<center><br />
+
+[Link to video](https://www.youtube.com/watch?v=1yyzIe1Pw_E)
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/1yyzIe1Pw_E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br />
+
+## Let's be careful out there!
+
+</center>
