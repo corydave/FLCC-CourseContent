@@ -1,0 +1,29 @@
+^^ Chapter 8 - Google Slides
+
+# Experiences for this chapter
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vR2y62lwLKgAz9V1D5VmuasNv2hSEcamBEdURTvTNyCapyyNvP1FgeRTT-vDnIyem7WQtldc2tDt85n/pub?w=240&amp;h=180" alt="The icon for Google Slides." title="The icon for Google Slides." style="float:right;border-radius:25px;margin-right:20px;margin-left:20px;margin-top:-20px;margin-bottom:20px;">
+
+Google Slides is probably the best web-based desktop publishing software out there. Sure, [Canva](https://www.canva.com/) is awesome. [LucidPress](https://www.lucidpress.com/pages/) is great, too (but the freemium tier is very limited). But Slides lives in the Google ecosystem, is super easy to share, and is completely free!
+
+Simply changing the canvas size to 8.5 x 11 inches puts you in GO TIME mode. The toolset is pretty incredible once you get used to it.
+
+There are video walkthroughs for both of these experiences 😁. If you have any questions, let me know!!!!
+
+# Notes
+Something to keep in mind:
+
+1. Your school might use Microsoft Office instead of Google. That's OK - Microsoft PowerPoint is similar enough that the skills you acquire here will transfer.
+
+<div style="clear:both;">
+
+
+<iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vQxQU3Z_qJqXJJLdKHi9zJnaPihlqmonB8qf_9jl0f_R9Lp4CSiYqFDk4WN-89tQH2TMQOglJ5KAGWN/pubhtml/sheet?headers=false&amp;gid=2020899895&amp;range=A1:D6'style="width:100%;max-width:720px;height:183" frameborder="0"></iframe>
+
+</div>
+
+<center><br />
+
+## Let's be careful out there!
+
+<br /></center>
