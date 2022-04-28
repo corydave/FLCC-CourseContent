@@ -3,7 +3,17 @@
 ^= =
 
 # Description
-Today we're going to use Google Slides as a desktop publishing program. 
+This week we're going to use Google Slides as a desktop publishing program. There are a few different concepts we'll explore:
+* Order (layers)
+* Grouping
+* Aligning (and distributing)
+* Canvas versus "staging area"
+
+If you've used Google Slides before to make presentations, that's great! It's perfect for that. But it's also great for desktop publishing (that is the term we use for designing publications).
+
+Here is a [sample of a poster made with Slides](https://docs.google.com/presentation/d/1RpD_wGOv0Aenujh1VRhA64QEdTbdS4NN-8YXov5iH-U/edit#slide=id.p) - it's four feet by three feet and was used at a presentation.
+
+You can also check out this [8.5" x 11" handout made with Slides](https://docs.google.com/presentation/d/14vArz5He40B1gh-T4fgyX2lHLL3tQ2j5CUoKhc4gxUw/edit#slide=id.g19385e270b_0_1183) (for a game about robots).
 
 ^===
 
@@ -22,7 +32,11 @@ Today we're going to use Google Slides as a desktop publishing program.
 If you have any questions, just ask!
 
 # Specifications
-* Th
+* Your work must have clear evidence of *grouping*.
+
+* Your work must have clear evidence of *aligning*.
+
+* Your work must have clear evidence of *ordering*.
 
 * Please paste a link to the Google Sites page in the "WRITE SUBMISSION" portion of Blackboard (not "COMMENTS").
 
