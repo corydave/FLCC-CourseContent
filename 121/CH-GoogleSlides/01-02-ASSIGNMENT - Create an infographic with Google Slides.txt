@@ -39,15 +39,9 @@ Click on the thumbnails below to see sample infographics.
 
 # Specifications
 
-* Must include:
-  * Changing the canvas to be more than a standard 
-  * Include screenshot of YouTube video with link
-  * Include QR code
-  * Have the reader walk away with useful knowledge
-  * Be a process infographic or informative infographic
-  * Staging area has assets on it to be used
-  * Can be shared, can be easily modified, lives in your own control as an editable object
+* Check the rubric for exact specifications.
 
+* Infographic should be posted in your Google Sites with a button underneath that says, "Make a copy" that links to the `/copy` version of the link.
 
 * Please paste a link to the Google Sites page in the "WRITE SUBMISSION" portion of Blackboard (not "COMMENTS").
 
@@ -61,4 +55,3 @@ Click on the thumbnails below to see sample infographics.
 </center>
 
 ^= =
-
