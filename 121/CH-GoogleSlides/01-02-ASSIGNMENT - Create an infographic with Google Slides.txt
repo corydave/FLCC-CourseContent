@@ -3,9 +3,11 @@
 ^= =
 
 # Description
-Infographics are a wonderful way to display information in a way that is easy to understand. Although they sometimes get a reputation for being too flashy and trite, when done properly an infographic is really effective at conveying comple ideas such as processes and numerical relationships.
+Infographics are a wonderful way to display information in a way that is easy to understand. Although they sometimes get a reputation for being too flashy and trite, when done properly an infographic is really effective at conveying complex ideas such as processes and numerical relationships.
 
+There are some sites like [Canva](https://www.canva.com/), [Piktochart](https://piktochart.com/), [Vennage](https://venngage.com/), [LucidChart](https://www.lucidchart.com/pages/), and [Adobe Creative Cloud Express](https://www.adobe.com/express/create/infographic) that help you make infographics. The benefits of these sites are that they have templates you can use and tools specifically tailored for making infographics.
 
+But there's a down side - you don't necessarily have the ability to edit (or share) a document if it lives in another platform. Or there might a cost associated with it. Or the freemium model doesn't have great features.
 
 ^===
 
@@ -19,6 +21,12 @@ Infographics are a wonderful way to display information in a way that is easy to
 
 ^=
 
+Because of this, I think it's a smarter move to learn how to use Google Slides as an infographic design platform. You can always come back and edit it. You can always make a copy of it. You can always share it.
+
+In this video, I'll create an infographic from scratch using Google Slides. Be sure to check out the examples below for inspiration on creating *information* infographics. The walkthrough in the video will look at making a *process* infographic. 
+
+Make sure you check out the rubric for this assignment - there is a lot going on behind the scenes here!
+
 <br />
 
 If you have any questions, just ask!
@@ -31,7 +39,15 @@ Click on the thumbnails below to see sample infographics.
 
 # Specifications
 
-* 
+* Must include:
+  * Changing the canvas to be more than a standard 
+  * Include screenshot of YouTube video with link
+  * Include QR code
+  * Have the reader walk away with useful knowledge
+  * Be a process infographic or informative infographic
+  * Staging area has assets on it to be used
+  * Can be shared, can be easily modified, lives in your own control as an editable object
+
 
 * Please paste a link to the Google Sites page in the "WRITE SUBMISSION" portion of Blackboard (not "COMMENTS").
 
