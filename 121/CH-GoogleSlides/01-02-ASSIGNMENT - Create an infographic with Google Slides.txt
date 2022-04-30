@@ -3,7 +3,9 @@
 ^= =
 
 # Description
-asdf
+Infographics are a wonderful way to display information in a way that is easy to understand. Although they sometimes get a reputation for being too flashy and trite, when done properly an infographic is really effective at conveying comple ideas such as processes and numerical relationships.
+
+
 
 ^===
 
