@@ -1,0 +1,30 @@
+^^ CHAPTER 03 - Math
+
+# Description
+Let's check out some of the built-in math features of Java. A few of the key features are:
+* modulus (the "%" sign)
+* random numbers
+* overflow errors (which can be entry points for the bad guys)
+* casting
+
+# Experiences for this chapter
+* READING GUIDE - Chapter 3 Reading Guide
+
+* LAB - ```Circles01```
+
+* LAB - ```BoxOfRocks```
+
+* LAB - ```InchesToFeet```
+
+# To ponder
+In the meantime, ponder what you think this code might do:
+
+<!-- HTML generated using hilite.me --><div style="background: #ffffff; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #333399; font-weight: bold">int</span> num1 <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">10</span><span style="color: #333333">;</span>
+<span style="color: #333399; font-weight: bold">int</span> num2 <span style="color: #333333">=</span> <span style="color: #0000DD; font-weight: bold">4</span><span style="color: #333333">;</span>
+
+System<span style="color: #333333">.</span><span style="color: #0000CC">out</span><span style="color: #333333">.</span><span style="color: #0000CC">print</span><span style="color: #333333">(</span>num2 <span style="color: #333333">+</span> <span style="background-color: #fff0f0">&quot; goes into &quot;</span> <span style="color: #333333">+</span> num1<span style="color: #333333">);</span>
+System<span style="color: #333333">.</span><span style="color: #0000CC">out</span><span style="color: #333333">.</span><span style="color: #0000CC">print</span><span style="color: #333333">(</span>num1<span style="color: #333333">/</span>num2 <span style="color: #333333">+</span> <span style="background-color: #fff0f0">&quot; times with a remainder of &quot;</span><span style="color: #333333">);</span>
+System<span style="color: #333333">.</span><span style="color: #0000CC">out</span><span style="color: #333333">.</span><span style="color: #0000CC">print</span><span style="color: #333333">(</span>num1<span style="color: #333333">%</span>num2 <span style="color: #333333">+</span> <span style="background-color: #fff0f0">&quot;.&quot;</span><span style="color: #333333">);</span>
+</pre></div>
+
+<br />
