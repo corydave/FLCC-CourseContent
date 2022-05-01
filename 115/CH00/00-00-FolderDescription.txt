@@ -15,7 +15,7 @@ We'll spend the first few days of this class working on getting to know each oth
 # Assignments
 
 * VIDEO - Orientation Video
-* ASSIGNMENT - FlipGrid
+* ASSIGNMENT - FlipGrid Introduction
 * READING - Course Outline
 * ASSIGNMENT - Plagiarism Agreement
 * ASSIGNMENT - Orientation Quiz
