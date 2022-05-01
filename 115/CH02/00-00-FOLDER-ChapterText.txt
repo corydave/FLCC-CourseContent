@@ -1,0 +1,28 @@
+^^ CHAPTER 02 - Basic Java && Variables
+
+# Experiences for this chapter
+
+^= =
+
+We're going to look at some basic Java building blocks (primitive data types like int, char, double, and boolean). We'll also consider some basic mathematical operations and then we'll conclude with a fairly in-depth look at ```System.out.println()``` statements.
+
+In the meantime, ponder what you think this code might do:
+
+```java
+int num1 = 10;
+int num2 = 4;
+
+System.out.print(num2 + " goes into " + num1);
+System.out.print(num1/num2 + " times with a remainder of ");
+System.out.print(num1%num2 + ".");
+```
+
+^===
+
+* READING GUIDE - Chapter 2 Reading Guide
+
+* LAB - ```TriangleArea```
+
+* LAB - ```ConvertCF01```
+
+^=
