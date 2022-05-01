@@ -1,8 +1,8 @@
-^^ CHAPTER 0 - Getting Started && Introductions
+^^ CHAPTER 00 - Orientation
 
 ^= =
 
-### What to expect
+# What to expect
 
 You might be new to college. You could be new to programming. Maybe you're new to Java. Perhaps you're new to computers. We all have different backgrounds and experiences. 
 
@@ -12,12 +12,23 @@ We'll spend the first few days of this class working on getting to know each oth
 
 ^===
 
-### Assignments
+# Assignments
 
+* VIDEO - Orientation Video
+* ASSIGNMENT - FlipGrid
 * ASSIGNMENT - Plagiarism Agreement
+
 
 ^=
 
 <br /><br />
 
-In the meantime, can you hypothesize why I chose to use two "&&" signs in the chapter title? What do you think it means?
+In the meantime, can you hypothesize what this line of code might do?
+
+```java
+
+int age = 43;
+System.out.println("Half of your age is " + (age/2));
+
+```
+
