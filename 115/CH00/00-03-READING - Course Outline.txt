@@ -1,0 +1,11 @@
+^^ READING - Course Outline
+
+<div style="float:left;"><a href="https://docs.google.com/document/d/1O71LZDc67eulsVxeHrmolj5kpklPBMsndlWH9lf-Prg/" target="_blank"><img src="https://docs.google.com/drawings/d/e/2PACX-1vQPmAnJDMrFs7e0gnFkgbGSDvDz37D-xesTz5jilY2XwlwYVkAnUAF04VzHRoDk4r5ZbyhV2RXp8H0U/pub?w=200&h=280" alt="A thumbnail of the Course Information Sheet" title="A thumbnail of the the Course Information Sheet" style="margin: 0pt 10pt 10pt 0pt;float:left;"  /></a></div>
+
+You can [read the Course Outline here](https://docs.google.com/document/d/1O71LZDc67eulsVxeHrmolj5kpklPBMsndlWH9lf-Prg/). Please make sure you spend some time getting familiar with the way this course is run.
+
+I'm excited about this semester - it's awesome that you've decided to take this class. Learning how to program can be a bit disorienting at first. In my experience, it takes a bit longer to catch on in this class (compared to other classes). 
+
+The most important ingredient you can have when programming is *perseverance*. Stick with it. Ask questions. Probe. Telescope. Look stuff up. Go to YouTube. But *stay in touch with me if you are struggling!!!!*. 
+
+I'm excited. Please embrace this class. It's gonna be fun!
