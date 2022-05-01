@@ -16,7 +16,9 @@ We'll spend the first few days of this class working on getting to know each oth
 
 * VIDEO - Orientation Video
 * ASSIGNMENT - FlipGrid
+* READING - Course Outline
 * ASSIGNMENT - Plagiarism Agreement
+* ASSIGNMENT - Orientation Quiz
 
 
 ^=
@@ -25,10 +27,10 @@ We'll spend the first few days of this class working on getting to know each oth
 
 In the meantime, can you hypothesize what this line of code might do?
 
-```java
 
+```java
 int age = 43;
 System.out.println("Half of your age is " + (age/2));
-
 ```
+
 
