@@ -11,7 +11,7 @@ We will be using Flipgrid for this exercise. It's a great way for all of us to g
 
 To post an entry, you just need to login with your student ID and hit record! If you need help, you can [check out this video](https://www.youtube.com/watch?v=XTBLq-WUC88).
 
-If you can't see the FlipGrid, go directly to the website (https://flipgrid.com/<CODE>) or download the app. Our "Flip Code" is **<CODE>**.
+If you can't see the FlipGrid, go directly to the website (https://flipgrid.com/---CODE---) or download the app. Our "Flip Code" is **---CODE---**.
 
 The assignment is to post a short video where you tell us how to pronounce your name, something awesome about yourself, and where you live.
 
@@ -27,4 +27,4 @@ Note that the "Student username" in this exercise is actually a mashup of the fi
 <br /><br /><hr />
 </div>
 
-<center><iframe width="1000" height="900" frameborder="0" src="https://flipgrid.com/<CODE>?embed=true" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen" allow="microphone; camera"></iframe></center>
+<center><iframe width="1000" height="900" frameborder="0" src="https://flipgrid.com/---CODE---?embed=true" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen" allow="microphone; camera"></iframe></center>
