@@ -8,11 +8,6 @@ This chapter is an examination of the tools you need to get started programming.
 
 In class we'll look at how to use Blackboard and Mimir together. 
 
-In the meantime, what do you think the following code will do?
-
-```java
-System.out.println("Bart Simpson");
-```
 
 ^===
 
@@ -27,3 +22,11 @@ System.out.println("Bart Simpson");
 * LAB - ```Triangle```
 
 ^=
+
+# To ponder
+In the meantime, ponder what you think this code might do:
+<div style="width:90%;margin-left:auto;margin-right:auto;background-color:#e1e1e1;border-radius:15px;padding: 10px 0px 10px 30px;line-height:1em;font-size:14pt;font-family: consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace;">
+
+System.out.println("Bart Simpson");
+	
+</div>
