@@ -1,0 +1,25 @@
+^^ WEEK 14 - Weekly Introduction
+
+# Hi!
+
+Just a quick note to say, "HI!".
+
+The Database Project is the focus for this week (and you can get started on your Final Portfolio, too, if you wish - it's in the "Upcoming Experiences" folder.
+
+# Late work
+
+Please remember that the semester ends May 17 - that means you *need to have all your work in by noon that day*.
+
+# May the Fourth be With You
+
+<center>
+
+[Link to Obi Wan trailer](https://www.youtube.com/watch?v=3Yh_6_zItPU)
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/3Yh_6_zItPU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center><br />
+
+## Let's be careful out there!
+
+<br /></center>
