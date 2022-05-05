@@ -1,1 +1,18 @@
-a
+^^ FINAL EXAM
+
+# Description
+You did it! It's the end of the semester! This final exam will be open from now until noon on May 17. There is no opportunity to submit this exam after that time.
+
+* The final exam closes May 17 at 12:00 PM (noon).
+
+* To access the exam, go into [TestOut](https://w3.testout.com/) and look for the "Certifications" tab on the top!
+
+* The TestOut exam is created by the company and has tight controls; I cannot change any of the settings (except for time allotment - if you desire more time, please email me! The exam defaults to 2 hours).
+
+* If you have specific questions, [be sure to read the FAQ from TestOut](https://w3.testout.com/certification/pro-exams/resources/faqs)
+
+* Good luck!
+
+* Let's be careful out there!
+
+
