@@ -47,6 +47,8 @@ Click on the thumbnails below to see sample infographics.
 
 * Your Google Slides must be shared such that "Anyone with the link can ***VIEW***".
 
+* One site you can use to generate QR codes is [qr-code-generator](https://www.qr-code-generator.com/)
+
 
 <center>
 
