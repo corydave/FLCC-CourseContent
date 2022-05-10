@@ -1,0 +1,26 @@
+^^ WEEK 15 - Weekly Introduction
+
+# THIS IS IT! THE LAST WEEK! YOU DID IT!!!!
+
+This is the last week of the semester - it officially ends May 17! Just a reminder that no work will be accepted after May 17 (the 2-week grace period has limits, and one of those limits is the semester ending!).
+
+I know not all work has been graded yet, but you can expect everything to be graded (with feedback) in the next week.
+
+# No Student Hours today
+
+Today, Tuesday May 10, I will not be available for Student Hours. If you need something, please email me!
+
+# Final Exam
+
+The Final Exam is due May 17, so please make sure you dedicate enough time to it. Also, the InfoSec reports will be compiled in the next few days, so keep an eye out for the aggregated version!
+
+# It's been fun
+...but this isn't the end! I'll drop in one last video when the semester ends, and I'm hopeful that our paths will cross again!
+
+<center>
+
+[Link to video](https://www.youtube.com/watch?v=7AJe-_yJWDI)
+
+</center>
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/7AJe-_yJWDI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
