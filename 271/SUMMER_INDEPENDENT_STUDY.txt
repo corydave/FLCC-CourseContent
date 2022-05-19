@@ -1,0 +1,34 @@
+^^ WELCOME
+
+# Welcome
+Hey! Welcome to CSC-271: Hardware and Operating Systems! The course this summer is self-paced. I will warn you that some chapters are quick and some are pretty long.
+
+We'll be using TestOut in this course. It's a really good platform for virtual labs. The content is really well done, too. The videos are great. I don't particularly like pre-packaged content, but this one is actually really good.
+
+You can access it by going to www.TestOut.com. But to enroll in the course I set up, click here:
+
+<center><br />
+
+## [TestOut](https://labsimapp.testout.com/v6_0_499/index.html/createaccount?inviteid=46e6c088-1a1b-42c1-9ab0-e5b6cc06c5da)
+
+</center>
+
+
+# Tips
+Here's a few tips you might find helpful:
+
+* The only things that count towards your grade are the LABS and the QUIZZES. You can take them as many times as you'd like.
+
+* You probably know a lot of this stuff already. You can watch the video at faster speeds if you'd like (if you even watch the videos at all). I like to pause the video, read the transcript, and if there's something I want to see in the video based on the transcript, I just click on the text and the video jumps to that spot.
+
+* If you decide not to watch the videos (becuase you know most of the stuff already), a lot of times the content is available in the documents in the chapters, too.
+
+* There are 2 labs I struggled with (and are pain points for students, too). You can always email me if you have questions, but I'll tell you the two things that are super tricky (and not likely to manifest in the real world):
+
+  * Check the CMOS battery!
+  * Check the voltage switch on the machine!
+
+
+* For additional support, please contact the TestOut team at 800-877-4889 or support@testout.com.
+
+<iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vSVszv5W4sMZDVwaz-xYWJU583eUH20aSkt0grsZWFjLuP4d5U2Gjd_v2DBX56ZBW2VE5MTKD8IFHWg/pubhtml/sheet?headers=false&amp;gid=1906760501&amp;range=R2:R18'style="width:100%;max-width:720px;height:420px" frameborder="0"></iframe>
