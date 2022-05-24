@@ -1,9 +1,7 @@
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/kOJbs73Lszs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<center><br />
-
-[Link to video](https://www.youtube.com/watch?v=kOJbs73Lszs)
-
-</center>
-
-<br /><br /><br /><br /><br /><br />
+<!DOCTYPE html>
+<html><head>
+</head>
+<body style="font-family: 'Lato', sans-serif;font-size: 19px;color: #202122;">
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/kOJbs73Lszs" title="YouTube video player?wmode=opaque" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe> <br><a href="https://www.youtube.com/watch?v=kOJbs73Lszs" target="_blank" rel="noopener">Link to video</a></center>
+<p><br><br><br><br><br></p>
+</body></html>
