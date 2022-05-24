@@ -1,0 +1,17 @@
+<center>
+
+# Welcome to Java!
+
+</center>
+
+A few things to know before getting started. This Welcome Tour will appear every time you enter this class - until you hit the "Dismiss" button in the bottom! Make sure you check out the video and the Course Outline so you know if this course is right for you.
+
+The "big things" to know about this course:
+
+* **We're using Brightspace instead of Blackboard** - There will be some growing pains. If you find that something doesn't make sense in here or you can't find something, email me! There's a good chance I screwed something up! 😁
+
+* **We won't go at breakneck speeds, but we'll be cruisn'** - This class moves fairly fast, but the difference between this class and other classes is that you need to understand the material as we cover it. There really isn't anywhere to hide. If you don't understand something, you shouldn't say to yourself, "Self, that's OK! We'll just move on to the next chapter!" The next chapter relies on things covered in all the previous chapters. So make sure you work with me, other students, tutors, or friends to get a solid understanding in real time.
+
+* **I'd love to meet you!** If you have time this summer and want to meet with me via a video chat, let's do it! And if you have questions this summer, email me. Or video chat me. Or Discord me. Or whatever!
+
+<br /><br /><br /><br /><br />
