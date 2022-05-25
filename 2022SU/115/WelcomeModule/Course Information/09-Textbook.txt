@@ -1,0 +1,15 @@
+^^ Textbook
+
+You can use any modality of the textbook that suits you best:
+
+
+* [PDF version](http://www.flccarcade.com/java/java115.pdf)
+
+* [Google Drive version](https://drive.google.com/drive/folders/1-aaq-qS8jfsCNUvofcBTFvq9E4FK5NFr)
+
+* [Online reader version](https://www.opencompsci.com/books/java-code)
+
+* [Suggestions/Corrections form](https://docs.google.com/forms/d/e/1FAIpQLSfs9Es11x6725S3VDf8XbE-VPydvB0k1MRpaZtNW1uwa11OFQ/viewform)
+
+
+<br /><br />
