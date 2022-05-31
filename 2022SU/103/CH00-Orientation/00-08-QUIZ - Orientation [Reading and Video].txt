@@ -1,4 +1,4 @@
-^^ QUIZ - Orientation [Reading and Video]
+^^ QUIZ - Orientation Quiz
 
 # Description
 
@@ -17,7 +17,7 @@ Don't worry! You can take the quiz as many times as you'd like. Please let me kn
 
 # Specifications
 
-* The quiz has questions based on the Course Syllabus and content in this Orientation chapter.
+* The quiz has questions based on the Course Syllabus, the Welcome and Orientation Video, and content in this Orientation chapter.
 
 * The quiz is an open book quiz - use all the resources you'd like.
 
