@@ -1,0 +1,35 @@
+^^ QUIZ - Plagiarism Agreement
+
+# Description
+
+This is our plagiarism agreement. Computer Science is a funny field from a copying standpoint:
+
+* Many people and companies share their code publicly - and it's *free and legal* to use!
+
+* It's easy to steal someone else's code and pass it off as your own.
+
+* It's easy to convince yourself that you understand some code you've found online even if you haven't really digested it all.
+
+But consider this - perhaps you are taking a poetry class and are tasked with submitting a sonnet. Sure, you could steal one of William Shakespeare's sonnets and submit it. That's legal (his work is not protected by copyright). 
+
+But it's unethical.
+
+And you've cheated your brain an opportunity to flourish.
+
+And it's against the Student Code of Conduct.
+
+I take plagiarism very seriously. If your code raises a flag (Mimir can - and will - do that automatically), you will receive one warning and an "F" for the assignment. Two plagiarism infractions result in ejection from this class with an irrevocable "F" for the class.
+
+# Empathy Clause
+
+Here's the thing that I've experienced the most. I don't think people ever want to plagiarize. I think typically what happens is people back themselves into a corner and run out of time to do work. Since there aren't very many opportunities to hand things in late, the only path forward might be cheating.
+
+**If this is you**, email me. I'd rather generate options with you one-on-one then have you get an "F". Honestly, be open and transparent and we can work something out.
+
+# Specifications
+
+* Read each question carefully and initial or sign your name.
+
+* You need to get a 100% on this before you can see the Orientation Quiz (which will then give you access to the rest of the course!); you may take this as many times as you'd like.
+
+<br /><br />
