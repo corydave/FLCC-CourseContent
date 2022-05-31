@@ -1,4 +1,4 @@
-^^ WEEK01 - Weekly Introduction
+^^ WEEK 01 - Weekly Introduction
 
 Welcome to the first week of Summer Java (the coolest and most refreshing way to enjoy Java). Please make sure you check out the video below.
 
