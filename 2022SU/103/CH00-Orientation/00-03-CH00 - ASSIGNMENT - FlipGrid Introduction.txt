@@ -23,6 +23,6 @@ Note that the "Student username" in this exercise is actually your first name ma
 
 # Specifications
 
-* There is nothing to submit for this assignment; when I see your post in FlipGrid I'll make sure you are given credit!
+* When you are done adding to the FlipGrid, submit text here that says something like, "I've submitted my FlipGrid! And I'm AWESOME!!!!
 <br /><br /><hr />
 </div>
