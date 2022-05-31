@@ -1,0 +1,26 @@
+^^ CHAPTER 00 - Orientation
+
+# What to expect
+
+You might be new to college. You could be new to programming. Maybe you're new to Java. Perhaps you're new to computers. We all have different backgrounds and experiences.
+
+And that's awesome!
+
+We'll spend the first few days of this class working on getting to know each other (since we'll be helping each other all semester long), learning the tools, and talking about computer science.
+
+# Schedule
+
+<iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vQosxGgDcakc-fNCrEbEMxFwQpClqJzWinUcbuJ9lZpbPtb3V5LYil0B5Oe98VpkpypvxeafQxkyH93/pubhtml/sheet?headers=false&amp;gid=1072565424&amp;range=B1:D11'style="width:100%;max-width:720px;height:288px;" frameborder="0"></iframe>
+
+# To ponder
+
+In the meantime, ponder what you think this code might do:
+
+
+```java
+
+int age = 43;
+
+System.out.println("Half of your age is " + (age/2));
+
+```
