@@ -1,0 +1,21 @@
+^^ WEEK01 - Weekly Introduction
+
+Welcome to the first week of Summer Java (the coolest and most refreshing way to enjoy Java). Please make sure you check out the video below.
+
+## Main takeaways
+
+* Chapter 0 is open!
+
+* Chapter 1 will be open tomorrow (to give you time to soak in the content in Chapter 0).
+
+* You need to get a 100% on the Plagiarism Agreement in order to see the Orientation Quiz.
+
+* You need to get an 80% or better on the Orientation Quiz to see the rest of the course!
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/iyU4AEsaH0w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center><br />
+
+[Link to video](https://www.youtube.com/watch?v=iyU4AEsaH0w)
+
+</center><br /><br />
