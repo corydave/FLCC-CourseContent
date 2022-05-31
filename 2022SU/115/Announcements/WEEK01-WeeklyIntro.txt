@@ -12,10 +12,12 @@ Welcome to the first week of Summer Java (the coolest and most refreshing way to
 
 * You need to get an 80% or better on the Orientation Quiz to see the rest of the course!
 
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/iyU4AEsaH0w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 <center><br />
 
 [Link to video](https://www.youtube.com/watch?v=iyU4AEsaH0w)
 
 </center><br /><br />
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/iyU4AEsaH0w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br />
