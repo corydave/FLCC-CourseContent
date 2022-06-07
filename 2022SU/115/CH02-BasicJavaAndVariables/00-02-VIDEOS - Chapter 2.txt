@@ -4,13 +4,13 @@
 ^= =
 
 <center>
-<iframe width="280" height="157" src="https://www.youtube.com/embed/ctsW3qIAKgs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="280" height="157" src="https://www.youtube.com/embed/ctsW3qIAKgs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:15px;"></iframe>
 </center>
 
 ^===
 
 <center>
-<iframe width="280" height="157" src="https://www.youtube.com/embed/mxtj6HQg-qU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="280" height="157" src="https://www.youtube.com/embed/mxtj6HQg-qU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:15px;"></iframe>
 </center>
 
 ^=
