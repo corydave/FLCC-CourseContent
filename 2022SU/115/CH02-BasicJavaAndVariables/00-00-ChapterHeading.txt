@@ -1,0 +1,57 @@
+<div id="ch02Button" onclick="ch02ContentsToggle()">
+
+<CENTER>
+
+^^ CHAPTER 2 - Basic Java && Variables
+<br />&#9660;
+
+</CENTER>
+
+
+</div>
+
+<div id="ch02Contents" style="display:block;">
+
+# What to expect
+
+There are a few different things going on in this chapter. We'll look at the different types of comments, we'll check out some different types of *variables* (like the difference between integers, decimals, and words), ways to use *variables*, different ways to output information, and the types of errors that you are likely to encounter.
+
+If you feel like you're getting Java and you don't need a review of the chapter, you can skip some of the videos. But *please* watch the **FeetToMiles** video because it not only helps contextualize one of the labs you'll be doing, but there is *a lot* of collateral learning in it (things like shortcuts for commenting, ways to use the command line in Linux, and other cool things).
+
+# Schedule
+
+<iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vQosxGgDcakc-fNCrEbEMxFwQpClqJzWinUcbuJ9lZpbPtb3V5LYil0B5Oe98VpkpypvxeafQxkyH93/pubhtml/sheet?headers=false&amp;gid=2147410444&amp;range=A1:D10'style="width:100%;max-width:720px;height:267px" frameborder="0"></iframe>
+
+# To ponder
+
+In the meantime, ponder what you think this code might do:
+
+
+```java
+
+int total = 187;
+int numOfAssignments = 2;
+
+System.out.println("The average is " + (total/numOfAssignments) + ".");
+
+```
+
+<br /><br />
+
+</div>
+
+<script>
+function ch02ContentsToggle() {
+  var content = document.getElementById("ch02Contents");
+  if (content.style.display === "none") {
+    content.style.display = "inline-block";
+  } else {
+    content.style.display = "none";
+  }
+}
+</script>
+
+
+
+
+
