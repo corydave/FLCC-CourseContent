@@ -1,5 +1,9 @@
 ^^ VIDEO - IDEs, Java, and HelloWorld Walkthrough
 
+# Description
+
+This video is from last summer and shows me using the Mimir IDE to do the coding - I'd recommend getting your own IDE (some people like Eclipse, some people like IntelliJ, some people like JGrasp). I personally *LOVE* [Google Cloud Shell](https://shell.cloud.google.com/). It's cloud based, it has great features, and it works every single time.
+
 ^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/MCEU4Y7aBSs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <center><br />
