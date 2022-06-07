@@ -1,0 +1,29 @@
+^^ WEEK 02 - Weekly Introduction
+
+Hey folks! Welcome to the second week of Computing Sciences Portal class!
+
+I *think* I've gotten a handle on updating all the due dates in Mimir and Blackboard, but if I missed any, let me know please!
+
+I've updated the Course Content with Chapter 1. It's taking me a bit longer than I thought to add the rest of the content for the course, but I'm getting there! Thank you for your patience as I recover from the abrupt change to Blackboard.
+
+A few things to know for this week:
+
+* There are two different folders in Chapter 1 - "Introduction" and "Number Systems". Both folders have content due next week.
+
+* I've changed the due dates in this class from Tuesdays to Wednesdays. There are a lot of people enrolled in both this class and Java, and I think having the due dates on different days might help.
+
+* That means that if you haven't done the FlipGrid that was due today, you get an extra day! It's due by noon tomorrow (Wednesday) - and remember that this is one of the few assignments that can't be submitted late.
+
+* In the "Introduction" folder, there is an *Infographic* assignment - have fun with it! For the *Technical Writing* assignment, try to be as specific as you can. You should look at the rubrics for both assignments [here's a video on how to do that](https://www.youtube.com/shorts/teLiVab8Dok).
+
+* In the "Number Systems" folder, there is an assignment where you have to change numbers to different bases. Don't panic if it's too much math for you! This is *by far* the most math we'll do all semester.
+
+<center><br />
+
+[Link to video](https://www.youtube.com/watch?v=n72qAcUrZLU)
+
+</center><br /><br />
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/n72qAcUrZLU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br /><br />
