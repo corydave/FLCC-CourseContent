@@ -2,7 +2,7 @@
 
 <CENTER>
 
-^^ CHAPTER 0 - Introduction && Orientation
+^^ CHAPTER 0 - Orientation
 <br />&#9660;
 
 </CENTER>
