@@ -4,7 +4,7 @@
 
 <div style="float:left;"><a href="https://docs.google.com/document/d/1m7s4QfQ1JRQ9aMCzxMOgj2fYl-8o4pKK5SFKo_gQoBg/edit" target="_blank"><img src="https://docs.google.com/drawings/d/e/2PACX-1vT_Z9eOjoPSeNuDjHy-f84hrjvitXxkVF6Wx0VI_8xDvtWY40GiGwJe_AspMK2cFC9FXR1A1xm9hl7O/pub?w=200&h=280" alt="A thumbnail of Chapter 1 from the textbook." title="A thumbnail of Chapter 1 from the textbook." style="margin: 0pt 10pt 10pt 0pt;float:left;"  /></a></div>
 
-The reading for this chapter is [Chapter 1 - Introduction](https://docs.google.com/document/d/1m7s4QfQ1JRQ9aMCzxMOgj2fYl-8o4pKK5SFKo_gQoBg/preview). This reading provides contextualization for Java by way of an examination of how computer programming works.
+The reading for this chapter is [Chapter 1 - Introduction](https://docs.google.com/document/d/1m7s4QfQ1JRQ9aMCzxMOgj2fYl-8o4pKK5SFKo_gQoBg/edit). This reading provides contextualization for Java by way of an examination of how computer programming works.
 
 As you are reading, please make sure you leave comments in the margins (you can highlight text in the document and leave a comment). Perhaps you notice a typo. Maybe you have something to add. Or maybe you just want to add a question that someone else can answer for you.
 
