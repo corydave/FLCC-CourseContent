@@ -12,8 +12,6 @@
 
 <div id="ch00Contents" style="display:none;">
 
-^^ CHAPTER 00 - Orientation
-
 # What to expect
 
 You might be new to college. You could be new to programming. Maybe you're new to Java. Perhaps you're new to computers. We all have different backgrounds and experiences.
