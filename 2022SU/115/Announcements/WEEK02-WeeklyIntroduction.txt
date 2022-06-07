@@ -1,0 +1,27 @@
+^^ WEEK 02 - Weekly Introduction
+
+Hey folks! Welcome to the second week of Java. Things have started to fall into place with the abrupt change to Blackboard. Chapters 0, 1, and 2 are all in place (and more is coming!). A reminder that *all three chapters are due June 14 at noon*. 
+
+I *think* I've gotten a handle on updating all the due dates in Mimir and Blackboard, but if I missed any, let me know please!
+
+A few things to know for this week:
+
+* I have changed the way the chapters look when you click on COURSE CONTENT in Blackboard; they are now collapsed but if you click on each chapter heading you'll see the information. You still have to click on the text above the blue chapter headings (in black and in a smaller font) to enter the chapters).
+
+* Don't forget to enter into the FlipGrid and introduce yourself!
+
+* There are three videos in this chapter. The first two cover the textbook and provide examples and some tricks. They are akin to lectures I deliver in a face-to-face class. But the third video, **[FeetToMiles](https://www.youtube.com/watch?v=newnK7A53NE)** is really worth watching. I would recommend watching it *before* starting any of the labs, but *after* watching the chapter 2 videos (and reading the textbook).
+
+* If you haven't watched the **[IDEs and HelloWorld video](https://www.youtube.com/watch?v=MCEU4Y7aBSs)** that was included in the last chapter, please make sure you watch that, too.
+
+* One quirky thing about Mimir - it isn't configured to let me grade your labs *before* they are do. But if you want me to manually check out your code and give you feedback on it, then please email me (dave.ghidiu@flcc.edu) and I can grade them!
+
+<center><br />
+
+[Link to video](https://www.youtube.com/watch?v=WCfcb6KkCfo)
+
+</center><br /><br />
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/WCfcb6KkCfo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br /><br />
