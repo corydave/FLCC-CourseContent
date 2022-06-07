@@ -1,4 +1,16 @@
+<div id="ch01Button" onclick="ch01ContentsToggle()">
+
+<CENTER>
+
 ^^ CHAPTER 01 - Introduction
+<br />&#9660;
+
+</CENTER>
+
+
+</div>
+
+<div id="ch01Contents" style="display:none;">
 
 # Experiences for this chapter
 
@@ -7,3 +19,32 @@ This chapter is an examination of the tools you need to get started programming.
 Be sure to read Chapter 1 of the textbook and watch the video about IDEs (we used to use Mimir as an IDE, but I think Google Cloud Shell is just as good).
 
 <iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vQosxGgDcakc-fNCrEbEMxFwQpClqJzWinUcbuJ9lZpbPtb3V5LYil0B5Oe98VpkpypvxeafQxkyH93/pubhtml/sheet?headers=false&amp;gid=0&amp;range=A1:D12'style="width:100%;max-width:720px;height:309px" frameborder="0"></iframe>
+
+# To ponder
+
+In the meantime, ponder what you think this code might do:
+
+
+```java
+
+String name = "Dave";
+
+System.out.println("Hello, " + name.toUpperCase());
+
+```
+
+
+<br /><br />
+
+</div>
+
+<script>
+function ch01ContentsToggle() {
+  var content = document.getElementById("ch01Contents");
+  if (content.style.display === "none") {
+    content.style.display = "inline-block";
+  } else {
+    content.style.display = "none";
+  }
+}
+</script>
