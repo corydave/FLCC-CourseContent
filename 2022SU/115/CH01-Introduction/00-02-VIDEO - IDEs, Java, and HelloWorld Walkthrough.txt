@@ -1,0 +1,12 @@
+^^ VIDEO - IDEs, Java, and HelloWorld Walkthrough
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/MCEU4Y7aBSs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center><br />
+
+[Link to video](https://www.youtube.com/watch?v=MCEU4Y7aBSs)
+
+</center>
+
+<br /><br />
+
