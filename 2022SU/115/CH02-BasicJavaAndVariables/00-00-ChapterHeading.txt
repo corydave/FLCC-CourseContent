@@ -10,7 +10,7 @@
 
 </div>
 
-<div id="ch02Contents" style="display:block;">
+<div id="ch02Contents" style="display:none;">
 
 # What to expect
 
