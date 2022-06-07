@@ -1,0 +1,20 @@
+^^ VIDEOS - Chapter 2 Videos
+
+
+^= =
+
+<center>
+<iframe width="280" height="157" src="https://www.youtube.com/embed/ctsW3qIAKgs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
+^===
+
+<center>
+<iframe width="280" height="157" src="https://www.youtube.com/embed/mxtj6HQg-qU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+
+^=
+
+<br /><br />
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/newnK7A53NE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
