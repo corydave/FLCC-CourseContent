@@ -1,3 +1,17 @@
+<div id="ch00Button" onclick="ch00ContentsToggle()">
+
+<CENTER>
+
+^^ CHAPTER 0 - Introduction && Orientation
+<br />&#9660;
+
+</CENTER>
+
+
+</div>
+
+<div id="ch00Contents" style="display:none;">
+
 ^^ CHAPTER 00 - Orientation
 
 # What to expect
@@ -24,3 +38,18 @@ int age = 43;
 System.out.println("Half of your age is " + (age/2));
 
 ```
+
+<br /><br />
+
+</div>
+
+<script>
+function ch00ContentsToggle() {
+  var content = document.getElementById("ch00Contents");
+  if (content.style.display === "none") {
+    content.style.display = "inline-block";
+  } else {
+    content.style.display = "none";
+  }
+}
+</script>
