@@ -1,0 +1,20 @@
+^^ LABS & PROJECTS - All at Mimir
+
+<center>
+<a href="https://class.mimir.io/" target="_blank">
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vSSw70BT2UjYavL9j_nk_eBQ39zmqmAKZdZOfNrNA-4RSmGqt6DgbAAeufK7tG85f_PSMfJFQIUs1mH/pub?w=120&h=120" alt="The Mimir logo." title="The Mimir logo." style="margin: 0pt 10pt 10pt 0pt;" />
+
+</center>
+</a>
+
+# Experiences for this chapter
+All labs and projects for this chapter can be found at [Mimir](https://class.mimir.io/):
+
+* READING GUIDE - Chapter 1 Reading Guide
+* LAB - HelloWorld
+* LAB - Initials
+* LAB - Rectangle Tangle
+* LAB - Try, Try a Triangle
+
+<br /><br />
