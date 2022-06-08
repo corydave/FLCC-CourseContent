@@ -1,0 +1,61 @@
+<div id="ch04Button" onclick="ch04ContentsToggle()">
+
+<CENTER>
+
+^^ CHAPTER 04 - Standard Java Classes
+<br />&#9660;
+
+</CENTER>
+
+
+</div>
+
+<div id="ch04Contents" style="display:block;">
+
+# Experiences for this chapter
+
+Not gonna lie - this chapter is a lot of work. As you have been building up your Java experience, you may have been asking yourself, "Self, what's next? I mean, aren't I doing things that every other developer who was learning already did?"
+
+And the answer is, "YES". But the good news is that Java has an API (Application Programmer Interface) which is basically a list of *tons* of pre-made mini-programs that you can use! Actually, there are roughly 4,300 of them. We'll only use a select few of them.
+
+One of the other cool things about the Java API is that each mini-program comes with an instruction booklet of sorts!
+
+<br />
+
+***This. Chapter. Has. A LOT. Of. Work!!!***
+
+<br />
+
+Be sure to read Chapter 4 of the textbook and watch the video playlist (maybe 5 videos) if you have questions!
+
+# Schedule
+
+<iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vQosxGgDcakc-fNCrEbEMxFwQpClqJzWinUcbuJ9lZpbPtb3V5LYil0B5Oe98VpkpypvxeafQxkyH93/pubhtml/sheet?headers=false&amp;gid=1250865820&amp;range=A1:D16'style="width:100%;max-width:720px;height:393px" frameborder="0"></iframe>
+
+# To ponder
+
+In the meantime, ponder what you think this code might do:
+
+
+```java
+
+Random rand = new Random();
+System.out.println(rand.nextInt());
+
+```
+
+
+<br /><br />
+
+</div>
+
+<script>
+function ch04ContentsToggle() {
+  var content = document.getElementById("ch04Contents");
+  if (content.style.display === "none") {
+    content.style.display = "inline-block";
+  } else {
+    content.style.display = "none";
+  }
+}
+</script>
