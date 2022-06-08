@@ -9,7 +9,7 @@
 
 </div>
 
-<div id="ch03Contents" style="display:block;">
+<div id="ch03Contents" style="display:none;">
 
 # What to expect
 
