@@ -1,0 +1,17 @@
+^^ VIDEO - Chapter 3
+
+# Description
+
+Check out this video as we take a deeper dive into the nuances of Java math (and the important things to worry about when programming in Java).
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/Ffr5JgR6Fss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center><br />
+
+[Link to video](https://www.youtube.com/watch?v=Ffr5JgR6Fss)
+
+</center>
+
+<br /><br />
+
+
