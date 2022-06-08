@@ -1,0 +1,17 @@
+^^ VIDEOS - Chapter 4 Videos
+
+# Description
+
+This is an embedded video playlist - there are five videos (you can see the playlist icon in the upper right of the video below). Click that icon to see a list of all the videos in the playlist.
+
+<br />
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLJKQVBjI_NnNPsTWwVzH2gOVT208AN5M6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center><br />
+
+[Link to video](https://www.youtube.com/watch?v=8U7CmWWB368&list=PLJKQVBjI_NnPOYw7PtISH-AKxLXaXZ7QH&index=11)
+
+</center>
+
+<br /><br />
