@@ -1,0 +1,11 @@
+^^ READING - Chapter 4
+
+# Description
+
+<div style="float:left;"><a href="https://docs.google.com/document/d/1-FmWZFelbIoXxZuQifn5Xv1CceJwMijJnf7A3rjghOI/edit" target="_blank"><img src="https://docs.google.com/drawings/d/e/2PACX-1vQvalNmQGe4hiAmZb0NHVBCw6vzlnKZ2N5XJUdteuwavez-MZisaL2QhQ2MxUhZ6HSkXIWpqFfaF_IF/pub?w=200&h=280" alt="A thumbnail of Chapter 4 from the textbook." title="A thumbnail of Chapter 4 from the textbook." style="margin: 0pt 10pt 10pt 0pt;float:left;"  /></a></div>
+
+The reading for this chapter is [Chapter 4 - Standard Java Classes](https://docs.google.com/document/d/1-FmWZFelbIoXxZuQifn5Xv1CceJwMijJnf7A3rjghOI/edit). There is an entire library of pre-written software you can (and should!) use when programming in Java. This chapter goes into detail about several of those "classes" (that's what we call the mini-programs). In the Java API, there are roughly 4,300 classes. We will rely on maybe 6 for the entire semester.
+
+As you are reading, please make sure you leave comments in the margins (you can highlight text in the document and leave a comment). Perhaps you notice a typo. Maybe you have something to add. Or maybe you just want to add a question that someone else can answer for you.
+
+<br /><br />
