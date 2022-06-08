@@ -10,7 +10,7 @@
 
 </div>
 
-<div id="ch04Contents" style="display:block;">
+<div id="ch04Contents" style="display:none;">
 
 # Experiences for this chapter
 
