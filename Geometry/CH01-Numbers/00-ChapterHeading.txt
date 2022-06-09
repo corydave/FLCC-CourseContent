@@ -10,7 +10,7 @@
 
 </div>
 
-<div id="ch01Contents" style="display:block;">
+<div id="ch01Contents" style="display:none;">
 
 # Topics for this chapter
 
