@@ -2,16 +2,87 @@
 
 # Description
 
-This is an embedded video playlist - there are five videos (you can see the playlist icon in the upper right of the video below). Click that icon to see a list of all the videos in the playlist.
+Check out these five videos that reiterate the content in the textbook.
 
 <br />
 
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLJKQVBjI_NnNPsTWwVzH2gOVT208AN5M6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<center><br />
 
-[Link to video](https://www.youtube.com/watch?v=8U7CmWWB368&list=PLJKQVBjI_NnPOYw7PtISH-AKxLXaXZ7QH&index=11)
-
+<center>
+<div class="titleText" style="font-size: 2.0em;font-family: arial, helvetica, sans-serif;font-weight: bold;padding: 12px;">Chapter 04 Videos</div>
+<div class="playlist-container" style="width: 80%;max-width: 720px;height: 700px;overflow-y: auto;border-radius: 15px;background-color: #eee;padding: 10px;border: 1px solid gray;font-family: arial, helvetica, sans-serif;">
+<div class="flex-container" style="display: flex;">
+<div class="flex-child-video" style="flex: 1;padding-left: 10px;padding-right: 10px;">
+<div class="youtube-width" style="max-width: 500px;min-width: 200px;margin: 30px auto 30px auto;">
+<div class="youtube-container" style="padding-top: 0px;padding-bottom: 56.25%;height: 0;overflow: hidden;position: relative;z-index: 100;">
+<iframe class="youtube-frame" src="https://www.youtube.com/embed/8U7CmWWB368" frameborder="0" allowfullscreen style="border-radius: 15px;width: 100%;height: 100%;position: absolute;top: 0;left: 0;z-index: 101;"></iframe>
+</div>
+</div>
+</div>
+<div class="flex-child" style="flex: 2;">
+<div class="video-title" style="padding-top: 5px;font-size: 1.4em;display: block;text-align: center;">Chapter 4.1 - Methods </div>
+<div class="video-description" style="font-size: 1.1em;text-align: left;display: block;padding-top: 10px;">A primer on using methods in your Java programs (think of them as mini-programs!).</div>
+</div>
+</div>
+<div class="flex-container" style="display: flex;">
+<div class="flex-child-video" style="flex: 1;padding-left: 10px;padding-right: 10px;">
+<div class="youtube-width" style="max-width: 500px;min-width: 200px;margin: 30px auto 30px auto;">
+<div class="youtube-container" style="padding-top: 0px;padding-bottom: 56.25%;height: 0;overflow: hidden;position: relative;z-index: 100;">
+<iframe class="youtube-frame" src="https://www.youtube.com/embed/nY-_8mievwQ" frameborder="0" allowfullscreen style="border-radius: 15px;width: 100%;height: 100%;position: absolute;top: 0;left: 0;z-index: 101;"></iframe>
+</div>
+</div>
+</div>
+<div class="flex-child" style="flex: 2;">
+<div class="video-title" style="padding-top: 5px;font-size: 1.4em;display: block;text-align: center;">Chapter 4.2 - <code>Math</code> Class</div>
+<div class="video-description" style="font-size: 1.1em;text-align: left;display: block;padding-top: 10px;">This video covers the cool things you can do with the <code>Math</code> class in Java.</div>
+</div>
+</div>
+<div class="flex-container" style="display: flex;">
+<div class="flex-child-video" style="flex: 1;padding-left: 10px;padding-right: 10px;">
+<div class="youtube-width" style="max-width: 500px;min-width: 200px;margin: 30px auto 30px auto;">
+<div class="youtube-container" style="padding-top: 0px;padding-bottom: 56.25%;height: 0;overflow: hidden;position: relative;z-index: 100;">
+<iframe class="youtube-frame" src="https://www.youtube.com/embed/jxoFJLeueyM" frameborder="0" allowfullscreen style="border-radius: 15px;width: 100%;height: 100%;position: absolute;top: 0;left: 0;z-index: 101;"></iframe>
+</div>
+</div>
+</div>
+<div class="flex-child" style="flex: 2;">
+<div class="video-title" style="padding-top: 5px;font-size: 1.4em;display: block;text-align: center;">Chapter 4.4 - <code>String</code></div>
+<div class="video-description" style="font-size: 1.1em;text-align: left;display: block;padding-top: 10px;">Ways to capitalize <code>String</code>s and do other cool manipulations with them.</div>
+</div>
+</div>
+<div class="flex-container" style="display: flex;">
+<div class="flex-child-video" style="flex: 1;padding-left: 10px;padding-right: 10px;">
+<div class="youtube-width" style="max-width: 500px;min-width: 200px;margin: 30px auto 30px auto;">
+<div class="youtube-container" style="padding-top: 0px;padding-bottom: 56.25%;height: 0;overflow: hidden;position: relative;z-index: 100;">
+<iframe class="youtube-frame" src="https://www.youtube.com/embed/WFR87ksmmg4" frameborder="0" allowfullscreen style="border-radius: 15px;width: 100%;height: 100%;position: absolute;top: 0;left: 0;z-index: 101;"></iframe>
+</div>
+</div>
+</div>
+<div class="flex-child" style="flex: 2;">
+<div class="video-title" style="padding-top: 5px;font-size: 1.4em;display: block;text-align: center;">Chapter 4.5 - RandomChar</div>
+<div class="video-description" style="font-size: 1.1em;text-align: left;display: block;padding-top: 10px;">Using <code>Random</code> to create random characters.</div>
+</div>
+</div>				
+<div class="flex-container" style="display: flex;">
+<div class="flex-child-video" style="flex: 1;padding-left: 10px;padding-right: 10px;">
+<div class="youtube-width" style="max-width: 500px;min-width: 200px;margin: 30px auto 30px auto;">
+<div class="youtube-container" style="padding-top: 0px;padding-bottom: 56.25%;height: 0;overflow: hidden;position: relative;z-index: 100;">
+<iframe class="youtube-frame" src="https://www.youtube.com/embed/J4EuenV-9fk" frameborder="0" allowfullscreen style="border-radius: 15px;width: 100%;height: 100%;position: absolute;top: 0;left: 0;z-index: 101;"></iframe>
+</div>
+</div>
+</div>
+<div class="flex-child" style="flex: 2;">
+<div class="video-title" style="padding-top: 5px;font-size: 1.4em;display: block;text-align: center;">Chapter 4.5 - <code>Scanner</code> Demo</div>
+<div class="video-description" style="font-size: 1.1em;text-align: left;display: block;padding-top: 10px;">The nuts and bolts of using a <code>Scanner</code> to take in input from the user.</div>
+</div>
+</div>				
+</div>
 </center>
+
+
+
+
+
+
 
 <br /><br />
