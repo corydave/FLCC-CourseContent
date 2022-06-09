@@ -1,0 +1,55 @@
+<div id="ch01Button" onclick="ch01ContentsToggle()">
+
+<CENTER>
+
+^^ CHAPTER 01 - Numbers
+<br />&#9660;
+
+</CENTER>
+
+
+</div>
+
+<div id="ch01Contents" style="display:block;">
+
+# Topics for this chapter
+
+This chapter is a recap of some of the fundamental math you'll need to know before embarking on your geometric adventures! We'll look at **decimals** and **fractions** (as well as performing mathematical operations with them)
+
+* Converting fractions to decimals and decimals to fractions
+
+* Improper fractions, repeating fractions, and irrational numbers
+
+* Ratios
+
+* Reducing fractions
+
+* Adding, subtracting, multiplying, and dividing fractions and decimals
+
+
+
+
+# To ponder
+
+Before starting this chapter, see if you can answer these questions:
+1. What is a *leading zero*?
+
+2. What is an *improper fraction*?
+
+3. What is the value of &pi;?
+
+
+<br /><br />
+
+</div>
+
+<script>
+function ch01ContentsToggle() {
+  var content = document.getElementById("ch01Contents");
+  if (content.style.display === "none") {
+    content.style.display = "inline-block";
+  } else {
+    content.style.display = "none";
+  }
+}
+</script>
