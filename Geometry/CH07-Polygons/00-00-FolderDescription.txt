@@ -2,7 +2,7 @@
 
 <CENTER>
 
-^^ CHAPTER 7 - Shapes
+^^ CHAPTER 7 - Polygons
 <br />&#9660;
 
 </CENTER>
@@ -28,7 +28,7 @@ Let's dive a bit deeper on geometric shapes!
 
 * Quadrilaterals
 
-* Other shapes
+* n-gons
 
 * Perimeter and area
 
