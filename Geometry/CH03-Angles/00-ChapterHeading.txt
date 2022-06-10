@@ -1,0 +1,58 @@
+<div id="ch03Button" onclick="ch03ContentsToggle()">
+
+<CENTER>
+
+^^ CHAPTER 03 - Angles
+<br />&#9660;
+
+</CENTER>
+
+
+</div>
+
+<div id="ch03Contents" style="display:nones;">
+
+# Topics for this chapter
+
+You probably know what a **right angle** is (a 90 degree angle, written as 90&deg;), and might remember what an **acute angle** is (smaller than 90&deg;) or an **obtuse angle** (greater than 90&deg; but less than or equal to 180&deg;). But do you know what a **reflex** angle is? How about **corresponding angles**? Or **vertical angles**?
+
+Do you remember the difference between **parallel** and **perpendicular** lines?
+
+In this chapter, we'll dig a bit deeper into all of these things.
+
+* Types of angles
+
+* Parallel lines
+
+* Perpendicular lines
+
+* Angle relationships
+
+# To ponder
+
+Before starting this chapter, see if you can answer these questions:
+
+1. Consider the diagram below. If the measure of angle AED is 138&deg;, what is the measure of angle  and determine the measure of angle DEB? What about the measure of angle CEB?
+
+<center>
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vSYgpaHnPvrT55rjCd-WN4R_teo4Vp7XpjsChV88fBFqEznm7Npc7E1k7xPu3ExiyTiuSKktpziNLm2/pub?w=780&amp;h=552" style="width:40%;min-width:200px;" alt="Two lines intersect forming an angle." title="Two lines intersect forming an angle.">
+
+
+</center>
+
+
+<br /><br />
+
+</div>
+
+<script>
+function ch03ContentsToggle() {
+  var content = document.getElementById("ch03Contents");
+  if (content.style.display === "none") {
+    content.style.display = "inline-block";
+  } else {
+    content.style.display = "none";
+  }
+}
+</script>
