@@ -42,7 +42,7 @@ Before starting this chapter, see if you can answer these questions:
 
 </center>
 
-4. In the following diagram, circle c<sub>2</sub> has inscribed angle ABC. If the measure of &angle;ABC is 40&deg;,  how many degrees are in arc AC?
+4. In the following diagram, circle c<sub>2</sub> has inscribed &angle;ABC. If the measure of &angle;ABC is 40&deg;,  how many degrees are in arc AC?
 
 <center>
 
