@@ -1,0 +1,51 @@
+<div id="ch09Button" onclick="ch09ContentsToggle()">
+
+<CENTER>
+
+^^ CHAPTER 9 - Right Triangle Trigonometry
+<br />&#9660;
+
+</CENTER>
+
+
+</div>
+
+<div id="ch09Contents" style="display:nones;">
+
+# Topics for this chapter
+
+We're
+
+* D
+
+
+# To ponder
+
+Before starting this chapter, see if you can answer these questions:
+
+1. H
+
+2. W
+
+3. I
+
+<center>
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vRQzp8WbQ9bF5AysOmOmzPAl8Wuo6s_Z7643QiYkrzsZ7GxRPUn2Z2zZkN7OFR1xSVUv4g9sLSogqi2/pub?w=530&amp;h=561" style="width:40%;min-width:200px;" alt="A diagram of a circle with two tangents to the same external point. One tangent has a measurement of 8cm." title="A diagram of a circle with two tangents to the same external point. One tangent has a measurement of 8cm.">
+
+</center>
+
+<br /><br />
+
+</div>
+
+<script>
+function ch09ContentsToggle() {
+  var content = document.getElementById("ch09Contents");
+  if (content.style.display === "none") {
+    content.style.display = "inline-block";
+  } else {
+    content.style.display = "none";
+  }
+}
+</script>
