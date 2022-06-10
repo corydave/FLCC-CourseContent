@@ -55,8 +55,8 @@ Before starting this chapter, see if you can answer these questions:
 </div>
 
 <script>
-function ch02ContentsToggle() {
-  var content = document.getElementById("ch02Contents");
+function ch04ContentsToggle() {
+  var content = document.getElementById("ch04Contents");
   if (content.style.display === "none") {
     content.style.display = "inline-block";
   } else {
