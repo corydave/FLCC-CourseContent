@@ -1,0 +1,67 @@
+<div id="ch08Button" onclick="ch08ContentsToggle()">
+
+<CENTER>
+
+^^ CHAPTER 8 - Circles
+<br />&#9660;
+
+</CENTER>
+
+
+</div>
+
+<div id="ch08Contents" style="display:none;">
+
+# Topics for this chapter
+
+We're going to explore a bit more about circles in this chapter. Every circle has a **radius**, a **diameter**, and an infinite amount of **chord**s. 
+
+In addition to looking at the anatomy of a circle, we'll check out **central angles** and **inscribed angles** as they relate to the **arc** (or part of the **circumference** of the circle. 
+
+Lots of vocabulary? Yup. But don't worry, we'll get there!
+
+* Circumference, radius, diameter, chords
+
+* Area
+
+* Arcs, central angles, and inscribed angles
+
+# To ponder
+
+Before starting this chapter, see if you can answer these questions:
+
+1. How many degrees are in a circle? A **semi-circle**?
+
+2. What does it mean when a circle has a **tangent**?
+
+3. In the following diagram, circle c<sub>1</sub> has two tangents, AB and AC. If AB has a length of 8cm, what is the length of AC? How do you know?
+
+<center>
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vRQzp8WbQ9bF5AysOmOmzPAl8Wuo6s_Z7643QiYkrzsZ7GxRPUn2Z2zZkN7OFR1xSVUv4g9sLSogqi2/pub?w=530&amp;h=561" style="width:40%;min-width:200px;" alt="A diagram of a circle with two tangents to the same external point. One tangent has a measurement of 8cm." title="A diagram of a circle with two tangents to the same external point. One tangent has a measurement of 8cm.">
+
+</center>
+
+4. In the following diagram, circle c<sub>2</sub> has inscribed angle ABC. If the measure of &angle;ABC is 40&deg;,  how many degrees are in arc AC?
+
+<center>
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vQq4Bzt4QkY531m5KohuvTIuWx4kV_jLRYediS51hDH2dt2NCsBsfmG2TgM4wKPDRGXr0BSbawM8Y--/pub?w=511&amp;h=475" style="width:40%;min-width:200px;" alt="A diagram of a circle with an inscribed angle." title="A diagram of a circle with an inscribed angle.">
+
+</center>
+
+
+<br /><br />
+
+</div>
+
+<script>
+function ch08ContentsToggle() {
+  var content = document.getElementById("ch08Contents");
+  if (content.style.display === "none") {
+    content.style.display = "inline-block";
+  } else {
+    content.style.display = "none";
+  }
+}
+</script>
