@@ -32,7 +32,7 @@ In this chapter, we'll dig a bit deeper into all of these things.
 
 Before starting this chapter, see if you can answer these questions:
 
-1. Consider the diagram below. If the measure of angle AED is 138&deg;, what is the measure of angle  and determine the measure of angle DEB? What about the measure of angle CEB?
+1. Consider the diagram below. If the measure of angle AED is 138&deg;, what is the measure of angle   DEB? What about the measure of angle CEB?
 
 <center>
 
