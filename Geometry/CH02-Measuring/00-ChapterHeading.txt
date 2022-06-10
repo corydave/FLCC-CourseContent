@@ -2,7 +2,7 @@
 
 <CENTER>
 
-^^ CHAPTER 02 - Measuring
+^^ CHAPTER 2 - Measuring
 <br />&#9660;
 
 </CENTER>
