@@ -2,7 +2,7 @@
 
 <CENTER>
 
-^^ CHAPTER 01 - Numbers
+^^ CHAPTER 1 - Numbers
 <br />&#9660;
 
 </CENTER>
