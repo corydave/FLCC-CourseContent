@@ -26,6 +26,13 @@ This chapter is a recap of some of the fundamental math you'll need to know befo
 
 * Adding, subtracting, multiplying, and dividing fractions and decimals
 
+* Types of and arithmetic
+
+  * Real numbers, rational numbers, integers, whole numbers, natural numbers
+  * Order of Operations
+  * Distributing
+  * Imaginary and complex numbers
+
 
 
 
