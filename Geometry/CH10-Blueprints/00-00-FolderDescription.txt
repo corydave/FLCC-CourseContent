@@ -1,0 +1,51 @@
+<div id="ch10Button" onclick="ch10ContentsToggle()">
+
+<CENTER>
+
+^^ CHAPTER 10 - Blueprints
+<br />&#9660;
+
+</CENTER>
+
+
+</div>
+
+<div id="ch10Contents" style="display:nones;">
+
+# Topics for this chapter
+
+We're
+
+* D
+
+
+# To ponder
+
+Before starting this chapter, see if you can answer these questions:
+
+1. H
+
+2. W
+
+3. I
+
+<center>
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vRQzp8WbQ9bF5AysOmOmzPAl8Wuo6s_Z7643QiYkrzsZ7GxRPUn2Z2zZkN7OFR1xSVUv4g9sLSogqi2/pub?w=530&amp;h=561" style="width:40%;min-width:200px;" alt="" title="">
+
+</center>
+
+<br /><br />
+
+</div>
+
+<script>
+function ch10ContentsToggle() {
+  var content = document.getElementById("ch10Contents");
+  if (content.style.display === "none") {
+    content.style.display = "inline-block";
+  } else {
+    content.style.display = "none";
+  }
+}
+</script>
