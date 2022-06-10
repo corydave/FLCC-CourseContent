@@ -10,7 +10,7 @@
 
 </div>
 
-<div id="ch06Contents" style="display:none;">
+<div id="ch06Contents" style="display:nones;">
 
 # Topics for this chapter
 
@@ -26,7 +26,7 @@ Keep doing it like one hundred more times.
 
 During this exercise, most people will usually draw the first four dots as directly up from the original dot, directly to the right of the original dot, directly to the left of the original dot, and directly below the original dot. Then they start to recognize that there are more than just these four dots that are one inch away from the original dots. As they start plotting more dots, a pattern emerges:
 
-<center><img src="https://docs.google.com/drawings/d/e/2PACX-1vRDIaTD8JEwsUmN3j-jZCf_guCPvVyTBMBPv72P5egfm9ZSCY59U-QCmdiqKilbNaxueqh_rcWb4o4K/pub?w=1079&amp;h=702" alt="A diagram of a construction of a perpendicular bisector." title="A diagram of a construction of a perpendicular bisector." style="width:90%"></center>
+<center><img src="https://docs.google.com/drawings/d/e/2PACX-1vRDIaTD8JEwsUmN3j-jZCf_guCPvVyTBMBPv72P5egfm9ZSCY59U-QCmdiqKilbNaxueqh_rcWb4o4K/pub?w=1079&amp;h=702" alt="A diagram of the different stages of drawing the locus of points a fixed distance from one point (a circle!)." title="A diagram of the different stages of drawing the locus of points a fixed distance from one point (a circle!)." style="width:90%"></center>
 
 * Understanding what a compass can do
 
@@ -52,7 +52,7 @@ Before starting this chapter, see if you can answer these questions:
 
 <center>
 
-<img src="https://docs.google.com/drawings/d/e/2PACX-1vRn6RYbD1J1xKp1Ye98wjRPeA7TFQ0MMGi1g7jzX6mHOG3Kpq6B7jNX2Lv80NmWI7L6PM7DyTutYxzZ/pub?w=780&amp;h=552" style="width:40%;min-width:200px;" alt="A diagram of the different stages of drawing the locus of points a fixed distance from one point (a circle!)." title="A diagram of the different stages of drawing the locus of points a fixed distance from one point (a circle!).">
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vRn6RYbD1J1xKp1Ye98wjRPeA7TFQ0MMGi1g7jzX6mHOG3Kpq6B7jNX2Lv80NmWI7L6PM7DyTutYxzZ/pub?w=780&amp;h=552" style="width:40%;min-width:200px;" alt="A diagram of a construction of a perpendicular bisector." title="A diagram of a construction of a perpendicular bisector.">
 
 
 </center>
