@@ -22,9 +22,7 @@ That is the *tolerance* of a cut with a laser cutter; this means the machine can
 
 * Measuring segment length
 
-* Computing distance on a number line
-
-* Absolute value
+* Computing distance on a number line and absolute value
 
 * Significant value, rounding, and tolerance
 
