@@ -22,9 +22,7 @@ In this chapter, we'll dig a bit deeper into all of these things.
 
 * Types of angles
 
-* Parallel lines
-
-* Perpendicular lines
+* Parallel lines and perpendicular lines
 
 * Angle relationships
 
