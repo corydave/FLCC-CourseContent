@@ -10,28 +10,34 @@
 
 </div>
 
-<div id="ch10Contents" style="display:nones;">
+<div id="ch10Contents" style="display:none;">
 
 # Topics for this chapter
 
-We're
+We're going to 
 
-* D
+* Tolerance
+
+* Scale
+
+* Blueprint elements
+
+* Schematics
+
+* Isometrics
 
 
 # To ponder
 
 Before starting this chapter, see if you can answer these questions:
 
-1. H
+1. In the diagram below, can you work out what the two drawings are? They are related.
 
-2. W
-
-3. I
+2. In the diagram below, can you figure out what the height of the triangular piece at the base of the rectangle is?
 
 <center>
 
-<img src="https://docs.google.com/drawings/d/e/2PACX-1vRQzp8WbQ9bF5AysOmOmzPAl8Wuo6s_Z7643QiYkrzsZ7GxRPUn2Z2zZkN7OFR1xSVUv4g9sLSogqi2/pub?w=530&amp;h=561" style="width:40%;min-width:200px;" alt="" title="">
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vTvppwC5qP_8SUqcswsCSMLj9SrLyGhLojn5E30IQ-4xM0tW3F3bR4z8GYs1qcVN__8rffjW9KB2T2L/pub?w=776&amp;h=414" style="width:80%;min-width:200px;" alt="" title="">
 
 </center>
 
