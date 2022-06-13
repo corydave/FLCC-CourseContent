@@ -24,9 +24,7 @@ One thing that is a little wonky is that we don't really consider whether the bo
   * ordinate
 
 
-* Distance
-
-* Slope
+* Distance and slope
 
 * Pythagorean Theorem
 
