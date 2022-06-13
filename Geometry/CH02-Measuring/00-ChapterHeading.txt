@@ -26,9 +26,7 @@ That is the *tolerance* of a cut with a laser cutter; this means the machine can
 
 * Absolute value
 
-* Tolerance
-
-* Significant value
+* Significant value, rounding, and tolerance
 
 # To ponder
 
