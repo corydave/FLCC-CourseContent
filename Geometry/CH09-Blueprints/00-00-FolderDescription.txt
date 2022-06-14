@@ -1,8 +1,8 @@
-<div id="ch10Button" onclick="ch10ContentsToggle()">
+<div id="ch09Button" onclick="ch09ContentsToggle()">
 
 <CENTER>
 
-^^ CHAPTER 10 - Blueprints
+^^ CHAPTER 9 - Blueprints
 <br />&#9660;
 
 </CENTER>
@@ -10,7 +10,7 @@
 
 </div>
 
-<div id="ch10Contents" style="display:none;">
+<div id="ch09Contents" style="display:none;">
 
 # Topics for this chapter
 
@@ -46,8 +46,8 @@ Before starting this chapter, see if you can answer these questions:
 </div>
 
 <script>
-function ch10ContentsToggle() {
-  var content = document.getElementById("ch10Contents");
+function ch09ContentsToggle() {
+  var content = document.getElementById("ch09Contents");
   if (content.style.display === "none") {
     content.style.display = "inline-block";
   } else {
