@@ -28,7 +28,7 @@ During this exercise, most people will usually draw the first four dots as direc
 
 <center><img src="https://docs.google.com/drawings/d/e/2PACX-1vRDIaTD8JEwsUmN3j-jZCf_guCPvVyTBMBPv72P5egfm9ZSCY59U-QCmdiqKilbNaxueqh_rcWb4o4K/pub?w=1079&amp;h=702" alt="A diagram of the different stages of drawing the locus of points a fixed distance from one point (a circle!)." title="A diagram of the different stages of drawing the locus of points a fixed distance from one point (a circle!)." style="width:90%"></center>
 
-* Understanding what a compass can do
+* The compass and the straightedge
 
 * Copying a line segment
 
