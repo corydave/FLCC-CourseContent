@@ -1,8 +1,8 @@
-<div id="ch08Button" onclick="ch08ContentsToggle()">
+<div id="ch07Button" onclick="ch07ContentsToggle()">
 
 <CENTER>
 
-^^ CHAPTER 8 - Circles
+^^ CHAPTER 7 - Circles
 <br />&#9660;
 
 </CENTER>
@@ -10,7 +10,7 @@
 
 </div>
 
-<div id="ch08Contents" style="display:none;">
+<div id="ch07Contents" style="display:none;">
 
 # Topics for this chapter
 
@@ -56,8 +56,8 @@ Before starting this chapter, see if you can answer these questions:
 </div>
 
 <script>
-function ch08ContentsToggle() {
-  var content = document.getElementById("ch08Contents");
+function ch07ContentsToggle() {
+  var content = document.getElementById("ch07Contents");
   if (content.style.display === "none") {
     content.style.display = "inline-block";
   } else {
