@@ -20,9 +20,7 @@ In addition to looking at the anatomy of a circle, we'll check out **central ang
 
 Lots of vocabulary? Yup. But don't worry, we'll get there!
 
-* Circumference, radius, diameter, chords
-
-* Area
+* Area, circumference, radius, diameter, chords, secants, and tangents
 
 * Arcs, central angles, and inscribed angles
 
