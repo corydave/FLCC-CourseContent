@@ -1,8 +1,8 @@
-<div id="ch07Button" onclick="ch07ContentsToggle()">
+<div id="ch10Button" onclick="ch10ContentsToggle()">
 
 <CENTER>
 
-^^ CHAPTER 7 - Polygons
+^^ CHAPTER 10 - Polygons
 <br />&#9660;
 
 </CENTER>
@@ -10,7 +10,7 @@
 
 </div>
 
-<div id="ch07Contents" style="display:none;">
+<div id="ch10Contents" style="display:none;">
 
 # Topics for this chapter
 
@@ -55,8 +55,8 @@ Before starting this chapter, see if you can answer these questions:
 </div>
 
 <script>
-function ch07ContentsToggle() {
-  var content = document.getElementById("ch07Contents");
+function ch10ContentsToggle() {
+  var content = document.getElementById("ch10Contents");
   if (content.style.display === "none") {
     content.style.display = "inline-block";
   } else {
