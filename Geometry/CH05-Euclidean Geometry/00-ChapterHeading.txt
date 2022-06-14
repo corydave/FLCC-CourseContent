@@ -45,6 +45,19 @@ Before starting this chapter, see if you can answer these questions:
 
 </center>
 
+4. How many sides does a **hexagon** have?
+
+5. What is the measure of the angle between any two sides in a regular hexagon?
+
+6. Which of the following shapes have diagonals that are equal in length?
+
+<center>
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vTadhPcZ54Y-5Mh8Jf0k-t0usPjctEOrcf55c7U4VuFGuwi18J4Phg9iNnjyVE5JWEyYPLX9bBPe6r-/pub?w=731&amp;h=645" style="width:40%;min-width:200px;" alt="Six shapes with diagonals in each. The names of the shapes are underneath. The shapes are: a parallelogram, an isosceles trapezoid, a square, a rectangle, a trapezoid, and a rhombus." title="Six shapes with diagonals in each. The names of the shapes are underneath. The shapes are: a parallelogram, an isosceles trapezoid, a square, a rectangle, a trapezoid, and a rhombus.">
+
+
+</center>
+
 
 <br /><br />
 
