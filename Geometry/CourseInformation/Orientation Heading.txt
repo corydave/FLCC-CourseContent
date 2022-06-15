@@ -24,7 +24,9 @@ This orientation module has a few different items in it:
 
 * Link to the **Are you stuck?** discussion where you can post questions if you get stuck - other students might help answer (or I will).
 
-* An overview of how this course works (grading, due dates, etc.)
+* An overview of how this course works (grading, due dates, etc.).
+
+* The course vocabulary (there is *a lot* of jargon in geometry!).
 
 
 
