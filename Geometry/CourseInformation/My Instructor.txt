@@ -6,6 +6,8 @@
 
 Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. 
 
+<div style="clear:both;">
+
 # Communication Expectations
 
 The general practice in Blackboard is for communication to take place through the tools in the **Quick Links** portion of the Course Menu. Your best bet is the **Email My Instructor** link. This will send an e-mail to my email account.
@@ -15,3 +17,5 @@ The general practice in Blackboard is for communication to take place through th
 # Response Time
 
 I try to respond to emails within [Insert expected communication response time]
+
+</div>
