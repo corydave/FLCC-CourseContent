@@ -1,0 +1,39 @@
+^^ TODO for Instructor
+
+# Here are things you need to do before teaching this class
+
+## Touch Up "Start Here"
+
+It's a good idea to review the content in "Start Here" and clean it up. Customize it so it is aligned with your teaching strategies. It's a good idea to provide an orientation about how this course will run, due dates, how students can contact you, and how the course is structured.
+
+
+## Complete information for "My Instructor"
+
+This section is currently not set up. You'll need to include your own personal information, contact information, a picture or video of yourself, etc.
+
+
+## Establish your assessment mechanism
+
+This course, by design, is self-paced and self-checked. There  is no structure for assessment. There are no due dates. There are are no columns in the grade book. You may elect to have your own method of assessment. The most logical thing to do is to make a copy of the *Reviews* in each chapter, change every problem, and make that an assignment.
+
+
+## Review all the content and adjust it as necessary.
+
+Most of the content in this course is designed via Google 
+Docs.
+
+To replace a document in the course, first make a copy of the document and then paste the URL into **column H** in the Document Tracker. The HTML code to embed it will be automatically generated in **column J**. Replace that code with the code in the Blackboard page.
+
+You may create copies of the Document Tracker here:
+
+<center>
+
+[Google Sheet - Document Tracker](https://docs.google.com/spreadsheets/d/13dggYooqAeMwqEwNtaCc6l04Se_EZ54lzLNnFb6-uWM/copy)
+
+</center>
+
+
+## Get access to all Google Docs and Google Images
+
+The content and the images all live in a Google Drive folder. [You can *view* the content here](https://drive.google.com/drive/folders/1dZ9sVArfbWrnPvzH0xrrd9W-ZG6MQEy_?usp=sharing) but you'll need to make copies if you'd like to change anything.
+
