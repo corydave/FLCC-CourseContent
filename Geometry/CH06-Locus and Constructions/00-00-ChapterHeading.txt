@@ -36,10 +36,6 @@ During this exercise, most people will usually draw the first four dots as direc
 
 * Constructing a perpendicular bisector
 
-* Constructing a perpendicular line through a given point
-
-* Constructing a parallel line through a given point
-
 * Constructing an equilateral triangle
 
 # To ponder
