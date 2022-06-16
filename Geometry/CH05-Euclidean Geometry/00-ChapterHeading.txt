@@ -24,7 +24,7 @@ There are other flavors of geometry that we don't study in this course (appropri
 
 * Triangles
 
-* Quadrilaterals
+* Polygons
 
 * Perimeter and area
 
