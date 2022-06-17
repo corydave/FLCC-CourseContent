@@ -16,12 +16,6 @@
 
 We're going to 
 
-* Tolerance
-
-* Scale
-
-* Blueprint elements
-
 * Schematics
 
 * Isometrics
