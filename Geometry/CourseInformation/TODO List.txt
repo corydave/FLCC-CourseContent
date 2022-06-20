@@ -19,8 +19,10 @@ This document lives in the ORIENTATION module and should provide information to 
 
 ## Establish your assessment mechanism
 
-This course, by design, is self-paced and self-checked. There  is no structure for assessment. There are no due dates. There are are no columns in the grade book. You may elect to have your own method of assessment. The most logical thing to do is to make a copy of the *Reviews* in each chapter, change every problem, and make that an assignment.
+This course, by design, is self-paced and self-checked. There  is no structure for assessment. There are no due dates. I think a neat thing to do would be to record a video of you doing the REVIEW assignments in each chapter; the ASSESSMENT assignments are very similar and will give the student guidance.
 
+## Each chapter has a stand-in video. 
+You should change it to provide context for your students.
 
 ## Review all the content and adjust it as necessary.
 
@@ -42,3 +44,4 @@ You may create copies of the Document Tracker here:
 
 The content and the images all live in a Google Drive folder. [You can *view* the content here](https://drive.google.com/drive/folders/1dZ9sVArfbWrnPvzH0xrrd9W-ZG6MQEy_?usp=sharing) but you'll need to make copies if you'd like to change anything.
 
+You can also find all the text - in markdown - at [GitHub here](https://github.com/corydave/FLCC-CourseContent/tree/main/Geometry).
