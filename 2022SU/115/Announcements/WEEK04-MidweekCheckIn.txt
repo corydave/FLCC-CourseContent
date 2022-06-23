@@ -1,0 +1,21 @@
+^^ WEEK 4 - Midweek Check In
+
+# New chapter
+Chapter 4 is BIG. There is A LOT to do. I hope you took advantage of the early start. Again, I would like to reiterate that the best way to work through Java is to do a bit each day. If you only sit down to work with Java once a week, you probably won't grasp everything nearly as easily.
+
+# Grades
+I wanted to have everything graded by Monday, but I couldn't 😔. I'll have it all done by Saturday morning *at the absolute latest*. Thanks for your patience!
+
+<center><br />
+
+[Link to video](https://www.youtube.com/watch?v=xpwWJCQ9hTY)
+
+</center><br />
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/xpwWJCQ9hTY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center>
+
+## Let's be careful out there!
+
+</center><br /><br />
