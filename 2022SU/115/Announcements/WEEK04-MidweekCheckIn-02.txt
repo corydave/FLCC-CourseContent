@@ -1,0 +1,29 @@
+^^ WEEK 4 - Midweek Check In, The Sequel
+
+# Grades are done... for now
+I've graded all the work that was due (up until the most recent chapter). I should have specified yesterday that I intended to grade all the work that was due up until the most recent chapter - I'll finish the rest of the work in the next few days. A few things:
+
+* For the most part, GREAT WORK!
+* I left some feedback for almost every single assignment - please make sure you look at it (go into the gradebook and click on the chat bubble next to the assignment).
+* In most cases, if there was an issue I let you know and let you know if you can resubmit it.
+   * If you decide to resubmit, please remember that you have to access the assignment NOT through the gradebook; you have to go through COURSE CONTENT and click through all the folders.
+
+# VIDEO - How to truncate decimals
+Someone asked for a video on how to format decimals such that they are only 2 decimal places long. There are a few ways to do this; here's the quickest, dirtiest way:
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/figFqbOX5nk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center><br />
+
+[Link to video](https://www.youtube.com/watch?v=figFqbOX5nk)
+
+<br /></center>
+
+# ENJOY THE BEAUTIFUL WEATHER!
+It's sunny out!!!!
+
+<center>
+
+## Let's be careful out there!
+
+</center><br /><br />
