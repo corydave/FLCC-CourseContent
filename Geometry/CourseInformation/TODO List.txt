@@ -46,7 +46,7 @@ You should include:
 * Course grading policies, including consequences of late submissions, are clearly stated in the course information area or syllabus.
 
 
-## Things you will need to do
+## Things you will need to do for interaction
 
 * Provide regular and substantive instructor-to-student expectations, and predictable/scheduled interactions and feedback, are present, appropriate for the course length and structure, and are easy to find.
 
