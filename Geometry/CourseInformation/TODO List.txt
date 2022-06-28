@@ -1,4 +1,3 @@
-Collapsible chapter descriptions
 ^^ TODO for Instructor
 
 # Here are things you need to do before teaching this class
