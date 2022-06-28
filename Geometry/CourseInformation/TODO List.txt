@@ -63,7 +63,8 @@ This course, by design, is self-paced and self-checked. There  is no structure f
 ## Each chapter has a stand-in video. 
 You should change it to provide context for your students.
 
-## Update CONGRATULATIONS video at the end of the course (last item in the Course Content). Develop a way to determine when it will be used.
+## Update CONGRATULATIONS video at the end of the course
+This is the last item in the Course Content.Develop a way to determine when it will be used.
 
 ## Review all the content and adjust it as necessary.
 
