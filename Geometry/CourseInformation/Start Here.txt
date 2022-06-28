@@ -4,6 +4,17 @@
 
 ^^ WELCOME TO GEOMETRY!
 
+<br />
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/aBzK9gb-dZQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center><br />
+
+[Link to video](https://www.youtube.com/watch?v=aBzK9gb-dZQ)
+
+<br /></center>
+
+
 ^= =
 
 Welcome to the class! Here's a few quick things you can do to get oriented to the course:
