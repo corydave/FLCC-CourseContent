@@ -1,8 +1,12 @@
-<div id="ch07Button" onclick="ch07ContentsToggle()">
+<div id="ch05Button" onclick="ch05ContentsToggle()">
+
+
+<p><img src="https://docs.google.com/drawings/d/e/2PACX-1vQFZc7sKP8rPFt0dW-fDlUF55H6hNLHDhIOUqe4bP0f72cz11licjzZwiRTqS8Pe6s2vk1ObYrbCnbv/pub?w=900&amp;h=380" style="display: none; max-width: 100%;" alt="The words MATH, SCANNER, STRING, and RANDOM." title="The words MATH, SCANNER, STRING, and RANDOM."></p>
+
 
 <CENTER>
 
-^^ CHAPTER 7 - Circles
+^^ CHAPTER 05 - Introduction to Selections
 <br />&#9660;
 
 </CENTER>
@@ -10,43 +14,53 @@
 
 </div>
 
-<div id="ch07Contents" style="display:none;">
+<div id="ch05Contents" style="display:none;">
 
-# Topics for this chapter
 
-We're going to explore a bit more about circles in this chapter. Every circle has a **radius**, a **diameter**, and an infinite amount of **chord**s. 
+# Experiences for this chapter
 
-In addition to looking at the anatomy of a circle, we'll check out **central angles** and **inscribed angles** as they relate to the **arc** (or part of the **circumference** of the circle. 
+Let's look at if statements. That is, statements that make a decision (based on the state of a variable, for instance) and acts one way if the test passes and another way if the test does not pass. Here's some code:
 
-Lots of vocabulary? Yup. But don't worry, we'll get there!
+<center>
 
-* Area, circumference, radius, diameter, chords, secants, and tangents
+<div style="width:90%;margin-left:auto;margin-right:auto;background-color:#e1e1e1;border-radius:15px;padding: 10px 0px 10px 30px;line-height:1em;font-size:14pt;font-family: consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace;text-align:left;margin-bottom:20px;">
 
-* Arcs, central angles, and inscribed angles
+<br />
+
+if (Math.random() > 0.5) {
+
+&nbsp;&nbsp;System.out.println("You may pass");
+
+} else {
+
+&nbsp;&nbsp;System.out.println("NONE SHALL PASS!");
+
+}
+	
+</div>
+
+</center>
+
+* Reading Guide - Chapter 5 Reading Guide
+
+* LAB - ```ConvertCF02```
+
+* LAB - ```Compliment02```
+
+* LAB - ```Compare01```
+
+* LAB - ```Compare02```
+
+* LAB - ```CoinToss```
+
 
 # To ponder
 
-Before starting this chapter, see if you can answer these questions:
+You'll need to draw on your knowledge of String, Math, Scanner, Random, variables, and if-else statements.
 
-1. How many degrees are in a circle? A **semi-circle**?
+In the meantime, can you conjecture what the output will be if the user types in 10?
 
-2. What does it mean when a circle has a **tangent**?
-
-3. In the following diagram, circle c<sub>1</sub> has two tangents, AB and AC. If AB has a length of 8cm, what is the length of AC? How do you know?
-
-<center>
-
-<img src="https://docs.google.com/drawings/d/e/2PACX-1vRQzp8WbQ9bF5AysOmOmzPAl8Wuo6s_Z7643QiYkrzsZ7GxRPUn2Z2zZkN7OFR1xSVUv4g9sLSogqi2/pub?w=530&amp;h=561" style="width:40%;min-width:200px;" alt="A diagram of a circle with two tangents to the same external point. One tangent has a measurement of 8cm." title="A diagram of a circle with two tangents to the same external point. One tangent has a measurement of 8cm.">
-
-</center>
-
-4. In the following diagram, circle c<sub>2</sub> has inscribed &angle;ABC. If the measure of &angle;ABC is 40&deg;,  how many degrees are in arc AC?
-
-<center>
-
-<img src="https://docs.google.com/drawings/d/e/2PACX-1vQq4Bzt4QkY531m5KohuvTIuWx4kV_jLRYediS51hDH2dt2NCsBsfmG2TgM4wKPDRGXr0BSbawM8Y--/pub?w=511&amp;h=475" style="width:40%;min-width:200px;" alt="A diagram of a circle with an inscribed angle." title="A diagram of a circle with an inscribed angle.">
-
-</center>
+<iframe src="https://trinket.io/embed/java/0e26eb4c24?showInstructions=true" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 
 <br /><br />
@@ -54,8 +68,8 @@ Before starting this chapter, see if you can answer these questions:
 </div>
 
 <script>
-function ch07ContentsToggle() {
-  var content = document.getElementById("ch07Contents");
+function ch05ContentsToggle() {
+  var content = document.getElementById("ch05Contents");
   if (content.style.display === "none") {
     content.style.display = "inline-block";
   } else {
