@@ -1,0 +1,11 @@
+^^ VIDEO - Chapter 5 Video
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/bCEcPZ9Q3Nw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center><br />
+
+[Link to video](https://www.youtube.com/watch?v=bCEcPZ9Q3Nw)
+
+</center><br />
+
+<br /><br />
