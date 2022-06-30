@@ -1,0 +1,26 @@
+^^ WEEK 5 - Weekly Introduction
+
+# Welcome to week 5!
+
+A few things, folks:
+
+* Chapter five has been posted - it is a look into `if-then` statements (decisions).
+
+* There is a new feature in Blackboard - a place where you can experiment with code! Try it out and let me know what you think!
+
+* A few of you reached out and let me know that the link for the Chapter 5 reading was wrong. I've fixed it! Thank you for letting me know!
+
+
+<center><br />
+
+[Link to video](https://www.youtube.com/watch?v=pvLxmx8CqzY)
+
+</center><br />
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/pvLxmx8CqzY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center>
+
+## Let's be careful out there!
+
+</center><br /><br />
