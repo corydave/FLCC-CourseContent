@@ -1,0 +1,23 @@
+^^ WEEK 5 - Weekly Introduction
+
+# Welcome to week 5!
+
+A few things, folks:
+
+* Welcome to Networking and Cybersecurity!!!! 
+
+* There was an issue with the Messy Problem names. I've fixed it - you should see which problem was assigned to you!
+
+<center><br />
+
+[Link to video](https://www.youtube.com/watch?v=EVtbbLDc4ZU)
+
+</center><br />
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/EVtbbLDc4ZU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center>
+
+## Let's be careful out there!
+
+</center><br /><br />
