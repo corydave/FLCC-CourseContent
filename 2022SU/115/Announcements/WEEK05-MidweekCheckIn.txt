@@ -1,0 +1,16 @@
+^^ WEEK 5 - Midweek Check In
+
+# Midweek Check In
+
+Hiya!
+
+It looks like things are going well this week - I haven't had many questions in my email. That's great news! I hope this chapter is going well; the `if-else` statements are pretty intuitive (I hope!).
+
+A few of you reached out and let me know that the link for the Chapter 5 reading was wrong. I've fixed it! Thank you for letting me know!
+
+
+<center>
+
+## Let's be careful out there!
+
+</center><br /><br />
