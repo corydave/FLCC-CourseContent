@@ -1,0 +1,24 @@
+^^ VIDEO - Chapter 6 Videos
+
+<center><a href='https://www.youtube.com/watch?v=ED_F4PWiVq8' target='_blank'>Link to video</a><br />
+
+^youtube <iframe width='560' height='315' src='https://www.youtube.com/embed/ED_F4PWiVq8' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></p></center>
+
+<br /><br />
+
+<center><a href='https://www.youtube.com/watch?v=bzKuX6EpADI' target='_blank'>Link to video</a><br />
+
+^youtube <iframe width='560' height='315' src='https://www.youtube.com/embed/bzKuX6EpADI' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></p></center>
+
+<br /><br />
+
+<center><a href='https://www.youtube.com/watch?v=D5F-dydgJwM' target='_blank'>Link to video</a><br />
+
+^youtube <iframe width='560' height='315' src='https://www.youtube.com/embed/D5F-dydgJwM' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></p></center>			
+
+
+
+
+
+
+<br /><br />
