@@ -1,0 +1,13 @@
+^^ READING - Chapter 6
+
+# Description
+
+<div style="float:left;"><a href="https://docs.google.com/document/d/1xeEZH-k8q1ZcHQQGHGwwTD2E_TeDMXBxr0MGSEXqfj4/edit" target="_blank"><img src="https://docs.google.com/drawings/d/e/2PACX-1vTe-IbjcjjibVIHL4LNiM5VM8srlW9ejVdchK6zSh5WTdOFUU1kALtNFzHH0KhKjIjP8PqodvfJPwW4/pub?w=200&h=280" alt="A thumbnail of Chapter 6 from the textbook." title="A thumbnail of Chapter 6 from the textbook." style="margin: 0pt 10pt 10pt 0pt;float:left;"  /></a></div>
+
+The reading for this chapter is [Chapter 6 - Complex Selections](https://docs.google.com/document/d/1xeEZH-k8q1ZcHQQGHGwwTD2E_TeDMXBxr0MGSEXqfj4/edit). 
+
+In this chapter, we'll dive a bit deeper into how decisions work within Java. We'll also check out some other structures you might use when writing software that needs to make decisions.
+
+As you are reading, please make sure you leave comments in the margins (you can highlight text in the document and leave a comment). Perhaps you notice a typo. Maybe you have something to add. Or maybe you just want to add a question that someone else can answer for you.
+
+<br /><br />
