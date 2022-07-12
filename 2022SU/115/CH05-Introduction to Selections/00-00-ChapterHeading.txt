@@ -1,8 +1,15 @@
 <p><img src="https://docs.google.com/drawings/d/e/2PACX-1vQFZc7sKP8rPFt0dW-fDlUF55H6hNLHDhIOUqe4bP0f72cz11licjzZwiRTqS8Pe6s2vk1ObYrbCnbv/pub?w=900&amp;h=380" style="display: none; max-width: 100%;" alt="The words MATH, SCANNER, STRING, and RANDOM." title="The words MATH, SCANNER, STRING, and RANDOM."></p>
 
+<div id="ch05Button" onclick="ch05ContentsToggle()">
 
+<CENTER>
 
 ^^ CHAPTER 05 - Introduction to Selections
+<br />&#9660;
+
+</CENTER>
+
+<div id="ch05Contents" style="display:none;">
 
 # Experiences for this chapter
 
@@ -50,3 +57,16 @@ In the meantime, can you conjecture what the output will be if the user types in
 <iframe src="https://trinket.io/embed/java/0e26eb4c24?showInstructions=true" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 <br /><br />
+
+</div>
+
+<script>
+function ch05ContentsToggle() {
+  var content = document.getElementById("ch05Contents");
+  if (content.style.display === "none") {
+    content.style.display = "inline-block";
+  } else {
+    content.style.display = "none";
+  }
+}
+</script>
