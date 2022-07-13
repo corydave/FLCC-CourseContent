@@ -7,7 +7,7 @@
 
 </CENTER>
 
-<div id="ch07Contents" style="display:non;">
+<div id="ch07Contents" style="display:none;">
 
 # Experiences for this chapter
 
