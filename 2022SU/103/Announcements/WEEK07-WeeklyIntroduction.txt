@@ -1,0 +1,19 @@
+^^ WEEK 7 - Weekly Introduction
+
+<center><br />
+
+[Link to video](https://www.youtube.com/watch?v=5mcIr5EuoiU)
+
+</center><br /><br />
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/5mcIr5EuoiU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br />
+
+<center>
+
+## Let's be careful out there!
+
+</center>
+
+<br /><br />
