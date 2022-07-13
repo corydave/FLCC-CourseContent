@@ -1,0 +1,95 @@
+<div id="ch07Button" onclick="ch07ContentsToggle()">
+
+<CENTER>
+
+^^ CHAPTER 07 - Methods
+<br />&#9660;
+
+</CENTER>
+
+<div id="ch07Contents" style="display:non;">
+
+# Experiences for this chapter
+
+n this chapter we will investigate different types of methods. Up until now, most methods have been void which means they don't return anything to the method that calls it. That's like me telling Ethan to tie his shoe; I invoke the call to Ethan but I don't expect an answer back.
+
+There are also methods where I would expect a response. For instance, when I ask how old he is. I will wait until he gives me a number (probably an integer) and then I can move on. In this case, the return type is int.
+
+<center>
+
+<div style="width:90%;margin-left:auto;margin-right:auto;background-color:#e1e1e1;border-radius:15px;padding: 10px 0px 10px 30px;line-height:1em;font-size:14pt;font-family: consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace;text-align:left;margin-bottom:20px;">
+
+<br />
+
+public static void main (String[] args) {
+
+&nbsp;&nbsp;int a = randomNumber();
+
+}
+
+public static int randomNumber() {
+
+&nbsp;&nbsp;Random random = new Random();
+
+&nbsp;&nbsp;return random.nextInt(100) + 1;
+
+}	
+
+</div>
+
+</center>
+
+* Reading Guide - Chapter 7 Reading Guide
+
+* LAB - `Circles03`
+
+* LAB - `Circles03`
+
+* LAB - `Taxes`
+
+* PROJECT - `PasswordSuite`
+
+
+# To ponder
+
+In the meantime, can you guess what this code might do?
+
+<center>
+
+<div style="width:90%;margin-left:auto;margin-right:auto;background-color:#e1e1e1;border-radius:15px;padding: 10px 0px 10px 30px;line-height:1em;font-size:14pt;font-family: consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace;text-align:left;margin-bottom:20px;">
+
+<br />
+
+public static void main (String[] args) {
+
+&nbsp;&nbsp;Random random = new Random();
+
+&nbsp;&nbsp;System.out.println(randNum(random, 100));
+
+}
+
+public static void randNum(Random rand, int limit) {
+
+&nbsp;&nbsp;return random.nextInt(limit) + 1;
+
+}
+
+
+</div>
+
+</center>
+
+<br /><br />
+
+</div>
+
+<script>
+function ch07ContentsToggle() {
+  var content = document.getElementById("ch07Contents");
+  if (content.style.display === "none") {
+    content.style.display = "inline-block";
+  } else {
+    content.style.display = "none";
+  }
+}
+</script>
