@@ -1,0 +1,24 @@
+^^ VIDEOS - Chapter 8 Videos
+
+<br />
+<center><a href='https://www.youtube.com/watch?v=OH40XoWvpbg' target='_blank'>Link to video</a><br /><br />
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/9VO15MMKU7M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br /><br />
+
+^= =
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/qsPPwT2xGQ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+^===
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/8GcqyaNuIUw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+^=
+
+
+
+
+
+<br /><br />
