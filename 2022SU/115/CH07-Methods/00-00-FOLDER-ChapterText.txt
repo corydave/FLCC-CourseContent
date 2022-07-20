@@ -11,7 +11,7 @@
 
 # Experiences for this chapter
 
-n this chapter we will investigate different types of methods. Up until now, most methods have been void which means they don't return anything to the method that calls it. That's like me telling Ethan to tie his shoe; I invoke the call to Ethan but I don't expect an answer back.
+In this chapter we will investigate different types of methods. Up until now, most methods have been void which means they don't return anything to the method that calls it. That's like me telling Ethan to tie his shoe; I invoke the call to Ethan but I don't expect an answer back.
 
 There are also methods where I would expect a response. For instance, when I ask how old he is. I will wait until he gives me a number (probably an integer) and then I can move on. In this case, the return type is int.
 
