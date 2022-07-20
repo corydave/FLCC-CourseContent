@@ -27,13 +27,15 @@ These are better for times when you know exactly how many times the program will
 
 * Reading Guide - Chapter 8 Reading Guide
 
-* LAB - `ForLoopA`
+* LAB - `ForLoop01`
 
-* LAB - `ForLoopB`
+* LAB - `ForLoop02`
 
-* LAB - `ForLoopC`
+* LAB - `ForLoop03`
 
-* LAB - `ForLoopD`
+* LAB - `ForLoop04`
+
+* LAB - `ForLoop05`
 
 * LAB - `WhileLoopA`
 
@@ -71,6 +73,8 @@ for (int i = 0; i < name.length(); i++) {
 &nbsp;&nbsp;System.out.println(name.charAt(i) + 1);
 
 }
+
+<br />
 
 for (int i = 0; i < 10; i++) {
 
