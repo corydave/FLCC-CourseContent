@@ -1,0 +1,99 @@
+<div id="ch08Button" onclick="ch08ContentsToggle()">
+
+<CENTER>
+
+^^ CHAPTER 08 - Loops
+<br />&#9660;
+
+</CENTER>
+
+<div id="ch08Contents" style="display:non;">
+
+# Experiences for this chapter
+
+Loops are used all the time in programming - that's how we have programs do the same thing over and over and over and over and over...
+
+There are a few different types of loops in Java. We'll be looking at two different kinds: while and for. They are interchangeable, but there certainly are circumstances when one is better than the other.
+
+## `while` Loops
+
+These are much better for times when you don't know how many times a program will repeat. For instance, games where the user is asked if they want to play again at the end (the program doesn't know how many times the user is going to say YES before they say NO).
+
+## `for` Loops
+
+These are better for times when you know exactly how many times the program will run. For instance, if you need to look at a String and examine each letter, one at a time. In this case, if the String is 7 letters long, you know the loop will run 7 times.
+
+
+
+* Reading Guide - Chapter 8 Reading Guide
+
+* LAB - `ForLoopA`
+
+* LAB - `ForLoopB`
+
+* LAB - `ForLoopC`
+
+* LAB - `ForLoopD`
+
+* LAB - `WhileLoopA`
+
+* LAB - `WhileLoopB`
+
+* LAB - `WhileLoopC`
+
+* LAB - `WhileLoopD`
+
+* LAB - `WhileLoopE`
+
+* PROJECT - `AllTheLoops`
+
+* PROJECT - `GuessANumber02`
+
+* PROJECT - `GuessANumber03`
+
+* PROJECT - `RandomCompliment`
+
+
+# To ponder
+
+In the meantime, can you guess what this code might do?
+
+<center>
+
+<div style="width:90%;margin-left:auto;margin-right:auto;background-color:#e1e1e1;border-radius:15px;padding: 10px 0px 10px 30px;line-height:1em;font-size:14pt;font-family: consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace;text-align:left;margin-bottom:20px;">
+
+<br />
+
+String name = "Dave";
+
+for (int i = 0; i < name.length(); i++) {
+
+&nbsp;&nbsp;System.out.println(name.charAt(i) + 1);
+
+}
+
+for (int i = 0; i < 10; i++) {
+
+&nbsp;&nbsp;System.out.println(i);
+
+}
+
+
+</div>
+
+</center>
+
+<br /><br />
+
+</div>
+
+<script>
+function ch08ContentsToggle() {
+  var content = document.getElementById("ch08Contents");
+  if (content.style.display === "none") {
+    content.style.display = "inline-block";
+  } else {
+    content.style.display = "none";
+  }
+}
+</script>
