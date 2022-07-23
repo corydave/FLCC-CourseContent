@@ -1,0 +1,10 @@
+^^ WEEK 8 - Midweek Check In
+
+# A quick note
+I hope this chapter is going well for you. My best advice is to *not do it all at once*. Let the learning simmer. Do some loops, take a day off, do more loops. 
+
+Loops are the backbone of most programs, so it's essential that you get a solid understanding of them. 
+
+I've answered several questions already from students who have emailed me - please use me if you get stuck!!!
+
+<br /><br />
