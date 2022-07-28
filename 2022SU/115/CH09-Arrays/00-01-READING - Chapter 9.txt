@@ -1,0 +1,13 @@
+^^ READING - Chapter 9
+
+# Description
+
+<div style="float:left;"><a href="https://docs.google.com/document/d/12Mb6XFR26TXlqP_No8FVszjdAfOuCW476_7O5f3SEwA/edit" target="_blank"><img src="https://docs.google.com/drawings/d/e/2PACX-1vR74YvfAEeNA8oNkIOltz6qABE3T2tD0vFtnvLcD4-UY-rb7msvVymi6iNPqUZrqzvJtqdeMdLdT34t/pub?w=200&h=280" alt="A thumbnail of Chapter 9 from the textbook." title="A thumbnail of Chapter 9 from the textbook." style="margin: 0pt 10pt 10pt 0pt;float:left;"  /></a></div>
+
+The reading for this chapter is [Chapter 9 - Arrays](https://docs.google.com/document/d/12Mb6XFR26TXlqP_No8FVszjdAfOuCW476_7O5f3SEwA/edit). 
+
+We'll be looking at *arrays* in this chapter. An array is one variable that can hold multiple values at once. Think of it as a file cabinet drawer - each hanging folder can hold one item, and you can reference them by name ("The third folder from the front has the file I'm looking for - can you pull it for me?").
+
+As you are reading, please make sure you leave comments in the margins (you can highlight text in the document and leave a comment). Perhaps you notice a typo. Maybe you have something to add. Or maybe you just want to add a question that someone else can answer for you.
+
+<br /><br />
