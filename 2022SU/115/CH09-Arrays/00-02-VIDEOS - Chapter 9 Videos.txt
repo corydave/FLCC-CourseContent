@@ -1,0 +1,15 @@
+^^ VIDEOS - Chapter 9 Videos
+
+<br />
+<center><a href='https://www.youtube.com/watch?v=R47cXIWK7vM' target='_blank'>Link to video</a><br /><br />
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/R47cXIWK7vM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br /><br />
+<center><a href='https://www.youtube.com/watch?v=98RJ_RBmaUk' target='_blank'>Link to video</a><br /><br />
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/98RJ_RBmaUk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+<br /><br />
