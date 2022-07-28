@@ -1,0 +1,104 @@
+<div id="ch09Button" onclick="ch09ContentsToggle()">
+
+<CENTER>
+
+^^ CHAPTER 09 - Arrays
+<br />&#9660;
+
+</CENTER>
+
+<div id="ch09Contents" style="display:none;">
+
+# Experiences for this chapter
+
+Have you ever gotten into a situation where you wish you could make Java name variables for you because you have so many similar variables? For instance, maybe you're programming some software to keep track of grades for a class full of sixty students. You'd need:
+
+```java
+int grade01;
+int grade02;
+int grade03;
+.
+.
+.
+int grade60;
+
+```
+
+Well, *look no further*! There is a wonderful data construct called an *array* that can do that! It's one variable that can hold multiple values at the same time!
+
+```java
+int[] grades = new int[60];
+```
+
+This will hold sixty different grades. Each slot has an initial value of 0, but will be able to be changed. You could change the first and last grades with this code:
+
+```java
+grades[0] = 100;
+grades[59] = 95;
+```
+
+Arrays, like `String`s, are zero-indexed.
+
+# Work explorations for this chapter
+
+
+* READING GUIDE - Chapter 9 Reading Guide
+
+* LAB - ArrayOutputValues
+
+* LAB - ArrayDoubleValues
+
+* LAB - ArrayBackwards
+
+* LAB - ArrayShiftLeft
+
+* LAB - ArrayShiftRight
+
+* PROJECT - RandomCompliment02
+
+
+# To ponder
+
+In the meantime, try to guess what this code does:
+
+<center>
+
+<div style="width:90%;margin-left:auto;margin-right:auto;background-color:#e1e1e1;border-radius:15px;padding: 10px 0px 10px 30px;line-height:1em;font-size:14pt;font-family: consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace;text-align:left;margin-bottom:20px;">
+
+<br />
+
+String[] names = {"Alice", "Bob", "Craig", "Dan", "Erin"}
+
+System.out.println(names[3]);
+
+System.out.println(names[4].toUpperCase());
+
+System.out.println(names[0].charAt(1));
+
+<br />
+
+for (int i = 0; i < 10; i++) {
+
+&nbsp;&nbsp;System.out.println(i);
+
+}
+
+
+</div>
+
+</center>
+
+<br /><br />
+
+</div>
+
+<script>
+function ch09ContentsToggle() {
+  var content = document.getElementById("ch09Contents");
+  if (content.style.display === "none") {
+    content.style.display = "inline-block";
+  } else {
+    content.style.display = "none";
+  }
+}
+</script>
