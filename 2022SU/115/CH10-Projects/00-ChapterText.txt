@@ -1,0 +1,39 @@
+<div id="ch10Button" onclick="ch10ContentsToggle()">
+
+<CENTER>
+
+^^ CHAPTER 10 - Projects
+<br />&#9660;
+
+</CENTER>
+
+<div id="ch10Contents" style="display:none;">
+
+# Experiences for this chapter
+
+This chapter is an opportunity to put everything you've learned into action. There are three projects in this chapter - you have to choose two.
+
+I recommend *planning the programs out before starting*. If you have questions, lemme know! Some of the program descriptions might be confusing.
+
+# Work explorations for this chapter
+
+* PROJECT - `MoneyWheel`
+
+* PROJECT - `PasswordSuite`
+
+* PROJECT - `UniformDistribution`
+
+<br /><br />
+
+</div>
+
+<script>
+function ch10ContentsToggle() {
+  var content = document.getElementById("ch10Contents");
+  if (content.style.display === "none") {
+    content.style.display = "inline-block";
+  } else {
+    content.style.display = "none";
+  }
+}
+</script>
