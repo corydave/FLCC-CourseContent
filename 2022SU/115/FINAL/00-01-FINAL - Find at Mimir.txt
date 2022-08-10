@@ -9,6 +9,6 @@
 </a>
 
 # Experiences for this chapter
-All labs and projects for this chapter can be found at [Mimir](https://class.mimir.io/). Choose two of the three:
+All labs and projects for this chapter can be found at [Mimir](https://class.mimir.io/).
 
 * FINAL - Final Exam
