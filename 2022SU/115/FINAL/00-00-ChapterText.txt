@@ -1,0 +1,33 @@
+<div id="finalButton" onclick="finalContentsToggle()">
+
+<CENTER>
+
+^^ FINAL
+<br />&#9660;
+
+</CENTER>
+
+<div id="finalContents" style="display:none;">
+
+# Experiences for this chapter
+
+Only one thing this chapter - THE FINAL EXAM. It isn't bonkers, it's similar to the reading guides. You can find it in Mimir.
+
+# Work explorations for this chapter
+
+* FINAL - Final Exam
+
+<br /><br />
+
+</div>
+
+<script>
+function finalContentsToggle() {
+  var content = document.getElementById("finalContents");
+  if (content.style.display === "none") {
+    content.style.display = "inline-block";
+  } else {
+    content.style.display = "none";
+  }
+}
+</script>
