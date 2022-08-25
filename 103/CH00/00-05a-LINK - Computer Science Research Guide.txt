@@ -1,0 +1,11 @@
+<div style="margin: 1.875rem; max-width: 130ch; background-color: #781346; padding: 1.875rem; font-size: 2.0em; font-family: 'Arial', 'Helvetica', sans-serif; font-weight: bold; border-radius: 15px; color: #ffffff;">LINK - Computer Science Research Guide</div>
+
+# Description
+
+The FLCC Library has a *ton* of resources that can help you in your classes. Many of them can be leveraged online (so if you are off campus, you can still read those sick issues of *Wired* magazine or access some bonkers books like [The Art of Invisibility by Kevin Mitnick](https://suny-fin.primo.exlibrisgroup.com/permalink/01SUNY_FIN/1v8uu1/alma991072755304828)
+
+One of the best kept secrets of going to a SUNY school is the access you have to books, magazines, journals, and all sorts of information. The librarians at the college are super eager to help you find things (because sometimes it is very confusing - I struggle to find things on their website so I have to schedule time to meet with them sometimes). Information literacy is hard. 
+
+There is a special "LibGuide" (that's what librarians call custom instructional experiences) just for Computing Science students. [You can access it here](https://libguides.flcc.edu/computer_science). 
+
+When you need to do research (for example, you have an INFOGRAPHIC assignment coming up), this is a good place to go to learn how to access the resources!
