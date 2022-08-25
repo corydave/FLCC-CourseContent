@@ -57,25 +57,27 @@ You also need to include reflections for each piece. They should include:
 <br />
 <br />
 
-^= = = ,,,
+^= = 4
 
 <center>Embed PDF in Google Sites<br /></center>
 
 ^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/NYAMzhOOItE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-^=== ,,,
+^=== , 4
 
 <center>Embed Twine in Google Sites<br /></center>
 
 ^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/zRdA_deksfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-^=== ,,,
+^=== 4
 
 <center>Embed a Java program<br /></center>
 
 ^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/fRnByenQwec" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ^=
+
+
 
 A few things to keep in mind:
 * You are more than welcome to include other things, too. Google Sites makes it super easy to include neat things like a photo gallery or a YouTube video.
