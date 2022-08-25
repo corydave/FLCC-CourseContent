@@ -27,4 +27,4 @@ Note that the "Student username" in this exercise is actually your first name ma
 <br /><br /><hr />
 </div>
 
-<center><iframe width="1000" height="900" frameborder="0" src="https://flipgrid.com/---CODE---?embed=true" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen" allow="microphone; camera"></iframe></center>
+<center><iframe width="90%" height="900" frameborder="0" src="https://flipgrid.com/---CODE---?embed=true" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen" allow="microphone; camera"></iframe></center>
