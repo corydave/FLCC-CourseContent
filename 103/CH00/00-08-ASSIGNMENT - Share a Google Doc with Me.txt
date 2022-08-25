@@ -18,7 +18,7 @@ This is also your first opportunity to submit a document more than once (it's pr
 Take a screenshot on your computer as instructed (there are details and a video walkthrough in the Google Doc) and paste it into the appropriate spot.
 
 ## STEP 3
-Make sure the document is shared such that **Anyone with the link can comment**
+Make sure the document is shared such that [[Anyone with the link can comment]](https://www.youtube.com/watch?v=jFGXfLDctcI)
 
 ## STEP 4
 Submit the link here.
@@ -30,7 +30,7 @@ Submit the link here.
 
 # Specifications
 
-* Make sure the Google Doc is shared such that **Anyone with the link can comment**
+* Make sure the Google Doc is shared such that [Anyone with the link can comment](https://www.youtube.com/watch?v=jFGXfLDctcI)
 
 * Make sure you read the items next to each of the checkboxes and then check each box.
 
