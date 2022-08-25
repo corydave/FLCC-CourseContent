@@ -13,10 +13,7 @@ I want to get to know you! We will be using Google Meet to chat, and you'll use 
 
 * ***Don't panic!!!*** These meetings aren't painful. I just wanna get to know you!!!
 
-* Starfish is a tool that is built into Blackboard. It is meant to help make sure you can connect with everyone in the college that you need to. One of the features is the ability to schedule meetings! You can find it from the main landing page in Blackboard:
-
-<center>
-<img src="https://docs.google.com/drawings/d/e/2PACX-1vS_QSgODx7gzUX4o8_0lUdA5KaLqOTWNkbmxNtnyawZVJ52tENqcFj6tmmDlRTxUO6tAMO9owBVsnBx/pub?w=480&amp;h=252" alt="A screenshot of the landing page for Blackboard - the word ‘Starfish’ is circled." /></center>
+* Starfish is a tool that is built into Blackboard. It is meant to help make sure you can connect with everyone in the college that you need to. One of the features is the ability to schedule meetings! [You can find it here](https://flcc.starfishsolutions.com/starfish-ops/session/redirect.html).
 
 </div>
 <br />
@@ -30,14 +27,14 @@ If none of my posted times work, please email me and we can find a common time.
 
 # Specifications
 
-* There is nothing to submit for this assignment, when I accept the meeting that you schedule, I'll give you credit. Please make sure you show up to the meeting though (otherwise you'll get a zero for the assignment and nobody wants that!).
+* There is nothing to submit for this assignment, once we meet I'll give you credit. Please make sure you show up to the meeting though (otherwise you'll get a zero for the assignment and nobody wants that!).
 
-* Please pick a date *before* March 15.
+* Please pick a date *before* November 30.
 
 # Technical Help
 
 * If you need help, you can email me at dave.ghidiu@flcc.edu
 
-* [How to access Starfish & Navigate your Homepage](https://flcc.edu/starfish/) - Note that the link to access Starfish might be different in these instructions; SUNY Online students should click on the Starfish link in Blackboard.
+* [Link to Starfish](https://flcc.starfishsolutions.com/starfish-ops/session/redirect.html)
 
-* [The FLCC Starfish Student Guide](https://www.flcc.edu/pdf/starfish/starfishguide.pdf)
+* [The FLCC Starfish Student Guide](https://flcc.edu/starfish/)
