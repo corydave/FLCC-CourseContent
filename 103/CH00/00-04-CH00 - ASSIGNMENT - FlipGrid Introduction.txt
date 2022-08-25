@@ -3,8 +3,7 @@
 # Description
 
 <div style="display:block;width:100%;">
-<div style="float:left;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vRTNaJb0VboC_wek-Q0JZOrznHGQoglyf07GW_J7SiOUgfxszkF3LrvnoHpa_ftZmD3i2nZCaHEu6uO/pub?w=200&h=200" alt="Thumbnail images of people’s faces with their name, a chat bubble, and the word ‘Today’ or ‘Yesterday’ in front of the image.
-" style="margin: 0pt 10pt 10pt 0pt;float:left;"  /></div>
+<div style="float:left;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vRTNaJb0VboC_wek-Q0JZOrznHGQoglyf07GW_J7SiOUgfxszkF3LrvnoHpa_ftZmD3i2nZCaHEu6uO/pub?w=200&h=200" alt="Thumbnail images of people’s faces with their name, a chat bubble, and the word ‘Today’ or ‘Yesterday’ in front of the image." style="margin: 0pt 10pt 10pt 0pt;float:left;"  /></div>
 
 
 We will be using Flipgrid for this exercise. It's a great way for all of us to get to know each other and does not require you to download an app or create an account.
@@ -23,7 +22,8 @@ Note that the "Student username" in this exercise is actually your first name ma
 
 # Specifications
 
-* There is nothing to submit for this assignment; when I see your post in FlipGrid I'll make sure you are given credit!
+* After you've added to the FlipGrid, submit the words, "I've finished it!" here. Then I'll know to go to FlipGrid and check it out!
+
 <br /><br /><hr />
 </div>
 
