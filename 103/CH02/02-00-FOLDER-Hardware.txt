@@ -4,6 +4,8 @@
 
 * VIDEOS - Hardware & Graphics
 
-* **ASSIGNMENT - Hardware Lesson**
+* **QUIZ - Hardware Lesson**
 
 * **DISCUSSION - My Hardware Review**
+
+* **ASSIGNMENT - Old School Graphics**
