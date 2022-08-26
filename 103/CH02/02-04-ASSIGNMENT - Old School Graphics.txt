@@ -17,14 +17,12 @@ To make your own sprite in the Google Sheet, simply put an "X" in a cell. That c
 
 * The lines in column L should each contain a number between 0 and 255 - that number correlates to the value of the colored bits in each line.
 
-* This must be submitted as a cloud-based document and be shared such that *anyone with the link can comment*.
+* Please do not add any columns.
 
-* Please paste the link in the "Write Submission" portion in Blackboard, not the "Comments" section.
-
+* This must be submitted as a cloud-based document and be shared such that ["Anyone with the link can COMMENT"](https://www.youtube.com/watch?v=jFGXfLDctcI).
 
 ^===
 
-![8 by 10 grid showing a ghost sprite plotted out as pixel art](https://docs.google.com/drawings/d/e/2PACX-1vRyCZwBdHVW2TLn_J-PJ3GurHNsb-t1YSy0421tHMu8eI94vCmRQ1jwdINw8DBCC677Ks_zOvSwDbBk/pub?w=613&h=524
-)
+![8 by 10 grid showing a ghost sprite plotted out as pixel art](https://docs.google.com/drawings/d/e/2PACX-1vRyCZwBdHVW2TLn_J-PJ3GurHNsb-t1YSy0421tHMu8eI94vCmRQ1jwdINw8DBCC677Ks_zOvSwDbBk/pub?w=613&h=524)
 
 ^=
