@@ -1,14 +1,18 @@
 ^^ ASSIGNMENT - Reflect on Long-Term Planning & Careers
 
+<div style="margin: 1.875rem; max-width: 130ch; background-color: #781346; padding: 1.875rem; font-size: 2.0em; font-family: 'Arial', 'Helvetica', sans-serif; font-weight: bold; border-radius: 15px; color: #ffffff;">
+ASSIGNMENT - Reflect on Long-Term Planning & Careers
+</div>
+
 # Description
 
-At this stage in the class, you've investigated career opportunities. You've discovered the skills that you'll need to acquire before embarking on a career. You've looked at the classes you need to get there. You've filled out your Long-Term Planning sheet. You've furthered your LinkedIn reach. You've constructed a resume.
+At this stage in the class, you've investigated career opportunities. You've explored the skills that you'll need to acquire before embarking on a career. You've looked at the classes you need to get there. You've completed your Long-Term Planning for FLCC. You've furthered your LinkedIn reach. You've constructed a resume.
+
+^= =  8
 
 Hopefully you've registered for classes for the next semester, too. Now it's time to link all these experiences into a coherent framework that can be a milepost for your planning.
 
-^= =
-
-You're job is to reflect on everything we looked at this chapter (looking at the job landscape, taking a personality test, building a resume, and figuring out what the next few semesters will look like). 
+Your job is to reflect on everything we looked at this chapter (looking at the job landscape, taking a personality test, building a resume, and figuring out what the next few semesters will look like). 
 
 How does it all fit into your life plan? Do you see that all your planning might manifest into reality?
 
@@ -16,9 +20,7 @@ Write a reflection that is a narrative of where you are today, how you got here,
 
 You should look at the questions in this assignment as guidance, but I want to read an authentic, genuine response. I want to know where you think you are. Are you 20% of the way? 50%? 90%? I want to know what you are afraid of in this journey. I want to know what excites you about the future!!!
 
-^===
-
-^= = =,,,
+^=== ,, 4
 
 * What got you interested in your career choice?
 
@@ -36,8 +38,6 @@ You should look at the questions in this assignment as guidance, but I want to r
 
 ^=
 
-^=
-
 <br />
 
 # Specifications
@@ -50,7 +50,7 @@ You should look at the questions in this assignment as guidance, but I want to r
 
 * Please put the link in the "Write Submission" portion of the assignment, not the "Comments" section.
 
-^= = = ,
+^= = = , 12
 
 <br />
 
@@ -63,3 +63,4 @@ You should look at the questions in this assignment as guidance, but I want to r
 <br />
 
 <br />
+
