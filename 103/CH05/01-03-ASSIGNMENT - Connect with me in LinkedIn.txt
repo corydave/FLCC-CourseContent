@@ -18,4 +18,4 @@ When you send a **connection** request, all you have to do is submit "I connecte
 
 * Make sure you **connect** with me, not **follow** me.
 
-* Once you have sent the **connection request**, submit in this assignment the text, "I have connected with you" or something similar.
+* Once you have sent the **connection request**, submit in this assignment the text, "Dude! I have connected with you" or something similar.
