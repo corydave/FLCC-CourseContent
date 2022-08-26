@@ -22,11 +22,11 @@ The reserved words are:
 
 * Please make sure your pseudocode is formatted appropriately - this includes indenting and **END** statements for loops and **IF** statements.
 
-* Your work should be cloud-based. Make sure the work is available to "anyone with the link can comment"). 
+* Your work should be cloud-based. Make sure the work is available to ["Anyone with the link can COMMENT"](https://www.youtube.com/watch?v=jFGXfLDctcI).
 
-* Please paste the link in the WRITE SUBMISSION portion of Blackboard, not the COMMENTS section.
+<br />
 
-^= = =,,,
+^= = =,,, 12
 
 **NOTE:** Be sure to check out the rubric for this assignment to make sure you address all relevant parts.
 
