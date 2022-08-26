@@ -21,10 +21,8 @@ Scan it in (or take pictures with your phone). Submit the work. If you are subm
 
 # Specifications
 
-* You may submit a PDF, a series of images such as JPGs, or as a link to a cloud-based document such as Google Docs.
+* You maust submit a link to a cloud-based document such as Google Docs or a PDF that is stored on Google Drive or Microsoft One Drive.
 
-* If you submit a link to a document, verify that the document is shared such that anyone with the link can comment.
-
-* Please put the link in the "Write Submission" portion of the assignment, not the "Comments" section.
+* Verify that the document is shared such that ["Anyone with the link can COMMENT"](https://www.youtube.com/watch?v=jFGXfLDctcI).
 
 </div>
