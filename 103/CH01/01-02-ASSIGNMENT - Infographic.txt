@@ -11,7 +11,7 @@ Regardless of your career in computing sciences, you'll need to be able to commu
 * Troubleshooting steps
 * Request for Proposals (RFPs)
 
-Great technical writing is an art; learning how to distill critical information into tiny, digestible pieces is not easy. But it can be done well.
+Great technical writing is an art; learning how to distill critical information into tiny, digestible pieces is not easy. But it can be done well. The best piece of advice I can give you is *don't write paragraphs* when making infographics. Heck, even more than one sentence is usually too much.
 
 # Intent of assignment
 
@@ -40,7 +40,7 @@ Note that there is a rubric for this assignment that you can visit before submit
 Some students in the past have made their facts or quotes hyperlinks that jump to the actual source. That's not awesome because it doesn't work well in cases where the document gets printed out. In the Raspberry Pi example below, Jordan put superscript numbers next to facts and quotes and then listed all the sources as footnotes. The footnotes were also hyperlinks! In this case, the document works well as an electronic document because the hyperlinks take the reader directly to the source. If the document gets printed out, then readers can still find the facts through the URLs. This is what you should strive for!
 
 # Submission
-You may submit your work as a PDF or a link to the document. If you elect to submit a link, please make sure you test the link in Incognito mode (if you cannot access your work in Incognito mode, I won't be able to see it either). Also make sure you put the link in the "Write Submission" portion of Blackboard, not the "Comments" section.
+When you submit your link, please make sure you [test the link in "Incognito Mode"](https://www.youtube.com/watch?v=VWSYbAu73yU) (if you cannot access your work in Incognito mode, I won't be able to see it either). 
 
 # Need help?
 If you get stuck at any point on this assignment, you should email me! Even if you just want to bounce ideas off me or see if your topic makes sense.
