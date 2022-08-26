@@ -1,0 +1,26 @@
+^^ ASSIGNMENT - Security Health Check
+
+# Description
+
+<div style="display:block;width:100%;">
+<div style="float:left;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vTJdorhsj-CX3a18EXZSey3LEMa2NlIZxQ9r7z_SPB03RVcJyNYWG0NwsIoV-5sYUuz4u-2S0HEjCPg/pub?w=200&h=200" alt="An icon for a quiz. Some boxes with checkmarks and ‘X’s." style="margin: 0pt 10pt 10pt 0pt;float:left;"  /></div>
+
+Honestly, unless you keep up on the issues of cybersecurity every day (the sector moves at breakneck speed), it's easy to miss some of the things you can do to bolster your security and privacy.
+
+This is not an assessment! You'll receive a perfect grade just for doing this security check! This is more of a check-in to see if you are as safe and protected as you could be.
+
+Answer each question as best as you can.
+
+**DO NOT ENTER ANY SENSITIVE INFORMATION (such as passwords, PINs, etc.).**
+
+<div style="display:block;width:100%;clear:left;">
+
+# Specifications
+
+* Answer the questions as best as you can.
+
+* Do not divulge any sensitive information.
+
+* Your score will be turned into a 100% at some point this semester; the score you actually receive is merely for your own edification.
+
+</div>
