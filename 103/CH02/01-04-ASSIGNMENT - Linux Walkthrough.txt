@@ -5,18 +5,21 @@
 <div style="float:left;"><a href="https://docs.google.com/document/d/1PiXAow3Es2MSfSEB3XWbRJvQwaFMfMEgk4O_DEigibE/copy" target="_blank"><img src="https://docs.google.com/drawings/d/e/2PACX-1vQjHPI6xBLSm0lz8-1tfAM8MJ2_v4wCHI2A5jHSeH0qOIYeZaZ9xhnAu7wqfjA6K0HbZgV0TY8Xi4IF/pub?w=200&h=280" alt="A thumbnail of the Linux Walkthrough assignment." style="margin: 0pt 10pt 10pt 0pt;float:left;"  /></a></div>
 
 For this assignment, you will need two things:
+<div style="margin-left:220px;">
 
-<div style="margin-left:220px;">• A <a href="https://docs.google.com/document/d/1PiXAow3Es2MSfSEB3XWbRJvQwaFMfMEgk4O_DEigibE/copy" target="_blank">copy of the Google Doc</a> where you will be pasting your screenshots</div>
-<br />
-<div style="margin-left:220px;">• A Linux terminal - if you don't have one, you can use <a href="https://shell.cloud.google.com/" target="_blank">a cloud-based one offered by Google.</a> where you will be pasting your screenshots</div>
+* A <a href="https://docs.google.com/document/d/1PiXAow3Es2MSfSEB3XWbRJvQwaFMfMEgk4O_DEigibE/copy" target="_blank">copy of the Google Doc</a> where you will be pasting your screenshots
+
+* A Linux terminal - if you don't have one, you can use <a href="https://shell.cloud.google.com/" target="_blank">a cloud-based one offered by Google.</a> where you will be pasting your screenshots
+
+</div>
+
 <br />
 
 In the Google Doc, there are screenshots in blue boxes. That's where I put my screenshots when I was making the walkthrough. As you go through the exercise, you will need to take a screenshot of some things, delete mine, and paste yours inside the blue box. If you need help learning how to do screenshots, [check out this video](https://www.youtube.com/watch?v=xFbjVvCXAwo) (it's less than two minutes).
 
 This experience will guide you through some basics of using Linux. As you read through the document, you will be prompted to take screenshots and paste them into boxes - the boxes will resize automatically.
 
-When you are done, you should submit a link to a cloud-based document (such as Google Docs) such that anyone with the link can comment.
-
+When you are done, you should submit a link to a cloud-based document (such as Google Docs) such that ["Anyone with the link can COMMENT"](https://www.youtube.com/watch?v=jFGXfLDctcI).
 
 <div style="display:block;width:100%;clear:left;">
 
@@ -24,13 +27,13 @@ When you are done, you should submit a link to a cloud-based document (such as G
 
 * Submit a link to a cloud-based document such as Google Docs.
 
-* Verify that the document is shared such that anyone with the link can comment.
-
-* Please put the link in the "Write Submission" portion of the assignment, not the "Comments" section.
+* Verify that the document is shared such that ["Anyone with the link can COMMENT"](https://www.youtube.com/watch?v=jFGXfLDctcI).
 
 </div>
 
 <hr />
+
+<br />
 
 # Further Exploration
 
