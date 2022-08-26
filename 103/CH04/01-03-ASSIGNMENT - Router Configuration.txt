@@ -48,7 +48,9 @@ Regardless, you can find the **[online router simulator here](https://script.goo
 
 * **Disable remote login**. Look for the option that says “Prohibit configuration from Internet Management Port...”. If your router is configured to allow remote login, bad actors can get into your router and your home network. This is bad for a number of reasons! Bad actors could be using your devices as bots for attacks. They could be stealing your bandwidth. They could be using your smart home devices, too!
 
-^= = =,,,
+* When you are finished, please submit the text, "I've configured my fake router! Hooray!" here.
+
+^= = =,,, 12
 
 <br />
 
