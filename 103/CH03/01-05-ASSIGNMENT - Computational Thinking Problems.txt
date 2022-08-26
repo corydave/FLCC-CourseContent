@@ -11,11 +11,9 @@ Keep in mind the main tenets of *technical writing*. You should be concise, accu
 You can get a [copy of the Problem Set here](https://docs.google.com/document/d/1Ve9DpK_gPSJ-7orGe0fKyYXyeQOvSkCcb8b5p_q1QO8/copy).
 
 <div style="display:block;width:100%;clear:left;">
-
+<br /><br />
 
 ^= = 
-
-^= = = ,
 
 <center><b>EASY [Pick two]</b></center><br />
 
@@ -25,23 +23,13 @@ You can get a [copy of the Problem Set here](https://docs.google.com/document/d/
 * Patterns
 * Jeff Kline Code
 
-^=
-
-
-^===
-
-^= = = ,
+^=== 
 
 <center><b>HARD [Pick one]</b></center><br />
 
 * Widget Durability
 * Dr. Frankenstein's Switch
 * Poisoned Bug Juice
-
-<br />
-<br />
-
-^=
 
 ^=
 
@@ -59,9 +47,9 @@ You can get a [copy of the Problem Set here](https://docs.google.com/document/d/
 
 * Also include a debriefing that clarifies which computational thinking strategies you used (was it decomposed? Was a model made? Was there a pattern? Was there abstraction? Data analysis? Something else?)
 
-* This must be submitted as a cloud-based document and be shared such that *anyone with the link can comment*.
+* This must be submitted as a cloud-based document and be shared such that ["Anyone with the link can COMMENT"](https://www.youtube.com/watch?v=jFGXfLDctcI).
 
-^= = = ,,
+^= = = ,, 12
 
 <span style="font-size:10pt;"><i>In the past, students have found that many of these problems are easier to solve using decomposition. For instance, with the Towers of Hanoi, try solving it with 1 disc. Then try solving it with 2 discs. Then try with 3 discs. See if you can find a pattern and then extrapolate it. Or for the Poisoned Bug Juice problem, try solving it with only 10 people instead of 1000. Then see if you can scale up.</i></span>
 
