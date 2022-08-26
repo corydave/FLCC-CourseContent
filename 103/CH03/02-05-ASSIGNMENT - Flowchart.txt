@@ -14,11 +14,13 @@ Design a broad-stroke flowchart. For example, it could be a flowchart of how you
 
 * There *can* be multiple ending points (for instance, a decision in the flowchart might lead to two different outcomes as end states).
 
-* Your work should be cloud-based. Make sure the work is available to "anyone with the link can comment"). 
+* Remember that arrows need to indicate direction AND need to touch the shape they are pointing to (just getting close doesn't count).
 
-* Please paste the link in the WRITE SUBMISSION portion of Blackboard, not the COMMENTS section.
+* The flowchart design language requires that specific shapes have specific purposes - you *must* use those shapes for their intended purposes.
 
-^= = =,,,
+* Your work should be cloud-based. Make sure the work is available to ["Anyone with the link can COMMENT"](https://www.youtube.com/watch?v=jFGXfLDctcI).
+
+^= = =,,, 12
 
 **NOTE:** Be sure to check out the rubric for this assignment to make sure you address all relevant parts.
 
