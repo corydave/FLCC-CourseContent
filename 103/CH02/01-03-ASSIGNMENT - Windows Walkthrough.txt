@@ -8,7 +8,7 @@ This experience will guide you through some basics of using Windows (you can use
 
 As you read through the document, you will be prompted to take screenshots and paste them into boxes - the boxes will resize automatically.
 
-When you are done, you should submit a link to a cloud-based document (such as Google Docs) such that anyone with the link can comment.
+When you are done, you should submit a link to a cloud-based document (such as Google Docs) such that ["Anyone with the link can COMMENT"](https://www.youtube.com/watch?v=jFGXfLDctcI).
 
 
 <div style="display:block;width:100%;clear:left;">
@@ -17,8 +17,6 @@ When you are done, you should submit a link to a cloud-based document (such as G
 
 * Submit a link to a cloud-based document such as Google Docs.
 
-* Verify that the document is shared such that anyone with the link can comment.
-
-* Please put the link in the "Write Submission" portion of the assignment, not the "Comments" section.
+* Verify that the document is shared such that ["Anyone with the link can COMMENT"](https://www.youtube.com/watch?v=jFGXfLDctcI).
 
 </div>
