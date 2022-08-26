@@ -9,11 +9,15 @@ Time to share your hardware with us! 
 
 The intent of this discussion is to share your computer hardware. Maybe you have a laptop. Maybe you have a sick gaming computer. Maybe you have a mining rig. Me, I mostly use a Chromebook. But whatever you use, share it with us! Be sure to include specs:
 
-Processor/CPU
-RAM
-Hard drive type (HDD or SDD) and storage
+<div style="margin-left:220px;">
+
+* Processor/CPU
+* RAM
+* Hard drive type (HDD or SDD) and storage
 
 If you want to nerd out, share your monitor refresh rates. Or your PSU specs. Or other ultra-nerdy computer specs!
+
+</div>
 
 </div>
 
