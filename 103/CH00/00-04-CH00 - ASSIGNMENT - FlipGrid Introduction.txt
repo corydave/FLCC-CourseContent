@@ -24,6 +24,8 @@ Note that the "Student username" in this exercise is actually your first name ma
 
 * After you've added to the FlipGrid, submit the words, "I've finished it!" here. Then I'll know to go to FlipGrid and check it out!
 
+* This assignment will receive a zero if it is late; there is no grace period for this assignment.
+
 <br /><br /><hr />
 </div>
 
