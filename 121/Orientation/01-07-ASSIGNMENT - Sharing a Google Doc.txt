@@ -7,12 +7,15 @@
 Throughout this course, there will be assignments that require you to make a copy of a Google Doc, do some work in it, and then submit the link to me. It's mission critical that you set the sharing permissions such that **[Anyone with the link can comment](https://www.youtube.com/watch?v=jFGXfLDctcI)**. Otherwise I might not have access to the document 😥.
 
 <div style="clear:both;">
+<br />
 
 ## STEP 1
 [Make a copy of the Google Doc by clicking on this link](https://docs.google.com/document/d/1NB8FXKTY4EYrNPyZYCHeC6oPBXWhCUsqF4T3U8u2Rwc/copy) (make sure you are signed in to Google).
+<br /><br />
 
 ## STEP 2
-Take a screenshot on your computer as instructed (there are details and a video walkthrough in the Google Doc) and paste it into the appropriate spot.
+Take a screenshot on your computer as instructed (there are details and a video walkthrough in the Google Doc) and paste it into the appropriate spot.<br />
+<br />
 
 ## STEP 3
 Make sure the document is shared such that [Anyone with the link can comment](https://www.youtube.com/watch?v=jFGXfLDctcI)
@@ -21,6 +24,7 @@ Make sure the document is shared such that [Anyone with the link can comment](ht
 Submit the link here.
 
 </div>
+<br />
 <br />
 
 <div style="display:block;width:100%;clear:left;">
