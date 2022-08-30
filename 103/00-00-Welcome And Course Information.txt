@@ -1,0 +1,11 @@
+<center><img src="https://c.tenor.com/RpKXrOa3eOAAAAAC/welcome.gif" alt="An animation of the word 'Welcome'" title="An animation of the word 'Welcome'" style="display: none;"></center>
+<p></p>
+<h1 style="text-align: center;"><span style="color: #1e90ff;"><strong><span style="font-size: 100px; font-family: 'courier new', courier, sans-serif;"><span style="color: #781346;">Welcome!</span></span></strong></span></h1>
+
+Welcome to the *most awesome semester ever!* I mean, sure. This fall there are sweet things to do. Trips to take. Sights to see. BBQs to be had. But then there's a whole new level. This class. Portal. Please make sure you check out a few things before getting started.
+
+* Welcome to Portal!
+* Welcome Video
+* Course Outline
+
+There is also a sub-folder called **Course Information**. In this folder you'll find resources that might help you throughout the semester. This includes things like the invitation to Discord, a place to give me feedback, the Student Hours schedule, and some other cool things.
