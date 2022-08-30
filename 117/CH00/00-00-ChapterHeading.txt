@@ -1,2 +1,21 @@
 <p><img src="https://media4.giphy.com/media/XD9o33QG9BoMis7iM4/giphy.gif?cid=ecf05e47a93mrbl5w9lvtlzo2fwz736j00hmmwnov52lrdoc&amp;rid=giphy.gif&amp;ct=g" style="display: none; max-width: 100%;" alt="Welcome!" title="Welcome!" data-d2l-editor-default-img-style="true"></p>
 <p style="text-align: center;"><span style="color: #335e3b; font-size: 96px; font-family: Lato, sans-serif;">Welcome!</span></p>
+
+^^ CHAPTER 0 - Introduction && Orientation
+
+# Description
+
+Welcome to CSC-117, Introduction to Python! This class has some oddities that probably require some explaining. This chapter is dedicated to acquainting you to my weirdness and peculiarities😁.
+
+There are a few different assignments in this chapter, but you should start off by reading the syllabus and also watching the orientation video. Both of those will help you understand how the course works.
+
+If you have any questions, you can always email me at dave.ghidiu@flcc.edu. 
+
+<br />
+
+# Schedule
+
+<div style="clear:both;">
+
+<div style='clear:both;'><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vSOhM7OqlrMOHdc48h9j67Qlaa4itEbuYv848PrCh_NY-Wqr_x3osK_tLvmyRGeVArn99cw3PEqLshG/pubhtml/sheet?headers=false&amp;gid=1072565424&amp;range=C2:F13' style="width:100%;max-width:720px;height:330px;" frameborder="0"></iframe></div>
+</div>
