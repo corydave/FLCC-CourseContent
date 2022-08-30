@@ -1,3 +1,9 @@
 ^^ VIDEO - Welcome and Course Orientation
 
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/dcaSRUQWNbY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<center>
+
+[Link to video](https://www.youtube.com/watch?v=FNwoa7VPYUg)
+
+</center>
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/FNwoa7VPYUg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
