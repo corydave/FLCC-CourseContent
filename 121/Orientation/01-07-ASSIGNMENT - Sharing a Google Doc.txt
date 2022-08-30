@@ -1,37 +1,36 @@
-^^ ASSIGNMENT - Sharing a Google Doc
-
-^= =
+^^ ASSIGNMENT - Share a Google Doc with Me
 
 # Description
 
-[Click here](https://docs.google.com/document/d/1-SS3BpBd8vE_6HERIqf-wuCO2khSy6Wf_viSPfujDYE/copy) to make a copy of the Google Doc I have prepared for you. All it says in the doc is "SOMETHING COOL". 
+<div style="float:left;"><a href="https://docs.google.com/document/d/1NB8FXKTY4EYrNPyZYCHeC6oPBXWhCUsqF4T3U8u2Rwc/copy" target="_blank"><img src="https://docs.google.com/drawings/d/e/2PACX-1vSKzX_YL8X_-5S2dQA8Wz68YDEImpYuJXuiYslX94mnfUdm1lhwm8Y83eJeE7-wPE8LxE8-T7w_vjiP/pub?w=200&h=280" alt="A thumbnail of the course information sheet." title="A thumbnail of the course information sheet." style="margin: 0pt 10pt 10pt 0pt;float:left;"  /></a></div>
 
-Your task is to put something cool in the Doc and share it with me. This assignment should help you contextualize how many assignments will be submitted in this class.
+Throughout this course, there will be assignments that require you to make a copy of a Google Doc, do some work in it, and then submit the link to me. It's mission critical that you set the sharing permissions such that **[Anyone with the link can comment](https://www.youtube.com/watch?v=jFGXfLDctcI)**. Otherwise I might not have access to the document 😥.
 
-1. The process of copying a Google Doc.
+<div style="clear:both;">
 
-2. The process of sharing a Google Doc so that anyone with the link can comment.
+## STEP 1
+[Make a copy of the Google Doc by clicking on this link](https://docs.google.com/document/d/1NB8FXKTY4EYrNPyZYCHeC6oPBXWhCUsqF4T3U8u2Rwc/copy) (make sure you are signed in to Google).
 
-3. The process of pasting a link into Blackboard.
+## STEP 2
+Take a screenshot on your computer as instructed (there are details and a video walkthrough in the Google Doc) and paste it into the appropriate spot.
 
-4. The process of resubmitting work.
+## STEP 3
+Make sure the document is shared such that [Anyone with the link can comment](https://www.youtube.com/watch?v=jFGXfLDctcI)
 
-^===
+## STEP 4
+Submit the link here.
 
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/EeJJ7ZN6gDk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<br />
 
-^=
+<div style="display:block;width:100%;clear:left;">
 
 # Specifications
 
-* You need to be logged into your Google account to make a copy of the document.
+* Make sure the Google Doc is shared such that [Anyone with the link can comment](https://www.youtube.com/watch?v=jFGXfLDctcI)
 
-* Put something cool in the document. A photo, a meme, a joke. Bonus points for making me laugh.
+* Make sure you read the items next to each of the checkboxes and then check each box.
 
-* Share the document such that "anyone with the link can comment".
+* Paste the link to the shared Google Doc in this submission.
 
-* Submit the link here in Blackboard (make sure you paste the link in the "Write Submission" portion, not the "Comments" portion.
-
-* You will receive a zero the first time you submit; don't take it personally! You'll just have to resubmit it 😁.
-
-
+</div>
