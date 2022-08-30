@@ -15,7 +15,7 @@ Don't worry! You can take the quiz as many times as you'd like (but keep in mind
 
 # Specifications
 
-* The quiz has 5 questions based on the Course Syllabus and the Welcome and Course Orientation video.
+* The quiz has questions based on the Course Syllabus and the Welcome and Course Orientation video.
 
 * The quiz is open book.
 
