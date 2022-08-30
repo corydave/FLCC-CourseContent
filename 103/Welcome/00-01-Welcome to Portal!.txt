@@ -1,0 +1,13 @@
+^^ Welcome to Portal!
+
+A few things to know before getting started. This Welcome Tour will appear every time you enter this class - until you hit the "Dismiss" button in the bottom. Make sure you check out the video and the Course Outline so you know if this course is right for you.
+
+## The "big things" to know about this course:
+
+* **We're using Brightspace instead of Blackboard** - This is the first semester that we will be using Brightspace (we have been using Blackboard for the past several years). There will be some growing pains. If you find that something doesn't make sense in here or you can't find something, email me! There's a good chance I screwed something up 😁! But it is very important that if you have an issue, you reach out to me immediately. If there is anything giving you problems, I want to fix it!!!
+
+* **This class explores a bunch of different topics** - We'll be looking at all sorts of nerdy computer science things. Don't panic if you get a week or two into this class and it doesn't jibe with your passions. We'll be exploring all sorts of different things. There is a tiny bit of math in one of the earlier chapters - if you get frustrated with that teeny bit of math, don't worry. The rest of the course doesn't really have a lot of math in it.
+
+* **I'd love to meet you** - Please plan on scheduling a meeting with me via video chat. Don't do it now, but you will have the opportunity to schedule a meeting during one of the first chapters in this course.  Also, if you have questions, email me. Or video chat me. Or Discord me. Or whatever! We do have a Discord for the Computing Sciences department here at FLCC and you'll have the option of joining it once the class starts.
+
+<br /><br />
