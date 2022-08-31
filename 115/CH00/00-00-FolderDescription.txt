@@ -1,6 +1,6 @@
 <p><img src="https://docs.google.com/drawings/d/e/2PACX-1vRiAW0DoPOsnIVnbf_GByGAVVrWRaWG8vuAg_bNKFgbZwlrug-ZTkOYBWqNVKtGUA9jVlchdmkrcKfn/pub?w=900&amp;h=380" style="display: none; max-width: 100%;" alt="Illustrations of a compass rose and also a GPS map." title="Illustrations of a compass rose and also a GPS map."></p>
 
-^^ CHAPTER 00 - Orientation
+<span style="font-size: 72pt; color: #1e90ff; font-family: 'courier new', courier, sans-serif;">Orientation</span>
 
 ^= =
 
