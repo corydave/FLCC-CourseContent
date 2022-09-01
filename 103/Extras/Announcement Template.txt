@@ -1,0 +1,12 @@
+<div style="border: 2px solid #781346; border-radius: 15px; padding: 0px;">
+  <div style="padding: 25px; border: 4px solid #781346; border-radius: 13px 15px 0px 0px; font-size: 2.0em; color: #ffffff; background-color: #781346; font-weight: bold;">
+  
+    <text here>
+  
+  </div>
+  <div style="padding: 20px 10px 10px 10px;">
+    
+    <text here>
+    
+  </div>
+</div>
