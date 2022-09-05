@@ -1,0 +1,7 @@
+^^ VIDEO - Virtual Machines
+
+Normally I prefer to create videos for you (instead of including videos made by other people). But every once in a while I'll include a video that I have encountered. You should totally watch them when I share them.
+
+Because they are awesome. Here's a good example:
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/SVQmzaSabEQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
