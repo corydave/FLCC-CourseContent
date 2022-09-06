@@ -1,8 +1,10 @@
 ^^ ASSIGNMENT - Create an Avatar
 
-^= =
-
 # Description
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kbLVX-RGOfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="float:right;"></iframe>
+
+
 An *avatar* is a depiction of yourself that is oftentimes an illustration and does not necessarily have to mirror your physical presence.
 
 Avatars generally convey how you see yourself and can include fantasy elements like fangs, elf-ears, wings, stylized hair, or whatever else you'd like to broadcast to the world.
@@ -14,23 +16,11 @@ A prolific thought leader in the educational technology space is Kasey Bell from
 <img src="https://shakeuplearning.com/wp-content/themes/shakeup/images/header.png" alt="An illustration of Kasey Bell from Shake Up Learning." width="50%" /><br /><br />
 </center>
 
-Your job is to create an avatar. You can totally use the resources mentioned in the video:
+Your job is to create an avatar. You can totally use the resources mentioned in the video (or you can use any other one you prefer - [bitmoji](https://www.bitmoji.com/) is fairly popular:
 * [AvatarMaker](https://avatarmaker.com/)
 * [Adobe's avatar maker](https://www.adobe.com/express/create/avatar)
 
 You'll need to create an avatar and submit a link to it. You can [watch the video](https://www.youtube.com/watch?v=kbLVX-RGOfg) and follow along if you'd like. Be creative! As you are creating your avatar, think about how you want your students (and their parents) to see you.
-
-^===
-
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/kbLVX-RGOfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<center>
-
-[Link to video](https://www.youtube.com/watch?v=kbLVX-RGOfg)
-
-</center>
-
-^=
 
 # Specifications
 * Though you may use any software you'd like to create your avatar, it should be stored in a Google Drawing when it's finished.
@@ -41,9 +31,9 @@ You'll need to create an avatar and submit a link to it. You can [watch the vide
 
 * Your avatar must have transparency.
 
-* Please paste a link to the Google Drawing in the "WRITE SUBMISSION" portion of Blackboard.
+* Please paste a link to the Google Drawing in this submission.
 
-* Your Google Drawing must be shared such that "Anyone with the link can comment".
+* Your Google Drawing must be shared such that [Anyone with the link can comment](https://www.youtube.com/watch?v=jFGXfLDctcI).
 
 * There IS a rubric for this assignment - check it out before submitting!
 
