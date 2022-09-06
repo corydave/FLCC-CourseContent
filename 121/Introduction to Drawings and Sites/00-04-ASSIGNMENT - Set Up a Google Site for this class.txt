@@ -1,7 +1,5 @@
 ^^ ASSIGNMENT - Set Up a Google Site for this class
 
-^= =
-
 # Description
 A *Google Site* is a tool Google makes that lets us make sweet, responsive websites without any code. It has a "drag and drop" interface for easy use and handles much of the design work for us.
 
@@ -9,21 +7,18 @@ We will be building a portfolio using Google Sites during this semester; this st
 
 I'm building my site right along with you. My current progress is right about where your progress is. [Check it out for reference!](https://sites.google.com/view/mr-ghidiu/home)
 
-^===
-
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/t2C19sBAbOs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br />
 
 <center>
-
-[Link to video](https://www.youtube.com/watch?v=t2C19sBAbOs)
-
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/t2C19sBAbOs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:15px !important;"></iframe>
 </center>
 
-^=
 
 <br />
 
 # Specifications
+* [Watch the video](https://www.youtube.com/watch?v=t2C19sBAbOs) for reference
+
 * Customize the text in the header (top left of the page) relevant. It should contextualize the page for people who visit the site.
 
 * Change the site favicon to the one you made.
@@ -36,9 +31,9 @@ I'm building my site right along with you. My current progress is right about wh
 
 * Your Google Site must be *published*. You should [check it out in incognito mode](https://www.youtube.com/watch?v=VWSYbAu73yU).
 
-* Please paste a link to the Google Drawing in the "WRITE SUBMISSION" portion of Blackboard.
+* Please paste a link to the Google Drawing in this assignment.
 
-* There IS a rubric for this assignment - check it out before submitting!
+* There *is* a rubric for this assignment - check it out before submitting!
 
 <center>
 
