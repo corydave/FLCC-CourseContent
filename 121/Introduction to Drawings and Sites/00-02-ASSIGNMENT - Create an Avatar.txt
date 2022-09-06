@@ -2,11 +2,6 @@
 
 # Description
 
-<div style="float:right;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kbLVX-RGOfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-
 An *avatar* is a depiction of yourself that is oftentimes an illustration and does not necessarily have to mirror your physical presence.
 
 Avatars generally convey how you see yourself and can include fantasy elements like fangs, elf-ears, wings, stylized hair, or whatever else you'd like to broadcast to the world.
@@ -25,6 +20,12 @@ Your job is to create an avatar. You can totally use the resources mentioned in 
 * [Adobe's avatar maker](https://www.adobe.com/express/create/avatar)
 
 You'll need to create an avatar and submit a link to it. You can [watch the video](https://www.youtube.com/watch?v=kbLVX-RGOfg) and follow along if you'd like. Be creative! As you are creating your avatar, think about how you want your students (and their parents) to see you.
+
+<center>
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/kbLVX-RGOfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:15px !important;"></iframe>
+
+</center><br />
 
 # Specifications
 * Though you may use any software you'd like to create your avatar, it should be stored in a Google Drawing when it's finished.
