@@ -2,7 +2,9 @@
 
 # Description
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kbLVX-RGOfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="float:right;"></iframe>
+<div style="float:right;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kbLVX-RGOfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 
 An *avatar* is a depiction of yourself that is oftentimes an illustration and does not necessarily have to mirror your physical presence.
@@ -11,10 +13,12 @@ Avatars generally convey how you see yourself and can include fantasy elements l
 
 A prolific thought leader in the educational technology space is Kasey Bell from [Shake Up Learning](https://shakeuplearning.com/). Here's her avatar:
 
+<div style="clear:both;">
 <center>
 <br />
 <img src="https://shakeuplearning.com/wp-content/themes/shakeup/images/header.png" alt="An illustration of Kasey Bell from Shake Up Learning." width="50%" /><br /><br />
 </center>
+</div>
 
 Your job is to create an avatar. You can totally use the resources mentioned in the video (or you can use any other one you prefer - [bitmoji](https://www.bitmoji.com/) is fairly popular:
 * [AvatarMaker](https://avatarmaker.com/)
