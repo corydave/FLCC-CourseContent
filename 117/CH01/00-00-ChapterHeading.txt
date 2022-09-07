@@ -1,0 +1,31 @@
+^^ Basic Output
+
+If you have programmed in Java before, this small chapter will blow your mind (at the simplicity of Python). Consider this code from Java (to be clear, you are *not* responsible for any Java in this course):
+
+```java
+public class HelloWorld {
+  public static void main(String[] args) {
+    System.out.println("Hello World!");
+  }
+}
+```
+
+In Python, the code to do the *same thing* is:
+
+```python
+print("Hello World!")
+```
+
+Yeah. That's it. It's that simple.
+
+# Experiences for this chapter
+
+1. VIDEO - Setting up your development environment and `helloWorld.py` ^box^
+2. VIDEO - **GameDev** - Demo 
+3. VIDEO - Submission process (CodeGrade)
+4. LABS
+    1. `helloWorld.py`
+    2. `rectangle.py`
+    3. `triangle.py`
+
+----
