@@ -1,6 +1,13 @@
 AGENDA - 2022-09-07
 =============
 
+^callout question
+
+### *WHERE IS THE DANG AGENDA???*
+Go to **Welcome && Course Information** and then **Agendas**
+
+^callout-end
+
 ^callout backward
 
 ### Rewind
