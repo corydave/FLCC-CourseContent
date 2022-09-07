@@ -1,0 +1,33 @@
+AGENDA - 2022-09-07
+=============
+
+^callout backward
+
+### Rewind
+
+Review what we covered last week
+* Google Cloud Shell
+* CodeGrade
+* GitHub
+* Where is the textbook?
+
+^callout-end
+
+^callout comments
+
+### Discuss
+
+* Any questions on Course Outline?
+* Any questions on Plagiarism?
+* How did the Reading Guide go?
+* How do you navigate through Brightspace (labs)?
+
+^callout-end
+
+^callout book-reader
+
+### Labs
+
+You know what? I don't wanna teach anything anymore. You're on your own 🤔
+
+^callout-end
