@@ -22,7 +22,7 @@ Create a script that displays the a rectangle on four lines. The first and fourt
 
 ## STARTER CODE
 
-You may use the following code as starter code. Since this is the first lab, the starter code is complete! It runs! And runs well! All you need to do is change the comments (for instance, your name and the date).
+You may use the following code as starter code. Because this lab is very simple, the starter code does not contain anything other than comments and the file name. You will need to change the comments (for instance, your name and the date).
 
 ^callout download
 
