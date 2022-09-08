@@ -22,7 +22,7 @@ Hello, World!
 
 You may use the following code as starter code. Since this is the first lab, the starter code is complete! It runs! And runs well! All you need to do is change the comments (for instance, your name and the date).
 
-^callout download
+^callout file-download
 
 [`helloWorld.py`](https://drive.google.com/uc?export=download&id=1j44STIDQa7fwzoyJp3YCGJsycgf0wY--)
 
