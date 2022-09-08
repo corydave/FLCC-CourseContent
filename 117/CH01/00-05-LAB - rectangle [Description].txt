@@ -1,0 +1,35 @@
+^^ LAB - rectangle [Description]
+
+
+## DESCRIPTION
+
+Create a script that displays the a rectangle on four lines. The first and fourth line should be five asterisks and the second and third line should consist of one asterisk, three spaces, and another asterisk.
+
+## SPECIFICATIONS
+
+* File name: `rectangle.py`
+* Be sure to modify the comments
+* Be sure to output the exact message as shown in the sample output
+
+## SAMPLE OUTPUT
+
+```
+*****
+*   *
+*   *
+*****
+```
+
+## STARTER CODE
+
+You may use the following code as starter code. Since this is the first lab, the starter code is complete! It runs! And runs well! All you need to do is change the comments (for instance, your name and the date).
+
+^callout download
+
+[`rectangle.py`](https://drive.google.com/uc?export=download&id=1dm3WIY8NNCww4eJUUJqJ_aOnyuCo1Aef)
+
+Download this file and load it into your IDE.
+
+^callout-end
+
+<br /><br />
