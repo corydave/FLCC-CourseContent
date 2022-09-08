@@ -1,0 +1,38 @@
+^^ LAB - `initials` [Description]
+
+
+## DESCRIPTION
+
+Write a program that outputs a block letter representation of your initials.
+
+## SPECIFICATIONS
+
+* File name: `initials.py`
+* Be sure to modify the comments
+* You need to create at least six lines of output (more than that is acceptable) - you must use initials that are different than the "TJ" in the sample output
+* Note that the auto-grading on this lab is different than other labs since you have free reign on the initials to use
+
+## SAMPLE OUTPUT
+
+```
+TTTTTTTT     JJJJJJJJ
+   TT            JJ
+   TT            JJ
+   TT        JJ  JJ
+   TT         JJ JJ
+   TT           JJ
+```
+
+## STARTER CODE
+
+You may use the following code as starter code. Because this lab is very simple, the starter code does not contain anything other than comments and the file name. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`initials.py`](https://drive.google.com/uc?export=download&id=1RwCQvTvqtG6JJz2OoOMFF-qXCFDe5cI7)
+
+Download this file and load it into your IDE.
+
+^callout-end
+
+<br /><br />
