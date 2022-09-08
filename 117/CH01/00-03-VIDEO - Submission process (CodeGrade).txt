@@ -1,0 +1,7 @@
+^^ VIDEO - Submission process (CodeGrade)
+
+This video is being made ASAP - I need to get student access to CodeGrade :(
+
+In the meantime, if you want to try submitting files to CodeGrade, go for it! You have free access (all you have to do is click on the lab submission links and add the file you want to submit - I'd recommend `helloWorld.py` as the first go around since that starter code passes the test!
+
+[Here is a video from CodeGrade showing how to submit a file](https://www.youtube.com/watch?v=ERItjF9gCqM), and [here is a video showing how to understand the feedback](https://www.youtube.com/watch?v=lKCGMojzOcw&t=390s). Hopefully I'll be able to make my own videos showing the student experience soon. Until then, have fun and enjoy Python!
