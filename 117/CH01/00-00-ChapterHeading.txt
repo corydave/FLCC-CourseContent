@@ -27,5 +27,6 @@ Yeah. That's it. It's that simple.
     1. `helloWorld.py`
     2. `rectangle.py`
     3. `triangle.py`
+    4. `initials.py`
 
 ----
