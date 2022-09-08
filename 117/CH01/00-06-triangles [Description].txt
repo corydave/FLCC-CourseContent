@@ -1,0 +1,42 @@
+^^ LAB - `triangles` [Description]
+
+
+## DESCRIPTION
+
+Write a program that outputs two "triangles" built out of # characters to match the specific arrangement shown below (note that there is a blank line between the two shapes).
+
+## SPECIFICATIONS
+
+* File name: `triangles.py`
+* Be sure to modify the comments
+* Be sure to output the exact message as shown in the sample output. Note the blank line between the two triangles.
+
+## SAMPLE OUTPUT
+
+```
+#
+##
+###
+####
+#####
+
+    #
+   ##
+  ###
+ ####
+#####
+```
+
+## STARTER CODE
+
+You may use the following code as starter code. Because this lab is very simple, the starter code does not contain anything other than comments and the file name. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`triangles.py`](https://drive.google.com/uc?export=download&id=15UNOx5xvRHsSkPO3o0aaWWPkYKzvxBBw)
+
+Download this file and load it into your IDE.
+
+^callout-end
+
+<br /><br />
