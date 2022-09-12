@@ -4,19 +4,21 @@
 
 # Experiences for this chapter
 
-^= =
+We're going to look at some basic Java building blocks (primitive data types like int, char, double, and boolean). We'll also consider some basic mathematical operations and then we'll conclude with a fairly in-depth look at `System.out.println()` statements.
 
-We're going to look at some basic Java building blocks (primitive data types like int, char, double, and boolean). We'll also consider some basic mathematical operations and then we'll conclude with a fairly in-depth look at ```System.out.println()``` statements.
 
-^===
+* READING - Chapter 2 - Basic Java && Variables
 
 * READING GUIDE - Chapter 2 Reading Guide
 
-* LAB - ```TriangleArea```
+* VIDEO - FeetToMiles
 
-* LAB - ```ConvertCF01```
+* LAB - `TriangleArea`
 
-^=
+* LAB - `InchesToFeet`
+
+* LAB - `ConvertCF01`
+
 
 # To ponder
 In the meantime, ponder what you think this code might do:
