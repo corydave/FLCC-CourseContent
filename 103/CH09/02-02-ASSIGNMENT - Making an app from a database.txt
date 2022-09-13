@@ -9,9 +9,11 @@ But when data gets more sophisticated and becomes dependent on other data, then 
 
 ^===
 
+<center>
+
 ^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/1wZrGiWtgMQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<center><br />
+<br />
 
 [Link to video](https://www.youtube.com/watch?v=1wZrGiWtgMQ)
 
@@ -22,7 +24,7 @@ But when data gets more sophisticated and becomes dependent on other data, then 
 # Description
 In this experience, you will be creating a sweet, sweet POS system for a hardware store! Actually, I guess you can create it for any type of store you want, but the video tutorial is for a hardware store. Feel free to substitute the items with whatever you'd like - you don't need 4x4s and hammers. 
 
-Note that this will be very rudimentary since it's most likely your first dive into databases. We actually won't be automating too many processes or including an inventory. But we *will* include 
+Note that this will be very rudimentary since it's most likely your first dive into databases. We actually won't be automating too many processes or including an inventory. But we *will* include receipts and inventories.
 
 # Specifications
 * You will need to use [Airtable](https://airtable.com/) to create a database. There are four tables you'll need: *Customers*, *Items*, *Receipts*, and *Item Detail*.
