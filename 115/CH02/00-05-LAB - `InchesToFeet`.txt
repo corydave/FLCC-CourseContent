@@ -1,0 +1,111 @@
+^^ LAB - `InchesToFeet`
+
+## DESCRIPTION
+
+Write a program that will ask the user for a number of total inches. Then convert the total inches into feet and inches. Output the result in the exact format shown below. 
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* The starter code contains the code to get a number from the user. Don't worry about how this works yet- we'll learn that soon enough!
+
+* The filename for this program is `InchesToFeet.java`
+
+* Complete the method to compute and output the converted feet and inches as shown below.
+
+* Add a comment with your name, date, and program description at the top!
+
+
+## SAMPLE OUTPUT
+
+
+```
+Enter the number of inches:
+14
+
+14 inches is 1 feet, and 2 inches
+```
+
+```
+Enter the number of inches:
+100
+
+100 inches is 8 feet, and 4 inches
+```
+
+```
+Enter the number of inches:
+-4
+
+-4 inches is 0 feet, and -4 inches
+```
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`InchesToFeet.java`](https://drive.google.com/uc?export=download&id=1UaFIl_p-5dNbcDozBj6b6TuKO2lmhh--)
+
+Download this file and load it into your IDE.
+
+^callout-end
+
+^callout code
+
+```java ^copy
+// FILE NAME - InchesToFeet.java
+
+// Who are you? What is the date? What does this program do? Enquiring minds want to know!
+
+import java.util.Scanner;
+
+public class InchesToFeet {
+	public static void main(String[] args) {
+
+		// All the dirty work happens in the 'convert()' method;
+        // let's call it here from the main method!
+		convert();      
+             
+	}
+   
+	// this method asks the user for total inches and outputs the conversion to feet and inches
+   public static void convert() {
+
+	   // Create a new Scanner to read in input from user
+      Scanner scanner = new Scanner(System.in);
+      
+      // Prompt the user and then store their input in 'totalInches'
+      System.out.println("Enter the number of inches:");
+      int totalInches = scanner.nextInt();
+
+      // Convert to feet and inches. 
+	   // ex. if totalInches is 38, the output would be: 38 inches is 3 feet, and 2 inches
+
+      ///////////////////////    INSERT YOUR CODE BELOW THIS LINE    ///////////////////////
+
+
+
+	    
+	   
+	    
+       
+       
+       
+      ///////////////////////    INSERT YOUR CODE ABOVE THIS LINE    ///////////////////////
+
+      scanner.close();   
+
+   }
+
+}
+```
+
+
+
+^callout-end
+
+
+<br /><br />
