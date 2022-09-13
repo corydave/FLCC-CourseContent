@@ -1,4 +1,4 @@
-^^ LAB - `TriangleArea` [Description]
+^^ LAB - `TriangleArea`
 
 
 ## DESCRIPTION
