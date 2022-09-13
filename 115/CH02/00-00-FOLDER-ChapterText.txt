@@ -11,7 +11,7 @@ We're going to look at some basic Java building blocks (primitive data types lik
 
 * READING GUIDE - Chapter 2 Reading Guide
 
-* VIDEO - FeetToMiles
+* VIDEOS - Chapter 2 Videos
 
 * LAB - `TriangleArea`
 
