@@ -14,19 +14,24 @@ Your formatting doesn't have to be the same (for instance, I used a blue backgro
 
 ^===
 
+<center>
+
 ^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/PKkhvehhXlw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</center>
 
 ^=
 
 # Specifications
 
-* Submit a link to the Google Doc.
+* Submit the PDF version of your Google Doc.
 
-* Verify that the document is shared such that ["Anyone with the link can COMMENT"](https://www.youtube.com/watch?v=jFGXfLDctcI).
+* Submit a link to the Google Doc, too.
 
-* Submit the PDF version of your Google Doc, too.
+* Verify that the document is shared such that ["Anyone with the link can ***EDIT***"](https://www.youtube.com/watch?v=jFGXfLDctcI).
+
  
-^= = =,,,
+^= = = ,,, 12
 
 **NOTE:** Be sure to check out the rubric for this assignment to make sure you address all relevant parts.
 
