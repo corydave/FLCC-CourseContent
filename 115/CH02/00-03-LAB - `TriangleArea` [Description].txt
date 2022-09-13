@@ -1,0 +1,52 @@
+^^ LAB - `TriangleArea` [Description]
+
+
+## DESCRIPTION
+
+Write a program that uses the height and the base of a triangle to compute the area of the triangle using the formula `A = 1/2 * b * h`. Output the result in the exact format shown below.
+
+
+```
+Enter the height:
+10
+Enter the base:
+5
+
+The area of the triangle is 25.0
+```
+
+
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+*The starter code contains the code to get the numbers from the user. They will be stored as integers with the names height and base. Don't worry about how this works yet - coming soon!
+
+*The filename for this program is `TriangleArea.java`
+
+* Complete the `findArea()` method to compute and output the area as shown below.
+
+* Add a comment with your name, date, and program description at the top.
+
+**Hint:** You might find that you run into errors if you use division with integers. See if you can figure out a solution!
+
+## SAMPLE OUTPUT
+
+```
+Enter the height:
+1
+Enter the base:
+1
+
+The area of the triangle is 0.5
+```
+
+```
+Enter the height:
+8
+Enter the base:
+4
+
+The area of the triangle is 16.0
+```
