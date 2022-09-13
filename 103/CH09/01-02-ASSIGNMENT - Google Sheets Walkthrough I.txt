@@ -12,21 +12,25 @@ I've made you a Sheet with the same data, but the entire sheet is unformatted. Y
 
 To get a copy of the Google Sheet, make sure you are logged into your account and [**click here**](https://docs.google.com/spreadsheets/d/1ktXvHIfHSIuKE34AxBafmoBdTEkhBl-vOayhr3pyoiE/copy).
 
-Share the link so that "Anybody with the link can ***edit***" in the "Write submission" portion of this assignment in Blackboard.
+Share the link so that "Anybody with the link can ***edit***".
 
 ^===
 
+<center>
+
 ^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/OHClPHJa7Xc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</center>
 
 ^=
 
 # Specifications
 
-* Submit a link to the Google Sheet.
+* Submit the PDF version of your Google Sheet.
 
-* Verify that the document is shared such that ["Anyone with the link can COMMENT"](https://www.youtube.com/watch?v=jFGXfLDctcI).
+* Submit a link to the Google Sheet, too.
 
-* Submit the PDF version of your Google Sheet, too.
+* Verify that the document is shared such that ["Anyone with the link can ***EDIT***"](https://www.youtube.com/watch?v=jFGXfLDctcI).
  
  
 ^= = = ,,, 12
