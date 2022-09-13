@@ -43,7 +43,7 @@ The above examples are some of the many debates we are having. You can choose fr
 
 * Real-life examples should be used, if possible.
 
-* Citations can be hyperlinks if you'd like, but feel free to use APA or MLA if you prefer.
+* Citations can be hyperlinks if you'd like, but feel free to use APA or MLA if you prefer. Don't forget to [Ask a Librarian](https://library.flcc.edu/ask.cfm) if you'd like help with research or citations. They are super friendly and willing to help (even if you're remote!).
 
 * Your paper should carefully consider the pros and cons.
 
@@ -51,6 +51,5 @@ The above examples are some of the many debates we are having. You can choose fr
 
 * Submit a link to a cloud-based document such as Google Docs.
 
-* Verify that the document is shared such that anyone with the link can comment.
+* Verify that the document is shared such that ["Anyone with the link can COMMENT"](https://www.youtube.com/watch?v=jFGXfLDctcI).
 
-* Please put the link in the "Write Submission" portion of the assignment, not the "Comments" section.
