@@ -5,9 +5,13 @@
 
 # Experiences for this chapter
 
-Let's check out some of the built-in math features of Java. A few of the key features are modulus (the "%" sign - it means *remainder*, random numbers, overflow errors (which can be entry points for the bad actors out there!), and casting.
+Let's check out some of the built-in math features of Java. A few of the key features are modulus (the "%" sign - it means *remainder*, random numbers, overflow errors (which can be entry points for the bad actors), and casting.
+
+* READING - Chapter 3 - Math
 
 * READING GUIDE - Chapter 3 Reading Guide
+
+* VIDEOS - Chapter 3 Videos
 
 * LAB - ```Circles01```
 
