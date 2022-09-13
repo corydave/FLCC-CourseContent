@@ -1,0 +1,57 @@
+AGENDA - 2022-09-12
+=============
+
+^callout exclamation-triangle
+
+### The Reading Guide was missing from Brightspace navigation
+I'm super sorry - I did not make it easy to find the Reading Guide for Chapter 2. I've extended the due date for that until Monday 9/19 - Please make sure you get it done by then.
+
+^callout-end
+
+^callout info-circle
+
+### Information
+
+We will be covering chapter 2 today
+* Primitive data types (`int`, `double`, `char`, and `boolean`)
+* We'll also look a little bit at `String` (which is a class, not a primitive data type
+
+We will also be exploring at really wonky behavior with output and variable types. Check out the notes at GitHub: [`BlowYerMind.java`](https://github.com/corydave/FLCC_CSC_115/tree/main/2022FA/2022-09-12)
+
+^callout-end
+
+^callout calendar-times
+
+### NO CLASS ON WEDNESDAY, 9/14
+
+There is no class on Wednesday, 9/14!!!! Instead, plan on working on the work that is due on 9/19 and 9/21. I'll be available via Discord and email (dave.ghidiu@flcc.edu).
+
+^callout-end
+
+^callout video
+
+### Video
+
+Since we won't be meeting on 9/21, I've included three videos you can/should watch.
+
+* [Chapter 2.1 - 2.3](https://www.youtube.com/watch?v=ctsW3qIAKgs)
+
+* [Chapter 2.4](https://www.youtube.com/watch?v=mxtj6HQg-qU)
+
+* [Lab Walkthrough - `FeetToMiles`](https://www.youtube.com/watch?v=newnK7A53NE)
+
+^callout-end
+
+^callout laptop-code
+
+### Work that is due:
+September 19:
+1. Chapter 2 Reading Guide
+2. Chapter 3 Reading Guide
+
+September 21:
+1. LAB - `TriangleArea`
+2. LAB - `ConvertCF01`
+3. LAB - `InchesToFeet`
+
+^callout-end
