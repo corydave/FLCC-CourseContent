@@ -27,7 +27,11 @@ You'll need to have the following:
 
 ^===
 
+<center>
+
 ![Animated GIF of a student's portfolio.](https://daveghidiu.com/assets/portfolio.gif)
+
+</center>
 
 ^=
 
@@ -82,7 +86,7 @@ You also need to include reflections for each piece. They should include:
 A few things to keep in mind:
 * You are more than welcome to include other things, too. Google Sites makes it super easy to include neat things like a photo gallery or a YouTube video.
 
-* If you embed a Google Doc, Google Slides, Google Sheet, or any file - such as a PDF - that is stored in your Google Drive, *you need to make sure that the file is shared such that "anyone with the link" can view it.
+* If you embed a Google Doc, Google Slides, Google Sheet, or any file - such as a PDF - that is stored in your Google Drive, *you need to make sure that the file is shared such that ["Anyone with the link can VIEW"](https://www.youtube.com/watch?v=jFGXfLDctcI).
 
 * You should **definitely** view your site in "Incognito mode" before submitting.
 
@@ -92,4 +96,3 @@ A few things to keep in mind:
 ^^ SAMPLE WORK
 
 <center><iframe width="100%" height="350px" src="https://docs.google.com/drawings/d/1CbN1EO1wFFLMyBw5zU_PQnheossw4CWX6M390TvJy5E/preview" frameborder="0"></iframe></center><center><em><span style="font-size: 10pt;">Thumbnails of student work</span></em></center>
-
