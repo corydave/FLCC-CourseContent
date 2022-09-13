@@ -15,15 +15,13 @@ Enter the base:
 The area of the triangle is 25.0
 ```
 
-
-
 ## SPECIFICATIONS
 
 * Starter code has been provided for this lab.
 
-*The starter code contains the code to get the numbers from the user. They will be stored as integers with the names height and base. Don't worry about how this works yet - coming soon!
+* The starter code contains the code to get the numbers from the user. They will be stored as integers with the names height and base. Don't worry about how this works yet - coming soon!
 
-*The filename for this program is `TriangleArea.java`
+* The filename for this program is `TriangleArea.java`
 
 * Complete the `findArea()` method to compute and output the area as shown below.
 
@@ -65,7 +63,7 @@ Download this file and load it into your IDE.
 
 ^callout code
 
-```python ^copy
+```java ^copy
 
 // FILE NAME - TriangleArea.java
 // Don't forget your comments here!
