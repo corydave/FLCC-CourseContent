@@ -50,3 +50,69 @@ Enter the base:
 
 The area of the triangle is 16.0
 ```
+
+## STARTER CODE
+
+You may use the following code as starter code. Because this lab is very simple, the starter code does not contain anything other than comments and the file name. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`TriangleArea.java`](https://drive.google.com/uc?export=download&id=18f55iaG11mClvfxSPAh28KcvxKkqFnCJ)
+
+Download this file and load it into your IDE.
+
+^callout-end
+
+^callout code
+
+```python ^copy
+
+// FILE NAME - TriangleArea.java
+// Don't forget your comments here!
+
+import java.util.Scanner; // You can ignore this line - we haven't covered this yet.
+
+public class TriangleArea {
+    
+    public static void main (String[] args) {
+        
+        findArea(); // this method gets numbers from the user and outputs the area of the triangle
+        
+    }
+    
+    // this method gets numbers from the user, calculates the area of the triangle, and outputs it
+    public static void findArea() {
+    	
+    	// Instantiate a Scanner to take input from the user
+        Scanner scanner = new Scanner(System.in);
+        
+        // Prompt the user for height and store the input in the variable 'height'
+        System.out.println("Enter the height:");
+        int height = scanner.nextInt();
+
+        // Prompt the user for the base and store the input in the variable 'base'        
+        System.out.println("Enter the base:");
+        int base = scanner.nextInt();
+        
+        ///////////////////////    INSERT YOUR CODE BELOW THIS LINE    ///////////////////////
+        
+
+        
+        
+        
+   
+        
+        ///////////////////////    INSERT YOUR CODE ABOVE THIS LINE    /////////////////////// 
+    }
+    
+
+}
+
+
+```
+
+
+
+^callout-end
+
+<br /><br />
