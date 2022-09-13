@@ -12,25 +12,26 @@ I've made you a Doc with some sample writing, but the entire document is unforma
 
 To get a copy of the Google Doc, make sure you are logged into your account and [click here](https://docs.google.com/document/d/1KDK3zWYONJ3SdmNiIpk7gONRSKkhxzbftvPTYdt4q1w/copy).
 
-Share the link so that "Anybody with the link can **edit**" in the "Write submission" portion of this assignment in Blackboard.
+Share the link so that "Anybody with the link can **edit**".
 
 
 ^===
 
+<center>
+
 ^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/mLJeXlYDSzs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</center>
 
 ^=
 
 # Specifications
 
-* Submit a link to the Google Doc.
+* Submit the PDF version of your Google Doc.
 
-* Verify that the document is shared such that anyone with the link can ***edit***.
+* Submit a link to the Google Doc, too.
 
-* Please put the link in the "Write Submission" portion of the assignment, not the "Comments" section.
-
- *Submit the PDF version of your Google Doc, too.
-
+* Verify that the document is shared such that ["Anyone with the link can ***EDIT***"](https://www.youtube.com/watch?v=jFGXfLDctcI).
 
 ^= = =,,,
 
