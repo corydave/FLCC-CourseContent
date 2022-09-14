@@ -18,9 +18,11 @@ Make a [copy of the Google Doc](https://docs.google.com/document/d/190f1DAIFPh-2
 
 ^===
 
+<center>
+
 ^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/lFN9h8ZsrQw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<center><br />
+<br />
 
 [Link to video](https://www.youtube.com/watch?v=lFN9h8ZsrQw)
 
@@ -38,6 +40,6 @@ Make a [copy of the Google Doc](https://docs.google.com/document/d/190f1DAIFPh-2
 
 * For questions 7-10, you'll be tasked with doing different things in the document (like ALT tags and styles). Do those things :)
 
-* Share the document so that "Anyone with the link can comment". Copy the link and paste it here in the "WRITE SUBMISSION" portion.
+* Share the document so that ["Anyone with the link can COMMENT"](https://www.youtube.com/watch?v=jFGXfLDctcI). Copy the link and paste it here in the Brightspace submission.
 
 * Have a nice day!
