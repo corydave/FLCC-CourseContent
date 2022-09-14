@@ -29,7 +29,7 @@ The hardest thing to do with accessibility, in my opinion, is to get other educa
 <br />
 <div style="clear:both;width:80%;margin-left:auto;margin-right:auto;">
 
-^=,
+^=, 12
 
 Every week, we will be reflecting on the things we learned. Typically this will involve software (and how it fits into the context of teaching), cognitive science (how learning works), or just visceral reactions. The intent of these journaling sessions are to help you recognize where the totality of your educational experiences have led you and how those experiences intersect with what we know about teaching and learning. The journal entries are private (you and I are the only ones reading them; they will not be shared to the class).
 
@@ -41,6 +41,11 @@ I will read every entry and respond - please make sure you read my comments. The
 
 ^=
 
+# Specifications
+
+* Please paste a link to the Google Doc that holds your journal in this submission.
+
+* Your Google Doc must be shared such that [Anyone with the link can comment](https://www.youtube.com/watch?v=jFGXfLDctcI).
 </div>
 
 <br /><br />
