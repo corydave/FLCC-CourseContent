@@ -1,10 +1,9 @@
 ^^ ASSIGNMENT - Adding to the Repository [Shared Google Doc]		
 
-^= =
-
 # Description
 
-Having places to look for quality open content is mission critical for educators (after all, you should be modeling proper attributions in your work). Sure, there are various clipart pieces and cheesy stock photos you can use. But why? There are thousands of repositories online. Find two! Write a summary (1-2 sentences) for each of your entries and make sure you also address the following:
+Having places to look for quality open content is mission critical for educators (after all, you should be modeling proper attributions in your work). Sure, there are various clipart pieces and cheesy stock photos you can use. But why? There are thousands of repositories online. 
+**Find two**! Write a summary (1-2 sentences) for each of your entries and make sure you also address the following:
 
 * Is it searchable?
 
@@ -12,15 +11,28 @@ Having places to look for quality open content is mission critical for educators
 
 * What are the licenses?
 
-[Put your work in this shared Google Doc](https://docs.google.com/document/d/14ROLOdZJJv2-81FpWe2nBq8o_g-5eKQt8WLyPkn3P9s/edit) and make sure you put your name on it. The intent of this experience is for you to find a site that has open assets (like [unsplash.com](https://www.unsplash.com) and share it with the rest of us.
+[Put your work in this shared Google Doc](https://docs.google.com/document/d/XXX-GOOGLE-DOC-ID-XXX/edit?usp=sharing) and make sure you put your name on it. The intent of this experience is for you to find a site that has open assets (like [unsplash.com](https://www.unsplash.com) and share it with the rest of us.
 
 By the end of this exercise, we should have access to a list of all sorts of different, open resources.
 
-^===
+# Specifications
+
+* You must add *two* items to the [shared Google Doc](XXX-GOOGLE-DOC-ID-XXX)
+
+* Please follow the format in the examples I left:
+    * Name of site (as a hyperlink)
+    * Your name
+    * A brief description of the site
+
+* Please do not copy and paste the description of the site - use your own words.
+
+* Once you have contributed two items to the list, copy and paste them into the submission here as well (that's how a grade will be attached to your work!).
+
+<center>
 
 ^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/_relaqce5uA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<center><br />
+<br />
 
 [Link to video](https://www.youtube.com/watch?v=_relaqce5uA)
 
