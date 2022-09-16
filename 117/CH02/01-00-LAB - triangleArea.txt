@@ -1,0 +1,85 @@
+^^ LAB - `triangleArea`
+
+
+## DESCRIPTION
+
+Write a program that uses the height and the base of a triangle to compute the area of the triangle using the formula `A = 1/2 * b * h`. Output the result in the exact format shown below.
+
+
+```
+Enter the height: 10
+Enter the base: 5
+
+The area of the triangle is 25.0
+```
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* The filename for this program is `triangleArea.py`
+
+* Complete the `findArea()` function. The function should ask for the measure of the height and the base and then output the area.
+
+* Add a comment with your name, date, and program description at the top.
+
+## SAMPLE OUTPUT
+
+```
+Enter the height: 1
+Enter the base: 1
+
+The area of the triangle is 0.5
+```
+
+```
+Enter the height: 8
+Enter the base: 4
+
+The area of the triangle is 16.0
+```
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`triangleArea.py`](https://drive.google.com/uc?export=download&id=1X6YqIqOCsjB6DJdwPJ68f8wlVtnyTUqf)
+
+Download this file and load it into your IDE.
+
+^callout-end
+
+^callout code
+
+```python ^copy
+
+# FILE NAME - triangleArea.py
+
+# NAME - 
+# DATE - 
+# DESCRIPTION - 
+
+def main():
+    findArea()
+
+def findArea():
+    
+    ####### ENTER YER CODE HERE #######
+
+
+
+    
+    ###################################
+
+
+
+main()
+```
+
+
+
+^callout-end
+
+<br /><br />
