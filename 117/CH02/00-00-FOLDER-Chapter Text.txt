@@ -29,6 +29,6 @@ print('Nice to meet you,', name.capitalize())
 1. READING - Chapter 02 Reading
 2. VIDEO - `FeetToMiles` Demo
 3. LABS
-    1. `triangleAread.py`
+    1. `triangleArea.py`
     2. `convertCF01.py`
     3. `inchesToFeet.py`
