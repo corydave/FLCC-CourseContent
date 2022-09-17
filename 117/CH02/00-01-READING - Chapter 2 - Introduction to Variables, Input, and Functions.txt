@@ -1,0 +1,25 @@
+^^ READING - Chapter 2 - Introduction to Variables, Input, and Functions
+
+# Description
+
+<div style="display:block;width:100%;">
+<div style="float:left;"><a href="https://docs.google.com/document/d/1AScW49_joO4hAujiOTHODn50002orVZ4i--ztcCoZ_k/preview" target="_blank"><img src="https://docs.google.com/drawings/d/e/2PACX-1vR1AsBMMOgM8JjUs2xI3rETSu0uwRS3OHwLrt5VF0nYkyXg1mQwYdNqyNlYWXNKk-w4KR1H_UGBUbQU/pub?w=200&h=280" alt="A thumbnail of the course information sheet." style="margin: 0pt 10pt 10pt 0pt;float:left;"  /></a></div>
+
+The reading for this chapter is [Chapter 2 - Introduction to Variables, Input, and Functions](https://docs.google.com/document/d/1AScW49_joO4hAujiOTHODn50002orVZ4i--ztcCoZ_k/edit#heading=h.554rsk6pbo1). There are some really neat things here that will set us up for more robust programming later on. Here's the thing - sometimes it's better to five into one topic and explore every nook and cranny. Sometimes it is better to explore a few different topics with a brief investigation (because getting some experience, even shallow, is better for cooler programs). I'm thinking this is one of the times when it's better to learn just a little bit (because we will gain more experience down the road).
+
+One thing to keep an eye out for is **functions** (also called methods in other languages). Functions are a cool way to organize code - they are like mini-programs. Moving forward, we'll be writing every program with a function called `main` because that is what will be run by the computer. Of course, we can have a ton of different functions. But `main` will be the main function that kickstarts the rest of the functions!
+
+Here is the *proper* way to write the `helloWorld` program:
+
+```python ^copy
+
+# Define a function called 'main'
+def main():
+    print('Hello, World!')
+
+# Invoke the 'main' function
+main();
+
+```
+
+<br /><br />
