@@ -9,9 +9,9 @@ Let's check out some of the built-in math features of Java. A few of the key fea
 
 * READING - Chapter 3 - Math
 
-* READING GUIDE - Chapter 3 Reading Guide
-
 * VIDEOS - Chapter 3 Videos
+
+* READING GUIDE - Chapter 3 Reading Guide
 
 * LAB - `Circles01`
 
