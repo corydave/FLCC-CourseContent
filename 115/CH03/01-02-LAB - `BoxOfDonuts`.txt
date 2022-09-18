@@ -17,7 +17,7 @@ Everybody knows that a box of donuts holds 12 donuts<sup>1</sup>. In the Compute
 
 * Answer the reflection questions at the end of the lab.
 _____
-<font size="-1"><sup>1</sup> This isn’t really true anymore since donuts have become bigger and more specialized. I mean, some places still have 12 donuts in a box (like Krispy Kreme and Dunkin Donuts, but they have to literally redesign the donut box!</font>
+<font size="-1"><sup>1</sup> This isn’t really true anymore since donuts have become bigger and more specialized. I mean, some places still have 12 donuts in a box (like Krispy Kreme and Dunkin' Donuts, but they have to literally redesign the donut box!</font>
 
 ## SAMPLE OUTPUT
 
