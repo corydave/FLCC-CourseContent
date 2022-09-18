@@ -1,0 +1,123 @@
+^^ LAB - `Circle01`
+
+
+## DESCRIPTION
+
+Using the value `3.14` for π (pi), find the area of a circle with a radius that is provided by the user.  
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* File name: `Circles01.java`
+
+* Use `3.14` as a value of π (pi)
+
+* Add comments with your name, date, and program description at the top!
+
+* The formula for computing the area of a circle is A = π • r<sup>2</sup>
+
+## SAMPLE OUTPUT
+
+```
+
+Radius:
+10
+AREA = 314.0
+
+```
+
+```
+
+Radius:
+7.1
+AREA = 158.2874
+
+
+```
+
+```
+
+Radius:
+1.0
+AREA = 3.14
+
+
+```
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`Circle.java`](https://drive.google.com/uc?export=download&id=1nOkXWcFZBmyc4r2FkBy2UqYghJYOUjtS)
+
+Download this file and load it into your IDE.
+
+^callout-end
+
+```java ^copy
+
+/**
+ * Description
+ *
+ * @author Student Name
+ * @since Date Started
+ */
+
+import java.util.Scanner;
+
+public class Circles01 {
+
+    public static void main(String[] args) {
+
+    // All the dirty work happens in the 'circleArea()' method;
+    // let's call it here from the main method!
+	
+        circleArea();    
+    
+    }
+    
+    public static void circleArea() {
+
+        Scanner scanner = new Scanner(System.in);
+		
+        System.out.println("Radius: ");
+        double radius = scanner.nextDouble();
+    
+        System.out.println();
+		
+        // ========== INSERT YOUR CODE HERE ==========
+    
+    
+    
+    
+    
+    
+    
+        // ===========================================        
+    
+  }
+
+}
+
+
+// =============== LAB SUMMARY ===============
+
+/*
+1. What was the hardest part of this lab?
+
+
+
+
+2. What will you always remember (never forget) from this exercise?
+
+
+
+
+*/
+
+```
+
+<br /><br />
