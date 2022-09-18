@@ -1,0 +1,12 @@
+^^ READING - Chapter 3 - Math
+
+# Description
+
+<div style="display:block;width:100%;">
+<div style="float:left;"><a href="https://docs.google.com/document/d/1yCS7eqh9uWHzliIbqoKRV_Z4I7pZ2kv8WR6rOMINaoY/preview" target="_blank"><img src="https://docs.google.com/drawings/d/e/2PACX-1vSwgJborR_U6yoxa2xNeAvcOnXN3QCi00BTgBHtrv6GHMpLBRmGbaFnLxl8GSkrA6SCkYe20YJ1RyPU/pub?w=200&h=280" alt="A thumbnail of the course information sheet." style="margin: 0pt 10pt 10pt 0pt;float:left;"  /></a></div>
+
+The reading for this chapter is [Chapter 3 - Math](https://docs.google.com/document/d/1yCS7eqh9uWHzliIbqoKRV_Z4I7pZ2kv8WR6rOMINaoY). In addition to the normal arithmetic operators (addition, subtraction, multiplication, and division) we will be exploring **modulus** (which is really like the remainder when dividing two numbers). 
+
+We'll look at some ways to generate random numbers, **casting**, and overflow errors (which can be bad news for you because bad actors look for overflow errors as an entry point into your software!).
+
+<br /><br />
