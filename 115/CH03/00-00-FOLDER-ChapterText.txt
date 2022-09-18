@@ -15,7 +15,7 @@ Let's check out some of the built-in math features of Java. A few of the key fea
 
 * LAB - `Circles01`
 
-* LAB - `BoxOfRocks`
+* LAB - `BoxOfDonuts`
 
 # Prediction
 
