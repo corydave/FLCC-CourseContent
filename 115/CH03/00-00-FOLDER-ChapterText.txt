@@ -3,9 +3,9 @@
 
 ^^ CHAPTER 03 - Math
 
-# Experiences for this chapter
-
 Let's check out some of the built-in math features of Java. A few of the key features are modulus (the "%" sign - it means *remainder*, random numbers, overflow errors (which can be entry points for the bad actors), and casting.
+
+# Experiences
 
 * READING - Chapter 3 - Math
 
@@ -13,18 +13,19 @@ Let's check out some of the built-in math features of Java. A few of the key fea
 
 * VIDEOS - Chapter 3 Videos
 
-* LAB - ```Circles01```
+* LAB - `Circles01`
 
-* LAB - ```BoxOfRocks```
+* LAB - `BoxOfRocks`
 
-* LAB - ```InchesToFeet```
+# Prediction
 
-# To ponder
-In the meantime, ponder what you think this code might do:
-<div style="width:90%;margin-left:auto;margin-right:auto;background-color:#e1e1e1;border-radius:15px;padding: 10px 0px 10px 30px;line-height:1em;font-size:14pt;font-family: consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace;">
+In the meantime, form a conjecture about what the output of the following code segment will be:
+
+```java
 
 String name = "Dave";
+System.out.println("The length of " + name + " is " + name.length());
+```
 
-System.out.println("The length of " + name + " is " + name.length());	
-	
-</div>
+<br /><br />
+
