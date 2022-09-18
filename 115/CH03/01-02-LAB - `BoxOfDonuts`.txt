@@ -1,0 +1,119 @@
+^^ LAB - `BoxOfDonuts`
+
+
+## DESCRIPTION
+
+Everybody knows that a box of donuts holds 12 donuts<sup>1</sup>. In the Computer Sciencery Bakery, donuts are exclusively boxed by the dozen. If someone orders a number that is not a multiple of 12 then the remaining donuts will be placed in a bag. In this exploration, you will be given a number of donuts. Your job is to report how many boxes will be needed and how many donuts will go in a bag (if needed). 
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* File name: `BoxOfDonuts.java`
+
+* Grammar is suspended for this exercise (for instance, it is permissible to say “1 donuts will go into a bag”.
+
+* Add comments with your name, date, and program description at the top!
+
+* Answer the reflection questions at the end of the lab.
+_____
+<font size="-1"><sup>1</sup> This isn’t really true anymore since donuts have become bigger and more specialized. I mean, some places still have 12 donuts in a box (like Krispy Kreme and Dunkin Donuts, but they have to literally redesign the donut box!</font>
+
+## SAMPLE OUTPUT
+
+```
+
+How many donuts would you like today?
+130
+You will need 10 boxes and 10 will go into a bag.
+
+```
+
+```
+
+How many donuts would you like today?
+12
+You will need 1 boxes and 0 will go into a bag.
+
+```
+
+```
+
+How many donuts would you like today?
+28
+You will need 2 boxes and 4 will go into a bag.
+
+```
+
+```
+
+How many donuts would you like today?
+-3
+You will need 0 boxes and -3 will go into a bag.
+
+
+```
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`BoxOfDonuts.java`](https://drive.google.com/uc?export=download&id=1DA4S9ovcH_SHYbzzP_MG54RTtTzTD3kT)
+
+Download this file and load it into your IDE.
+
+^callout-end
+
+```java ^copy
+
+import java.util.Scanner;
+
+public class BoxOfDonuts {
+    public static void main(String[] args) {
+        boxOfDonuts();
+    }
+
+    public static void boxOfDonuts() {
+        // This code should not be changed:
+
+        // Create a scanner to read input from user
+        Scanner scanner = new Scanner(System.in);
+
+        // Prompt user for a number of donuts and store in
+        // the variable 'numDonuts'
+        System.out.println("How many donuts would you like today?");
+        int numDonuts = scanner.nextInt();
+
+        // INSERT YOUR CODE HERE =================================
+
+
+            
+
+
+
+
+
+        // =======================================================
+
+    }
+}
+
+// =============== LAB SUMMARY ===============
+
+/*
+1. What was the hardest part of this lab?
+
+
+
+
+2. What will you always remember (never forget) from this exercise?
+
+
+
+
+*/
+```
+
+<br /><br />
