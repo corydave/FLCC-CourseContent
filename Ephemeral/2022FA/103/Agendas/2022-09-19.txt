@@ -1,0 +1,31 @@
+AGENDA - 2022-09-19
+=============
+
+^callout info-circle
+
+### CoolTool
+
+Check out [remove.bg](https://www.remove.bg/) for a cool way to remove the background from any image!
+
+^callout-end
+
+^callout book-open
+
+### Number Systems
+
+You can see the [notes we covered in class here](https://daveghidiu.com/flcc/103/index.svg) or below the agenda items.
+
+^callout-end
+
+^callout laptop-code
+
+### Work that is due:
+
+* The Number Systems homework is due Wednesday, 2022-09-21.
+
+^callout-end
+
+<center>
+<iframe src="https://daveghidiu.com/flcc/103/index.svg" width="100%" height="500" frameborder="0">
+</iframe>
+</center>
