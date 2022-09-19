@@ -13,7 +13,7 @@ Check out [remove.bg](https://www.remove.bg/) for a cool way to remove the backg
 
 ### Number Systems
 
-You can see the [notes we covered in class here](https://daveghidiu.com/flcc/103/index.svg) or below the agenda items.
+You can see the [notes we covered in class](https://daveghidiu.com/flcc/103/index.svg), [download the PDF](https://daveghidiu.com/flcc/103/numberSystems.pdf), or look at it below the agenda items.
 
 ^callout-end
 
