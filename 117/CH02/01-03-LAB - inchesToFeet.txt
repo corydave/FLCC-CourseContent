@@ -34,7 +34,7 @@ Enter the number of inches: 100
 Enter the number of inches:
 -4
 
--4 inches is 0 feet, and -4 inches
+-4 inches is 0 feet, and 8 inches
 ```
 
 ## STARTER CODE
