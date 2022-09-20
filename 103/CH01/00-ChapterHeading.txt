@@ -12,10 +12,14 @@ Don't panic! There is a bit of math in this chapter, but this is really the only
 <span style="font-size: x-small;"><strong>Image CC-0 by <a rel="noreferrer noopener" target="_blank" href="https://unsplash.com/@furbee">Oscar Nord</a> via <a rel="noreferrer noopener" target="_blank" href="https://unsplash.com/">Unsplash</a></strong></span>
 <br /><br />
 
-# Schedule
-
 <div style="clear:both;">
 
+# Schedule
+
+<center>
+
 <iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vSXz-OagQq2MzgyUVfAgS2a4mO-_S4YD2KPooMG8HJymTNEIMb2X6C5ePBAH_YswdLVJDV5JvpMf491/pubhtml/sheet?headers=false&amp;gid=0&amp;range=A1:D14'style="width:100%;max-width:720px;height:351px;" frameborder="0"></iframe>
+
+</center>
 
 </div>
