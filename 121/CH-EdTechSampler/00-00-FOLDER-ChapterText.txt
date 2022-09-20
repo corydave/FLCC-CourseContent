@@ -1,9 +1,9 @@
-^^ Chapter 4 - EdTech Sampler
+^^ EdTech Sampler
 
 # Experiences for this chapter
 
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vR5BA0q-NVVQwckAW5WJIG1ohNQi0k027EGTyg_uSGhictS42zohBAMo3ykXgRgy1jWVbn0iui7aLtK
-/pub?w=240&amp;h=180" alt="TThe logos for BookCreator, Screencastify, Quizlet, and Padlet." title="The logos for BookCreator, Screencastify, Quizlet, and Padlet." style="float:right;border-radius:25px;margin-right:20px;margin-left:20px;margin-top:-20px;margin-bottom:20px;">
+/pub?w=240&amp;h=180" alt="The logos for BookCreator, Screencastify, Quizlet, and Padlet." title="The logos for BookCreator, Screencastify, Quizlet, and Padlet." style="float:right;border-radius:25px;margin-right:20px;margin-left:20px;margin-top:-20px;margin-bottom:20px;">
 
 While much of this course focuses on what you can do with Google products, there are *tons* of other tools out there that can help you as you teach.
 
