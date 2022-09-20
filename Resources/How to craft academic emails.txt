@@ -1,0 +1,38 @@
+^^ How to craft academic emails
+
+Let's face it, email is probably not your primary way of communicating with people. However, it _is_ used in many professional settings and certainly here at FLCC. Here are some tips that should help elevate your email game.
+
+## Some quick dos and don'ts
+
+For more details see the [U.S. News & World Report article][usnews-email] that this is based on.
+
+^=^
+
+^callout ban
+
+**Don't**
+
+- email from a personal account.
+- use a nondescript subject line.
+- forget a proper salutation.
+- rush the professor.
+
+^callout-end
+
+^callout check
+
+**Do**
+
+- consider whether an email is necessary.
+- visit a [writing center][writeplace].
+- be concise.
+- proofread.
+- **include the course name and section**
+
+^callout-end
+
+^=
+
+[usnews-email]:https://www.usnews.com/education/articles/emailing-your-college-professor-dos-and-donts
+
+[writeplace]:https://www.flcc.edu/offices/writingcenter/
