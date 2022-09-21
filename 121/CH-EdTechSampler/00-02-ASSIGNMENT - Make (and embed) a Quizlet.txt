@@ -29,7 +29,7 @@ Your job is to make a set of flashcards that cover a specific topic of your choo
 * Please include at least 6 flashcards
 * Make sure there is an image on at least two of the flashcards
 * Please embed this Quizlet into your Google Site under the "Interactives" page
-* Copy the link to this specific item and paste it into Blackboard
+* Copy the link to this specific item and submit it in this assignment
 
 
 </div>
