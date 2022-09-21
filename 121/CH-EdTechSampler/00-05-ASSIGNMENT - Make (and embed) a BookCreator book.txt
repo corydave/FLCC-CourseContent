@@ -14,9 +14,11 @@ Note that when you go to create a book, you can choose from a few different size
 
 ^===
 
+<center>
+
 ^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/iFJq4cQZqhI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<center><br />
+<br />
 
 [Link to video](https://www.youtube.com/watch?v=iFJq4cQZqhI)
 
@@ -49,7 +51,7 @@ Pick a topic that seems grade appropriate for the littles you'll be teaching. On
   * One text box should be rotated
 *One page should use a background offered by BookCreator (the back cover of my book uses a background)
 * Please embed the book into your Google Site under the "Interactives" page
-* Copy the link to this specific item and paste it into Blackboard
+* Copy the link to this specific item and submit it in this assignment
 
 
 </div>
