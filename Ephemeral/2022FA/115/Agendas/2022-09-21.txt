@@ -1,0 +1,37 @@
+AGENDA - 2022-09-21
+=============
+
+^callout info-circle
+
+### Information
+
+Today is an open lab day! Just workin' on the labs. Here is a record of the small bits of code we looked at:
+
+```
+area = 3.14 * radius * radius;
+area = 3.14 * Math.pow(radius, 2);
+
+area = Math.PI * Math.pow(radius, 2);
+
+Math.min(3, 5); // 3
+Math.max(3, 5); // 5
+Math.sqrt(16); // 4.0
+Math.pow(2, 5); // 32
+Math.exp(6); // e^2
+```
+
+^callout-end
+
+
+^callout laptop-code
+
+### Work that is due:
+
+September 21:
+1. LAB - `TriangleArea`
+2. LAB - `ConvertCF01`
+3. LAB - `InchesToFeet`
+4. LAB - `Circles01`
+5. LAB - `BoxOfDonuts`
+
+^callout-end
