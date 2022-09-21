@@ -22,9 +22,11 @@ Other options include:
 
 ^===
 
+<center>
+
 ^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/wY4-WOsn9YI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<center><br />
+<br />
 
 [Link to video](https://www.youtube.com/watch?v=wY4-WOsn9YI)
 
@@ -48,7 +50,7 @@ Pick a topic that seems grade appropriate for the littles you'll be teaching. On
 * Pick a topic that you imagine you might use when you are teaching (so it must be age appropriate)
 * You do not have to have your face in the video, but you can if you want to
 * Please embed the video into your Google Site under the "Interactives" page
-* Copy the link to this specific item and paste it into Blackboard
+* Copy the link to this specific item and submit it in this assignment
 
 
 </div>
