@@ -21,9 +21,11 @@ You will have to:
 
 ^===
 
+<center>
+
 ^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/bR1A3kMYAYY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<center><br />
+<br />
 
 [Link to video](https://www.youtube.com/watch?v=iFJq4bR1A3kMYAYYcQZqhI)
 
@@ -49,7 +51,7 @@ Pick a topic that seems grade appropriate for the kiddos you'll be teaching. Onc
 * You should have at least five steps
 * The written instructions should be modified to be clearn and concise
 * Please embed the book into your Google Site under the "Interactives" page
-* Copy the link to this specific item and paste it into Blackboard
+* Copy the link to this specific item and submit it in this assignment
 
 
 </div>
