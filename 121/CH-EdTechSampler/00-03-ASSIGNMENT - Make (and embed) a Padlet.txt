@@ -10,9 +10,11 @@ Once it's done, embed the Padlet (or Wakelet) into your Google Site.
 
 ^===
 
+<center>
+
 ^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/RMogSx-7V1w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<center><br />
+<br />
 
 [Link to video](https://www.youtube.com/watch?v=RMogSx-7V1w)
 
@@ -26,7 +28,8 @@ Once it's done, embed the Padlet (or Wakelet) into your Google Site.
 * Pick a topic that you imagine you might use when you are teaching (so it must be age appropriate)
 * Please include at least 4 articles or links
 * Please embed this Padlet into your Google Site under the "Interactives" page
-* Copy the link to this specific item and paste it into Blackboard
+* Copy the link to this specific item and submit it in this assignment
+
 
 
 </div>
