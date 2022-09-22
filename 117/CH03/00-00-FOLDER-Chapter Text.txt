@@ -14,7 +14,7 @@ What do you think this code does? What is the smallest value that might be print
 
 ```python
 
-print(random.randrange(1, 10)
+print(random.randrange(1, 10))
 
 ```
 
