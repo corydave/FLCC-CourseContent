@@ -1,0 +1,12 @@
+^^ VIDEO - Random
+
+# Random
+A few takeaways from this video. First, you should recognize that the `random` module needs to be *imported* before using it. You'll also need to figure out how to create random numbers within a range. Lastly - and perhaps the most fun - you'll learn how to pick a random character from a collection of characters.
+
+<center>
+
+[Link to video](https://www.youtube.com/watch?v=rESp6XUZX6s)
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/rESp6XUZX6s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</center>
