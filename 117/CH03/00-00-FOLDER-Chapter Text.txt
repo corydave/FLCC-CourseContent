@@ -1,0 +1,28 @@
+<div style="display: none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vTRgaXo4wqRNrsbWqZ1NuBfH9vlytwDBaLzs7kBbV-w8IPqJ0rF2nl0hCpLeTEN5KI5toXsddkajqaT/pub?w=900&amp;h=380" style="display: none; max-width: 100%;" alt="Askew green dice. Seems like the message is randomness." title="Askew green dice. Seems like the message is randomness."></div>
+
+^^ Random
+
+There really isn't such a thing as purely random numbers in computing. Newer technologies are working towards that and, in some cases, show strong evidence that purely randomness is possible. But for our purposes, we will accept the fact that random numbers in Python are *pseudorandom*. That means that when random numbers are generated, they are *random enough*.
+
+More details are in the video for this chapter. We'll be doing four labs (starting easy and then scaffolding up). You should expect that you'll need to draw on past lessons and experience for labs in this chapter (and that's true moving forward).
+
+If you need anything, let me know! I'm always willing to sit down and chat with learners!
+
+# Prediction
+What do you think this code does? What is the smallest value that might be printed? What is the maximum value?
+
+
+```python
+
+print(random.randrange(1, 10)
+
+```
+
+# Experiences for this chapter
+
+1. VIDEO - Random
+2. LABS
+    1. `randomNumber.py`
+    2. `boundedRandomNumber.py`
+    3. `dice.py`
+    4. `password.py`
