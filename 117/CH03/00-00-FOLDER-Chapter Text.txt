@@ -23,6 +23,7 @@ print(random.randrange(1, 10))
 1. VIDEO - Random
 2. LABS
     1. `randomNumber.py`
-    2. `boundedRandomNumber.py`
-    3. `dice.py`
-    4. `password.py`
+    2. `coinFlip.py`
+    3. `boundedRandomNumber.py`
+    4. `dice.py`
+    5. `password.py`
