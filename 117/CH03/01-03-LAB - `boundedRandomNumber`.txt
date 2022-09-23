@@ -1,0 +1,75 @@
+^^ LAB - `boundedRandomNumber`
+
+
+## DESCRIPTION
+
+Write a program that takes in a number from the user, seeds the `random` module with that input, and then outputs a random number - within a specific range - using the `random` module in Python 
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* The filename for this program is `boundedRandomNumber.py`
+
+* Complete the `boundedRandom` function. This function should prompt the user for input and use the input to seed a random number generator. Then the function should produce a random number between 1 and 10 (inclusive of both).
+
+* Add comments with your name, date, and program description at the top.
+
+* The very first line of this program should be `import random`; if you do not include it you may have access to the `random` module.
+
+* The auto-test for this program will check to see that a random number has been output *and* that the random number is specific to the seed that was used.
+
+## SAMPLE OUTPUT
+
+```
+Enter a seed for the random number generation: 33
+10
+```
+
+```
+Enter a seed for the random number generation: 32
+2
+```
+
+```
+Enter a seed for the random number generation: 100
+3
+```
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`boundedRandomNumber.py`](https://drive.google.com/uc?export=download&id=1rAjU-w6W9E9AnTKNFHEyrvMwkqHyVkME)
+
+Download this file and load it into your IDE.
+
+^callout-end
+
+
+```python ^copy
+
+# FILE NAME - boundedRandomNumber.py
+
+# NAME - 
+# DATE - 
+# DESCRIPTION - # 
+
+
+def main():
+    boundedRandom()
+
+def boundedRandom():
+    
+
+main()
+
+```
+
+
+
+
+
+<br /><br />
