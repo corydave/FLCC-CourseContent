@@ -1,0 +1,80 @@
+^^ LAB - `dice`
+
+
+## DESCRIPTION
+
+Write a program that takes in a number from the user, seeds the `random` module with that input, and then outputs the value of two randomly rolled dice. 
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* The filename for this program is `dice.py`
+
+* Complete the `rollDie` function. This function should prompt the user for input and use the input to seed a random number generator. Then the function should produce the result of a die rolled twice.
+
+* Add comments with your name, date, and program description at the top.
+
+* The very first line of this program should be `import random`; if you do not include it you may have access to the `random` module.
+
+* The auto-test for this program will check to see that a random number has been output *and* that the random number is specific to the seed that was used as input.
+
+* Use `randrange`
+
+## SAMPLE OUTPUT
+
+```
+Enter a seed for the random number generation: 33
+Die roll one is 5
+Die roll two is 26
+```
+
+```
+Enter a seed for the random number generation: 22
+Die roll one is 2
+Die roll two is 2
+```
+
+```
+Enter a seed for the random number generation: -30
+Die roll one is 5
+Die roll two is 3
+```
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`dice.py`](https://drive.google.com/uc?export=download&id=1Qtq7e154KWQHc8UrIli0nGbWcOCIdjFF)
+
+Download this file and load it into your IDE.
+
+^callout-end
+
+
+```python ^copy
+
+# FILE NAME - dice.py
+
+# NAME - 
+# DATE - 
+# DESCRIPTION - 
+
+def main():
+    rollDie()
+
+def rollDie():
+
+    
+
+main()
+
+```
+
+
+
+
+
+<br /><br />
