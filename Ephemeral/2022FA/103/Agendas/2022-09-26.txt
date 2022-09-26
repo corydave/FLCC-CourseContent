@@ -19,7 +19,7 @@ Open source is great! In the domain of computer science, we say software is open
 
 * We looked at the presentation on computational thinking.
 
-* We chatted about ATMs and shopping carts
+* We chatted about ATMs and shopping carts (see below)
 
 * We will not be doing the Shopping Cart Redesign project in this class 😪
 
@@ -35,6 +35,62 @@ Open source is great! In the domain of computer science, we say software is open
                 ||----w |
                 ||     ||
 ```
+
+^callout-end
+
+^callout shopping-cart
+
+^= = , 6 
+
+**ISSUES**
+
+Faulty wheel
+
+Theft
+
+Germs
+
+Capacity
+
+Storage options (temp, meat juice)
+
+Returning carts
+
+Flat wheel
+
+Things can fall through grate
+
+Fairly easy to tip
+
+Wind
+
+^=== , 6
+
+**IMPROVEMENTS**
+
+Better maintenance
+
+Removal of baby seat
+
+Insulated storage
+
+Dividers
+
+Cup holders
+
+Anti-microbacterial coating
+
+Phone holders
+
+Plastic bumpers
+
+Mesh on bottom
+
+Car carts
+
+Turn radius
+
+^=
 
 ^callout-end
 
