@@ -1,0 +1,47 @@
+AGENDA - 2022-09-26
+=============
+
+^callout brain
+
+### Open Source
+
+Open source is great! In the domain of computer science, we say software is open source if it means that the code is freely available for others to use, modify, and (in some cases) distribute. Open source projects include:
+
+* Linux (an operating system)
+* GIMP (similar to Photoshop)
+* Libre Office (similar to Microsoft Office)
+
+^callout-end
+
+^callout book-open
+
+### Computational Thinking
+
+* We looked at the presentation on computational thinking.
+
+* We chatted about ATMs and shopping carts
+
+* We will not be doing the Shopping Cart Redesign project in this class 😪
+
+* I biffed a `cowsay` demo last week but will redeem myself Wednesday!
+
+```
+ ____________________
+<     Redemption!    >
+ --------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+```
+
+^callout-end
+
+^callout laptop-code
+
+### Work that is due:
+
+* Nothing is due for Wednesday.
+
+^callout-end
