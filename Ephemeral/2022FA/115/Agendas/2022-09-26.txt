@@ -7,6 +7,8 @@ AGENDA - 2022-09-26
 
 Today we looked at some wonky casting issues and spent time looking at `Scanner` (also a bit wonky at times).
 
+We also looked at `TypeMismatch` errors (exceptions)
+
 The Reading Guides for the rest of the class are in a module called *Future Reading Guides*. As the modules start becoming available, I'll move them into the Reading Guides.
 
 Thank you for awesome, engaging participation!
@@ -23,5 +25,15 @@ Thank you for awesome, engaging participation!
 [Chapter0304.java](https://github.com/corydave/FLCC_CSC_115/blob/main/2022FA/2022-09-26/Chapter0304.java)
 
 [ScannerDemo.java](https://github.com/corydave/FLCC_CSC_115/blob/main/2022FA/2022-09-26/ScannerDemo.java)
+
+^callout-end
+
+^callout calendar-alt
+
+On Wednesday we will look at:
+* Incrementors/decrementors
+* What a *class* is
+* The static `Math` class
+* The `String` class
 
 ^callout-end
