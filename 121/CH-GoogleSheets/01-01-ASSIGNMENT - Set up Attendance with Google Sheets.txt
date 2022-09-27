@@ -28,9 +28,9 @@ If you have any questions, just ask!
 # Specifications
 * There are a lot of things that this exercise covers - please make sure you check the rubric to see what is expected.
 
-* Please paste a link to the Google Sheet in the "WRITE SUBMISSION" portion of Blackboard (not "COMMENTS").
+* Please paste a link to the Google Sheet in the submission.
 
-* Your Google Sheet must be shared such that "Anyone with the link can ***EDIT***".
+* Your Google Sheet must be shared such that [Anyone with the link can ***EDIT***](https://www.youtube.com/watch?v=jFGXfLDctcI)
 
 
 <center>
