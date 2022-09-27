@@ -1,16 +1,19 @@
-^^ Chapter 7 - Google Sheets
+^^ Chapter 4 - Google Sheets
 
 # Experiences for this chapter
 
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vTPM-XbBWxoqcRK8ZOjMrpq4dmXD_TYWhuPHHxpBRNqi3oXioJ-F_texl0ythbBJlBcGm-YaLmd3S4U/pub?w=240&amp;h=180" alt="The icon for Google Sheets." title="The icon for Google Sheets." style="float:right;border-radius:25px;margin-right:20px;margin-left:20px;margin-top:-20px;margin-bottom:20px;">
 
-Spreadsheets. Most people hate them. But they are such a potent tool! I use them to organize my classes (I have one spreadsheet for this class that has one tab for all the due dates. I have 11 other tabs, one for each chapter and it has all the assignments on it)
+Spreadsheets. Most people hate them *but they are such a potent tool!* I use them to organize my classes (I have one spreadsheet for this class that has one tab for all the due dates. I have 11 other tabs, one for each chapter and it has all the assignments on it). I know a lot of educators who use Google Sheets in a ton of different ways - too many to cover here.
 
-We'll be building two tools from scratch - an attendance form and also an interactive rubric. Oftentimes students ask what the purpose of this chapter is since there are tools that do both of these things already.
+So we'll be building three tools from scratch:
+* An interactive attendance form
+* An interactive rubric for grading
+* A table with a weekly schedule (we will be embedding this later)
 
-Please understand that I've been very deliberate with the tools used in these experiences. There's a chance your district will have software for making rubrics, for instance (although if your school *doesn't have a rubric tool* you'll be all set). But the skills needed to build the interactive rubric are transferrable to other arenas, too. For instance, the experience includes checkboxes, coloring font and cells, conditional formatting, etc.
+Oftentimes students ask what the purpose of this chapter is since there are tools that do both of these things already. And that's a good question! there's a chance your district will have software for making rubrics (although if your school *doesn't have a rubric tool* you'll be all set). But the skills needed to build the interactive rubric are transferable to other arenas, too. For instance, the experience includes checkboxes, coloring font and cells, conditional formatting, etc.
 
-There are video walkthroughs for both of these experiences 😁. If you have any questions, let me know!!!!
+There are video walkthroughs for all of these experiences 😁. If you have any questions, let me know!!!!
 
 # Notes
 There are two things to keep in mind:
