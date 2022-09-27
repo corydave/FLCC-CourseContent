@@ -1,0 +1,47 @@
+^^ HINT FOR `password` LAB
+
+# Build your string one character at a time!
+Some people have already submitted - and passed! - the `password` lab. I saw some unique solutions that I wasn't expecting but totally loved!
+
+I thought I might save you some struggle by introducing you to a new operator. You can use `+=` to build a string one character at a time (technically it is used to add to the current state of a variable).
+
+Consider this:
+
+```python
+
+name = 'Dav'
+name += 'e'
+name += ' G'
+name += 'hidi'
+name += 'u'
+
+print(name)
+# OUTPUT: Dave Ghidiu
+
+```
+When dealing with a string, you can *append* (that is, add to the end) extra characters. 
+
+The operator behaves similarly with numbers; it just takes the current state of the variable and adds to it. You probably don't need that for this lab, lab, but it's good to know:
+
+```python
+
+numberOne = 33
+numberOne += 10
+print(numberOne)
+# OUTPUT: 43
+
+```
+
+Lastly, there are different flavors of this operator:
+
+```python
+
+numberTwo = 10
+numberTwo += 12 # 22
+numberTwo /= 2  # 11.0
+numberTwo -= 3  # 8.0
+numberTwo *= 4  # 32.0
+
+```
+
+Hope that helps!
