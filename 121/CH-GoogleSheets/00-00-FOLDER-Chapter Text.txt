@@ -2,7 +2,7 @@
 
 # Experiences for this chapter
 
-<img src="https://docs.google.com/drawings/d/e/2PACX-1vTPM-XbBWxoqcRK8ZOjMrpq4dmXD_TYWhuPHHxpBRNqi3oXioJ-F_texl0ythbBJlBcGm-YaLmd3S4U/pub?w=240&amp;h=180" alt="The icon for Google Sheets." title="The icon for Google Sheets." style="float:right;border-radius:25px;margin-right:20px;margin-left:20px;margin-top:-20px;margin-bottom:20px;">
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vTPM-XbBWxoqcRK8ZOjMrpq4dmXD_TYWhuPHHxpBRNqi3oXioJ-F_texl0ythbBJlBcGm-YaLmd3S4U/pub?w=240&amp;h=180" alt="The icon for Google Sheets." title="The icon for Google Sheets." style="float:right;border-radius:25px;margin:10px;">
 
 Spreadsheets. Most people hate them *but they are such a potent tool!* I use them to organize my classes (I have one spreadsheet for this class that has one tab for all the due dates. I have 11 other tabs, one for each chapter and it has all the assignments on it). I know a lot of educators who use Google Sheets in a ton of different ways - too many to cover here.
 
