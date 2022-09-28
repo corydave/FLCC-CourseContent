@@ -1,0 +1,127 @@
+^^ LAB - `Circles02`
+
+
+## DESCRIPTION
+
+Using the built-in `Math.PI` constant, find the circumference and area of a circle with a radius that is provided by the user. Also provide the rounded approximation of the area (to the nearest integer). Note: this is NOT truncating.
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* File name: `Circles01.java`
+
+* Use `Math.PI` as a value of π (pi)
+
+* Your output must match the sample output exactly (last few digits may differ, reg. ex. used)
+
+* The code to complete the task should be in a separate method that is called by the main method
+
+* Add comments with your name, date, and program description at the top!
+
+* The formula for computing the area of a circle is &nbsp;&nbsp; **A = π • r<sup>2</sup>**
+
+* The formula for computing the circumference of a circle is &nbsp;&nbsp; **C = 2 • π • d**
+
+## SAMPLE OUTPUT
+
+```
+Radius:
+10
+CIRCUMFERENCE = 62.83185307179586
+AREA = 314.1592653589793
+ROUNDED AREA = 314
+```
+
+```
+Radius:
+5.9
+CIRCUMFERENCE = 37.07079331235956
+AREA = 109.35884027146072
+ROUNDED AREA = 109
+```
+
+```
+Radius:
+6.1
+CIRCUMFERENCE = 38.32743037379547
+AREA = 116.89866264007618
+ROUNDED AREA = 117
+```
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`Circles02.java`](https://drive.google.com/uc?export=download&id=1wUE088kJlHwNKJ2vpEzIvKwIKZTouO17)
+
+Download this file and load it into your IDE.
+
+^callout-end
+
+```java ^copy
+
+/**
+ * Description
+ *
+ * @author Student Name
+ * @since Date Started
+ */
+
+import java.util.Scanner;
+
+public class Circles01 {
+
+    public static void main(String[] args) {
+
+    // All the dirty work happens in the 'circleArea()' method;
+    // let's call it here from the main method!
+	
+        circleArea();    
+    
+    }
+    
+    public static void circleArea() {
+
+        Scanner scanner = new Scanner(System.in);
+		
+        System.out.println("Radius: ");
+        double radius = scanner.nextDouble();
+    
+        System.out.println();
+		
+        // ========== INSERT YOUR CODE HERE ==========
+    
+    
+    
+    
+    
+    
+    
+        // ===========================================        
+    
+  }
+
+}
+
+
+// =============== LAB SUMMARY ===============
+
+/*
+1. What was the hardest part of this lab?
+
+
+
+
+2. What will you always remember (never forget) from this exercise?
+
+
+
+
+*/
+
+```
+
+<br /><br />
