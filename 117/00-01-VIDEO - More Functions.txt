@@ -1,0 +1,11 @@
+^^ VIDEO - More Functions
+
+# Buckle up!
+
+This is a long video (roughly 40 minutes). I spend a lot of time reinforcing ideas in this video, so it's kinda long. But knowing what `return` means and understanding how modules/files can be called upon is mission critical to Python!
+
+<center>
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/AHmc5cXmOhI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</center>
