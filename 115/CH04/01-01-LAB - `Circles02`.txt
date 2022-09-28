@@ -9,7 +9,7 @@ Using the built-in `Math.PI` constant, find the circumference and area of a circ
 
 * Starter code has been provided for this lab.
 
-* File name: `Circles01.java`
+* File name: `Circles02.java`
 
 * Use `Math.PI` as a value of π (pi)
 
@@ -21,7 +21,7 @@ Using the built-in `Math.PI` constant, find the circumference and area of a circ
 
 * The formula for computing the area of a circle is &nbsp;&nbsp; **A = π • r<sup>2</sup>**
 
-* The formula for computing the circumference of a circle is &nbsp;&nbsp; **C = 2 • π • d**
+* The formula for computing the circumference of a circle is &nbsp;&nbsp; **C = 2 • π • r**
 
 ## SAMPLE OUTPUT
 
