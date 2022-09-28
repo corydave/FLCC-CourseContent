@@ -1,0 +1,41 @@
+AGENDA - 2022-09-28
+=============
+
+^callout brain
+
+### Cool Tool
+Today we looked at how to turn *any page* into a web app! We also took turns sharing the hardest class we are in this semester.
+
+^callout-end
+
+^callout info-circle
+
+### Information
+
+In class we watched the [IDEO Deep Dive video](https://www.youtube.com/watch?v=2Dtrkrz0yoU) which looked at redesigning the shopping cart. 
+
+We also checked took a deep dive into flowcharting.
+
+^youtube <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTww-gHIppI4CClnv0MQCokVfnh5iPGxpBIpWH0zrYpAWB4nZ0cYZ5TDCwIBJF27uNqfKUrE3J7yXSe/embed?start=false&loop=false&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe> <br />
+
+<center>
+
+([make your own copy here](https://docs.google.com/presentation/d/1bFLPBKvOdxTJd4vJ1DNq_CIwz3n32dhjpdZVres12Y4/edit?usp=sharing))
+
+</center>
+
+Lastly, we talked about the **Computational Thinking Problems**.
+
+^callout-end
+
+^callout calendar-alt
+
+# What's due
+
+Due on Monday, October 3 at 9:00 am:
+
+* Computational Thinking Problem
+* Flowchart Quiz
+* Flowchart
+
+^callout-end
