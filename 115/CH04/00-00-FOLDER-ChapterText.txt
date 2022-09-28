@@ -9,7 +9,11 @@
 We'll take a deep dive into the `Math` class, `Random` class, `Scanner` class, and `String` class. These are all really helpful classes in Java that will help you as we explore more and more of what we can do in Java.
 There are a number of labs (and some projects, which are more comprehensive tan labs). I recommend you do them in the order they are listed here - that'll help scaffold your experience and mastery.
 
-* Reading Guide - Chapter 4 Reading Guide
+* READING - Chapter 4 - Standard Classes
+
+* VIDEOS - Chapter 4 Videos
+
+* READING GUIDE - Chapter 4 Reading Guide
 
 * LAB - ```Circles02```
 
