@@ -29,6 +29,8 @@ If you have any questions, just ask!
 
 # Specifications
 
+* If you'd like to make a copy of the sheet I showed in the video, you may [make a copy here](https://docs.google.com/spreadsheets/d/19W4JTQTJo4QhyqaK5oZr0n-_NafOLqjoyp7ucQMsCZM/copy) - though this is optional.
+
 * There are a lot of things that this exercise covers - please make sure you check the rubric to see what is expected.
 
 * Please paste a link to the Google Sheet in the submission.
