@@ -1,0 +1,43 @@
+^^ ASSIGNMENT - Set up Parent Time Schedule
+
+^= =
+
+# Description
+One of the cool things about Google Sheets is the ability to make and customize tables. Even if you need to make a table in Google Docs, it's usually better to create it in Google Sheets and then copy it into Docs.
+
+Today we'll build a simple table. This will be time that you will be able to meet with parents when you have a classroom. Later in the semester we will be putting this table into Google Docs. But for right now we'll just be creating it.
+
+You can watch the video here and follow along! Note that the video doesn't tell you to hide the gridlines, but you will need to go to *View → Show* and uncheck *Gridlines*
+
+^===
+
+<center>
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/PIFRVJaeUag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br />
+
+[Link to video](https://www.youtube.com/watch?v=PIFRVJaeUag)
+
+</center>
+
+^=
+
+<br />
+
+If you have any questions, just ask!
+
+# Specifications
+
+* There are a lot of things that this exercise covers - please make sure you check the rubric to see what is expected.
+
+* Please paste a link to the Google Sheet in the submission.
+
+* Your Google Sheet must be shared such that [Anyone with the link can ***EDIT***](https://www.youtube.com/watch?v=jFGXfLDctcI)
+
+
+<center>
+
+## Let's be careful out there!
+
+</center>
