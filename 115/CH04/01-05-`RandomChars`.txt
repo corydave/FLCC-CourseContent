@@ -1,0 +1,154 @@
+^^ LAB - `RandomChars`
+
+
+## DESCRIPTION
+
+Write a program that asks the user for an `int` and uses it as a seed for the random number generator (`Random` class). The program should then randomly generate:
+* an uppercase letter
+* a lowercase letter
+* a digit between 0 and 9
+
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* File name: `RandomChars.java`
+
+* Your output must match the sample output *exactly*
+
+* The code to complete the task should be in a separate method that is called by the main method
+
+* Add comments with your name, date, and program description at the top!
+
+* Use the [ASCII table](https://www.cs.cmu.edu/~pattis/15-1XX/common/handouts/ascii.html) to determine numeric ranges
+
+    * This is true for the digits 0-9 as well - don't use `int`s - use `char`s
+
+* Hint- the general format for generating a random number in a range is:
+
+```java ^copy
+rand.nextInt(<numberOfOptions>) + <lowestValue>;
+
+// where <numberOfOptions> is the range of values (max - min + 1)
+// and <lowestValue> is the lowest possible number 
+```
+
+## SAMPLE OUTPUT
+
+```
+Enter a seed for the random number generator:
+0
+RANDOM:
+Uppercase = S
+Lowercase = s
+Digit = 9
+```
+
+```
+Enter a seed for the random number generator:
+10
+RANDOM:
+Uppercase = P
+Lowercase = g
+Digit = 3
+```
+
+```
+Enter a seed for the random number generator:
+33
+RANDOM:
+Uppercase = D
+Lowercase = z
+Digit = 3
+```
+
+```
+Enter a seed for the random number generator:
+88
+RANDOM:
+Uppercase = S
+Lowercase = t
+Digit = 9
+```
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`RandomChars.java`](https://drive.google.com/uc?export=download&id=11AEqbHJftMH7a8kuUriKQ-vBpAxEoGhD)
+
+Download this file and load it into your IDE.
+
+^callout-end
+
+```java ^copy
+
+/**
+ * Description
+ *
+ * @author Student Name
+ * @since Date Started
+ */
+ 
+
+import java.util.Scanner;
+import java.util.Random;
+
+public class RandomChars {
+	public static void main(String[] args) {
+
+       makeRandoms(); // ask the user for a seed and make all the random things
+        
+        
+	}
+	
+	// this method asks the user for a seed for the random number generator and 
+	// then generates a random uppercase char, lowercase char, digit char
+	public static void makeRandoms() {
+
+    // ========== INSERT YOUR CODE HERE ==========
+    
+    
+    
+
+    
+    
+    
+    
+    // ===========================================        
+    
+	
+	
+	}
+        
+
+}
+
+
+
+
+
+
+
+
+// =============== LAB SUMMARY ===============
+
+/*
+1. What was the hardest part of this lab?
+
+
+
+
+2. What will you always remember (never forget) from this exercise?
+
+
+
+
+*/
+
+```
+
+<br /><br />
