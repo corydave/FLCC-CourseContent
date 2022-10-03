@@ -1,0 +1,83 @@
+^^ LAB - `RandomNumbers02`
+
+
+## DESCRIPTION
+
+Ask the user for a seed that you will use to seed the random number generator. Using the `Random` class, generate two random numbers. The first number is unbounded. The second number should be within the range of 1 to 100 (inclusive of both).
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* File name: `RandomNumbers02.java`
+
+* Your output must match the sample output *exactly*.
+
+* The code to complete the task should be in a separate method that is called by the `main` method
+
+* Add comments with your name, date, and program description at the top!
+
+
+## SAMPLE OUTPUT
+
+```
+Please enter a seed for the RNG:
+33
+Random number = -1168181290
+Random, bounded number = 20
+```
+
+```
+Please enter a seed for the RNG:
+88
+Random number = -1177030515
+Random, bounded number = 56
+```
+
+```
+Please enter a seed for the RNG:
+101
+Random number = -1194344215
+Random, bounded number = 91
+```
+
+```
+Please enter a seed for the RNG:
+987654321
+Random number = 1314001072
+Random, bounded number = 28
+```
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`RandomNumbers02.java`](https://drive.google.com/uc?export=download&id=1BefcaKAoAZkUDFXt_Eydn0I5SRY2k5JS)
+
+Download this file and load it into your IDE.
+
+^callout-end
+
+```java ^copy
+
+public class RandomNumbers02 {
+    public static void main(String[] args) {
+        
+        randomNumber();
+        
+    }
+    
+    public static void randomNumber() {
+        
+		// ENTER YOUR CODE HERE
+		
+        
+        // System.out.println("\n\nGAME OVER MAN!");
+        
+    }
+    
+}```
+
+<br /><br />
