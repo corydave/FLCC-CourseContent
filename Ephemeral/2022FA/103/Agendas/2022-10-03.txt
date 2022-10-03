@@ -1,0 +1,37 @@
+AGENDA - 2022-09-28
+=============
+
+^callout brain
+
+### Study Tip
+We talked about goal setting and SMART goals. Michael suggested that breaking tasks down into digestible bits helps (like patching a hole in a wall). We also talked about SMART goalsetting:
+
+* Specific
+* Measurable
+* Achievable
+* Relevant
+* Time-Bound
+
+Check out the [University of California's bit on SMART goalsetting](https://www.ucop.edu/local-human-resources/_files/performance-appraisal/How%20to%20write%20SMART%20Goals%20v2.pdf).
+
+^callout-end
+
+^callout info-circle
+
+### Information
+
+We also chatted about *messy problems* (also known as *wicked problems*). We considered the domain of traffic as an example and looked at [a video of different intersections](https://www.youtube.com/watch?v=yITr127KZtQ).
+
+Then we did some light problem solving when it came to the **Messy Problems**  assignment. Be sure to [check out the problems here](https://docs.google.com/document/d/1BGsUEwH9AbzpFRObM2IqjayRXBmf5RPwe2ZTB31RO08/edit#). As a class, we are tackling problems 3, 4, 5, 8, 11, 20, and 22.
+
+^callout-end
+
+^callout calendar-alt
+
+# What's due
+
+Due on Monday, October 10 at 9:00 am:
+
+* Messy Problem
+
+^callout-end
