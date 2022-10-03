@@ -27,12 +27,6 @@ This lab will examine the `Math.random()` method and the `Random` class. There a
 
 * The code for this assignment will be inspected manually by me.
 
-```java ^copy
-rand.nextInt(<numberOfOptions>) + <lowestValue>;
-
-// where <numberOfOptions> is the range of values (max - min + 1)
-// and <lowestValue> is the lowest possible number 
-```
 
 ## SAMPLE OUTPUT
 
