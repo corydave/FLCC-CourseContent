@@ -7,6 +7,20 @@ AGENDA - 2022-10-03
 
 We looked at random numbers (using the `Math.random()` and the `Random` class) today. The [code is in GitHub](https://github.com/corydave/FLCC_CSC_115/blob/main/2022FA/2022-10-03/RandomDemo.java)
 
+One important takeaway! Google Cloud Shell has autocomplete, and that might include methods for classes that are *not* respected by CodeGrade. Specifically,
+
+```java
+Random rand = new Random();
+rand.nextInt(1, 7);
+```
+
+will generate a random number `[1, 6]` in Google Cloud Shell. But that method is *not* recognized in CodeGrade (version issues). Instead, use:
+
+```java
+Random rand = new Random();
+rand.nextInt(6) + 1;
+```
+
 ^callout-end
 
 ^callout calendar-alt
