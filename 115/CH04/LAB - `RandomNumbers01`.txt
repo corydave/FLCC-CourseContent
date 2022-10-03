@@ -1,0 +1,92 @@
+^^ LAB - `RandomNumbers01`
+
+
+## DESCRIPTION
+
+This lab will examine the `Math.random()` method and the `Random` class. There are four phases to this program.
+
+1. Generate a random number using the `Math` class
+2. Generate a random number using the `Math` class, but manipulating the number to be between 1 and 10
+3. Generate a random number using the `Random` class (unseeded)
+4. Generate a random number using the `Random` class (unseeded) that is between 1 and 10
+
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* File name: `RandomNumbers01.java`
+
+* Your output will probably not match the sample output exactly; after all, there is randomness involved
+
+* There should be two method calls in the `main` method
+    * `MathClass()` will handle phases 1 and 2
+    * `RandomClass()` will handle phases 3 and 4
+
+* Add comments with your name, date, and program description at the top!
+
+* The code for this assignment will be inspected manually by me.
+
+```java ^copy
+rand.nextInt(<numberOfOptions>) + <lowestValue>;
+
+// where <numberOfOptions> is the range of values (max - min + 1)
+// and <lowestValue> is the lowest possible number 
+```
+
+## SAMPLE OUTPUT
+
+```
+0.5519470184450638
+4
+2061746010
+7
+```
+
+```
+0.1928019517050944
+8
+-300277906
+8
+```
+
+```
+0.7845357715205932
+5
+151005531
+1
+```
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`RandomNumbers01.java`](https://drive.google.com/uc?export=download&id=1fXrfdy7ADf8h_dsPnH18mQ3rqCMwEvsN)
+
+Download this file and load it into your IDE.
+
+^callout-end
+
+```java ^copy
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class RandomNumbers01 {
+    
+    public static void main (String[] args) {
+        
+        MathClass();
+        RandomClass();
+        
+        // System.out.println("\n\nGAME OVER MAN!!");
+        
+    }
+
+
+}
+```
+
+<br /><br />
