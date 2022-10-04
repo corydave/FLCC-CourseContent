@@ -1,1 +1,43 @@
-a
+^^ Chapter 5 - Google Drawings
+
+<img title="The icon for Google Drawings." alt="The icon for Google Drawings." src="https://docs.google.com/drawings/d/e/2PACX-1vREZgeAWv0lHCNXqU73WgWZuS08_0Fo30CWEqqo0GSg3g0M1PqSjImXwKXtaQbJAGIAQdT8XtmumYR7/pub?w=200&amp;h=200" style="display:none;" />
+
+# Experiences for this chapter
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vRaxztzwNCKOyEVgGz0BQo2G2BSPJJ60CPETGc4_ucjWvyWnhHtilhX7JB-M6kmqAUM9jhyUZU3Ax0T/pub?w=240&amp;h=180" alt="The icon for Google Drawings." title="The icon for Google Drawings." style="float:right;border-radius:25px;margin:10px;" />
+
+Google Drawings is a highly underrated tool in the Google Workspace suite. It's a great way to:
+* Create original artwork
+* House images you'd like to store online (like photographs)
+* Create branding for any digital/printed paper you use in your classroom
+* Create "hot spot" images.
+
+We will leverage Google Drawings to do three different things:
+1. Build a personalized header for documents (digital and printed)
+2. Host an image that we want to use later
+3. Build an interactive hot spot image
+
+There are video walkthroughs for all of these experiences 😁. If you have any questions, let me know!!!!
+
+# Notes
+There are a few things to keep in mind:
+
+* In this chapter, please share your files such that [Anyone with the link can ***EDIT***](https://www.youtube.com/watch?v=jFGXfLDctcI)
+
+* We will be using what you create in this chapter in future assignments.
+
+<div style="clear:both;">
+
+<center>
+
+<iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vQxQU3Z_qJqXJJLdKHi9zJnaPihlqmonB8qf_9jl0f_R9Lp4CSiYqFDk4WN-89tQH2TMQOglJ5KAGWN/pubhtml/sheet?headers=false&amp;gid=257021403&amp;range=A1:D9'style="width:100%;max-width:720px;height:246px" frameborder="0"></iframe>
+
+</center>
+
+</div>
+
+<center><br />
+
+## Let's be careful out there!
+
+<br /></center>
