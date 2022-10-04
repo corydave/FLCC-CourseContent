@@ -39,9 +39,9 @@ If you have any questions, just ask!
 
 * The image must cover the entire canvas.
 
-* The *published  URL* must be stored in a text box in the staging area of the Google Drawing (off on the canvas).
+* The *published  URL* must be stored in a text box in the staging area of the Google Drawing (off on the canvas). Please do not submit this link in the assignment - this is for something later in the semester.
 
-* Please paste a link to the Google Drawing (using "preview" in the URL instead of "edit" in the submission). Please do not submit this link in the assignment - this is for something later in the semester.
+* Please paste a link to the Google Drawing (using "preview" in the URL instead of "edit" in the submission).
 
 * Your Google Drawing must be shared such that [Anyone with the link can ***EDIT***](https://www.youtube.com/watch?v=jFGXfLDctcI)
 
