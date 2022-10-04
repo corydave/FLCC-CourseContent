@@ -1,0 +1,56 @@
+^^ ASSIGNMENT - Create a Hot Spot Image in Google Drawings
+
+^= =
+
+# Description
+
+A "hot spot" image is graphic that has multiple hyperlinks in it. Depending on where you click, you can direct the user to different places.
+
+It is surprisingly easy to make hot spot images in Google Drawings - and this is super helpful for your students:
+
+1. A "dashboard" where students can click on the websites they will be using
+
+2. A "choose your own adventure" game
+
+3. A multiple choice quiz
+
+Your task is to check out the video and follow along! Make your own image with hot spots.
+
+^===
+
+<center>
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/J0ZgquXsYtc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br />
+
+[Link to video](https://www.youtube.com/watch?v=J0ZgquXsYtc)
+
+</center>
+
+^=
+
+<br />
+
+Here's an example:
+
+<center><iframe width="386" height="140" src="https://docs.google.com/drawings/d/1zGbeZZ95NmtwMZh7y7i9-Z6X-qjDI5p6P7FUbYiSQtw/preview" title="A hot spot image with links to AliceKeeler.com, DitchThatTextbook.com, and JakeMiller.net" frameborder="0">A hot spot image with links to AliceKeeler.com, DitchThatTextbook.com, and JakeMiller.net</iframe></center>
+
+If you have any questions, just ask!
+
+# Specifications
+* Please make sure you check the rubric to see what is expected.
+
+* You must have at least two different clickable zones.
+
+* The Google Drawing title must be changed to reflect the content.
+
+* Please paste a link to the Google Drawing (using "preview" in the URL instead of "edit" in the submission).
+
+* Your Google Drawing must be shared such that [Anyone with the link can ***EDIT***](https://www.youtube.com/watch?v=jFGXfLDctcI)
+
+<center>
+
+## Let's be careful out there!
+
+</center>
