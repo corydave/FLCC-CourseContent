@@ -1,5 +1,7 @@
 ^^ Chapter 4 - Google Sheets
 
+<img title="The icon for Google Sheets." alt="The icon for Google Sheets." src="https://docs.google.com/drawings/d/e/2PACX-1vTU5sPrz0Ve6HUGzaGVH97jSjyXXDkTFO4rOqC2yAstxlLj1JzopPm3Y2hGqJYEQVfZaWTAY8BajZ32/pub?w=200&amp;h=200" style="display:none;" />
+
 # Experiences for this chapter
 
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vTPM-XbBWxoqcRK8ZOjMrpq4dmXD_TYWhuPHHxpBRNqi3oXioJ-F_texl0ythbBJlBcGm-YaLmd3S4U/pub?w=240&amp;h=180" alt="The icon for Google Sheets." title="The icon for Google Sheets." style="float:right;border-radius:25px;margin:10px;">
