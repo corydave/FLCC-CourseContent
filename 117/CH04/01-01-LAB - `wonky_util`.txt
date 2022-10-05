@@ -1,0 +1,159 @@
+^^ LAB - `wonky_util`
+
+## DESCRIPTION
+
+This is the first lab (in a series) that explores how multiple modules (files, scripts) can work together. 
+
+Given that this is the first foray into importing custom-made utility files, much of the work is done for you. The module that runs, `wonky_program.py` is provided for you. It will be stored up on CodeGrade for you automatically, so when it is time to submit your work *you will not submit this file*. You may certainly make a copy of this file and experiment with it, but any changes you make to it while you are poking and prodding will not be kept for the final submission.
+
+Your task is to complete the `wonky_util.py` module. There are comments (as well as "docstrings") in each of the functions right now; your task is to implement the function by writing the appropriate code. Note that some functions **return** values and other functions **print** values.
+
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab - there are two files:
+    * `wonky_program.py` is what will be run when you submit to CodeGrade. Note that if you make any alterations to `wonky_program.py` they will *not* be kept when the software is run at CodeGrade.
+    * `wonky_util.py` is the code you will be modifying. You can check to see if the code works by running `wonky_program.py` which imports `wonky_util.py`
+
+* The filename for this program is `wonky_util.py`
+
+* Complete the functions in `wonky_util.py` as described in the comments of the code.
+
+* Add a comment with your name, date, and program description at the top!
+
+
+## SAMPLE OUTPUT
+
+
+```
+==================================================================
+THIS IS A TEST OF THE `wonky_util.py` module. This is only a test.
+==================================================================
+
+
+CALL TO `roll_one_d12()`:
+8
+
+
+CALL TO `roll_two_d12()`:
+Die 1 is 1 and die 2 is 7 and the sum is 8
+
+
+CALL TO `upper_string(str)`:
+Enter a string: dave
+DAVE
+
+
+CALL TO `compliment()`:
+You smell like petunias, which is nice!
+
+
+CALL TO `personal_compliment(name)`:
+Enter your name: DAVE
+Hey, DAVE you are super nice!
+
+
+CALL TO `add(num1, num2)`:
+Enter a number: 4
+Enter a second number: 5
+The sum is 9
+
+
+==================================================================
+ THIS CONCLUDES THE TEST. Thank you for your patience and effort.
+==================================================================
+
+```
+
+```
+==================================================================
+THIS IS A TEST OF THE `wonky_util.py` module. This is only a test.
+==================================================================
+
+
+CALL TO `roll_one_d12()`:
+6
+
+
+CALL TO `roll_two_d12()`:
+Die 1 is 9 and die 2 is 4 and the sum is 13
+
+
+CALL TO `upper_string(str)`:
+Enter a string: this IS a TeSt
+THIS IS A TEST
+
+
+CALL TO `compliment()`:
+You smell like petunias, which is nice!
+
+
+CALL TO `personal_compliment(name)`:
+Enter your name: Mr. Pickles
+Hey, MR. PICKLES you are super nice!
+
+
+CALL TO `add(num1, num2)`:
+Enter a number: 100
+Enter a second number: -99
+The sum is 1
+
+
+==================================================================
+ THIS CONCLUDES THE TEST. Thank you for your patience and effort.
+==================================================================
+
+```
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`wonky_util.py`](https://drive.google.com/uc?export=download&id=1h6V4lKZt9yst3gzgJRqqNwqXmcG7me3n)
+
+[`wonky_program.py`](https://drive.google.com/uc?export=download&id=1FHXbNi8wQHxrq5oJaxEaR3klfIvh7LkX)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+^callout code
+
+```python ^copy
+
+# FILE NAME - inchesToFeet.py
+
+# NAME - 
+# DATE - 
+# DESCRIPTION
+
+def main():
+    convert()
+
+def convert():
+
+    # BEWARE! You'll need to cast not only the
+    # input from the user but also maybe the
+    # number of feet
+
+    ####### ENTER YER CODE HERE #######
+
+
+
+    
+    ###################################
+
+main()
+
+
+
+```
+
+
+
+^callout-end
+
+
+<br /><br />
