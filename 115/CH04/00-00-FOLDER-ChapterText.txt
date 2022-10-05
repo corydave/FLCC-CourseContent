@@ -25,7 +25,7 @@ There are a number of labs (and some projects, which are more comprehensive tan 
 
 * LAB - ```RandomChars```
 
-* Lab - ```MadLibs```
+* LAB - ```MadLibs```
 
 * PROJECT - ```CoinStar```
 
