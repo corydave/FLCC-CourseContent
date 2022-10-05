@@ -1,0 +1,226 @@
+^^ LAB - `MadLibs`
+
+## DESCRIPTION
+
+MadLibs is a parlor game invented in 1953 (but not published until 1958). It is similar to the games of “[Consequences](https://en.wikipedia.org/wiki/Consequences_(game))” and “[Exquisite Corpse](https://en.wikipedia.org/wiki/Exquisite_corpse)”. The origin of the game name is amusing, and you can read all about it in the [Wikipedia entry for MadLibs](https://en.wikipedia.org/wiki/Mad_Libs).
+
+The game is still popular for kids, where the first player prompts the second player for a word (such as a verb, noun, famous person, country, etc.). After all the words are collected, the first player reads back a short story where the second player’s responses are inserted into a predetermined composition.
+
+Hilarity ensues.
+
+## WALKTHROUGH
+
+The game is divided into two different phases:
+
+**STEP 1: Gathering Responses**
+
+The role of the first player (in this case, the computer) will ask the second player (in this case, the user) for a number of responses such as names, famous places, and adjectives. The role of the second player is to just respond appropriately.
+
+**STEP 2: The Story**
+
+During this phase, the first player (the computer) will merge the responses of the user into a hard-coded story.
+
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* File name: `MadLibs.java`
+
+* You should collect at least 12 words or phrases.
+
+* Your output should not match the sample output; the narrative is yours to customize. Your story should be original - do not use the one from the sample output. Be creative, and have fun!
+
+* Pay particular attention to the formatting - the output on the screen should look *similar* to the output in the sample output, but they do not have to be the same types as the sample.
+
+* The output should not be on one continuous line.
+
+* At least one piece of input from the user should be a number.
+
+* In the output, at least one piece of input from the user should be converted to capitals.
+
+* The output should not have precisely one sentence per line. That is, the final product should look like anything else you would read - sentences can start halfway through a new line.
+
+* The code to complete the task should be in a separate method that is called by the `main` method
+
+* Add comments with your name, date, and program description at the top!
+
+
+## SAMPLE OUTPUT
+
+```
+Please enter a verb:
+running
+
+Please enter a noun:
+table
+
+Please enter a name:
+Katie
+
+Please enter a store name:
+Dollar Store
+
+Please enter an emotion:
+ecstatic
+
+Please enter a noun:
+swing set
+
+Please enter a verb:
+swimming
+
+Please enter a color:
+red
+
+Please enter an adverb:
+slowly
+
+Please enter an adjective:
+bright
+
+Please enter a number:
+7
+
+Please enter a noun:
+printer
+
+
+
+=================================================
+We're So Forgetful!
+=================================================
+
+The other day, I was going to go running but I could not find
+my table. This was problematic, because Katie was waiting for me
+at the Dollar Store and I didn't want to make anyone
+ECSTATIC. Happily, I was able to find my table! It was right where
+I left it - on top of the swing set. Once I met up with Katie, we
+decided to go swimming instead with the red Pokemon. They were fun,
+but they moved too slowly for us. So we instead went to the bright
+movie theater. It was there that Katie lost the iPhone 7. We couldn't
+find it for hours, but we got a phone call later that day, and the
+theater owners said they had found the iPhone 7 in the printer!
+
+We are too silly!
+```
+
+```
+Please enter a verb:
+skiing
+
+Please enter a noun:
+mountain
+
+Please enter a name:
+John
+
+Please enter a store name:
+Taco Bell
+
+Please enter a emotion:
+sad
+
+Please enter a noun:
+mouse
+
+Please enter a verb:
+hiking
+
+Please enter a color:
+blue
+
+Please enter an adverb:
+speedily
+
+Please enter an adjective:
+shiny
+
+Please enter a number:
+99
+
+Please enter a noun:
+light bulb
+
+
+
+=================================================
+We're So Forgetful!
+=================================================
+
+The other day, I was going to go skiing but I could not find
+my mountain. This was problematic, because John was waiting for me
+at the Taco Bell and I didn't want to make anyone
+SAD. Happily, I was able to find my mountain! It was right where
+I left it - on top of the mouse. Once I met up with John, we
+decided to go hiking instead with the blue Pokemon. They were fun,
+but they moved too speedily for us. So we instead went to the shiny
+movie theater. It was there that John lost the iPhone 99. We couldn't
+find it for hours, but we got a phone call later that day, and the
+theater owners said they had found the iPhone 99 in the light bulb!
+
+We are too silly!
+```
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`MadLibs.java`](https://drive.google.com/uc?export=download&id=1GIAJB-TpJXn0_dSRvNaUQ12ikym5Hco3)
+
+Download this file and load it into your IDE.
+
+^callout-end
+
+```java ^copy
+/**
+ * Description
+ *
+ * @author Student Name
+ * @since Date Started
+ */
+ 
+public class MadLibs {
+    public static void main (String[] args) {
+
+
+    // ========== INSERT YOUR CODE HERE ==========
+    
+    
+    
+
+    
+    
+    
+    
+    // ===========================================        
+      
+      
+    }
+    
+}
+
+
+
+
+
+
+// =============== LAB SUMMARY ===============
+
+/*
+1. What was the hardest part of this lab?
+
+
+
+
+2. What will you always remember (never forget) from this exercise?
+
+
+
+
+*/
+```
+
+<br /><br />
