@@ -2,7 +2,7 @@
 
 ## DESCRIPTION
 
-This is the first lab (in a series) that explores how multiple modules (files, scripts) can work together. 
+This is the second lab (in a series) that explores how multiple modules (files, scripts) can work together. 
 
 Given that this is the first foray into importing custom-made utility files, much of the work is done for you. The module that runs, `wonky_program.py` is provided for you. It will be stored up on CodeGrade for you automatically, so when it is time to submit your work *you will not submit this file*. You may certainly make a copy of this file and experiment with it, but any changes you make to it while you are poking and prodding will not be kept for the final submission.
 
