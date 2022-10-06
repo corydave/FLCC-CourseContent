@@ -64,6 +64,7 @@ The sum is 9
 ==================================================================
 
 ```
+<br />
 
 ```
 ==================================================================
@@ -119,7 +120,10 @@ Download these files and load them into your IDE.
 
 ^callout-end
 
-^tabs `wonky_program.py`,`wonky_util.py`
+
+^acc
+
+^^^ `wonky_program.py`
 
 ```python ^copy
 
@@ -224,7 +228,7 @@ main()
 
 ```
 
-^tab
+^^^ `wonky_util.py`
 
 ```python ^copy
 
@@ -303,13 +307,11 @@ def add(num1, num2):
 
 
 
-
-
-
-
 ```
 
-^tabs-end
+^acc-end
+
+
 
 
 
