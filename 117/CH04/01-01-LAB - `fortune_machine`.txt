@@ -21,7 +21,7 @@ But stay tuned - in the not-too-distant future we will be coming back to this la
     * `fortune_machine.py` is what will be run when you submit to CodeGrade. This is the only file you will be submitting as the `fortune_util.py` file resides on the server at CodeGrade.
     * `fortune_util.py` is the utility file that supports the main program. You do not have to modify this program, but you should be familiar with the functions in it.
 
-* The filename for the program you will be submitting is `fortune_util.py`
+* The filename for the program you will be submitting is `fortune_machine.py`
 
 * Complete the function `run_fortune_machine` in `fortune_machine.py` as described in the comments of the code.
 
@@ -31,83 +31,80 @@ But stay tuned - in the not-too-distant future we will be coming back to this la
 
 
 ```
-==================================================================
-THIS IS A TEST OF THE `wonky_util.py` module. This is only a test.
-==================================================================
+
+--------------------------------------------------
+Welcome to the Fortune Telling Machine
+
+The instructions are simple - you may request one
+fortune, you  may request multiple fortunes, or you
+may request to quit.
+
+Please enjoy your fortune(s)! But beware! When you use
+the Fortune Telling Machine, you get what you get and
+you don't get upset!
+
+--------------------------------------------------
+ONE FORTUNE:
+There's a lot of atoms in you.
 
 
-CALL TO `roll_one_d12()`:
-8
+--------------------------------------------------
+MULTIPLE FORTUNES:
+How many fortunes would you like? 7
 
+1 - Bring an umbrella today.
 
-CALL TO `roll_two_d12()`:
-Die 1 is 1 and die 2 is 7 and the sum is 8
+2 - There's a lot of atoms in you.
 
+3 - You will live a long, prosperous life.
 
-CALL TO `upper_string(str)`:
-Enter a string: dave
-DAVE
+4 - Chin up! It's going to be a great day!
 
+5 - If you have no pockets, your phone can't fall out of them!
 
-CALL TO `compliment()`:
-You smell like petunias, which is nice!
+6 - Chin up! It's going to be a great day!
 
+7 - You will live a long, prosperous life.
 
-CALL TO `personal_compliment(name)`:
-Enter your name: DAVE
-Hey, DAVE you are super nice!
+--------------------------------------------------
 
+I hope you enjoyed your fortunes...
 
-CALL TO `add(num1, num2)`:
-Enter a number: 4
-Enter a second number: 5
-The sum is 9
-
-
-==================================================================
- THIS CONCLUDES THE TEST. Thank you for your patience and effort.
-==================================================================
 
 ```
 <br />
 
 ```
-==================================================================
-THIS IS A TEST OF THE `wonky_util.py` module. This is only a test.
-==================================================================
+
+--------------------------------------------------
+Welcome to the Fortune Telling Machine
+
+The instructions are simple - you may request one
+fortune, you  may request multiple fortunes, or you
+may request to quit.
+
+Please enjoy your fortune(s)! But beware! When you use
+the Fortune Telling Machine, you get what you get and
+you don't get upset!
+
+--------------------------------------------------
+ONE FORTUNE:
+There's a lot of atoms in you.
 
 
-CALL TO `roll_one_d12()`:
-6
+--------------------------------------------------
+MULTIPLE FORTUNES:
+How many fortunes would you like? 3
 
+1 - Fear is for chumps!
 
-CALL TO `roll_two_d12()`:
-Die 1 is 9 and die 2 is 4 and the sum is 13
+2 - Fear is for chumps!
 
+3 - Chin up! It's going to be a great day!
 
-CALL TO `upper_string(str)`:
-Enter a string: this IS a TeSt
-THIS IS A TEST
+--------------------------------------------------
 
-
-CALL TO `compliment()`:
-You smell like petunias, which is nice!
-
-
-CALL TO `personal_compliment(name)`:
-Enter your name: Mr. Pickles
-Hey, MR. PICKLES you are super nice!
-
-
-CALL TO `add(num1, num2)`:
-Enter a number: 100
-Enter a second number: -99
-The sum is 1
-
-
-==================================================================
- THIS CONCLUDES THE TEST. Thank you for your patience and effort.
-==================================================================
+I hope you enjoyed your fortunes...
 
 ```
 
@@ -117,9 +114,9 @@ You may use the following code as starter code. You will need to change the comm
 
 ^callout file-download
 
-[`wonky_util.py`](https://drive.google.com/uc?export=download&id=1h6V4lKZt9yst3gzgJRqqNwqXmcG7me3n)
+[`fortune_machine.py`](https://drive.google.com/uc?export=download&id=1SNr9kNMCwukBuqg0lfcjagpDxnJDQKMy)
 
-[`wonky_program.py`](https://drive.google.com/uc?export=download&id=1FHXbNi8wQHxrq5oJaxEaR3klfIvh7LkX)
+[`fortune_util.py`](https://drive.google.com/uc?export=download&id=1ff29fHbhRPPINvEiZOMRl5zV9oYdiY0m)
 
 Download these files and load them into your IDE.
 
@@ -128,189 +125,80 @@ Download these files and load them into your IDE.
 
 ^acc
 
-^^^ `wonky_program.py`
+^^^ `fortune_machine.py`
 
 ```python ^copy
 
-# FILE NAME - wonky_program.py
+# FILE NAME - fortune_machine.py
 
-# NAME - Dave Ghidiu
-# DATE - October 1, 2022
-# DESCRIPTION - This program leverages the `wonky_util.py` module to do silly
-#               things you probably wouldn't normally do in a program. But the
-#               lessons here (mainly how to call and handle functions from a
-#               different module and playing with RETURNS and INPUT) are pretty
-#               worthwhile.
+# AUTHOR - 
+# DATE - 
+# DESCRIPTION - 
 
-import wonky_util
+import fortune_util
 
 def main():
-    wonky_program()
+    run_fortune_machine()
 
-def wonky_program():
-    print('==================================================================')
-    print('THIS IS A TEST OF THE `wonky_util.py` module. This is only a test.')
-    print('==================================================================')
+def run_fortune_machine():
 
-    print('')
-    print('')
 
-    print('CALL TO `roll_one_d12()`:')
-    # Since `roll_one_d12()` RETURNS a number, we can include
-    # it in a `print()` statement.
-    print(wonky_util.roll_one_d12())
 
-    print('')
-    print('')
 
-    print('CALL TO `roll_two_d12()`:')
-    # In this case, `roll_two_d12()` does not RETURN a number
-    # so we  can't put it in a `print()` statement. Instead, we can 
-    # just make a call to the function.
-    wonky_util.roll_two_d12()
-    
-    print('')
-    print('')
-
-    print('CALL TO `upper_string(str)`:')
-    str = input('Enter a string: ')
-    # After we get input from the user and store it as `str` we can
-    # pass `str` to the function `capitalize_string()` and let
-    # that function do the dirty work. Since that function RETURNS
-    # a value we need to put it in a `print()` statement.
-    # print(wonky_util.upper_string(str))
-    print('')
-    print(str.upper())
-
-    print('')
-    print('')
-
-    print('CALL TO `compliment()`:')
-    # The `compliment()` function merely PRINTS on the screen 
-    # a compliment. You can decide what that is when you
-    # author the `compliment()` function!
-    wonky_util.compliment()
-
-    print('')
-    print('')
-
-    print('CALL TO `personal_compliment(name)`:')
-
-    name = input('Enter your name: ')
-    # Let's take the variable `name` and run it through
-    # the uppercase function before it is sent to the
-    # `personal_compliment()` function. That might be
-    # cool! Again, since the function `personal_compliment()`
-    # doesn't RETURN anything we should not put it in a PRINT
-    # statement.
-    print('')
-    wonky_util.personal_compliment(wonky_util.upper_string(name))
-
-    print('')
-    print('')
-
-    print('CALL TO `add(num1, num2)`:')
-    # The `add(num1, num2` function RETURNS a value
-    # so we should be sure to take that value and either assign
-    # it to a local variable *or* just output it in 
-    # a PRINT statement.
-    number1 = int(input('Enter a number: '))
-    print('')
-    number2 = int(input('Enter a second number: '))
-    print('')
-    print('The sum is', wonky_util.add(number1, number2))
-
-    print('')
-    print('')
-
-    print('==================================================================')
-    print(' THIS CONCLUDES THE TEST. Thank you for your patience and effort. ')
-    print('==================================================================')
-
-    
-    
 main()
 
 ```
 
-^^^ `wonky_util.py`
+^^^ `fortune_util.py`
 
 ```python ^copy
 
-# FILE NAME - wonky_util.py
+# FILE NAME - fortune_util.py
+# AUTHOR - Dave Ghidiu
+# DATE - October 3, 2022
+# DESCRIPTION - A utility module for telling fortunes
+
 import random
 
-def roll_one_d12():
-    '''
-    This function will ask for a seed and then
-    RETURN one number between 1 and 12.
-    '''
-    
+fortunes = [
+            'You will live a long, prosperous life.\n',
+            'Bring an umbrella today.\n',
+            'Fear is for chumps!\n',
+            'If you have no pockets, your phone can\'t fall out of them!\n',
+            'Yoda was wrong. "Trying" is a thing.\n',
+            'There\'s a lot of atoms in you.\n',
+            'Chin up! It\'s going to be a great day!\n'
+            ]
 
+def get_directions():
+    print()
+    dashes()
+    print('Welcome to the Fortune Telling Machine')
+    print()
+    print('The instructions are simple - you may request one')
+    print('fortune, you  may request multiple fortunes, or you')
+    print('may request to quit.')
+    print()
+    print('Please enjoy your fortune(s)! But beware! When you use')
+    print('the Fortune Telling Machine, you get what you get and')
+    print('you don\'t get upset!')
+    print()
 
+def get_one_fortune():
+    print(random.choice(fortunes))
+    print()
 
-def roll_two_d12():
-    '''
-    This function will not return anything but *will* PRINT
-    two values (each one is a call to `roll_one_die12()`) and then
-    it will PRINT the sum. 
-    '''
-    # To implement this function, your best bet is to create
-    # two different variables and assign each one a value
-    # that is the result of calling `roll_one_d12()`. That makes
-    # it easier to do the output and the math. 
+def get_multiple_fortunes(number_of_fortunes):
+    print()
+    for x in range(number_of_fortunes):
+        print((x + 1),'-',random.choice(fortunes))
 
+def dashes():
+    print('--------------------------------------------------')
 
-
-
-
-
-
-def upper_string(str):
-    '''
-    This function takes, as input, one string and will
-    return the capitalized version. Note that this function
-    RETURNS and does not *print* the result.
-    '''
-    
-
-
-
-
-
-
-def compliment():
-    '''
-    This function will PRINT one compliment on the screen.
-    '''
-
-
-
-
-
-
-
-def personal_compliment(name):
-    '''
-    This function takes in a name and PRINTS it on the screen
-    a personalized compliment.
-    '''
-
-
-
-
-
-
-
-
-def add(num1, num2):
-    '''
-    This function RETURNS the sum of the two numbers passed in
-    as input.
-    '''
-
-
-
+def quit():
+    print()
+    print('I hope you enjoyed your fortunes...\n')
 
 ```
 
