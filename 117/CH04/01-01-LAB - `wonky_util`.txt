@@ -143,16 +143,16 @@ def wonky_program():
     print('THIS IS A TEST OF THE `wonky_util.py` module. This is only a test.')
     print('==================================================================')
 
-    print()
-    print()
+    print('')
+    print('')
 
     print('CALL TO `roll_one_d12()`:')
     # Since `roll_one_d12()` RETURNS a number, we can include
     # it in a `print()` statement.
     print(wonky_util.roll_one_d12())
 
-    print()
-    print()
+    print('')
+    print('')
 
     print('CALL TO `roll_two_d12()`:')
     # In this case, `roll_two_d12()` does not RETURN a number
@@ -160,8 +160,8 @@ def wonky_program():
     # just make a call to the function.
     wonky_util.roll_two_d12()
     
-    print()
-    print()
+    print('')
+    print('')
 
     print('CALL TO `upper_string(str)`:')
     str = input('Enter a string: ')
@@ -169,10 +169,12 @@ def wonky_program():
     # pass `str` to the function `capitalize_string()` and let
     # that function do the dirty work. Since that function RETURNS
     # a value we need to put it in a `print()` statement.
-    print(wonky_util.upper_string(str))
+    # print(wonky_util.upper_string(str))
+    print('')
+    print(str.upper())
 
-    print()
-    print()
+    print('')
+    print('')
 
     print('CALL TO `compliment()`:')
     # The `compliment()` function merely PRINTS on the screen 
@@ -180,8 +182,8 @@ def wonky_program():
     # author the `compliment()` function!
     wonky_util.compliment()
 
-    print()
-    print()
+    print('')
+    print('')
 
     print('CALL TO `personal_compliment(name)`:')
 
@@ -192,10 +194,11 @@ def wonky_program():
     # cool! Again, since the function `personal_compliment()`
     # doesn't RETURN anything we should not put it in a PRINT
     # statement.
+    print('')
     wonky_util.personal_compliment(wonky_util.upper_string(name))
 
-    print()
-    print()
+    print('')
+    print('')
 
     print('CALL TO `add(num1, num2)`:')
     # The `add(num1, num2` function RETURNS a value
@@ -203,18 +206,22 @@ def wonky_program():
     # it to a local variable *or* just output it in 
     # a PRINT statement.
     number1 = int(input('Enter a number: '))
+    print('')
     number2 = int(input('Enter a second number: '))
+    print('')
     print('The sum is', wonky_util.add(number1, number2))
 
-    print()
-    print()
+    print('')
+    print('')
 
     print('==================================================================')
     print(' THIS CONCLUDES THE TEST. Thank you for your patience and effort. ')
     print('==================================================================')
 
-    print()
+    
+    
 main()
+
 ```
 
 ^tab
@@ -292,6 +299,7 @@ def add(num1, num2):
     This function RETURNS the sum of the two numbers passed in
     as input.
     '''
+
 
 
 
