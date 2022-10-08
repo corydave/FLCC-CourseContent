@@ -1,0 +1,127 @@
+^^ LAB - `calc`
+
+## DESCRIPTION
+
+This is the third lab (in a series of three) that explores how multiple modules (files, scripts) can work together. 
+
+In previous labs you have modified the driver file or the utility file. In this exercise, you will be responsible for both `calc.py` and `calc_util.py`.
+
+This is a very simply four function calculator. There is nothing tricky here - just addition, subtraction, multiplication, and division. It sure would be slick if we have explored `if` statements and loops because then we could mimic a traditional calculator. But that's in the next unit so for now we'll just settle for setting up software that has the two files. We can always come back later and modify the driver file once we are equipped with more tools.
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab - there are two files:
+    * `calc.py` is what will be run when you submit to CodeGrade. You have an empty canvas with this file.
+    * `calc_util.py` is the companion code you will also be submitting. This is also an empty canvas.
+
+* Modify both files to mirror the sample output. Note that the following methods *must be present* in the utility class:
+    * `add(num1, num2)`
+    * `subtract(num1, num2)`
+    * `divide(num1, num2)`
+    * `multiply(num1, num2)`
+
+* You should cast the input as `float` when you capture the numbers from the users.
+
+* Add a comment with your name, date, and program description at the top!
+
+
+## SAMPLE OUTPUT
+
+
+```
+Welcome to the Calculator
+
+What is the first number? 10
+What is the second number? 5
+
+SUM =  15.0
+DIFFERENCE =  5.0
+PRODUCT =  50.0
+QUOTIENT =  2.0
+
+Have a nice, mathy day.
+
+```
+<br />
+
+```
+Welcome to the Calculator
+
+What is the first number? 0
+What is the second number? 1
+
+SUM =  1.0
+DIFFERENCE =  -1.0
+PRODUCT =  0.0
+QUOTIENT =  0.0
+
+Have a nice, mathy day.
+
+```
+
+<br />
+
+```
+Welcome to the Calculator
+
+What is the first number? -8
+What is the second number? 8
+
+SUM =  0.0
+DIFFERENCE =  -16.0
+PRODUCT =  -64.0
+QUOTIENT =  -1.0
+
+Have a nice, mathy day.
+
+```
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`calc.py`](https://drive.google.com/uc?export=download&id=1zbyMXMHPfwLVtMtMNKeTlpXt17cfiZfv)
+
+[`calc_util.py`](https://drive.google.com/uc?export=download&id=18aa3ES0z4E8v7oA-kStiB5lU9OMAUdWh)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+
+^acc
+
+^^^ `calc.py`
+
+```python ^copy
+
+# FILE NAME - calc.py
+
+# NAME - 
+# DATE - 
+# DESCRIPTION - 
+
+
+```
+
+^^^ `wonky_util.py`
+
+```python ^copy
+
+# FILE NAME - calc_util.py
+
+# NAME - 
+# DATE - 
+# DESCRIPTION - 
+
+```
+
+^acc-end
+
+
+
+
+
+<br /><br />
