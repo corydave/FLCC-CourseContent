@@ -1,0 +1,142 @@
+^^ PROJECT - `CoinStar`
+
+## DESCRIPTION
+
+In the past few years, machines that count your coins have started being installed (usually in grocery stores or big-box stores). The idea is that customers can bring in their piggy banks, crack them open, dump the coins in, and have the machine count them. The machine will then issue a receipt that the customer can take to Customer Service and exchange for cash. The catch is that the machine will take some of your earnings (as a percentage).
+
+## WALKTHROUGH
+
+The algorithm is divided into three different phases:
+
+**STEP 1: Counting the Pennies**
+
+In this phase, the user will enter a number. That number represents the value, in cents, that has been entered. In the real world, this parallels dumping the contents of the piggy bank into the machine.
+
+**STEP 2: Computing the Earnings**
+
+The software has to determine how much the user has earned, and how much the machine will keep. For the scope of this program, we will assume the commission is at a rate of 20%.
+
+**STEP 3: Print Receipt**
+
+The computer should issue an itemized receipt for the user. This is mimicked in the software by displaying the results on the screen.
+
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* File name: `CoinStar.java`
+
+* The input (value of coins) should be an `int` - so $10.13 is entered as `1013`.
+
+* Your output should match the sample output exactly.
+
+* The code to complete the task should be in a separate method that is called by the `main` method
+
+* Add comments with your name, date, and program description at the top!
+
+* To compute the percentage, you should use a constant called `PERCENT`, as defined by this code:
+
+``` ^copy
+final double PERCENT = .20;
+```
+
+## SAMPLE OUTPUT
+
+```
+How many pennies did you insert?
+1013
+You have deposited $10.13
+The processing fee is: $2.0260000000000002
+You earned $8.104000000000001
+```
+
+<br />
+
+```
+How many pennies did you insert?
+99
+You have deposited $0.99
+The processing fee is: $0.198
+You earned $0.792
+```
+
+<br />
+
+```
+How many pennies did you insert?
+20000
+You have deposited $200.0
+The processing fee is: $40.0
+You earned $160.0
+```
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`CoinStar.java`](https://drive.google.com/uc?export=download&id=1XNPK9OeaRDqG8n1Wlf3JJ2cVvmjwGMS5)
+
+Download this file and load it into your IDE.
+
+^callout-end
+
+```java ^copy
+/**
+ * Description
+ *
+ * @author Student Name
+ * @since Date Started
+ */
+ 
+import java.util.Scanner;
+
+public class CoinStar {
+
+	public static void main(String[] args) {
+
+		coins(); // the method to read info, calculate, print
+	}
+	
+	// the method to read info, calculate, print
+	public static void coins() {
+
+    // ========== INSERT YOUR CODE HERE ==========
+    
+    
+    
+
+    
+    
+    
+    
+    // ===========================================            
+
+	}
+}
+
+
+
+
+
+
+
+// =============== LAB SUMMARY ===============
+
+/*
+1. What was the hardest part of this lab?
+
+
+
+
+2. What will you always remember (never forget) from this exercise?
+
+
+
+
+*/
+
+```
+
+<br /><br />
