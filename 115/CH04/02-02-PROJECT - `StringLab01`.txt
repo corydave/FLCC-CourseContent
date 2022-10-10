@@ -1,0 +1,169 @@
+^^ PROJECT - `StringLab01`
+
+## DESCRIPTION
+
+A `String` in Java is very important because many of the opportunities that capture user input require a `String`. For us, a `String `is the first exposure to classes and objects in Java. Unlike primitive data types which just hold data, objects can perform different tasks with the data they hold. For instance, a `String` can convert itself to all uppercase (or lowercase). It can also trim all the leading and trailing whitespace from it. It can report its length (number of characters). It can see if specific characters are contained in it. There are many things that a `String` can do - [check out the Relevant API](https://docs.google.com/document/d/1BKroTmABlP23RXj-ans0bqe_jw4xULaM04chwl9lV30/pub) for more functionality.
+
+## WALKTHROUGH
+
+This software has two phases:
+
+**STEP 1: Obtain input from the user**
+
+Prompt the user for a phrase and store their input into a `String`. Also prompt the user for a character and store it in a variable of type `char`.
+
+**STEP 2: Output result of various `String` methods used on the input**
+
+Use the `length()` method, the `charAt()` method, and the `indexOf()` method to match the output seen in the Sample Output.
+
+
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* File name: `StringLab01.java`
+
+* Pay particular attention to the formatting - the output on the screen should look identical to the output in the sample output. The sample output relies on the `String` "this is a test", so the sample output may use 14 to represent the length of the `String`. Those numbers are based on the input from the user. If the `String` had been, “Sweeney Todd", then the number for length would be 12.
+
+* The phrase for this example is `"this is a test"`. Note that when the program is graded, the phrase may be something else, so make sure that the software is not hard-coded to support only one phrase (see Sample Output for more examples).
+
+* There is no `readChar()` method in `Scanner`, so you will have to adapt. Consider the following code that takes in a `String` and casts the first character in that `String` as a `char`.
+This will use the `Scanner` to get the input as a `String` and then chain the `charAt()` method to it to grab the first character in the `String`.
+
+<center>
+
+`char character = scanner.nextLine().charAt(0);`
+
+</center>
+
+* Your output should match the sample output exactly.
+
+* The code to complete the task should be in a separate method that is called by the `main` method
+
+* Add comments with your name, date, and program description at the top!
+
+
+## SAMPLE OUTPUT
+
+```
+Please enter a phrase:
+this is a test
+
+Please enter a character to search for:
+e
+
+The length of your String is 14.
+The character in the first position is 't'.
+The character in the last position is 't'.
+The first occurrence of 'e' is in position 12.
+```
+
+<br />
+
+```
+Please enter a phrase:
+Frankly, my dear, I don't give a damn.
+
+Please enter a character to search for:
+y
+
+The length of your String is 38.
+The character in the first position is 'F'.
+The character in the last position is '.'.
+The first occurrence of 'y' is in position 7.
+```
+
+<br />
+
+```
+Please enter a phrase:
+May the Force be with you.
+
+Please enter a character to search for:
+.
+
+The length of your String is 26.
+The character in the first position is 'M'.
+The character in the last position is '.'.
+The first occurrence of '.' is in position 26.
+```
+
+## REFERENCE MATERIAL
+
+For examples of how to use variables of type `String`, check out:
+* [The Relevant API](https://docs.google.com/document/d/1BKroTmABlP23RXj-ans0bqe_jw4xULaM04chwl9lV30/pub)
+* The actual [Java API for String](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html#:~:text=string%20builder%20argument.-,Method%20Summary,-All%20Methods)
+
+|STRING |ACTION |SAMPLE CODE | OUTPUT |
+|:-----|:--------|:-------|:-------|
+| `\n`    |New Line| `System.out.print("a\nb");`  |`a` <br /> `b`
+| `\"`    |Quotation Mark| `System.out.print("a and \"b\".");`| `a and "b".`
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`StringLab01.java`](https://drive.google.com/uc?export=download&id=1wzVWNrUx2UZ9EIk-UBgT5gcv9g7syHyX)
+
+Download this file and load it into your IDE.
+
+^callout-end
+
+```java ^copy
+/**
+ * Description
+ *
+ * @author Student Name
+ * @since Date Started
+ */
+ 
+import java.util.Scanner;
+
+public class StringLab01 {
+    public static void main (String[] args) {
+        
+        stringLab();
+        
+    }
+    
+    public static void stringLab() {
+        
+    // ========== INSERT YOUR CODE HERE ==========
+    
+    
+    
+
+    
+    
+    
+    
+    // ===========================================        
+        
+    }
+}
+
+
+
+
+
+
+// =============== LAB SUMMARY ===============
+
+/*
+1. What was the hardest part of this lab?
+
+
+
+
+2. What will you always remember (never forget) from this exercise?
+
+
+
+
+*/
+```
+
+<br /><br />
