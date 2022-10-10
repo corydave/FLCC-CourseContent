@@ -1,0 +1,42 @@
+AGENDA - 2022-10-10
+=============
+
+^callout info-circle
+
+### Information
+
+Today we chatted about *projects* in this class. Projects typically are a bit longer and require more planning. We started by chatting about CoinStar machines - you know, those machines that convert coins to dollars (and take a percentage for their trouble).
+
+We plotted out our plan of attack by looking at this output:
+
+```
+How many pennies did you insert?
+1013
+You have deposited $10.13
+The processing fee is: $2.0260000000000002
+You earned $8.104000000000001
+```
+
+It was important to note that without planning ahead of time we probably would have run into issues (like calculating the overall deposit value and the processing fee without saving them so we could do math on them later).
+
+On Wednesday we'll be looking at the next two projects (which will require us to know more about the `String` class).
+
+^callout-end
+
+^callout calendar-alt
+
+# What's due
+
+Due on Monday, October 17 at 9:00 am:
+* `CoinStar`
+
+Due on Wednesday, October 19 at 9:00 am:
+* `StringLab01`
+* `Password Suite`
+
+Due on Monday, October 24 at 9:00 am:
+* Reading Guide #5
+
+
+^callout-end
+
