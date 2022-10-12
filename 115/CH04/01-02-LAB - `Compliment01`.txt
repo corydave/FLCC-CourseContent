@@ -1,0 +1,117 @@
+^^ LAB - `Compliment01`
+
+## DESCRIPTION
+
+This is a simple program that will dole out a compliment to the user:
+
+1. Ask the user their age
+2. Ask the user their name
+3. Output a compliment based on their information
+
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* File name: `Compliment01.java`
+
+* Your output should match the sample output exactly.
+
+* The code to complete the task should be in a separate method that is called by the `main` method
+
+* Add comments with your name, date, and program description at the top!
+
+* All output statements use `println()`, not `print()`.
+
+## SAMPLE OUTPUT
+
+```
+What is your age?
+33
+What is your name?
+Larry Bird
+Hello, Larry Bird. You are very smart for someone who is 33 years old.
+```
+
+<br />
+
+```
+What is your age?
+44
+What is your name?
+Dave Ghidiu
+Hello, Dave Ghidiu. You are very smart for someone who is 44 years old.
+```
+
+<br />
+
+```
+What is your age?
+32
+What is your name?
+Taylor Swift
+Hello, Taylor Swift. You are very smart for someone who is 32 years old.
+```
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`Compliment01.java`](https://drive.google.com/uc?export=download&id=1T42QG2A81PXu6SA1mK-lGMUuD92IebYu)
+
+Download this file and load it into your IDE.
+
+^callout-end
+
+```java ^copy
+
+/**
+ * Description
+ *
+ * @author Student Name
+ * @since Date Started
+ */
+
+// You'll need to do your import statement(s) before the class definition :)
+
+public class Compliment01 {
+    public static void main (String[] args) {
+
+    // ========== INSERT YOUR CODE HERE ==========
+
+
+
+
+
+
+
+
+    // ===========================================        
+
+    }
+}
+
+
+
+
+
+
+// =============== LAB SUMMARY ===============
+
+/*
+1. What was the hardest part of this lab?
+
+
+
+
+2. What will you always remember (never forget) from this exercise?
+
+
+
+
+*/
+```
+
+<br /><br />
