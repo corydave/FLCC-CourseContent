@@ -17,9 +17,9 @@ You can also check out this [8.5" x 11" handout made with Slides](https://docs.g
 
 ^===
 
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/RPUWvHmjorc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 <center>
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/RPUWvHmjorc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [Link to video](https://www.youtube.com/watch?v=RPUWvHmjorc)
 
