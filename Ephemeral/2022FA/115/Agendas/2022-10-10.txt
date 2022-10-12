@@ -19,6 +19,25 @@ You earned $8.104000000000001
 
 It was important to note that without planning ahead of time we probably would have run into issues (like calculating the overall deposit value and the processing fee without saving them so we could do math on them later).
 
+We also did a bit of pseudocode to work through `CoinStar`:
+
+^= = ,,, 12
+
+1. import a Scanner / instantiate Scanner
+2. prompt user for pennies
+3. store their answer in `pennies`
+4. tell user & STORE how dollars/cents (divide `pennies` by 100 and store as `deposit`)
+5. STORE processing fee (`fee`) as `pennies` times 0.20 (20%)
+6. subtract `fee` from `deposit`
+
+<center>
+
+`final double PERCENT = .20;`
+
+</center>
+
+^=
+
 On Wednesday we'll be looking at the next two projects (which will require us to know more about the `String` class).
 
 ^callout-end
