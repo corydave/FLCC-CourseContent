@@ -53,4 +53,5 @@ if username.lower() == 'admin':
     1. `compliment.py`
     2. `coin_toss.py`
     3. `compliment2.py`
-    4. `grade_converter`.py
+    4. `convertCF02.py`
+    5. `grade_converter`.py
