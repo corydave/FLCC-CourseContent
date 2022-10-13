@@ -32,7 +32,7 @@ Thank you for playing
 <br />
 
 ```
-Would you like a compliment? no
+Would you like a compliment? Yes
 Thank you for playing
 ```
 
