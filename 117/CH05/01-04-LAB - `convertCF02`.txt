@@ -1,0 +1,137 @@
+^^ LAB - `convertCF02`
+
+## DESCRIPTION
+Building off `convertCF01.py` this module will first ask the user if they would like to convert from Celsius to Fahrenheit or from Fahrenheit to Celsius. Once the conversion has been established the user is prompted to enter a temperature and the equivalent temperature is output to the screen.
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top!
+
+* Your output must match the Sample Output *exactly*.
+
+* The formulas are listed below:
+
+|Conversion |Formula   |
+|:----:|:--------:|
+| Celsius to Fahrenheit    | `temperature * 9/5 + 32`|
+| Fahrenheit to Celsius    | `(temperature - 32 ) * 5/9`|
+
+
+## SAMPLE OUTPUT
+
+
+```
+===== Temperature Converter =====
+
+  1. Convert from Celsius to Fahrenheit
+  2. Convert from Fahrenheit to Celsius
+
+Please choose from the above menu: 1
+Enter a temperature to convert: 100
+
+100.0 degrees Celsius is 212.0 degrees Fahrenheit.
+
+```
+<br />
+
+```
+===== Temperature Converter =====
+
+  1. Convert from Celsius to Fahrenheit
+  2. Convert from Fahrenheit to Celsius
+
+Please choose from the above menu: 2
+Enter a temperature to convert: 32
+
+32.0 degrees Fahrenheit is 0.0 degrees Celsius.
+```
+
+<br />
+
+```
+===== Temperature Converter =====
+
+  1. Convert from Celsius to Fahrenheit
+  2. Convert from Fahrenheit to Celsius
+
+Please choose from the above menu: 1
+Enter a temperature to convert: -40
+
+-40.0 degrees Celsius is -40.0 degrees Fahrenheit.
+```
+
+<br />
+
+```
+===== Temperature Converter =====
+
+  1. Convert from Celsius to Fahrenheit
+  2. Convert from Fahrenheit to Celsius
+
+Please choose from the above menu: 2
+Enter a temperature to convert: -40
+
+-40.0 degrees Fahrenheit is -40.0 degrees Celsius.
+```
+
+<br />
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`convertCF02.py`](https://drive.google.com/uc?export=download&id=16AVPSx5NA1iJweGv49hfto68qqV9yrl4)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+
+^acc
+
+^^^ `convertCF02.py`
+
+```python ^copy
+
+# FILE NAME - convertCF02.py
+
+# NAME - 
+# DATE - 
+# DESCRIPTION - 
+
+def main():
+    convertCF2()
+
+def display_menu():
+    print('===== Temperature Converter =====')
+    print()
+    print('  1. Convert from Celsius to Fahrenheit')
+    print('  2. Convert from Fahrenheit to Celsius')
+    print()
+
+def convertCF2():
+    display_menu()
+
+
+
+
+
+
+main()
+
+
+```
+
+
+
+^acc-end
+
+
+
+
+
+<br /><br />
