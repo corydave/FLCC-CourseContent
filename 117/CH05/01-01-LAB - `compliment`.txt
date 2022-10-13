@@ -1,0 +1,93 @@
+^^ LAB - `compliment`
+
+## DESCRIPTION
+In this program, the user is prompted whether they want a compliment or not. If they choose "yes", then a compliment is given. 
+
+Either way, the user is thanked for participating.
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top!
+
+* Note that *any input other than* `'yes'` should not be considered an affirmative answer. That includes capitalized versions.
+
+
+## SAMPLE OUTPUT
+
+
+```
+Would you like a compliment? yes
+You have wonderful eyes.
+Thank you for playing
+```
+<br />
+
+```
+Would you like a compliment? y
+Thank you for playing
+```
+
+<br />
+
+```
+Would you like a compliment? no
+Thank you for playing
+```
+
+<br />
+
+```
+Would you like a compliment? no
+Thank you for playing
+```
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`compliment.py`](https://drive.google.com/uc?export=download&id=1V59VJjnfVKUdyd7T1wlrURd7FIqwbXi9)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+
+^acc
+
+^^^ `compliment.py`
+
+```python ^copy
+
+# FILE NAME - compliment.py
+
+# NAME - 
+# DATE - 
+# DESCRIPTION
+
+def main():
+    compliment()
+
+def compliment():
+
+    
+    
+    
+
+main()
+
+
+```
+
+
+
+^acc-end
+
+
+
+
+
+<br /><br />
