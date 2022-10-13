@@ -1,0 +1,93 @@
+^^ LAB - `compliment2`
+
+## DESCRIPTION
+Building off of `compliment.py`, this program goes a step further and will have custom output for `yes` as well as not `yes` (see the Sample Output for more details).
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top!
+
+* The `if` statement should compare user input to the string `yes`. Any deviation from `yes` should default to the `No compliment for you!` message.
+
+
+## SAMPLE OUTPUT
+
+
+```
+Would you like a compliment? yes
+You have wonderful eyes.
+Thank you for playing.
+```
+<br />
+
+```
+Would you like a compliment? Yes
+No compliment for you!
+Thank you for playing.
+```
+
+<br />
+
+```
+Would you like a compliment? y
+No compliment for you!
+Thank you for playing.
+```
+
+<br />
+
+```
+Would you like a compliment? no
+No compliment for you!
+Thank you for playing.
+```
+
+<br />
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`compliment2.py`](https://drive.google.com/uc?export=download&id=11ZDadXl3hlPy5N3fzgiQasmZsSIJ2oC9)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+
+^acc
+
+^^^ `coin_toss.py`
+
+```python ^copy
+
+# FILE NAME - compliment2.py
+
+# NAME - 
+# DATE - 
+# DESCRIPTION
+
+def main():
+    compliment()
+
+def compliment():
+
+
+
+main()
+
+```
+
+
+
+^acc-end
+
+
+
+
+
+<br /><br />
