@@ -1,0 +1,84 @@
+^^ More Functions
+
+Python has a really slick way you can use the code from one file inside another - by *importing* it.
+
+It is super simple to do it but there are a few caveats for doing it well (we won't get into those just yet). An interesting way to look at this paradigm is to consider *utility* files.
+
+Think of it this way - a calculator program might be broken up into two different files. One file that does all the dirty work (like adding, subtracting, etc.) and one file that is the front-end (the software that gets input from the user). One advantage of this is that multiple calculators can exist, each one with a different interface. But if they all use the *utility* file, all the complex stuff can be used from all the other calculator front-ends. 
+
+### EXAMPLE CODE
+
+Here are two files - one is a *driver* file with the `main()` function, and the other file has no `main()` and is just the *utility*:
+
+^= =
+
+```python
+
+# FILE NAME - triangle.py
+
+import triangle_util
+
+def main():
+    triangle()
+
+def triangle():
+    print('===== TRIANGLE INFO =====\n')
+    triangle_util.area()
+
+    print()
+
+    triangle_util.perimeter()
+
+main()
+
+
+
+
+```
+
+^===
+
+```python
+
+# FILE NAME - triangle_util.py
+
+def area():
+    base = float(input('Length of base: '))
+    height= float(input('Lenth of height: '))
+    
+    area = base * height / 2
+    
+    print('\nAREA:', area)
+
+
+def perimeter():
+    side01 = float(input('Length of side 1: '))
+    side02 = float(input('Length of side 2: '))
+    side03 = float(input('Length of side 3: '))
+
+    perimeter = side01 + side02 + side03
+
+    print('\nPERIMETER:', perimeter)
+
+```
+
+^=
+
+### EXAMPLE OUTPUT
+
+```
+===== TRIANGLE INFO =====
+
+Length of base: 10
+Lenth of height: 20
+
+AREA: 100.0
+
+Length of side 1: 3
+Length of side 2: 4
+Length of side 3: 5
+
+PERIMETER: 12.0
+```
+
+There will be one long video and some labs for you to experiment with.
