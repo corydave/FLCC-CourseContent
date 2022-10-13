@@ -1,6 +1,7 @@
 ^^ LAB - `grade_converter`
 
 ## DESCRIPTION
+Most learning management systems (Blackboard, Brightspace, etc.) have a feature where grades can be expressed as either percentages or letters. This experience will ask for a percentage and - using the table found in the specifications - return the corresponding letter grade.
 
 ## SPECIFICATIONS
 
@@ -10,71 +11,59 @@
 
 * Your output must match the Sample Output *exactly*.
 
-* The scale is:
+* Using mathematical bracket notation where `[...]` means *inclusive* and `(...)` means *exclusive*, the scale is below. As an example, the grade 70 would be converted to a `C`.
 
-|Conversion |Formula   |
-|:----:|:--------:|
-| Celsius to Fahrenheit    | `temperature * 9/5 + 32`|
-| Fahrenheit to Celsius    | `(temperature - 32 ) * 5/9`|
+^=^ , 4
 
+|<center>Grade Range</center> |<center>Letter</center>   |
+|:---------:|:--------:|
+| Below 65     | F  |
+| [65, 70)     | D  |
+| [70, 80)     | C  |
+| [80, 90)     | B  |
+| [90, 100)    | A  |
+| Above 100    | A+ |
+
+^=
 
 ## SAMPLE OUTPUT
 
 ```
-===== Temperature Converter =====
-
-  1. Convert from Celsius to Fahrenheit
-  2. Convert from Fahrenheit to Celsius
-
-Please choose from the above menu: 1
-Enter a temperature to convert: 100
-
-100.0 degrees Celsius is 212.0 degrees Fahrenheit.
-
+===== Grade Converter =====
+Enter a numerical grade (1-100): 101
+A+
 ```
 <br />
 
 ```
-===== Temperature Converter =====
-
-  1. Convert from Celsius to Fahrenheit
-  2. Convert from Fahrenheit to Celsius
-
-Please choose from the above menu: 2
-Enter a temperature to convert: 32
-
-32.0 degrees Fahrenheit is 0.0 degrees Celsius.
+===== Grade Converter =====
+Enter a numerical grade (1-100): -78
+F
 ```
 
 <br />
 
 ```
-===== Temperature Converter =====
-
-  1. Convert from Celsius to Fahrenheit
-  2. Convert from Fahrenheit to Celsius
-
-Please choose from the above menu: 1
-Enter a temperature to convert: -40
-
--40.0 degrees Celsius is -40.0 degrees Fahrenheit.
+===== Grade Converter =====
+Enter a numerical grade (1-100): 64
+F
 ```
 
 <br />
 
 ```
-===== Temperature Converter =====
-
-  1. Convert from Celsius to Fahrenheit
-  2. Convert from Fahrenheit to Celsius
-
-Please choose from the above menu: 2
-Enter a temperature to convert: -40
-
--40.0 degrees Fahrenheit is -40.0 degrees Celsius.
+===== Grade Converter =====
+Enter a numerical grade (1-100): 65
+D
 ```
 
 <br />
+
+```
+===== Grade Converter =====
+Enter a numerical grade (1-100): 66
+D
+```
 
 ## STARTER CODE
 
@@ -82,7 +71,7 @@ You may use the following code as starter code. You will need to change the comm
 
 ^callout file-download
 
-[`convertCF02.py`](https://drive.google.com/uc?export=download&id=16AVPSx5NA1iJweGv49hfto68qqV9yrl4)
+[`grade_converter.py`](https://drive.google.com/uc?export=download&id=1-M4X24QJ2mAUuekCcVnl5odNmBdcOFFB)
 
 Download these files and load them into your IDE.
 
@@ -91,30 +80,21 @@ Download these files and load them into your IDE.
 
 ^acc
 
-^^^ `convertCF02.py`
+^^^ `grade_converter.py`
 
 ```python ^copy
 
-# FILE NAME - convertCF02.py
+# FILE NAME - grade_converter.py
 
 # NAME - 
 # DATE - 
-# DESCRIPTION - 
+# DESCRIPTION
 
 def main():
-    convertCF2()
+    grade_converter()
 
-def display_menu():
-    print('===== Temperature Converter =====')
-    print()
-    print('  1. Convert from Celsius to Fahrenheit')
-    print('  2. Convert from Fahrenheit to Celsius')
-    print()
-
-def convertCF2():
-    display_menu()
-
-
+def grade_converter():
+    print('===== Grade Converter =====')
 
 
 
