@@ -1,0 +1,79 @@
+^^ LAB - `coin_toss`
+
+## DESCRIPTION
+This program is a simple application that will randomly return `Heads` or `Tails`. To calculate, a random number 
+between 1 and 100 (inclusive) is generated and if the number is 51 or greater then `Tails` is reported. Otherwise `Heads` is reported.
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top!
+
+* There is no seed for the random number so code will be evaluated manually.
+
+
+## SAMPLE OUTPUT
+
+
+```
+===== Coin Flipper =====
+Heads
+```
+<br />
+
+```
+===== Coin Flipper =====
+Tails
+```
+
+<br />
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`coin_toss.py`](https://drive.google.com/uc?export=download&id=1kPzLTW3_hwU9K_7DlwO6igMuFpdq9oOq)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+
+^acc
+
+^^^ `coin_toss.py`
+
+```python ^copy
+
+# FILE NAME - coin_toss.py
+
+# NAME - 
+# DATE - 
+# DESCRIPTION
+
+import random
+
+def main():
+    coin_toss()
+
+def coin_toss():
+    print('===== Coin Flipper =====')
+
+
+main()
+
+
+```
+
+
+
+^acc-end
+
+
+
+
+
+<br /><br />
