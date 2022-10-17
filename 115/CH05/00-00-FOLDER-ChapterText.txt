@@ -30,15 +30,15 @@ if (Math.random() > 0.5) {
 
 * Reading Guide - Chapter 5 Reading Guide
 
-* LAB - ```ConvertCF02```
+* LAB - `ConvertCF02`
 
-* LAB - ```Compliment02```
+* LAB - `Compliment02`
 
-* LAB - ```Compare01```
+* LAB - `Compare01`
 
-* LAB - ```Compare02```
+* LAB - `Compare02`
 
-* LAB - ```CoinToss```
+* LAB - `CoinToss`
 
 
 # To ponder
