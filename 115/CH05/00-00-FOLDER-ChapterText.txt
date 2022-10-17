@@ -47,6 +47,8 @@ You'll need to draw on your knowledge of String, Math, Scanner, Random, variable
 
 In the meantime, can you conjecture what the output will be if the user types in 10?
 
+<center>
 <iframe src="https://trinket.io/embed/java/0e26eb4c24?showInstructions=true" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+</center>
 
 <br /><br />
