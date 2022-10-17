@@ -28,9 +28,9 @@ Due on Wednesday, October 19 at 9:00 am:
 
 * Resume
 
-^callout-end
-
 ### Next class
 
 * Long Term Planning for registration
 * Reflection assignment
+
+^callout-end
