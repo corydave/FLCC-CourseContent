@@ -1,0 +1,124 @@
+^^ LAB - `ConvertCF02`
+
+
+## DESCRIPTION
+
+The user inputs a value (in degrees Celsius) and the computer outputs the temperature in degrees Fahrenheit.
+The formula to convert Celsius to Fahrenheit is: F = 9/5C + 32.
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* File name: `ConvertCTF02.java`
+
+* The code to complete the task should be in a separate method that is called by the `main` method
+
+* Add comments with your name, date, and program description at the top!
+
+## SAMPLE OUTPUT
+
+```
+Temperature:
+100
+In Fahrenheit, the temperature is 212.0 
+```
+
+```
+Temperature:
+36.99999
+In Fahrenheit, the temperature is 98.599982
+```
+
+```
+Temperature:
+0
+In Fahrenheit, the temperature is 32.0
+```
+
+```
+Temperature:
+-40
+In Fahrenheit, the temperature is -40.0
+```
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`ConvertCF02.java`](https://drive.google.com/uc?export=download&id=1ASCGUuDSed-Ex0AflFZBeBJEw3X7PlP9)
+
+Download this file and load it into your IDE.
+
+^callout-end
+
+```java ^copy
+
+/**
+ * Description
+ *
+ * @author Student Name
+ * @since Date Started
+ */
+ 
+
+
+import java.util.Scanner;
+
+public class ConvertCF02 {
+
+	public static void main(String[] args) {
+
+		convert(); // a method to get input, convert, and print
+
+
+	}
+
+	// get input from the user, convert, print
+	public static void convert() {
+		
+
+    // ========== INSERT YOUR CODE HERE ==========
+    
+    
+    
+
+    
+    
+    
+    
+    // ===========================================        
+    
+    
+    
+    
+	}
+}
+
+
+
+
+
+
+
+
+// =============== LAB SUMMARY ===============
+
+/*
+1. What was the hardest part of this lab?
+
+
+
+
+2. What will you always remember (never forget) from this exercise?
+
+
+
+
+*/
+
+```
+
+<br /><br />
