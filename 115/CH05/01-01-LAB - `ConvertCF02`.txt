@@ -1,46 +1,82 @@
-^^ LAB - `ConvertCF02`
-
+^^ LAB - `convertCF02`
 
 ## DESCRIPTION
-
-The user inputs a value (in degrees Celsius) and the computer outputs the temperature in degrees Fahrenheit.
-The formula to convert Celsius to Fahrenheit is: F = 9/5C + 32.
+Building off `ConvertCF01.java` this module will first ask the user if they would like to convert from Celsius to Fahrenheit or from Fahrenheit to Celsius. Once the conversion has been established the user is prompted to enter a temperature and the equivalent temperature is output to the screen.
 
 ## SPECIFICATIONS
 
 * Starter code has been provided for this lab.
 
-* File name: `ConvertCTF02.java`
+* Add a comment with your name, date, and program description at the top!
 
-* The code to complete the task should be in a separate method that is called by the `main` method
+* Your output must match the Sample Output *exactly*.
 
-* Add comments with your name, date, and program description at the top!
+* The formulas are listed below:
+
+|Conversion |Formula   |
+|:----:|:--------:|
+| Celsius to Fahrenheit    | `temperature * 9/5 + 32`|
+| Fahrenheit to Celsius    | `(temperature - 32 ) * 5/9`|
+
 
 ## SAMPLE OUTPUT
 
-```
-Temperature:
-100
-In Fahrenheit, the temperature is 212.0 
-```
 
 ```
-Temperature:
-36.99999
-In Fahrenheit, the temperature is 98.599982
-```
+===== Temperature Converter =====
+
+  1. Convert from Celsius to Fahrenheit
+  2. Convert from Fahrenheit to Celsius
+
+Please choose from the above menu: 1
+Enter a temperature to convert: 100
+
+100.0 degrees Celsius is 212.0 degrees Fahrenheit.
 
 ```
-Temperature:
-0
-In Fahrenheit, the temperature is 32.0
-```
+<br />
 
 ```
-Temperature:
--40
-In Fahrenheit, the temperature is -40.0
+===== Temperature Converter =====
+
+  1. Convert from Celsius to Fahrenheit
+  2. Convert from Fahrenheit to Celsius
+
+Please choose from the above menu: 2
+Enter a temperature to convert: 32
+
+32.0 degrees Fahrenheit is 0.0 degrees Celsius.
 ```
+
+<br />
+
+```
+===== Temperature Converter =====
+
+  1. Convert from Celsius to Fahrenheit
+  2. Convert from Fahrenheit to Celsius
+
+Please choose from the above menu: 1
+Enter a temperature to convert: -40
+
+-40.0 degrees Celsius is -40.0 degrees Fahrenheit.
+```
+
+<br />
+
+```
+===== Temperature Converter =====
+
+  1. Convert from Celsius to Fahrenheit
+  2. Convert from Fahrenheit to Celsius
+
+Please choose from the above menu: 2
+Enter a temperature to convert: -40
+
+-40.0 degrees Fahrenheit is -40.0 degrees Celsius.
+```
+
+<br />
 
 ## STARTER CODE
 
@@ -50,9 +86,14 @@ You may use the following code as starter code. You will need to change the comm
 
 [`ConvertCF02.java`](https://drive.google.com/uc?export=download&id=1ASCGUuDSed-Ex0AflFZBeBJEw3X7PlP9)
 
-Download this file and load it into your IDE.
+Download these files and load them into your IDE.
 
 ^callout-end
+
+
+^acc
+
+^^^ `ConvertCF02.java`
 
 ```java ^copy
 
@@ -120,5 +161,13 @@ public class ConvertCF02 {
 */
 
 ```
+
+
+
+^acc-end
+
+
+
+
 
 <br /><br />
