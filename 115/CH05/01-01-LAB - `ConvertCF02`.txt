@@ -28,8 +28,11 @@ Building off `ConvertCF01.java` this module will first ask the user if they woul
   1. Convert from Celsius to Fahrenheit
   2. Convert from Fahrenheit to Celsius
 
-Please choose from the above menu: 1
-Enter a temperature to convert: 100
+Please choose from the above menu:
+1
+
+Enter a temperature to convert:
+100
 
 100.0 degrees Celsius is 212.0 degrees Fahrenheit.
 
@@ -42,8 +45,11 @@ Enter a temperature to convert: 100
   1. Convert from Celsius to Fahrenheit
   2. Convert from Fahrenheit to Celsius
 
-Please choose from the above menu: 2
-Enter a temperature to convert: 32
+Please choose from the above menu:
+2
+
+Enter a temperature to convert:
+32
 
 32.0 degrees Fahrenheit is 0.0 degrees Celsius.
 ```
@@ -56,8 +62,11 @@ Enter a temperature to convert: 32
   1. Convert from Celsius to Fahrenheit
   2. Convert from Fahrenheit to Celsius
 
-Please choose from the above menu: 1
-Enter a temperature to convert: -40
+Please choose from the above menu:
+1
+
+Enter a temperature to convert:
+-40
 
 -40.0 degrees Celsius is -40.0 degrees Fahrenheit.
 ```
@@ -70,8 +79,11 @@ Enter a temperature to convert: -40
   1. Convert from Celsius to Fahrenheit
   2. Convert from Fahrenheit to Celsius
 
-Please choose from the above menu: 2
-Enter a temperature to convert: -40
+Please choose from the above menu:
+2
+
+Enter a temperature to convert:
+-40
 
 -40.0 degrees Fahrenheit is -40.0 degrees Celsius.
 ```
