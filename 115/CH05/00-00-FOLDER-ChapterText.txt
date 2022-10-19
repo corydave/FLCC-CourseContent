@@ -32,18 +32,18 @@ if (Math.random() > 0.5) {
 
 * LAB - `Compliment02`
 
-* LAB - `ConvertCF02`
-
 * LAB - `Compare01`
 
 * LAB - `Compare02`
 
 * LAB - `CoinToss`
 
+* LAB - `ConvertCF02`
+
 
 # To ponder
 
-You'll need to draw on your knowledge of String, Math, Scanner, Random, variables, and if-else statements.
+You'll need to draw on your knowledge of `String`, `Math`, `Scanner`, `Random`, variables, and `if-els`e statements.
 
 In the meantime, can you conjecture what the output will be if the user types in 10?
 
