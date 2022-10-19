@@ -1,0 +1,57 @@
+<div style="display:none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vRB8Eo0_wHTXqtuZCJFXd_qT2LZVk_ePf6CgGtJqBLZnOn1hPQUFkGRpv3SYGxY9xPkX5IRozXxsLGo/pub?w=907&amp;h=385" alt="The number ‘5’ in a green circle with some computer code behind it. The focus is on the ‘if-else’ portion." title="The number ‘5’ in a green circle with some computer code behind it. The focus is on the ‘if-else’ portion.">
+
+</div>
+
+
+^^ Conditionals
+
+*Conditionals* are the defining characteristics of a computer. The ability to *make a decision* based on input is the building block of (almost) every piece of software.
+
+Python can make comparisons between different numbers, for instance. Python can also compare the value of strings. For instance, in this example we can compare two numbers and have different output for different outcomes:
+
+```python
+
+num1 = 10
+num2 = 12
+
+if num1 > num2:
+  print(num1, 'is larger than', num2)
+else:
+  print(num1, 'is not larger than', num2)
+
+```
+In this example, we can compare a string to another string and make a determination on how to proceed:
+
+```python
+
+play_again = input('Would you like to play again? ')
+
+if play_again == 'yes':
+  play_game()
+
+```
+
+There are a bunch of nuances that we'll cover in this chapter (like what happens when `num1` is the same as `num2` or what happens if the user types in `Yes` instead of `yes`?).
+
+There are a few different videos in this chapter and then a number of labs. The labs ramp up based on complexity so be sure to do them in order!
+
+# Prediction
+Why do you think the `.lower()` function is important here?
+
+```python
+
+username = input('Enter username: ')
+if username.lower() == 'admin':
+    print('Access granted')
+
+```
+
+# Experiences for this chapter
+
+1. VIDEOS - Chapter 05 Videos
+2. LABS
+    1. `compliment.py`
+    2. `coin_toss.py`
+    3. `compliment2.py`
+    4. `convertCF02.py`
+    5. `grade_converter.py`
