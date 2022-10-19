@@ -1,0 +1,94 @@
+^^ LAB - `Compare01`
+
+
+## DESCRIPTION
+
+Create a program that prompts the user for an integer. The program should compare the user's number to 10, and then print an appropriate message. The program must end with a message that indicates that the program is done running.
+
+^=^ ,, 10
+
+**NOTE: Assume the user enters a valid integer.**
+
+^=
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* File name: `Compare01.java`
+
+* The code to complete the task should be in a separate method that is called by the `main` method
+
+* Add comments with your name, date, and program description at the top!
+
+
+## SAMPLE OUTPUT
+
+```
+Enter an integer:
+14
+The number 14 is GREATER than 10.
+Program finished!
+```
+
+```
+Enter an integer:
+9
+The number 9 is NOT GREATER than 10.
+Program finished!
+```
+
+```
+Enter an integer:
+10
+The number 10 is NOT GREATER than 10.
+Program finished!
+```
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`Compare01.java`](https://drive.google.com/uc?export=download&id=11AH8WV1uRRM2CGPf7AK0XWn_9_CDsTcS)
+
+Download this file and load it into your IDE.
+
+^callout-end
+
+
+^acc
+
+^^^ `Compare01.java`
+
+```java ^copy
+
+/**
+ * @author
+ * @since
+ * 
+ * DESCRIPTION - 
+ */
+
+import java.util.Scanner;
+
+public class Compare01 {
+    public static void main(String[] args) {
+
+        compare01();
+
+    }
+
+    public static void compare01() {
+
+        // ...it's pretty empty here...
+
+    }
+}
+
+```
+
+^acc-end
+
+<br /><br />
