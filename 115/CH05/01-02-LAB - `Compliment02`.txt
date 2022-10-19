@@ -1,0 +1,110 @@
+^^ LAB - `Compliment02`
+
+
+## DESCRIPTION
+
+This program will dole out a compliment if the user wants one. There will be either 1 or 2 lines of output, depending on what the user chooses.
+* Ask the user if they want a compliment.
+* If the user indicates that they want a compliment, print one.
+* Output "Game Over" at the end (regardless of if they wanted a compliment or not).
+
+
+
+**NOTE:** You may assume that the user will only press "1" or "2".
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* File name: `Compliment02.java`
+
+* The code to complete the task should be in a separate method that is called by the `main` method
+
+* Add comments with your name, date, and program description at the top!
+
+* The only line of output that needs to match exactly is the last line. You have creative control for the other lines- make up your own compliment! :)
+
+## SAMPLE OUTPUT
+
+```
+Would you like a compliment ("1" for YES, "2" for NO)?
+1
+You are an amazing programmer.
+Game Over
+```
+
+```
+Would you like a compliment ("1" for YES, "2" for NO)?
+2
+Game Over
+```
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`Compliment02.java`](https://drive.google.com/uc?export=download&id=1uQlc4c99Kae9h2geTVpSRKETQmmfd7L4)
+
+Download this file and load it into your IDE.
+
+^callout-end
+
+```java ^copy
+
+/**
+ * Description
+ *
+ * @author Student Name
+ * @since Date Started
+ */
+ 
+import java.util.Scanner;
+
+public class Compliment02 {
+    public static void main (String[] args) {
+        
+        makeCompliment();
+        
+    }
+    
+    public static void makeCompliment() {
+
+        // ========== INSERT YOUR CODE HERE ==========
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        // ===========================================
+
+
+    }
+}
+
+
+// =============== LAB SUMMARY ===============
+
+/*
+1. What was the hardest part of this lab?
+
+
+
+
+2. What will you always remember (never forget) from this exercise?
+
+
+
+
+*/
+
+```
+
+<br /><br />
