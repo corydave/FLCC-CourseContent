@@ -1,0 +1,109 @@
+^^ LAB - `Compare02`
+
+
+## DESCRIPTION
+
+Create a program that prompts the user for two integers. The program should compare the first number to the second one and then print an appropriate message. The program must end with a message that indicates that the program is done running.
+
+^=^ ,, 10
+
+**NOTE: Assume the user enters valid integers.**
+
+^=
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* File name: `Compare02.java`
+
+* The code to complete the task should be in a separate method that is called by the `main` method
+
+* Add comments with your name, date, and program description at the top!
+
+* Output should match the Sample Output exactly.
+
+
+## SAMPLE OUTPUT
+
+```
+Enter an integer:
+1
+ 
+Enter another integer:
+2
+ 
+The number 1 is LESS than 2
+Program finished!
+```
+
+```
+Enter an integer:
+2
+ 
+Enter another integer:
+1
+ 
+The number 2 is GREATER than 1
+Program finished!
+```
+
+```
+Enter an integer:
+1
+ 
+Enter another integer:
+1
+ 
+The two numbers are equal
+Program finished!
+```
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`Compare02.java`](https://drive.google.com/uc?export=download&id=1djjXwGuE6gouUidVrwiFXLjtTg6pQQWY)
+
+Download this file and load it into your IDE.
+
+^callout-end
+
+
+^acc
+
+^^^ `Compare02.java`
+
+```java ^copy
+
+/**
+ * @author
+ * @since
+ * 
+ * DESCRIPTION - 
+ */
+
+import java.util.Scanner;
+
+public class Compare02 {
+    public static void main(String[] args) {
+
+        compare02();
+
+    }
+
+    public static void compare02() {
+
+        // ...it's pretty empty here...
+
+    }
+}
+
+
+```
+
+^acc-end
+
+<br /><br />
