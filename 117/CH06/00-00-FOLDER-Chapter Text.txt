@@ -1,57 +1,90 @@
-<div style="display:none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vRB8Eo0_wHTXqtuZCJFXd_qT2LZVk_ePf6CgGtJqBLZnOn1hPQUFkGRpv3SYGxY9xPkX5IRozXxsLGo/pub?w=907&amp;h=385" alt="The number ‘5’ in a green circle with some computer code behind it. The focus is on the ‘if-else’ portion." title="The number ‘5’ in a green circle with some computer code behind it. The focus is on the ‘if-else’ portion.">
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vQRjACwZNa5pxXyieCNajKAnb-itVEtrgSjI2lFY5kyOQENWPZNBU8KaWO5Yh3K5y4lRiOXf6YQYyjx/pub?w=907&amp;h=385" alt="The number ‘6’ in a green circle with circular arrows behind it, implying a process that goes on forever." title="The number ‘6’ in a green circle with circular arrows behind it, implying a process that goes on forever." width="0" height="0">
 
-</div>
+^^ Loops
 
+Loops are a way to repeat lines of code over and over and over and over...
 
-^^ Conditionals
+There are two basic loops we use in Python - the `for` loop (which is usually used when we need to execute code a determined number of times) and a `while` loop (when we need to execute code until a condition happens).
 
-*Conditionals* are the defining characteristics of a computer. The ability to *make a decision* based on input is the building block of (almost) every piece of software.
-
-Python can make comparisons between different numbers, for instance. Python can also compare the value of strings. For instance, in this example we can compare two numbers and have different output for different outcomes:
+Check this out:
 
 ```python
+word = 'Finger Lakes'
 
-num1 = 10
-num2 = 12
-
-if num1 > num2:
-  print(num1, 'is larger than', num2)
-else:
-  print(num1, 'is not larger than', num2)
-
+for x in word:
+  print(x)
 ```
-In this example, we can compare a string to another string and make a determination on how to proceed:
 
-```python
+In the example above, we are using `x` as the variable to hold each character in `'Finger Lakes'` as we *iterate* through the word.
 
-play_again = input('Would you like to play again? ')
-
-if play_again == 'yes':
-  play_game()
+The output is:
 
 ```
 
-There are a bunch of nuances that we'll cover in this chapter (like what happens when `num1` is the same as `num2` or what happens if the user types in `Yes` instead of `yes`?).
+F
+i
+n
+g
+e
+r
+ 
+L
+a
+k
+e
+s
+````
 
-There are a few different videos in this chapter and then a number of labs. The labs ramp up based on complexity so be sure to do them in order!
+See what happened there? We gave the `for` loop a variable, `x`, that would temporarily hold each of the items as it went through the string, `'Finger Lakes'`.
+
+We can actually give a `for` loop a range, too:
+
+```python
+for x in range(10, 20):
+    print(x)
+```
+
+```
+
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+```
+
+Note that the last number to be printed was `19`, not `20`. Which is odd because in the example with the string, each character was output. That is just because Python treats strings and *ranges* a bit differently.
+
+There are a few different tricks we'll look at with `print()` in this chapter as well.
+
+There are a few different videos in this chapter and then a number of labs. The labs ramp up based on complexity so be sure to do them in order! Also, this chapter is two weeks long because *there are a lot of exercises*. Have faith in the system! The labs are pretty short and they each lead into the next.
 
 # Prediction
-Why do you think the `.lower()` function is important here?
+What do you think the output will be when this code is executed?
 
 ```python
 
-username = input('Enter username: ')
-if username.lower() == 'admin':
-    print('Access granted')
+for x in range(0, 15, 2):
+    print(x)
 
 ```
 
 # Experiences for this chapter
 
-1. VIDEOS - Chapter 05 Videos
+1. VIDEOS - Chapter 06 Videos
 2. LABS
-    1. `compliment.py`
-    2. `coin_toss.py`
-    3. `compliment2.py`
-    4. `convertCF02.py`
-    5. `grade_converter.py`
+    1. `for_loop_range.py`
+    2. `for_loop_start.py`
+    3. `for_loop_start_end.py`
+    4. `for_loop_start_end_increment.py`
+    5. `for_loop_list.py`
+    6. `while_loop_count.py`
+    7. `while_loop_guess.py`
+    8. `while_loop_guess_high_low.py`
+    9. `authenticate.py`
+    10. `high_low_again.py`
