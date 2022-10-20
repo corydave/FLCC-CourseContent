@@ -21,4 +21,4 @@ Your mission is to create a Twine experience. You get to decide the modality.
 # How to submit
 Make sure you "Publish to file" from Twine - that will automatically download an HTML file. That's the file you need to submit to Blackboard.
 
-You will need to "zip" the file - Blackboard does not like .html files. To do that, you just need to right click on the .html file and choose "SEND TO" and then "Compressed Folder" or use 7-zip or WinZip to zip it.
+You will need to "zip" the file - Brightspace might not like `.html` files. To do that, you just need to right click on the `.html` file and choose "SEND TO" and then "Compressed Folder" or use 7-zip or WinZip to zip it.
