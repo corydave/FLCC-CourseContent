@@ -24,7 +24,7 @@ This is a Google Sheet, so make sure you bookmark it or save the URL somewhere s
 
 ^=
 
-When you are done, you should submit the URL of your Long Term Planning Sheet here. Please paste it in the "Write Submission" portion of this assignment, not the "Comments" section.
+When you are done, you should submit the URL of your Long Term Planning Sheet.
 
 # Tips
 
