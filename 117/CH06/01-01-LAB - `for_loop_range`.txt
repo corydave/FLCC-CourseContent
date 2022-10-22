@@ -1,0 +1,82 @@
+^^ LAB - `for_loop_range`
+
+## DESCRIPTION
+We're starting small! This lab is easy (especially if you wanted the `for loop` video). The task is simple - output the numbers from 0 through 22 (inclusive). Each number should be on a new line.
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top!
+
+* Your output must match the Sample Output *exactly*.
+
+## SAMPLE OUTPUT
+
+
+```
+
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+
+```
+<br />
+
+
+<br />
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`for_loop_range.py`](https://drive.google.com/uc?export=download&id=1jt2Hkar4rEHiYwjXWbfIXwKTLDNZLKZa)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+
+```python ^copy
+
+# FILE NAME - for_loop_range.py
+
+# NAME - 
+# DATE - 
+# DESCRIPTION - 
+
+def main():
+    for_loop_range()
+
+def for_loop_range():
+
+
+main()
+
+```
+
+
+
+<br /><br />
