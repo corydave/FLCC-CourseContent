@@ -79,12 +79,12 @@ for x in range(0, 15, 2):
 1. VIDEOS - Chapter 06 Videos
 2. LABS
     1. `for_loop_range.py`
-    2. `for_loop_start.py`
-    3. `for_loop_start_end.py`
-    4. `for_loop_start_end_increment.py`
-    5. `for_loop_list.py`
-    6. `while_loop_count.py`
-    7. `while_loop_guess.py`
-    8. `while_loop_guess_high_low.py`
-    9. `authenticate.py`
-    10. `high_low_again.py`
+    2. `for_loop_start_end.py`
+    3. `for_loop_start_end_increment.py`
+    4. `for_loop_list.py`
+    5. `while_loop_count.py`
+    6. `while_loop_guess.py`
+    7. `while_loop_guess_high_low.py`
+    8. `authenticate.py`
+    9. `high_low_again.py`
+    10. `rectangle_redux.py`
