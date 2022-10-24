@@ -1,0 +1,33 @@
+AGENDA - 2022-10-24
+=============
+
+^callout brain
+
+### Format Painter
+Google Docs has a tool in the toolbar to let you replicate formatting. it looks like a paint brush. This tool is in Word, too. And like a billion other software.
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/9RldEoFbotM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+^callout-end
+
+^callout info-circle
+
+### Information
+
+Today we covered some sweet, sweet HTML. The code from class is here and is a GREAT way to see examples of what needs to be done in your assignment:
+
+<script src="https://gist.github.com/corydave/49461b28044b5957c71bdf01760aaa0d.js"></script>
+
+^callout-end
+
+^callout calendar-alt
+
+### What's due
+
+Due on Wednesday, October 26 at 9:00 am:
+
+* ~ASSIGNMENT - Submit a .zip file of an HTML file~
+
+* ASSIGNMENT - My First Webpage
+
+^callout-end
