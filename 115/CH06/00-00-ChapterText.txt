@@ -1,0 +1,50 @@
+^^ CHAPTER 6 - Complex Selection
+
+## Experiences for this chapter
+
+This chapter we will look at a few different, sophisticated if statements.
+* `if-else` statements have a few different options (off-ramps)
+
+* `switch` statements
+
+* Using `&&` or `||` to evaluate multiple components at the same time
+
+```java
+
+int a = 10;
+int b = 20;
+int c = 30;
+int d = 40;
+
+if ( (a > b) || (c > b) ) {
+  System.out.println("Victory!");
+}
+
+```
+
+* READING GUIDE - Chapter 6 Reading Guide
+
+* LAB - `MovieQuotes`
+
+* LAB - `GradeCat`
+
+* LAB - `KickStarter`
+
+* PROEJCT - `StringLab02`
+
+In the meantime, why do you think the `Scanner` is created in `main`?
+
+```java
+
+public static void main (String[] args) {
+  Scanner scanner = new Scanner(System.in);
+  displayMenu(scanner);
+}
+
+public static int displayMenu(scanner) {
+  ... some code here ...
+}
+
+```
+
+<br /><br />
