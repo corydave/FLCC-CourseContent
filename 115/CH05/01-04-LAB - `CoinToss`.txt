@@ -1,0 +1,157 @@
+^^ LAB - `CoinToss`
+
+## DESCRIPTION
+
+In this program the computer simulates flipping a coin ("H" is heads and "T" is tails). The user guesses what the computer got, and the computer reports if they guessed correctly or not. 
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* File name: `CoinToss.java`
+
+* The code to complete the task should be in a separate method that is called by the `main` method
+
+* Add comments with your name, date, and program description at the top!
+
+* Output should match the Sample Output exactly.
+
+* To generate a HEADS or TAILS, do the following:
+    * Seed the `Random` object
+    * Generate a random integer between 0 and 9 (inclusive of 9)
+    * If the number is less than five, consider the flip a HEADS; otherwise it's a TAILS
+
+* Complete the given method by prompting the user for a guess. Then display what the computer got and print a message specifying if the user guessed correctly or not. You will have to create a Scanner object to read input from the keyboard.
+
+* You will need to consider "h" and "H" as HEADS and "t" as well as "T" as tails.
+
+
+
+## SAMPLE OUTPUT
+
+```
+Enter a seed:
+33
+ 
+What is your guess (H or T)?
+H
+The computer got H.
+You guessed right!
+```
+<br />
+
+```
+Enter a seed:
+42
+ 
+What is your guess (H or T)?
+h
+The computer got H.
+You guessed right!
+```
+<br />
+
+```
+Enter a seed:
+101
+ 
+What is your guess (H or T)?
+t
+The computer got H.
+Sorry, try again!
+```
+
+<br />
+
+```
+Enter a seed:
+1
+ 
+What is your guess (H or T)?
+t
+The computer got T.
+You guessed right!
+```
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`CoinToss.java`](https://drive.google.com/uc?export=download&id=1qk_WJMAEw6yO4Z6iGUPGQb-MPy_TE7HM)
+
+Download this file and load it into your IDE.
+
+^callout-end
+
+^acc
+
+^^^ `Compare02.java`
+
+```java ^copy
+
+/**
+ * Description
+ *
+ * @author Student Name
+ * @since Date Started
+ */
+
+public class CoinToss {
+
+	public static void main(String[] args) {
+		
+		headsOrTails(); // the computer simulates flipping a coin 
+						// and the user guesses the result
+
+	}
+	
+	// In this method, the computer simulates flipping a coin.
+	// The user guesses the result, and the computer reports if they are correct.
+	
+	// The computer will use 0 to represent "heads" and 1 to represent "tails"
+	// on the coin toss.
+	
+	public static void headsOrTails() {
+		
+		// computer randomly picks a number 0 or 1
+		int flip = (int)(Math.random()*2);
+		
+        // ========== INSERT YOUR CODE HERE ==========
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        // ===========================================
+
+	}
+
+}
+
+// =============== LAB SUMMARY ===============
+
+/*
+1. What was the hardest part of this lab?
+
+
+
+
+2. What will you always remember (never forget) from this exercise?
+
+
+
+
+*/
+```
+
+^acc-end
+
+<br /><br />
