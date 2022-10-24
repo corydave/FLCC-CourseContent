@@ -1,0 +1,141 @@
+^^ LAB - `MovieQuotes`
+
+## DESCRIPTION
+This program should ask the user to pick a number between 1 and 10. Depending on their choice, a movie quote will be printed. See the specifications below for the details. Much of the input and output needs to be verbatim, but the actual quotes can be whatever you would like them to be. 
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top!
+
+* Your output must match the Sample Output *exactly*, with the exception of your quotes. The actual movie quotes can be from any movies - you have creative control.
+
+* The code to complete the task should be in a separate method that is called by the `main` method
+
+* Your solution must use a `switch` statement to receive full credit.
+
+
+
+## SAMPLE OUTPUT
+
+
+```
+
+Enter a number 1-10:
+1
+QUOTE 1:
+Get busy living, or get busy dying.
+Thank you for getting cultured.
+```
+
+<br />
+
+```
+
+Enter a number 1-10:
+4
+QUOTE 4:
+Do or do not. There is no try.
+Thank you for getting cultured.
+```
+
+<br />
+
+```
+
+Enter a number 1-10:
+10
+QUOTE 10:
+Clever girl.
+Thank you for getting cultured.
+```
+
+<br />
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`Quotes.java`](https://drive.google.com/uc?export=download&id=1b0I7ZZS3tBygPgF-VhVeLKSWvyMvAuI7)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+
+^acc
+
+^^^ `Quotes.java`
+
+```java ^copy
+
+/**
+ * Description
+ *
+ * @author Student Name
+ * @since Date Started
+ */
+ 
+import java.util.Scanner;
+
+public class Quotes {
+    public static void main (String[] args) {
+        
+    	quotes(); // asks the user for a number and prints a quote
+    }
+    
+    // this method asks the user for a number and prints a quote
+    public static void quotes() {
+
+        Scanner sc = new Scanner(System.in);
+
+    // ========== INSERT YOUR CODE HERE ==========
+    
+    
+    
+
+    
+    
+    
+    
+    // ===========================================		
+
+        sc.close();
+        
+    }
+}
+
+
+
+
+
+
+
+// =============== LAB SUMMARY ===============
+
+/*
+1. What was the hardest part of this lab?
+
+
+
+
+2. What will you always remember (never forget) from this exercise?
+
+
+
+
+*/
+```
+
+
+
+^acc-end
+
+
+
+
+
+<br /><br />
