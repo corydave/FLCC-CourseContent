@@ -1,4 +1,4 @@
-^^ LAB - `MovieQuotes`
+^^ LAB - `Quotes`
 
 ## DESCRIPTION
 This program should ask the user to pick a number between 1 and 10. Depending on their choice, a movie quote will be printed. See the specifications below for the details. Much of the input and output needs to be verbatim, but the actual quotes can be whatever you would like them to be. 
