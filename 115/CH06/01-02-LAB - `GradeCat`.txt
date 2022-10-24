@@ -1,0 +1,138 @@
+^^ LAB - `GradeCat`
+
+## DESCRIPTION
+Write a program that will ask the user for a number (between 0 and 100) and assign a grade based on that number. This program needs to use a `switch` statement.
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top!
+
+* Your output must match the Sample Output *exactly*.
+
+* The code to complete the task should be in a separate method that is called by the `main` method
+
+* Your solution must use a `switch` statement to receive full credit.
+
+* The range is as follows:
+
+^=^
+
+|Grade|Letter|
+|:---------------:|:-:|
+| 90 and greater  | A |
+| 80 and greater  | B |
+| 70 and greater  | C |
+| 65 and greater  | D |
+| 64 and less     | F |
+
+^=
+
+## SAMPLE OUTPUT
+
+```
+Enter a grade (0-100):
+0
+F
+```
+
+<br />
+
+```
+Enter a grade (0-100):
+65
+D
+```
+
+<br />
+
+```
+Enter a grade (0-100):
+90
+A
+```
+
+<br />
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`GradeCat.java`](https://drive.google.com/uc?export=download&id=1DYhO3Q06t0nxhIluwfEu0McAcpKgaCR0)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+
+^acc
+
+^^^ `GradeCat.java`
+
+```java ^copy
+
+/**
+ * Description
+ *
+ * @author Student Name
+ * @since Date Started
+ */
+
+public class GradeCat {
+    public static void main (String[] args) {
+
+        gradeCat();
+
+    }
+
+    public static void gradeCat() {
+
+    
+    // ========== INSERT YOUR CODE HERE ==========
+    
+    // Solution must leverage a switch statement
+    
+
+    
+    
+    
+    
+    // ===========================================        
+        
+
+    }
+}
+
+
+
+
+
+
+// =============== LAB SUMMARY ===============
+
+/*
+1. What was the hardest part of this lab?
+
+
+
+
+2. What will you always remember (never forget) from this exercise?
+
+
+
+*/
+
+```
+
+
+
+^acc-end
+
+
+
+
+
+<br /><br />
