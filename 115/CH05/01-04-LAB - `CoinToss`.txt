@@ -115,8 +115,6 @@ public class CoinToss {
 	
 	public static void headsOrTails() {
 		
-		// computer randomly picks a number 0 or 1
-		int flip = (int)(Math.random()*2);
 		
         // ========== INSERT YOUR CODE HERE ==========
         
