@@ -87,7 +87,7 @@ Download this file and load it into your IDE.
 
 ^acc
 
-^^^ `Compare02.java`
+^^^ `CoinToss.java`
 
 ```java ^copy
 
