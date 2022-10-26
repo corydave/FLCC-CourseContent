@@ -1,7 +1,7 @@
 ^^ LAB - `GradeCat`
 
 ## DESCRIPTION
-Write a program that will ask the user for a number (between 0 and 100) and assign a grade based on that number. This program needs to use a `switch` statement.
+Write a program that will ask the user for a number (between 0 and 100) and assign a grade based on that number.
 
 ## SPECIFICATIONS
 
