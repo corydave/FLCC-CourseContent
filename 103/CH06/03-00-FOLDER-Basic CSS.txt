@@ -6,6 +6,8 @@
 
 * CODE SAMPLE - `daveCSS.html`
 
+* CODE SAMPLE - `messages.html`
+
 * PRESENTATION - CSS [External Sheet]
 
 * **ASSIGNMENT - CSS Webpage**
