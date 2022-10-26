@@ -83,8 +83,8 @@ for x in range(0, 15, 2):
     3. `for_loop_start_end_increment.py`
     4. `for_loop_list.py`
     5. `while_loop_count.py`
-    6. `while_loop_guess.py`
-    7. `while_loop_guess_high_low.py`
-    8. `authenticate.py`
-    9. `high_low_again.py`
+    6. `while_loop_count_nice.py`
+    7. `while_loop_guess.py`
+    8. `while_loop_guess_high_low.py`
+    9. `authenticate.py`
     10. `rectangle_redux.py`
