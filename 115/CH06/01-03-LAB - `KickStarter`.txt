@@ -1,0 +1,153 @@
+^^ LAB - `KickStarter`
+
+## DESCRIPTION
+This program replicates the popular website [KickStarter.com](https://www.kickstarter.com/). Specifically, the project being considered is a tabletop game called "[The Cones of Dunshire](https://www.youtube.com/watch?v=KwmvsHtoLgU)". The funding follows the following model:
+
+* $1 - A "Thank You" email
+* $5 - Your name will be put on the website
+* $20 - You will receive a version of the mobile app
+* $50 - You will receive a copy of the tabletop version
+* $100 - You will receive the Founders Edition version
+* $150 - You will receive a hat
+
+The way that this KickStarter is configured will award all backers with all the rewards at the lower levels, too. For instance, if someone contributes $5, they will receive both the name on their website (the reward for a $5 backing) as well as the email. 
+
+If a backer contributes $100, then they will receive the rewards for the $100 level, the $50 level, the $20 level, the $5 level, and the $1 level.
+
+^=^ ,,
+
+NOTE: Your solution MUST use a switch statement to receive full credit. Refer to §6.3 in your textbook for details on how to use a switch statement.
+
+^=
+
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top!
+
+* Your output should be similar to the Sample Output, but you have creative freedom for the rewards. The last line, `Thanks for backing 'Cones of Dunshire'.` needs to be verbatim.
+
+* The code to complete the task should be in a separate method that is called by the `main` method
+
+* Your solution must use a `switch` statement to receive full credit.
+
+## SAMPLE OUTPUT
+
+```
+Welcome to Kickstarter!
+How much would you like to contribute to the 'Cones of Dunshire' project?
+5
+You will have your name put on a list of backers on our website.
+You will receive a thank-you email.
+
+Thanks for backing 'Cones of Dunshire'.
+```
+
+<br />
+
+```
+Welcome to Kickstarter!
+How much would you like to contribute to the 'Cones of Dunshire' project?
+20
+You will receive a copy of the mobile app version of 'Cones of Dunshire'.
+You will have your name put on a list of backers on our website.
+You will receive a thank-you email.
+
+Thanks for backing 'Cones of Dunshire'.
+
+```
+
+<br />
+
+```
+Welcome to Kickstarter!
+How much would you like to contribute to the 'Cones of Dunshire' project?
+4
+You did not enter a valid amount
+ 
+Thanks for backing 'Cones of Dunshire'.
+```
+
+<br />
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`KickStarter.java`](https://drive.google.com/uc?export=download&id=16FSpe2OObphmGhQvrA0mw-5V6cPuo9oN)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+
+^acc
+
+^^^ `KickStarter.java`
+
+```java ^copy
+
+/**
+ * Description
+ *
+ * @author Student Name
+ * @since Date Started
+ */
+
+import java.util.Scanner;
+
+public class KickStarter {
+    public static void main (String[] args) {
+ 
+
+    // ========== INSERT YOUR CODE HERE ==========
+    
+    
+    
+
+    
+    
+    
+    
+    // ===========================================      
+
+
+    }
+}
+
+
+
+
+
+
+
+
+
+/*
+1. What was the hardest part of this lab?
+
+
+
+
+2. What will you always remember (never forget) from this exercise?
+
+
+
+
+*/
+
+```
+
+
+
+^acc-end
+
+
+
+
+
+<br /><br />
