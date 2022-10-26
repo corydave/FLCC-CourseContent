@@ -1,0 +1,140 @@
+^^ CODE SAMPLE - `messages.html`
+
+```html^copy
+
+<HTML>
+
+	<HEAD>
+		<TITLE>Awesomer Site</TITLE>
+		<STYLE>
+			
+			.message-text {
+				width: 400;
+				padding: 10px;
+				margin-bottom: 10px;
+				border-radius: 15px;
+				border: 1pt solid gray;
+			}
+			
+			.date-time-iphone {
+				font-size: 7pt;
+				color: #ffffff;
+				margin-left: 20px;
+				font-family: arial;
+			}
+			
+			.date-time-iphone:hover {
+				color: #111111;
+			}
+			
+			
+			.date-time-android {
+				font-size: 7pt;
+				color: #111111;
+				margin-left: 250px;
+				font-family: arial;
+			}			
+			
+			.messages {
+				background-color: purple;
+			}
+			
+			.message-container {
+				width: 500px;
+				margin-left: auto;
+				margin-right: auto;
+				border: 4pt solid black;
+				border-radius: 20px;
+				padding-top: 10px;
+				height: 800px;
+				overflow: auto;
+				background-color: orange;
+				<!-- 
+				
+				-->
+			}
+		
+			.name {
+				font-size: 30pt;
+				text-align: center;
+				color: #2c2c2c;
+				font-family: arial;
+			}
+			
+			.iphone {
+				font-family: acme, arial;
+				font-size: 14pt;
+				margin-left: 20px;
+				margin-right: 150px;
+				border: 4pt solid #1e90ff;
+				background-color: #1e90ff;
+				color: #ffffff;
+				border-radius: 25px;
+				padding: 10px;
+				line-height: 1.5;
+			}
+			
+			.iphone:hover {
+				background-color: red;
+			}
+			
+			.android {
+				font-family: acme, arial;
+				font-size: 14pt;
+				margin-left: 150px;
+				margin-right: 20px;
+				border: 4pt solid #29c926;
+				background-color: #29c926;
+				color: #ffffff;
+				border-radius: 25px;
+				padding: 10px;
+				line-height: 1.5;
+			}			
+			
+		</STYLE>
+	</HEAD>
+
+	<BODY>
+	
+
+		<div class="message-container">
+	
+			<div class="name">Dave</div>
+			
+			<hr width="80%" />
+			
+			<div class="date-time-iphone">8:01 AM</div>
+			<p class="iphone">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi risus ipsum, auctor eget augue sit amet, interdum dictum lacus. </p>
+
+			
+			
+			<p class="android">Nam consequat at libero sit amet aliquam. Donec ex mi, commodo tristique tincidunt a, mattis egestas libero. </p>
+			
+			
+
+
+			<p class="iphone">Aliquam iaculis, felis vitae dignissim dictum, tellus diam mollis nunc, id porttitor eros dui eget velit. Sed pellentesque pellentesque posuere.
+			
+			<br /><br />
+			
+			Ut a lorem leo. Nulla cursus urna quis odio feugiat pharetra in eget mauris. </p>
+
+			
+			
+			<p class="android">Phasellus non hendrerit nibh. Aenean neque dolor, auctor non erat quis, tempus viverra purus. </p>
+
+		
+			
+			<p class="iphone">Donec fermentum in velit id laoreet. </p>
+			
+			<center>
+				<input class="message-text" value="Message..." type="text"></input>
+			</center>
+		
+		</div>
+		
+	</BODY>
+
+</HTML>
+
+```
