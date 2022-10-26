@@ -1,0 +1,77 @@
+^^ LAB - `for_loop_list`
+
+## DESCRIPTION
+Building on 1for_loop_start_end1 and using what we covered in the for loops video, we will go one step further and ask the user to pick a number to go up by and then display all the numbers on one line.
+
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top!
+
+* Your output must match the Sample Output *exactly*.
+
+* Be sure to watch both the **[More Print](https://www.youtube.com/watch?v=y_R3xZTWfuo)** and **[For Loops](https://www.youtube.com/watch?v=usC1VA5lzDw)** videos first.
+
+## SAMPLE OUTPUT
+
+
+```
+Starting point: 3
+Ending point: 12
+Increment by: 4
+3 7 11 
+```
+<br />
+
+```
+Starting point: -4
+Ending point: 4
+-4 -3 -2 -1 0 1 2 3 4
+```
+
+<br />
+
+```
+Starting point: 0
+Ending point: 1
+0 1
+```
+
+<br />
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`for_loop_start_end.py`](https://drive.google.com/uc?export=download&id=1PoCuyFOXQUz48C34i3hl72HoW2teEkTU)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+
+```python ^copy
+
+# FILE NAME - for_loop_range.py
+
+# NAME - 
+# DATE - 
+# DESCRIPTION - 
+
+def main():
+    for_loop_range()
+
+def for_loop_range():
+
+
+main()
+
+```
+
+
+
+<br /><br />
