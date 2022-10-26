@@ -11,9 +11,9 @@ doggo_names = ['Maggie', 'Quinnie', 'BB-8', 'Yogi']
 
 ```
 
-In this lab, we will merely print out every item in a list using a `for` loop.
+In this lab, we will merely print out every item in a list using a `for` loop. The code to grab the dog names from the user is already completed. You may want to examine that code since it will is a good example of how to collect information from a user using a `while` loop and then store it in a list.
 
-You will be provided with a *list* of items and you'll only need to print the list. The list will change in each autotest - you'll only need to implement the `print_list()` function.
+You will be provided with a *list* of items and you'll only need to print the list. The list will change in each autotest - you'll only need to implement the `output_names()` function.
 
 ## SPECIFICATIONS
 
@@ -29,22 +29,36 @@ You will be provided with a *list* of items and you'll only need to print the li
 
 
 ```
+Name of doggo: Maggie
+Name of doggo: Quinnie
+Name of doggo: Yogi
+Name of doggo: BB-8
+Name of doggo: DONE
+
+Maggie is awesome.
+Quinnie is awesome.
+Yogi is awesome.
+BB-8 is awesome.
 
 ```
 <br />
 
 ```
-Starting point: -4
-Ending point: 4
--4 -3 -2 -1 0 1 2 3 4
+Name of doggo: a
+Name of doggo: b
+Name of doggo: c
+Name of doggo: DONE
+
+a is awesome.
+b is awesome.
+c is awesome.
 ```
 
 <br />
 
 ```
-Starting point: 0
-Ending point: 1
-0 1
+Name of doggo: DONE
+
 ```
 
 <br />
@@ -55,7 +69,7 @@ You may use the following code as starter code. You will need to change the comm
 
 ^callout file-download
 
-[`for_loop_start_end.py`](https://drive.google.com/uc?export=download&id=1PoCuyFOXQUz48C34i3hl72HoW2teEkTU)
+[`for_loop_list.py`](https://drive.google.com/uc?export=download&id=1AebEllRrFMoVNcURfbYZDMAbqlU5hu27)
 
 Download these files and load them into your IDE.
 
@@ -64,19 +78,34 @@ Download these files and load them into your IDE.
 
 ```python ^copy
 
-# FILE NAME - for_loop_range.py
+# FILE NAME - for_loop_list.py
 
 # NAME - 
 # DATE - 
 # DESCRIPTION - 
 
 def main():
-    for_loop_range()
+    doggo_names = get_doggo_names()
+    output_names(doggo_names)
 
-def for_loop_range():
+def get_doggo_names():
+    name = ''
+    names = []
+    while name != 'DONE':
+        name = input('Name of doggo: ')
+        if name != 'DONE':
+            names.append(name)
+    
+    return names
 
+def output_names(doggo_names):
+
+    print()
+
+    # Insert your code to output the names in the list here:
 
 main()
+
 
 ```
 
