@@ -1,0 +1,82 @@
+^^ LAB - `while_loop_guess`
+
+## DESCRIPTION
+Now it's time to really dig into the potency of the `while` loop. In this lab, we will have the user guess a number. They will keep guessing *until* they get the number.
+
+The "secret number" in this exercise is 33 (and is hard-coded into the software as a constant).
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top!
+
+* Your output must match the Sample Output *exactly*.
+
+## SAMPLE OUTPUT
+
+
+```
+Guess a number: 22
+Guess a number: 44
+Guess a number: 33
+You guessed in 3 tries.
+```
+<br />
+
+```
+Guess a number: 33
+You guessed in 1 tries.
+```
+
+<br />
+
+```
+Guess a number: -9
+Guess a number: 100
+Guess a number: 30
+Guess a number: 32
+Guess a number: 34
+Guess a number: 33
+You guessed in 6 tries.
+```
+
+<br />
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`while_loop_guess.py`](https://drive.google.com/uc?export=download&id=1k2QHVIL6xobL7ZYkJKN7HAg-BJ-mP0GL)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+
+```python ^copy
+
+# FILE NAME - while_loop_guess.py
+
+# NAME - 
+# DATE - 
+# DESCRIPTION - 
+
+def main():
+    while_loop_guess()
+
+def while_loop_guess():
+
+
+
+main()
+
+
+
+```
+
+
+
+<br /><br />
