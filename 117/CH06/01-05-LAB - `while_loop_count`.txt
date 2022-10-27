@@ -1,0 +1,68 @@
+^^ LAB - `while_loop_count`
+
+## DESCRIPTION
+By now you've had experience with `for` loops (we primarily use those for times when code needs to be repeated a pre-defined number of times). 
+
+This lab is the first foray into `while` loops - loops that iterate until a condition happens. And while that is *mostly* true, the `while` loop in this lab actually runs a pre-defined number of times.
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top!
+
+* Your output must match the Sample Output *exactly*.
+
+## SAMPLE OUTPUT
+
+
+```
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+```
+<br />
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`while_loop_count.py`](https://drive.google.com/uc?export=download&id=1jw6ovVFpC_PZRYyn7DiimlZf1mfMSvcC)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+
+```python ^copy
+
+# FILE NAME - while_loop_count.py
+
+# NAME - 
+# DATE - 
+# DESCRIPTION - 
+
+def main():
+    while_loop_count()
+
+def while_loop_count():
+
+
+
+main()
+
+
+```
+
+
+
+<br /><br />
