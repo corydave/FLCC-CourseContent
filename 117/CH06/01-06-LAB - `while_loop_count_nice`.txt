@@ -1,0 +1,66 @@
+^^ LAB - `while_loop_count_nice`
+
+## DESCRIPTION
+In this, our second exploration into `while` loops, we will build on the code from `while_loop_count.py` and decorate the output a bit.
+
+Instead of outputting each number on a separate line we will output them all on one line with a comma and a space between them. 
+
+This lab is designed to focus a bit more on output while still relying on a `while` loop as the mechanism for driving the code.
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top!
+
+* Your output must match the Sample Output *exactly*.
+
+## SAMPLE OUTPUT
+
+^=^ ,
+
+**NOTE:** You may find it easier to output numbers 0-8 on one line and then output the 9 after the `while` loop terminates.
+
+^=
+
+```
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+```
+<br />
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`while_loop_count_nice.py`](https://drive.google.com/uc?export=download&id=1_reSLl_sv3hiLtji1qrfO_Db0mPMVBaR)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+
+```python ^copy
+
+# FILE NAME - while_loop_count_nice.py
+
+# NAME - 
+# DATE - 
+# DESCRIPTION - 
+
+def main():
+    while_loop_count_nice()
+
+def while_loop_count_nice():
+
+
+
+main()
+
+
+```
+
+
+
+<br /><br />
