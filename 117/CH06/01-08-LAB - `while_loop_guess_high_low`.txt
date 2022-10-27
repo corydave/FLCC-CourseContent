@@ -1,0 +1,100 @@
+^^ LAB - `while_loop_guess_high_low`
+
+## DESCRIPTION
+Building on `while_loop_guess_high_low`, we will add a feature - we'll tell the user if their guess is too high or too low. This means we'll have to introduce logic (probably an `if-else` statement. 
+
+The "secret number" in this exercise is (again) 33 (and is hard-coded into the software as a constant).
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top!
+
+* Your output must match the Sample Output *exactly*.
+
+## SAMPLE OUTPUT
+
+
+```
+Guess a number: 22
+Your guess is too low.
+
+Guess a number: 44
+Your guess is too high.
+
+Guess a number: 33
+
+You guessed in 3 tries.
+```
+<br />
+
+```
+Guess a number: 33
+
+You guessed in 1 tries.
+```
+
+<br />
+
+```
+Guess a number: -9
+Your guess is too low.
+
+Guess a number: 100
+Your guess is too high.
+
+Guess a number: 30
+Your guess is too low.
+
+Guess a number: 32
+Your guess is too low.
+
+Guess a number: 34
+Your guess is too high.
+
+Guess a number: 33
+
+You guessed in 6 tries.
+```
+
+<br />
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`while_loop_guess_high_low.py`](https://drive.google.com/uc?export=download&id=1EhG8boZRylUZMmRMZ38x8SO5A9Rws-28)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+
+```python ^copy
+
+# FILE NAME - while_loop_guess_high_low.py
+
+# NAME - 
+# DATE - 
+# DESCRIPTION - 
+
+SECRET_NUMBER = 33
+
+def main():
+    high_low()
+
+def high_low():
+
+
+    
+
+main()
+
+```
+
+
+
+<br /><br />
