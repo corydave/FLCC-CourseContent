@@ -1,0 +1,97 @@
+^^ LAB - `authenticate`
+
+## DESCRIPTION
+This lab is probably the purest example of `while` loops. In this exercise, the user keeps typing in a password until they get it right.
+
+Obviously, this is insecure (because systems should not allow for unlimited password attempts, passwords should be stored as hashes, and passwords should not appear as cleartext when typed in), but this is just an academic exercise.
+
+The password is `tooManySecrets` and is hard-coded as a constant.
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top!
+
+* Your output must match the Sample Output *exactly*.
+
+## SAMPLE OUTPUT
+
+
+```
+Enter password: a
+
+Password does not match.
+Enter password: b
+
+Password does not match.
+Enter password: tooManySecrets
+
+Access granted.
+```
+<br />
+
+```
+Enter password: tooManySecrets
+
+Access granted.
+```
+
+<br />
+
+```
+Enter password: toomanysecrets
+
+Password does not match.
+Enter password: TOOMANYSECRETS
+
+Password does not match.
+Enter password: too_Many_Secrets
+
+Password does not match.
+Enter password: tooManySecrets
+
+Access granted.
+```
+
+<br />
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`authenticate.py`](https://drive.google.com/uc?export=download&id=1Q0J5U86-LFuNH2-t7QYgJexh5Z7xa89B)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+
+```python ^copy
+
+# FILE NAME - authenticate.py
+
+# NAME - 
+# DATE - 
+# DESCRIPTION - 
+
+PASSWORD = 'tooManySecrets'
+
+def main():
+    authenticate()
+
+def authenticate():
+
+    
+
+    
+main()
+
+
+```
+
+
+
+<br /><br />
