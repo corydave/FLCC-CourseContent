@@ -1,0 +1,160 @@
+^^ PROJECT - `StringLab02`
+
+## DESCRIPTION
+`String`s in Java are important - oftentimes capturing user input involves using a `String`. For us, a `String` is one of our first exposures to classes and objects in Java. Unlike primitive data types which just hold data, objects can perform different tasks with the data they hold. For instance, a `String` can convert itself to all uppercase (or lowercase).
+
+```java
+String name = "Dave";
+System.out.println(name.toUpperCase());    // DAVE
+```
+
+It can also trim all the leading and trailing whitespace from itself. It can report its length (number of characters). 
+
+```java
+String name = " Dave ";
+System.out.println(name.trim());           // Dave
+System.out.println(name.length());         // 6
+System.out.println(name.trim().length());  // 4
+```
+
+It can even see if specific characters are contained in it. 
+
+```java
+String name = "Dave";
+System.out.println(name.indexOf('a'));     // 1
+// Don't forget that Strings are zero-indexed!
+```
+<br />
+
+There are many things that a String can do - check out the [Relevant API](https://docs.google.com/document/d/1gkG_LhtL31_BIHHZ-e5C-Ug5z1t6qp4R1XNCNuIk-0c/edit?usp=sharing) for more functionality, as well as [Section 4.3](https://docs.google.com/document/d/1-FmWZFelbIoXxZuQifn5Xv1CceJwMijJnf7A3rjghOI/edit?usp=sharing) in the textbook.
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top!
+
+* Your output should be similar to the Sample Output, but you have creative freedom for the rewards. The last line, `Thanks for backing 'Cones of Dunshire'.` needs to be verbatim.
+
+* The code to complete the task should be in a separate method that is called by the `main` method
+
+* Your solution must use a `switch` statement to receive full credit.
+
+## SAMPLE OUTPUT
+
+```
+Welcome to Kickstarter!
+How much would you like to contribute to the 'Cones of Dunshire' project?
+5
+You will have your name put on a list of backers on our website.
+You will receive a thank-you email.
+
+Thanks for backing 'Cones of Dunshire'.
+```
+
+<br />
+
+```
+Welcome to Kickstarter!
+How much would you like to contribute to the 'Cones of Dunshire' project?
+20
+You will receive a copy of the mobile app version of 'Cones of Dunshire'.
+You will have your name put on a list of backers on our website.
+You will receive a thank-you email.
+
+Thanks for backing 'Cones of Dunshire'.
+
+```
+
+<br />
+
+```
+Welcome to Kickstarter!
+How much would you like to contribute to the 'Cones of Dunshire' project?
+4
+You did not enter a valid amount
+ 
+Thanks for backing 'Cones of Dunshire'.
+```
+
+<br />
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`KickStarter.java`](https://drive.google.com/uc?export=download&id=16FSpe2OObphmGhQvrA0mw-5V6cPuo9oN)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+
+^acc
+
+^^^ `KickStarter.java`
+
+```java ^copy
+
+/**
+ * Description
+ *
+ * @author Student Name
+ * @since Date Started
+ */
+
+import java.util.Scanner;
+
+public class KickStarter {
+    public static void main (String[] args) {
+ 
+
+    // ========== INSERT YOUR CODE HERE ==========
+    
+    
+    
+
+    
+    
+    
+    
+    // ===========================================      
+
+
+    }
+}
+
+
+
+
+
+
+
+
+
+/*
+1. What was the hardest part of this lab?
+
+
+
+
+2. What will you always remember (never forget) from this exercise?
+
+
+
+
+*/
+
+```
+
+
+
+^acc-end
+
+
+
+
+
+<br /><br />
