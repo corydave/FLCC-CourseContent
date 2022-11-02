@@ -28,56 +28,410 @@ System.out.println(name.indexOf('a'));     // 1
 
 There are many things that a String can do - check out the [Relevant API](https://docs.google.com/document/d/1gkG_LhtL31_BIHHZ-e5C-Ug5z1t6qp4R1XNCNuIk-0c/edit?usp=sharing) for more functionality, as well as [Section 4.3](https://docs.google.com/document/d/1-FmWZFelbIoXxZuQifn5Xv1CceJwMijJnf7A3rjghOI/edit?usp=sharing) in the textbook.
 
+## WALKTHROUGH
+
+This software has three phases:
+
+* **STEP 1: Obtain a phrase from the user**
+
+    Prompt the user for a phrase and store their input into a String.
+
+<br />
+
+* **STEP 2: Output a menu and capture a choice from the user**
+
+    Display the menu (as shown in the sample output) and capture the user’s choice.
+
+<br />
+
+* **STEP 3: Output the result of the operation the user selected**
+
+    Using if statements (perhaps if-else), perform the indicated task on the phrase the user entered. Note that some tasks (such as choice 6 - substring) may have more than one component.
+
+
 ## SPECIFICATIONS
 
 * Starter code has been provided for this lab.
 
 * Add a comment with your name, date, and program description at the top!
 
-* Your output should be similar to the Sample Output, but you have creative freedom for the rewards. The last line, `Thanks for backing 'Cones of Dunshire'.` needs to be verbatim.
+* Pay particular attention to the formatting - the output on the screen should look identical to the output in the sample output. All of the sample output shown is from using the input `String` “`this is a test`”, so the sample output will show `14` and `13` as the length and maximum index of the `String`. Those numbers will change based on the input `String` from the user. If the `String` had been “`Java is Life`”, then the numbers for length and maximum index would be `12` and `11`, respectively.
 
 * The code to complete the task should be in a separate method that is called by the `main` method
 
-* Your solution must use a `switch` statement to receive full credit.
+* Note that the sample output shows many different outcomes as a way to demonstrate every outcome. Your software needs to run only once, and each choice needs to fully work. Be sure to test your code thoroughly before submitting.
+
+* There should be a default case that outputs the following message if the user does not choose a valid option from the menu (this needs to be verbatim): `Not a valid number!`
+
+^=^ , 9
+
+<center>
+
+**NOTES**
+
+</center>
+
+* The input phrase for these examples is always “`this is a test`”. The test cases that will be used to grade the program contain other phrases, so make sure that your software is not hard-coded to only function for the phrase that is demonstrated here. For example, menu option 2 (`charAt`) is shown asking for a character between `0` and `13`. These values will change when other input phrases are used.
+
+* You will likely experience a problem using the `Scanner` after reading in a primitive data type (that is, if you want to read in a `String` after reading in an `int`). There is a solution - refer to the `Scanner` section of the [Relevant API](https://docs.google.com/document/d/1gkG_LhtL31_BIHHZ-e5C-Ug5z1t6qp4R1XNCNuIk-0c/edit?usp=sharing) (Pro-Tip) or [Section 4.4](https://docs.google.com/document/d/1-FmWZFelbIoXxZuQifn5Xv1CceJwMijJnf7A3rjghOI/edit?usp=sharing) in the textbook (Quirky Behavior).
+
+* Recall that an `if-else` structure will always execute exactly one result.
+
+^=
 
 ## SAMPLE OUTPUT
 
 ```
-Welcome to Kickstarter!
-How much would you like to contribute to the 'Cones of Dunshire' project?
-5
-You will have your name put on a list of backers on our website.
-You will receive a thank-you email.
+Please enter a phrase:
+this is a test
 
-Thanks for backing 'Cones of Dunshire'.
+1. Find the length of the string
+2. Perform charAt
+3. Perform equals
+4. Perform compareTo
+5. Perform indexOf
+6. Perform substring
+7. Perform toLowerCase
+8. Perform toUpperCase
+
+Please make a selection:
+1
+
+The length of the phrase is 14
 ```
 
 <br />
 
 ```
-Welcome to Kickstarter!
-How much would you like to contribute to the 'Cones of Dunshire' project?
-20
-You will receive a copy of the mobile app version of 'Cones of Dunshire'.
-You will have your name put on a list of backers on our website.
-You will receive a thank-you email.
+Please enter a phrase:
+this is a test
 
-Thanks for backing 'Cones of Dunshire'.
+1. Find the length of the string
+2. Perform charAt
+3. Perform equals
+4. Perform compareTo
+5. Perform indexOf
+6. Perform substring
+7. Perform toLowerCase
+8. Perform toUpperCase
 
+Please make a selection:
+2
+
+Enter a number between 0 and 13:
+8
+
+The character at index 8 is 'a'
 ```
 
 <br />
 
 ```
-Welcome to Kickstarter!
-How much would you like to contribute to the 'Cones of Dunshire' project?
+Please enter a phrase:
+this is a test
+
+1. Find the length of the string
+2. Perform charAt
+3. Perform equals
+4. Perform compareTo
+5. Perform indexOf
+6. Perform substring
+7. Perform toLowerCase
+8. Perform toUpperCase
+
+Please make a selection:
+3
+
+Enter a phrase that will be compared with "this is a test":
+this is a test
+
+The two phrases DO have the same sequence of characters.
+```
+
+<br />
+
+```
+Please enter a phrase:
+this is a test
+
+1. Find the length of the string
+2. Perform charAt
+3. Perform equals
+4. Perform compareTo
+5. Perform indexOf
+6. Perform substring
+7. Perform toLowerCase
+8. Perform toUpperCase
+
+Please make a selection:
+3
+
+Enter a phrase that will be compared with "this is a test":
+this is NOT a test
+
+The two phrases DO NOT have the same sequence of characters.
+```
+
+<br />
+
+```
+Please enter a phrase:
+this is a test
+
+1. Find the length of the string
+2. Perform charAt
+3. Perform equals
+4. Perform compareTo
+5. Perform indexOf
+6. Perform substring
+7. Perform toLowerCase
+8. Perform toUpperCase
+
+Please make a selection:
 4
-You did not enter a valid amount
- 
-Thanks for backing 'Cones of Dunshire'.
+
+Enter a phrase that will be compared with "this is a test":
+this is a test
+
+The two phrases are equivalent.
 ```
 
 <br />
+
+```
+Please enter a phrase:
+this is a test
+
+1. Find the length of the string
+2. Perform charAt
+3. Perform equals
+4. Perform compareTo
+5. Perform indexOf
+6. Perform substring
+7. Perform toLowerCase
+8. Perform toUpperCase
+
+Please make a selection:
+4
+
+Enter a phrase that will be compared with "this is a test":
+abc
+
+Alphabetically, "this is a test" comes after "abc"
+```
+
+<br />
+
+```
+Please enter a phrase:
+this is a test
+
+1. Find the length of the string
+2. Perform charAt
+3. Perform equals
+4. Perform compareTo
+5. Perform indexOf
+6. Perform substring
+7. Perform toLowerCase
+8. Perform toUpperCase
+
+Please make a selection:
+4
+
+Enter a phrase that will be compared with "this is a test":
+xyz
+
+Alphabetically, "this is a test" comes before "xyz"
+```
+
+<br />
+
+```
+Please enter a phrase:
+this is a test
+
+1. Find the length of the string
+2. Perform charAt
+3. Perform equals
+4. Perform compareTo
+5. Perform indexOf
+6. Perform substring
+7. Perform toLowerCase
+8. Perform toUpperCase
+
+Please make a selection:
+5
+
+Enter a String to search "this is a test" for:
+hi
+
+The first occurrence of "hi" is at index 1
+```
+
+<br />
+
+```
+Please enter a phrase:
+this is a test
+
+1. Find the length of the string
+2. Perform charAt
+3. Perform equals
+4. Perform compareTo
+5. Perform indexOf
+6. Perform substring
+7. Perform toLowerCase
+8. Perform toUpperCase
+
+Please make a selection:
+5
+
+Enter a String to search "this is a test" for:
+zzz
+
+"zzz" is not in the phrase "this is a test"
+```
+
+<br />
+
+```
+Please enter a phrase:
+this is a test
+
+1. Find the length of the string
+2. Perform charAt
+3. Perform equals
+4. Perform compareTo
+5. Perform indexOf
+6. Perform substring
+7. Perform toLowerCase
+8. Perform toUpperCase
+
+Please make a selection:
+6
+
+Choose one of the methods:
+1. Create a substring from a selected index until the end
+2. Create a substring from a selected index until another selected index
+
+Enter selection:
+1
+
+Which index (between 0 and 13) would you like to start with?
+10
+
+The new phrase is: "test"
+```
+
+<br />
+
+```
+Please enter a phrase:
+this is a test
+
+1. Find the length of the string
+2. Perform charAt
+3. Perform equals
+4. Perform compareTo
+5. Perform indexOf
+6. Perform substring
+7. Perform toLowerCase
+8. Perform toUpperCase
+
+Please make a selection:
+6
+
+Choose one of the methods:
+1. Create a substring from a selected index until the end
+2. Create a substring from a selected index until another selected index
+
+Enter selection:
+2
+
+Which index (between 0 and 13) would you like to start with?
+2
+
+Which index (between 2 and 13) would you like to end with?
+7
+
+The new phrase is: "is is"
+```
+
+<br />
+
+```
+Please enter a phrase:
+this is a test
+
+1. Find the length of the string
+2. Perform charAt
+3. Perform equals
+4. Perform compareTo
+5. Perform indexOf
+6. Perform substring
+7. Perform toLowerCase
+8. Perform toUpperCase
+
+Please make a selection:
+7
+
+All lowercase looks like this: "this is a test"
+```
+
+<br />
+
+```
+Please enter a phrase:
+this is a test
+
+1. Find the length of the string
+2. Perform charAt
+3. Perform equals
+4. Perform compareTo
+5. Perform indexOf
+6. Perform substring
+7. Perform toLowerCase
+8. Perform toUpperCase
+
+Please make a selection:
+8
+
+All uppercase looks like this: "THIS IS A TEST"
+```
+
+<br />
+
+```
+Please enter a phrase:
+this is a test
+
+1. Find the length of the string
+2. Perform charAt
+3. Perform equals
+4. Perform compareTo
+5. Perform indexOf
+6. Perform substring
+7. Perform toLowerCase
+8. Perform toUpperCase
+
+Please make a selection:
+42
+
+Not a valid number!
+```
+
+<br />
+
+## RESOURCES
+
+For examples of how to use variables of type String, check out:
+* The [Relevant API](https://docs.google.com/document/d/1gkG_LhtL31_BIHHZ-e5C-Ug5z1t6qp4R1XNCNuIk-0c/edit?usp=sharing)
+* The actual [Java API for `String`](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)
+
+|STRING|ACTION|SAMPLE CODE|OUTPUT|
+|:-----|:-----|:----------|:-----|
+|`\n`|New Line|`System.out.print("a\nb");`|`a`<br />`b`|
+|`\"`|Double Quotes|`System.out.print("a and \"b\".");`|`a and "b".`|
 
 ## STARTER CODE
 
@@ -85,7 +439,7 @@ You may use the following code as starter code. You will need to change the comm
 
 ^callout file-download
 
-[`KickStarter.java`](https://drive.google.com/uc?export=download&id=16FSpe2OObphmGhQvrA0mw-5V6cPuo9oN)
+[`StringLab02.java`](https://drive.google.com/uc?export=download&id=17F8A-LgZi4F8rxYDjgNvp4HITOjCaj-9)
 
 Download these files and load them into your IDE.
 
@@ -107,9 +461,18 @@ Download these files and load them into your IDE.
 
 import java.util.Scanner;
 
-public class KickStarter {
+public class StringLab02 {
+    
     public static void main (String[] args) {
- 
+    	
+    	stringMethod();  // do all the String things
+    }
+    
+    // this method does all the String things
+    public static void stringMethod()
+    {
+        
+        Scanner sc = new Scanner(System.in);
 
     // ========== INSERT YOUR CODE HERE ==========
     
@@ -120,10 +483,13 @@ public class KickStarter {
     
     
     
-    // ===========================================      
+    // ===========================================		
 
 
+        sc.close();
+        
     }
+    
 }
 
 
@@ -133,6 +499,7 @@ public class KickStarter {
 
 
 
+// =============== LAB SUMMARY ===============
 
 /*
 1. What was the hardest part of this lab?
@@ -146,7 +513,6 @@ public class KickStarter {
 
 
 */
-
 ```
 
 
