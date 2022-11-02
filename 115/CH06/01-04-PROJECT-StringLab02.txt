@@ -448,7 +448,7 @@ Download these files and load them into your IDE.
 
 ^acc
 
-^^^ `KickStarter.java`
+^^^ `StringLab02.java`
 
 ```java ^copy
 
