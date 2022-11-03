@@ -1,4 +1,4 @@
-<p style="display:none;">We're making a newsletter!"</p>
+<p style="display:none;">We're making a newsletter!</p>
 
 ^^ Communication
 
