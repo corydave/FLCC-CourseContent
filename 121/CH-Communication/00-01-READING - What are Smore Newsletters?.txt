@@ -1,0 +1,18 @@
+^^ READING - What are Smore Newsletters?
+
+
+^tabs 1. What are Smore Newsletters?, 2. Example of a Smore
+
+### READING - What are Smore Newsletters?
+
+<iframe src="https://docs.google.com/document/d/11OROpBRDlckGp4ASDDPLBRnxqpMlFPjGEwY7q0dgvDM/preview" width="100%" height="800" frameborder="0"></iframe>
+
+^tab
+
+### EXAMPLE - Sample Smore
+
+<iframe width="100%" height="800" src="https://www.smore.com/h1wag-smore-examples?embed=1" title="Smore Examples" scrolling="auto" frameborder="0" allowtransparency="true" style="min-width: 320px;border: none;"></iframe>
+
+^tabs-end
+
+<br /><br />
