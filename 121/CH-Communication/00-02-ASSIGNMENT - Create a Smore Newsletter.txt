@@ -6,7 +6,7 @@ Your job is to make a Smore! You get to pick the scenario - examples include:
 
 * You're a first grade teacher sending home a newsletter to parents informing them what the current unit is
 * You're a fifth grade teacher sending home a newsletter to parents letting them know what will be happening this week in class
-* You're a kindergarten teacher sending home a newsletter to parents in the beginning of the year giving them some background about you and what to expect this year (school supplies!)
+* You're a kindergarten teacher sending home a newsletter to parents at the beginning of the year giving them some background about you and what to expect this year (school supplies!)
 * You can make up your own scenario (just make sure to tell me in the submission!)
 
 Note that you do not have to be locked into a first grade teacher or a fifth grade teacher - you get to choose!
