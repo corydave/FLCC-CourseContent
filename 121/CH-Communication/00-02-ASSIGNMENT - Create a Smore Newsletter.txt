@@ -1,0 +1,50 @@
+^^ ASSIGNMENT - Create a Smore Newsletter
+
+# DESCRIPTION
+
+Your job is to make a Smore! You get to pick the scenario - examples include:
+
+* You're a first grade teacher sending home a newsletter to parents informing them what the current unit is
+* You're a fifth grade teacher sending home a newsletter to parents letting them know what will be happening this week in class
+* You're a kindergarten teacher sending home a newsletter to parents in the beginning of the year giving them some background about you and what to expect this year (school supplies!)
+* You can make up your own scenario (just make sure to tell me in the submission!)
+
+Note that you do not have to be locked into a first grade teacher or a fifth grade teacher - you get to choose!
+
+<center>
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/XemN4MFjVFs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Link to video](https://www.youtube.com/watch?v=XemN4MFjVFs)
+
+</center>
+
+# SPECIFICATIONS
+
+Your newsletter needs to include:
+
+* **Title** - A title is a good way to break up text. Make sure that you indicate different portions of your newsletter with titles.
+
+* **Meaningful text** - really flesh this out! Lean into this! You're a teacher communicating with parents of your students. Be professional and informative!
+
+* **At least three images** - You can use unsplash or pixabay (or any other properly licensed images). Sure, you could just do three single images. But spice it up! Make this beautiful! Be graphical!
+
+* **An image gallery** - Create a gallery of images! For instance, if your newsletter is about the current unit of study (let's say "Panda Bears"), then include a gallery of pictures of pandas, bamboo, etc.
+
+* **A video**  - A video from YouTube or Vimeo is fine, but if you want to make your own, even better!
+
+* **Button** - Include no fewer than two buttons (buttons are usually links). Going back to the panda example, maybe one button will go to the Wikipedia article on pandas, and maybe one button will go to the World Wildlife Foundation.
+
+* **Event** - Include a sweet event! It should be related to the content of your newsletter. If you are doing a "Welcome to the School Year" newsletter, then you can include an event to the school's open house. If you are doing a newsletter about panda bears, maybe your event is a field trip to the zoo!
+
+While you don't have to do the following, there are some really cool (and fun!) things you can do, too:
+* Add audio (scroll down to the bottom while in Edit mode)
+* Add a form (scroll down to the bottom while in Edit mode)
+* Add a bio (scroll down to the bottom while in Edit mode)
+* Change the background
+* Change the theme
+* Change the fonts
+* Embed some other content from somewhere else
+* Go to Newsletter Settings and dork around
+
+To submit your work, you will need to tell me what grade you are teaching in this scenario and the intention of the newsletter (is it "Back to School", is it "Happenings this week", is it "Here's what we're learning this unit", etc.) and the link to the Smore. Make sure to test the URL incognito before sending it.
