@@ -1,0 +1,30 @@
+^^ ASSIGNMENT - Create a Pre-Filled Link [SEL] with Google Forms
+
+# DESCRIPTION
+
+Check out this Google Form below:
+
+<center>
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSebNKRw96wQLebDsE_5rnv8LqOFUr-NTqV_V1fe-r2z9PJqkA/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+</center>
+
+<hr />
+
+To demonstrate your experience creating Google Forms, your job is to create a Google Form and send it to me.
+
+<center>
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/1ItUv3VypPw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Link to video](https://www.youtube.com/watch?v=1ItUv3VypPw)
+
+</center>
+
+# SPECIFICATIONS
+
+* Must have at least two different types of questions
+* Must be something you would use with your students (an SEL check-in, a "get to know you" form, or something similar)
+* Must be pre-filled with "Dave Ghidiu" in the spot where you put the name
+Just paste in the link to the pre-filled form :)
