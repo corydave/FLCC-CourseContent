@@ -8,7 +8,7 @@
 list_of_grades = [90, 100, 21, 96, 88]
 ```
 
-This list of grades can increase (so as the semester goes on, more grades can be added:
+This list of grades can increase (so as the semester goes on, more grades can be added):
 
 ```python
 list_of_grades.append(79)
