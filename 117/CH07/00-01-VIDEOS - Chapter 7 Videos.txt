@@ -1,0 +1,22 @@
+^^ VIDEOS - Chapter 7 Videos
+
+<center>
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/eIMwSQB0h54" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Link to video](https://www.youtube.com/watch?v=eIMwSQB0h54)
+
+<br />
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/pgz707MBHto" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Link to video](https://www.youtube.com/watch?v=pgz707MBHto)
+
+<br />
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/pLdcHse7lQ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[Link to video](https://www.youtube.com/watch?v=pLdcHse7lQ8)
+
+
+</center>
