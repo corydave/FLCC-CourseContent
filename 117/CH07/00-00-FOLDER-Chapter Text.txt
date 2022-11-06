@@ -1,0 +1,47 @@
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vQ2Bs3xGIBAvHkZNGksZrZUm4SGKpi34tQF2nZvnWgHPZ191btqbKBOQ5m_U2MlhE2_FS9VE8tSeqDu/pub?w=907&amp;h=385" alt="A list of names." title="A list of names." width="0" height="0">
+
+^^ Lists
+
+*Lists* are a type of variable that can hold multiple values (we can access any particular values in the list whenever we want). Consider these examples:
+
+```python
+list_of_grades = [90, 100, 21, 96, 88]
+```
+
+This list of grades can increase (so as the semester goes on, more grades can be added:
+
+```python
+list_of_grades.append(79)
+```
+
+There are cool things we can do with lists - like sorting or reversing. We can add or remove grades, too.
+
+# Prediction
+What do you think the output will be when this code is executed?
+
+```python
+
+list_of_grades = [90, 100, 21, 96, 88]
+list_of_grades.append(79)
+list_of_grades.sort()
+print(list_of_grades)
+```
+
+
+for x in range(0, 15, 2):
+    print(x)
+
+```
+
+# Experiences for this chapter
+
+1. VIDEOS - Chapter 07 Videos
+2. LABS
+    1. `output_values`
+    2. `reverse_values`
+    3. `double_values`
+    4. `sort_values`
+    5. `output_left`
+    6. `output_right`
+3. PROJECTS
+    1. `fortune_teller`
