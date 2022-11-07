@@ -23,13 +23,13 @@ One thing we discovered is that you need to include `break` statements at the en
 
 <br />
 
-**Due on Monday, November 2 at 9:00 am:**
+**Due on Wednesday, November 2 at 9:00 am:**
 
 * LAB - `Quotes`
 * LAB - `GradeCat`
 * LAB - `KickStarter`
 
-**Due on Monday, November 9 at 9:00 am:**
+**Due on Wednesday, November 9 at 9:00 am:**
 
 * PROJECT - `StringLab02`
 
