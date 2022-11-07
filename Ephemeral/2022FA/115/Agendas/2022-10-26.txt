@@ -1,0 +1,36 @@
+AGENDA - 2022-10-26
+=============
+
+^callout info-circle
+
+### Information
+
+Today we looked `switch` statements. They are a bit easier to read than a bunch of `if-else` statements. 
+
+One thing we discovered is that you need to include `break` statements at the end of every `case` (unless you want the code to *fall through*.
+
+^callout-end
+
+^callout file
+
+*^icon b-github* &nbsp;&nbsp;[`ComplexSelections.java`](https://github.com/corydave/FLCC_CSC_115/blob/main/2022FA/2022-10-26/ComplexSelection.java)
+
+^callout-end
+
+^callout calendar-alt
+
+### What's due
+
+<br />
+
+**Due on Monday, November 2 at 9:00 am:**
+
+* LAB - `Quotes`
+* LAB - `GradeCat`
+* LAB - `KickStarter`
+
+**Due on Monday, November 9 at 9:00 am:**
+
+* PROJECT - `StringLab02`
+
+^callout-end
