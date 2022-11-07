@@ -1,0 +1,40 @@
+AGENDA - 2022-11-02
+=============
+
+^callout info-circle
+
+### Information
+
+Time to check out *methods*! 
+
+Methods are helpful for a few different reasons:
+
+* They prevent **`DRY`** code (*Don't Repeat Yourself*).
+
+* They tuck away code you will reuse in a different part of the program.
+
+* They can take in parameters (arguments) and do stuff with them
+
+There are a few different ways to use methods - be aware of the *return types* in the method signature. Also, don't forget that we *overloadded* methods by making some methods with the same name (but different parameter lists)
+
+^callout-end
+
+^callout file
+
+*^icon b-github* &nbsp;&nbsp;[`MethodsDemo.java`](https://github.com/corydave/FLCC_CSC_115/blob/main/2022FA/2022-11-02/MethodsDemo.java)
+
+*^icon b-github* &nbsp;&nbsp;[`DiceRolls.java`](https://github.com/corydave/FLCC_CSC_115/blob/main/2022FA/2022-11-02/DiceRolls.java)
+
+^callout-end
+
+^callout calendar-alt
+
+### What's due
+
+<br />
+
+**Due on Wednesday, November 9 at 9:00 am:**
+
+* PROJECT - `StringLab02`
+
+^callout-end
