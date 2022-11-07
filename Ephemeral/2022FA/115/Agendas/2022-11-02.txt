@@ -35,6 +35,8 @@ There are a few different ways to use methods - be aware of the *return types* i
 
 **Due on Wednesday, November 9 at 9:00 am:**
 
+* READING GUIDE #7
+
 * PROJECT - `StringLab02`
 
 ^callout-end
