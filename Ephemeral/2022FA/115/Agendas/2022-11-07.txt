@@ -15,6 +15,10 @@ LAB DAY! There are a few labs due next week. Be sure to *ask questions* (either 
 
 <br />
 
+**Due on Wednesday, November 9 at 9:00 am:**
+
+* READING GUIDE #7
+
 **Due on Monday, November 14 at 9:00 am:**
 
 * LAB - `Circles03`
