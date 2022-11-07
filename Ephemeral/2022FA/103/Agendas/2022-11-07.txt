@@ -1,0 +1,30 @@
+AGENDA - 2022-11-07
+=============
+
+^callout info-circle
+
+### Information
+
+Today we looked took a tour of [Twine](https://twinery.org/). We made a really crummy game called `Zork Adjace`. The game wasn't fun, or coherent, but boy did it highlight the stuff we can do in Twine!
+
+^callout-end
+
+^callout download
+
+[`Zork Adjace`](https://drive.google.com/uc?export=download&id=15GB5UkomjP1YbFKaOpHdBjxz8FRsNek90gTfgmhEZoM)
+
+^callout-end
+
+
+^callout calendar-alt
+
+### What's due
+
+<br />
+
+**Due on Monday, November 14 at 9:00 am:**
+
+* ASSIGNMENT - Twine Game
+
+
+^callout-end
