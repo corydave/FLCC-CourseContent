@@ -7,6 +7,16 @@ AGENDA - 2022-11-07
 
 Today we looked took a tour of [Twine](https://twinery.org/). We made a really crummy game called `Zork Adjace`. The game wasn't fun, or coherent, but boy did it highlight the stuff we can do in Twine!
 
+We also talked about ELIZA, a 1966 "AI" program:
+
+<center>
+
+<iframe src="https://psych.fullerton.edu/mbirnbaum/psych101/eliza.htm" width="100%" height="400px" frameborder="1"></iframe>
+
+[[Link to game]](https://psych.fullerton.edu/mbirnbaum/psych101/eliza.htm)
+
+</center>
+
 ^callout-end
 
 ^callout download
