@@ -1,0 +1,132 @@
+^^ LAB - `Circles03`
+
+## DESCRIPTION
+Using the built-in `Math.PI` constant, find the circumference and area of a circle with a radius that is provided by the user. Also provide the rounded approximation of the area (to the nearest integer). Note: this is NOT truncating. 
+
+This will be an updated version of our earlier `Circles` lab - make it better by using more methods!
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top!
+
+* Your output must match the sample output exactly (last few digits may differ, reg. ex. used) 
+
+* The code to complete the task should be in a separate method that is called by the `main` method
+
+* To receive full credit, your code must contain methods for each major step in the program. Each calculation should be done in its own non-`void` method, and a method should be used to display the final results.
+
+* Using the `Scanner` to read keyboard input from the user can be done in the `main` method.
+
+* Be sure to start every method with a comment that includes a description of what the method does/returns! Also include comments throughout your `main` method.
+
+## SAMPLE OUTPUT
+
+```
+Radius:
+10
+CIRCUMFERENCE = 62.83185307179586
+AREA = 314.1592653589793
+ROUNDED AREA = 314
+```
+
+<br />
+
+```
+Radius:
+5.9
+CIRCUMFERENCE = 37.07079331235956
+AREA = 109.35884027146072
+ROUNDED AREA = 109
+```
+
+<br />
+
+```
+Radius:
+6.1
+CIRCUMFERENCE = 38.32743037379547
+AREA = 116.89866264007618
+ROUNDED AREA = 117
+```
+
+<br />
+
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`Circles03.java`](https://drive.google.com/uc?export=download&id=1OwRfKTLqjg7A_DqXjnt6tktphQyO73SK)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+
+^acc
+
+^^^ `Circles03.java`
+
+```java ^copy
+
+/**
+ * Description
+ *
+ * @author Student Name
+ * @since Date Started
+ */
+ 
+public class Circles03 {
+
+    // ========== INSERT YOUR CODE HERE ==========
+    
+    // You should have methods to:
+    //  - Calculate the circumference
+    //  - Calculate the area
+    //  - Calculate the rounded area
+    
+
+    
+    
+    
+    
+    // ===========================================        
+
+}
+
+
+
+
+
+
+
+// =============== LAB SUMMARY ===============
+
+/*
+1. What was the hardest part of this lab?
+
+
+
+
+2. What will you always remember (never forget) from this exercise?
+
+
+
+
+*/
+
+```
+
+
+
+^acc-end
+
+
+
+
+
+<br /><br />
