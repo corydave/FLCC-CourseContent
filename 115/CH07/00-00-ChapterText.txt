@@ -1,0 +1,54 @@
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vTb_JI32ZsjrrgojJGPR04y_r6v3URUqZ4SxeK3nEQ5Rpz_716j2DostHvNDyxyyFaxpo0ImxKSuGRu/pub?w=900&amp;h=380" style="display: none; max-width: 100%;" alt="An icon of a flowchart" title="An icon of a flowchart" width="0" height="0">
+
+^^ CHAPTER 7 - Methods
+
+In this chapter we will look at different ways *methods* can be used. Here are a few examples:
+
+```java
+
+public static void main (String[] args) {
+  displayMenu();
+}
+
+public static void displayMenu() {
+  System.out.println("1. Get a fortune");
+  System.out.println("2. Give a fortune");
+  System.out.println("3. Quit");
+}
+```
+In this example, the code in `displayMenu()` can be called whenever you want to display the menu.
+
+---
+
+```java
+
+import java.util.Scanner;
+
+public static void main (String[] args) {
+  Scanner sc = new Scanner(System.in);
+  System.out.println("Enter your age");
+  int age = sc.nextInt();
+
+  System.out.println("Your age in dog years is" + dogifyAge(age));
+
+}
+
+public static void int (int age) {
+  return age*7;
+}
+```
+
+In this example, we created a method called `dogifyAge` and told it to expect an `int`. Then we did some quick math and returned the value of `age` times seven. 
+
+Note that one advantage of having a method do this is that if we needed to change the way the calculation is done, we just need to change the code *once* in the method. If we are "dogifying" many ages, we only update the code in one spot.
+
+## Experiences for this chapter
+
+* LAB - `Circles03`
+
+* LAB - `Taxes`
+
+* PROJECT - `SciCalc`
+
+* PROJECT - `PasswordProgram`
+
