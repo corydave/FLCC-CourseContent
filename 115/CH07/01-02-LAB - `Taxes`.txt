@@ -1,0 +1,160 @@
+^^ LAB - `Taxes`
+
+## DESCRIPTION
+Write a program that asks the user to enter their yearly income. The program should display the user's income bracket according to the following guidelines:
+
+* Income below $50,000: Income Bracket 1
+
+* Income of $50,000 - $99,999.99: Income Bracket 2
+
+* Income of $100,000 or above: Income Bracket 3
+
+The program should then output the amount of federal taxes they will have to pay given that the Federal Tax Rate is 15% (for all income brackets).
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top!
+
+* Your output must match the sample output exactly. 
+
+* To receive full credit, your code must contain multiple methods that complete the major steps of the program. Each method should be focused on a singular task, and have a comment that gives a description of what the method does. Also include comments in your main method.
+
+* The amount of taxes owed must be rounded to the nearest cent. 
+
+^=^ ,, 9
+
+<CENTER>
+
+### NOTE 
+
+Rounding hint (refer to section 3.5 in the textbook for more details):
+
+Multiply by 100, round, divide by 100.0:
+
+`double taxes = taxes * 100;
+taxes = Math.round(taxes) / 100.0;`
+
+</center>
+
+^=
+
+## SAMPLE OUTPUT
+
+```
+Enter your yearly income:
+123457
+ 
+Income Bracket 3
+You owe $18518.55 in Federal taxes.
+```
+
+<br />
+
+```
+Enter your yearly income:
+77777.77
+ 
+Income Bracket 2
+You owe $11666.67 in Federal taxes.
+```
+
+<br />
+
+```
+Enter your yearly income:
+34567
+ 
+Income Bracket 1
+You owe $5185.05 in Federal taxes.
+```
+
+<br />
+
+
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`Taxes.java`](https://drive.google.com/uc?export=download&id=1mq4IA4bI4G-Zh2W9yyQULJY-r5KGHcua)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+
+^acc
+
+^^^ `Circles03.java`
+
+```java ^copy
+
+/**
+ * Description
+ *
+ * @author Student Name
+ * @since Date Started
+ */
+
+public class Taxes{
+  public static void main(String[] args){
+
+    // ========== INSERT YOUR CODE HERE ==========
+    
+    // Write methods that:
+    //  - takes the yearly income and returns the income bracket
+    //  - takes the yearly income and returns the amount of federal taxes owed
+    //  - display results
+
+
+    
+
+    
+    
+    
+    
+    // ===========================================        
+
+  }
+  
+    
+  
+  
+}
+
+
+
+
+
+
+// =============== LAB SUMMARY ===============
+
+/*
+1. What was the hardest part of this lab?
+
+
+
+
+2. What will you always remember (never forget) from this exercise?
+
+
+
+
+*/
+
+
+```
+
+
+
+^acc-end
+
+
+
+
+
+<br /><br />
