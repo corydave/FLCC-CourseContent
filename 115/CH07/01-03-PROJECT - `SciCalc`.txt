@@ -1,0 +1,497 @@
+^^ PROJECT - `SciCalc`
+
+## DESCRIPTION
+While there are many tools (such as the `Math` class) in Java to help with basic and complex operations, it is worthwhile to start laying the framework for a custom class that has specific methods.
+
+This lab is an examination of making multiple methods with unique purposes. Some of the methods are simple and useful, but others are more obscure and provide niche functionality.
+
+## WALKTHROUGH
+
+This software has only two phases:
+
+* **STEP 1: Ask for two numbers and then display a menu of options**
+
+    The user will enter two integers and then be prompted with a menu of options (see the Sample Output) that provides ten options.
+
+<br />
+
+* **STEP 2: Run the Appropriate Code Based on the Input from the User**
+
+    A `switch` statement will be used to decide which method will be used. Each case will call a method with strict guidelines.
+
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top!
+
+* Your output must match the sample output exactly. 
+
+* Pay particular attention to the specifications for the methods; auto-grading will check for the proper output of this lab, but the structure will be assessed by me. It is possible to get the proper output without having the proper structure, but no credit will be awarded.
+
+* The program skeleton will be provided for you in the starter code. The code will run out of the box, but no methods will be in the code; your job will be to code the methods according to the following criteria:
+
+  * `displayMenu()` should take no parameters and not return anything
+
+  * `add()` should take two parameters of type `int` and return the sum of the two parameters
+
+  * `sub()` should take two parameters of type `int` and return the difference of the two parameters
+
+  * `mult()` should take two parameters of type `int` and return the product of the two parameters
+
+  * `div()` should take two parameters of type `int` and return the quotient of the two parameters (in the order they are passed in)
+
+  * `mod()` should take two parameters of type `int` and return the result of performing modulo with the two parameters (in the order they are passed in)
+
+  * `pow()` should take two parameters of type `int` and return the exponentiation of the two parameters (in the order they are passed in) - it is permissible to use `Math.pow()` for this method
+
+  * `hyp()` should take two parameters of type `int` and return the length of the hypotenuse of a right triangle, assuming each of the parameters represent the length of two legs - use the following equation:
+
+<center><img src="https://chart.googleapis.com/chart?cht=tx&chl=\sqrt{a^2%2Bb^2}" title="square root of a square plus b squared" alt="square root of a square plus b squared" /></center><br />
+
+  * `hailed()` should take one parameter of type `int` and return the next number in a Hailstone Sequence - use the following algorithm:
+    * If the number is even, divide it by 2
+    * If the number is odd, multiply it by 3 and add 1
+
+  * `max()` should take two parameters of type `int` and return the largest of the two parameters - it is not permissible to use `Math.max()`
+
+  * `min()` should take two parameters of type `int` and return the largest of the two parameters - it is not permissible to use `Math.min()`
+
+
+
+## SAMPLE OUTPUT
+
+^acc
+
+^^^ SAMPLE OUTPUT
+
+```
+=======================
+        SCICALC
+=======================
+
+Enter the first number:
+3
+Enter the second number:
+4
+
+Please choose from the following menu:
+    1. Add two numbers
+    2. Subtract two numbers
+    3. Multiply two numbers
+    4. Divide two numbers
+    5. Mod two numbers
+    6. Exponentiate two numbers
+    7. Find next Hailstone numbers for each of the two numbers
+    8. Find the hypotenuse using two numbers as legs of a right triangle
+    9. Find the largest of the two numbers
+    10. Find the smallest of the two numbers
+Please select a function:
+1
+
+The result of 3 + 4 is 7
+
+Thank you for using =====SCICALC=====
+```
+
+<br />
+
+```
+=======================
+        SCICALC
+=======================
+
+Enter the first number:
+55
+Enter the second number:
+33
+
+Please choose from the following menu:
+    1. Add two numbers
+    2. Subtract two numbers
+    3. Multiply two numbers
+    4. Divide two numbers
+    5. Mod two numbers
+    6. Exponentiate two numbers
+    7. Find next Hailstone numbers for each of the two numbers
+    8. Find the hypotenuse using two numbers as legs of a right triangle
+    9. Find the largest of the two numbers
+    10. Find the smallest of the two numbers
+Please select a function:
+2
+
+The result of 55 - 33 is 22
+
+Thank you for using =====SCICALC=====
+```
+
+<br />
+
+```
+=======================
+        SCICALC
+=======================
+
+Enter the first number:
+23
+Enter the second number:
+66
+
+Please choose from the following menu:
+    1. Add two numbers
+    2. Subtract two numbers
+    3. Multiply two numbers
+    4. Divide two numbers
+    5. Mod two numbers
+    6. Exponentiate two numbers
+    7. Find next Hailstone numbers for each of the two numbers
+    8. Find the hypotenuse using two numbers as legs of a right triangle
+    9. Find the largest of the two numbers
+    10. Find the smallest of the two numbers
+Please select a function:
+3
+
+The result of 23 * 66 is 1518
+
+Thank you for using =====SCICALC=====
+```
+
+<br />
+
+```
+=======================
+        SCICALC
+=======================
+
+Enter the first number:
+88
+Enter the second number:
+4
+
+Please choose from the following menu:
+    1. Add two numbers
+    2. Subtract two numbers
+    3. Multiply two numbers
+    4. Divide two numbers
+    5. Mod two numbers
+    6. Exponentiate two numbers
+    7. Find next Hailstone numbers for each of the two numbers
+    8. Find the hypotenuse using two numbers as legs of a right triangle
+    9. Find the largest of the two numbers
+    10. Find the smallest of the two numbers
+Please select a function:
+4
+
+The result of 88 / 4 is 22.0
+```
+
+<br />
+
+```
+=======================
+        SCICALC
+=======================
+
+Enter the first number:
+12
+Enter the second number:
+5
+
+Please choose from the following menu:
+    1. Add two numbers
+    2. Subtract two numbers
+    3. Multiply two numbers
+    4. Divide two numbers
+    5. Mod two numbers
+    6. Exponentiate two numbers
+    7. Find next Hailstone numbers for each of the two numbers
+    8. Find the hypotenuse using two numbers as legs of a right triangle
+    9. Find the largest of the two numbers
+    10. Find the smallest of the two numbers
+Please select a function:
+5
+
+The result of 12 % 5 is 2
+
+Thank you for using =====SCICALC=====
+```
+
+<br />
+
+```
+=======================
+        SCICALC
+=======================
+
+Enter the first number:
+4
+Enter the second number:
+6
+
+Please choose from the following menu:
+    1. Add two numbers
+    2. Subtract two numbers
+    3. Multiply two numbers
+    4. Divide two numbers
+    5. Mod two numbers
+    6. Exponentiate two numbers
+    7. Find next Hailstone numbers for each of the two numbers
+    8. Find the hypotenuse using two numbers as legs of a right triangle
+    9. Find the largest of the two numbers
+    10. Find the smallest of the two numbers
+Please select a function:
+6
+
+The result of 4 ^ 6 is 4096.0
+
+Thank you for using =====SCICALC=====
+```
+
+<br />
+
+```
+=======================
+        SCICALC
+=======================
+
+Enter the first number:
+7
+Enter the second number:
+52
+
+Please choose from the following menu:
+    1. Add two numbers
+    2. Subtract two numbers
+    3. Multiply two numbers
+    4. Divide two numbers
+    5. Mod two numbers
+    6. Exponentiate two numbers
+    7. Find next Hailstone numbers for each of the two numbers
+    8. Find the hypotenuse using two numbers as legs of a right triangle
+    9. Find the largest of the two numbers
+    10. Find the smallest of the two numbers
+Please select a function:
+7
+
+The result of 7 hailed is 22 and the result of 52 hailed is 26
+
+Thank you for using =====SCICALC=====
+```
+
+<br />
+
+```
+=======================
+        SCICALC
+=======================
+
+Enter the first number:
+7
+Enter the second number:
+24
+
+Please choose from the following menu:
+    1. Add two numbers
+    2. Subtract two numbers
+    3. Multiply two numbers
+    4. Divide two numbers
+    5. Mod two numbers
+    6. Exponentiate two numbers
+    7. Find next Hailstone numbers for each of the two numbers
+    8. Find the hypotenuse using two numbers as legs of a right triangle
+    9. Find the largest of the two numbers
+    10. Find the smallest of the two numbers
+Please select a function:
+8
+
+The hypotenuse of a right triangle with legs 7 and 24 is 25.0
+
+Thank you for using =====SCICALC=====
+```
+
+<br />
+
+```
+=======================
+        SCICALC
+=======================
+
+Enter the first number:
+144
+Enter the second number:
+233
+
+Please choose from the following menu:
+    1. Add two numbers
+    2. Subtract two numbers
+    3. Multiply two numbers
+    4. Divide two numbers
+    5. Mod two numbers
+    6. Exponentiate two numbers
+    7. Find next Hailstone numbers for each of the two numbers
+    8. Find the hypotenuse using two numbers as legs of a right triangle
+    9. Find the largest of the two numbers
+    10. Find the smallest of the two numbers
+Please select a function:
+9
+
+The largest number of 144 and 233 is 233
+
+Thank you for using =====SCICALC=====
+```
+
+<br />
+
+```
+=======================
+        SCICALC
+=======================
+
+Enter the first number:
+88
+Enter the second number:
+7
+
+Please choose from the following menu:
+    1. Add two numbers
+    2. Subtract two numbers
+    3. Multiply two numbers
+    4. Divide two numbers
+    5. Mod two numbers
+    6. Exponentiate two numbers
+    7. Find next Hailstone numbers for each of the two numbers
+    8. Find the hypotenuse using two numbers as legs of a right triangle
+    9. Find the largest of the two numbers
+    10. Find the smallest of the two numbers
+Please select a function:
+10
+
+The smallest number of 88 and 7 is 7
+
+Thank you for using =====SCICALC=====
+```
+
+<br />
+
+```
+=======================
+        SCICALC
+=======================
+
+Enter the first number:
+1
+Enter the second number:
+2
+
+Please choose from the following menu:
+    1. Add two numbers
+    2. Subtract two numbers
+    3. Multiply two numbers
+    4. Divide two numbers
+    5. Mod two numbers
+    6. Exponentiate two numbers
+    7. Find next Hailstone numbers for each of the two numbers
+    8. Find the hypotenuse using two numbers as legs of a right triangle
+    9. Find the largest of the two numbers
+    10. Find the smallest of the two numbers
+Please select a function:
+11
+
+You did not enter a valid choice.
+
+Thank you for using =====SCICALC=====
+```
+
+<br />
+
+^acc-end
+
+
+<br />
+
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`SciCalc.java`](https://drive.google.com/uc?export=download&id=1QumSr9xr1CYQAsDPAD8DYCLk_6FXBCM3)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+
+^acc
+
+^^^ `SciCalc.java`
+
+```java ^copy
+
+/**
+ * Description
+ *
+ * @author Student Name
+ * @since Date Started
+ */
+
+import java.util.Scanner;
+import java.util.Random;
+
+public class SciCalc {
+    
+    public static void main (String[] args) {
+        
+        System.out.println("=======================");
+        System.out.println("        SCICALC");
+        System.out.println("=======================");
+        System.out.println();
+		
+        // ========== INSERT YOUR CODE HERE ==========		
+		
+		// You will need a switch statement
+		
+		// You will also need to include at least 11 methods (displayMenu() and 
+		// methods to handle each choice from the switch statement).
+		
+        // ===========================================        		
+        
+
+    }        
+        
+}
+
+
+
+
+
+
+
+// =============== LAB SUMMARY ===============
+
+/*
+1. What was the hardest part of this lab?
+
+
+
+
+2. What will you always remember (never forget) from this exercise?
+
+
+
+
+*/
+
+```
+
+
+
+^acc-end
+
+
+
+
+
+<br /><br />
