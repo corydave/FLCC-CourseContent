@@ -1,0 +1,123 @@
+^^ LAB - `output_values`
+
+## DESCRIPTION
+In this exercise we will be dabbling with a `list` in Python. The user will get to enter five numbers. The program will then sort the `list` and output the numbers
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top!
+
+* Your output must match the Sample Output *exactly*.
+
+## SAMPLE OUTPUT
+
+
+```
+Enter a number: 5
+Enter a number: 4
+Enter a number: 6
+Enter a number: 34
+Enter a number: 43
+
+[4, 5, 6, 34, 43]
+Your numbers are: 4  5  6  34  43  
+```
+
+<br />
+
+```
+Enter a number: 100
+Enter a number: 99
+Enter a number: 98
+Enter a number: 9
+Enter a number: 97
+
+[9, 97, 98, 99, 100]
+Your numbers are: 9  97  98  99  100  
+```
+
+<br />
+
+```
+Enter a number: 0
+Enter a number: 0
+Enter a number: -1
+Enter a number: 1
+Enter a number: 0
+
+[-1, 0, 0, 0, 1]
+Your numbers are: -1  0  0  0  1  
+```
+
+<br />
+
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`output_values.py`](https://drive.google.com/uc?export=download&id=1NRQzgekwyr96p4vvV_WrfvyBxKF3G7_W)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+^acc
+
+^^^ `output_values.py`
+
+```python ^copy
+
+# FILE NAME - output_values.py
+
+# NAME - 
+# DATE - 
+# DESCRIPTION - 
+
+def main():
+    output_values()
+
+def output_values():
+    # Create a list of size 5 that is empty
+    # Note that 'None' means there is no type assigned.
+    # 'None' is not 0, False, or the empty String.
+    numbers =[None] * 5
+
+    # Walk through the list and grab a number from the
+    # user. Insert that number into the next available cell
+    for x in range(len(numbers)):
+        numbers[x] = int(input('Enter a number: '))
+
+    print()
+    
+    #########################################
+    #               YOUR JOB:               #
+    #                                       #
+    # 1. Sort the list                      #
+    # 2. Print out the list naturally       #
+    # 3. Print out the list in a pretty way #
+    #                                       #
+    #########################################
+
+    # Sort the list
+    
+
+    # Print out the list naturally:
+    
+
+    # Print out the list in a pretty way:
+    
+    
+    
+    
+main()
+
+```
+
+^acc-end
+
+<br /><br />
