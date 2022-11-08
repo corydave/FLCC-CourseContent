@@ -25,8 +25,6 @@ list_of_grades = [90, 100, 21, 96, 88]
 list_of_grades.append(79)
 list_of_grades.sort()
 print(list_of_grades)
-```
-
 
 for x in range(0, 15, 2):
     print(x)
