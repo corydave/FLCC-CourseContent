@@ -44,6 +44,10 @@ Note that one advantage of having a method do this is that if we needed to chang
 
 ## Experiences for this chapter
 
+* READING GUIDE - Chapter 7 Reading Guide
+
+* VIDEOS - Chapter 7 Videos
+
 * LAB - `Circles03`
 
 * LAB - `Taxes`
@@ -51,4 +55,3 @@ Note that one advantage of having a method do this is that if we needed to chang
 * PROJECT - `SciCalc`
 
 * PROJECT - `PasswordProgram`
-
