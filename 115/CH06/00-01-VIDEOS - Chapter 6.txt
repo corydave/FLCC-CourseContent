@@ -1,0 +1,26 @@
+^^ VIDEOS - Chapter 6
+
+<center>
+
+[Link to video](https://www.youtube.com/watch?v=ED_F4PWiVq8)
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/ED_F4PWiVq8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<br /><br />
+
+[Link to video](https://www.youtube.com/watch?v=bzKuX6EpADI)
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/bzKuX6EpADI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<br /><br />
+
+[Link to video](https://www.youtube.com/watch?v=D5F-dydgJwM)
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/D5F-dydgJwM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<br /><br />
+
+</center>
