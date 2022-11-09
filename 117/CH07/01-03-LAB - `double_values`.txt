@@ -1,0 +1,154 @@
+^^ LAB - `double_values`
+
+## DESCRIPTION
+In this exercise we will be modifying the values in a `list` in Python. The user will choose how many numbers they want to add to the `list`. Then they will populate that `list`. Finally, the program will output the `list` (both naturally, then sorted, then doubled).
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top!
+
+* Your output must match the Sample Output *exactly*.
+
+## SAMPLE OUTPUT
+
+
+```
+How many numbers will you be entering? 5
+What is number? 1
+What is number? 9
+What is number? 2
+What is number? 8
+What is number? 7
+
+ORIGINAL -          [1, 9, 2, 8, 7]
+ORIGINAL (sorted) - [1, 2, 7, 8, 9]
+DOUBLED -           [2, 4, 14, 16, 18]
+```
+
+<br />
+
+```
+How many numbers will you be entering? 0
+
+ORIGINAL -          []
+ORIGINAL (sorted) - []
+DOUBLED -           []
+```
+
+<br />
+
+```
+How many numbers will you be entering? 1
+What is number? 3
+
+ORIGINAL -          [3]
+ORIGINAL (sorted) - [3]
+DOUBLED -           [6]
+```
+
+<br />
+
+```
+How many numbers will you be entering? 9
+What is number? 193
+What is number? 265
+What is number? 295
+What is number? -54
+What is number? -523 
+What is number? 463
+What is number? 574
+What is number? 2  
+What is number? 0
+
+ORIGINAL -          [193, 265, 295, -54, -523, 463, 574, 2, 0]
+ORIGINAL (sorted) - [-523, -54, 0, 2, 193, 265, 295, 463, 574]
+DOUBLED -           [-1046, -108, 0, 4, 386, 530, 590, 926, 1148]
+```
+
+<br />
+
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`double_values.py`](https://drive.google.com/uc?export=download&id=1nocOxAyG16d7Jml2hQikz8R52zcXbRvY)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+^acc
+
+^^^ `double_values.py`
+
+```python ^copy
+
+# FILE NAME - double_values.py
+
+# NAME - 
+# DATE - 
+# DESCRIPTION - 
+
+def main():
+    double_values()
+
+def double_values():
+    
+    # First, let's figure out how many numbers the user will be entering:
+    size = int(input('How many numbers will you be entering? '))
+    
+    # Next let's make a list. It's OK if the list doesn't have a length
+    # yet as we will just be appending to it.
+    numbers = []
+    double_numbers = []
+
+    # Guess we'll need a loop to populate the loop:
+    while len(numbers) < size:
+        
+        # Here's the tricky part. Stay with me! We have to ask the user to
+        # input a number using the `input` function. Then we have to cast
+        # it to an `int` before we append it. Otherwise, the list `numbers`
+        # will be full of `strings`!
+        num = int(input('What is number? '))
+        numbers.append(num)
+   
+
+    # Empty line for visual break
+    print()
+
+    ##########################################
+    #               YOUR JOB:                #
+    #                                        #
+    # 1. Print out the list naturally        #
+    # 2. Sort the list                       #
+    # 3. Print out the sorted list naturally #
+    # 4. Print out the list with each        #
+    #    element doubled                     #
+    #                                        #
+    #########################################
+
+    # ENTER YER CODE HERE:
+    # HINT: It might be easier to create a second list
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+main()
+
+```
+
+^acc-end
+
+<br /><br />
