@@ -28,7 +28,9 @@ if (Math.random() > 0.5) {
 
 </center>
 
-* Reading Guide - Chapter 5 Reading Guide
+* READING GUIDE - Chapter 5 Reading Guide
+
+* VIDEOS - Chapter 5 Videos
 
 * LAB - `Compliment02`
 
