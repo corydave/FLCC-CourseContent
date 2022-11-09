@@ -36,9 +36,9 @@ for x in range(0, 15, 2):
 1. VIDEOS - Chapter 07 Videos
 2. LABS
     1. `output_values`
-    2. `reverse_values`
+    2. `sort_values`
     3. `double_values`
-    4. `sort_values`
+    4. `reverse_values`
     5. `output_left`
     6. `output_right`
 3. PROJECTS
