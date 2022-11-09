@@ -1,0 +1,161 @@
+^^ LAB - `sort_values`
+
+## DESCRIPTION
+In this exercise we will be sorting a `list` in Python. The user will get to enter as many words as they want. The input phase will end when the *sentinel* of `_DONE_` has been entered. The program will then sort the `list` and output the words three times.
+
+* The first time the words are output, they will be in the order in which they were entered.
+
+* The second time, they will be sorted.
+
+* The third time, they will be reversed
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top!
+
+* Your output must match the Sample Output *exactly*.
+
+## SAMPLE OUTPUT
+
+
+```
+Enter a name (enter "_DONE_" to end): JD
+Enter a name (enter "_DONE_" to end): Elliot
+Enter a name (enter "_DONE_" to end): Turk
+Enter a name (enter "_DONE_" to end): Dr. Kelso
+Enter a name (enter "_DONE_" to end): Dr. Cox
+Enter a name (enter "_DONE_" to end): Carla
+Enter a name (enter "_DONE_" to end): Janitor
+Enter a name (enter "_DONE_" to end): Ted
+Enter a name (enter "_DONE_" to end): _DONE_
+
+ORIGINAL - ['JD', 'Elliot', 'Turk', 'Dr. Kelso', 'Dr. Cox', 'Carla', 'Janitor', 'Ted']
+SORTED - ['Carla', 'Dr. Cox', 'Dr. Kelso', 'Elliot', 'JD', 'Janitor', 'Ted', 'Turk']
+REVERSED - ['Turk', 'Ted', 'Janitor', 'JD', 'Elliot', 'Dr. Kelso', 'Dr. Cox', 'Carla']
+```
+
+<br />
+
+```
+Enter a name (enter "_DONE_" to end): 1
+Enter a name (enter "_DONE_" to end): 4
+Enter a name (enter "_DONE_" to end): 10
+Enter a name (enter "_DONE_" to end): 44
+Enter a name (enter "_DONE_" to end): 50
+Enter a name (enter "_DONE_" to end): _DONE_
+
+ORIGINAL - ['1', '4', '10', '44', '50']
+SORTED - ['1', '10', '4', '44', '50']
+REVERSED - ['50', '44', '4', '10', '1']
+```
+
+<br />
+
+```
+Enter a name (enter "_DONE_" to end): Barney
+Enter a name (enter "_DONE_" to end): Robin
+Enter a name (enter "_DONE_" to end): Ted
+Enter a name (enter "_DONE_" to end): Lily
+Enter a name (enter "_DONE_" to end): Marshall
+Enter a name (enter "_DONE_" to end): Victoria
+Enter a name (enter "_DONE_" to end): Zoey
+Enter a name (enter "_DONE_" to end): Stella
+Enter a name (enter "_DONE_" to end): Scooter
+Enter a name (enter "_DONE_" to end): James Van Der Beek
+Enter a name (enter "_DONE_" to end): _DONE_
+
+ORIGINAL - ['Barney', 'Robin', 'Ted', 'Lily', 'Marshall', 'Victoria', 'Zoey', 'Stella', 'Scooter', 'James Van Der Beek']
+SORTED - ['Barney', 'James Van Der Beek', 'Lily', 'Marshall', 'Robin', 'Scooter', 'Stella', 'Ted', 'Victoria', 'Zoey']
+REVERSED - ['Zoey', 'Victoria', 'Ted', 'Stella', 'Scooter', 'Robin', 'Marshall', 'Lily', 'James Van Der Beek', 'Barney']
+```
+
+<br />
+
+```
+Enter a name (enter "_DONE_" to end): alpha
+Enter a name (enter "_DONE_" to end): BRAVO
+Enter a name (enter "_DONE_" to end): delta
+Enter a name (enter "_DONE_" to end): ECHO
+Enter a name (enter "_DONE_" to end): CHARLIE
+Enter a name (enter "_DONE_" to end): foxtrot
+Enter a name (enter "_DONE_" to end): _DONE_
+
+ORIGINAL - ['alpha', 'BRAVO', 'delta', 'ECHO', 'CHARLIE', 'foxtrot']
+SORTED - ['BRAVO', 'CHARLIE', 'ECHO', 'alpha', 'delta', 'foxtrot']
+REVERSED - ['foxtrot', 'delta', 'alpha', 'ECHO', 'CHARLIE', 'BRAVO']
+```
+
+<br />
+
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`sort_values.py`](https://drive.google.com/uc?export=download&id=1KkP-VBpIIaISfcByMnLAvGcStpYwA60l)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+^acc
+
+^^^ `sort_values.py`
+
+```python ^copy
+
+# FILE NAME - output_values.py
+
+# FILE NAME - sort_values.py
+
+# NAME - 
+# DATE - 
+# DESCRIPTION - 
+
+def main():
+    sort_values()
+
+def sort_values():
+    # Declare the variable 'name' and give it a value of NONE
+    name = None
+    
+    # Declare the list 'names' but keep it empty
+    names = []
+
+    # Here we populate the list. We will keep appending input from the user
+    # to the list unless the input is '_DONE_'. Note the tricky part - we 
+    # have to make sure we don't append '_DONE_' to the list!
+    while (name != '_DONE_'):
+        name = input('Enter a name (enter "_DONE_" to end): ')
+        if name == '_DONE_':
+            break
+        else:
+            names.append(name)
+
+    # Empty line for visual break
+    print()
+
+    #########################################
+    #               YOUR JOB:               #
+    #                                       #
+    # 1. Print out the list naturally       #
+    # 2. Sort the list                      #
+    # 3. Print out the list naturally       #
+    # 4. Reverse the list                   #
+    # 5. Print out the list naturally       #    
+    #                                       #
+    #########################################
+    
+    # ENTER YER CODE HERE:
+
+main()
+
+```
+
+^acc-end
+
+<br /><br />
