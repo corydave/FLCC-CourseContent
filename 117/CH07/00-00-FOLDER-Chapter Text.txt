@@ -38,8 +38,9 @@ for x in range(0, 15, 2):
     1. `output_values`
     2. `sort_values`
     3. `double_values`
-    4. `reverse_values`
-    5. `output_left`
-    6. `output_right`
+    4. `output_left`
+    5. `output_right`
+    6. `average_values`
+
 3. PROJECTS
     1. `fortune_teller`
