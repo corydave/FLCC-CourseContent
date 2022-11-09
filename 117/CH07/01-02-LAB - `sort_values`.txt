@@ -108,8 +108,6 @@ Download these files and load them into your IDE.
 
 ```python ^copy
 
-# FILE NAME - output_values.py
-
 # FILE NAME - sort_values.py
 
 # NAME - 
