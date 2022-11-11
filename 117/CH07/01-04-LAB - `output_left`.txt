@@ -1,0 +1,160 @@
+^^ LAB - `output_left`
+
+## DESCRIPTION
+In this exercise we will hone our `list` manipulation skills. We will be taking input from the user as they provide integers for a `list`. When they are done, we will output all the elements in the list--in order--with one caveat: the first item in the list will be output as the last item. 
+
+Programmatically, there are two ways to approach this. The first method includes not disturbing the order of the items in the `list`:
+1. Print out items 1-9
+2. Print out item 0
+
+Alternatively, you could just *pop* the first item and append it to the `list` and then print the `list`.
+
+Let's choose the second option that physically reorients the `list`. Here is the use case scenario:
+
+^=^ ,, 10
+
+The DMV has a policy that mandates all customers get a ticket when they enter. Customers are called up in order (based on their numbers). If a customer is called up and they are not prepared (for instance, they have forgotten their license plate number and have to go check it or they need to visit the ATM to get cash as some transactions require cash only) then that customer is refused service, given a new number (at the end of the line), and has to properly prepare.
+
+^=
+
+The code below satisfies the requirement of the first scenario (outputting the names such that the first name is now the last) but it does not permanently alter the structure of the `list`. Note that this code, while workable, does not meet the requirements of this exercise:
+
+```python
+
+    # Assume a list named `customers` holds the
+    # names of drivers.
+
+    # Iterate through the list starting at index
+    # one (instead of index 0) and go through
+    # the length of the list:
+    for x in range(1, len(customers)):
+
+        # Print each name (on the same line!).
+        print(customers[x] + ', ', end='')
+    
+    # Now print the first name.
+    print(customers[0], end='')
+
+```
+
+
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top!
+
+* Your output must match the Sample Output *exactly*.
+
+* Your program *must* alter the structure of the `list` by moving the first item to the last spot. The `pop()` function works well for removing an item (by index number) from a `list`.
+
+## SAMPLE OUTPUT
+
+
+```
+Enter the name of the customer: Alice
+Enter the name of the customer: Bob
+Enter the name of the customer: Charlie
+Enter the name of the customer: Danielle
+Enter the name of the customer: EOF
+
+['Alice', 'Bob', 'Charlie', 'Danielle']
+['Bob', 'Charlie', 'Danielle', 'Alice']
+```
+
+<br />
+
+```
+Enter the name of the customer: Eliza
+Enter the name of the customer: EOF
+
+['Eliza']
+['Eliza']
+```
+
+<br />
+
+```
+Enter the name of the customer: 1234
+Enter the name of the customer: 2345
+Enter the name of the customer: 3456
+Enter the name of the customer: 4567
+Enter the name of the customer: EOF
+
+['1234', '2345', '3456', '4567']
+['2345', '3456', '4567', '1234']
+```
+
+<br />
+
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`output_left.py`](https://drive.google.com/uc?export=download&id=1io4osR3SpAYtFLGyIO54wUXHWJm9A6wb)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+^acc
+
+^^^ `output_left.py`
+
+```python ^copy
+
+# FILE NAME - output_left.py
+
+# NAME - 
+# DATE - 
+# DESCRIPTION - 
+
+def main():
+    output_left()
+
+def output_left():
+    # Declare an array called `customers`.
+    customers = []
+
+    # Declare a variable called `driver_name` and set it equal to ''.
+    driver_name = ''
+
+    # Collect information from the user. The user can keep entering 
+    # names of drivers as they enter the DMV. Once the last driver
+    # is loaded into the list, the DMV employee will type 'EOF' 
+    # (which in computer nerdom translates to "End of File").
+    while driver_name != 'EOF':
+        driver_name = input('Enter the name of the customer: ')
+
+        # Need to ensure that "EOF" is not input into the system as a name!
+        if driver_name != 'EOF':
+            customers.append(driver_name)
+
+    print()
+
+    # Output the names
+    print(customers)
+
+    
+    
+    #########################################
+    #               YOUR JOB:               #
+    #                                       #
+    # 1. Move the first item in the list to #
+    #    be the last item                   #
+    #                                       #
+    #########################################
+
+
+    
+    
+main()
+```
+
+^acc-end
+
+<br /><br />
