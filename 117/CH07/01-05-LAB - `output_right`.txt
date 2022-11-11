@@ -1,0 +1,134 @@
+^^ LAB - `output_right`
+
+## DESCRIPTION
+In this exercise we will continue to hone our `list` manipulation skills. We will be taking input from the user as they provide integers for a `list`. When they are done, we will output all the elements in the list--in order--with one caveat: the last item in the list will be output as the first item. 
+
+Here is the use case scenario:
+
+^=^ ,, 10
+
+Hospitals have a triage system. As patients come in, they register at the triage desk and are assigned a spot in line based on the severity of their ailment. Some cases get triaged to the immediate front. That's what this protocol is. We are taking the last person - the one that just walked in - and pushing them to the front of the line.
+
+^=
+
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top!
+
+* Your output must match the Sample Output *exactly*.
+
+* Your program *must* alter the structure of the `list` by moving the last item to the first spot. The `pop()` function works well for removing an item (by index number) from a `list` and the `insert()` function works perfectly for, well, inserting an item.
+
+## SAMPLE OUTPUT
+
+
+```
+Enter the name of the guest: Alice
+Enter the name of the guest: Bob
+Enter the name of the guest: Charlie
+Enter the name of the guest: Danielle
+Enter the name of the guest: EOF
+
+['Alice', 'Bob', 'Charlie', 'Danielle']
+['Danielle', 'Alice', 'Bob', 'Charlie']
+```
+
+<br />
+
+```
+Enter the name of the guest: Eliza
+Enter the name of the guest: EOF
+
+['Eliza']
+['Eliza']
+```
+
+<br />
+
+```
+Enter the name of the guest: 1234
+Enter the name of the guest: 2345
+Enter the name of the guest: 3456
+Enter the name of the guest: 4567
+Enter the name of the guest: EOF
+
+['1234', '2345', '3456', '4567']
+['4567', '1234', '2345', '3456']
+```
+
+<br />
+
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`output_right.py`](https://drive.google.com/uc?export=download&id=1A0f5F1wsl1gizrwKS2g9hEsomNKZisng)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+^acc
+
+^^^ `output_right.py`
+
+```python ^copy
+# FILE NAME - output_right.py
+
+# NAME - 
+# DATE - 
+# DESCRIPTION - 
+
+def main():
+    output_right()
+
+def output_right():
+    # Declare an array called `park_visitors`.
+    guests = []
+
+    # Declare a variable called `guest_name` and set it equal to ''.
+    guest_name = ''
+
+    # Collect information from the user. The user can keep entering 
+    # names of guests as they enter the line for the attraction.
+    # Once the last guest is loaded into the list, the DMV employee will
+    # type 'EOF' (which in computer nerdom translates to "End of File").
+    while guest_name != 'EOF':
+        guest_name = input('Enter the name of the guest: ')
+
+        # Need to ensure that "EOF" is not input into the system as a name!
+        if guest_name != 'EOF':
+            guests.append(guest_name)
+
+    print()
+
+    # Output the names
+    print(guests)
+
+    
+    
+    #########################################
+    #               YOUR JOB:               #
+    #                                       #
+    # 1. Move the last item in the list to  #
+    #    be the first item                  #
+    #                                       #
+    #########################################
+
+
+    
+    
+    
+    
+main()
+```
+
+^acc-end
+
+<br /><br />
