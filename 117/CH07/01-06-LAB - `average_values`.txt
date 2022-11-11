@@ -1,0 +1,140 @@
+^^ LAB - `average_values`
+
+## DESCRIPTION
+This is the final exercise designed to increase your experience working with `list`s in Python. For this experience, the user will keep typing in numbers. When they are done, they will type "`DONE`". 
+
+The program will output the `list` that includes the numbers that were entered, the sum of the numbers, and the average. Compute the average by dividing the sum by the number of elements in the `list`.
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top!
+
+* Your output must match the Sample Output *exactly*.
+
+## SAMPLE OUTPUT
+
+
+```
+Enter a number ("DONE" to finish): 1
+Enter a number ("DONE" to finish): 2
+Enter a number ("DONE" to finish): 3
+Enter a number ("DONE" to finish): 4
+Enter a number ("DONE" to finish): 5
+Enter a number ("DONE" to finish): DONE
+
+---END OF INPUT---
+
+NUMBERS =  [1, 2, 3, 4, 5]
+SUM = 15
+AVERAGE =  3.0
+```
+
+<br />
+
+```
+Enter a number ("DONE" to finish): -1
+Enter a number ("DONE" to finish): 1
+Enter a number ("DONE" to finish): 2
+Enter a number ("DONE" to finish): -2
+Enter a number ("DONE" to finish): DONE
+
+---END OF INPUT---
+
+NUMBERS =  [-1, 1, 2, -2]
+SUM = 0
+AVERAGE =  0.0
+```
+
+<br />
+
+```
+Enter a number ("DONE" to finish): 1
+Enter a number ("DONE" to finish): DONE
+
+---END OF INPUT---
+
+NUMBERS =  [1]
+SUM = 1
+AVERAGE =  1.0
+```
+
+<br />
+
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`average_values.py`](https://drive.google.com/uc?export=download&id=1imgoWHkhRRthXnBQ9FgxVRcK7uVDmMzo)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+^acc
+
+^^^ `average_values.py`
+
+```python ^copy
+# FILE NAME - average_values.py
+
+# NAME - 
+# DATE - 
+# DESCRIPTION - 
+
+def main():
+    average_values()
+
+def average_values():
+    
+    # Declare the list called `numbers`
+    numbers = []
+    
+    # Keep running through this `while` loop forever
+    while True:
+
+        # Prompt the user for a number (or "DONE" when finished)
+        user_input = input('Enter a number ("DONE" to finish): ')
+        
+        # If the input is "DONE", break out of the `while`` loop
+        if user_input == 'DONE':
+            print('\n---END OF INPUT---\n')
+            break
+        else:
+            # Otherwise, convert the input to an `int` and append
+            # it to the list called `numbers`
+            numbers.append(int(user_input))
+    
+    #########################################
+    #               YOUR JOB:               #
+    #                                       #
+    # 1. Create a variable, `sum`, and set  #
+    #    it equal to 0.                     #
+    # 2. Iterate through the list and add   #
+    #    the value of each index to sum     #
+    # 3. Output the list, the sum, and the  #
+    #    average.                           #
+    #########################################
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+main()
+```
+
+^acc-end
+
+<br /><br />
