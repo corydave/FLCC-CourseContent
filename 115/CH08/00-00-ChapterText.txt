@@ -1,3 +1,53 @@
 <p><img src="https://docs.google.com/drawings/d/e/2PACX-1vR3ve-gyWx1mT3kKQig2ipg26bawy6tMr808oAsBdH4dbUUegXgKNm3FnB5njlVdrRuNdMnGZ0rrjMQ/pub?w=900&amp;h=380" style="display: none; max-width: 100%;" alt="An icon of a loop - a circle with an arrow that leads back into the same circle - like a snake biting its tail." title="An icon of a loop - a circle with an arrow that leads back into the same circle - like a snake biting its tail." width="0" height="0"></p>
 
 ^^ Loops
+
+# Description
+Loops are used all the time in programming - that's how we have programs do the same thing over and over and over and over and over...
+
+There are a few different types of loops in Java. We'll be looking at two different kinds: `while` and `for`. They are interchangeable, but there certainly are circumstances when one is better than the other.
+
+# `while` Loops
+These are much better for times when you don't know how many times a program will repeat. For instance, games where the user is asked if they want to play again at the end (the program doesn't know how many times the user is going to say `YES` before they say `NO`). In the field of robotics, a robot might follow a line painted on the ground *until* that line stops. 
+
+# `for` Loops
+These are better for times when you know exactly how many times the program will run. For instance, if you need to look at a `String` and examine each letter, one at a time. In this case, if the `String` is 7 letters long, you know the loop will run 7 times.
+
+# Experiences for this chapter
+
+* READING GUIDE - Chapter 8 Reading Guide
+* LAB - `WhileLoopA`
+* LAB - `WhileLoopB`
+* LAB - `WhileLoopC`
+* LAB - `WhileLoopD`
+* LAB - `WhileLoopE`
+* LAB - `ForLoopA`
+* LAB - `ForLoopB`
+* LAB - `ForLoopC`
+* LAB - `ForLoopD`
+* LAB - `ForLoopE`
+* PROJECT - `RandomCompliment`
+* PROJECT - `AllTheLoops`
+* PROJECT - `GuessANumber02`
+* PROJECT - `GuessANumber03`
+
+# Prediction
+
+In the meantime, try to guess what each of these code segments will do:
+
+```java
+String name = "Dave";
+for (int i = 0; i < name.length(); i++) {
+  System.out.println(name.charAt(i) + 1);
+}
+```
+
+<br />
+
+```java
+for (int i = 0; i < 10; i++) {
+  System.out.println(i);
+}
+```
+
+<br /><br />
