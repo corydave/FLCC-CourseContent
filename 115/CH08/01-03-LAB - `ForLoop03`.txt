@@ -1,0 +1,119 @@
+^^ LAB - `ForLoop03`
+
+## DESCRIPTION
+Using a `for` loop, write a small program that asks the user for a beginning number and an ending number. Then the program outputs the next consecutive five numbers. Consult the **Sample Output** for specific formatting.
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top!
+
+* Your output must match the sample output exactly.
+
+* The code to complete the task should be in a separate method that is called by the `main` method
+
+## SAMPLE OUTPUT
+
+```
+Enter a number to start:
+1
+Enter a number to stop:
+6
+
+1
+2
+3
+4
+5
+6
+```
+
+<br />
+
+```
+Enter a number to start:
+22
+Enter a number to stop:
+33
+
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+```
+
+<br />
+
+```
+Enter a number to start:
+-5
+Enter a number to stop:
+4
+
+-5
+-4
+-3
+-2
+-1
+0
+1
+2
+3
+4
+```
+
+<br />
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`ForLoop03.java`](https://drive.google.com/uc?export=download&id=1b6HCUAIuVmkkq3-vEerNLgL_ah5SeclD)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+
+^acc
+
+^^^ `ForLoop03.java`
+
+```java ^copy
+
+/**
+ * Description
+ *
+ * @author Student Name
+ * @since Date Started
+ */
+
+public class ForLoop03 {
+
+
+ // Put yer loopy code here!
+
+
+}
+
+
+```
+
+^acc-end
+
+
+
+
+
+<br /><br />
