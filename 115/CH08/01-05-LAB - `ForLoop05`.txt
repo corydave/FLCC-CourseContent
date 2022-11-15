@@ -1,0 +1,88 @@
+^^ LAB - `ForLoop05`
+
+## DESCRIPTION
+Using a `for` loop, write a small program that asks the user for a phrase and then outputs the phrase with a space after each letter.
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top!
+
+* Your output must match the sample output exactly.
+
+* The code to complete the task should be in a separate method that is called by the `main` method
+
+
+## SAMPLE OUTPUT
+
+```
+phrase:
+test
+ 
+t e s t
+```
+
+<br />
+
+```
+phrase:
+This is a test
+ 
+T h i s   i s   a   t e s t
+```
+
+<br />
+
+```
+phrase:
+1234
+ 
+1 2 3 4
+```
+
+<br />
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`ForLoop05.java`](https://drive.google.com/uc?export=download&id=1rnjDUGN4EaXbyl7QxhNfLbkVyI2YiYYR)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+
+^acc
+
+^^^ `ForLoop05.java`
+
+```java ^copy
+
+/**
+ * Description
+ *
+ * @author Student Name
+ * @since Date Started
+ */
+ 
+ public class ForLoop05 {
+
+
+ // Put yer loopy code here!
+
+
+}
+
+```
+
+^acc-end
+
+
+
+
+
+<br /><br />
