@@ -1,0 +1,28 @@
+AGENDA - 2022-11-14
+=============
+
+^callout info-circle
+
+### Information
+
+We looked at LOOPS! Check out the [code in GitHub](https://github.com/corydave/FLCC_CSC_115/tree/main/2022FA/2022-11-14).
+
+We also spend some time working on the labs in this chapter. That includes all the `for` loop labs and all the `while` loop labs.
+
+^callout-end
+
+
+^callout calendar-alt
+
+### What's due
+
+<br />
+
+**Due on Monday, November 28 at 9:00 am:**
+
+* LABS - All labs for chapter 8.
+
+On Monday, November 28, we'll chart out due dates for the projects (including the `PasswordSuite` that is outstanding from the last chapter).
+
+
+^callout-end
