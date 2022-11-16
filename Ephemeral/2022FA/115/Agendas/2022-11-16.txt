@@ -1,0 +1,96 @@
+AGENDA - 2022-11-16
+=============
+
+^callout info-circle
+
+### Information
+
+Today is a lab day. All five of the `for` loops are posted in CodeGrade - the `while` loops are next.
+
+We reviewed `for` loops again. Check out the code!
+
+^acc
+
+^^^ `ForLoopDemo.java`
+
+```java
+import java.util.Scanner;
+
+public class ForLoopDemo {
+    public static void main (String[] args) {
+
+        // forLoopDemo();
+        spongeBob();
+
+    }
+
+    public static void spongeBob() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter some text:");
+        String text = scanner.nextLine();
+        String newText = "";
+
+        System.out.println("BEFORE = " + text);
+
+        // Walk through a string!
+        // Visit every letter!
+        // Iterate through the characters!
+        for (int i = 0; i < text.length(); i++) {
+
+            String letter = "" + text.charAt(i);
+            // System.out.println(text.charAt(i));
+
+            if (i % 2 == 0) {
+                letter = letter.toUpperCase();
+            } else {
+                letter = letter.toLowerCase();
+            }
+
+            newText += letter;
+            
+        }
+
+        System.out.println("AFTER = " + newText);
+
+
+
+    }
+
+
+    public static void forLoopDemo() {
+        
+             // START    WHILE   STEP
+             for (int i = 33; i > 21; i-=4) {
+                System.out.println("i = " + i);
+            }
+    
+            int michael = 33;
+            int jonathan = 22;
+            int luke = -4;
+    
+            for (int i = michael; i > jonathan; i += luke) {
+                System.out.println("i = " + i);
+            }
+    
+    }
+}
+```
+
+^acc-end
+
+^callout-end
+
+^callout calendar-alt
+
+### What's due
+
+<br />
+
+**Due on Monday, November 28 at 9:00 am:**
+
+* LABS - All labs for chapter 8.
+
+On Monday, November 28, we'll chart out due dates for the projects (including the `PasswordSuite` that is outstanding from the last chapter).
+
+
+^callout-end
