@@ -1,0 +1,23 @@
+AGENDA - 2022-11-09
+=============
+
+^callout info-circle
+
+### Information
+
+Just a plain ole' lab day. Working with Twine to make a sick game!
+
+^callout-end
+
+^callout calendar-alt
+
+### What's due
+
+<br />
+
+**Due on Monday, November 14 at 9:00 am:**
+
+* ASSIGNMENT - Twine Game
+
+
+^callout-end
