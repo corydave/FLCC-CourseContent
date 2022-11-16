@@ -1,0 +1,14 @@
+AGENDA - 2022-11-09
+=============
+
+^callout info-circle
+
+### Information
+
+LAB DAY!
+
+We pushed the `Password` lab out to a future date.
+
+^callout-end
+
+
