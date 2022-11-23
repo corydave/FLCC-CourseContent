@@ -8,5 +8,5 @@ There is a lot to think about when designing software - and oftentimes the first
 
 # Experiences for this chapter
 
-1. VIDEOS - `fortune_machine` Design Walkthrough
+1. VIDEO - `fortune_machine` Design Walkthrough
 2. READING - `fortune_machine` Flowchart
