@@ -1,4 +1,4 @@
-<img src="https://docs.google.com/drawings/d/e/2PACX-1vQNJAc8LdYWwm50E9OH9hj8A2Q1OTFMOAIVemQprPjeiGR6z9iy6IioDSYqGjyIA8HkfKFF8vK8qxjW/pub?w=907&amp;h=385" alt="A thumbnail of a flowchart." title="A thumbnail of a flowchart." style="display:none;">
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vQNJAc8LdYWwm50E9OH9hj8A2Q1OTFMOAIVemQprPjeiGR6z9iy6IioDSYqGjyIA8HkfKFF8vK8qxjW/pub?w=907&amp;h=385" alt="A thumbnail of a flowchart." title="A thumbnail of a flowchart." width="0px" height="0px">
 
 ^^ Program Design
 
