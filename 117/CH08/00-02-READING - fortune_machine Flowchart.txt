@@ -1,0 +1,9 @@
+^^ READING - fortune_machine Flowchart
+
+<center>
+
+[Link to flowchart](https://drive.google.com/file/d/1AXlkW6FqCI6m6MG_HvPu0WND2ulwPz0i/view?usp=sharing)
+
+<iframe frameborder="0" style="width:100%;height:883px;" src="https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=fortune_teller%20FLOW#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1AXlkW6FqCI6m6MG_HvPu0WND2ulwPz0i%26export%3Ddownload"></iframe>
+
+</center>
