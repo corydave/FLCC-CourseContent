@@ -1,0 +1,24 @@
+AGENDA - 2022-11-21
+=============
+
+^callout info-circle
+
+### Information
+
+Open Lab
+
+^callout-end
+
+^callout calendar-alt
+
+### What's due
+
+* ASSIGNMENT - Ethics Paper
+
+<br />
+
+### Catch-Up
+
+* December 12 at 9:00 am is the last day to submit (or resubmit) work that you may have missed this semester.
+
+^callout-end
