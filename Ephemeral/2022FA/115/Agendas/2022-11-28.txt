@@ -13,7 +13,7 @@ Today we totally flowcharted the Password Verification algorithm for the `Passwo
 
 </center>
 
-Collectively, we worked through translating the flowchart to code. Here's the source code (also available in GitHub):
+Collectively, we worked through translating the flowchart to code. Here's the source code ([also available in GitHub](https://github.com/corydave/FLCC_CSC_115/blob/main/2022FA/2022-11-28/Password.java)):
 
 ^acc
 
