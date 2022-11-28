@@ -1,0 +1,20 @@
+AGENDA - 2022-11-21
+=============
+
+^callout info-circle
+
+### Information
+
+Open Lab
+
+^callout-end
+
+^callout calendar-alt
+
+### What's due
+
+* Keep working on all labs and projects for Chapter 8 - Loops
+
+<br />
+
+^callout-end
