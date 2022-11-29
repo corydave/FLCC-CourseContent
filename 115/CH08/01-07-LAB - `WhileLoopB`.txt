@@ -1,0 +1,94 @@
+^^ LAB - `WhileLoopB`
+
+## DESCRIPTION
+Using a `while` loop, write a program that will ask the user for a number and then output the next 10 consecutive numbers.
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top!
+
+* Your output must match the sample output exactly.
+
+* The code to complete the task should be in a separate method that is called by the `main` method
+
+## SAMPLE OUTPUT
+
+```
+Enter a number:
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+
+```
+
+<br />
+
+```
+Enter a number:
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+```
+
+<br />
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`WhileLoopB.java`](https://drive.google.com/uc?export=download&id=1zBxwyoFawQisfXANQ6Cnt4fMiPZWYPpK)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+
+^acc
+
+^^^ `WhileLoopB.java`
+
+```java ^copy
+
+/**
+ * Description
+ *
+ * @author Student Name
+ * @since Date Started
+ */
+
+public class WhileLoopB {
+
+
+ // Put yer dang tootin' code here!
+
+
+}
+```
+
+^acc-end
+
+
+
+
+
+<br /><br />
