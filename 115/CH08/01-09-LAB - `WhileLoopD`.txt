@@ -1,0 +1,95 @@
+^^ LAB - `WhileLoopD`
+
+## DESCRIPTION
+Write a program that will ask the user to enter a number. Using a `while` loop, keep asking the user to enter a number until they enter `3`. Once `3` is entered, the program displays a message.
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top!
+
+* Your output must match the sample output exactly.
+
+* The code to complete the task should be in a separate method that is called by the `main` method
+
+## SAMPLE OUTPUT
+
+```
+Enter a number: 
+6
+Enter a number:
+8
+Enter a number: 
+-3
+Enter a number: 
+3
+You chose 3.
+```
+
+<br />
+
+```
+Enter a number: 
+7
+Enter a number: 
+2
+Enter a number: 
+31
+Enter a number: 
+32
+Enter a number: 
+33
+Enter a number: 
+23
+Enter a number: 
+33
+Enter a number: 
+3
+You chose 3.
+```
+
+<br />
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`WhileLoopD.java`](https://drive.google.com/uc?export=download&id=1jeT40jglITsbWjMTGX1IUozLVvi6REet)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+
+^acc
+
+^^^ `WhileLoopD.java`
+
+```java ^copy
+
+/**
+ * Description
+ *
+ * @author Student Name
+ * @since Date Started
+ */
+
+public class WhileLoopD {
+
+
+ // Put yer dang tootin' code here!
+
+
+}
+```
+
+^acc-end
+
+
+
+
+
+<br /><br />
