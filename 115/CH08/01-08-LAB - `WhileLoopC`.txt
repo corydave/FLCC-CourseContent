@@ -1,0 +1,93 @@
+^^ LAB - `WhileLoopC`
+
+## DESCRIPTION
+Create a program that asks the user for a starting number and a number to increase by (incrementor). Then, using a `while` loop, output six terms (starting at the starting number) that increase by the incrementor that the user entered.
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top!
+
+* Your output must match the sample output exactly.
+
+* The code to complete the task should be in a separate method that is called by the `main` method
+
+## SAMPLE OUTPUT
+
+```
+Enter starting number: 
+3
+ 
+Enter incrementor: 
+7
+ 
+3
+10
+17
+24
+31
+38
+```
+
+<br />
+
+```
+Enter starting number:
+4
+ 
+Enter incrementor:
+-1
+ 
+4
+3
+2
+1
+0
+-1
+```
+
+<br />
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`WhileLoopC.java`](https://drive.google.com/uc?export=download&id=1Sf_y4vF4iFofMZY3lTaKXAXy2L6xRBKm)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+
+^acc
+
+^^^ `WhileLoopC.java`
+
+```java ^copy
+
+/**
+ * Description
+ *
+ * @author Student Name
+ * @since Date Started
+ */
+
+public class WhileLoopC {
+
+
+ // Put yer dang tootin' code here!
+
+
+}
+```
+
+^acc-end
+
+
+
+
+
+<br /><br />
