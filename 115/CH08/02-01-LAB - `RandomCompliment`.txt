@@ -1,0 +1,125 @@
+^^ LAB - `RandomCompliment`
+
+## DESCRIPTION
+Construct a program that iterates until the user presses `0`. If the number is greater than zero, then the software will dole out that number of compliments.
+
+Hint: It is probably easiest to accomplish this by creating a `while` loop to govern the entire program and a `for` loop to dole out the compliments. It is also probably easier to create a small method first - one that just doles out random compliments (based on the input from the user). The next step is to wrap that program in a `while` loop.
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top!
+
+* Your output must match the sample output exactly.
+
+* The code to complete the task should be in a separate method that is called by the `main` method.
+
+* Declare a `Random` object once in your method and pass it into your method that doles out the compliments.
+
+* The method that doles out compliments should also take an `int` - the number of compliments.
+
+* The method that provides the compliments should also use a `switch` statement (cases 0 through 2) to pick one compliment from a bank of 3
+
+## SAMPLE OUTPUT
+
+```
+RANDOM SEED:
+33
+ 
+Welcome to Random Complimentor
+How many compliments would you like? ('0' to quit)
+5
+You are soooooo good looking.
+You are soooooo good looking.
+You're pretty awesome.
+You're pretty awesome.
+You have a wonderful smile.
+How many compliments would you like? ('0' to quit)
+2
+You have a wonderful smile.
+You have a wonderful smile.
+How many compliments would you like? ('0' to quit)
+3
+You're pretty awesome.
+You're pretty awesome.
+You're pretty awesome.
+How many compliments would you like? ('0' to quit)
+3
+You're pretty awesome.
+You are soooooo good looking.
+You have a wonderful smile.
+How many compliments would you like? ('0' to quit)
+0
+ 
+Have a great day!
+```
+
+<br />
+
+```
+RANDOM SEED:
+42
+Welcome to Random Complimentor
+How many compliments would you like? ('0' to quit)
+3
+You're pretty awesome.
+You are soooooo good looking.
+You are soooooo good looking.
+How many compliments would you like? ('0' to quit)
+3
+You're pretty awesome.
+You are soooooo good looking.
+You have a wonderful smile.
+How many compliments would you like? ('0' to quit)
+3
+You're pretty awesome.
+You're pretty awesome.
+You have a wonderful smile.
+How many compliments would you like? ('0' to quit)
+0
+ 
+Have a great day!
+```
+
+<br />
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`RandomCompliment.java`](https://drive.google.com/uc?export=download&id=1fZ4EfSDl45Vd7mZj8wKsvM8m3I6q1G1A)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+
+^acc
+
+^^^ `RandomCompliment.java`
+
+```java ^copy
+
+/**
+ * Description
+ *
+ * @author Student Name
+ * @since Date Started
+ */
+
+public class RandomCompliment {
+    
+}
+
+```
+
+^acc-end
+
+
+
+
+
+<br /><br />
