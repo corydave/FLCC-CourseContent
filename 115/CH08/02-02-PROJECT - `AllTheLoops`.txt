@@ -1,4 +1,4 @@
-^^ PROJECT - `RandomCompliment`
+^^ PROJECT - `AllTheLoops`
 
 ## DESCRIPTION
 In understanding loops, oftentimes the best way to gain understanding is to experiment with the many different facets of loop constructs. This lab will explore `for` loops, `while` loops, and `do-while` loops. It will also provide an opportunity to practice using methods to displace and better organize code.
