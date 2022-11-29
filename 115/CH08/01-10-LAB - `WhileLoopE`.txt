@@ -1,0 +1,106 @@
+^^ LAB - `WhileLoopE`
+
+## DESCRIPTION
+Using a `while` loop, write a program that will ask the user if they want to play a game. As long as they don't enter the word "`no`", the loop will iterate.
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top!
+
+* Your output must match the sample output exactly.
+
+* The code to complete the task should be in a separate method that is called by the `main` method
+
+* The condition in the `while` statement should ignore case (hint: there's a `String` method for this- check the class notes on `String` or the Relevant API)
+
+## SAMPLE OUTPUT
+
+```
+Would you like to play a game? 
+yes
+ 
+Would you like to play a game? 
+sadfasdf
+ 
+Would you like to play a game?
+no
+ 
+Game over.
+```
+
+<br />
+
+```
+Would you like to play a game? 
+no
+ 
+Game over.
+```
+
+<br />
+
+```
+Would you like to play a game?
+v
+ 
+Would you like to play a game? 
+4325
+ 
+Would you like to play a game? 
+jkhgf
+ 
+Would you like to play a game? 
+6sgh ngh sdgfg
+ 
+Would you like to play a game? 
+no
+ 
+Game over.
+```
+
+<br />
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`WhileLoopE.java`](https://drive.google.com/uc?export=download&id=1LYUshVUA91Luu6mSf2NLCMv_VNPtgnI4)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+
+^acc
+
+^^^ `WhileLoopE.java`
+
+```java ^copy
+
+/**
+ * Description
+ *
+ * @author Student Name
+ * @since Date Started
+ */
+
+public class WhileLoopE {
+
+
+ // Put yer dang tootin' code here!
+
+
+}
+```
+
+^acc-end
+
+
+
+
+
+<br /><br />
