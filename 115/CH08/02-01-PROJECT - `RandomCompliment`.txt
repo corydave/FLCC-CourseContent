@@ -1,4 +1,4 @@
-^^ LAB - `RandomCompliment`
+^^ PROJECT - `RandomCompliment`
 
 ## DESCRIPTION
 Construct a program that iterates until the user presses `0`. If the number is greater than zero, then the software will dole out that number of compliments.
