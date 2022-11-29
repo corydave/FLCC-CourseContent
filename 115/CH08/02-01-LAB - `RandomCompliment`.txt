@@ -19,7 +19,7 @@ Hint: It is probably easiest to accomplish this by creating a `while` loop to go
 
 * The method that doles out compliments should also take an `int` - the number of compliments.
 
-* The method that provides the compliments should also use a `switch` statement (cases 0 through 2) to pick one compliment from a bank of 3
+* The method that provides the compliments should also use a `switch` statement (cases 0 through 2) to pick one compliment from a bank of 3.
 
 ## SAMPLE OUTPUT
 
