@@ -21,11 +21,11 @@ These are better for times when you know exactly how many times the program will
 * LAB - `WhileLoopC`
 * LAB - `WhileLoopD`
 * LAB - `WhileLoopE`
-* LAB - `ForLoopA`
-* LAB - `ForLoopB`
-* LAB - `ForLoopC`
-* LAB - `ForLoopD`
-* LAB - `ForLoopE`
+* LAB - `ForLoop01`
+* LAB - `ForLoop02`
+* LAB - `ForLoop03`
+* LAB - `ForLoop04`
+* LAB - `ForLoop05`
 * PROJECT - `RandomCompliment`
 * PROJECT - `AllTheLoops`
 * PROJECT - `GuessANumber02`
