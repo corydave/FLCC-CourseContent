@@ -1,0 +1,232 @@
+^^ PROJECT - `RandomCompliment`
+
+## DESCRIPTION
+In understanding loops, oftentimes the best way to gain understanding is to experiment with the many different facets of loop constructs. This lab will explore `for` loops, `while` loops, and `do-while` loops. It will also provide an opportunity to practice using methods to displace and better organize code.
+
+## WALKTHROUGH
+
+This software has three phases:
+
+**STEP 1: Run a for loop that iterates with given numbers**
+
+Prompt the user for the initial number, prompt the user for the ending number, and then prompt the user for an incrementor. The loop should output (one number per line) the terms between the initial number and the ending number, increasing by the incrementor. Note that the ending number may not be displayed, depending on the pattern of numbers.
+
+**STEP 2: Run a while loop that iterates until the user stops it**
+
+During each loop iteration, the software should output a random number between 1 and 50. Immediately after this number is displayed, the software should ask if the user wants another random number. If so, another number is output (otherwise, the loop stops iterating). Before the loop begins, ask the user for a seed for the random number generator. Use an instance of the `Random` class (`java.util.Random`) to generate the random numbers.
+
+**STEP 3: Use a `do-while` loop to get numbers and compute the average**
+
+The software will ask the user to input numbers until they choose to quit (by entering a 0). The software will then display the average of the entered numbers.
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top!
+
+* Your output must match the sample output exactly.
+
+* The code to complete the task should be in a separate method that is called by the `main` method.
+
+* Your program should have three methods that are called in the `main` method (one for each loop scenario). These methods do not need to return a value. Since each method requires getting input from the user, you should declare a `Scanner` object in the `main` method and pass it to each of the other methods as a parameter.
+
+^=^ ,,,, 10
+
+### NOTES
+
+I would recommend working on this lab one section at a time. 
+
+The first phase, the `for` loop, should go fairly quickly. Once it works, comment it out and start on the `while` loop. When that works well, comment it out and focus on the `do-while` loop. Having method calls in the `main` method makes it easier to skip over the parts of the code you aren’t currently working on.
+
+Note that the *FOR LOOP* section requires that the ending number should appear (if it would naturally appear). For instance, if the loop starts at 1 and ends at 7 going up by 2, then the output should be 1, 3, 5, 7.
+
+Note that the *WHILE LOOP* section should ignore case when accepting “stop” to terminate.
+
+In the *WHILE LOOP* section, include a call to your `Scanner` object’s `.nextLine()` method after the user inputs the seed for the random number generator. This will help overcome the `Scanner`’s buffering/position issue.
+
+In the *DO-WHILE LOOP* section, be sure to check your average calculation carefully for correctness. You might try printing out the values of the variables you are using to calculate the average during the debugging process. You can assume the user will enter in at least one number before entering “`0`” to quit. 
+
+^=
+
+## SAMPLE OUTPUT
+
+```
+FOR LOOP
+Please enter a starting point for your for loop: 
+1
+Please enter an ending point for your for loop: 
+12
+What value would you like the for loop to go up by? 
+4
+
+Your numbers:
+1
+5
+9
+
+
+WHILE LOOP
+Please enter a seed for the random number generator: 
+33
+
+Here's your random number: 4
+Would you like another number? Enter 'stop' to stop. 
+yes
+Here's your random number: 20
+Would you like another number? Enter 'stop' to stop. 
+yes
+Here's your random number: 4
+Would you like another number? Enter 'stop' to stop. 
+stop
+
+
+DO-WHILE LOOP
+Enter a number (0 to stop and print average): 
+4
+Enter a number (0 to stop and print average): 
+5
+Enter a number (0 to stop and print average): 
+6
+Enter a number (0 to stop and print average): 
+7
+Enter a number (0 to stop and print average): 
+0
+The average of your numbers is: 5.5
+```
+
+<br />
+
+```
+FOR LOOP
+Please enter a starting point for your for loop: 
+-10
+Please enter an ending point for your for loop: 
+44
+What value would you like the for loop to go up by? 
+17
+
+Your numbers:
+-10
+7
+24
+41
+
+
+WHILE LOOP
+Please enter a seed for the random number generator: 
+88
+
+Here's your random number: 41
+Would you like another number? Enter 'stop' to stop. 
+yes
+Here's your random number: 6
+Would you like another number? Enter 'stop' to stop. 
+stop
+
+
+DO-WHILE LOOP
+Enter a number (0 to stop and print average): 
+10
+Enter a number (0 to stop and print average): 
+20
+Enter a number (0 to stop and print average): 
+30
+Enter a number (0 to stop and print average): 
+0
+The average of your numbers is: 20.0
+```
+
+<br />
+
+```
+FOR LOOP
+Please enter a starting point for your for loop: 
+55
+Please enter an ending point for your for loop: 
+77
+What value would you like the for loop to go up by? 
+2
+
+Your numbers:
+55
+57
+59
+61
+63
+65
+67
+69
+71
+73
+75
+77
+
+
+WHILE LOOP
+Please enter a seed for the random number generator: 
+1
+
+Here's your random number: 36
+Would you like another number? Enter 'stop' to stop. 
+stop
+
+
+DO-WHILE LOOP
+Enter a number (0 to stop and print average): 
+5
+Enter a number (0 to stop and print average): 
+10
+Enter a number (0 to stop and print average): 
+0
+The average of your numbers is: 7.5
+
+```
+
+<br />
+
+## REFERENCE MATERIAL
+
+* The [Relevant API](https://docs.google.com/document/d/1BKroTmABlP23RXj-ans0bqe_jw4xULaM04chwl9lV30/pub) (in particular, the Scanner and Random sections)
+
+* The actual [Java API](https://docs.oracle.com/javase/8/docs/api/java/util/Random.html) for Random
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`AllTheLoops.java`](https://drive.google.com/uc?export=download&id=1m_KhLZ1XpEe8Z5itqZIgwy5bT-7k1AyX)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+
+^acc
+
+^^^ `AllTheLoops.java`
+
+```java ^copy
+
+/**
+ * Description
+ *
+ * @author Student Name
+ * @since Date Started
+ */
+
+public class AllTheLoops {
+
+}
+
+```
+
+^acc-end
+
+
+
+
+
+<br /><br />
