@@ -1,0 +1,215 @@
+^^ PROJECT - `GuessANumber03`
+
+## DESCRIPTION
+
+This lab is an extension of the Guess A Number lab. For this lab, we want to add on the functionality of asking the user if they want to play again, and then automatically starting a new game if they choose to continue playing.
+
+^=^ ,,, 9
+
+Original Guess A Number description: One of the quintessential programming exercises for aspiring software engineers is the classic game, Guess A Number. The game affords the user a chance to guess a number. The game ends when the user guesses the number. Our version of the game will inform the user if their guess was too high or too low, helping the user to hone in on the actual number.
+
+^=
+
+## WALKTHROUGH
+
+This program is divided into *five* phases- the 4 original phases plus a *new Step 5*:
+
+**STEP 1: Generate a random number**
+
+A (seeded) random integer between 1 and 100 is created.
+
+**STEP 2: Ask the user for a number between 1 and 100**
+
+Prompt the user to enter a number between 1 and 100. If the user guesses correctly, then proper congratulations are doled out and the game is over. Feedback is given based on if their guess is too high or too low.
+
+**STEP 3: The user continues to guess numbers**
+
+At some point a loop starts, and this loop will stop when the user guesses the correct number. The user will continue to enter guesses, and the program will tell the user if their guess is higher or lower than the target number. 
+
+**STEP 4: Endgame**
+
+When the user guesses the correct number, proper congratulations are doled out and the game is over. The program will display the number of guesses that it took the user to guess the correct number.
+
+**STEP 5: Repeat Play option**
+After the round of guessing has ended, the program should ask the user if they would like to play again. If they choose "yes", a new round of the guessing game should start. Otherwise, the program should end.
+
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top!
+
+* The code to complete the task should be in a separate method that is called by the `main` method.
+
+* The loop mechanism should be a ​`while`​ loop.
+
+* Use `​if`​ statements to determine if the number is too high or too low and provide feedback.
+
+* There are no autograded test cases for this lab- you have complete creative control!
+
+* Feel free to copy in your original `GuessANumber02` code and add onto it.
+
+* To implement the new functionality, you will have to add another `while` loop. This new loop should encompass all of the game-playing code including the original `while` loop. So you will have a loop inside of a loop!
+
+## SAMPLE OUTPUT
+
+```
+Enter a seed:
+33
+
+
+Welcome!
+Please enter a number between 1 and 100:
+4
+
+Congratulations. You guessed correctly! 
+You needed only 1 guess.
+
+Do you want to play again? Answer "yes" or "no":
+yes
+
+Welcome!
+Please enter a number between 1 and 100:
+20
+
+Congratulations. You guessed correctly! 
+You needed only 1 guess.
+
+Do you want to play again? Answer "yes" or "no":
+yes
+
+Welcome!
+Please enter a number between 1 and 100:
+4
+
+Congratulations. You guessed correctly! 
+You needed only 1 guess.
+
+Do you want to play again? Answer "yes" or "no":
+no
+Game Over!
+```
+
+<br />
+
+```
+Enter a seed:
+88
+
+
+Welcome!
+Please enter a number between 1 and 100:
+50
+
+Too low. Guess again: 
+75
+
+Too low. Guess again: 
+87
+
+Too low. Guess again: 
+93
+
+Too high. Guess again: 
+90
+
+Too low. Guess again: 
+91
+
+Congratulations. You guessed correctly! 
+You needed 6 guesses.
+
+Do you want to play again? Answer "yes" or "no":
+yes
+
+
+Welcome!
+Please enter a number between 1 and 100:
+50
+
+Too low. Guess again: 
+75
+
+Too high. Guess again: 
+62
+
+Too high. Guess again: 
+56
+
+Congratulations. You guessed correctly! 
+You needed 4 guesses.
+
+Do you want to play again? Answer "yes" or "no":
+yes
+
+
+Welcome!
+Please enter a number between 1 and 100:
+50
+
+Too high. Guess again: 
+25
+
+Too low. Guess again: 
+37
+
+Too low. Guess again: 
+43
+
+Too high. Guess again: 
+40
+
+Congratulations. You guessed correctly! 
+You needed 5 guesses.
+
+Do you want to play again? Answer "yes" or "no":
+no
+Game Over!
+```
+
+<br />
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`GuessANumber03.java`](https://drive.google.com/uc?export=download&id=1qnnDtnEdx5GW6uDzXi8HR2n11xcpNFTo)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+
+^acc
+
+^^^ `GuessANumber03.java`
+
+```java ^copy
+
+/**
+ * Description
+ *
+ * @author Student Name
+ * @since Date Started
+ */
+
+
+public class GuessANumber03 {
+
+
+ // Put yer super duper loopy code here!
+
+
+}
+```
+
+^acc-end
+
+
+
+
+
+<br /><br />
