@@ -1,0 +1,137 @@
+^^ PROJECT - `GuessANumber02`
+
+## DESCRIPTION
+One of the quintessential programming exercises for aspiring software engineers is the classic game, Guess A Number. The game secretly selects a number and affords the user a chance to keep guessing a number. The game ends when the user guesses the secret number.
+
+Our version of the game will inform the user if their guess was too high or too low, helping the user to hone in on the actual number.
+
+
+## WALKTHROUGH
+
+This program is divided into four phases:
+
+**STEP 1: Generate a random number**
+
+A (seeded) random integer between 1 and 100 is created.
+
+**STEP 2: Ask the user for a number between 1 and 100**
+
+Prompt the user to enter a number between 1 and 100. If the user guesses correctly, then proper congratulations are doled out and the game is over. Feedback is given based on if their guess is too high or too low.
+
+**STEP 3: The user continues to guess numbers**
+
+At some point a loop starts, and this loop will stop when the user guesses the correct number. The user will continue to enter guesses, and the program will tell the user if their guess is higher or lower than the target number.
+
+**STEP 4: Endgame**
+
+When the user guesses the correct number, proper congratulations are doled out and the game is over. The program will display the number of guesses that it took the user to guess the correct number.
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top!
+
+* The code to complete the task should be in a separate method that is called by the `main` method.
+
+* The loop mechanism should be a ​`while`​ loop.
+
+* Use `​if`​ statements to determine if the number is too high or too low and provide feedback.
+
+* There are no autograded test cases for this lab- you have complete creative control!
+
+## SAMPLE OUTPUT
+
+```
+Enter a seed:
+33
+
+Welcome!
+Please enter a number between 1 and 100:
+5
+
+Too high. Guess again: 
+4
+
+Congratulations. You guessed correctly! 
+You needed 2 guesses.
+```
+
+<br />
+
+```
+Enter a seed:
+50
+ 
+Welcome!
+Please enter a number between 1 and 100:
+50
+ 
+Too high. Guess again: 
+25
+ 
+Too high. Guess again: 
+12
+ 
+Too low. Guess again: 
+19
+ 
+Too high. Guess again: 
+15
+ 
+Too low. Guess again: 
+17
+ 
+Too low. Guess again: 
+19
+ 
+Too high. Guess again: 
+18
+Congratulations. You guessed correctly! 
+You needed 8 guesses.
+```
+
+<br />
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`GuessANumber02.java`](https://drive.google.com/uc?export=download&id=1BOss4On-4lzPDkJjKpW_9gimea8VQElt)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+
+^acc
+
+^^^ `GuessANumber02.java`
+
+```java ^copy
+
+/**
+ * Description
+ *
+ * @author Student Name
+ * @since Date Started
+ */
+
+public class GuessANumber02 {
+
+
+ // Put yer super duper loopy code here!
+
+
+}
+```
+
+^acc-end
+
+
+
+
+
+<br /><br />
