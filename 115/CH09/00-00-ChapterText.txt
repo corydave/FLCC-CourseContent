@@ -1,3 +1,62 @@
 <p><img src="https://docs.google.com/drawings/d/e/2PACX-1vTQtqiKuhQWXp7_XH9FH-4pxKpTXjrgi_6R42M0MweCIvn2KUeoQXL-d2PvIq_nsTnwAvJiT0kt5y7w/pub?w=900&amp;h=380" style="display: none; max-width: 100%;" alt="An illustration of the concept of an array in Java. It’s just a bunch of squares in a line. Each square holds an integer." title="An illustration of the concept of an array in Java. It’s just a bunch of squares in a line. Each square holds an integer." width="0" height="0"></p>
 
 ^^ Arrays
+
+# Description
+
+When you're programming and you find that you need to have a whole bunch of variables with the same name except maybe the numbers at the end of each one (like `grade01`, `grade02`, `grade03`,... `grade50`) - you need an *array*.
+
+An array allows you to have one variable that stores multiple values at the same time. Think of a `String `- it is one variable that allows you to pick and choose any individual character at any given time:
+
+```java
+
+String name;
+System.out.println(name.charAt(3)); 
+
+```
+
+The above code will output the fourth letter in the `String` (don't forget that a `String` is zero-indexed).
+
+An array can hold many values. In this case, it will hold five different integers:
+
+```java
+
+int[] basketballJerseyNumbers = {6, 23, 30, 32, 33}
+System.out.println(basketballJerseyNumbers[4]);
+
+```
+
+This code will output `33`, which is the fifth element in the array.
+
+But be careful! You can easily get an **`ArrayIndexOutOfBounds`** exception if you try to get an element beyond the length of the array:
+
+```java
+
+int[] basketballJerseyNumbers = {6, 23, 30, 32, 33}
+System.out.println(basketballJerseyNumbers[5]);
+// ArrayIndexOutOfBounds EXCEPTION!!!!!
+
+```
+
+# Experiences for this chapter
+
+* READING GUIDE - Chapter 9 Reading Guide
+* LAB - `ArrayOutputValues`
+* LAB - `ArrayDoubleValues`
+* LAB - `ArrayBackwards`
+* LAB - `ArrayShiftLeft`
+* LAB - `ArrayShiftRight`
+* PROJECT - `RandomCompliment02`
+
+# Prediction
+
+In the meantime, try to guess what this code does:
+
+```java
+
+String[] names = {"Alice", "Bob", "Craig", "Dan", "Erin"}
+System.out.println(names[3]);
+System.out.println(names[4].toUpperCase());
+System.out.println(names[0].charAt(1));
+
+```
