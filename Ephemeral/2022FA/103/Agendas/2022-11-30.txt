@@ -1,0 +1,43 @@
+AGENDA - 2022-11-30
+=============
+
+^callout info-circle
+
+### Information
+
+Today we *built a database from scratch* using [AirTable](https://airtable.com/). Although the one we built today was for a restaurant, you can see a similar process in this video where I build a POS (Point of Sale) system for a hardware store.
+
+<center>
+
+[Link to video](https://www.youtube.com/watch?v=1wZrGiWtgMQ)
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/1wZrGiWtgMQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</center>
+
+<br /><br />
+
+You can check out the AirTable database we set up for the [Restaurant here](https://airtable.com/shrhLUYObvqH0xMIm/tblZSUV785LRpBxAL/viwI5p1O0gWIYDBcq?blocks=hide).
+
+
+<center>
+
+<iframe class="airtable-embed" src="https://airtable.com/embed/shrhLUYObvqH0xMIm?backgroundColor=green" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+
+</center>
+
+^callout-end
+
+^callout calendar-alt
+
+### What's due
+
+* Google Docs I and II as well as Google Sheets I are all due December 12.
+
+* Build your own database by December 12.
+
+### Catch-Up
+
+* December 12 at 9:00 am is the last day to submit (or resubmit) work that you may have missed this semester.
+
+^callout-end
