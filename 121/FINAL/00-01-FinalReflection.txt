@@ -1,12 +1,31 @@
 ^^ FINAL REFLECTION
 
-^= =
 
 # Description
 
+The Final Reflection in this class can be one of two options (of course, if you are interested in doing something other than these two, email me and we can probably make it work!). 
+
+## Written Reflection
+Not a portfolio, but a reflection that addresses the totality of what you learned this semester.
+
+## Portfolio
+Round out your Google Site and add some items you are proud of as well as written reflections for the eight pieces you choose.
+
+<br />
+
+---
+
+<br />
+
+^acc
+
+^^^ Written Reflection
+
+^= =
+
 The final project for the class this semester is a reflection. Similar to the journals, you will be creating a reflection that represents your honest, unfiltered response to this class.
 
-I won't even read these until May 18, so they can have no effect on any work that is already submitted. I want you to be honest (like most of you have been in your journals!). 
+I won't even read these until December 18, so they can have no effect on any work that is already submitted. I want you to be honest (like most of you have been in your journals!). 
 
 This is as much for you as it is for me. I want to know how (if at all) this class has informed how you might teach. I also want to know how this course can be enhanced.
 
@@ -16,10 +35,9 @@ As with your journals, as long as you meet the specifications for this reflectio
 
 Please don't pad your response with fillers. I want you to really explore the totality of your experience this semester, and 2 pages is not a lot of room to do that in.
 
-
 ^===
 
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/nlVQtL_-FFQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/nlVQtL_-FFQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:15px;"></iframe>
 
 <center><br />
 
@@ -28,7 +46,6 @@ Please don't pad your response with fillers. I want you to really explore the to
 </center>
 
 ^=
-
 
 # Specifications
 
@@ -59,3 +76,25 @@ Please don't pad your response with fillers. I want you to really explore the to
   * Create this in Google Docs and share it as "Anyone with the link can COMMENT"
 
   * Submit the link to your Google Doc
+
+^acc-end
+
+<br /><br />
+
+^acc
+
+^^^ Google Sites Portfolio
+
+Flesh out the Google Sites that you submitted early on in this semester and submit that instead. You will need to embed a few of the items you want to reflect on and then provide a reflection on each one. Typically students who elect to do this include a text box above or below the embedded content.
+
+
+# Specifications
+
+* Include at least eight items
+
+* Reflect on each item
+    * Include information such as what you learned, what you might do differently, and how you might incorporate what you learned into your classroom
+
+* Submit a link to your Google Site. Make sure you test it in *Incognito mode* before submitting because some of your items might not be visible to viewers of your website (including me!). If you observe that when you test it in Incognito mode there are some documents that are not shared appropriately, please make sure you change their visibility and test the site again.
+
+^acc-end
