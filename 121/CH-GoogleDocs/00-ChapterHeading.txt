@@ -1,0 +1,30 @@
+<img title="The icon for Google Documents." alt="The icon for Google Documents." src="https://docs.google.com/drawings/d/e/2PACX-1vQ94_0qRX_PKjL8_4rHkMfjoZfYIWfBsI9TJFIR7FU7juCIYlyLKDf-CtkG_DsJqFfr4KJd8nhLYi0d/pub?w=200&amp;h=200" style="display:none;" />
+
+^^ Chapter 9 - Google Docs
+
+# Experiences for this chapter
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vSNOi9YFfak2ItBhOZIB72frow1ycBatSz7yk9a2yb1PeyoDkWmQVWS1zhiNuCmPxPufLKs6ewdilYM/pub?w=240&amp;h=180" alt="The icon for Google Documents." title="The icon for Google Documents." style="float:right;border-radius:25px;margin-right:20px;margin-left:20px;margin-top:-20px;margin-bottom:20px;">
+
+Google Documents (often called "Google Docs") can be a very simple word processor, but there are a lot of great features in Docs that we'll dig into. One of the more potent - and lesser known - features is the ability to embed content from Google Drawings and Google Sheets. 
+
+After exploring some of the cool features in Docs, we'll look at a few ways to really leverage Docs for designing assignments for our students.
+
+# Notes
+Some things to keep in mind:
+
+1. Your school might use Microsoft Office instead of Google. That's OK - Microsoft Word is similar enough that the skills you acquire here will transfer.
+
+<div style="clear:both;">
+
+<CENTER>
+
+<iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vQxQU3Z_qJqXJJLdKHi9zJnaPihlqmonB8qf_9jl0f_R9Lp4CSiYqFDk4WN-89tQH2TMQOglJ5KAGWN/pubhtml/sheet?headers=false&amp;gid=1627897645&amp;range=A1:D11'style="width:100%;max-width:720px;height:288px" frameborder="0"></iframe>
+
+</div>
+
+<br />
+
+## Let's be careful out there!
+
+<br /></center>
