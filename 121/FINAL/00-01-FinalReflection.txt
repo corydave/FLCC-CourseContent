@@ -1,4 +1,4 @@
-^^ FINAL REFLECTION
+^^ Culminating Activity
 
 
 # Description
@@ -98,3 +98,7 @@ Flesh out the Google Sites that you submitted early on in this semester and subm
 * Submit a link to your Google Site. Make sure you test it in *Incognito mode* before submitting because some of your items might not be visible to viewers of your website (including me!). If you observe that when you test it in Incognito mode there are some documents that are not shared appropriately, please make sure you change their visibility and test the site again.
 
 ^acc-end
+
+<br /><br />
+
+You can find the place to submit the link here.
