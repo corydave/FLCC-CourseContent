@@ -1,7 +1,5 @@
-<img title="The icon for Google Documents." alt="The icon for Google Documents." src="https://docs.google.com/drawings/d/e/2PACX-1vQ94_0qRX_PKjL8_4rHkMfjoZfYIWfBsI9TJFIR7FU7juCIYlyLKDf-CtkG_DsJqFfr4KJd8nhLYi0d/pub?w=200&amp;h=200" style="display:none;" />
-
 ^^ Chapter 9 - Google Docs
-
+<img title="The icon for Google Documents." alt="The icon for Google Documents." src="https://docs.google.com/drawings/d/e/2PACX-1vQ94_0qRX_PKjL8_4rHkMfjoZfYIWfBsI9TJFIR7FU7juCIYlyLKDf-CtkG_DsJqFfr4KJd8nhLYi0d/pub?w=200&amp;h=200" style="display:none;" />
 # Experiences for this chapter
 
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vSNOi9YFfak2ItBhOZIB72frow1ycBatSz7yk9a2yb1PeyoDkWmQVWS1zhiNuCmPxPufLKs6ewdilYM/pub?w=240&amp;h=180" alt="The icon for Google Documents." title="The icon for Google Documents." style="float:right;border-radius:25px;margin-right:20px;margin-left:20px;margin-top:-20px;margin-bottom:20px;">
@@ -19,7 +17,7 @@ Some things to keep in mind:
 
 <CENTER>
 
-<iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vQxQU3Z_qJqXJJLdKHi9zJnaPihlqmonB8qf_9jl0f_R9Lp4CSiYqFDk4WN-89tQH2TMQOglJ5KAGWN/pubhtml/sheet?headers=false&amp;gid=1627897645&amp;range=A1:D11'style="width:100%;max-width:720px;height:288px" frameborder="0"></iframe>
+<iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vQxQU3Z_qJqXJJLdKHi9zJnaPihlqmonB8qf_9jl0f_R9Lp4CSiYqFDk4WN-89tQH2TMQOglJ5KAGWN/pubhtml/sheet?headers=false&amp;gid=1627897645&amp;range=A1:D10'style="width:100%;max-width:720px;height:267px" frameborder="0"></iframe>
 
 </div>
 
