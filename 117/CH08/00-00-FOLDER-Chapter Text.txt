@@ -10,3 +10,5 @@ There is a lot to think about when designing software - and oftentimes the first
 
 1. VIDEO - `fortune_machine` Design Walkthrough
 2. READING - `fortune_machine` Flowchart
+3. READING - 8 Tips for Program Design
+4. VIDEOS - `pennywise` Design Walkthrough Series
