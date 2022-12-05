@@ -1,0 +1,11 @@
+^^ READING - 8 Tips for Program Design
+
+Here are eight tips that you should keep in mind when programming complex programs (you can [see the document here](https://docs.google.com/document/d/1dSg7rtUcCNHjrAR9dj1i1KCIo9Zi78I_oNXFFG6tF9k/edit#)).
+
+<center>
+
+<iframe src="https://docs.google.com/document/d/1dSg7rtUcCNHjrAR9dj1i1KCIo9Zi78I_oNXFFG6tF9k/preview" width="100%" height="1000"></iframe>
+
+</center>
+
+<br /><br />
