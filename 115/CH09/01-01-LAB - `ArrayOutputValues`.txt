@@ -1,0 +1,108 @@
+^^ LAB - `ArrayOutputValues`
+
+## DESCRIPTION
+As an introduction to arrays, we will write a simple program with three steps:
+
+1. Create an array (size specified by the user). 
+
+2. Randomly populate it with numbers 1-100
+
+3. Output the original array
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top!
+
+* Your output must match the sample output exactly. 
+
+## SAMPLE OUTPUT
+
+```
+seed:
+10
+length:
+10
+ 
+14 81 94 91 47 57 98 89 82 15
+```
+
+<br />
+
+```
+seed:
+8
+length:
+10
+ 
+65 57 31 22 73 59 32 32 54 1
+```
+
+<br />
+
+```
+seed:
+1000
+length:
+4
+ 
+88 36 77 25
+```
+
+<br />
+
+```
+seed:
+12
+length:
+12
+ 
+67 13 57 34 25 12 51 16 97 22 69 73
+
+```
+
+<br />
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`ArrayOutputValues.java`](https://drive.google.com/uc?export=download&id=18A7Au-3S3IUuZKOP1ReNCMuIbub2aAwP)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+
+^acc
+
+^^^ `ArrayOutputValues.java`
+
+```java ^copy
+
+/**
+ * Description
+ *
+ * @author Student Name
+ * @since Date Started
+ */
+
+public class ArrayOutputValues {
+
+}
+
+
+```
+
+
+
+^acc-end
+
+
+
+
+
+<br /><br />
