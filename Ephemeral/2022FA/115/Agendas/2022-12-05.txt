@@ -1,0 +1,227 @@
+AGENDA - 2022-12-05
+=============
+
+^callout info-circle
+
+### Information
+
+Today we looked at arrays. An *array* is a variable that is capable of holding multiple pieces of information. In the real world, you might consider a mailbox an array. It is one container that holds multiple items.
+
+Here is a [link to the Google Slides file](https://docs.google.com/presentation/d/1J29bEPwdiHemcXyS3VirsRQIjzWxetC8MTiqI81J8lU/edit?usp=sharing) we used to diagram out the conversation.
+
+<center>
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR1znnJeazQGD1VLUDQpyKVSnDyYjkuvLfbhoEy-iwxXDEakxXal-9h22XJxPhKxaS4YU0_x_5Z79NI/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+</center><br /><br />
+
+And here is the code we used from class. Of course, you can [get it in GitHub](https://github.com/corydave/FLCC_CSC_115/tree/main/2022FA/2022-12-05):
+
+<br />
+
+^acc
+
+^^^ `ArrayDemo.java`
+
+```java
+
+public class ArrayDemo {
+    public static void main (String[] args) {
+
+        studentDemo();
+
+    }
+
+    public static void studentDemo() {
+
+        // [] means *array* - can hold multiple values
+        // Arrays are *immutable* which means you CANNOT CHANGE THE LENGTH
+        String[] students = {"Dave", "Brian", "Luke", "Corey", "Colton"};   
+
+        // Output memory address of 'students'
+        System.out.println(students);
+
+        // Output the fourth value, "Corey"
+        System.out.println(students[3]);
+
+        // Use "length" - not "length()" to output the physical size
+        System.out.println("LENGTH = " + students.length);
+
+        // Output the FIRST value in the array:
+        System.out.println("FIRST VALUE = " + students[0]);
+
+        // Output the LAST value in the array:
+        System.out.println("LAST VALUE = " + students[students.length - 1]);
+        
+        // Outputting the array (or any object for that matter) will
+        // output the *memory address* of the object, not the contents
+        // of the object:
+        System.out.println(students[2].toUpperCase().charAt(2)); // "K"
+
+        // Outputting arrays of differnt types
+        int[] ages = {45, 22, 33};
+        System.out.println(ages); // [I@5674cd4d
+        outputArray(ages);
+
+        double[] gpas = {3, 3.9, 1.2, 2.56};
+        System.out.println(gpas); // [D@63961c42
+
+        char[] letters = {'A', 'b', '0'};
+        System.out.println(letters); // Ab0
+
+        System.out.println();
+
+        char[] temp;
+        String str = "This is a Test";
+        temp = str.toCharArray();
+        System.out.println(temp);
+        System.out.println(temp[5]);
+
+        System.out.println("\n===============================\n");
+        outputArray(students); // length = 5
+        outputArrayNicely(students);
+
+        System.out.println();
+
+        String[] lastNames = {"Bird", "Jordan"};
+        outputArray(lastNames); // length = 2
+        outputArrayNicely(lastNames);
+
+        System.out.println("\n\n\n\n\n\n\n\n\n\n");
+    }
+
+    public static void outputArray(String[] arr) {
+
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println(arr[i]);
+        }
+
+        // System.out.println(arr[0]);
+        // System.out.println(arr[1]);
+        // System.out.println(arr[2]);
+        // System.out.println(arr[3]);
+        // System.out.println(arr[4]);
+
+    }
+
+    public static void outputArray(int[] arr) {
+
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println(arr[i]);
+        }
+
+        // System.out.println(arr[0]);
+        // System.out.println(arr[1]);
+        // System.out.println(arr[2]);
+        // System.out.println(arr[3]);
+        // System.out.println(arr[4]);
+
+    }
+
+    public static void outputArrayNicely(String[] arr) {
+
+        System.out.print("[");
+
+        for (int i = 0; i < arr.length-1; i++) {
+            System.out.print(arr[i] + ", ");
+        }
+
+        System.out.println(arr[arr.length-1] + "]");
+
+    }
+
+}
+
+```
+
+^acc-end
+
+<br />
+
+^acc
+
+^^^ `BetterArrays.java`
+
+```java
+
+import java.util.Scanner;
+import java.util.Random;
+
+public class BetterArrays {
+    public static void main (String[] args) {
+
+        betterArrays();
+
+    }
+
+    public static void betterArrays() {
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("How many names?");
+        int numberOfNames = scanner.nextInt();
+
+        String[] names = new String[numberOfNames];
+        // outputArray(names);
+
+        scanner.nextLine();
+
+        for (int i = 0; i < names.length; i++) {
+            System.out.println("Enter name #" + (i + 1) + ":");
+            names[i] = scanner.nextLine();
+        }
+
+        outputArray(names);
+
+        pickRandomName(names);
+
+    }
+
+    public static void pickRandomName(String[] arr) {
+
+        Random random = new Random();
+        int randomNumber = random.nextInt(arr.length-1);
+
+        System.out.println("UNFORTUNATE STUDENT IS " + arr[randomNumber]);
+
+
+
+    }
+
+
+
+    public static void outputArray(String[] arr) {
+
+        System.out.print("[");
+
+        for (int i = 0; i < arr.length-1; i++) {
+            System.out.print(arr[i] + ", ");
+        }
+
+        System.out.println(arr[arr.length-1] + "]");
+    }
+
+}
+
+
+```
+
+^acc-end
+
+^callout-end
+
+^callout calendar-alt
+
+### What's due
+
+* Due dates are up to date in CodeGrade
+
+* The final exam is on 12/12 and is held in class.
+
+* On 12/14 we will be meeting at Dunkin' Donuts in Victor. I'm buying!
+
+* Labs for Chapter 9 will be posted.
+
+<br />
+
+^callout-end
+
