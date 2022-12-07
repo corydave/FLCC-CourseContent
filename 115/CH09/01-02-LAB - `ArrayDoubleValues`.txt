@@ -1,0 +1,171 @@
+^^ LAB - `ArrayDoubleValues`
+
+## DESCRIPTION
+Write a program with four steps:
+
+1. Create an array (size specified by the user). 
+
+2. Randomly populate it with numbers 1-100
+
+3. Output the original array
+
+4. Output the array with each value doubled
+
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top!
+
+* Your output must match the sample output exactly. 
+
+## SAMPLE OUTPUT
+
+```
+seed:
+10
+ 
+length:
+10
+14 81 94 91 47 57 98 89 82 15
+28 162 188 182 94 114 196 178 164 30
+```
+
+<br />
+
+```
+seed:
+8
+ 
+length:
+10
+ 
+65 57 31 22 73 59 32 32 54 1
+130 114 62 44 146 118 64 64 108 2
+```
+
+<br />
+
+```
+seed:
+1000
+ 
+length:
+4
+ 
+88 36 77 25
+176 72 154 50
+```
+
+<br />
+
+```
+seed:
+12
+ 
+length:
+12
+ 
+67 13 57 34 25 12 51 16 97 22 69 73
+134 26 114 68 50 24 102 32 194 44 138 146
+```
+
+<br />
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`ArrayDoubleValues.java`](https://drive.google.com/uc?export=download&id=1srreIwS3msJLaBWrKdYQEUqfZ8WuOyJY)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+
+^acc
+
+^^^ `ArrayDoubleValues.java`
+
+```java ^copy
+
+/**
+ * Description
+ *
+ * @author Student Name
+ * @since Date Started
+ */
+ 
+import java.util.Scanner;
+import java.util.Random;
+
+public class ArrayDoubleValues {
+    public static void main (String[] args) {
+        
+        // instantiate a Scanner object
+        Scanner scanner = new Scanner(System.in);
+        
+        // get input from user for a seed for the RNG
+        System.out.println("seed:");
+		int seed = scanner.nextInt();
+		System.out.println();
+        
+        // get input from user for the size of the array
+        System.out.println("length:");
+		int size = scanner.nextInt();
+        
+        // instantiate a RNG with the seed
+        Random random = new Random(seed);
+        
+        
+        // INSERT YOUR CODE HERE
+        
+        // STEP 1: Create an array of size 'size'
+        
+        
+        // STEP 2: Iterate through the array and insert a random 
+        //         number between 1 and 100
+        
+        
+        // STEP 3: Display the array
+        System.out.println();
+		displayArray(arr);
+		System.out.println();
+        
+        // STEP 4: Iterate through the array and double each value
+
+        // Array BEFORE shift: 28 70 88 91 41 74 29 50 85 65 
+        // Array AFTER shift:  56 140 176 182 82 148 58 100 170 130 
+        }
+        
+        // STEP 5: Display the array again
+        
+        
+    }
+    
+    public static void displayArray(int[] arr) {
+    
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
+        }
+
+    }
+        
+        
+        
+    
+}
+```
+
+
+
+^acc-end
+
+
+
+
+
+<br /><br />
