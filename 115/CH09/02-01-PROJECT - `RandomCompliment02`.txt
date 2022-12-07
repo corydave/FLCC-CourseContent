@@ -1,0 +1,182 @@
+^^ PROJECT - `RandomCompliment02`
+
+## DESCRIPTION
+This is an extension of `RandomCompliment` - instead of a hardcoded compliment bank, this program will ask the user how many compliments should be in the bank and then prompt them to enter each compliment. They will be stored in an array.
+
+In the next phase of the program, the user will be prompted to enter how many compliments they would like to receive ("0" to quit). Randomly, the software will dole out that many compliments. 
+
+The compliment phase goes on until the user decides to quit.
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top!
+
+* Your output must match the sample output exactly.
+
+* The code to complete the task should be in a separate method that is called by the `main` method.
+
+* Declare a `Random` object once in your method and pass it into your method that doles out the compliments.
+
+* The method that doles out compliments should also take an `int` - the number of compliments.
+
+## SAMPLE OUTPUT
+
+```
+Welcome to Random Complimentor
+ 
+RANDOM SEED:
+33
+ 
+How many compliments would you like to add?
+3
+ 
+Please enter a compliment:
+I like your hair.
+ 
+Please enter a compliment:
+You look nice today.
+ 
+Please enter a compliment:
+It's fun when you smile.
+ 
+The compliments have been loaded.
+ 
+ 
+How many compliments would you like? ('0' to quit)
+1
+ 
+I like your hair.
+ 
+How many compliments would you like? ('0' to quit)
+6
+ 
+I like your hair.
+It's fun when you smile.
+It's fun when you smile.
+You look nice today.
+You look nice today.
+You look nice today.
+ 
+How many compliments would you like? ('0' to quit)
+0
+
+Have a great day!
+```
+
+<br />
+
+```
+Welcome to Random Complimentor
+ 
+RANDOM SEED:
+10
+ 
+How many compliments would you like to add?
+6
+ 
+Please enter a compliment:
+You are nice.
+ 
+Please enter a compliment:
+You are awesome!
+ 
+Please enter a compliment:
+You're killing it!
+ 
+Please enter a compliment:
+You're shoes are sweet!
+ 
+Please enter a compliment:
+It's nice having you in my life.
+ 
+Please enter a compliment:
+I'm glad you are you.
+ 
+The compliments have been loaded.
+ 
+ 
+How many compliments would you like? ('0' to quit)
+3
+ 
+You're shoes are sweet!
+You are nice.
+You're shoes are sweet!
+ 
+How many compliments would you like? ('0' to quit)
+17
+ 
+You are nice.
+It's nice having you in my life.
+It's nice having you in my life.
+You are awesome!
+It's nice having you in my life.
+You're shoes are sweet!
+It's nice having you in my life.
+You are awesome!
+I'm glad you are you.
+You're shoes are sweet!
+You are nice.
+You're shoes are sweet!
+You are nice.
+It's nice having you in my life.
+You are awesome!
+You are awesome!
+It's nice having you in my life.
+ 
+How many compliments would you like? ('0' to quit)
+0
+ 
+Have a great day!
+```
+
+<br />
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`RandomCompliment02.java`](https://drive.google.com/uc?export=download&id=1K9SUylKOwAuBzNp7XEFWIPoSFb9Epjy5)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+
+^acc
+
+^^^ `RandomCompliment02.java`
+
+```java ^copy
+
+import java.util.Scanner;
+import java.util.Random;
+
+/**
+ * Description
+ *
+ * @author Student Name
+ * @since Date Started
+ */
+
+
+public class RandomCompliment02 {
+    
+    public static void main (String[] args) {
+        
+        
+    }
+    
+}
+```
+
+^acc-end
+
+
+
+
+
+<br /><br />
