@@ -76,7 +76,7 @@ You may use the following code as starter code. You will need to change the comm
 
 ^callout file-download
 
-[`ArrayShiftLeft.java`](https://drive.google.com/uc?export=download&id=https://drive.google.com/file/d/1c1uXuU6GmYCX_0FKgITLA6jxe_XrpszF/view?usp=sharing)
+[`ArrayShiftLeft.java`](https://drive.google.com/uc?export=download&id=1c1uXuU6GmYCX_0FKgITLA6jxe_XrpszF)
 
 Download these files and load them into your IDE.
 
