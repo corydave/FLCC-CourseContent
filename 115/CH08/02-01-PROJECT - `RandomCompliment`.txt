@@ -23,11 +23,11 @@ Hint: It is probably easiest to accomplish this by creating a `while` loop to go
 
 * The proper order of compliments in the code is:
 
-1. `You are soooooo good looking.`
+    1. `You are soooooo good looking.`
 
-2. 'You have a wonderful smile.'
+    2. `You have a wonderful smile.`
 
-3. 'You're pretty awesome.'
+    3. `You're pretty awesome.`
 
 
 ## SAMPLE OUTPUT
