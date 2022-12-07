@@ -1,0 +1,53 @@
+AGENDA - 2022-12-07
+=============
+
+^callout info-circle
+
+### Information
+
+Lab day today, but we *did* look at two code fragments that will be helpful on the work you are doing:
+
+### `do-while` Loop Example:
+
+<br />
+
+```java ^copy
+
+while (temp != 0) {
+    System.out.print("Enter a number, 0 to exit:");
+    temp = scanner.nextInt();
+}
+
+do {
+    System.out.print("Enter a number, 0 to exit:");
+    temp = scanner.nextInt();
+} while (temp != 0);
+
+```
+
+### Creating an Array of Specified Length:
+
+<br />
+
+```java ^copy
+
+int length = scanner.nextIn();
+int[] arr = new int[length];
+
+```
+
+^callout-end
+
+^callout calendar-alt
+
+### What's due
+
+* Due dates are up to date in CodeGrade
+
+* The final exam is on 12/12 and is held in class.
+
+* On 12/14 we will be meeting at ***WENDY'S*** in Victor instead of class. I'm buying!
+
+<br />
+
+^callout-end
