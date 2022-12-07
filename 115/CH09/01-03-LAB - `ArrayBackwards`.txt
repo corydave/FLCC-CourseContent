@@ -1,0 +1,167 @@
+^^ LAB - `ArrayBackwards`
+
+## DESCRIPTION
+Write a program with four steps:
+
+1. Create an array (size specified by the user). 
+
+2. Randomly populate it with numbers 1-100
+
+3. Output the original array
+
+4. Output the array backwards
+
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top!
+
+* Your output must match the sample output exactly. 
+
+## SAMPLE OUTPUT
+
+```
+seed:
+10
+ 
+length:
+10
+ 
+14 81 94 91 47 57 98 89 82 15
+15 82 89 98 57 47 91 94 81 14
+```
+
+<br />
+
+```
+seed:
+8
+ 
+length:
+10
+ 
+65 57 31 22 73 59 32 32 54 1
+1 54 32 32 59 73 22 31 57 65
+```
+
+<br />
+
+```
+seed:
+1000
+ 
+length:
+4
+ 
+88 36 77 25
+25 77 36 88
+```
+
+<br />
+
+```
+seed:
+12
+ 
+length:
+12
+ 
+67 13 57 34 25 12 51 16 97 22 69 73
+73 69 22 97 16 51 12 25 34 57 13 67
+```
+
+<br />
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`ArrayBackwards.java`](https://drive.google.com/uc?export=download&id=1-N4nXhICnuRuPgQuI8JOt0I_PIWEUwC4)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+
+^acc
+
+^^^ `ArrayBackwards.java`
+
+```java ^copy
+
+/**
+ * Description
+ *
+ * @author Student Name
+ * @since Date Started
+ */
+ 
+
+import java.util.Scanner;
+import java.util.Random;
+
+public class ArrayBackwards {
+    public static void main (String[] args) {
+        
+        // instantiate a Scanner object
+        Scanner scanner = new Scanner(System.in);
+        
+        // get input from user for a seed for the RNG
+        System.out.println("seed:");
+		int seed = scanner.nextInt();
+		System.out.println();
+        
+        // get input from user for the size of the array
+		System.out.println("length:");
+        int size = scanner.nextInt();
+
+        // instantiate a RNG with the seed
+        Random random = new Random(seed);
+        
+        
+        // INSERT YOUR CODE HERE
+        
+        // STEP 1: Create an array of size 'size'
+        int[] arr = new int[size];
+        
+        // STEP 2: Iterate through the array and insert a random 
+        //         number between 1 and 100
+        
+        
+        // STEP 3: Display the array
+		displayArray(arr);
+		
+        // STEP 4: Display the array backwards
+
+        // Array BEFORE shift: 28 70 88 91 41 74 29 50 85 65 
+        // Array AFTER shift:  
+
+    }
+    
+    public static void displayArray(int[] arr) {
+    
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
+        }
+        
+    }
+        
+        
+        
+    
+}
+```
+
+
+
+^acc-end
+
+
+
+
+
+<br /><br />
