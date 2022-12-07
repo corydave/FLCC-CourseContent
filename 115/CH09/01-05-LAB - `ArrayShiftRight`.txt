@@ -1,0 +1,162 @@
+^^ LAB - `ArrayShiftRight`
+
+## DESCRIPTION
+Write a program with four steps:
+
+1. Create an array (size specified by the user). 
+
+2. Randomly populate it with numbers 1-100
+
+3. Output the original array
+
+4. Output the array with all values shifted one spot to the right (the last value wraps to be the first value)
+
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top!
+
+* Your output must match the sample output exactly. 
+
+## SAMPLE OUTPUT
+
+```
+seed:
+10
+length:
+10
+ 
+14 81 94 91 47 57 98 89 82 15
+15 14 81 94 91 47 57 98 89 82
+```
+
+<br />
+
+```
+seed:
+8
+length:
+10
+ 
+65 57 31 22 73 59 32 32 54 1
+1 65 57 31 22 73 59 32 32 54
+```
+
+<br />
+
+```
+seed:
+1000
+length:
+4
+ 
+88 36 77 25
+25 88 36 77
+```
+
+<br />
+
+```
+seed:
+12
+length:
+12
+ 
+67 13 57 34 25 12 51 16 97 22 69 73
+73 67 13 57 34 25 12 51 16 97 22 69
+```
+
+<br />
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`ArrayShiftRight.java`](https://drive.google.com/uc?export=download&id=1Qho2rq63NKBjSVWb1UoguX2Gf3jLAUvE)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+
+^acc
+
+^^^ `ArrayShiftRight.java`
+
+```java ^copy
+
+/**
+ * Description
+ *
+ * @author Student Name
+ * @since Date Started
+ */
+ 
+
+import java.util.Scanner;
+import java.util.Random;
+
+public class ArrayShiftRight {
+    public static void main (String[] args) {
+        
+        // instantiate a Scanner object
+        Scanner scanner = new Scanner(System.in);
+        
+        // get input from user for a seed for the RNG
+        int seed = scanner.nextInt();
+        
+        // get input from user for the size of the array
+        int size = scanner.nextInt();
+        
+        // instantiate a RNG with the seed
+        Random random = new Random(seed);
+        
+        
+        
+        // INSERT YOUR CODE HERE
+        
+        // STEP 1: Create an array of size 'size'
+        
+        // STEP 2: Iterate through the array and insert a random 
+        //         number between 1 and 100
+        
+        // STEP 3: Display the array - DONE
+        displayArray(arr);
+        
+        // STEP 4: Iterate through the array and shift each value
+        //         one spot to the right, and move the last value
+        //         to index 0
+        
+        // Array BEFORE shift: 28 70 88 91 41 74 29 50 85 65
+        // Array AFTER shift:  65 28 70 88 91 41 74 29 50 85 
+        
+        // STEP 5: Display the array again - DONE
+        displayArray(arr);
+        
+    }
+    
+    public static void displayArray(int[] arr) {
+    
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
+        }
+        
+        System.out.println();
+    }
+}
+
+```
+
+
+
+^acc-end
+
+
+
+
+
+<br /><br />
