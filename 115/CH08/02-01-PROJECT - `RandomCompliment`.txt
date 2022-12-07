@@ -21,6 +21,15 @@ Hint: It is probably easiest to accomplish this by creating a `while` loop to go
 
 * The method that provides the compliments should also use a `switch` statement (cases 0 through 2) to pick one compliment from a bank of 3.
 
+* The proper order of compliments in the code is:
+
+1. `You are soooooo good looking.`
+
+2. 'You have a wonderful smile.'
+
+3. 'You're pretty awesome.'
+
+
 ## SAMPLE OUTPUT
 
 ```
