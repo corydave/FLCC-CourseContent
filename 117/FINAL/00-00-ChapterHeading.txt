@@ -1,0 +1,7 @@
+^^ Final Project
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vSZcKbz-SlMJHT3QSN7xB42MBqKPIXgCz9jZbVqNtvd0xy84xikA1wnGxCBAuPZBDjhhS9ak8EoIXSR/pub?w=907&amp;h=385" alt="A computer screen with the words FINAL PROJECT across it." title="A computer screen with the words FINAL PROJECT across it." style="display:none;" />
+
+This semester we looked at variables, conditionals, loops, and lists. The beginning of the class explored a game called **Pennywise** that was able to be programmed using these constructs.
+
+Your mission is to create a program that embodies all those topics.
