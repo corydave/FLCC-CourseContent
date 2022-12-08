@@ -17,7 +17,8 @@ Ideas for programs include:
 
 This program does *not* need to be a big endeavor, but it *does* need to be functional and it needs to cover the topics we looked at this semester.
 
+You can call the program whatever you'd like - there are no restrictions. You can include multiple files, too. Note that CodeGrade will not automatically grade your work.
+
 If you want to meet with me you can let me know. Or you can run your idea by me via email. But you don't need to.
 
 Good luck and have fun!
-
