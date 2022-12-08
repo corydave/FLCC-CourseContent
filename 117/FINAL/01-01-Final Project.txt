@@ -1,0 +1,23 @@
+^^ Final Project
+
+The final project in this class is a culminating attestation of your understanding of Python. You will design a piece of software that includes every topic we've covered:
+
+* variables
+* conditionals (`if` statements)
+* loops
+* lists
+
+You will also have to submit your pre-planning (that could be a flowchart or pseudocode) for the program. The chapter Program Design has some video walkthroughs and planning videos to help you contextualize the process.
+
+Ideas for programs include:
+1. A checklist that lets the user create items and remove items
+2. A game
+3. A recipe book
+4. Software that keeps track of stats (for instance a program that tracks baseball stats)
+
+This program does *not* need to be a big endeavor, but it *does* need to be functional and it needs to cover the topics we looked at this semester.
+
+If you want to meet with me you can let me know. Or you can run your idea by me via email. But you don't need to.
+
+Good luck and have fun!
+
