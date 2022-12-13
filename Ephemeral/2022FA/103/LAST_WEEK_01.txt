@@ -1,0 +1,17 @@
+<h1 style="background-color: #781346; color: #f7f7f7; text-align:center; padding: 1.875rem; border-radius: .25rem;">
+     THIS IS THE LAST WEEK!
+</h1>
+<p>Hey folks! This is the <em>last week of the semester</em>!!! Yay! You made it!</p>
+<h1 style="text-align: center ">What&#39;s going on</h1>
+<p>There are a few things to keep in mind:</p>
+<ul>
+<li>If you see something in the grade book that looks wonky to you, let me know.</li>
+</ul>
+<p>I anticipate having all items graded before Friday. I&#39;ll send an announcement out when I&#39;m done so that you can make sure everything looks good.</p>
+<ul>
+<li>I believe the course surveys are out. Please make sure you fill them out. I don&#39;t get to see the results until after grades are due, so they cannot affect your overall grade. I do like to read the results as it helps me improve. Please be honest. One thing I find is that I can improve with actionable feedback but not with vague responses. For instance, &quot;This class was boring&quot; doesn&#39;t help me, but &quot;This class was boring because <provide a reason>&quot; is pointed and I can work with that. </li>
+</ul>
+<h1 style="text-align: center ">What to expect after 12/17</h1>
+<p>I anticipate looking at the final reflections as soon as possible after they are due (that is noon on December 17). I&#39;ll send an announcement out when the final grades are computed in Brightspace.</p>
+<p>As a reminder, <em>no work can be accepted after 12/17 at noon</em>. </p>
+<p>This is not the last time you&#39;ll hear from me this week, but I want to say I enjoyed working with you!!!</p>
