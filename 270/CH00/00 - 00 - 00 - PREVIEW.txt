@@ -1,6 +1,6 @@
 ^^ PREVIEW
 
-<div style="text-align: center; display: block;"><img style="width:100%" src="https://docs.google.com/drawings/d/e/2PACX-1vTStL-339uUJT9gzwkdl9Jyi6wB4248VHsapO1tbOtAs6g3Jh7FegRyuzla56L_Cr2vLe3V5aeZjevM/pub?w=907&amp;h=385" alt="The word PREVIEW." title="The word PREVIEW."></div>
+<div style="text-align: center; display: block;"><img style="width:100%" src="https://docs.google.com/drawings/d/e/2PACX-1vTStL-339uUJT9gzwkdl9Jyi6wB4248VHsapO1tbOtAs6g3Jh7FegRyuzla56L_Cr2vLe3V5aeZjevM/pub?w=907&amp;h=385" alt="The word PREVIEW." title="The word PREVIEW." width="0" height="0"></div>
 
 Insert any text here.
 
