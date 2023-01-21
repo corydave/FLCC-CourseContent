@@ -9,7 +9,7 @@ Hopefully the syllabus and orientation video in this chapter has helped you make
 
 You need to score an 80% or better on the quiz to see the rest of the content in the chapter.
 
-Don't worry! You can take the quiz as many times as you'd like (but keep in mind that if you take a quiz after the due date, it will not be automatically graded and you'll have to email me and let me know - so it's in your best interest to take the quizzes before the due date.
+Don't worry! You can take the quiz as many times as you'd like.
 
 </div>
 
@@ -24,3 +24,9 @@ Don't worry! You can take the quiz as many times as you'd like (but keep in mind
 * You may take the quiz as many times as you'd like, but you need to score at least 80% to see the rest of the content in this chapter.
 
 </div>
+
+^callout external-link-alt
+
+[Click here to take the quiz]()
+
+^callout-end
