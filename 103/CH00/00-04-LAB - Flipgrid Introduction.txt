@@ -1,4 +1,4 @@
-^^ ASSIGNMENT - FlipGrid Introduction
+^^ LAB - Flipgrid Introduction
 
 # Description
 
@@ -22,7 +22,7 @@ Note that the "Student username" in this exercise is actually your first name ma
 
 # Specifications
 
-* After you've added to the FlipGrid, submit the words, "I've finished it!" here. Then I'll know to go to FlipGrid and check it out!
+* After you've added to the Flipgrid, submit the words, "I've finished it!" here. Then I'll know to go to Flipgrid and check it out!
 
 * This assignment will receive a zero if it is late; there is no grace period for this assignment.
 
