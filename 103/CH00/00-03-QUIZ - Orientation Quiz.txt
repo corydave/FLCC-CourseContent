@@ -13,7 +13,7 @@ Don't worry! You can take the quiz as many times as you'd like.
 
 </div>
 
-<div style="display:block;width:100%;clear:left;">
+<div style="display:block;width:100%;clear:both;">
 
 # Specifications
 
@@ -27,6 +27,6 @@ Don't worry! You can take the quiz as many times as you'd like.
 
 ^callout external-link-alt
 
-[Click here to take the quiz]()
+Click here to take the quiz
 
 ^callout-end
