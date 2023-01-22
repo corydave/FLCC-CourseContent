@@ -1,24 +1,23 @@
-<div style="border: 2px solid #940000;border-radius:25px;padding:10px;">
-
-<div style="padding:20px;font-size: 2.0rem; font-family: 'Arial', 'Helvetica', sans-serif; font-weight: bold; border-radius: 15px; background-color: #940000; color: #ffffff; "> CHAPTER 0 - Orientation</div>
+^^ CHAPTER 0 - Orientation
 
 # Description
 
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vSM00Tk3e3GpBaf6IHvbRPAB1efs8TFWP-h8-FX_xhVpK8AfG-5i7BowLAUkKkCnVZthv3p0yb3oMEC/pub?w=240&amp;h=180" alt="A drawing on a chalkboard of two hands shaking." title="A drawing on a chalkboard of two hands shaking." style="float: right; border-radius: 25px; margin: 0px 20px 20px 20px;">
 
-In this chapter, we will be acclimating to the class. There are a bunch of wonky things I do when teaching (like using Google Docs a lot, commenting on work, encouraging resubmitting work) that requires a bit of explanation.
+In this chapter we will be acclimating to the class and looking at the cool ways we'll be interacting. There are a bunch of wonky things I do when teaching (like using Google Docs a lot, commenting on work, encouraging resubmitting work) that require a bit of explanation.
 
-In this chapter, there are a few experiences where we will get to know each other. Then you'll learn how things operate in this class. Don't panic! It's not painful!
+In this chapter there are a few experiences where we will get to know each other. Then you'll learn how things operate in this class. Don't panic - it's not painful! Many of you might know each other already as you are probably in some face-to-face classes together. But please indulge me and introduce yourself to everyone else in the course 😁!
 
 If you have any questions, you can always email me at dave.ghidiu@flcc.edu. 
-
 
 # Schedule
 
 <div style="clear:both;">
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQxQU3Z_qJqXJJLdKHi9zJnaPihlqmonB8qf_9jl0f_R9Lp4CSiYqFDk4WN-89tQH2TMQOglJ5KAGWN/pubhtml/sheet?headers=false&amp;gid=0&amp;range=A1:D12" width="720" height="309" frameborder="0"></iframe>
+<center>
 
-</div>
+<iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vQxQU3Z_qJqXJJLdKHi9zJnaPihlqmonB8qf_9jl0f_R9Lp4CSiYqFDk4WN-89tQH2TMQOglJ5KAGWN/pubhtml/sheet?headers=false&amp;gid=0&amp;range=B1:D14'style="width:100%;max-width:720px;height:351px" frameborder="0"></iframe>
+
+</center>
 
 </div>
