@@ -6,7 +6,7 @@
 
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vRoX02_nw8yGgsXRYFVH-AfqI0fIpq6bamC7SaijfGqxFgiThyI2ylp3_Dasi7IhnKPz-ERPcCVHFKT/pub?w=240&amp;h=180" alt="Illustrations of a smiley face, an avatar of a person, the Google Sites logo, and what looks to be a rudimentary app icon (favicon)." title="Illustrations of a smiley face, an avatar of a person, the Google Sites logo, and what looks to be a rudimentary app icon (favicon)." style="float:right" />
 
-How much do you know about images? Things like transparency, illustrations, .png vs .jpg, why iPhone images aren't web-friendly, and how to make an avatar?
+How much do you know about images? Things like transparency, illustrations, `.png` vs `.jpg`, why iPhone images aren't web-friendly, and how to make an avatar?
 
 In this chapter, there are a few experiences where we will dig into the different kind of images you will most likely find yourself working with. We'll also be making an avatar. And a website logo (favicon). And we'll start to explore Google Sites.
 
@@ -17,6 +17,5 @@ Let's go!
 <iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vQxQU3Z_qJqXJJLdKHi9zJnaPihlqmonB8qf_9jl0f_R9Lp4CSiYqFDk4WN-89tQH2TMQOglJ5KAGWN/pubhtml/sheet?headers=false&amp;gid=2147410444&amp;range=A1:D9'style="width:100%;max-width:720px;height:246px" frameborder="0"></iframe>
 </center>
 </div>
-
 
 
