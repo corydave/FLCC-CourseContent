@@ -1,5 +1,5 @@
 <center><img src="https://i.giphy.com/media/KczqttEJqm55hE1ccU/giphy.webp" alt="Kristen Bell from the Good Place saying 'Come on in!'" title="Kristen Bell from the Good Place saying 'Come on in!'" style="display: none;"></center>
-<h1 style="text-align: center;"><span style="color: #1e90ff;"><strong><span style="font-size: 100px; font-family: 'courier new', courier, sans-serif;"><span style="color: #940000;">Welcome!</span></span></strong></span></h1>
+<h1 style="text-align: center;"><span style="color: #1e90ff;"><strong><span style="font-size: 100px; font-family: 'trebuchet ms', helvetica, sans-serif;"><span style="color: #940000;">Welcome!</span></span></strong></span></h1>
 
 Welcome to the *most awesome semester* ever! I mean, sure. This Spring there are sweet things to do. Trips to take. Sights to see. Skiing to be done. Flowers to smell. But then there's a whole new level. This class. Technology in Education. Please make sure you check out a sick welcome video and the Course Syllabus below.
 
