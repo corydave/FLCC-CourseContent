@@ -1,10 +1,12 @@
 <center><img src="https://i.giphy.com/media/KczqttEJqm55hE1ccU/giphy.webp" alt="Kristen Bell from the Good Place saying 'Come on in!'" title="Kristen Bell from the Good Place saying 'Come on in!'" style="display: none;"></center>
 <h1 style="text-align: center;"><span style="color: #1e90ff;"><strong><span style="font-size: 100px; font-family: 'courier new', courier, sans-serif;"><span style="color: #940000;">Welcome!</span></span></strong></span></h1>
 
-Welcome to the *most awesome semester ever!* I mean, sure. This fall there are sweet things to do. Trips to take. Sights to see. BBQs to be had. But then there's a whole new level. This class. Portal. Please make sure you check out a few things before getting started.
+Welcome to the *most awesome semester* ever! I mean, sure. This Spring there are sweet things to do. Trips to take. Sights to see. Skiing to be done. Flowers to smell. But then there's a whole new level. This class. Technology in Education. Please make sure you check out a sick welcome video and the Course Syllabus below.
 
-* Welcome to Technology in Education!
-* Welcome Video
-* Course Outline
+There is also a sub-folder called **Course Information**. In this folder you'll find resources that might help you throughout the semester. This includes things like links to Academic Support (if you need help with anything), a place to give me feedback, My Student Time (Office Hours) schedule, and some other cool things.
 
-There is also a sub-folder called **Course Information**. In this folder you'll find resources that might help you throughout the semester. This includes things like the invitation to Discord, a place to give me feedback, the Student Hours schedule, and some other cool things.
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/JH4PYyeRhZE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<br /><br />
+
+<center><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/1IXRifnLbz7YUTvi75CA5qWxelwKUmY8-jEal-naDxs0/copy" target="_blank"><span style="background-color:#1e90ff;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Copy Google Doc</span></a><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/1IXRifnLbz7YUTvi75CA5qWxelwKUmY8-jEal-naDxs0/export?format=doc" target="_blank"><span style="background-color:#357EC7;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Download Word</span></a><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/1IXRifnLbz7YUTvi75CA5qWxelwKUmY8-jEal-naDxs0/export?format=pdf" target="_blank"><span style="background-color:#F40F02;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Download PDF</span></a><br /><br /><iframe src="https://docs.google.com/document/d/1IXRifnLbz7YUTvi75CA5qWxelwKUmY8-jEal-naDxs0/preview" height="1000" width="800" frameborder="0" style="width: 100%; max-width: 800px;"></iframe></center>
