@@ -33,7 +33,7 @@ Note that the "Student username" in this exercise is actually your first name ma
 
 ^callout external-link-alt
 
-Click here to submit your note after you've left your video in Flipgrid.
+Click here to submit your note after you've left your video in the Flipgrid below.
 
 ^callout-end
 
