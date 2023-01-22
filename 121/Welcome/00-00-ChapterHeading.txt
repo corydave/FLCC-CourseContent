@@ -5,7 +5,11 @@ Welcome to the *most awesome semester* ever! I mean, sure. This Spring there are
 
 There is also a sub-folder called **Course Information**. In this folder you'll find resources that might help you throughout the semester. This includes things like links to Academic Support (if you need help with anything), a place to give me feedback, My Student Time (Office Hours) schedule, and some other cool things.
 
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/JH4PYyeRhZE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<center>
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/JH4PYyeRhZE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border:0px solid black; border-radius: 15px !important;"></iframe>
+
+</center>
 
 <br /><br />
 
