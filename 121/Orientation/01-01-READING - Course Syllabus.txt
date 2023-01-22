@@ -2,16 +2,12 @@
 
 # Description
 
-<div style="display:block;width:100%;">
-<div style="float:left;"><a href="https://docs.google.com/document/d/1IXRifnLbz7YUTvi75CA5qWxelwKUmY8-jEal-naDxs0/preview" target="_blank"><img src="https://docs.google.com/drawings/d/e/2PACX-1vQfSH7-wQfrL68T6XopW_TTzje64DsKF9anqEV4N7_Gr5UYlUUcV3NHD6Bgf-Y0EA9DMso20GpLSd-M
-/pub?w=200&h=280" alt="A thumbnail of the course information sheet.
-" style="margin: 0pt 10pt 10pt 0pt;float:left;"  /></a></div>
+<a href="https://docs.google.com/document/d/1IXRifnLbz7YUTvi75CA5qWxelwKUmY8-jEal-naDxs0/preview" target="_blank">
+<img src="https://lh3.googleusercontent.com/d/1IXRifnLbz7YUTvi75CA5qWxelwKUmY8-jEal-naDxs0=w250" alt="A thumbnail of the course information sheet." style="margin: 0pt 0pt 0pt 10pt;float:right;border:1px solid #acacac; border-radius:15px;"  /></a>
 
 The reading for this chapter is the Course Information Sheet (also known as the Course Outline or Course Syllabus). Yeah, I know. It's boring. Like, real boring. I tried to jazz it up. It will make you laugh. It will make you cry. It might make you laugh again.
 
 Here's the big takeaways:
-
-<div style="margin-left:220px;">
 
 * The **late work policy** is interesting. Please read it carefully.
 
@@ -21,8 +17,6 @@ Here's the big takeaways:
 
 * The first part of the Syllabus is specific to this class. The second part of the Syllabus contains elements you've probably seen before in other classes as they are relative to FLCC. You might want to read through this part, too, as the information may have changed.
 
-</div>
-
 
 <div style="display:block;width:100%;clear:left;">
 
@@ -30,8 +24,8 @@ Here's the big takeaways:
 
 * The Course Information Sheet (Course Outline, Course Syllabus) [can be found here](https://docs.google.com/document/d/1IXRifnLbz7YUTvi75CA5qWxelwKUmY8-jEal-naDxs0/preview).
 
-* Also watch the orientation video; both the reading and the video set the stage for the wonkiness of this class.
+* Also watch the orientation video - both the reading and the video set the stage for the wonkiness of this class.
 
-* The information in the reading and video is important! There will be a quiz on it. Don't worry - it's open notes and you can take it as many times as you'd like.
+* The information in the reading and video is important! It provides level-setting for the rest of the semester. There will be a quiz on it. Don't worry - it's open notes and you can take it as many times as you'd like.
 
 </div>
