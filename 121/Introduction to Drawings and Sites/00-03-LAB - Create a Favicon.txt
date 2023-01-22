@@ -1,4 +1,4 @@
-^^ ASSIGNMENT - Create a Favicon
+^^ LAB - Create a Favicon
 
 # Description
 
@@ -10,9 +10,9 @@ Consider the following favicon examples below.
 
 * The FLCC Professional Development Hub uses the FLCC green and red and also a graphic of interlocking to show a balance of interconnectedness. 
 
-* The FringeEdTech favicon is declarative - it's just the words "fringe educational technology".
+* The FringeEdTech favicon is declarative - just the words "fringe educational technology".
 
-* In the EmbeddedEducation favicon, again we see the primary colors mixed together making an "e".
+* In the EmbeddedEducation favicon again we see the primary colors mixed together making an "e".
 
 * The PhishingDemo.org favicon is circular and has a fish pondering whether or not it should go after a hook.
 
@@ -49,3 +49,10 @@ Your job is to create a favicon. You should totally Google Drawings to do it. Wh
 ## Let's be careful out there!
 
 </center>
+
+^callout external-link-alt
+
+<br />
+Submit your work here.
+
+^callout-end
