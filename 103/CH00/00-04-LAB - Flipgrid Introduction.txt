@@ -29,4 +29,12 @@ Note that the "Student username" in this exercise is actually your first name ma
 <br /><br /><hr />
 </div>
 
+<br />
+
+^callout external-link-alt
+
+Click here to submit your note after you've left your video in Flipgrid.
+
+^callout-end
+
 <center><iframe width="90%" height="900" frameborder="0" src="https://flipgrid.com/---CODE---?embed=true" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen" allow="microphone; camera"></iframe></center>
