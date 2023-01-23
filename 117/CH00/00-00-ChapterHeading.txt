@@ -1,8 +1,6 @@
 <p><img src="https://media4.giphy.com/media/XD9o33QG9BoMis7iM4/giphy.gif?cid=ecf05e47a93mrbl5w9lvtlzo2fwz736j00hmmwnov52lrdoc&amp;rid=giphy.gif&amp;ct=g" style="display: none; max-width: 100%;" alt="Welcome!" title="Welcome!" data-d2l-editor-default-img-style="true"></p>
 
-^^ CHAPTER 0 - Orientation
-
-# Description
+^^ CHAPTER 0 - Course Orientation
 
 Welcome to CSC-117, Introduction to Python! This class has some oddities that probably require some explaining. This chapter is dedicated to acquainting you to my weirdness and peculiarities 😁.
 
