@@ -53,6 +53,7 @@ Your job is to create a favicon. You should totally Google Drawings to do it. Wh
 ^callout external-link-alt
 
 <br />
+
 Submit your work here.
 
 ^callout-end
