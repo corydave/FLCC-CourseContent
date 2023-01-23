@@ -49,6 +49,7 @@ I will read every entry and respond - please make sure you read my comments. The
 ^callout external-link-alt
 
 <br />
+
 Submit your work here.
 
 ^callout-end
