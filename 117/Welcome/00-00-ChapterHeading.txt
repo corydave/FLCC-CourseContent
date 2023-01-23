@@ -2,10 +2,14 @@
 <p></p>
 <h1 style="text-align: center;"><span style="color: #1e90ff;"><strong><span style="font-size: 100px; font-family: 'courier new', courier, sans-serif;"><span style="color: #335E3B;">Welcome!</span></span></strong></span></h1>
 
-Welcome to the *most awesome semester ever!* I mean, sure. This fall there are sweet things to do. Trips to take. Sights to see. BBQs to be had. But then there's a whole new level. This class. Portal. Please make sure you check out a few things before getting started.
+Welcome to the *most awesome semester ever!* I mean, sure. This winter and spring there are sweet things to do. Trips to take. Sights to see. Mountains to ski. Fires to snuggle up to. Flowers to smell. 
 
-* Welcome to Python!
-* Welcome Video
-* Course Outline
+But then there's a whole new level - this class. Python. Please make sure you check out the sweet, sweet video and Course Outline below.
 
-There is also a sub-folder called **Course Information**. In this folder you'll find resources that might help you throughout the semester. This includes things like the invitation to Discord, a place to give me feedback, the Student Hours schedule, and some other cool things.
+<center>
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/xwbLR70Dtzw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="width:100%;border-radius: 15px !important; border: 0px solid black;"></iframe>
+
+</center>
+
+There are also other files here that might help you navigate through the semester - so be sure to check them out. Things like Academic Support, an invitation to Discord,  a place to give me feedback, my Student Hours schedule, and some other cool things.
