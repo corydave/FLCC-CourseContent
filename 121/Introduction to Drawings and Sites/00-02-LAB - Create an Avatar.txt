@@ -52,6 +52,7 @@ You'll need to create an avatar and submit a link to it. You can [watch the vide
 ^callout external-link-alt
 
 <br />
+
 Submit your work here.
 
 ^callout-end
