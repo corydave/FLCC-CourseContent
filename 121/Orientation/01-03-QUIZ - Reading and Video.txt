@@ -25,6 +25,7 @@ Don't worry! You can take the quiz as many times as you'd like (but keep in mind
 ^callout external-link-alt
 
 <br />
+
 Take the quiz here.
 
 ^callout-end 
