@@ -45,6 +45,7 @@ I'm building my site right along with you. My current progress is right about wh
 ^callout external-link-alt
 
 <br />
+
 Submit your work here.
 
 ^callout-end
