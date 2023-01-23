@@ -1,5 +1,5 @@
 <h1 style="background-color: #c60; color: #f7f7f7; text-align:center; padding: 1.875rem; border-radius: .25rem;">
-     Chapter 0 - Getting Started &amp; Introductions
+     Chapter 0 - Orientation
 </h1>
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vQvIeplO17vU3RTdke8sMOs9RrZJ5-VXPDcfcBfi3iBg_2RzU6U7FntMmJbjJfJFEtBLczJH-C650DE/pub?w=907&amp;h=385" alt="An illustration of a navigational compass. There is a zero indicating that this is CHAPTER 0." title="An illustration of a navigational compass. There is a zero indicating that this is CHAPTER 0." width="0" height="0">
 
