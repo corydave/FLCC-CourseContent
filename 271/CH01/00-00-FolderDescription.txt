@@ -1,0 +1,25 @@
+^^ Chapter 1 - Computing Introduction [2-3 hours]
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vSzarOjXAJQ78y_ywfVdhP4kcCbnS3mdw2mxI98bOEnXxNqzWj1hDvpbChOwMwlbMt_Yfy01-eX0_Vk/pub?w=907&amp;h=385" alt="An illustration of a computer and a notebook with a pencil. The number 1 indicates chapter 1." title="An illustration of a computer and a notebook with a pencil. The number 1 indicates chapter 1." width="0" height="0" style="display:none;" />
+
+# Description
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vTf46XBlK2rZk4SvXc9h12BjdmoDEmlYOWLTCbEgrieT70hkLBlL1_pw2i-Gmx6IGhujaLOw-TAE9VO
+/pub?w=240&amp;h=180" alt="An illustration of a computer with a generic operating system running." title="An illustration of a computer with a generic operating system running." style="float:right;border-radius:25px;margin-right:20px;margin-left:20px;margin-top:0px;margin-bottom:20px;">
+
+This chapter will probably take between 2 and 3 hours. You might find that you can skim through some of the sections if you have experience in the content that is covered
+
+* 1.1 Course Introduction
+
+<div style="clear:both;">
+
+This chapter is especially important because you'll get exposed to the TestOut platform (the labs, the quizzes, etc.).
+
+# Specifications
+
+* Complete all content in Chapter 1 in [TestOut](https://w3.testout.com/).
+
+</div><br />
+
+## Let's be careful out there!
+
