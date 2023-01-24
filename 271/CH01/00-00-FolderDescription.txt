@@ -1,4 +1,4 @@
-^^ Chapter 1 - Computing Introduction [2-3 hours]
+^^ Chapter 1 - TestOut Introduction [2-3 hours]
 
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vSzarOjXAJQ78y_ywfVdhP4kcCbnS3mdw2mxI98bOEnXxNqzWj1hDvpbChOwMwlbMt_Yfy01-eX0_Vk/pub?w=907&amp;h=385" alt="An illustration of a computer and a notebook with a pencil. The number 1 indicates chapter 1." title="An illustration of a computer and a notebook with a pencil. The number 1 indicates chapter 1." width="0" height="0" style="display:none;" />
 
