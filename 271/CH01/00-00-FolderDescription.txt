@@ -19,7 +19,7 @@ This chapter is especially important because you'll get exposed to the TestOut p
 
 * Complete all content in Chapter 1 in [TestOut](https://w3.testout.com/).
 
-</div><br />
+</div><br /><br />
 
 ## Let's be careful out there!
 
