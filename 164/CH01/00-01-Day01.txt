@@ -76,70 +76,23 @@ Gaining skills to program with JavaScript. Bring life and interactivity to your 
 
 <br /><br />
 
+# Grasshopper
+
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vQJQAK108uqg68RNXF-zJCW1de74Fv6l4jwDu7GCwobvMmevS1O6WLwwWzjNbNjl874CTKV7HAS2PyJ/pub?w=240&amp;h=240" alt="grasshoper.app logo" title="grasshopper.app logo" style="float:right;">
 
-# Grasshopper
+
 Google has developed a really slick platform for learning conceptual JavaScript - it's called Grasshopper. There are a few different
 
 Sign in at https://grasshopper.app
 
 <br /><br />
 
+<div style="clear:both;"></div>
+
 # Code from class
 
 ```html
 
-<!DOCTYPE html>
-<!-- A quick intro to adding some JavaScript -->
-<html>
- <body>
-  <h1>JavaScript Basics</h1>
-  <p id="random">this is not random</p>
-
-  <!-- You can insert JavaScript directly into -->
-  <!-- an HTML file with the script element:   -->
-  <!-- between opening and closing script tags -->
-
-  <script>
-    //css style selection to "grab" element off page
-    let p = document.querySelector("#random");
-    
-    //generate a random number (rng time!)
-    let num = Math.floor(Math.random()*10); //0 to 9
-    
-    //change the innerHTML of the element we grabbed
-    p.innerHTML = "Random Number: " + num;
-    
-    //change the style! Notice, we build the CSS
-    p.style.fontSize = num * 4 + "pt";
-    p.style.backgroundColor = "#5B" + num;
-  </script>
-
- </body>
-</html>
-
-```
-
-```html
-
-<!DOCTYPE html>
-<html>
-<body>
-
-<h2>My First JavaScript</h2>
-
-<button type="button"
-onclick="document.getElementById('demo').innerHTML = Date()">
-Click me to display Date and Time.</button>
-
-<p id="demo"></p>
-
-</body>
-</html> 
-
-```
-
-```html
 <!DOCTYPE html>
 <html>
   <head>
