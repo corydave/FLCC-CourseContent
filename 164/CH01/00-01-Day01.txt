@@ -41,6 +41,7 @@ Gaining skills to program with JavaScript. Bring life and interactivity to your 
 ^^^ Interactive places to learn
   * [w3 Schools](https://www.w3schools.com/js/)
   * [PlayCode](https://playcode.io/learn)
+  * [JS CheatSheet](https://htmlcheatsheet.com/js/)
 
 ^^^ Online books
   * [Eloquent JavaScript](https://eloquentjavascript.net/)
