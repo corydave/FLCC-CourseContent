@@ -138,3 +138,32 @@ Click me to display Date and Time.</button>
 </html> 
 
 ```
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TEST</title>
+    <style>
+      .csc164 {
+        background-color: pink;
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>My First JavaScript</h2>
+    <p class="csc164" id="demo">Test text</p>
+    <p class="csc164" id="demo2">Test text</p>
+    <button style="background-color:red;color:white;border-radius:15px;border:0px;" onclick="pressed()">Press Me</button>
+    <script>
+      function pressed() {
+        alert('hi');
+        console.log('hello');
+        document.getElementById('demo2').innerHTML = ' < b > hi < /b>';
+        document.getElementById('demo').style.display = 'none';
+      }
+    </script>
+  </body>
+</html>
+```
