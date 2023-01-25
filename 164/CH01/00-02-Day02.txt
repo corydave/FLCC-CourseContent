@@ -1,0 +1,27 @@
+^^ Thursday, January 26, 2023
+
+# Recap
+In class Tuesday we took a *brief* look at JavaScript - we wrote a function that was hooked to a button. When the button was clicked, that function would execute, grab an element by its ***id***, and change the `display` property to `none`, effectively hiding it.
+
+Today we are going to gain a conceptual appreciation of JavaScript with an autodidactic (that means self-learning!) tool called Grasshopper.
+
+# Grasshopper
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vQJQAK108uqg68RNXF-zJCW1de74Fv6l4jwDu7GCwobvMmevS1O6WLwwWzjNbNjl874CTKV7HAS2PyJ/pub?w=240&amp;h=240" alt="grasshoper.app logo" title="grasshopper.app logo" style="float:right;">
+
+Google has developed a really slick platform for learning conceptual JavaScript - it's called Grasshopper. There are a few different classes you can take. We will be looking at *Fundamentals* (not *Fundamentals II*).
+
+Sign in at https://grasshopper.app and go through all the tutorials up to (and including) **Arrays** (the last exercise in **Arrays** is "`Checkerboard`".
+
+There is an assignment in this chapter called `Grasshopper #1` - you should look at the specifications in that assignment as you'll have to submit a screenshot of your progress as evidence of completion.
+
+You'll be doing `Grasshopper #1` in class Thursday. Don't feel bad about asking others for help - that's COMPLETELY OK. In fact, you should. You are a small cohort. You need to get used to helping each other out.
+
+There is another assignment that needs to be done by Tuesday as well - that's the `Portfolio Assignment`. You should read the details there, too, to make sure you know what to submit.
+
+Enjoy the day with Professor McLaughlin!
+
+<br /><br />
+
+<div style="clear:both;"></div>
+
