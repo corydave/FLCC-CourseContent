@@ -1,0 +1,32 @@
+^^ LAB - Grasshopper #1
+
+^= =
+
+<div style="float: left; margin: -1em 1em -1em 0em ">
+
+![grasshopper logo](https://learn.grasshopper.app/static/grasshopperIcon.png)
+
+</div>
+
+Sign in to the app at https://learn.grasshopper.app and begin the Fundamentals project (not Fundamentals II!)
+
+You will notice that there are many sections with multiple small activities and some quiz-style questions.
+
+## For this assignment:
+In the **Fundamentals** project, complete **up to *and including* the Arrays section**.
+
+*Note*: Hit the [project] button to see your progress - a green checkmark will appear next to completed activities in each section.
+
+## How to Submit Assignment
+
+Once complete, prepare your browser to appear like the example included here, capture the screen as an image file, Attach it here, and hit [Submit].
+
+**How?** Make the project pane visible and scroll so the last section you have completed is visible (arrays). In addition, click the 3 dots in the upper right and choose "My Settings" to show your profile information (which should have your name showing)
+
+Next, capture the screen as an image file. On Windows, use Windows Key + Shift + S. On macOS, use Command + Shift + 5. Save the image and attach it to this assignment.
+
+^===
+
+![example screenshot](https://asullivan.csc.flcc.edu/lms-content/pics/grasshopper-assignment-diagram.png)
+
+^=
