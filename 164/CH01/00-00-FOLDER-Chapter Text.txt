@@ -1,0 +1,56 @@
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vRat2UfpPsE2voNZgijm67fxE47HfcvdfnbSxq0hJhBx4-KYQeJxNWFPxdgxNEL6nmXR3Lb7Q6DMKYH/pub?w=900&amp;h=380" alt="The words HELLO WORLD in computer typeface." title="The words HELLO WORLD in computer typeface." width="0" height="0" style="display:none;">
+
+^^ CHAPTER 1 - Introduction
+
+Time to brush off your HTML and CSS skills! We'll kick the semester off by reviewing a tiny bit of HTML and CSS but we'll dive straight into some JavaScript on the first day. In fact, let's look at a fragment of HTML and CSS code:
+
+## CSS
+<iframe width="100%" height="300" src="//www.daveghidiu.com/flcc/164/ch01/02css.html" frameborder="0"></iframe>
+
+
+## HTML
+
+<iframe width="100%" height="150" src="//www.daveghidiu.com/flcc/164/ch01/02.html" frameborder="0"></iframe>
+
+In this example, we have some simple CSS to decorate our structured HTML. That's nice and all, but what happens when we want to start doing some gnarly stuff with the document? Like, add a button to hide the sidebar? Enter JavaScript. 
+
+JavaScript is the best way to help you modify the DOM (Document Object Model - basically the structure and details of the HTML page).
+
+
+There are a ton of ways to get JavaScript to modify content on the page, but perhaps one of the easiest is to have the JavaScript laser focus on one specific element in the DOM. For instance, let's say we want a button that will hide the sidebar.
+
+To do this, we would probably want to get that element and modify the CSS so that the `display` property has a value of `none`.
+
+We *could* grab every element that has the class `sidebar`, but that would hide all the sidebars (in this meager example, there is only one sidebar, but imagine an HTML page might have multiple sidebars). So instead, let's give the sidebar an ***id***. 
+
+There can only be one unique ***id*** per page. So let's rewrite the first line of the HTML to include an ***id***. In this case, we'll call it `pink-floyd-200`. The name doesn't really matter, but it *should* describe the contents of the element:
+
+<iframe width="100%" height="75" src="//www.daveghidiu.com/flcc/164/ch01/02a.html" frameborder="0"></iframe>
+
+
+No biggie. We just added the ***id*** into the `div`. 
+
+*Now* we can use JavaScript to grab that element and hide it! We might even latch the code to do that to a button so that the user can click the button to engage the code that will hide the element. Let's add the button first.
+
+<iframe width="100%" height="75" src="//www.daveghidiu.com/flcc/164/ch01/02b.html" frameborder="0"></iframe>
+
+Note that we had to give the button some direction on what to do when it is clicked. There is a command for that - it's called `onclick`. All you have to do is give it a function to call (in this case, we gave it a function called `hidePinkFloydSidebar()`). We could have really called it anything we wanted, but good programming practice is to give it a descriptive name. 
+
+You may be asking yourself, "Self? Why are there parentheses after the function name?". Good question! Every function in JavaScript has parentheses. Sometimes we'll even put some stuff in between them - but that will come later. All you need to know is that if there is a JavaScript function in your HTML, it should have parentheses after it.
+
+So to recap:
+
+* We have some CSS to decorate the HTML
+* We have some HTML that includes a sidebar (`sidebar` class), some regular text, and a button
+  * The button will call the `hidePinkFloydSidebar()` function when it is clicked
+
+Now, let's add the code for the function!
+
+<iframe width="100%" height="75" src="//www.daveghidiu.com/flcc/164/ch01/02c.html" frameborder="0"></iframe>
+
+
+Whenever this function, `hidePinkFloydSidebar()` is invoked (in our example, the invocation happens by clicking the button) then the *style* of the element will be changed. Specifically, the `display` property will get the value `none`.
+
+Here's a live example (you can [visit the JSFiddle here](https://jsfiddle.net/corydave/awz17qu4/9/)):
+
+<iframe width="100%" height="400" src="//jsfiddle.net/corydave/awz17qu4/9/embedded/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
