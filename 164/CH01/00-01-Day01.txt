@@ -17,6 +17,7 @@ Gaining skills to program with JavaScript. Bring life and interactivity to your 
 
 <br /><br />
 # How are we going to do it?
+
 ^acc
 
 ^^^ Identify where we are right now
@@ -52,6 +53,7 @@ Gaining skills to program with JavaScript. Bring life and interactivity to your 
 <br /><br />
 
 # What about other *FREE* online courses?
+
 ^acc
 
 ^^^ Other free online courses
@@ -85,7 +87,7 @@ Sign in at https://grasshopper.app
 
 # Code from class
 
-```html ^copy
+```html
 
 <!DOCTYPE html>
 <!-- A quick intro to adding some JavaScript -->
@@ -115,9 +117,11 @@ Sign in at https://grasshopper.app
 
  </body>
 </html>
+
 ```
 
-```html ^copy
+```html
+
 <!DOCTYPE html>
 <html>
 <body>
@@ -132,4 +136,5 @@ Click me to display Date and Time.</button>
 
 </body>
 </html> 
+
 ```
