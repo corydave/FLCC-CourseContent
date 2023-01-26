@@ -1,0 +1,13 @@
+^^ LAB - Portfolio Assignment
+
+For this lab, you need to submit a few things:
+
+1. A link to your portfolio from CSC-162
+2. An honest and critical reflection of your portfolio. Consider:
+    * Your reflection should be honest, candid, and reflective. Meager reflections that exhibit lack of emotion, critical thought, inattention to detail, and grammatical/spelling mistakes will not be accepted. This is *your* first opportunity to demonstrate your passion for this field.
+
+    * You should include a list of things you learned during 162. You don't have to itemize everything you learned, but you *should* make an effort to identify your biggest takeaways.
+
+    * I'd also like to know where you struggled in the process. I am curious about what the hardest parts of 162 was. What was difficult for you to grasp. Do you know why?
+
+Submit your reflection here!
