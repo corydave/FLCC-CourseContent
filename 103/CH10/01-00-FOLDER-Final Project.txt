@@ -14,7 +14,7 @@ One thing that makes this portfolio so potent is that you will be adding a refle
 
 <br /><br />
 
-<div style="clear:both;">
+<div style="clear:both;">&nbsp;</div>
 
 # Schedule
 
@@ -24,5 +24,4 @@ One thing that makes this portfolio so potent is that you will be adding a refle
 
 </center>
 
-</div>
 
