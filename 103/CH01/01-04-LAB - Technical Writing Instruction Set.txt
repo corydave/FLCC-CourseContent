@@ -1,22 +1,21 @@
-<div style="margin: 1.875rem; max-width: 130ch; background-color: #781346; padding: 1.875rem; font-size: 2.0em; font-family: 'Arial', 'Helvetica', sans-serif; font-weight: bold; border-radius: 15px; color: #ffffff;">ASSIGNMENT - Technical Writing Instruction Set</div>
-
-^^ ASSIGNMENT - Technical Writing Instruction Set
-
-^= =
+^^ LAB - Technical Writing Instruction Set
 
 # Description
+
+^= =
 
 Your task is to author a document in a technical writing style. Specifically, you'll be creating an instruction set (How-To Guide) for a mundane task. For instance, this video is a comical exploration into the pitfalls of poor technical writing (in this case, making a peanut butter and jelly sandwich).
 
 You'll be asked to pick a topic and describe it in excruciating detail. The challenge lies in distilling the details into coherent, concise steps.
 
-Please submit the work as a link to a cloud-based document such as Google Docs. Make sure the document is shared such that "Anyone with the link can comment". Need help on that? [Check out this video](https://www.youtube.com/watch?v=jFGXfLDctcI).
-
 ^===
 
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/Ct-lOOUqmyY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/Ct-lOOUqmyY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:15px !important;"></iframe>
 
 ^=
+
+Please submit the work as a link to a cloud-based document such as Google Docs. Make sure the document is shared such that "Anyone with the link can comment". Need help on that? [Check out this video](https://www.youtube.com/watch?v=jFGXfLDctcI).
+
 
 # Things to keep in mind
 
@@ -44,3 +43,13 @@ Please submit the work as a link to a cloud-based document such as Google Docs. 
 
 * You should only be pasting a link to your document here - make sure the document is shared such that ["Anyone with the link can COMMENT"](https://www.youtube.com/watch?v=jFGXfLDctcI)
 
+
+<br />
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
