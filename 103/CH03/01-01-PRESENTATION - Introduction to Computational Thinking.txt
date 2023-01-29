@@ -1,11 +1,21 @@
 ^^ PRESENTATION - Introduction to Computational Thinking
 
-# Presentation
+^tabs Video, Slideshow
 
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/pVPs2VgA3yk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<center>
 
-<center><br />
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/pVPs2VgA3yk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 15px !important;"></iframe>
 
-[Link to Google Slides](https://docs.google.com/presentation/d/19zhkS2V6DOhNjTN0y4Le6CvmLDqT7eGAlmZndQLJFfU/edit)
+</center>
 
-</center><br />
+^tab
+
+<center>
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQXD9J6C7peBvh7UZGw5aZTKP_9wnpgUo7fH9i7RJBI6IViBXfJwLGhFrgXZOkiSH9lBAKMnsth0d0T/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" style="border-radius: 15px !important;"></iframe>
+
+<br /><br />
+
+</center>
+
+^tabs-end
