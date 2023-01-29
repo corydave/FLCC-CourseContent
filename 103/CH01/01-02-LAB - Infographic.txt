@@ -61,6 +61,6 @@ Check out the following submissions from previous students for ideas!
 
 <br />
 
-Click here to submit your work
+Click here to submit your work.
 
 ^callout-end
