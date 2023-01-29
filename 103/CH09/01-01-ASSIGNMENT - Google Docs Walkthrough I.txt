@@ -8,19 +8,19 @@ I created a video (yeah, it's 17 minutes long, but it's jam packed with helpful 
 
 In my video, I grab a list of the best selling video games (according to Wikipedia). Then I go over formatting (like a table format, widening columns, etc.).
 
-Your job is to follow along. The difference is that instead of video games, you'll be making (or grabbing!) a list of whatever you want. Whatever you choose, you'll be formatting it like I formatted my document.
-
-Your formatting doesn't have to be the same (for instance, I used a blue background but you can use any color you want). That's true for the other things, too. You don't have to change your styles to match mine, but you do need to change your styles. Things like that. You can check the rubric if you'd like for a checklist of specifications.
-
 ^===
 
 <center>
 
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/PKkhvehhXlw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/PKkhvehhXlw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:15px !important;"></iframe>
 
 </center>
 
 ^=
+
+Your job is to follow along. The difference is that instead of video games, you'll be making (or grabbing!) a list of whatever you want. Whatever you choose, you'll be formatting it like I formatted my document.
+
+Your formatting doesn't have to be the same (for instance, I used a blue background but you can use any color you want). That's true for the other things, too. You don't have to change your styles to match mine, but you do need to change your styles. Things like that. You can check the rubric if you'd like for a checklist of specifications.
 
 # Specifications
 
@@ -30,11 +30,12 @@ Your formatting doesn't have to be the same (for instance, I used a blue backgro
 
 * Verify that the document is shared such that ["Anyone with the link can ***EDIT***"](https://www.youtube.com/watch?v=jFGXfLDctcI).
 
- 
-^= = = ,,, 12
+<br />
 
-**NOTE:** Be sure to check out the rubric for this assignment to make sure you address all relevant parts.
+^callout external-link-alt
 
-^=
+<br />
 
-<br /><br />
+Click here to submit your work.
+
+^callout-end
