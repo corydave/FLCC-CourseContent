@@ -1,4 +1,4 @@
-^^ ASSIGNMENT - Infographic
+^^ LAB - Infographic
 
 # What is an *infographic*?
 
@@ -54,3 +54,13 @@ Check out the following submissions from previous students for ideas!
 <span style="font-size: 10pt;"><i>Thumbnails of student work</i></span>
 
 </center>
+
+<br />
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work
+
+^callout-end
