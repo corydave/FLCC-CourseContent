@@ -1,17 +1,25 @@
 ^^ PRESENTATION - Databases
 
+^tabs Video, Slideshow
+
 <center>
 
 [Link to video](https://www.youtube.com/watch?v=_vnfAukzqDg)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_vnfAukzqDg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/_vnfAukzqDg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 15px !important;"></iframe>
+
+</center>
+
+^tab
+
+<center>
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTJUHO_XaJBpWisTAIDXuhnVBRN5lywVDPH8IYyaYFevZ5JOltdi57iGulbOtC_9BfREUzJ2P7bUtfM/embed?start=false&loop=false&delayms=3000" frameborder="0" width="100%" height="400" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" style="border-radius: 15px !important;"></iframe>
 
 <br /><br />
-
-[Link to Google Slides Presentation](https://docs.google.com/presentation/d/15IwJPC3Nb4mQNuwkuGmk98-J-6ed-vgwTUu3YEoKB70/edit#slide=id.g35f391192_00)
 
 [Link to Google Sheet Data](https://docs.google.com/spreadsheets/d/1Jew6BOFM0bXKGcskoBy65XJcUXxWr4hzMOO4fJbLh8c/edit#gid=0)
 
 </center>
 
-<br />
+^tabs-end
