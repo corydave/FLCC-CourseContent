@@ -28,7 +28,7 @@ THIS. This is the chapter if you are a hardware nerd. If you've built your own c
 
 # Specifications
 
-* Complete all content in Chapter 1 in [TestOut](https://w3.testout.com/).
+* Complete all content in Chapter 3 in [TestOut](https://w3.testout.com/).
 
 <br /><br />
 
