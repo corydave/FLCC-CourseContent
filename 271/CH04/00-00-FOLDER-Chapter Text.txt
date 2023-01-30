@@ -1,0 +1,26 @@
+^^ Chapter 4 - Operating Systems Basics [3-5 hours]
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vRiEJHwA8Y5t-kUWUpSLqAT-hNPlmXuZpG06DbmALrL_KDvoTkJlatVyk1g0RhRtoekFYAdwiqjeRmg/pub?w=907&amp;h=385" alt="Illustrations of an apple, a window, a penguin, and a pinwheelish type figure. The number 4 is displayed prominently." title="Illustrations of an apple, a window, a penguin, and a pinwheelish type figure. The number 4 is displayed prominently." width="0" height="0" style="display:none;" />
+
+# Description
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vTh1H-KCL4OHcofc3tcpN405G1KQUmqame7V5xTC0TWPOq3ISzFMkaIRdk98H-MNH5BoKUzXlRn4A3R
+/pub?w=240&amp;h=180" alt="An illustration of a computer monitor that shows a login screen." title="An illustration of a computer monitor that shows a login screen." style="float:right;border-radius:25px;margin-right:20px;margin-left:20px;margin-top:0px;margin-bottom:20px;">
+
+
+In this chapter we'll take a brief peek at some of the operating systems out there. Notice that CompTIA does not spend much time talking about ChromeOS (Chromebooks), though it is a ridiculously safe and secure operating system.
+
+* 4.1: Operating System
+* 4.2: Windows Basics
+* 4.3: Linux Basics
+* 4.4: macOS Basics
+
+<div style="clear:both;">&nbsp;</div>
+
+# Specifications
+
+* Complete all content in Chapter 4 in [TestOut](https://w3.testout.com/).
+
+<br /><br />
+
+## Let's be careful out there!
