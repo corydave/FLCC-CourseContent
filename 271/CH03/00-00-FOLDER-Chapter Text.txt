@@ -1,0 +1,35 @@
+^^ Chapter 3 - Hardware [13-15 hours]
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vTwtJttB8T8JaydjDMTZkFlv2LTLv4eDh4NMFO1J2MSY8zXE23LyhNUaQmtqbr20uMi9ojon6zD3_TA/pub?w=907&amp;h=385" alt="A computer tower is open, exposing the nerdy tech innards. The number 3 is prominently displayed." title="A computer tower is open, exposing the nerdy tech innards. The number 3 is prominently displayed." width="0" height="0" style="display:none;" />
+
+# Description
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vQo7VRsAX9djzCul2A99RZ0KOm1VaSJjq306kftHis4ahw7D2rBHML8iaC-GZTNZqyRKFb3Ma14MTAw
+/pub?w=240&amp;h=180" alt="An illustration of a motherboard." title="An illustration of a motherboard." style="float:right;border-radius:25px;margin-right:20px;margin-left:20px;margin-top:0px;margin-bottom:20px;">
+
+THIS. This is the chapter if you are a hardware nerd. If you've built your own computer, you're gonna love this chapter. If you *want* to build a computer, you're gonna love this chapter. If you like [this Wikipedia article about form factors](https://en.wikipedia.org/wiki/Computer_form_factor), you're gonna love this chapter.
+
+* 3.1: Network Media
+* 3.2: Cables and Connectors
+* 3.3: Cases and Motherboards
+* 3.4: Motherboard Troubleshooting
+* 3.5: Memory
+* 3.6: Memory Installation
+* 3.7: Memory Troubleshooting
+* 3.8: BIOS/UEFI
+* 3.9: Processors
+* 3.10: Processor Troubleshooting
+* 3.11: Video and Expansion Cards
+* 3.12: Audio
+* 3.13: Cooling
+* 3.14: Power Supplies
+
+<div style="clear:both;">&nbsp;</div>
+
+# Specifications
+
+* Complete all content in Chapter 1 in [TestOut](https://w3.testout.com/).
+
+<br /><br />
+
+## Let's be careful out there!
