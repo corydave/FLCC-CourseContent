@@ -1,7 +1,6 @@
 ^^ Chapter 2 - PC Technician Responsibilities [3-4 hours]
 
-<img src="https://docs.google.com/drawings/d/e/2PACX-1vTRWIoxAX66w0PKrocDtv36rnfjQ2amgFHCwVjgomjnnkDfD-fmNqTEGzHcKOcZje_Wn8VkhQX33Nf4
-/pub?w=907&amp;h=385" alt="An illustration of techy things like a motherboard and a CPU. The number 2 is prominently displayed." title="An illustration of techy things like a motherboard and a CPU. The number 2 is prominently displayed." width="0" height="0" style="display:none;" />
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vTRWIoxAX66w0PKrocDtv36rnfjQ2amgFHCwVjgomjnnkDfD-fmNqTEGzHcKOcZje_Wn8VkhQX33Nf4/pub?w=907&amp;h=385" alt="An illustration of techy things like a motherboard and a CPU. The number 2 is prominently displayed." title="An illustration of techy things like a motherboard and a CPU. The number 2 is prominently displayed." width="0" height="0" style="display:none;" />
 
 
 # Description
@@ -28,16 +27,7 @@ Always something new!
 <div style="clear:both;">&nbsp;</div>
 
 # Specifications
-* Complete all content in Chapter 2 in TestOut.
-
-^callout external-link-alt
-
-<br />
-
-[Go to TestOut](https://w3.testout.com/)
-
-^callout-end
-
+* Complete all content in Chapter 2 in [TestOut](https://w3.testout.com/).
 
 <br /><br />
 
