@@ -1,0 +1,44 @@
+^^ Chapter 2 - PC Technician Responsibilities [3-4 hours]
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vTRWIoxAX66w0PKrocDtv36rnfjQ2amgFHCwVjgomjnnkDfD-fmNqTEGzHcKOcZje_Wn8VkhQX33Nf4
+/pub?w=907&amp;h=385" alt="An illustration of techy things like a motherboard and a CPU. The number 2 is prominently displayed." title="An illustration of techy things like a motherboard and a CPU. The number 2 is prominently displayed." width="0" height="0" style="display:none;" />
+
+
+# Description
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vQAwGkPg3cS0UsK6oaZh03tFzQC0IuCyQ2qw1B8kJ2Z_VwB2zvSlV7HZ_yGh0nMeTZlLkwbwHNgLl_l
+/pub?w=240&amp;h=180" alt="A circuit board shaped like a heart with bandaids over one part of it." title="A circuit board shaped like a heart with bandaids over one part of it." style="float:right;border-radius:25px;margin-right:20px;margin-left:20px;margin-top:0px;margin-bottom:20px;">
+
+Let's take a peek at the different aspects of being a PC Tech. This is a job that many of you will have (I did it for a while - I loved it!). There is always something new - whether it is new technology or new puzzles to solve. 
+
+Last year, even after working with computers for 30 years, I had a friend ask me to help with a problem I had never seen before. She had a tower that had a "corrupt BIOS". It was a neat experience (and fun journey!) to research how to fix it.
+
+Always something new!
+
+* 2.1: Protection and Safety
+* 2.2: Environmental Controls
+* 2.3: Professionalism
+* 2.4: Change Management
+* 2.5: PC Maintenance
+* 2.6: PC and Networking Tools
+* 2.7: Troubleshooting Process Overview
+* 2.8: Support Systems
+* 2.9: Documentation
+
+<div style="clear:both;">&nbsp;</div>
+
+# Specifications
+* Complete all content in Chapter 2 in TestOut.
+
+^callout external-link-alt
+
+<br />
+
+[Go to TestOut](https://w3.testout.com/)
+
+^callout-end
+
+
+<br /><br />
+
+## Let's be careful out there!
