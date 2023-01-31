@@ -1,0 +1,14 @@
+^^ WRAP-UP - 2023-01-31
+
+# Thank you
+Thank you for being such an interactive and enthused class! Your engagement and curiosity really drove the momentum today. While we didn't get to everything I was hoping we would examine, I think we traveled down some cool paths that yielded neat results!
+
+I updated the agenda in Brightspace to include the code we made, though you can also [access it in GitHub](https://github.com/corydave/FLCC_CSC_164/blob/main/01/01-IO.html).
+
+
+
+# HOMEWORK
+
+* You can look at the code we did in class at our [GitHub repository](https://github.com/corydave/FLCC_CSC_164/blob/main/01/01-IO.html)
+* You should *definitely* spend some time [reading up on JavaScript variables](https://javascript.info/variables). If I were you, I'd read it over on Wednesday and then re-read it again Thursday at some point before class. 
+* Unless someone objects, I'll plan on recording our class meetings. If you don't want to appear in recordings, please email me by Wednesday night. Any email regarding this policy is confidential. 
