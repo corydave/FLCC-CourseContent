@@ -78,7 +78,7 @@ yourVariable = Number( window.prompt("") );
 
 ^acc
 
-^^^ `input-output.html`
+^^^ Planned code from class -`input-output.html`
 
 ```html
 <!DOCTYPE html>
@@ -162,17 +162,82 @@ yourVariable = Number( window.prompt("") );
 </html>
 ```
 
+^^^ Actual code from class `IO.html`
+
+```html
+
+<html>
+    <head>
+        <title>Dave's World!</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <style>
+            h1 {
+                background-color: #1e90ff;
+                color: #fff;
+                padding: 10px 30px 10px 30px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Hello world!</h1>
+
+        <!--
+              script tag goes right before closing the body
+        -->
+        <script>
+```
+```javascript
+            /*
+                This is BLOCK COMMENTING
+                REASON 1 - To leave notes for future me
+                           and also whomever works on this code later
+
+                REASON 2 - TODO lists
+            */
+
+            // window.alert('hi');
+            // window.alert("hello");
+            // window.confirm('hiya');
+
+            let close = window.confirm('Would you like to close this window?');
+            console.log(close);
+            document.write('you choose ' + close);
+
+            if (close == true) {
+                window.close();
+            } else {
+                window.alert('OK!!!!');
+            }
+
+            let name = window.prompt('Enter your name:');
+            document.write('Hello ' + name);
+
+            console.log(window.innerHeight);
+            console.log(window.innerWidth);
+
+            // window.close();
+
+            console.log('why hello there!');
+
+            document.write('<h1>again</h1>, salutations.');
+```
+```html
+        </script>
+
+    </body>
+</html>
+```
+
 ^acc-end
 
-# Lab
+# HOMEWORK
+* You can look at the code we did in class at our [GitHub repository](https://github.com/corydave/FLCC_CSC_164/blob/main/01/01-IO.html)
+* You should *definitely* spend some time [reading up on JavaScript variables](https://javascript.info/variables). If I were you, I'd read it over on Wednesday and then re-read it again Thursday at some point before class. 
+* Unless someone objects, I'll plan on recording our class meetings. If you don't want to appear in recordings, please email me by Wednesday night. Any email regarding this policy is confidential. 
 
-^callout check-circle
 
-**Input and Output Lab**
-
-* Using input and output and basic calculations.
-
-^callout-end
 
 <br /><br /><br /><br /><br />
 
