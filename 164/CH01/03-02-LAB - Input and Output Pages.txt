@@ -1,4 +1,4 @@
-^^ Assignment - Input and Output Pages
+^^ LAB - Input and Output Pages
 
 ^= =
 
