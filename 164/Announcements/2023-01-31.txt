@@ -1,6 +1,6 @@
 ^^ WRAP-UP - 2023-01-31
 
-# Thank you
+# THANK YOU
 Thank you for being such an interactive and enthused class! Your engagement and curiosity really drove the momentum today. While we didn't get to everything I was hoping we would examine, I think we traveled down some cool paths that yielded neat results!
 
 I updated the agenda in Brightspace to include the code we made, though you can also [access it in GitHub](https://github.com/corydave/FLCC_CSC_164/blob/main/01/01-IO.html).
