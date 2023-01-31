@@ -1,0 +1,49 @@
+^^ Assignment - Input and Output Pages
+
+^= =
+
+Create **HTML files** that include **JavaScript** to provide solutions for the following:
+
+1. **Calculate area** - Create a page that asks a user for the width and then the length of an area of floor. Calculate and tell the user what the area of the floor is. You may use any style of output.
+
+2. **Secretly skim money (log it to console)** - Ask a user to enter number and tell them their return on investment after a year (use 0.3 percent), lie to the user by a small amount and log the amount you “skimmed” to the console.
+
+3. **Split candy - alert if there are leftovers!** - Show the user how many pieces of candy there are. (Store it in a variable and make it any amount you want). Ask the user how many people to split it between. Output how much each person gets to the page. Send an alert up to show how many are leftover after splitting up the candy (it can be zero).
+
+4. **Format a bill (add some CSS)** - Ask a user for the total amount of a meal. (a subtotal) Calculate a 15 percent tip, the amount of tax (use 8 percent) and calculate a final total. Then, using separate elements in the HTML page with different id attributes, output all the information for the bill. Make it look interesting using CSS! Note: You may use `variableName.toFixed(2)` to change that variable to only show only two places after the decimal point.
+
+
+## When complete, **zip the html files together**, **attach** the .zip file here, and **[submit]** here.
+
+^===,,,
+
+# Output and Input Reminders
+
+Check agenda and class recordings for more.
+
+## Where to output
+
+```javascript
+//output options:
+console.log();
+window.alert();
+document.write();
+document.querySelection("").innerHTML = "";
+```
+for money try `yourVariable.toFixed(2);`
+
+## Working with Visitor Input
+
+```javascript
+//input options
+yourVariable = window.prompt("");
+yourVariable = window.confirm("");
+//using an input type="text" from HTML:
+yourVariable = document.querySelction("").value;
+
+//using an input type="button" onclick="myFunction()"...
+function myFunction() {
+  //do things in response to the button click
+}
+```
+^=
