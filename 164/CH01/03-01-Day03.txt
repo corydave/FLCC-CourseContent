@@ -243,7 +243,9 @@ yourVariable = Number( window.prompt("") );
 
 <hr />
 
-### If we have time
+### Next class & "If we have time":
+* Finish input
+* Look at modifying the DOM with input and output
 * [Playing with a modal](https://www.w3schools.com/howto/howto_css_modals.asp) (including `div`s in and out of the modal hierarchy)
 * [Event Targets](https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_event_target)
 * [Selectors](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
