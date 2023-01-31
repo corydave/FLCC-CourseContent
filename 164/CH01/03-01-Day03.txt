@@ -1,0 +1,184 @@
+^^ Input and Output
+
+^callout brain
+
+<br />
+
+Let's revisit some fundamental facts about [*variables*](https://javascript.info/variables)
+
+^callout-end
+
+^callout brain
+
+<br />
+
+We'll also want to look at some interesting *[`window`](https://www.w3schools.com/jsref/obj_window.asp)*  functions and properties. Just for funsies.
+
+^callout-end
+
+# Interactivity
+
+Our JavaScript code needs to get its "hooks" into the HTML elements (DOM) so we can update what is showing on a web page -- **output** -- and also get information *from* the visitor -- **input**.
+
+^tabs Output, Input
+
+## OUTPUT
+
+```javascript
+//output options:
+console.log();
+window.alert();
+document.write();
+document.querySelector("").innerHTML = "";
+```
+
+<br />
+
+^=^ ,, 10
+
+Use `yourVariable.toFixed(2);` to control the number of decimal places.
+
+```javascript
+let totalBill = 134;
+let eachPerson = totalBill/3;
+alert(eachPerson); // 44.666666666664
+alert(eachPerson.toFixed(2)); // 44.67
+```
+
+^=
+
+^tab
+
+## INPUT
+
+```javascript
+yourVariable = window.prompt("");
+yourVariable = window.confirm("");
+//using an input type="text":
+yourVariable = document.querySelector("").value;
+
+//using an input type="button" onclick="myFunction()"...
+function myFunction() {
+  //do things in response to the button click
+}
+```
+<br />
+
+When using `window.prompt()` you get a string (just letters and words) and you will  need to typecast it inside `Number()` if you want it to be used as a number:
+
+<br />
+
+```javascript
+yourVariable = Number( window.prompt("") );
+```
+
+^tabs-end
+
+# Code from class
+
+^acc
+
+^^^ `input-output.html`
+
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>IO - Input / Output</h1>
+    <!-- id attributes are set here so we can reference these... -->
+    <!-- elements from JavaScript using document.querySelector() -->
+    <p id="output1"></p>
+    <p id="nameBox">name goes here</p>
+    <p id="username">name goes here</p>
+
+    <!-- less jarring way to get input, HTML input elements! -->
+    <input type="text" id="nameInput">
+    <input type="number" id="ageInput">
+    <input type="button" id="submitBtn" onclick="respond()" value="Submit info">
+
+    <p id="response"></p>
+
+    <script>
+```
+```javascript
+      "use strict";
+
+      //send some output to the console (web browser developer tool)
+      console.log("testing console log output");
+      
+      //the alert will run before the page is even finished
+      //and it stops the user from seeing the page until
+      //they press a button
+      window.alert("Hi! I'm annoying!");
+
+      //Replace the script element in the page with whatever
+      //we pass to write (in the parenthesis)
+      document.write("<em>This page is it!</em>");
+
+      //Use querySelector to do a CSS select to find ...
+      //a particular element, then change what is between ...
+      //that element's tags (innerHTML)
+      document.querySelector("#output1").innerHTML = "I found output1!";
+
+      //declare a variable named "name" and assign it a value: "Aaron".
+      let name = "Aaron";
+      document.querySelector("#nameBox").innerHTML = name;
+
+      let user;
+      //prompt() presents an input box to the user and then
+      //returns to us the text (string) that was input
+      user = window.prompt("What is your name?");
+      document.querySelector("#username").innerHTML = user;
+
+      //There is also a window.confirm("Want to annoy visitors?")
+
+      //functions only follow their commands when called into action
+      //the button has an onclick attribute that is set to be the
+      //code that calls this function ( <input onclick="respond()" ... >
+      function respond() {
+        let user = document.querySelector("#nameInput").value;
+        let age = Number( document.querySelector("#ageInput").value );
+        //Note on above: Number() is used around the input value...
+        //because inputs are always just lists of symbols (strings)...
+        //and not the number data type we need for calculating
+
+        //replace age with age plus five
+        age = age + 5;       
+        // symbols for math:
+        //+ add, - subtract, * multiply, / divide, % mod (remainder)
+
+        //output a response to the element with the response id
+        document.querySelector("#response").innerHTML = 
+            user + " you don't look a day over " + age;
+      }
+
+      //We could link the button to respond() instead of ...
+      //writing JavaScript code in the onclick="" attribute like this:
+      //document.querySelector("#submitBtn").addEventListener("click", respond, false);
+```
+```html
+    </script>
+  </body>
+</html>
+```
+
+^acc-end
+
+# Lab
+
+^callout check-circle
+
+**Input and Output Lab**
+
+* Using input and output and basic calculations.
+
+^callout-end
+
+<br /><br /><br /><br /><br />
+
+<hr />
+
+### If we have time
+* [Playing with a modal](https://www.w3schools.com/howto/howto_css_modals.asp) (including `div`s in and out of the modal hierarchy)
+* [Event Targets](https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_event_target)
+* [Selectors](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
