@@ -13,8 +13,6 @@ Create **HTML files** that include **JavaScript** to provide solutions for the f
 4. **Format a bill (add some CSS)** - Ask a user for the total amount of a meal. (a subtotal) Calculate a 15 percent tip, the amount of tax (use 8 percent) and calculate a final total. Then, using separate elements in the HTML page with different id attributes, output all the information for the bill. Make it look interesting using CSS! Note: You may use `variableName.toFixed(2)` to change that variable to only show only two places after the decimal point.
 
 
-## When complete, **zip the html files together**, **attach** the .zip file here, and **[submit]** here.
-
 ^===,,,
 
 # Output and Input Reminders
@@ -52,6 +50,6 @@ function myFunction() {
 
 <br />
 
-Click here to submit your work.
+When complete, **zip the html files together**, **submit** the `.zip` file
 
 ^callout-end
