@@ -39,8 +39,16 @@ Note that there is a rubric for this assignment that you can visit before submit
 # Citations
 Some students in the past have made their facts or quotes hyperlinks that jump to the actual source. That's not awesome because it doesn't work well in cases where the document gets printed out. In the Raspberry Pi example below, Jordan put superscript numbers next to facts and quotes and then listed all the sources as footnotes. The footnotes were also hyperlinks! In this case, the document works well as an electronic document because the hyperlinks take the reader directly to the source. If the document gets printed out, then readers can still find the facts through the URLs. This is what you should strive for!
 
-# Submission
-When you submit your link, please make sure you [test the link in "Incognito Mode"](https://www.youtube.com/watch?v=VWSYbAu73yU) (if you cannot access your work in Incognito mode, I won't be able to see it either). 
+# Specifications
+* Topic is clearly transformative and informed the trajectory of Computing Sciences. The relevancy of the topic is clearly articulated.
+* Content from at least 5 different, reliable sources.
+* Links are clearly attributed to the information in the infographic and are easy to follow (hyperlinks instead of text).
+* The infographic leverages the tool set to design a remarkable product.
+* Information is clean, sharp, clearly articulated, and the reader extracts immediate knowledge from the infographic.
+* There are nine facts presented that are not general knowledge and provide illumination for the reader.
+* There are virtually no spelling or grammatical errors.
+* All images are licensed such that they can be used AND credit is given when appropriate.
+* When you submit your link, please make sure you [test the link in "Incognito Mode"](https://www.youtube.com/watch?v=VWSYbAu73yU) (if you cannot access your work in Incognito mode, I won't be able to see it either). 
 
 # Need help?
 If you get stuck at any point on this assignment, you should email me! Even if you just want to bounce ideas off me or see if your topic makes sense.
