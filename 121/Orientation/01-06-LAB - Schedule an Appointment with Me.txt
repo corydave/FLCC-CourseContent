@@ -10,7 +10,10 @@ I want to get to know you! We will be using Google Meet to chat, and you'll use 
 
 * ***Don't panic!!!*** These meetings aren't painful. I just wanna get to know you!!!
 
-* Starfish is a tool that is built into Blackboard. It is meant to help make sure you can connect with everyone in the college that you need to. One of the features is the ability to schedule meetings! [You can find it here - use this link to schedule a meeting](https://flcc.starfishsolutions.com/starfish-ops/session/redirect.html). If you can't find a time during my Student Hours to meet with me, email me and we'll figure something out.
+* Starfish is a tool that is built into Brightspace. It is meant to help make sure you can connect with everyone in the college that you need to. One of the features is the ability to schedule meetings! [You can find it here - use this link to schedule a meeting](https://flcc.starfishsolutions.com/starfish-ops/session/redirect.html). If you can't find a time during my Student Hours to meet with me, email me and we'll figure something out.
+
+<center>
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vTUK1Pyh1mdZfblJSDsdAFCZHfwTggPb8w6H595SmMlzikOjTTKkzwUQnw27uYNGAdhjcnW3NiW0Vco/pub?w=480&amp;h=252" alt="A screenshot of the landing page for Brightspace - the word ‘Starfish’ is circled." title="A screenshot of the landing page for Brightspace - the word ‘Starfish’ is circled." /></center>
 
 <br />
 
@@ -18,13 +21,17 @@ Even if we've worked together in the past and we've had meetings, please schedul
 
 If none of my posted times work, please email me and we can find a common time.
 
-<div style="display:block;width:100%;clear:both;">
+<div style="display:block;width:100%;clear:both;">&nbsp;</div>
 
 # Specifications
 
 * After you set up an appointment in Starfish, put the date and time in the submission for this assignment. Please make sure you show up to the meeting though (otherwise you'll get a zero for the assignment and nobody wants that!).
 
+* You should get a confirmation from Starfish after you schedule a time. The link should be in the confirmation, but if if is not, the link is: https://meet.google.com/jht-foar-vrb.
+
 * Please pick a date *before* March 31.
+
+* The meeting is low anxiety! If you don't want to have your camera on, don't turn it on. We'll just have a light conversation. Feel free to ask me questions (about class or about anything else). If you don't want to answer a question, just say, "Pass". 
 
 # Technical Help
 
