@@ -3,7 +3,7 @@
 # Description
 <img style="float: right;" title="Multicolored code that is out of focus on a computer screen." src="https://docs.google.com/drawings/d/e/2PACX-1vQ5bM8bigXH7JQSQNV5ibh64f-sVc5LWzhi_47e3Nb598MgEqVc0OYTIVtz3WCvAYKlyhI8_xrupFZp/pub?w=200&amp;h=200" alt="Multicolored code that is out of focus on a computer screen." />
 
-Let's look at some of the cool beginnings of computing sciences! We'll check out some of the awesome pioneers in the annals of compute science. Then we'll each pick a cool topic to make a sick infographic on, and lastly we'll submit a piece of technical writing. 
+Let's look at some of the cool beginnings of computing sciences! We'll check out some of the awesome pioneers in the annals of computer science. Then we'll each pick a cool topic to make a sick infographic on, and lastly we'll submit a piece of technical writing. 
 
 <br />
 
