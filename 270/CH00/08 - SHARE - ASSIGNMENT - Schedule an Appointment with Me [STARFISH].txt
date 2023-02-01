@@ -1,43 +1,52 @@
-^^ ASSIGNMENT - Schedule an Appointment with Me
+^^ LAB - Schedule an Appointment with Me
 
 # Description
 
-<div style="display:block;width:100%;">
-<div style="float:left;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vSB-p5d18Kb42-pa1KS1ifl3etzBd9MRPbQek8kX6BvdFGLPZ75o71-LaEY2Q9mibIbxhYMzgdJUggE/pub?w=200&h=200" alt="A thumbnail of a generic calendar." style="margin: 0pt 10pt 10pt 0pt;float:left;"  /></div>
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vSB-p5d18Kb42-pa1KS1ifl3etzBd9MRPbQek8kX6BvdFGLPZ75o71-LaEY2Q9mibIbxhYMzgdJUggE/pub?w=200&h=200" alt="A thumbnail of a generic calendar." style="margin: 0pt 10pt 10pt 0pt;float:right;" />
 
 I want to get to know you! We will be using Google Meet to chat, and you'll use Starfish to schedule the meeting. That may sound overwhelming, but here's what you need to know:
-
-<div style="margin-left:220px;">
 
 * Google Meet is a free app for mobile devices, but if you're on a computer you don't even need an app; When you create an appointment, Starfish will email you. There will be a link in the email - just click on that link and it will bring you right into my video chat!
 
 * ***Don't panic!!!*** These meetings aren't painful. I just wanna get to know you!!!
 
-* Starfish is a tool that is built into Blackboard. It is meant to help make sure you can connect with everyone in the college that you need to. One of the features is the ability to schedule meetings! You can find it from the main landing page in Blackboard:
+* Starfish is a tool that is built into Brightspace. It is meant to help make sure you can connect with everyone in the college that you need to. One of the features is the ability to schedule meetings! [You can find it here - use this link to schedule a meeting](https://flcc.starfishsolutions.com/starfish-ops/session/redirect.html). If you can't find a time during my Student Hours to meet with me, email me and we'll figure something out.
 
 <center>
-<img src="https://docs.google.com/drawings/d/e/2PACX-1vS_QSgODx7gzUX4o8_0lUdA5KaLqOTWNkbmxNtnyawZVJ52tENqcFj6tmmDlRTxUO6tAMO9owBVsnBx/pub?w=480&amp;h=252" alt="A screenshot of the landing page for Blackboard - the word ‘Starfish’ is circled." /></center>
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vTUK1Pyh1mdZfblJSDsdAFCZHfwTggPb8w6H595SmMlzikOjTTKkzwUQnw27uYNGAdhjcnW3NiW0Vco/pub?w=480&amp;h=252" alt="A screenshot of the landing page for Brightspace - the word ‘Starfish’ is circled." title="A screenshot of the landing page for Brightspace - the word ‘Starfish’ is circled." /></center>
 
-</div>
 <br />
 
 Even if we've worked together in the past and we've had meetings, please schedule a meeting anyhow - I want to see your beautiful, smiling face!
 
 If none of my posted times work, please email me and we can find a common time.
 
-</div>
-<div style="display:block;width:100%;clear:left;">
+<div style="display:block;width:100%;clear:both;">&nbsp;</div>
 
 # Specifications
 
-* There is nothing to submit for this assignment, when I accept the meeting that you schedule, I'll give you credit. Please make sure you show up to the meeting though (otherwise you'll get a zero for the assignment and nobody wants that!).
+* After you set up an appointment in Starfish, put the date and time in the submission for this assignment. Please make sure you show up to the meeting though (otherwise you'll get a zero for the assignment and nobody wants that!).
 
-* Please pick a date *before* March 15.
+* You should get a confirmation from Starfish after you schedule a time. The link should be in the confirmation, but if if is not, the link is: https://meet.google.com/jht-foar-vrb.
+
+* Please pick a date *before* March 31.
+
+* The meeting is low anxiety! If you don't want to have your camera on, don't turn it on. We'll just have a light conversation. Feel free to ask me questions (about class or about anything else). If you don't want to answer a question, just say, "Pass". 
 
 # Technical Help
 
 * If you need help, you can email me at dave.ghidiu@flcc.edu
 
-* [How to access Starfish & Navigate your Homepage](https://flcc.edu/starfish/) - Note that the link to access Starfish might be different in these instructions; SUNY Online students should click on the Starfish link in Blackboard.
+* [Link to Starfish](https://flcc.starfishsolutions.com/starfish-ops/session/redirect.html)
 
-* [The FLCC Starfish Student Guide](https://www.flcc.edu/pdf/starfish/starfishguide.pdf)
+* [The FLCC Starfish Student Guide](https://flcc.edu/starfish/)
+
+## Let's be careful out there!
+
+^callout external-link-alt
+
+<br />
+
+Submit your work here.
+
+^callout-end
