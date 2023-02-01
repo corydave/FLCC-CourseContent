@@ -41,6 +41,8 @@ Please submit the work as a link to a cloud-based document such as Google Docs. 
 
 * Make sensible use of formatting such as bold, underlining, and text color
 
+* Technical drawings, illustrations, and white space are leveraged to provide easy consumption by the reader.
+
 * You should only be pasting a link to your document here - make sure the document is shared such that ["Anyone with the link can COMMENT"](https://www.youtube.com/watch?v=jFGXfLDctcI)
 
 
