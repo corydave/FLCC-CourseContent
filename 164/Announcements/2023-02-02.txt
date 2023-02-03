@@ -1,0 +1,57 @@
+^^ WRAP-UP - 2023-02-02
+
+# AGAIN, THANK YOU
+Class was fun today! I learned some stuff. Glad I attended! Thank you for being gracious and also for finding 2 Bug Bounties!
+
+I'm not enamored with the way the notes are being posted in Brightspace, so I'm working on changing them to be topical, not by date. So things might change a little. In the meantime, I have added to the notes from Tuesday and also renamed it *Input and Output*. You can [access the code in GitHub](https://github.com/corydave/FLCC_CSC_164/tree/main/01).
+
+
+
+# HOMEWORK
+
+You are on the hook for the Lab we discussed briefly in class - `Input and Output Pages`.
+
+Some helpful code:
+
+```
+
+let numPeople = 6;
+let numCandies = 56;
+
+let candiesPerPerson = numCandies / numPeople;
+
+console.log(candiesPerPerson); // 9.333333333333334
+console.log(candiesPerPerson.toFixed(2));
+
+```
+
+...and:
+
+```
+
+let cost = 100;
+
+// Output 3% of cost:
+console.log(cost*0.03);
+
+// Output cost plus 3%:
+console.log(cost*1.03);
+
+```
+
+
+
+Also, if you did not[read up on JavaScript variables](https://javascript.info/variables), do it now. If you *did* read it, read it again.
+
+Lastly, if you need help, email me at dave.ghidiu@flcc.edu!
+
+
+# Lab
+
+^callout check-circle
+
+**Input and Output Lab**
+
+* Using input and output and basic calculations.
+
+^callout-end
