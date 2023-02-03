@@ -2,9 +2,12 @@
 
 ^callout brain
 
-<br />
+You're on the hook for reading about [*variables*](https://javascript.info/variables) (conventions, naming, etc.). But we *did* talk about the difference between `var` and `let` (spoiler alert - we'll always use `let`).
 
-Let's revisit some fundamental facts about [*variables*](https://javascript.info/variables)
+```javascript
+var age = 44;
+let name = 'dave';
+```
 
 ^callout-end
 
@@ -30,6 +33,9 @@ console.log();
 window.alert();
 document.write();
 document.querySelector("").innerHTML = "";
+
+// Get the value of the text in the element named `idName`
+document.getElementById("idName").value();
 ```
 
 <br />
@@ -54,8 +60,10 @@ alert(eachPerson.toFixed(2)); // 44.67
 ```javascript
 yourVariable = window.prompt("");
 yourVariable = window.confirm("");
+
 //using an input type="text":
-yourVariable = document.querySelector("").value;
+//yourVariable = document.querySelector("").value;
+document.getElementById("idName").value;
 
 //using an input type="button" onclick="myFunction()"...
 function myFunction() {
@@ -189,6 +197,7 @@ yourVariable = Number( window.prompt("") );
         <script>
 ```
 ```javascript
+            "use strict";
             /*
                 This is BLOCK COMMENTING
                 REASON 1 - To leave notes for future me
@@ -197,8 +206,12 @@ yourVariable = Number( window.prompt("") );
                 REASON 2 - TODO lists
             */
 
+            let favoriteTVShow = 'Community';
+            window.alert(favoriteTVShow);
+
             // window.alert('hi');
             // window.alert("hello");
+            // window.alert(3);
             // window.confirm('hiya');
 
             let close = window.confirm('Would you like to close this window?');
@@ -231,6 +244,9 @@ yourVariable = Number( window.prompt("") );
 ```
 
 ^acc-end
+
+<br /><iframe width="100%" height="300" src="//jsfiddle.net/corydave/s8235yq6/3/embedded/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+<br />
 
 # HOMEWORK
 * You can look at the code we did in class at our [GitHub repository](https://github.com/corydave/FLCC_CSC_164/blob/main/01/01-IO.html)
