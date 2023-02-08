@@ -1,0 +1,97 @@
+^^ Separate Files and Math
+
+<center>
+
+[Link to video](https://www.youtube.com/watch?v=wLdckQxzjkM)
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/wLdckQxzjkM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius:15px !important;"></iframe>
+
+</center><br />
+
+# Separate Files
+
+Today we looked at having multiple files. Just like you might have a `.css` file for your styles, you can also have a `.js` file for your JavaScript. This is handy when you might have several pages using the same JavaScript.
+
+Much like you can reference an external style sheet in the `<head>` tag, you should reference an external script file just before closing the `</body>` tag. 
+
+The reason we put the call to Javascript right before the `</body>` tag is two-fold:
+* *Validators* like to see the call to the JavaScript before `</body>`
+* If you have the code in other places in your document, and the code is supposed to modify some elements on the page, the code might not have access to those elements.
+
+Traditionally, the external JavaScript file  should be called `script.js`, though you can really call it anything you want.
+
+Here is the code sample from class:
+
+## Code From Class
+
+^acc
+
+^^^ `index.html`
+
+```html
+<html>
+    <head>
+        <title>Separate Files</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <h1>Basic web page</h1>
+        <h3>Enter your name</h3>
+        <input type="text" id="nameInput" value="...enter name here...">
+        <br /><br />
+        <button type="button" onclick="getNameAndDisplay()">HIT ME</button>
+        <p>message</p>
+        <p>message2</p>
+    
+        <script type="text/javascript" src="basic.js"></script>
+    
+    </body>
+</html>
+```
+
+^^^ `script.js`
+
+```javascript
+"use strict";
+
+// declare `constants` to reference page elements
+// const inputName = document.getElementById('nameInput');
+const inputName = document.querySelector("#nameInput");
+
+// In a collision of multiple elements, querySelector chooses the
+// first occurance
+const messageText = document.querySelector("p");
+
+console.log(messageText);
+
+function getNameAndDisplay() {
+    messageText.innerHTML = "Hi, " + inputName.value;
+}
+
+```
+^acc-end
+
+# Math
+
+We also spent some time looking at math in JavaScript. Don't panic! This is about as tough as it gets with math!!!
+
+^acc
+
+^^^ math.html
+
+<script src="https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2Fcorydave%2FFLCC_CSC_164%2Fblob%2Fmain%2F01%2FSeparateFilesAndMath%2Fmath.html&style=default&type=code&showBorder=on&showLineNumbers=on&showFileMeta=on&showFullPath=on&showCopy=on"></script>
+
+^acc-end
+
+<br /><br />
+
+Of course, you can [see all the code at our *^icon b-github* GitHub](https://github.com/corydave/FLCC_CSC_164/tree/main/01/SeparateFilesAndMath)
+
+^callout book
+
+<br />
+
+There is a new lab! Be sure to check it out!
+
+^callout-end
