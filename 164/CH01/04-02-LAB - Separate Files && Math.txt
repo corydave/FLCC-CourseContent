@@ -1,0 +1,49 @@
+^^ LAB - Separate Files && Math
+
+JavaScript files have a .js extension (HTML has .html, CSS has .css).
+
+Let's do a basic setup and help make the connections.
+
+# Setup
+
+Visit [freeCodeCamp.org][camp] and click the "Sign in" button in the corner.
+
+**Important**: Use the email blank to enter your fingerlakes.edu email and then click the "email me a sign in code" button. [Log in to your fingerlakes email][email] and get the code there to complete the sign in process. 
+
+Once you are logged in, complete the sign up steps, and then be sure to get [back to the correct freeCodeCamp page][camp].
+
+[camp]:https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/
+[email]:https://mail.fingerlakes.edu
+
+
+# Steps
+
+In the **Basic JavaScript** Course, there are many small exercises, including instruction. Start by clicking **Comment Your JavaScript Code**, the first exercise.
+
+1. Read the instructions at the top.
+2. In the right-hand side, type in the code requested (you may have to think about it!)
+3. Click the "Run the Tests" button
+4. If you get a big checkmark, click "Submit and go to next challenge" and continue to the next section, if not, go to the next step.
+5. Read the feedback under the buttons on the left hand side. It should help you narrow down issues, so you can fix your code, so go to step 2!
+
+# How to Submit
+
+For this assignment, **complete up to and including "Find the Length of a String"**.
+
+1. **Take a screenshot** of the page that includes that section complete.
+2. Click the Menu button (top right) and choose Settings, scroll down to find the "**Download your data**" button and click it.
+3. **Attach the downloaded file** to this assignment.
+4. **Attach the screenshot** to this assignment.
+5. Hit the submit button on this assignment.
+
+<br />
+
+The new assignment will help build up the way in which smaller aspects of JavaScript work, and should help if the Input Output assignments feel too steep a challenge.
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
