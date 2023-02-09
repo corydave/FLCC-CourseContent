@@ -1,4 +1,4 @@
-^^ ASSIGNMENT - Adding to the Repository [Shared Google Doc]		
+^^ LAB - Adding to the Repository [Shared Google Doc]		
 
 # Description
 
@@ -30,10 +30,14 @@ By the end of this exercise, we should have access to a list of all sorts of dif
 
 <center>
 
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/_relaqce5uA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/_relaqce5uA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:15px !important;"></iframe>
+
+</center>
+
+^callout external-link-alt
 
 <br />
 
-[Link to video](https://www.youtube.com/watch?v=_relaqce5uA)
+Submit your work here.
 
-</center><br />
+^callout-end
