@@ -24,3 +24,12 @@ Your job is to write a quiz question that can be administered to students in a J
 
 * Pretty much any question is appropriate *as long as it queries students' knowledge*.
 
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
+
+<br />
