@@ -12,4 +12,12 @@ For this lab, you need to submit a few things:
     
     * By the next class you will need to have access to the server space allocated for you by the school. Please make sure you take appropriate action to find out your login credentials.
 
-Submit your reflection here!
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
+
+<br />
