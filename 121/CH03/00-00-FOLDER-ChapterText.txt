@@ -1,19 +1,18 @@
-^^ Chapter 3 - Licensing and Accessibility		
+<div style="display:none;"><img width="0" height="0" src="https://docs.google.com/drawings/d/e/2PACX-1vR8AVLAquyfIwcvzSUnFW5CdQtq0DWXDw1wcIXS90EksJaAcEmLPx9hqtSXjmePTzySwF86gjH_Ixz3/pub?w=907&amp;h=385" alt="The copyright symbol ©, the Creative Commons symbol (CC), CC-BY, and the Accessibility symbol." title="The copyright symbol ©, the Creative Commons symbol (CC), CC-BY, and the Accessibility symbol." style="max-width: 100%;"></div>
 
-# Experiences for this chapter
+^^ Licensing and Accessibility		
 
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vR164jKRFfxB-kOjrK8LjrQXaTQwHe67Nx4Ev-PjJ5x-0JpsVdlRZdJ1pz69mFKPMQiPcZWaVEDg_NO/pub?w=240&amp;h=180" alt="The copyright symbol ©, the Creative Commons symbol (CC), and the Accessibility symbol." title="The copyright symbol ©, the Creative Commons symbol (CC), and the Accessibility symbol." style="float:right;border-radius:25px;margin-right:20px;margin-left:20px;margin-top:-20px;margin-bottom:20px;">
 
-The term "table stakes" started as a poker term - it means, "the bare minimum you need to sit at this table". It has since been abstracted to mean, "this is just *what you need*, the absolute minimum." 
+The term "table stakes" started as a poker term - it means, "the bare minimum you need to sit at this table". It commonly means, "this is just *what you need*, the absolute minimum." 
 
-For instance, as a DoorDash driver, the table stakes include a car. For a substitute teacher, the table stakes are usually a college degree. For a coaching job, the table stakes usually include First Aid, CPR, and knowledge of the sport.
+For instance, to be employed as a DoorDash driver, the table stakes include a car. For a substitute teacher, the table stakes are usually a college degree. For a coaching job, the table stakes usually include First Aid, CPR, and knowledge of the sport.
 
 There are *a lot* of table stakes for teachers; a lot of things you need to have to be a teacher. This includes a college degree, a state certification, and criminal background check. 
 
 But this chapter will look at a different kind of table stakes - the kind of table stakes you need to be *in compliance with federal law*. There are two different threads to pull this week:
 
 * Copyright
-
 * Accessibility
 
 The best way to avoid copyright is to not use work (photos, music, art, worksheets, etc.) from other people (without explicit consent). We'll start by looking at the differences between **copyright**, **royalty-free**, and **fair-use**. Then we'll explore other options that are legally easier to use.
@@ -21,11 +20,6 @@ The best way to avoid copyright is to not use work (photos, music, art, workshee
 Then we'll look at accessibility and some of the ways you can make sure you are in legal compliance. You'll have to do a small webquest as one of the activities.
 
 
-Let's go!
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vQxQU3Z_qJqXJJLdKHi9zJnaPihlqmonB8qf_9jl0f_R9Lp4CSiYqFDk4WN-89tQH2TMQOglJ5KAGWN/pubhtml/sheet?headers=false&amp;gid=1499791358&amp;range=A1:D15'style="width:100%;max-width:720px;height:372px" frameborder="0"></iframe></center>
 
-<div style="clear:both;">
-
-<iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vQxQU3Z_qJqXJJLdKHi9zJnaPihlqmonB8qf_9jl0f_R9Lp4CSiYqFDk4WN-89tQH2TMQOglJ5KAGWN/pubhtml/sheet?headers=false&amp;gid=1499791358&amp;range=A1:D15' width="100%" height="372" frameborder="0"></iframe>
-
-</div>
 
