@@ -1,6 +1,4 @@
-^^ ASSIGNMENT - Google Doc Accessibility WebQuest
-
-^= =
+^^ LAB - Google Doc Accessibility WebQuest
 
 # Description
 
@@ -16,17 +14,6 @@ But the last few questions (7-10) ask you to make the document accessible (the w
 
 Make a [copy of the Google Doc](https://docs.google.com/document/d/190f1DAIFPh-2wobhH8oqrUJ4I0yMCTGwGfbVu1SaAdA/copy) and then get to work 😄!
 
-^===
-
-<center>
-
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/lFN9h8ZsrQw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<br />
-
-[Link to video](https://www.youtube.com/watch?v=lFN9h8ZsrQw)
-
-</center><br />
 
 ^=
 
@@ -43,3 +30,15 @@ Make a [copy of the Google Doc](https://docs.google.com/document/d/190f1DAIFPh-2
 * Share the document so that ["Anyone with the link can COMMENT"](https://www.youtube.com/watch?v=jFGXfLDctcI). Copy the link and paste it here in the Brightspace submission.
 
 * Have a nice day!
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/lFN9h8ZsrQw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:15px !important;"></iframe>
+
+<br /><br />
+
+^callout external-link-alt
+
+<br />
+
+Submit your work here.
+
+^callout-end
