@@ -1,0 +1,23 @@
+^^ Class on Thursday, February 9
+
+Hey folks!
+
+# Notes on class from Tuesday
+
+* I rearranged the look of chapter 1 in Brightspace to streamline it a bit more. It should make *more* sense than before.
+
+* I posted the video from class on Tuesday as well as a review of what we covered (including the code).
+
+* I modified the code *slightly*. Much like you should include `rel="stylesheet"` when listing an external CSS file, you *should* include the type of file for an external JavaScript file using the attribute `type="text/javascript"`. So the code to reference the `basic.js` file should look like this:
+
+<center>
+
+`<script type="text/javascript" src="basic.js"></script>`
+
+</center>
+
+# Class on Thursday
+
+We will be having a work day! It's going to be a day to catch up, work on the lab that was posted, and help each other explore JavaScript.
+
+## Let's be careful out there
