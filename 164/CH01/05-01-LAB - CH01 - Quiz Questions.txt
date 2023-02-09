@@ -1,0 +1,26 @@
+^^ LAB - CH01 - Quiz Questions
+
+Your job is to write a quiz question that can be administered to students in a JavaScript class. Actually, your question might be featured in a quiz in *this* class.
+
+# Specifications
+
+* You should include HTML code and JavaScript. The code does not need to be robust (for instance, the HTML might just be a very simple page with an `<h1>` tag and perhaps a textbox or a `<p>` tag. Nothing major. The code we've looked at so far in class is representative of the simple structure we're looking for.
+
+* You should include four (4) choices. None of the choices can be "None of the above" or "All of the above". 
+
+* You should indicate the correct answer.
+
+* Your question should not be designed to trick students. That's mean! Frame your question as an authentic assessment of one thing we've learned so far.
+
+* If you can submit the code formatted, sick. If not, don't worry. I'll format it real good like.
+
+# Inspiration
+
+* Your question might provide code and ask the quiz taker to identify an error in the code.
+
+* Perhaps you'd like to provide code and ask the student to predict what will happen.
+
+* Maybe you'd like to provide the code and leave a line blank - ask the student to fill in the missing line of code.
+
+* Pretty much any question is appropriate *as long as it queries students' knowledge*.
+
