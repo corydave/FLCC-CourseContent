@@ -1,6 +1,6 @@
 ^^ LAB - Grasshopper #1
 
-^= =
+<img style="float:right;margin-left:10px;width:40%;border-radius:15px;" src="https://asullivan.csc.flcc.edu/lms-content/pics/grasshopper-assignment-diagram.png" />
 
 <div style="float: left; margin: -1em 1em -1em 0em ">
 
@@ -25,8 +25,14 @@ Once complete, prepare your browser to appear like the example included here, ca
 
 Next, capture the screen as an image file. On Windows, use Windows Key + Shift + S. On macOS, use Command + Shift + 5. Save the image and attach it to this assignment.
 
-^===
 
-![example screenshot](https://asullivan.csc.flcc.edu/lms-content/pics/grasshopper-assignment-diagram.png)
 
-^=
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
+
+<br />
