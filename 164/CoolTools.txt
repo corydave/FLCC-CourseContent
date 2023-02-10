@@ -1,0 +1,11 @@
+^^ Cool Tools
+
+^= =
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/3vDzap_fxto" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius:15px !important;"></iframe>
+
+^===
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/DwurM-_g8lI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius:15px !important;"></iframe>
+
+^=
