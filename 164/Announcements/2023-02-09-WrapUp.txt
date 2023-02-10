@@ -1,0 +1,18 @@
+^^ WRAP-UP - 2023-02-09
+
+# Redesign of Course Layout
+In case you missed it, I reimagined how the course is laid out. I've changed the content names from dates to topics. I've also added a quick-link section that holds links to important things (like the Course Outline, for instance). One section I've added is "Cool Tools". When we talk in class about neat things (for instance, the color palette site [coolors.co](http://coolors.co/), I'll add it to the list. So far there is a quick video on that and also one on adding extensions to Visual Studio Code.
+
+As discussed in class, since Thursday was a work day I did not record it 😀.
+
+# Lab
+Don't forget the lab we talked about in class on Thursday (writing one quiz question) - the description is in the LAB section!
+
+
+<center>
+
+[Link to video](https://www.youtube.com/watch?v=HkeTCtJWIJw)
+
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/HkeTCtJWIJw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius:15px !important;"></iframe>
+
+</center>
