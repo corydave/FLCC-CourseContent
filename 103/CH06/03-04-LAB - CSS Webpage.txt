@@ -1,4 +1,4 @@
-^^ ASSIGNMENT - CSS Webpage
+^^ LAB - CSS Webpage
 
 # Description
 
@@ -33,11 +33,3 @@ The ugliest website gets an award!
 
 * The uglier, the better. Seriously.
 
-
-^= = =,,,
-
-**NOTE:** Be sure to check out the rubric for this assignment to make sure you address all relevant parts.
-
-^=
-
-<br /><br />
