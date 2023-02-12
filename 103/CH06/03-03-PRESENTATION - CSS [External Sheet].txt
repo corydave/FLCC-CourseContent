@@ -1,3 +1,16 @@
 ^^ PRESENTATION - CSS [External Sheet]
 
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/l-UKgDAJeoU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen  style="border-radius: 15px !important;"></iframe>
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/l-UKgDAJeoU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center>
+<br /><br />
+
+
+^callout-file
+
+<br />
+
+[Link to HTML and CSS files](https://github.com/corydave/linked-css-sheet)
+<br /></center>
+
+^callout-end
