@@ -51,7 +51,9 @@ Download this file and load it into your IDE.
 
 ^callout-end
 
-^callout code
+^acc
+
+^^^ `triangles.py`
 
 ```python ^copy
 
@@ -66,6 +68,6 @@ Download this file and load it into your IDE.
 
 
 
-^callout-end
+^acc-end
 
 <br /><br />
