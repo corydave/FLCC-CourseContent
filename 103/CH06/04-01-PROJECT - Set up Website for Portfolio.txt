@@ -1,4 +1,4 @@
-^^ PROJECT - Set up Website for Portfolio
+^^ LAB - Set up Website for Portfolio
 
 # Description
 
@@ -6,13 +6,14 @@ For the final project in this class, you will be required to create a portfolio 
 
 This assignment gets things set up for the final project. Since we are in the Web Design unit, we'll be setting up the website!
 
+# Requirements
+
 <div style="float:right;text-align:center;margin-left:10px;"><iframe width="420" height="237" src="https://www.youtube.com/embed/p4_UmbdX3R0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen  style="border-radius: 15px !important;"></iframe>
 
 <br />
 <span style="font-size:9pt;"><i>A tour of different website creation software</i></span>
 </div>
 
-# Requirements
 
 All you need to do is set up the website. I recommend [Google Sites](https://sites.google.com/new), but you may prefer other website creators such as [Wix](https://www.wix.com/),[Weebly](https://www.weebly.com/), [SquareSpace](https://www.squarespace.com/), [WordPress](https://wordpress.org/), or anything other tool you'd like. You do not need to populate your portfolio with much information yet; this is just to set up the framework. There are three things you need to have:
 
