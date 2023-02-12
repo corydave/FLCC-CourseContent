@@ -1,4 +1,4 @@
-^^ ASSIGNMENT - My First Webpage
+^^ LAB - My First Webpage
 
 # Description
 
@@ -28,14 +28,15 @@ If your website has more than one file (such as an image), then please submit al
 
 # Specifications
 
-* Please submit a .zip file, not an .html file.
+* Please submit a `.zip` file, not an `.html` file.
 
-* If you have multiple files (such as images or other HTML files, please include them in the .zip file).
+* If you have multiple files (such as images or other HTML files, please include them in the `.zip` file).
 
-^= = =,,,
 
-**NOTE:** Be sure to check out the rubric for this assignment to make sure you address all relevant parts.
+^callout external-link-alt
 
-^=
+<br />
 
-<br /><br />
+Click here to submit your work.
+
+^callout-end
