@@ -1,4 +1,4 @@
-^^ LAB - Set up Website for Portfolio
+^^ PROJECT - Set up Website for Portfolio
 
 # Description
 
