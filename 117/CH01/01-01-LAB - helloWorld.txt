@@ -1,4 +1,4 @@
-^^ LAB - `helloWorld` [Description]
+^^ LAB - `helloWorld`
 
 
 ## DESCRIPTION
@@ -31,7 +31,9 @@ Download this file and load it into your IDE.
 ^callout-end
 
 
-^callout code
+^acc
+
+^^^ `helloWorld.py`
 
 ```python ^copy
 
@@ -40,12 +42,13 @@ Download this file and load it into your IDE.
 # NAME -
 # DATE -
 # DESCRIPTION - 
+
 print('Hello, World!')
 
 ```
 
 
 
-^callout-end
+^acc-end
 
 <br /><br />
