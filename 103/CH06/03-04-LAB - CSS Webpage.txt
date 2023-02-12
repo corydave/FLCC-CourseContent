@@ -33,3 +33,10 @@ The ugliest website gets an award!
 
 * The uglier, the better. Seriously.
 
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
