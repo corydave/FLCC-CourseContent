@@ -1,0 +1,47 @@
+^^ CODE SAMPLE - `daveG.html`
+
+```html
+
+<html>
+  <head>
+    <title> Dave's First Page </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body> hi. <br />
+    <br />
+    <hr width="50%" color="DARKSALMON" size="4px" />
+    <hr width="300px" />
+    <center>
+      <u>Dave is <i>really</i>
+        <b>cool</b>
+      </u>. <br /> Click here to go to <a href="https://www.cnn.com" target="_blank">CNN</a>. <br /> Click <a href="https://www.flcc.edu" target="_blank">here to go to FLCC</a>. <br />
+      <br />
+      <div style="display:inline-block;">
+        <font face="arial" color="gray">how to make money fast.</font>
+        <br />
+        <br />
+        <font face="arial" color="green" size="36pt">another way!.</font>
+        <br />
+        <img width="200" src="https://cdn2-www.dogtime.com/assets/uploads/gallery/pharaoh-hound-dog-breed-pictures/10-puppy.jpg" />
+        <br />
+        <iframe width="800px" src="file:///C:/Users/dghidiu/Desktop/New%20folder/index.html" width="300px"></iframe>
+        <br />
+        <br />
+        <br />
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/1s4aAp8OxGg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br />
+        <iframe src="https://www.google.com/maps/d/embed?mid=1-kZ7SUba5KnxQT--9igRKmWDFgj46izY" width="640" height="480"></iframe>
+        <br />
+        <blockquote class="twitter-tweet" data-lang="en">
+          <p lang="en" dir="ltr">Very much enjoyed the responses last time, so I'm asking again. <br>
+            <br>What's the best media that you've consumed lately, whether a documentary, Netflix series, Youtube vid, blog post, news article, book, academic article, podcast, song, poem, video game, or other? Pls share!
+          </p> — Dr. Alec Couros (@courosa) <a href="https://twitter.com/courosa/status/1109969990340526081?ref_src=twsrc%5Etfw">March 25, 2019</a>
+        </blockquote>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+    </center>
+  </body>
+</html>
+
+```
+
