@@ -1,0 +1,29 @@
+^^ LAB - Submit a `.zip` file of an HTML file
+
+# Description
+
+Following the example in the previous video, submit a `.zip` file that contains the `.html` file (you can paste the code below into your HTML file, or you can author your own page).
+
+<br /><br />
+
+```html ^copy
+<html>
+  hi.
+</html>
+```
+
+<br /><br />
+
+# Specifications
+
+* Please submit a `.zip` file, not an `.html` file.
+
+<br />
+
+^callout external-link-alt
+ 
+<br />
+ 
+Click here to submit your work.
+ 
+^callout-end
