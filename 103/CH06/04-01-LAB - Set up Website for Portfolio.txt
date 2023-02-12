@@ -1,12 +1,16 @@
-^^ ASSIGNMENT - Set up Website for Portfolio
-
-^= =
+^^ LAB - Set up Website for Portfolio
 
 # Description
 
 For the final project in this class, you will be required to create a portfolio that showcases a number of your pieces from the semester. The portfolio is meant to show growth and reflection across the semester!
 
 This assignment gets things set up for the final project. Since we are in the Web Design unit, we'll be setting up the website!
+
+<div style="float:right;text-align:center;margin-left:10px;"><iframe width="420" height="237" src="https://www.youtube.com/embed/p4_UmbdX3R0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen  style="border-radius: 15px !important;"></iframe>
+
+<br />
+<span style="font-size:9pt;"><i>A tour of different website creation software</i></span>
+</div>
 
 # Requirements
 
@@ -18,25 +22,10 @@ All you need to do is set up the website. I recommend [Google Sites](https://sit
 
 3. Eight subpages, each one set up to contain one piece of work you'd like to show off
 
-^===
-
-<CENTER>
-
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/p4_UmbdX3R0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<br />
-<span style="font-size:9pt;"><i>A tour of different website creation software</i></span>
-
-</center>
-
-^=
 
 You can see an example here - https://sites.google.com/view/daveghidiu/home.
 
-Note that I put in some stuff in the landing page and some stuff in the About Me page. That was mostly so I could demonstrate the tools in Google Sites; you don't need to be as robust with your site (yet).
-
-Also note that any work you do now can be modified for your final portfolio at the end of the semester.
-
+Note&nbsp;that any work you do now can be modified for your final portfolio at the end of the semester.
 
 <hr />
 
@@ -47,11 +36,10 @@ Here's the breakdown for each piece:
 Your landing page should say some general things - who you are, what your major is, something fun about yourself. But feel free to add more!
 
 ## About Me
-Your "About Me" page talks about what your major is, your experience, and some other fun details (required for this assignment, but will be modified for the final portfolio and will include a resume).
-This focuses more on who you are. What are your ambitions? What do you enjoy doing? This doesn't have to be related to your academics or your career. Maybe you like fishing - add that! Include pictures! Eventually this page will also include your resume.
+Your "About Me" page talks about what your major is, your experience, and some other fun details. This focuses more on who you are. What are your ambitions? What do you enjoy doing? This doesn't have to be related to your academics or your career. Maybe you like fishing - add that! Include pictures! Eventually this page will also include your resume.
 
 ## Portfolio
-Your portfolio setup (required for this assignment, but can be modified for the final portfolio; you only have to set up the 8 pages; you do not have to put content in any of them until the final portfolio is due).
+Your portfolio setup (required for this assignment, but can be modified for the final portfolio.) For this assignment you need to set up the 8 pages, and include your Infographic as one of those pages. (You don't need to put content in any of the other 7 pages until the final portfolio is due at the end of the semester).
 
 # Specifications
 
@@ -59,7 +47,7 @@ Your portfolio setup (required for this assignment, but can be modified for the 
 
 * An "About Me" page.
 
-* Eight different subpages, each one ready to accept a piece of work.
+* Eight different *subpages*, each one ready to accept a piece of work.
 
 * One of your subpages should include your INFOGRAPHIC assignment. You should also write a small reflection on this page. The reflection should address:
 
@@ -71,18 +59,15 @@ Your portfolio setup (required for this assignment, but can be modified for the 
 
 * Make sure you **publish** your website and submit a link.
 
-* Please paste the link in the WRITE SUBMISSION portion of Blackboard, not the COMMENTS section.
+* Please paste the link to your website in the submission.
 
 * Please make sure you test your website "incognito mode" to make sure others can view it.
 
-^= = =,,,
-
 **NOTE:** Be sure to check out the rubric for this assignment to make sure you address all relevant parts.
 
-^=
 
 <br /><br />
 
 Here's a video that walks through how to use Google Sites and set up the framework for your portfolio (it's the "Behind the Scenes" for the link above 😃).
 
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/aaLjvR92rU8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/aaLjvR92rU8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen  style="border-radius: 15px !important;"></iframe>
