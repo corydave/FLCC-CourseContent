@@ -1,4 +1,4 @@
-^^ LAB - `triangles` [Description]
+^^ LAB - `triangles`
 
 
 ## DESCRIPTION
@@ -10,6 +10,18 @@ Write a program that outputs two "triangles" built out of # characters to match 
 * File name: `triangles.py`
 * Be sure to modify the comments
 * Be sure to output the exact message as shown in the sample output. Note the blank line between the two triangles.
+
+<br />
+
+^=^ ,,,,
+
+### NOTE:
+
+This lab is nothing more than a few `print` statements; there is no need to research how to do *loops* or other complex code. Just do some sweet, sweet output statements.
+
+^=
+
+<br />
 
 ## SAMPLE OUTPUT
 
