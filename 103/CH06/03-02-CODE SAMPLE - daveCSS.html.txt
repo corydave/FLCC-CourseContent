@@ -1,6 +1,6 @@
 ^^ CODE SAMPLE - `daveCSS.html`
 
-```html^copy
+```html
 
 <HTML>
    <HEAD>
