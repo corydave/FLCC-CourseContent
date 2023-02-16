@@ -1,6 +1,6 @@
-^^ ASSIGNMENT - Make (and embed) a BookCreator book
+^^ LAB - Make (and embed) a BookCreator book
 
-^= =
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iFJq4cQZqhI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:15px !important;float:right;margin-left:10px;height:315px;width:40%;min-width:200px;"></iframe>
 
 [BookCreator](https://bookcreator.com/) is a neat piece of software that lets you (or your students) create a slick digital book. 
 
@@ -12,21 +12,7 @@ Your job is to make a sweet, sweet book. The topic can be anything you want, but
 
 Note that when you go to create a book, you can choose from a few different sizes and templates. If you choose the Comic Book theme you'll have all the regular tools *and* some extra, special tools as well.
 
-^===
-
-<center>
-
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/iFJq4cQZqhI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<br />
-
-[Link to video](https://www.youtube.com/watch?v=iFJq4cQZqhI)
-
-</center>
-
-^=
-
-
+<div style="clear:both;">
 
 <center>
 
@@ -37,15 +23,12 @@ Note that when you go to create a book, you can choose from a few different size
 Pick a topic that seems grade appropriate for the littles you'll be teaching. Once it's done, embed the book into your Google Site and submit the link to the page where the video is here.
 
 
-
-<div style="clear:both;">
-
 # Specifications
 
 * Pick a topic that you imagine you might use when you are teaching (so it must be age appropriate)
 * A cover with your name on it
 * At least six pages
-* A back cover
+* A back cover (if possible)
 * Beautiful images with citations (even CC0 should be listed - see my example)
 * At least three text boxes
   * One text box should be rotated
@@ -55,3 +38,11 @@ Pick a topic that seems grade appropriate for the littles you'll be teaching. On
 
 
 </div>
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
