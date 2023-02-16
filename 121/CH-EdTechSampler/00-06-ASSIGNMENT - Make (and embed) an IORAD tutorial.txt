@@ -1,6 +1,6 @@
 ^^ ASSIGNMENT - Make (and embed) an IORAD tutorial
 
-^= =
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bR1A3kMYAYY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:15px !important;float:right;margin-left:10px;height:315px;width:40%;min-width:200px;"></iframe>
 
 [IORAD](https://www.iorad.com/) is an interesting piece of software; it allows you to make step-by-step tutorials. Once you create it, you can distribute it as an interactive tutorial (where the participant has to walk through the process by clicking on buttons), a PDF instruction manual, a video, a step-by-step list, or as a quiz. 
 
@@ -18,22 +18,7 @@ You will have to:
 
 * Watch this tutorial video - note that the tutorial goes over some advanced maneuvers (the dragging and dropping, for instance). You do not need to include the more difficult moves in your tutorial.
 
-
-^===
-
-<center>
-
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/bR1A3kMYAYY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<br />
-
-[Link to video](https://www.youtube.com/watch?v=iFJq4bR1A3kMYAYYcQZqhI)
-
-</center>
-
-^=
-
-
+<div style="clear:both;">
 
 <center>
 
@@ -42,8 +27,6 @@ You will have to:
 </center><br >
 
 Pick a topic that seems grade appropriate for the kiddos you'll be teaching. Once it's done, embed the tutorial into your Google Site and submit the link to the page where the video is here.
-
-<div style="clear:both;">
 
 # Specifications
 
@@ -55,3 +38,11 @@ Pick a topic that seems grade appropriate for the kiddos you'll be teaching. Onc
 
 
 </div>
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
