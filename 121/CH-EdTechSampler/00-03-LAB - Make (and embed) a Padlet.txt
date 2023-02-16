@@ -1,6 +1,7 @@
-^^ ASSIGNMENT - Make (and embed) a Padlet
+^^ LAB - Make (and embed) a Padlet
 
-^= =
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RMogSx-7V1w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:15px !important;float:right;margin-left:10px;height:315px;width:40%;min-width:200px;"></iframe>
+
 
 [Padlet](https://padlet.com/) is a curation tool that looks similar to Pinterest. Pinterest is a great tool, but users cannot access most of the content without having an account, so it doesn't work well for students. Padlet was one of the original Pinterest-like tools designed for educators, but they limited their free services so a lot of educators migrated to [Wakelet](https://wakelet.com/), which is a very similar tool.
 
@@ -8,19 +9,7 @@ The tutorial for this assignment is based on Padlet, but Wakelet has many of the
 
 Once it's done, embed the Padlet (or Wakelet) into your Google Site.
 
-^===
 
-<center>
-
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/RMogSx-7V1w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<br />
-
-[Link to video](https://www.youtube.com/watch?v=RMogSx-7V1w)
-
-</center>
-
-^=
 
 <div style="clear:both;">
 
@@ -30,6 +19,12 @@ Once it's done, embed the Padlet (or Wakelet) into your Google Site.
 * Please embed this Padlet into your Google Site under the "Interactives" page
 * Copy the link to this specific item and submit it in this assignment
 
-
-
 </div>
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
