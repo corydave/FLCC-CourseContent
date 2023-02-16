@@ -9,6 +9,8 @@ While much of this course focuses on what you can do with Google products, there
 
 The tools we will be looking at here are a sampling of some of the really neat tools out there. As you get experience with each tool, ponder how you might leverage it in your classroom; you'll talk about that in your Journal.
 
+Note that you will be *embedding* your work from this chapter in your Google Site. The first video will explain how to do that. Some of the videos in here might say to submit the work in Blackboard (but that's old news!). Instead, embed the content in your Google Site and submit a link - in Brightspace - to your Google Site (you'll have to do this for each piece of work that you submit).
+
 * **Padlet** is a way to curate content with your students. It is similar to Pinterest.
 
 * **Quizlet** is a cool way to make flashcards and other retrieval activities.
