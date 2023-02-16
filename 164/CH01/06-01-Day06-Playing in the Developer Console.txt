@@ -45,13 +45,3 @@ console.log(3 + 4 + " = " + (3 + 4)); // 7 = 7
 ^acc-end
 
 <br /><br />
-
-Of course, you can [see all the code at our *^icon b-github* GitHub](https://github.com/corydave/FLCC_CSC_164/tree/main/01/SeparateFilesAndMath)
-
-^callout book
-
-<br />
-
-There is a new lab! Be sure to check it out!
-
-^callout-end
