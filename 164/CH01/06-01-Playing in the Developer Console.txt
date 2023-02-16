@@ -1,0 +1,57 @@
+^^ Playing in the Developer Console
+
+<center>
+
+[Link to video](https://www.youtube.com/watch?v=mUP372ehdWk)
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/mUP372ehdWk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius:15px !important;"></iframe>
+
+</center><br />
+
+# Developer Console
+
+The Developer Console is available on most browsers. In Chrome, hit *^key F12* to open it. In the console:
+* You can use it to run any JavaScript
+* You can use it to access anything in the DOM of the webpage
+* You can use it as a makeshift calculator
+* You can hit the *^key ↑* key to scroll through the previous commands (note that *^key ↓* will scroll the opposite way)
+
+<br />
+
+## Code From Class
+
+^acc
+
+^^^ Code fragments from the Developer Console
+
+```javascript
+
+document.getElementById("dave");
+typeof 501; // number
+typeof (501); // number
+typeof ("enter your name"); // string
+
+console.log(5 > 3); // true
+typeof (5 > 3); // boolean
+
+console.log(3 + 4); //7
+console.log(3 + 4 + " = " + 7); // 7 = 7
+console.log(3 + 4 + " = " + 3 + 4); // 7 = 34
+console.log(3 + 4 + " = " + (3 + 4)); // 7 = 7
+
+
+```
+
+^acc-end
+
+<br /><br />
+
+Of course, you can [see all the code at our *^icon b-github* GitHub](https://github.com/corydave/FLCC_CSC_164/tree/main/01/SeparateFilesAndMath)
+
+^callout book
+
+<br />
+
+There is a new lab! Be sure to check it out!
+
+^callout-end
