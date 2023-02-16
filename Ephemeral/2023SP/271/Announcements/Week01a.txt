@@ -1,22 +1,15 @@
-^^ Week #1 - What to Expect
+^^ WEEK #1 - What to Expect
 
 # Welcome!
 Welcome, folks! Thank you so much for your patience as I worked out some kinks in Brightspace.
 
 Everything *should* be all set. If you find any errors, please email me at dave.ghidiu@flcc.edu and I'll fix them (as a bonus, you will earn **Bug Bounty** points).
 
-# This week
-This week is all about orientation to the course. In Brightspace, you'll find **Chapter 0 - Orientation** and **Chapter 1 - TestOut Orientation**. You'll need to carve out some time to address both of these (I estimate 4ish hours).
+<center>
 
-# TestOut
-If you have not yet obtained your key to TestOut, make sure you do that this week. You can find the link to our particular class in the Course Outline and [also right here](https://labsimapp.testout.com/v6_0_536/index.html/createaccount?inviteid=30be729c-4f77-4e6a-bd1a-334fcba84365).
+[Link to video]()
 
-# `changelog`
-I've fixed a few issues already:
-* One link to the Course Outline (Syllabus) pointed to the Syllabus of a different class.
-* Chapter 0 was briefly visible and then not visible.
-* Some assignments in this course were visible but not accessible.
+<iframe  src="https://www.youtube.com/embed/IXr39xvDEjk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius:15px !important;height:315px;width:100%;max-width:560px;text-align:center;"></iframe>
 
-<br />
 
 ## Let's be careful out there!
