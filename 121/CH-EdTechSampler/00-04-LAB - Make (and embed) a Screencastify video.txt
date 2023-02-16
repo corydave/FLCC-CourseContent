@@ -1,6 +1,7 @@
-^^ ASSIGNMENT - Make (and embed) a Screencastify video
+^^ LAB - Make (and embed) a Screencastify video
 
-^= =
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wY4-WOsn9YI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:15px !important;float:right;margin-left:10px;height:315px;width:40%;min-width:200px;"></iframe>
+
 
 A *screencast* is when the screen of a computer is recorded to demonstrate how to use software. Making screencasts is a good way to show students how to use software. You've probably seen screencasts on YouTube (you've definitely seen them in this class). 
 
@@ -20,21 +21,7 @@ Other options include:
 
 * [Loom](https://www.loom.com/) - One of the easiest ways to capture your screen and your face at the same time. Crops your video as a circle, too!
 
-^===
-
-<center>
-
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/wY4-WOsn9YI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<br />
-
-[Link to video](https://www.youtube.com/watch?v=wY4-WOsn9YI)
-
-</center>
-
-^=
-
-One of the best sources for screencast tips comes from a recent episode from the Cult of Pedagogy podcast ([#144: Everything You Need to Know About Building a Great Screencast Video](https://www.cultofpedagogy.com/screencast-videos/)). Even though the episode is 47 minutes long, it's definitely worth your time to listen to it.
+One of the best sources for screencast tips comes from a recent episode from the Cult of Pedagogy podcast ([#144: Everything You Need to Know About Building a Great Screencast Video](https://www.cultofpedagogy.com/screencast-videos/)). The episode is 47 minutes long and is definitely worth your time.
 
 <center><audio controls="controls"> 
   <source src="https://traffic.libsyn.com/secure/force-cdn/highwinds/cultofpedagogy/Episode_144.mp3" type="audio/mpeg" /> Your browser does not support the audio element. 
