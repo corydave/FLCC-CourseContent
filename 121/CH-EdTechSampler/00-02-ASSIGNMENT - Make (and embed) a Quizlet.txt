@@ -1,6 +1,6 @@
 ^^ ASSIGNMENT - Make (and embed) a Quizlet
 
-^= =
+<iframe src="https://www.youtube.com/embed/ZXXh9ZgAzz4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:15px !important;float:right;margin-left:10px;height:315px;width:40%;min-width:200px;"></iframe>
 
 [Quizlet](https://quizlet.com/) is a tool that lets you make flashcards.
 
@@ -10,19 +10,8 @@ Students can make flashcards too. Some teachers might actually create a set of f
 
 Your job is to make a set of flashcards that cover a specific topic of your choosing. You must have at least six cards and at least one of them must include an image.
 
-^===
 
-<center>
 
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/ZXXh9ZgAzz4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<br />
-
-[Link to video](https://www.youtube.com/watch?v=ZXXh9ZgAzz4)
-
-</center>
-
-^=
 
 <div style="clear:both;">
 
