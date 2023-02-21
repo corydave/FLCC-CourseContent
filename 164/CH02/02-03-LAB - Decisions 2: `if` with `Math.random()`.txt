@@ -1,0 +1,62 @@
+^^ LAB - Decisions 2: `if` with `Math.random()`
+
+^= =
+
+Create **HTML files** that include **JavaScript** to provide solutions for the following:
+
+1. **Prediction** - Write a program that shows the user a random prediction about what will happen to them in the next five minutes.
+
+    * There should be at least 3 possibilities
+    * The page will only show one possibility when loaded.
+
+
+2. **Loaded Dice** - Write a program that tells the visitor the result of rolling a six-sided die.
+
+    * The output should be include "you rolled a " and then 1, 2, 3, 4, 5, or 6
+    * There should be a much higher chance of rolling a 1 than the other sides (but all numbers should still be possible)
+
+
+3. **Quizzer** - Write a quiz program that asks three multiple choice questions.
+
+    * Each question is up to you to invent.
+    * Each question should show all the choices at once in a single prompt.
+    * Each answers should list a preceding number or letter to make it easier for the visitor to type in an answer.
+    * Keep track of how many answers the visitor gets correct.
+    * Display the number of correct answers once all three questions are answered.
+
+## When complete, **zip the html files together**, **attach** the .zip file here, and **[submit]** here.
+
+^=== ,,
+
+## Random reminders
+
+Math.random() gives a number that could be thought of as a percentage like .35 or .95 and you can multiply that by a larger number to get almost up to the maximum. You need the +1 to get up to the high number (and not have 0 as a low)
+
+Generating a random number using Math.random for whole numbers 1 to 10:
+
+```javascript
+//Math.floor is used to truncate (chop off) 
+//everything after the decimal point
+let score = Math.floor(Math.random() * 10) + 1;
+```
+
+You can just output a random number or use it in a calculation, but you can also use it to make a less predictable decision:
+
+```javascript
+//if random score is greater than 8, log a message 
+if (score > 8) {
+    console.log("that's a good score!")
+}
+```
+
+^=
+
+<br />
+
+^callout external-link-alt
+
+<br >
+
+Click here to submit your work
+
+^callout-end
