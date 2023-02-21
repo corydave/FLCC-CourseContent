@@ -1,0 +1,60 @@
+^^ LAB - Decisions 3: Ranges and Logical Operators
+
+^= =
+
+Create **HTML files** that include **JavaScript** to provide solutions for the following:
+
+1. **Retail Rating** - Ask the visitor to your page to rate a retail store from 1 to 10 and show them the word "Good", "Okay", or "Bad" in response.
+
+    * You decide on the range of numbers that produce each output
+    * Be sure that every number 1 to 10 results in an output
+    * Show the rating on the page itself (not console or alert)
+
+
+2. **Color Retail Rating** - Related to question 1: Ask a user for the name of a retail store, then ask the user for a rating of 1 to 10. This time, display the store name. Use the ranges from question 1 to decide how to color the background of the store name.
+
+    * For example, if the number rating is in the good range, you could set the background color for the store name to cyan.
+    * Format the store name with one of three different background colors based on the rating!
+       * Hint: Write HTML tags as part of the string in the innerHTML and include an attribute with a different class or id depending on the range. `<p class="good">...`
+       * Use CSS that selects the class or id and colors the background.
+    * The store name on the page should use larger text than the input.
+
+
+3. **Valid User** - Ask a user for their username. If it is the correct username, do nothing. If it is incorrect send an alert up that says "username incorrect!". 
+
+    * Be sure that it works with a capital first letter or without a capital first letter.
+    * You can decide what the valid username is, and if there should be more than one.
+
+## When complete, **zip the html files together**, **attach** the .zip file here, and **[submit]** here.
+
+^=== ,,
+
+## Logical Operators
+
+```javascript
+&&    //AND
+||    //OR
+!     //NOT
+```
+
+## Ranges
+
+```javascript
+(5 < a && a < 10) 
+//true if a is between 5 and 10
+
+!(5 < a && a < 10)
+//true for any other number!
+```
+
+^=
+
+<br />
+
+^callout external-link-alt
+
+<br >
+
+Click here to submit your work
+
+^callout-end
