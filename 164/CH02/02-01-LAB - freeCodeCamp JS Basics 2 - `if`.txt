@@ -1,0 +1,40 @@
+^^ LAB - freeCodeCamp JS Basics 2 - `if`
+
+# Setup
+
+Return to the [JavaScript Algorithms and Data Structures at freeCodeCamp.org][camp]. Be sure you are signed in with the same account you used before (your fingerlakes.edu email). Refer to the first FreeCodeCamp assignment if you need to sign up.
+
+In the **Basic JavaScript** Course, scroll down to **"Understanding Boolean Values"** (this skips many exercises!). Complete every exercise up to and including **"Chaining If Else Statements"**.
+
+[camp]:https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/
+
+# Steps
+
+For each exercise:
+
+1. Read the instructions at the top.
+2. In the right-hand side, type in the code requested (you may have to think about it!)
+3. Click the "Run the Tests" button
+4. If you get a big checkmark, click "Submit and go to next challenge" and continue to the next section, if not, go to the next step.
+5. Read the feedback under the buttons on the left hand side. It should help you narrow down issues, so you can fix your code, so go to step 2!
+
+
+# How to Submit
+
+For this assignment, **complete up to and including "Chaining If Else Statements"**.
+
+1. **Take a screenshot** of the page that includes the checked last exercises.
+2. Click the Menu button (top right) and choose Settings, scroll down to find the **"Download your data"** button and click it.
+3. **Attach the downloaded file** to this assignment.
+4. **Attach the screenshot** to this assignment.
+5. Hit the submit button on this assignment.
+
+<br />
+
+^callout external-link-alt
+
+<br >
+
+Click here to submit your work
+
+^callout-end
