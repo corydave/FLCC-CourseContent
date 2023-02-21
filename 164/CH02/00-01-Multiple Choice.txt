@@ -1,0 +1,216 @@
+^^ Multiple Choice
+
+<center>
+
+[Link to video](https://www.youtube.com/watch?v=yh4MIugmY8g)
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/yh4MIugmY8g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius:15px !important; border-radius:15px !important;"></iframe>
+
+</center><br />
+
+# `if` Statements
+
+An `if` statement is a query - a condition must be tested. If the query is `true`, then one path of code is taken. 
+
+```javascript
+"use strict"
+let age = 44;
+
+// some code
+
+if (age > 40) {
+  console.log('oof');
+}
+
+// some more code
+
+```
+In this example, *some code* is executed, then a question is asked - "Hey, is the value of age greater than 40?" Since `age` equals `44`, then the answer is `true` and the program will output `"oof"` to the console. Then *some more code* will be executed.
+
+Note that if `age` was `35` (or `10`, or `-3`, or even `40`) then the answer is `false` and the program wouldn't run the code in the brackets. It would just go to *some code*, ask if `age` was greater than `40` (it is not), and then execute *some more code*.
+
+Adding in an `else` will provide an alternate path. If the condition is `false`, then the other path is taken. 
+
+```javascript
+"use strict"
+let age = 30;
+
+if (age >= 35) { 
+  console.log('You are old enough to run for President of the United States.");
+} else {
+  console.log('You are not old enough to run for President of the United States.");
+}
+```
+
+You can see in this example that necessarily one of the two conditions will happen. If the value of `age` is greater than or equal to 35, the conditional is `true` and the code will output in the console a message about being old enough to run for President.
+
+Now if the value of `age` is less than `35`, then the `else` part kicks in and we get a message about not being old enough to run for President.
+
+Note that this is done through the magic of *Boolean Logic*. That is, comparators such as:
+* `>` Greater than
+* `>=` Greater than or equal to
+* `<` Less than
+* `<=` Less than or equal to
+* `==` Equal to
+* `!=` Not equal to
+
+ 
+
+<br />
+
+## Code From Class
+
+^acc
+
+^^^ Code fragments from the Developer Console
+
+```html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        .answer {
+            padding-left: 30px;
+        }
+        
+        .question {
+            margin-bottom: 12px;
+            font-weight: bold;
+
+        }
+
+        .question-container {
+            border: 2px dotted black;
+            padding: 10px;
+            border-radius: 15px;
+            width: 40%;
+            min-width: 300px;
+        }
+
+        .answer-text {
+            color: red;
+            font-size: 20pt;
+        }
+
+        button {
+            margin: 7px;
+            padding: 3px 10px 3px 10px;
+            border-radius: 25px;
+            background-color: #1e90ff;
+            color: white;
+            font-weight: bold;
+            border: 0px;
+        }
+
+    </style>
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="question-container">
+        
+        <div class="question">How far from Earth is the sun?</div>
+
+        <div class="answer">
+            <input type="radio" name="distance" value="true" id="93m">
+            <label for="93m">93 million miles</label>
+        </div>
+
+        <div class="answer">
+            <input type="radio" name="distance" value="false" id="93k">
+            <label for="93k">93 million kilometers</label>
+        </div>
+
+        <div class="answer">
+            <input type="radio" name="distance" value="false" id="11b">
+            <label for="11b">Eleventy Billion</label>
+        </div>
+        
+        <div class="answer">
+            <input type="radio" name="distance" value="false" id="earths">
+            <label for="earths">A lot of Earths</label>
+        </div>        
+
+        <div class="answer-text" id="feedback"></div>
+
+        <button id="check-work" onclick="checkWork()">CHECK</button>
+        <button id="reset" style="background-color: green;" onclick="reset()">RESET</button>
+
+    </div>
+
+    <script>
+```
+```javascript
+        "use strict"
+
+        const DEBUG = false;
+
+        function checkWork() {
+            
+            // console.log("checkWork() start");
+
+            let choices = document.querySelectorAll('input[name="distance"]');
+            
+            // if (DEBUG == true)
+            if (DEBUG) {
+
+                // console.log(choices);
+
+                // console.log(choices[0].checked);
+                // console.log(choices[1].checked);
+                // console.log(choices[2].checked);
+                // console.log(choices[3].checked);
+            
+            }
+
+            let feedback = document.getElementById("feedback");
+
+            if (true == choices[0].checked) {
+                // document.getElementById("feedback").innerHTML = "CORRECT! YAY!";
+                // document.getElementById("feedback").style.color = "green";
+
+                feedback.innerHTML = "CORRECT! YAY!";
+                feedback.style.color = "green";
+
+            } else {
+
+                feedback.innerHTML = "You can do better!";
+                feedback.style.color = "red";
+
+            }
+
+            
+            // console.log("checkWork() end");
+            
+        }
+
+        function reset() {
+            document.getElementById("feedback").innerHTML = "";
+            let choices = document.querySelectorAll('input[name="distance"]');
+
+            choices[0].checked = false;
+            choices[1].checked = false;
+            choices[2].checked = false;
+            choices[3].checked = false;
+        }
+```
+```html
+    </script>
+
+</body>
+</html>
+```
+
+^acc-end
+
+<br /><br />
+
+Of course, you can [see all the code at our *^icon b-github* GitHub](https://github.com/corydave/FLCC_CSC_164/blob/main/02%20-%20Conditionals/MultipleChoice/index.html)
+
+
+<br /><br />
