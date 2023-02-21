@@ -1,0 +1,72 @@
+^^ LAB - Decisions 1: Using `if`
+
+^= =
+
+Create **HTML files** that include **JavaScript** to provide solutions for the following:
+1. **Your Name is My Name** - Make a page that greets the visitor and prompts them to enter their name. Then:
+
+    * If the user enters **your** name, update the page to compliment them on being such a great JavaScript programmer.
+
+    * Be sure that the page only compliments them in that one situation!
+
+
+2. **Secret** - Create a page that lets the visitor enter a four digit number code. Then:
+
+    * If it matches a specific 4 digit code of your choice, reveal a secret message somewhere on the page. Use `document.querySelection().innerHTML`. 
+        
+    * The page should have a heading that says "This Page Has a Secret" and a paragraph that says, "Did you find it?" 
+
+    * Only when the code is entered correctly will the secret message appear. 
+
+    * *Note*: The 4-digit code number and secret message is up to you, *does it work with a 0 as the first of 4 digits, though?*.
+
+
+## When complete, **zip the html files together**, **attach** the .zip file here, and **[submit]** here.
+
+^===,,,
+
+# Reminders for using if
+
+Check agenda and class recordings for more.
+
+## Basic structure
+
+```javascript
+if ( condition ) {
+  //do stuff
+}
+else {
+  // do this other stuff
+}
+```
+
+## condition
+
+Some examples of boolean (*true* or *false*) math that could be used as a condition for the if:
+
+```javascript
+if (10 >= 12) {} // false
+
+if (myVariable < 2) {}
+//true for values less than 2
+
+let myVariable = 5;
+let otherVariable = "5";
+if (myVariable == otherVariable) {}
+//true because both have same value
+
+if (myVariable === otherVariable) {}
+//false: they are not strictly equal
+
+```
+^=
+
+<br />
+
+^callout external-link-alt
+
+<br >
+
+Click here to submit your work
+
+^callout-end
