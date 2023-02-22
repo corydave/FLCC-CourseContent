@@ -1,0 +1,286 @@
+^^ Random Math && Changing Variables && and Strings
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/vCYnTqJ8pXU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius:15px !important;"></iframe>
+
+<br />
+<center>
+
+*The following notes are what the class on Tuesday, 2/21, were based on. We covered all the content, but there are some minor differences. For instance, someone in the class cleverly used `ceil` instead of `floor` (awesome!).*
+
+*You can consult the code from class at the bottom of these notes.*
+
+</center>
+
+^= =
+
+### `Math.random()`
+Generating pseudorandom numbers (RNG!)
+
+Math.random(), multiply by number of outcomes desired, Math.floor() to remove after decimal point. Add to result to fix range. Example to get random number between 1 and 5 (including 1 and 5):
+
+```javascript
+let randomNumber = Math.floor(Math.random() * 5) + 1;
+```
+
+### Updating Variables
+
+```javascript
+let a = 5; //a is assigned 5
+a = a + 10; //a is now 15
+a = a + 2; //a is now 2
+a + 80; //a is still 2
+a += 1; //a is now 3 (same as a = a + 1)
+a = 5; //a is now 5 
+```
+
+### Building Strings (concatenate)
+
+`\n` in a string makes a new line!
+
+```javascript
+console.log("hi\nthere")
+```
+
+outputs:
+
+<div>
+hi
+
+there
+</div>
+
+Build using += (compound operator plus-equals)
+
+```javascript
+let myString = ""; 
+myString += "stuff";
+myString += " more stuff";
+console.log(myString); //stuff more stuff
+```
+
+Note that `myString += "stuff";` is a shortened version of `myString = myString + "stuff";`
+
+### Quotes - Differences between " ' and `
+double-quote, single-quote (apostrophe), and backtick (grave accent)
+
+Double-quote and single-quote are interchangeable and used when one is needed inside the other (also `\"`)
+
+Backtick has special rules! Recognizes new lines as code as places to start a new line in output and uses template literals `${}`
+
+### New Assignments
+Check Blackboard for new assignments using if with random numbers and maybe a little string building.
+
+### Lab Time
+
+^===
+
+### `random.html`
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random</title>
+</head>
+<body>
+    <h2>Random Stuff</h2>
+    <p id="output1"></p>
+    <p id="output2"></p>
+
+    <script>
+```
+```javascript
+//multi-step example of getting a
+//random whole number from 1 to 12 inclusive
+
+//get a random number between 0 and 1
+let number = Math.random();
+console.log(number); // could be 0.335 or 0.997
+
+//use that as a percentage of a range
+let range = number * 12 + 1; // 0..11 +1 = 1..12
+console.log(range); // could be 4.8123 or 12.551
+
+//make it a while number with Math.floor()
+let wholeRandomNumber = Math.floor(range);
+console.log(wholeRandomNumber); //could be 4 or 12
+
+// Do it all at once in one line:
+// random() * 12 means you want 
+// 12 different whole number possibilities
+// but it will be 0..11, so add what you want
+// your lowest number to be: 1. 
+// Now, it is 1..12
+let random12 = Math.floor( Math.random() * 12 + 1 );
+document.querySelector("#output1").innerHTML = 
+    "Random 1 to 12: " + random12;
+
+//Concatenating
+//Adding onto a string, piece by piece
+
+//start with an "empty" string value
+let myString = "";
+
+//add on a starting phrase
+myString += "This is ";
+
+// 50/50 chance that we will add the middle
+if (random12 >= 7) {
+    myString += "really, really ";
+}
+
+//add an ending
+myString += "great!";
+
+//compare this construction of a string (with html)
+document.querySelector("#output2").innerHTML = 
+    "<span style='color: green'>" 
+    + myString
+    + "</span>";
+
+//to using the template string with backticks
+//notice the ${} notation for inserting variables
+document.querySelector("#output2").innerHTML = 
+    `<span style="color: green">${myString}</span>`; 
+
+//you can even add blank lines inside backticks
+```
+```html
+    </script>
+</body>
+</html>
+```
+
+^=
+
+^acc
+
+^^^ `Variable.html`
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variable Fun</title>
+</head>
+<body>
+    <h1>Monopoly Dice</h1>
+
+
+Die 1 = <span id="output1"></span>
+<br />
+Die 2 = <span id="output2"></span>
+<br />
+<div id="doubles"></div>
+<button onclick="rollDice()">ROLL</button>
+
+  <script>
+```
+
+```javascript
+
+    "use strict"
+
+    let doublesCounter = 0;
+
+    function rollDice() {
+
+        let die1 = rollDie();
+        document.getElementById("output1").innerHTML = die1;
+        
+        let die2 = rollDie();
+        document.getElementById("output2").innerHTML = die2;
+    
+        let doubles = false;
+        
+
+        if (die1 == die2) {
+            doubles == true;
+            doublesCounter++;
+            document.getElementById("doubles").innerHTML = "You got doubles! [" + doublesCounter + "]";
+            
+        } else {
+            document.getElementById("doubles").innerHTML = "<br />";
+            doublesCounter = 0;
+        }
+    
+    }
+
+    function rollDie() {
+
+        let die = Math.random(); // [0, 1)
+        // Math.random is 0.00000000 to 0.99999999999
+
+        // die = die * 10; // [0.0000 to 9.999999]
+        // die = die * 6; // [0.000000 to 5.9999999]
+        die *= 6;
+
+        // die = Math.floor(die) + 1;
+
+        die = Math.ceil(die); // Math.ceil will ALWAYS round up
+        // that means 0.00000 will be 1 and 5.99999 will be 6
+
+        // document.getElementById("test").innerHTML = die;
+
+        return die;
+        
+    }
+```
+
+```html
+  </script>
+</body>
+</html>
+```
+^acc-end
+
+^acc
+
+^^^ `StringBuilder.html`
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Builder</title>
+</head>
+<body>
+
+    <h1>StringBuilder</h1>
+    <button onclick="passwordBuilder()">ADD TO PASSWORD</button>
+    <div id="stringBuilder"></div>
+
+
+    <script>
+```
+```javascript
+        "use strict"
+
+        let password = "";
+
+        function passwordBuilder() {
+
+            password += Math.floor(Math.random()*10);
+
+            document.getElementById("stringBuilder").innerHTML = password;
+        }
+```
+
+```html    
+    </script>
+
+</body>
+</html>
+```
+^acc-end
+
+Of course, you can [see all the code at our *^icon b-github* GitHub](https://github.com/corydave/FLCC_CSC_164/blob/main/02%20-%20Conditionals/MoreIf/StringBuilder.html)
