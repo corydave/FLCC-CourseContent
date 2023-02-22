@@ -55,6 +55,6 @@ Create **HTML files** that include **JavaScript** to provide solutions for the f
 
 <br >
 
-Click here to submit your work
+Click here to submit your work.
 
 ^callout-end
