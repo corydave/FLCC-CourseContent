@@ -1,4 +1,4 @@
-^^ ASSIGNMENT - Set up Parent Time Schedule
+^^ LAB - Set up Parent Time Schedule
 
 
 # Description
