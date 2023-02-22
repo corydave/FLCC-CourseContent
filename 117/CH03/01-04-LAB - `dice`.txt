@@ -26,7 +26,7 @@ Write a program that takes in a number from the user, seeds the `random` module 
 ```
 Enter a seed for the random number generation: 33
 Die roll one is 5
-Die roll two is 26
+Die roll two is 2
 ```
 
 ```
