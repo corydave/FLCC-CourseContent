@@ -57,6 +57,6 @@ if (score > 8) {
 
 <br >
 
-Click here to submit your work
+Click here to submit your work.
 
 ^callout-end
