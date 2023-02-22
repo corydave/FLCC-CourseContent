@@ -1,27 +1,14 @@
-^^ ASSIGNMENT - Set up an Interactive Rubric with Google Sheets
-
-^= =
+^^ LAB - Set up an Interactive Rubric with Google Sheets
 
 # Description
+
+<iframe  src="https://www.youtube.com/embed/yqOqp6dMV4w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:15px !important;float:right;margin-left:10px;height:315px;width:40%;min-width:200px;"></iframe>
+
 Rubrics are instruments that serve many purposes. Educators can use rubrics with assignments to manage expectations and provide a roadmap to their students. For a student, a rubric is a checklist of things that need to be included.
 
 Rubrics are also used as an evaluative tool. When it comes time to grade work, a rubric helps to equalize the grading process (every student is measured across the same dimensions). Rubrics also provide an efficiency to grading.
 
 In this experience, we'll be building an interactive rubric from scratch.
-
-^===
-
-<center>
-
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/yqOqp6dMV4w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-[Link to video](https://www.youtube.com/watch?v=yqOqp6dMV4w)
-
-</center>
-
-^=
-
-<br />
 
 If you have any questions, just ask!
 
@@ -33,8 +20,10 @@ If you have any questions, just ask!
 * Your Google Sheet must be shared such that [Anyone with the link can ***EDIT***](https://www.youtube.com/watch?v=jFGXfLDctcI)
 
 
-<center>
+^callout external-link-alt
 
-## Let's be careful out there!
+<br />
 
-</center>
+Click here to submit your work.
+
+^callout-end
