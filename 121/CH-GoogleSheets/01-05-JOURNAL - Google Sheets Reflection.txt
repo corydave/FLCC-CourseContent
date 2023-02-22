@@ -52,3 +52,11 @@ I will read every entry and respond - please make sure you read my comments. The
 * Your Google Doc must be shared such that [Anyone with the link can comment](https://www.youtube.com/watch?v=jFGXfLDctcI).
 
 <br /><br />
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
