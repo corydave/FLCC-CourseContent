@@ -35,6 +35,6 @@ For this assignment, **complete up to and including "Chaining If Else Statements
 
 <br >
 
-Click here to submit your work
+Click here to submit your work.
 
 ^callout-end
