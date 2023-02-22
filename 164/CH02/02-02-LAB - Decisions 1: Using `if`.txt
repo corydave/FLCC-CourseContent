@@ -67,6 +67,6 @@ if (myVariable === otherVariable) {}
 
 <br >
 
-Click here to submit your work
+Click here to submit your work.
 
 ^callout-end
