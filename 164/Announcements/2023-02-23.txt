@@ -1,0 +1,39 @@
+^^ Class on Thursday, 2/23
+
+Hey folks! As a reminder, class on 2/23 will be remote (for me). Professor McLaughlin will be hopping in to make sure everything runs smoothly, and Carter will be kickstarting everything.
+
+The class will be 99% lab time. I'll be introducing *one* quick topic (the `&&` and `||` operators for Boolean Logic).
+
+I'll be on hand to answer any questions you have! You might want to log on to the Webex from your device (be careful to mute your computers if they have mics) so you can share your screen.
+
+A few notes:
+
+* I may be a few minutes late.
+* The notes from Tuesday are in Brightspace.
+* The code from Tuesday is in GitHub (which is accessible from the main landing page in this course).
+*The meeting information for Tuesday's class is below:
+
+<br />
+
+
+**CSC-164**
+
+Hosted by Dave Ghidiu
+
+https://flcc.webex.com/flcc/j.php?MTID=mab380fe5315f4845bd8aafffccdb0c73
+
+Thursday, February 23, 2023 2:00 PM to 3:20 PM
+
+**Meeting number: 2302 950 8655**
+
+**Password: kXNEtpiX547**
+
+Join by video system: dial 23029508655@flcc.webex.com
+
+You can also dial 173.243.2.68 and enter your meeting number.
+
+Join by phone: +1-415-655-0001 US Toll
+
+Access code: 230 295 08655
+
+## Let's be careful out there!
