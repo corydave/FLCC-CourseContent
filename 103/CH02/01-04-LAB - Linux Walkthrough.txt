@@ -39,13 +39,13 @@ If you are interested in learning a bit more about Linux and file structures, ch
 
 ## Linux Directories Explained in 100 Seconds
 
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/42iQKuQodW4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/42iQKuQodW4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:15px !important;"></iframe>
 
 ^===
 
 ## Linux Directories Explained in 1233 Seconds
 
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/A3G-3hp88mo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/A3G-3hp88mo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:15px !important;"></iframe>
 
 ^=
 
