@@ -2,7 +2,7 @@
 
 # Description
 
-<div style="float:left;"><a href="https://docs.google.com/document/d/1lX28m3nYPF81xGuQMuG9_wnKGbk4KX09UBsTD6ESVcY/copy" target="_blank"><img src="https://docs.google.com/drawings/d/e/2PACX-1vSRHJAReEu56yKpNXB0-NjvhNXdDPvACzpf7xfmZ4LLbga4CS71AesCkRSZXrrwLGsSKQPq393ttcdH/pub?w=200&h=280" alt="A thumbnail of the Windows Walkthrough assignment." style="margin: 0pt 10pt 10pt 0pt;float:left;"  /></a></div>
+<div style="float:right;"><a href="https://docs.google.com/document/d/1lX28m3nYPF81xGuQMuG9_wnKGbk4KX09UBsTD6ESVcY/copy" target="_blank"><img src="https://lh3.googleusercontent.com/d/1lX28m3nYPF81xGuQMuG9_wnKGbk4KX09UBsTD6ESVcY=w320" alt="Thumbnail of a Google Doc." title="Thumbnail of a Google Doc." style="border:2px solid #434343;margin:5px; width:200px;margin-left:10px;" alt="A thumbnail of the Windows Walkthrough assignment." title="A thumbnail of the Windows Walkthrough assignment."/><br /></a></div>
 
 This experience will guide you through some basics of using Windows (you can use Windows 7, 8, 10, and 11 for this). You'll need to [click here to get a copy of the Google Doc](https://docs.google.com/document/d/1lX28m3nYPF81xGuQMuG9_wnKGbk4KX09UBsTD6ESVcY/copy). 
 
@@ -11,7 +11,7 @@ As you read through the document, you will be prompted to take screenshots and p
 When you are done, you should submit a link to a cloud-based document (such as Google Docs) such that ["Anyone with the link can COMMENT"](https://www.youtube.com/watch?v=jFGXfLDctcI).
 
 
-<div style="display:block;width:100%;clear:left;">
+<div style="display:block;width:100%;clear:both;">
 
 # Specifications
 
@@ -20,3 +20,11 @@ When you are done, you should submit a link to a cloud-based document (such as G
 * Verify that the document is shared such that ["Anyone with the link can COMMENT"](https://www.youtube.com/watch?v=jFGXfLDctcI).
 
 </div>
+
+^callout external-link-alt
+
+<br />
+
+Submit your work here.
+
+^callout-end
