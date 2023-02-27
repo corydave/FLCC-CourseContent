@@ -8,7 +8,14 @@ You may take this quiz as many times as you'd like.
 
 <center>
 
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/ddSBflmFZq4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/ddSBflmFZq4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:15px !important;"></iframe>
 
 <span style="font-size: 10pt;"><i>To access the version with timestamps, <a href="https://www.youtube.com/watch?v=ddSBflmFZq4" target="_blank">click here.</a></i></span></center>
 
+^callout external-link-alt
+
+<br />
+
+Take the quiz here.
+
+^callout-end
