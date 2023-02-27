@@ -1,6 +1,6 @@
 ^^ VIDEOS - More on Bases
 
-# Hexidecimal in Hollywood
+# Hexadecimal in Hollywood
 
 ## The Martian Hexadecimal Scene
 
