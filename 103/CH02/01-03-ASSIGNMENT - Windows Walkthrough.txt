@@ -1,4 +1,4 @@
-^^ ASSIGNMENT - Windows Walkthrough
+^^ LAB - Windows Walkthrough
 
 # Description
 
