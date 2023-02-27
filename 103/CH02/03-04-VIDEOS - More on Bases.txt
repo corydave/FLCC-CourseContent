@@ -1,0 +1,51 @@
+^^ VIDEOS - More on Bases
+
+# Hexidecimal in Hollywood
+
+## The Martian Hexadecimal Scene
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/k-GH3mbvUro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:15px !important;"></iframe>
+
+<br />
+
+# Binary in Hollywood
+
+## The Loom of Fate (from Wanted)
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/zRAGv61QkHc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:15px !important;"></iframe>
+
+<br /><br />
+
+# Quick instructional videos
+
+^= =
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/TDK-9y7luWM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:15px !important;"></iframe>
+
+## Base Conversion
+
+^===
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/Ksn0-r1g1YQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:15px !important;"></iframe>
+
+## Error Correction
+
+^=
+
+<br /><br />
+
+# Practical Uses
+
+^= =
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/X8jsijhllIA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:15px !important;"></iframe>
+
+## How to send a self-correcting message
+
+^===
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/ZtfhkH9H0V8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:15px !important;"></iframe>
+
+## SOLUTION to the Impossible Chessboard Puzzle
+
+^=
