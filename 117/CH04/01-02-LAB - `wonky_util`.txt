@@ -173,9 +173,8 @@ def wonky_program():
     # pass `str` to the function `capitalize_string()` and let
     # that function do the dirty work. Since that function RETURNS
     # a value we need to put it in a `print()` statement.
-    # print(wonky_util.upper_string(str))
     print()
-    print(str.upper())
+print(wonky_util.upper_string(str))
 
     print()
     print()
