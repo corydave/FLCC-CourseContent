@@ -2,7 +2,7 @@
 
 # Description
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WNXCz6fScO4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="float:right;margin-left:10px;margin-bottom:10px;border-radius:15px !important;"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WNXCz6fScO4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="float:right;margin-left:10px;margin-bottom:10px;border-radius:15px !important;max-width:420px;height:400px;width:40%;"></iframe>
 
 There are a number of reasons to brand your classroom work. Perhaps you'd like to make it available on [TeachersPayTeachers](https://www.teacherspayteachers.com/) (for free or for profit). Maybe you're obsessive about your work and you want it to look super sharp. Maybe you are interested in building a brand so you can be an influencer in the education space (like [Pocketful of Primary](https://www.pocketfulofprimary.com/)). 
 
