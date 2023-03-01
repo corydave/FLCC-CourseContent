@@ -1,8 +1,8 @@
-^^ ASSIGNMENT - Create a Personalized Header
-
-^= =
+^^ LAB - Create a Personalized Header
 
 # Description
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WNXCz6fScO4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="float:right;margin-left:10px;margin-bottom:10px;border-radius:15px !important;"></iframe>
 
 There are a number of reasons to brand your classroom work. Perhaps you'd like to make it available on [TeachersPayTeachers](https://www.teacherspayteachers.com/) (for free or for profit). Maybe you're obsessive about your work and you want it to look super sharp. Maybe you are interested in building a brand so you can be an influencer in the education space (like [Pocketful of Primary](https://www.pocketfulofprimary.com/)). 
 
@@ -10,23 +10,9 @@ But one really good reason is for your students. If you teach one subject (middl
 
 In this experience we'll be creating a header for our documents.
 
-^===
-
-<center>
-
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/WNXCz6fScO4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<br />
-
-[Link to video](https://www.youtube.com/watch?v=WNXCz6fScO4)
-
-</center>
-
-^=
-
-<br />
-
 If you have any questions, just ask!
+
+<div style="clear:both;"></div>
 
 # Specifications
 * Please make sure you check the rubric to see what is expected.
@@ -46,3 +32,11 @@ If you have any questions, just ask!
 ## Let's be careful out there!
 
 </center>
+
+^callout external-link-alt
+
+<br />
+
+Submit your work here.
+
+^callout-end
