@@ -1,0 +1,186 @@
+^^ Multiple Choice Questions - Quizzer Walkthrough
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/Yk8_xqGt1AA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius:15px !important;"></iframe>
+
+<br />
+
+^acc
+
+^^^ `quizzer.html`
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .answers {
+            margin-left: 20px;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <!--
+
+        write a question
+        show all choices (letters)
+        TRACK number of right answers
+        Display a grade
+    -->
+    <div class="question-container" id="question01">
+        <div class="question">
+            What is the dessert menu item that tragically left Taco Bell's menu?
+        </div>
+
+        <div class="answers">
+            <div class="answer">
+                A.) Choco Taco
+            </div>
+            <div class="answer">
+                B.) Apples
+            </div>
+            <div class="answer">
+                C.) Cinnabon
+            </div>                
+            <div class="answer">
+                D.) Cinnamon Twists
+            </div>        
+        </div>
+
+        <div class="user-answer">
+            <input id="question-one-input" size="2" maxlength="1">
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+    <div class="question-container" id="question02">
+        <div class="question">
+            What is the dessert menu item that tragically left Taco Bell's menu?
+        </div>
+
+        <div class="answers">
+            <div class="answer">
+                A.) Choco Taco
+            </div>
+            <div class="answer">
+                B.) Apples
+            </div>
+            <div class="answer">
+                C.) Cinnabon
+            </div>                
+            <div class="answer">
+                D.) Cinnamon Twists
+            </div>        
+        </div>
+
+        <div class="user-answer">
+            <input id="question-two-input" size="2" maxlength="1">
+        </div>
+
+    </div>
+    
+    
+
+
+
+
+
+
+
+    <div class="question-container" id="question03">
+        <div class="question">
+            What is the dessert menu item that tragically left Taco Bell's menu?
+        </div>
+
+        <div class="answers">
+            <div class="answer">
+                A.) Choco Taco
+            </div>
+            <div class="answer">
+                B.) Apples
+            </div>
+            <div class="answer">
+                C.) Cinnabon
+            </div>                
+            <div class="answer">
+                D.) Cinnamon Twists
+            </div>        
+        </div>
+
+        <div class="user-answer">
+            <input id="question-three-input" size="2" maxlength="1">
+        </div>
+
+    </div>
+
+
+
+
+    <button onclick="checkAnswers()">SUBMIT</button>
+    <div id="results"></div>
+
+
+    <script>
+```
+```javascript
+        "use strict"
+
+        let correctAnswers = 0;
+        let feedback = "";
+
+        function checkAnswers() {
+            let one = document.getElementById("question-one-input").value;
+            let two = document.getElementById("question-two-input").value;
+            let three = document.getElementById("question-three-input").value;
+
+            // window.alert(one);
+            // if ("A" == one.toUpperCase())
+            if ("A" == one || "a" == one) {
+                correctAnswers += 1;
+            } else {
+                feedback += "Look at question 1 again.<br />"
+            }
+
+
+            if ("C" == two || "c" == two) {
+                correctAnswers += 1;
+            } else {
+                feedback += "Look at question 2 again.<br />"
+            }
+
+
+            if ("D" == three || "d" == three) {
+                correctAnswers += 1;
+            } else {
+                feedback += "Look at question 3 again.<br />"
+            }
+            
+            
+            // window.alert(correctAnswers);
+            document.getElementById("results").innerHTML = "You got " + correctAnswers + " out of 3 right.<br>" + feedback;
+            correctAnswers = 0;
+
+        }
+```
+```html
+    </script>
+
+</body>
+</html>
+```
+
+
+Of course, you can [see all the code at our *^icon b-github* GitHub](https://github.com/corydave/FLCC_CSC_164/blob/main/02%20-%20Conditionals/quizzer.html)
