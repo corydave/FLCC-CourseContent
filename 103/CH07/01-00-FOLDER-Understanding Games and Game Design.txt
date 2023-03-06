@@ -1,17 +1,1 @@
 ^^ Understanding Games and Game Design
-
-# Experiences
-
-* ACTIVITY - Play Zork && Oregon Trail
-
-* ACTIVITY - Play a game made with Twine
-
-* READING - A Writer's Guide to Interactive Fiction
-
-* READING - Where do I Start [reddit thread]
-
-* ACTIVITY - Play Spent
-
-* **ASSIGNMENT - Reflect on Spent**
-
-* **ASSIGNMENT - Game Concept Document**
