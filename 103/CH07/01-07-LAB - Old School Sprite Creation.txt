@@ -1,8 +1,13 @@
-^^ ASSIGNMENT - Old School Sprite Creation
-
-^= =
+^^ LAB - Old School Sprite Creation
 
 # Description
+
+<div style="float:right;margin-left:12px;margin-bottom:12px;width:50%;max-width:400px;">
+
+![8 by 10 grid showing a ghost sprite plotted out as pixel art](https://docs.google.com/drawings/d/e/2PACX-1vRyCZwBdHVW2TLn_J-PJ3GurHNsb-t1YSy0421tHMu8eI94vCmRQ1jwdINw8DBCC677Ks_zOvSwDbBk/pub?w=613&h=524)
+
+
+</div>
 
 Time to make an old school graphic! In the example here, you can see a ghost that looks a bit like the ghosts from Pac Man. You will [make a copy of this Google Sheet](https://docs.google.com/spreadsheets/d/1LBScLzdzUcoe-2ts7wfROXlAbjjOdOxsE7h7RX7A5VA/copy), design a sprite, and then add the numbers on the blank lines to the left of the image.
 
@@ -12,6 +17,7 @@ Note that in the video, the image had 3 bytes of data per line; we'll only be us
 
 To make your own sprite in the Google Sheet, simply put an "X" in a cell. That cell will turn gray. To revert the cell back to white, click into the cell and hit delete or backspace.
 
+<div style="clear:both;"></div>
 
 # Specifications
 
@@ -21,8 +27,11 @@ To make your own sprite in the Google Sheet, simply put an "X" in a cell. That c
 
 * This must be submitted as a cloud-based document and be shared such that ["Anyone with the link can COMMENT"](https://www.youtube.com/watch?v=jFGXfLDctcI).
 
-^===
 
-![8 by 10 grid showing a ghost sprite plotted out as pixel art](https://docs.google.com/drawings/d/e/2PACX-1vRyCZwBdHVW2TLn_J-PJ3GurHNsb-t1YSy0421tHMu8eI94vCmRQ1jwdINw8DBCC677Ks_zOvSwDbBk/pub?w=613&h=524)
+^callout external-link-alt
 
-^=
+<br />
+
+Click here to submit your work.
+
+^callout-end
