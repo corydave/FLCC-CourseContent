@@ -4,7 +4,7 @@
 
 # Description
 
-<img src="https://docs.google.com/drawings/d/e/2PACX-1vRy4g1VpnUMI2s3AMomSYJG_VsMzz61_JuNuT0UMantBg8lKNV1Aj20e-5UzhlJZJaCqcYxhtClNi8F/pub?w=240&amp;h=180" alt="A logo that looks kinda-sorta like Windows. The number 2 is prominently displayed." title="A logo that looks kinda-sorta like Windows. The number 2 is prominently displayed." style="float:right;border-radius:25px;margin-right:20px;margin-left:20px;margin-top:0px;margin-bottom:20px;">
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vRy4g1VpnUMI2s3AMomSYJG_VsMzz61_JuNuT0UMantBg8lKNV1Aj20e-5UzhlJZJaCqcYxhtClNi8F/pub?w=240&amp;h=180" alt="A logo that looks kinda-sorta like Windows. The number 1 is prominently displayed." title="A logo that looks kinda-sorta like Windows. The number 1 is prominently displayed." style="float:right;border-radius:25px;margin-right:20px;margin-left:20px;margin-top:0px;margin-bottom:20px;">
 
 
 This part of the course has two chapters because the content is quite extensive. We will spend this chapter and the next chapter talking about *System Management*. If you haven't taken **CSC-231: Systems Administration** yet, this will be a good primer. I love this kind of stuff - being a SysAdmin is a bit stressful at times, but it really is interesting.
