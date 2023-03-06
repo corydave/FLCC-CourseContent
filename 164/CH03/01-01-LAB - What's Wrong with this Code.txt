@@ -1,0 +1,17 @@
+^^ LAB - What's Wrong with this Code?
+
+In class we worked through some code. The intent was to have a `for` loop count down from 10 to 0. As it turned out, the counting was entirely too fast. So we introduced some way to slow the time. But after we did that, we observed that the code wasn't working as we had thought; the numbers in the `<div class="countdown" id="app"></div>` element was not showing.
+
+Your job is to speculate out why. You should approach this as if you are at a job (or an internship) and you inherited someone else's code. If you don't know why this isn't working, you'll need to figure it out. Use whatever resources you need (but you can't get the answer from someone else in the class). After a journey you may not have arrived at a solution. In that case, you may provide five guesses as to the issue.
+
+Write your answer up in a coherent way. Describe what caused the problem and how to fix it. Submit your work as text directly in the assignment submission.
+
+This work cannot be submitted late.
+
+^callout external-link-alt
+
+<br />
+
+Submit your work here.
+
+^callout-end
