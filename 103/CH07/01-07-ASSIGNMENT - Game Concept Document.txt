@@ -1,4 +1,4 @@
-^^ ASSIGNMENT - Game Concept Document
+^^ LAB - Game Concept Document
 
 # Description
 
@@ -20,3 +20,11 @@ This means that your game will most likely be text based and have decisions that
 * Verify that the document is shared such that anyone with the link can comment.
 
 * Please put the link in the "Write Submission" portion of the assignment, not the "Comments" section.
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
