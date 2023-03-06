@@ -1,48 +1,28 @@
-<div id="ch08Button" onclick="ch08ContentsToggle()">
+^^ Chapter 8 - System Management II<br />[9-11 hours]
 
-<CENTER>
-
-^^ Chapter 8 - Printing [4-5 hours]<br />&#9660;
-
-</CENTER>
-
-
-</div>
-
-<div id="ch08Contents" style="display:none;">
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vSDrtPcBNjAyULiHhdxXnNm0ykVlP4V6SWof-6Qga8qpST5Y9Crr92vbP98TWENgaIxF1F69t6spX2I/pub?w=907&amp;h=385" alt="A logo that looks kinda-sorta like Windows with text that says P.2. The number 8 is displayed prominently." title="A logo that looks kinda-sorta like Windows with text that says P.2. The number 8 is displayed prominently." width="0" height="0" style="display:none;" />
 
 # Description
 
-<img src="https://docs.google.com/drawings/d/e/2PACX-1vRE2Zh3LqHqiLY1t95--A2RWaarKmjq_Omf4dlCLH9qKD7K6ZWtEnSIgZok9gaTXl396VIhixg5OfFg/pub?w=240&h=180" alt="A photo of a small office printer." title="A photo of a small office printer." style="float:right;border-radius:25px;margin-right:20px;margin-left:20px;margin-top:0px;margin-bottom:20px;">
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vRE2Zh3LqHqiLY1t95--A2RWaarKmjq_Omf4dlCLH9qKD7K6ZWtEnSIgZok9gaTXl396VIhixg5OfFg/pub?w=240&amp;h=180" alt="A logo that looks kinda-sorta like Windows. The number 2 is prominently displayed." title="A logo that looks kinda-sorta like Windows. The number 2 is prominently displayed." style="float:right;border-radius:25px;margin-right:20px;margin-left:20px;margin-top:0px;margin-bottom:20px;">
 
-Printers. You know them. You love them. You hate them. You don't see a need for them.
+This is part two of System Management (aka SysAdmin cool stuff). Plan on another 10ish hours to work through the content here. We'll be looking at Active Directory (which is a *huge* part of being a SysAdmin) as well as preventative maintenance and some common problems.
 
-Even as the world moves past hardcopies, almost every business has printers to maintain. You need printers for receipts. Some people prefer to print out email and other documents. Offices need to send snail mail. Flyers need to be made. Brochures.
+* 8.01: Active Directory
+* 8.02: Users and Groups
+* 8.03: Remote Services
+* 8.04: VPN
+* 8.05: Updates
+* 8.06: System Backup
+* 8.07: System Recovery
+* 8.08: Windows Boot Errors
 
-If you haven't wrestled with a printer, you haven't been initiated into the office world yet!
-
-* 8.1 Printers
-* 8.2 Printer Configuration
-* 8.3 Network Printing
-* 8.4 Printing Management
-* 8.5 Printer Maintenance
-* 8.6 Printer Troubleshooting
+<div style="clear:both;">&nbsp;</div>
 
 # Specifications
 
 * Complete all content in Chapter 8 in [TestOut](https://w3.testout.com/).
-* Optionally, feel free to add to the [Wakelet board](https://wakelet.com/i/invite?code=33rnp89a) in this chapter
 
+<br /><br />
 
-</div>
-
-<script>
-function ch08ContentsToggle() {
-  var content = document.getElementById("ch08Contents");
-  if (content.style.display === "none") {
-    content.style.display = "inline-block";
-  } else {
-    content.style.display = "none";
-  }
-}
-</script>
+## Let's be careful out there!
