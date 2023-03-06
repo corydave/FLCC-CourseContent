@@ -1,4 +1,4 @@
-^^ Chapter 7 - System Management<br />[7-9 hours]
+^^ Chapter 7 - System Management I<br />[7-9 hours]
 
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vThLWXGRiH5ybJ5GwnXvt2va1GPt92cx8VoJDmA2DWHhjgL6y6SS2gR9OrSJa-AmD-Q37riyDq2irH7/pub?w=907&amp;h=385" alt="A logo that looks kinda-sorta like Windows with text that says P.1. The number 7 is displayed prominently." title="A logo that looks kinda-sorta like Windows with text that says P.1. The number 7 is displayed prominently." width="0" height="0" style="display:none;" />
 
