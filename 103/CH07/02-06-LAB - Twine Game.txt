@@ -37,8 +37,6 @@ Submit `.zip` file here in Blackboard
 
 ^tabs Tutorial, Images & Video, Variables, Prompts, Navigation
 
-^tab
-
 * [Twinery Wiki](https://twinery.org/wiki/)
 * [Harlowe Manual](https://twine2.neocities.org/)
 * [Writing Interactive Fiction in Six Steps](https://www.dashjump.com/blog/writing-interactive-fiction-six-steps/)
