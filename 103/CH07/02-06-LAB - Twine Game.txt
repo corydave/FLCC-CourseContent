@@ -6,12 +6,14 @@ It's time to take all the experiences you've garnered and make a Twine game!
 
 <br />
 
-## STEP #1
+^acc
+
+^^^ STEP #1 - Go to Twinery
+
 Go to https://twinery.org/
 
-<br />
+^^^ STEP #2 - Make a sick game
 
-## STEP #2
 Make a sweet game. Make sure it has:
 * A cool story
 * At least eight passages
@@ -19,38 +21,39 @@ Make a sweet game. Make sure it has:
 * A non-linear path
 * An input box
 
-<br />
+^^^ STEP #3 - Export the game
 
-## STEP #3
- Export as an HTML file by going to "Publish to File", then convert to a `.zip` file (see instructions below)
+Export as an HTML file by going to "Publish to File", then convert to a `.zip` file (see instructions below)
 
-<br />
+^^^ STEP #4 - Submit the game
 
-## STEP #4
 Submit `.zip` file here in Blackboard
 
-<br /><hr /><br /><br />
+^acc-end
+
+<br />
 
 # RESOURCES
 
-## TUTORIAL
+^tabs Tutorial, Images & Video, Variables, Prompts, Navigation
+
+^tab
+
 * [Twinery Wiki](https://twinery.org/wiki/)
 * [Harlowe Manual](https://twine2.neocities.org/)
 * [Writing Interactive Fiction in Six Steps](https://www.dashjump.com/blog/writing-interactive-fiction-six-steps/)
 * [YouTube video tutorials](https://www.youtube.com/playlist?list=PLlXuD3kyVEr5tlic4SRe6ZG-R9OyS1T4d)
 
-<br />
+^tab
 
-## IMAGES AND VIDEOS
 * You can include images using the HTML `<img>` tag:
 ```html
 <img src="http://walkerbay.com/wp-content/gallery/8-performance-sail-kit/wb_2466_sail.jpg">
 ```
 * You can include videos by putting in their embed code.
 
-<br />
+^tab
 
-## VARIABLES
 * To create a variable, use the "set" command to give the variable a value, and prepend the name of the variable with a "$":
     * `(set: $pancakes to 0)`
 *To display a variable, use the “print” command
@@ -58,23 +61,23 @@ Submit `.zip` file here in Blackboard
 * You can update a variable based on its current value:
     * `(set: $pancakes to $pancakes + 1)`
 
-<br />
+^tab
 
-## PROMPTS
 * If you want to ask the user for a piece of information (and then use it later on), the easiest way to do that is using the “prompt” command.
 * In the following example, this line of code will both prompt a user for their name and then also set the value to `$name`:
     * `(set: $name to (prompt: "Your name, please:", ""))`
 
-<br />
+^tab
 
-## NAVIGATION
 * To go from one passage to another, use:
     * `[[Go East -> Room4]]`
         * This will display the text "Go East" and will take the user to the passage "Room4" if it is clicked.
 
+^tabs-end
+
 <br />
 
-## REFERENCES
+# REFERENCES
 * The default theme is Harlowe, and that has a reference at
 https://twine2.neocities.org/
 * You can also use the online help references
@@ -82,7 +85,7 @@ https://twinery.org/wiki/
 
 <br />
 
-## EXAMPLES
+# EXAMPLES
 * Lastly, you should check out some of the most popular games:
     * https://ztul.itch.io/the-uncle-who-works-for-nintendo
     * http://slimedaughter.com/games/twine/wtwla/
