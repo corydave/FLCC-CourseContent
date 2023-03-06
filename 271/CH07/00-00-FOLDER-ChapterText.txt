@@ -1,5 +1,8 @@
 ^^ Chapter 7 - System Management<br />[3-5 hours]
 
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vThLWXGRiH5ybJ5GwnXvt2va1GPt92cx8VoJDmA2DWHhjgL6y6SS2gR9OrSJa-AmD-Q37riyDq2irH7/pub?w=907&amp;h=385" alt="A logo that looks kinda-sorta like Windows with text that says P.1. The number 7 is displayed prominently." title="A logo that looks kinda-sorta like Windows with text that says P.1. The number 7 is displayed prominently." width="0" height="0" style="display:none;" />
+
+
 # Description
 
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vRaFIxh7toolUqfClOGScjon6V412wZJx55YXhzGs1hYhtVyshRsBV58hkM7LgAWzsRbfZHsQdL1xba/pub?w=240&amp;h=180" alt="A Windows laptop with a nice, modern pot with a plant in it." title="A Windows laptop with a nice, modern pot with a plant in it." style="float:right;border-radius:25px;margin-right:20px;margin-left:20px;margin-top:0px;margin-bottom:20px;">
