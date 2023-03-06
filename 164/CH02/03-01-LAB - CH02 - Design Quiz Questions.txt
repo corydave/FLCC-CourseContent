@@ -1,0 +1,72 @@
+^^ LAB - CH01 - Design Quiz Questions
+
+Your job is to write two quiz questions that can be administered to students in a JavaScript class. Actually, your question might be featured in a quiz in *this* class!
+
+# Specifications
+
+* This is not an exercise in coding; you are not to use HTML or JavaScript to write interactive questions. This is simply an exercise in you designing questions that will appear on a quiz.
+
+* Your questions should reflect content from the current chapter.
+
+* You should include four (4) choices. None of the choices can be "None of the above" or "All of the above". 
+
+* You should indicate the correct answer. And provide justification for *why* it is the right answer.
+
+* Your question should not be designed to trick students. That's mean! Frame your question as an authentic assessment of one thing we've learned so far.
+
+* If your question contains code snippets for the quiz taker to consider, don't worry about formatting the code. I'll format it real good like.
+
+# Inspiration
+
+* Your question might provide code and ask the quiz taker to identify an error in the code.
+
+* Perhaps you'd like to provide code and ask the student to predict what will happen.
+
+* Maybe you'd like to provide the code and leave a line blank - ask the student to fill in the missing line of code.
+
+* Pretty much any question is appropriate *as long as it queries students' knowledge*.
+
+# Example
+
+The following is a good example of what you should submit:
+
+^=^ ,,,, 10
+
+Consider the following code segment:
+
+```javascript
+
+let age = 44;
+
+if (age > 44) {
+  console.log("moldy oldy");
+} else {
+  console.log("youngin'!");
+}
+```
+
+What will be output in the console?
+
+<div style="margin-left:30px;">
+
+A) 44
+
+B) moldy oldy
+
+C) youngin
+
+D) nothing - this code will not compile
+
+</div>
+
+^=
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
+
+<br />
