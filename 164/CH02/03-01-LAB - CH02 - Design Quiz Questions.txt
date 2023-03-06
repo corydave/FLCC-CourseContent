@@ -1,4 +1,4 @@
-^^ LAB - CH01 - Design Quiz Questions
+^^ LAB - CH02 - Design Quiz Questions
 
 Your job is to write two quiz questions that can be administered to students in a JavaScript class. Actually, your question might be featured in a quiz in *this* class!
 
