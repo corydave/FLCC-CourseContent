@@ -1,49 +1,28 @@
-<div id="ch07Button" onclick="ch07ContentsToggle()">
-
-<CENTER>
-
-^^ Chapter 7 - Wireless Networking [4-5 hours]<br />&#9660;
-
-</CENTER>
-
-
-</div>
-
-<div id="ch07Contents" style="display:none;">
+^^ Chapter 7 - System Management<br />[3-5 hours]
 
 # Description
 
-<img src="https://docs.google.com/drawings/d/e/2PACX-1vRy4g1VpnUMI2s3AMomSYJG_VsMzz61_JuNuT0UMantBg8lKNV1Aj20e-5UzhlJZJaCqcYxhtClNi8F/pub?w=240&amp;h=180" alt="AAn illustration of a city skyline with the ‘WiFi’ logo. Across the sky of the city are different devices that rely on wireless communication." title="An illustration of a city skyline with the ‘WiFi’ logo. Across the sky of the city are different devices that rely on wireless communication." style="float:right;border-radius:25px;margin-right:20px;margin-left:20px;margin-top:0px;margin-bottom:20px;">
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vRaFIxh7toolUqfClOGScjon6V412wZJx55YXhzGs1hYhtVyshRsBV58hkM7LgAWzsRbfZHsQdL1xba/pub?w=240&amp;h=180" alt="A Windows laptop with a nice, modern pot with a plant in it." title="A Windows laptop with a nice, modern pot with a plant in it." style="float:right;border-radius:25px;margin-right:20px;margin-left:20px;margin-top:0px;margin-bottom:20px;">
 
-Do you know the difference between 802.11 a/b/g/n/ac/ax? Do you know what WiFi 6 is? Have you ever poked around your router's web interface and checked out the settings? There is *a lot* to know about how to troubleshoot WiFi networks, configure the networks, and protect the networks.
 
-It's also likely that your mobile device and your computer have multiple radios in them (cellular, WiFi, Bluetooth). And many phones have near field communication (NFC) as well (that's how Apple Pay and Google Pay work). 
+This part of the course has two chapters because the content is quite extensive. We will spend this chapter and the next chapter talking about *System Management*. If you haven't taken **CSC-231: Systems Administration** yet, this will be a good primer. I love this kind of stuff - being a SysAdmin is a bit stressful at times, but it really is interesting.
 
-Do you know what SOHO means (not the neighborhood in Manhattan)? or IoT?
+* 7.01: Windows System Tools
+* 7.02: Windows Settings
+* 7.03: Performance Monitoring
+* 7.04: Windows Application Management
+* 7.05: Linux Application Management
+* 7.06: Digital Content Management
+* 7.07: Virtual Memory
+* 7.08: Windows and Application Troubleshooting
+* 7.09: Scripting Basics
 
-We'll explore all this (and more!) in this chapter!
-
-* 7.1 802.11 Wireless
-* 7.2 Infrared, Bluetooth, and NFC
-* 7.3 SOHO Configuration
-* 7.4 Internet of Things
-* 7.5 Wireless Network Troubleshooting
+<div style="clear:both;">&nbsp;</div>
 
 # Specifications
 
 * Complete all content in Chapter 7 in [TestOut](https://w3.testout.com/).
-* Optionally, feel free to add to the [Wakelet board](https://wakelet.com/i/invite?code=flur6kuc) in this chapter
 
+<br /><br />
 
-</div>
-
-<script>
-function ch07ContentsToggle() {
-  var content = document.getElementById("ch07Contents");
-  if (content.style.display === "none") {
-    content.style.display = "inline-block";
-  } else {
-    content.style.display = "none";
-  }
-}
-</script>
+## Let's be careful out there!
