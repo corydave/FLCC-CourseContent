@@ -1,4 +1,4 @@
-^^ ASSIGNMENT - Reflect on SPENT
+^^ LAB - Reflect on SPENT
 
 # Description
 
@@ -21,3 +21,11 @@ After going through the SPENT simulation ([access it here](http://playspent.org/
 * Verify that the document is shared such that anyone with the link can comment.
 
 * Please put the link in the "Write Submission" portion of the assignment, not the "Comments" section.
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
