@@ -20,27 +20,27 @@ Either way, the user is thanked for participating.
 ```
 Would you like a compliment? yes
 You have wonderful eyes.
-Thank you for playing
+Thank you for playing.
 ```
 <br />
 
 ```
 Would you like a compliment? y
-Thank you for playing
+Thank you for playing.
 ```
 
 <br />
 
 ```
 Would you like a compliment? Yes
-Thank you for playing
+Thank you for playing.
 ```
 
 <br />
 
 ```
 Would you like a compliment? no
-Thank you for playing
+Thank you for playing.
 ```
 
 ## STARTER CODE
