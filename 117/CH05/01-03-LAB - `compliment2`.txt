@@ -61,7 +61,7 @@ Download these files and load them into your IDE.
 
 ^acc
 
-^^^ `coin_toss.py`
+^^^ `compliment2.py`
 
 ```python ^copy
 
