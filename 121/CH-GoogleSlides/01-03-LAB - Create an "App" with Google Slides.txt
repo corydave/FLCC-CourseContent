@@ -1,4 +1,4 @@
-^^ ASSIGNMENT - Create an "App" with Google Slides
+^^ LAB - Create an "App" with Google Slides
 
 # Description
 
