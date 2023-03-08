@@ -1,25 +1,14 @@
-^^ ASSIGNMENT - Create an infographic with Google Slides
-
-^= =
+^^ LAB - Create an Infographic with Google Slides
 
 # Description
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UALzWY8S4RQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="float:right;margin-left:10px;margin-bottom:10px;border-radius:15px !important;max-width:420px;height:400px;width:40%;"></iframe>
+
 Infographics are a wonderful way to display information in a way that is easy to understand. Although they sometimes get a reputation for being too flashy and trite, when done properly an infographic is really effective at conveying complex ideas such as processes and numerical relationships.
 
 There are some sites like [Canva](https://www.canva.com/), [Piktochart](https://piktochart.com/), [Vennage](https://venngage.com/), [LucidChart](https://www.lucidchart.com/pages/), and [Adobe Creative Cloud Express](https://www.adobe.com/express/create/infographic) that help you make infographics. The benefits of these sites are that they have templates you can use and tools specifically tailored for making infographics.
 
 But there's a down side - you don't necessarily have the ability to edit (or share) a document if it lives in another platform. Or there might a cost associated with it. Or the freemium model doesn't have great features.
-
-^===
-
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/UALzWY8S4RQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<center>
-
-[Link to video](https://www.youtube.com/watch?v=UALzWY8S4RQ)
-
-</center>
-
-^=
 
 Because of this, I think it's a smarter move to learn how to use Google Slides as an infographic design platform. You can always come back and edit it. You can always make a copy of it. You can always share it.
 
@@ -27,9 +16,9 @@ In this video, I'll create an infographic from scratch using Google Slides. Be s
 
 Make sure you check out the rubric for this assignment - there is a lot going on behind the scenes here! If you haven't done the Google Slides experience where we look at desktop publishing concepts, you should probably do that first. 
 
-<br />
-
 If you have any questions, just ask!
+
+<div style="clear:both;"></div>
 
 # Examples
 Click on the thumbnails below to see sample infographics.
@@ -49,11 +38,12 @@ Click on the thumbnails below to see sample infographics.
 
 * One site you can use to generate QR codes is [qr-code-generator](https://www.qr-code-generator.com/)
 
-
-<center>
-
 ## Let's be careful out there!
 
-</center>
+^callout external-link-alt
 
-^= =
+<br />
+
+Click here to submit your work.
+
+^callout-end
