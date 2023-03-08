@@ -1,8 +1,9 @@
 ^^ ASSIGNMENT - Create an "App" with Google Slides
 
-^= =
-
 # Description
+
+
+
 One interesting (and easy!) way for kiddos to make actual apps is to use Google Slides. Alice Keeler (over at [Shake Up Learning](https://shakeuplearning.com/blog/how-to-create-your-own-apps-with-google-slides-free-template/)) has proposed using Google Slides as a convenient, easy way to make an app. Even the kiddos can do it!
 
 Instead of a video tutorial for this experience we're going to use her blog as a guide to try and make an app. 
@@ -16,19 +17,15 @@ You can [find instructions here](https://shakeuplearning.com/blog/how-to-create-
 * Anything else you'd like!
 
 
-^===
-
 <center>
 
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vSLz-LQCsEH7WUDCDD6SN_KcdxITxgIazL_6VB17IQPqTAgNX9MbqQrmMJRNRBx7be1wIdPqxwr_DkA/pub?w=560&amp;h=315" alt="A thumbnail of a Shake Up Learning blog post." title= "A thumbnail of a Shake Up Learning blog post." />
 
 </center>
 
-^=
-
-<br />
-
 If you have any questions, just ask!
+
+<div style="clear:both;"></div>
 
 # Specifications
 * Your app must have at least 3 slides (one of them can be the "Home" screen).
@@ -41,8 +38,12 @@ If you have any questions, just ask!
 
 * Your Google Slides presentation must be shared such that [Anyone with the link can ***EDIT***](https://www.youtube.com/watch?v=jFGXfLDctcI)
 
-<center>
-
 ## Let's be careful out there!
 
-</center>
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
