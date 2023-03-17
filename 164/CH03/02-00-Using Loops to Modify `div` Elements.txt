@@ -1,0 +1,62 @@
+^^ Using Loops to Modify `div` Elements
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/oUevISoV2lA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 15px !important;"></iframe>
+
+# Some things from class
+
+In class I mentioned that perhaps one of the reasons our code was not working properly was [because of a known issue with JavaScript not running locally](https://stackoverflow.com/questions/39280861/javascript-does-not-run-on-local-page). While this is an issue from time to time, it was not the culprit!
+
+One of you pointed out that the behavior seemed like the program was pausing for one second and then running through all the numbers (from 10 to 0). Here is what the code was:
+
+```javascript
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function count() {
+  let app = document.getElementById("test");
+ 
+  await sleep(1000);    
+  app.innerText = "";
+  for (let i = 10; i > -1; i--) {
+    app.innerText = i;
+    console.log(i);
+  }
+}
+```
+
+But it turns out that ***the code was wrong!!!*** That's right! the issue was that the pause was, indeed, *before* the `for` loop! 
+
+Here is what the correct code should look like. Note that the `await sleep(1000)` call needs to be in the `for` loop so that it executes every time:
+
+```javascript
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function count() {
+  let app = document.getElementById("test");
+ 
+  app.innerText = "";
+  for (let i = 10; i > -1; i--) {
+    await sleep(1000);    
+    app.innerText = i;
+    console.log(i);
+  }
+}
+```
+
+Anyhow, like Taylor Swift says, "It's me, hi, I'm the problem, it's me". Sorry for the confusion *but* I'm stoked to know it was figured out!
+
+Of course, you can [see all the code at our *^icon b-github* GitHub](https://github.com/corydave/FLCC_CSC_164/tree/main/03%20-%20Loops) but you should definitely check out the two examples we covered in class below!
+
+
+<br />
+
+<iframe height="500" style="width: 100%;" scrolling="no" title="Loops-ASYNC" src="https://codepen.io/corydave/embed/VwGdWXP?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/corydave/pen/VwGdWXP">
+  Loops-ASYNC</a> by Dave Ghidiu (<a href="https://codepen.io/corydave">@corydave</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
