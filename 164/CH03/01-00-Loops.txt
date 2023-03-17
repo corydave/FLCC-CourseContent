@@ -1,0 +1,284 @@
+^^ Loops
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/NbBeT8PpZDg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius:15px !important;"></iframe>
+
+^=^
+
+<center>
+
+*The following notes are what the class on Thursday, 3/3, were based on. We covered most the content, but there are some minor differences.*
+
+*You can consult the code from class at the bottom of these notes.*
+
+</center>
+
+^=
+
+
+^= =
+
+Computers don't get bored! Let's take advantage.
+
+## `for` loops
+
+Repeat what is in the body of the for loop 5 times by using variable `i` to count. 
+
+In this header from the code below:
+
+```javascript
+for (var i = 1; i <= 5; i++) {
+```
+
+* Counting variable `i` starts at 1
+* The `for` loop continues while `i <= 5` is true
+* 1 is added to `i` each "iteration" through the loop:
+
+```javascript
+for (var i = 1; i <= 10; i++) {
+  document.write("<p>" + i + "</p>")
+  console.log("i is " + i )
+  document.querySelector("numbers").innerHTML += "and " +i
+  //alert("count is " + i) //annoying!
+}
+```
+
+After the loop above is finished...
+
+The page would have this written within it:
+
+```html
+<p>1</p>
+<p>2</p>
+<p>3</p>
+<p>4</p>
+<p>5</p>
+```
+
+The console would show this:
+
+```c
+i is 1
+i is 2
+i is 3
+i is 4
+i is 5
+```
+
+And inside the element with the id of "numbers":
+
+```c
+and 1 and 2 and 3 and 4 and 5 and 6 and 7 and 8 and 9 and 10
+```
+
+
+## for...of loops
+
+When you have a list (an array, or NodeList) of items in a variable you can "iterate" over them with for...of:
+
+```javascript
+let listItems = document.querySelectorAll("li");
+
+// for...of lets us repeat the same steps
+// on each of the elements in listItems
+// one by one
+for( const li of listItems) {
+    li.style.fontSize = "3em";
+    li.innerHTML += " <b>embiggened</b>";
+}
+```
+```html
+<ul>
+  <li>some stuff</li>
+  <li>some more stuff</li>
+  <li>imagine more!</li>
+</ul>
+```
+would become:
+```html
+<ul>
+  <li style="font-size: 3em">some stuff <b>embiggened</b></li>
+  <li style="font-size: 3em">some more stuff <b>embiggened</b></li>
+  <li style="font-size: 3em">imagine more! <b>embiggened</b></li>
+</ul>
+```
+
+^=== ,
+
+## loop-intro.html
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" 
+      content="width=device-width, initial-scale=1.0">
+    <title>Loop Intro</title>
+</head>
+<body>
+    <h1>Loop Intro</h1>
+    <p class="changeMe">Stuff goes here</p>
+    <p class="changeMe">Aaron Sullivan</p>
+    <p class="changeMe">WEeeeeeee</p>
+    <p class="changeMe">ABC</p>
+
+    <div id="newList"></div>
+    
+    <script>
+```
+```javascript
+//select All of the elements with changeMe class
+//paragraphs is a array of p elements now
+//(an array is a list)
+let paragraphs = document.querySelectorAll(".changeMe");
+
+let fontSize = 15;
+let color = 1;
+
+// for...of lets us repeat the same steps
+// on each of the paragraph elements
+// one by one -- note that fontSize and
+// color are increased after each one!
+for( let p of paragraphs) {
+    p.innerHTML = "erased!";
+    p.style.fontSize = fontSize + "pt";
+    p.style.backgroundColor = "#5" + color + color;
+    fontSize = fontSize + 1;
+    color += 1; //same as color = color + 1
+}
+
+// counter-controlled loops
+// use a counting variable that we control
+// the number of iterations (times to loop)
+// Sometimes having that counting number
+// can be useful for other purposes...
+
+// Here we build an unordered list
+// where each list item will have a different
+// id and the contents will have a number, too 
+
+let container = document.querySelector("#newList");
+
+container.innerHTML = "<ul>";
+
+// we count from 1 to 200 here with a for loop
+// let i = 1; establishes our counting variable
+// while the condition: i <= 200 is true
+// the loop will continue, but when it becomes
+// false it will stop! 
+// i += 1 makes it count from 1 to to 201
+
+for (let i = 1; i <= 200; i += 1) {
+    // we build a list item using the counting
+    // variable to help set the unique id
+    // and also make the text show the number
+    container.innerHTML += 
+      `<li id="item${i}">This is a line ${i}</li>`;
+}
+
+//now that the <li> are added, close the ul
+container.innerHTML += "</ul>";
+
+// We can select one list item by its
+// unique id and change the style
+let listElement = document.querySelector("#item3");
+listElement.style.backgroundColor = "black";
+```
+```html
+   </script>
+</body>
+</html>
+```
+
+^=
+
+
+
+
+
+^acc
+
+^^^ `loops.html`
+
+```html
+
+<HTML>
+  <HEAD>
+    <TITLE>Loops</TITLE>
+    <style>
+        .countdown {
+            font-size:33pt;
+            color: #1e90ff;
+        }
+    </style>
+  </HEAD>
+
+  <BODY>
+
+    <button onclick="count()">START</button>
+    <div class="countdown" id="app"></div>
+
+
+    <script>
+```
+```javascript
+   "use strict";
+
+        let app = document.getElementById("app");
+        // app.innerHTML = "hi";
+        // app.style.color = "#1e90ff";
+
+        function count() {
+
+            for (let i = 10; i > -1; i--) {
+                app.innerText = i;
+                console.log(i);
+
+                // PARAMETER/ARGUMENT in a function
+                timer(1000);
+
+            }
+
+
+        }
+
+        function timer(mSeconds) {
+            let start = new Date();
+            let current = new Date();
+
+            // let j = 0;
+
+            while (current - start < mSeconds) {
+                current = new Date();
+                // console.log(j);
+                // j++;
+            }
+        }
+
+        function demo() {
+
+            // FOR loops have to have a START, TEST, and INCREMENT (UPDATE)
+
+            let i = -1;
+            // console.log("i = " + i);
+
+            for (i = 1; i <= 10; i*=2) {
+                console.log(i);
+            }
+
+            console.log("i = " + i);
+
+        }
+```
+```html
+    </script>
+  </BODY>
+</HTML>
+```
+
+^acc-end
+
+<br />
+
+Of course, you can [see all the code at our *^icon b-github* GitHub](https://github.com/corydave/FLCC_CSC_164/blob/main/03%20-%20Loops/loops.html).
