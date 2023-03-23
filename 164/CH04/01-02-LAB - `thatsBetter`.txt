@@ -20,6 +20,16 @@ el.style.transform = "rotate(90deg)";
 
 When you are done, you will submit a `.zip` file that contains `thatsBetter.html` and `thatsBetter.js`.
 
+^callout file-download
+
+<br />
+
+[`.zip` files to get you started](https://drive.google.com/uc?export=download&id=1RpjxuYTTRUGR5DlppepwmGUjm1LD-3UI)
+
+^callout-end
+
+<br />
+
 ^callout external-link-alt
 
 <br />
