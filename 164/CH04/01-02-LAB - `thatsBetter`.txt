@@ -1,0 +1,29 @@
+^^ LAB - `thatsBetter`
+
+In this lab, you will be provided an HTML file and a CSS file. You will be submitting two files:
+ - `redacted.html`
+ - `redacted.js`
+
+You will have to look at the code in the version of `redacted.html` that is provided to you and understand the structure. You will have to tweak this file and add some code to invoke a function in the JavaScript file that you will be creating called `redacted.js`.
+
+The task is simple: when the user clicks on the image it will rotate 90 degrees clockwise. This will happen only the first time that the user clicks on it (in other words, repeated clicking will not rotate the image more).
+
+You may not know how to modify the style of an element to have it rotate. It might help to know that this is the proper way to set an element to be rotated 90 degrees clockwise (in this case, `el` is the element that needs to get rotated but you'll probably have a better name for that variable):
+
+```javascript
+
+el.style.transform = "rotate(90deg)";
+
+```
+
+![thatsBetter HTML page in action](google:https://drive.google.com/file/d/1hrrTPBA8onYUQo6VPS2nbvzwp6E-uABT/view?usp=share_link)
+
+When you are done, you will submit a `.zip` file that contains `thatsBetter.html` and `thatsBetter.js`.
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
