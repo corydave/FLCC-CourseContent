@@ -1,10 +1,10 @@
 ^^ LAB - `thatsBetter`
 
-In this lab, you will be provided an HTML file and a CSS file. You will be submitting two files:
- - `redacted.html`
- - `redacted.js`
+In this lab, you will be provided an HTML file, a CSS file, and an image. You will be submitting two files:
+ - `thatsBetter.html`
+ - `thatsBetter.js`
 
-You will have to look at the code in the version of `redacted.html` that is provided to you and understand the structure. You will have to tweak this file and add some code to invoke a function in the JavaScript file that you will be creating called `redacted.js`.
+You will have to look at the code in the version of `thatsBetter.html` that is provided to you and understand the structure. You will have to tweak this file and add some code to invoke a function in the JavaScript file that you will be creating called `thatsBetter.js`.
 
 The task is simple: when the user clicks on the image it will rotate 90 degrees clockwise. This will happen only the first time that the user clicks on it (in other words, repeated clicking will not rotate the image more).
 
