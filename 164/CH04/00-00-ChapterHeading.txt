@@ -1,0 +1,17 @@
+^^ CHAPTER 4 - Putting it all Together
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vRvOj_sGFJYg_kZMzgbgrKIr4FCRUM22eEQHA8jxNfW0NN4P1FpqX2wcQFL3nwQe9QiwabT2ZN8hBnm/pub?w=900&amp;h=380" alt="Three puzzle pieces that look like they interlock but aren’t quite put together yet. The number 4 is prominently displayed." title="Three puzzle pieces that look like they interlock but aren’t quite put together yet. The number 4 is prominently displayed." width="0" height="0" style="display:none;">
+
+We won't be exploring any new topics in this chapter, but we will be drawing on what we know and work on four projects.
+
+These projects scaffold up; that is to say that if you do them in order they get more sophisticated in your understanding of HTML, CSS, and JavaScript.
+
+The first two, `thatsBetter` and `redacted` are pretty simple - you'll just need to modify the HTML page and add a quick JavaScript function.
+
+The third, `magnify`, requires you to *understand* the HTML file but only create the JavaScript file. In fact, when you submit this project, you'll only submit the JavaScript file (and I'll check it against my copy of the HTML file).
+
+The fourth project, `hauntedDolls`, is similar to the third project in that you will be provided the HTML file, CSS file, and all the images. Your job is to understand how the HTML file works and *only submit a JavaScript file*.
+
+There are animated `.gif` files to demo how the projects should look.
+
+Enjoy!
