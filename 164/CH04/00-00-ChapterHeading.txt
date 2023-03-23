@@ -6,7 +6,7 @@ We won't be exploring any new topics in this chapter, but we will be drawing on 
 
 These projects scaffold up; that is to say that if you do them in order they get more sophisticated in your understanding of HTML, CSS, and JavaScript.
 
-The first two, `thatsBetter` and `redacted` are pretty simple - you'll just need to modify the HTML page and add a quick JavaScript function.
+The first two, `redacted` and `thatsBetter` are pretty simple - you'll just need to modify the HTML page and add a quick JavaScript function.
 
 The third, `magnify`, requires you to *understand* the HTML file but only create the JavaScript file. In fact, when you submit this project, you'll only submit the JavaScript file (and I'll check it against my copy of the HTML file).
 
