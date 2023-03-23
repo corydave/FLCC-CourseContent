@@ -1,0 +1,118 @@
+^^ LAB - `for` Loops
+
+^= =
+
+Create **HTML files** that include **JavaScript** to provide solutions for the following:
+
+1. **Three Guesses** - Provide an input so the user can guess a number between 1 and 5. When they click a button, tell them if they got it right or wrong. Only give them three attempts!
+
+    - Declare a variable named `guessCount` ***outside*** any functions (set it to `0`)
+        - this is important so it won't be reset after each guess
+###
+    - You will **not** need a loop for this assignment! (the repeating happens because the visitor hits the button after each guess)
+
+    - If the visitor guesses correctly, let them know on the page somewhere!
+
+    - If the visitor has used their third and final guess, don't allow more attempts
+
+    - it's okay if they keep guessing after they guess correct.
+
+###
+2. **Head Test** - Write a program that demonstrates the different heading tag sizes (`h1`, `h2`, `h3`, `h4`, `h5`, and `h6`) by using a `for` loop that generates the tags automatically.
+
+    - Use `.innerHTML` to add each heading to an element already on the page.
+    - Remember that you will want to add on to the `innerHTML` not replace it, for each heading.
+    - Use only **one `for` loop** statement with exactly **one `.innerHTML`** setting inside it!
+    - Your page will look similar to this:
+
+```html
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h2>
+<h4>Heading 4</h2>
+<h5>Heading 5</h2>
+<h6>Heading 6</h2>
+```
+
+<br />
+
+3. **Roll the Dice** - Write a program that randomly finds results of two separate dice that will be rolled 7 times.
+    - Use `innerHTML` to display the results of each pair of die rolls side by side in 7 paragraph elements.
+    - **Use one `for` loop** to generate all of the die rolls AND the paragraphs
+    - If a pair of die rolls have the same value, **Add a class** `"doubles"` to their paragraph element
+    - Use CSS to style the `doubles` class so it stands out (bold, different color, or background, etc)
+    - Your page could look like this:
+        - roll 1: 5 and 2
+        - roll 2: 3 and 6
+        - **roll 3: 2 and 2**
+        - roll 4: 1 and 4
+        - **roll 5: 5 and 5**
+        - roll 6: 6 and 1
+        - roll 7: 5 and 3
+###
+    **Optional Challenge:** Also display a picture of "snake eyes" next to a paragraph that comes up with two ones!
+
+## When complete, **zip the html files together**, **attach** the `.zip` file here, and **[submit]** here.
+
+^=== ,,
+
+## Reminders
+
+### `for` loops
+
+`for` loops
+Repeat what is in the body of the for loop 3 times by using variable `i` to count. Counting variable `i` starts at `1`, for loop continues while `i <= 3`, `1` is added to `i` each "iteration" through the loop:
+
+```javascript
+for (var i = 1; i <= 3; i++) {
+    //using counting variable in output:
+    element.innerHTML += 
+        `<p id="item${i}">Thing ${i}</p>\n`; 
+}
+//writes this HTML code into the element:
+```
+```html
+<p id="item1">Thing 1</p>
+<p id="item2">Thing 2</p>
+<p id="item3">Thing 3</p>
+```
+
+### Random Numbers
+```javascript
+let randomNumber = Math.floor(Math.random() * 5) + 1;
+```
+
+### Updating Variables
+
+```javascript
+let a = 5; //a is assigned 5
+a = a + 10; //a is now 15
+a = a + 2; //a is now 2
+a + 80; //a is still 2
+a += 1; //a is now 3 (same as a = a + 1)
+a = 5; //a is now 5 
+```
+
+### Add a Newline
+
+`\n` in a string makes a new line!
+
+```javascript
+console.log("hi\nthere")
+```
+
+outputs:
+
+<div>
+    hi<br>there
+</div>
+
+^=
+
+^callout external-link-alt
+
+<br />
+
+Submit your work here.
+
+^callout-end
