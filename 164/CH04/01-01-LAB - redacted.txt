@@ -1,0 +1,34 @@
+^^ LAB - `redacted`
+
+In this lab, you will be provided an HTML file, a CSS file, and an image. You will be submitting two files:
+ - `redacted.html`
+ - `redacted.js`
+
+You will have to look at the code in the version of `redacted.html` that is provided to you and understand the structure. You will have to tweak this file and add some code to invoke a function in the JavaScript file that you will be creating called `redacted.js`.
+
+The task is simple: when the user *uses the mouse to hover over the dark rectangle* the rectangle will disappear.
+
+![redacted HTML page in action](google:https://drive.google.com/file/d/1B75t2VRmscWOyTD7MnkXHfmaAkyn02hL/view?usp=share_link)
+
+When you are done, you will submit a `.zip` file that contains `redacted.html` and `redacted.js`.
+
+Note that there are several ways to solve this problem.
+
+^callout file-download
+
+<br />
+
+[`.zip` files to get you started](
+[`convertCF02.py`](https://drive.google.com/uc?export=download&id=1bYXhyLvpBGX3P4Ov45U5qtP_zNJeoenu)
+
+^callout-end
+
+<br />
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
