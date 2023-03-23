@@ -18,8 +18,7 @@ Note that there are several ways to solve this problem.
 
 <br />
 
-[`.zip` files to get you started](
-[`convertCF02.py`](https://drive.google.com/uc?export=download&id=1bYXhyLvpBGX3P4Ov45U5qtP_zNJeoenu)
+[`.zip` files to get you started](https://drive.google.com/uc?export=download&id=1bYXhyLvpBGX3P4Ov45U5qtP_zNJeoenu)
 
 ^callout-end
 
