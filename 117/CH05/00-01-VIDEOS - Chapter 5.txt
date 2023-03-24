@@ -1,32 +1,13 @@
 ^^ VIDEOS - Chapter 5
 
-<center>
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/llcfk00lit8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:15px !important;"></iframe>
 
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/llcfk00lit8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+^= =
 
-[Link to video](https://www.youtube.com/watch?v=llcfk00lit8)
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/xZZ4Ku5gb1Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:15px !important;"></iframe>
 
-</center>
+^===
 
-
-^= = 6
-
-<center>
-
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/xZZ4Ku5gb1Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-[Link to video](https://www.youtube.com/watch?v=xZZ4Ku5gb1Q)
-
-</center>
-
-^===  6
-
-<center>
-
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/Mrmr9nxnHEw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-[Link to video](https://www.youtube.com/watch?v=Mrmr9nxnHEw)
-
-</center>
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/Mrmr9nxnHEw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:15px !important;"></iframe>
 
 ^=
