@@ -1,4 +1,1 @@
 ^^ Using TWINE
-
-* VIDEO - Using Twine
-* **ASSIGNMENT - Twine Experience**
