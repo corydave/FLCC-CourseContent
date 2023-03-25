@@ -23,6 +23,12 @@ Note that when you go to create a book, you can choose from a few different size
 Pick a topic that seems grade appropriate for the littles you'll be teaching. Once it's done, embed the book into your Google Site and submit the link to the page where the video is here.
 
 
+This video shows how to get the proper link for sharing your book:
+
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yDF9JQx1AcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius:15px !important;"></iframe>
+</center>
+
 # Specifications
 
 * Pick a topic that you imagine you might use when you are teaching (so it must be age appropriate)
