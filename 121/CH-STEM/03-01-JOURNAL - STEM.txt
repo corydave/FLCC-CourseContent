@@ -1,7 +1,6 @@
 ^^ JOURNAL - STEM
 # Description
 
-
 Here is your prompt:
 
 ## STEM is important for the vitality of our kiddos but there are serious, systemic obstacles. Reflect on the following points:
@@ -16,9 +15,8 @@ Here is your prompt:
 <br />
 <hr />
 <br />
-<div style="clear:both;width:80%;margin-left:auto;margin-right:auto;">
 
-^=,
+^=^ ,
 
 Every week, we will be reflecting on the things we learned. Typically this will involve software (and how it fits into the context of teaching), cognitive science (how learning works), or just visceral reactions. The intent of these journaling sessions are to help you recognize where the totality of your educational experiences have led you and how those experiences intersect with what we know about teaching and learning. The journal entries are private (you and I are the only ones reading them; they will not be shared to the class).
 
@@ -30,6 +28,10 @@ I will read every entry and respond - please make sure you read my comments. The
 
 ^=
 
-</div>
+^callout external-link-alt
 
-<br /><br />
+<br />
+
+Click here to submit your work.
+
+^callout-end
