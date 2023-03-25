@@ -1,8 +1,8 @@
 ^^ VIDEO - Using Twine
 
-^= =
-
 # What is Twine?
+
+<iframe src="https://www.youtube.com/embed/E0BuooM1o1k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="float:right;border-radius:15px !important;max-width:420px;height:400px;width:40%;"></iframe>
 
 [Twine](https://twinery.org/) is a tool that can be used a number of different ways. The main way people use Twine is for interactive stories (you know, like the [Choose Your Own Adventure books](https://en.wikipedia.org/wiki/Choose_Your_Own_Adventure)). Giving the player the option to make choices as they progress through a story is a great way to get people engaged. Teachers can use Twine to create experiences for their students. Teachers can also teach students how to use Twine to create projects. 
 
@@ -10,17 +10,8 @@ For instance, maybe your students just finished reading the [Very Hungry Caterpi
 
 This video walks through the basics of using Twine. The main things you need to pay attention to are how to create (and link to) different passages and how to include images or videos.
 
-^===
+<div style="clear:both;">&nbsp</div>
 
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/E0BuooM1o1k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<center><br />
-
-[Link to video](https://www.youtube.com/watch?v=E0BuooM1o1k)
-
-</center><br />
-
-^=
 # Cool! So how will we be using Twine?
 
 You'll be making your own Twine experience after watching this video, so as you are watching keep those wheels turning!
