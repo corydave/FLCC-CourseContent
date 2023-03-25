@@ -1,4 +1,4 @@
-^^ ASSIGNMENT - Hour of Code
+^^ LAB - Hour of Code
 
 # Description
 Every year, thousands of schools across the country honor [Grace Hopper](https://en.wikipedia.org/wiki/Grace_Hopper) by conducting an "Hour of Code". This is a chance for students of all ages to get a taste of STEM, coding, and exercising their creativity.
@@ -10,3 +10,11 @@ Your job is to pick one of the activities, go through the tutorial/activity, and
 You'll be reflecting on it in your journal for this chapter.
 
 You can look through the activities at [code.org/learn](https://code.org/learn) and then pick one that interests you.
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
