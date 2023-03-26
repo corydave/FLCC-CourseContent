@@ -1,0 +1,30 @@
+^^ LAB - `hauntedDolls`
+
+In this lab, you will be provided an HTML file, a CSS file, and some images. You will only need to submit the JavaScript file you create. The file you submit will be run in concert with my copies of the HTML and CSS files, so make sure that you don't modify the code in your versions of the HTML or CSS.
+ - `doll-script.js`
+
+You will have to look at the code in the version of `hauntedDoll.html` that is provided to you and understand the structure. You will not need to modify the HTML file or the CSS file but you *will* have to understand how they work so that you can structure your JavaScript file appropriately.
+
+The task is simple: when the user clicks on different buttons, the properties of some elements will change. This includes the featured image changing as well as the descriptive text and the price of the doll.
+
+![magnifier HTML page in action](google:https://drive.google.com/file/d/1Uj_wbfAIIpKjsL5tBrlRvoXdhTPDsxYk/view?usp=share_link)
+
+When you are done, you will submit a `.zip` file that contains only one file - `doll-script.js`.
+
+^callout file-download
+
+<br />
+
+[`.zip` files to get you started](https://drive.google.com/uc?export=download&id=1mQw9qSYwIl771A5P3AJ_idDzfNE0b30t)
+
+^callout-end
+
+<br />
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
