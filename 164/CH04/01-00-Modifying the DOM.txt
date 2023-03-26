@@ -1,0 +1,109 @@
+^^ Modifying the DOM
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/slnx1N7vfrs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 15px !important;"></iframe>
+
+^acc
+
+^^^ `modifyDOM.html`
+
+```html
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+
+        <style>
+            .collection {
+                background-color: #dedede;
+                padding: 20px;
+            }
+
+            .collection img {
+                border-radius: 15px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+
+
+        <h1>Modifying the DOM</h1>
+        <div id="test"></div>
+        <input id="imgHeight" /><button onclick="resizeHeight()">RESIZE</button>
+        <br /><br /><br />
+        
+        <div class="collection">
+            <img src="dog01.jpg" id="firstDog" height="200" onclick="showID(this.src)" />
+            <img src="" id="secondDog" height="200" onclick="showID(this.src)" />
+            <img src="dog03.jpg" id="thirdDog" height="200" onclick="showID(this.src)" />
+        </div>
+
+        <img src="dog03.jpg" id="fourthDog" onmouseover="makeBig(600)" onmouseleave="restoreHeight()" height="200" />
+
+        <div class="collection">
+            <img src="dog01.jpg" height="200" />
+        </div>
+
+        <script>
+```
+```javascript
+            "use strict"
+
+            function showID(dogID) {
+
+                console.log(dogID);
+
+            }
+
+            document.getElementById("test").innerHTML = "<h2>HI</h2>";
+
+            document.getElementById("secondDog").src = "dog02.jpg";
+            // document.getElementById("secondDog").height = "400";
+
+            function restoreHeight() {
+                document.getElementById("fourthDog").height = "200";
+            }
+
+            function makeBig(size) {
+                document.getElementById("fourthDog").height = size;
+            }
+
+            function resizeHeight() {
+                let userHeight = document.getElementById("imgHeight").value;
+                // document.getElementById("secondDog").height = userHeight;
+
+                // Get ALL the images in one variable
+                // Change the height of each image
+
+                let dogPics = document.querySelectorAll(".collection img");
+                // console.log(dogPics);
+
+                for (const dog of dogPics) {
+                    dog.height = userHeight;
+                }
+
+                
+
+            }
+
+```
+```html          
+        </script>
+    </body>
+</html>
+```
+
+^acc-end
