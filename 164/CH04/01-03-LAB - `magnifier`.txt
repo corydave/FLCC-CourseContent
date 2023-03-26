@@ -3,7 +3,7 @@
 In this lab, you will be provided an HTML file and a CSS file. You will only need to submit the JavaScript file. The file you submit will be run in concert with my copies of the HTML and CSS files, so make sure that you don't modify the code in your versions of the HTML or CSS.
  - `magnifier.js`
 
-You will have to look at the code in the version of `magnifier.html` that is provided to you and understand the structure. You will have to tweak this file and add some code to invoke functions in the JavaScript file that you will be creating.
+You will have to look at the code in the version of `magnifier.html` that is provided to you and understand the structure. You will not have to tweak this file - but you will need to understand how the JavaScript file you are authoring will interact with the elements in the HTML and CSS files.
 
 The task is simple: when the user clicks on different buttons, the properties of some elements will change.
 
