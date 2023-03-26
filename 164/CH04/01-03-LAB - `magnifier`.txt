@@ -1,0 +1,30 @@
+^^ LAB - `magnifier`
+
+In this lab, you will be provided an HTML file and a CSS file. You will only need to submit the JavaScript file. The file you submit will be run in concert with my copies of the HTML and CSS files, so make sure that you don't modify the code in your versions of the HTML or CSS.
+ - `magnifier.js`
+
+You will have to look at the code in the version of `magnifier.html` that is provided to you and understand the structure. You will have to tweak this file and add some code to invoke functions in the JavaScript file that you will be creating.
+
+The task is simple: when the user clicks on different buttons, the properties of some elements will change.
+
+![magnifier HTML page in action](google:https://drive.google.com/file/d/1qUIlSGPkB_o9eBSvVW0yUPfs0KS5_r6N/view?usp=share_link)
+
+When you are done, you will submit a `.zip` file that contains only one file - `magnifier.js`.
+
+^callout file-download
+
+<br />
+
+[`.zip` files to get you started](https://drive.google.com/uc?export=download&id=1DX3J6bu1ZbiQn67NXBQePl8Z95w8gScT)
+
+^callout-end
+
+<br />
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
