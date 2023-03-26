@@ -4,6 +4,81 @@
 
 # Some things from class
 
+^acc
+
+^^^ `moarLoops.html`
+
+```html
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+
+        <style>
+            .card {
+                border-radius:15px;
+                border: 1px solid #1e90ff;
+                width: 110px;
+                height: 220px;
+                padding: 7px;
+                display: inline-block;
+                text-align: center;
+            }
+        </style>
+
+    </head>
+    <body>
+
+        <h1>MOAR LOOPS</h1>
+        
+        <button onclick="changeColor()">CHANGE COLOR</button><br />
+
+        <div class="card">AAA</div>
+        <div class="card">BBB</div>
+        <div class="card">CCC</div>
+        <div class="card">DDD</div>
+        <div class="card">EEE</div>
+
+        <div id="app"></div>
+
+
+        
+        <script>
+```
+```javascript
+            "use strict";
+
+            function changeColor() {
+
+                let cards = document.getElementsByClassName("card");
+                console.log(cards);
+                console.log(cards.length);
+
+                for (let i = 0; i < cards.length; i+=2) {
+                    cards[i].style.border = "2px dashed pink";
+                }
+
+                // cards[0].style.border = "2px dashed pink";
+                // cards[1].style.border = "2px dashed pink";
+                // cards[2].style.border = "2px dashed pink";
+            }
+```
+```html
+        </script>
+    </body>
+</html>
+```
+
+^acc-end
+
+<br />
+
 In class I mentioned that perhaps one of the reasons our code was not working properly was [because of a known issue with JavaScript not running locally](https://stackoverflow.com/questions/39280861/javascript-does-not-run-on-local-page). While this is an issue from time to time, it was not the culprit!
 
 One of you pointed out that the behavior seemed like the program was pausing for one second and then running through all the numbers (from 10 to 0). Here is what the code was:
