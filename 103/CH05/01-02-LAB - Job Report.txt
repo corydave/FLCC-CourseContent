@@ -1,4 +1,4 @@
-^^ ASSIGNMENT - Job Report
+^^ LAB - Job Report
 
 # Description
 
@@ -8,8 +8,7 @@ It's time to look for a job! Using the search engines you've explored, find a jo
 
 You will have to get a copy of the [Job Report Google Doc](https://docs.google.com/document/d/1DqlF9750CCaLl6M9yOBWFNbPreEIJy4DKo5QTfFDha4/copy) and answer the questions. This experience is designed to help you interrogate what is really important in a job and consider the different variables that might affect your calculus. You'll also have to think about what actions you'll need to do to prepare for a job (schooling, certifications, internships, etc.).
 
-
-<div style="display:block;width:100%;clear:left;">
+<div style="clear:left;"></div>
 
 # Specifications
 
@@ -17,6 +16,10 @@ You will have to get a copy of the [Job Report Google Doc](https://docs.google.c
 
 * Verify that the document is shared such that ["Anyone with the link can COMMENT"](https://www.youtube.com/watch?v=jFGXfLDctcI).
 
+^callout external-link-alt
 
-</div>
+<br />
 
+Click here to submit your work.
+
+^callout-end
