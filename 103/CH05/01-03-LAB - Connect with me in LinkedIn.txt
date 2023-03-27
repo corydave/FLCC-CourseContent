@@ -1,4 +1,4 @@
-^^ ASSIGNMENT - Connect with me in LinkedIn
+^^ LAB - Connect with me in LinkedIn
 
 LinkedIn is the best website for networking in the professional realm. It is one of the best places to follow thought leaders in your industry, make connections with others, and get leads on jobs. You have to create an account in LinkedIn. Create a profile! 
 
@@ -6,7 +6,7 @@ You'll get credit for this assignment by CONNECTING with me. There are a few dif
 
 <center><b>
 
-https://www.linkedin.com/in/daveghidiu/
+https://www.linkedin.com/in/LINKED_IN_ADDRESS/
 
 </center></b>
 
@@ -19,3 +19,11 @@ When you send a **connection** request, all you have to do is submit "I connecte
 * Make sure you **connect** with me, not **follow** me.
 
 * Once you have sent the **connection request**, submit in this assignment the text, "Dude! I have connected with you" or something similar.
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
