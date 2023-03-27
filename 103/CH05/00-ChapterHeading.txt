@@ -1,4 +1,6 @@
-^^ CHAPTER 5 - Careers && Planning
+^^ CHAPTER 6 - Careers && Planning
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vTTc7Pu5UuwlakLhn1k5Lf2ZjWcsDmu3AigtNIJ6KsSZcZSAgoba0RV0qXtfuHNMdgGSqiDZGzIQwMc/pub?w=907&amp;h=385" width="0" height="0" style="display:none;" />
 
 # Description
 <img style="float: right;" 
@@ -17,7 +19,7 @@ After looking at different jobs in the sector, we'll be building a rough schedul
 
 <br /><br />
 
-<div style="clear:both;">
+<div style="clear:both;"></div>
 
 # Schedule
 
@@ -26,5 +28,3 @@ After looking at different jobs in the sector, we'll be building a rough schedul
 <iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vSXz-OagQq2MzgyUVfAgS2a4mO-_S4YD2KPooMG8HJymTNEIMb2X6C5ePBAH_YswdLVJDV5JvpMf491/pubhtml/sheet?headers=false&amp;gid=1265930329&amp;range=A1:D18'style="width:100%;max-width:720px;height:435px;" frameborder="0"></iframe>
 
 </center>
-
-</div>
