@@ -1,4 +1,4 @@
-^^ ASSIGNMENT - Long Term FLCC Planning
+^^ LAB - Long Term FLCC Planning
 
 # Description
 
@@ -21,3 +21,11 @@ We've [organized information for you to use](https://sites.google.com/view/flcca
 Note that this assignment does NOT count as advising; you should still communicate with your advisor about what classes to take.
 
 ^=
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
