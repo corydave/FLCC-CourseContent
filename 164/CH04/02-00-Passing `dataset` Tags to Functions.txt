@@ -1,0 +1,80 @@
+^^ Passing `dataset` Tags to Functions
+
+In previous classes we've talked about `this` as it pertains to the property of an element. For instance, consider the following HTML and JavaScript:
+
+```html
+
+<div id="example" onclick="showID(this.id)">Test</div>
+
+```
+```javascript
+
+function showID(id) {
+  window.alert("The ID is: " + id);
+}
+```
+
+When a user clicks on the `div`, then the function `showID()` is run passing in the `id` of the `div` (in this case, `example`).
+
+Turns out that you can pass in all sorts of stuff using the self-referential `this`. It is an especially potent tool if you have multiple pieces of information to pass into a function - we can use the `data-` parameter:
+
+```html
+<div id="example" onclick="showInfo(this.id, this.dataset.description)" data-description="A simple div">Another test</div>
+```
+```javascript
+function showInfo(id, desc) {
+  window.alert("ID = " + id + "\nDESCRIPTION = " + desc);
+}
+```
+In this case we are able to encode information in the `data-description` parameter (yeah, I totally made that tag up - you can do `data-anythingYouWant` and add it to the dataset).
+
+The only thing that is different in passing in data tags is that you need to use the `this.dataset.` nomenclature (instead of `this.id` we needed `this.dataset.description`).
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/6antf3M2kzI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius:15px !important"></iframe>
+
+# Code from class
+
+^acc
+
+^^^ `dataSet.html`
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- https://unsplash.com/photos/Hzbq4de24kQ-->
+    <img onclick="displayInfo(this.dataset.name, this.dataset.age)" id="oakTree" src="tree.jpg" alt="A oak tree" title="A tree" data-name="oak tree" data-age="200" width="500" />
+
+    <!-- https://unsplash.com/photos/8hTWsi2OSoA -->
+    <img onclick="displayInfo(this.dataset.name, this.dataset.age)" id="pineTree" src="pine.jpg" alt="A pine tree" title="A tree" data-name="pine tree" data-age="150" width="500" />
+
+    <script>
+```
+```javascript
+        "use strict";
+
+        function displayInfo(type, age) {
+
+            window.alert("TYPE: " + type + "\nAGE: " + age);
+        }
+```
+
+```html
+    </script>
+
+</body>
+</html>
+```
+
+^acc-end
+
+<br />
+
+Of course, you can [see all the code at our *^icon b-github* GitHub](https://github.com/corydave/FLCC_CSC_164/blob/main/04%20-%20ModifyDOM/dataTags.html)!
