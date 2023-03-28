@@ -1,3 +1,5 @@
+^^ LAB - Reflect on Long-Term Planning &amp; Careers
+
 # Description
 
 At this stage in the class, you've investigated career opportunities. You've explored the skills that you'll need to acquire before embarking on a career. You've looked at the classes you need to get there. You've completed your Long-Term Planning for FLCC. You've furthered your LinkedIn reach. You've constructed a resume.
@@ -54,5 +56,12 @@ You should look at the questions in this assignment as guidance, but I want to r
 
 <br />
 
+^callout external-link-alt
+
 <br />
 
+Click here to submit your work.
+
+^callout-end
+
+<br />
