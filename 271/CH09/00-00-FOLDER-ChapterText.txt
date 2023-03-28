@@ -1,49 +1,24 @@
-<div id="ch09Button" onclick="ch09ContentsToggle()">
+^^ Chapter 9 - File Management<br />[5-7 hours]
 
-<CENTER>
-
-^^ Chapter 9 - Mobile Systems [5-6 hours]<br />&#9660;
-
-</CENTER>
-
-
-</div>
-
-<div id="ch09Contents" style="display:none;">
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vRSKSb1gM4vbIOx_SXLkEKVxy79xvgkUUV-xsEUDIqZvjB9c9niQ4E4xoJWLz_1G82_TdbwScOKN9Qs/pub?w=907&amp;h=385" alt="A logo that shows icons of file folders and a lock. The number 9 is displayed prominently." title="A logo that shows icons of file folders and a lock. The number 9 is displayed prominently." width="0" height="0" style="display:none;" />
 
 # Description
 
-<img src="https://docs.google.com/drawings/d/e/2PACX-1vSQrGdIT9ZiG70I42-r96DOXP98kC6ujMz7Gr-DGqfyCz4g5ZO7LN_enVXY-_nx4_RI3NtLtYb-1AQv
-/pub?w=240&h=180" alt="An illustration of a laptop, a mobile phone, and a cup of coffee." title="An illustration of a laptop, a mobile phone, and a cup of coffee." style="float:right;border-radius:25px;margin-right:20px;margin-left:20px;margin-top:0px;margin-bottom:20px;">
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vSQrGdIT9ZiG70I42-r96DOXP98kC6ujMz7Gr-DGqfyCz4g5ZO7LN_enVXY-_nx4_RI3NtLtYb-1AQv/pub?w=240&amp;h=180" alt="A photograph of files in hanging folders. Lots of files and lots of folders." title="A photograph of files in hanging folders. Lots of files and lots of folders." style="float:right;border-radius:25px;margin-right:20px;margin-left:20px;margin-top:0px;margin-bottom:20px;">
 
-Laptops. Everyone has one. You probably have more than one. During the pandemic, it became even more critical for organizations to allow personal devices (phones and computers) to be used from home. 
+This chapter is a nice, quick dive into file management (we'll even investigate encryption!). My guess is you'll probably be fairly familiar with most of the concepts here, but encryption and Linux are worth exploring.
 
-Because mobile systems are so ubiquitous it is easy to forget how critical these devices are. Not only are they typically necessary for work but they are a *huge* vector of attack. 
+* 9.01: Manage Files on Windows
+* 9.02: NTFS and Share Permissions
+* 9.03: File Encryption
+* 9.04: Linux File Management
 
-* 9.1 Laptops
-* 9.2 Laptop Components
-* 9.3 Laptop Power Management
-* 9.4 Laptop Troubleshooting
-* 9.5 Mobile Devices
-* 9.6 Mobile Device Networking
-* 9.7 Mobile Device Security
-* 9.8 Mobile Device Troubleshooting
+<div style="clear:both;">&nbsp;</div>
 
 # Specifications
 
 * Complete all content in Chapter 9 in [TestOut](https://w3.testout.com/).
-* Optionally, feel free to add to the [Wakelet board](https://wakelet.com/i/invite?code=aiq9932x) in this chapter
 
+<br /><br />
 
-</div>
-
-<script>
-function ch09ContentsToggle() {
-  var content = document.getElementById("ch09Contents");
-  if (content.style.display === "none") {
-    content.style.display = "inline-block";
-  } else {
-    content.style.display = "none";
-  }
-}
-</script>
+## Let's be careful out there!
