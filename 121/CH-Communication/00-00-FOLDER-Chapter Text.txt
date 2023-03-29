@@ -1,5 +1,3 @@
-<p style="display:none;">We're making a newsletter!</p>
-
 ^^ Communication
 
 # Experiences for this chapter
