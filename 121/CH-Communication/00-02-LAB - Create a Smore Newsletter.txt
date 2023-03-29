@@ -1,4 +1,4 @@
-^^ ASSIGNMENT - Create a Smore Newsletter
+^^ LAB - Create a Smore Newsletter
 
 # DESCRIPTION
 
@@ -13,11 +13,11 @@ Note that you do not have to be locked into a first grade teacher or a fifth gra
 
 <center>
 
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/XemN4MFjVFs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-[Link to video](https://www.youtube.com/watch?v=XemN4MFjVFs)
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/XemN4MFjVFs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:15px !important;"></iframe>
 
 </center>
+
+<br />
 
 # SPECIFICATIONS
 
@@ -48,3 +48,11 @@ While you don't have to do the following, there are some really cool (and fun!) 
 * Go to Newsletter Settings and dork around
 
 To submit your work, you will need to tell me what grade you are teaching in this scenario and the intention of the newsletter (is it "Back to School", is it "Happenings this week", is it "Here's what we're learning this unit", etc.) and the link to the Smore. Make sure to test the URL incognito before sending it.
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout end
