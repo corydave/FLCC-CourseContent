@@ -86,8 +86,6 @@ Download these files and load them into your IDE.
 # DATE - 
 # DESCRIPTION - 
 
-PASSWORD = 'tooManySecrets'
-
 def main():
     rectangles()
 
