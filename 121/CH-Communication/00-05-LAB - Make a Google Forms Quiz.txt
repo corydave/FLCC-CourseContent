@@ -1,0 +1,48 @@
+^^ LAB - Make a Google Forms Quiz
+
+# Description
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mSePze6UPX8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="float:right;margin-left:10px;margin-bottom:10px;border-radius:15px !important;max-width:420px;height:400px;width:40%;"></iframe>
+
+Chances are that you've used a Google Form before. They are great for collecting information from people (with out without a Google account). They are easy to make and the simplicity makes the tool very simple to use. 
+
+But did you know Google Forms can be used to make quizzes, too? It might not have all the features of full-blown quiz software, but it's pretty dang good! 
+
+Watch this video for a tutorial on how to use a Google Form as a quiz. Your job will be to make a quiz using Google Forms and send me the link so I can take it :)
+
+A few things to be careful of:
+
+1. Make sure you go to the settings and convert the Forms to a Quiz *before* you start making the questions.
+
+2. Make sure you require an email address and configure the quiz so that quiz-takers will get a copy of their submission sent to their email.
+
+If you have any questions, just ask!
+
+<div style="clear:both;"></div>
+
+# Specifications
+* Please make sure you check the rubric to see what is expected.
+
+* The quiz should have at least 3 questions.
+
+* The quiz should have some feedback for each questions.
+
+* The quiz should be created such that quiz takers will receive a copy of their submission.
+
+* The quiz should be created such that quiz takers can see the analytics for all the other students.
+
+* Be sure to submit a working link to your Google Forms Quiz.
+
+<center>
+
+## Let's be careful out there!
+
+</center>
+
+^callout external-link-alt
+
+<br />
+
+Submit your work here.
+
+^callout-end
