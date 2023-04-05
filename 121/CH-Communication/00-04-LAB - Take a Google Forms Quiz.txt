@@ -1,0 +1,35 @@
+^^ LAB - Take a Google Forms Quiz
+
+# DESCRIPTION
+
+Check out this Google Form below (it has been configured to be a quiz):
+
+<center>
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf8tea3sq73zEg8BBXLeLY7igyXDfR9EYz71o5ipbOBkkeHzA/viewform?embedded=true" width="700" height="1100" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+</center>
+
+<hr />
+
+For this particular exercise, there are two steps.
+* You need to do is fill this quiz out and submit it by hitting the purple "Submit" button.
+
+* In Brightspace you will just need to submit some text that says, "I submitted the quiz and the email address I used is `<insert your email address here>`. If you skip this step I might not know if you took the quiz.
+
+You will receive a 100% on this lab even if you answer the questions wrong (in fact, I hope you do miss a question or two so you can see what it looks like from the student perspective).
+
+# SPECIFICATIONS
+
+* Must take the quiz and hit the purple "Submit" button.
+* Must leave a note in the Brightspace submission so I know who to give the credit to!
+
+<br />
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
