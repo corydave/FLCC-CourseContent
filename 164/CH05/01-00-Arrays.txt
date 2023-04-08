@@ -1,1 +1,149 @@
 ^^ Arrays
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/kA_OMJzvtBE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 15px !important;"></iframe>
+
+^acc
+
+^^^ `array.html`
+
+```html
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="array.css">
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="title">
+                Shopping List
+            </div>
+
+            <div class="listContainer">
+                <input id="itemToAdd" class="inputBox">
+                <br />
+                <button class="btn" onclick="addItem()">Add item</button>
+        
+                <hr />
+
+                <div class="listItems" id="listItems">
+                    
+                </div>
+
+            </div>
+
+
+
+        </div>
+        <script src="array.js"></script>
+    </body>
+</html>
+```
+
+^^^ `array.css`
+```css
+.container {
+    /* background-color: #ababab; */
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.title {
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+.inputBox {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px;
+    border: 1px solid #121212;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.btn {
+    background-color: purple;
+    color: #ffffff;
+    padding: 7px 20px;
+    border-radius: 15px;
+    border: 0px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.listContainer {
+    width: 100%;
+    background-color:orange;
+    text-align: center;
+    padding: 12px;
+}
+
+.listItems {
+    background-color: green;
+    padding: 20px;
+    text-align: left;
+}
+
+```
+
+^^^ `array.js`
+
+```javascript
+"use strict";
+
+// window.alert('hi');
+
+// items = ["eggs", "bacon", "milk", "chocolate chips"]
+//             0       1        2            3
+let items = [];
+
+function addItem() {
+    
+    // Get item from the textbox
+    let tempItem = document.getElementById("itemToAdd").value;
+    
+    // Check to see that the textbox is not empty
+    if (tempItem.length > 0) {
+        // Add the item to the array `items[]`
+        items.push(tempItem);    
+    }
+    
+    // DEBUG - Show all values in `items`
+    console.log(items);
+
+    // Clear the textbox
+    document.getElementById("itemToAdd").value = "";
+
+    // Clear the id `listItems`
+    document.getElementById("listItems").innerHTML = "";
+    items.sort();
+
+    // Get each item from the array and add it to the id `listItems`
+    for (let i = 0; i < items.length; i++) {
+        document.getElementById("listItems").innerHTML += "&#9634; " + items[i] + "<br />";
+    }
+
+
+
+}
+```
+
+^acc-end
+
+<br />
+
+Of course, you can [see all the code at our *^icon b-github* GitHub](https://github.com/corydave/FLCC_CSC_164/tree/main/05%20-%20Arrays)!
