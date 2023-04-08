@@ -48,7 +48,7 @@ Here is what a diagram of the array `dictionary` might look like after all this 
 
 <center>
 
-<img src="https://docs.google.com/drawings/d/e/2PACX-1vR6ahZIVN5d_T9xDCVm6dJIH-2KQfFWSoMn6c39Myhx3XL2JuOUq3fiAO4KK0oGkcBq9b49mZRcFMcs/pub?w=900&amp;h=380" alt="Horizontally adjacent rectangles. Each one has a different word in it - aardvark | doggo | llama | zebra." title="Horizontally adjacent rectangles. Each one has a different word in it - aardvark | doggo | llama | zebra." />
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vR6ahZIVN5d_T9xDCVm6dJIH-2KQfFWSoMn6c39Myhx3XL2JuOUq3fiAO4KK0oGkcBq9b49mZRcFMcs/pub?w=900&amp;h=380" alt="Horizontally adjacent rectangles. Each one has a different word in it - aardvark | doggo | llama | zebra." title="Horizontally adjacent rectangles. Each one has a different word in it - aardvark | doggo | llama | zebra." style="width:85%;" />
 
 </center>
 
