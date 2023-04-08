@@ -1,1 +1,57 @@
-temp
+^^ Arrays
+
+<p><img src="https://docs.google.com/drawings/d/e/2PACX-1vRuxlHKoXFpn3O5Is6lkajdBSbNsQJFnkQdQBPAUhu4mGKFAVepG2ATSTxZcAvGEGqUg_761_7BHCcN/pub?w=900&amp;h=380" alt="Horizontally adjacent rectangles. Each one has a popular Droid name in it (in quotes). The number 5 is prominently displayed." title="Horizontally adjacent rectangles. Each one has a popular Droid name in it (in quotes). The number 5 is prominently displayed" width="0" height="0" style="display: none;"></p>
+
+An *array* is a **variable** that can hold multiple values. Think of a dictionary as an array - it is one *thing* that contains 80,000 `string`s (words). Each word has a unique *index*, or place in the dictionary.
+
+For instance, the word **aardvark** might be the first word in the dictionary. In this case, we would say that **aardvark** is the first *element in the array* and it has an index of 0 (remember - computer scientists start counting at zero!).
+
+Maybe in our dictionary of 80,000 words we have the word **llama** as entry 43,560. So we would say that **llama** is the 43,560<sup>th</sup> element, but the index is 43,559. 
+
+In computer speak, we would declare the variable, `dictionary` as an array by using square brackets. Since managing 80,000 elements in one array is overkill, let's look at an array called `dictionary` that only has three values:
+
+```javascript
+
+let dictionary = ["aardvark", "llama", "zebra"];
+
+```
+
+We can do some pretty neat things with an array. We can access the length of it, we can peek at any one element, we can add to the array, we can sort it, we can output the values all at once, and we can do all sorts of other fancy things with an array, too:
+
+```javascript
+
+let dictionary = ["aardvark", "llama", "zebra"];
+// INDEX #:           0          1        2
+
+// get the length of the array
+window.alert("Length of dictionary = " + dictionary.length); // 3
+
+// get a specific element by index number
+window.alert("Second entry = " + dictionary[1]); // llama
+
+// get the last element, regardless of array size
+window.alert("Last entry = " + dictionary[dictionary.length-1]); // zebra
+
+// add an element
+dictionary.push("doggo");
+
+// output entire array
+window.alert(dictionary); // aardvark,llama,zebra,doggo
+
+// sort the contents of the array then output the contents of the array
+dictionary.sort();
+window.alert(dictionary); // aardvark,doggo,llama,zebra
+
+```
+
+Here is what a diagram of the array `dictionary` might look like after all this code is executed:
+
+<center>
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vR6ahZIVN5d_T9xDCVm6dJIH-2KQfFWSoMn6c39Myhx3XL2JuOUq3fiAO4KK0oGkcBq9b49mZRcFMcs/pub?w=900&amp;h=380" alt="Horizontally adjacent rectangles. Each one has a different word in it - aardvark | doggo | llama | zebra." title="Horizontally adjacent rectangles. Each one has a different word in it - aardvark | doggo | llama | zebra." />
+
+</center>
+
+One really important takeaway from the code above - you can *always* retrieve the first element of an array by using index 0:
+
+`dictionary[0]` will always be the first element. Likewise, you can *always* retrieve the last element of an array by using `length-1`. Think about it. If an array has a size of 4, then index 3 is the last element.  If there are 10 elements, index 9 is the 10<sup>th</sup> element. So to reference the last element, you can always use `dictionary[dictionary.length-1]`.
