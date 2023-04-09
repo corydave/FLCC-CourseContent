@@ -50,3 +50,10 @@ I will be checking submissions once a day. After you submit a flowchart that suf
 
 Note that it may take up to 24 hours for me to approve your proposal each time it is submitted, so plan accordingly.
 
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
