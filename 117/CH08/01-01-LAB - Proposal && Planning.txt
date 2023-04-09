@@ -1,0 +1,52 @@
+^^ LAB - Proposal && Planning
+
+It's time to put everything together! You're going to write a meaningful program from scratch! Your program needs to contain the core elements that we've studied so far - variables, `if` statements, loops, and lists. 
+
+You can write a program that does whatever you'd like. Ideas include (but are not limited to):
+1. A checklist that lets the user create items and remove items
+2. A game
+3. A recipe book
+4. Software that keeps track of stats (for instance a program that tracks baseball stats)
+
+This program does *not* need to be a big endeavor, but it *does* need to be functional and it needs to cover the topics we looked at this semester.
+
+You can call the program whatever you'd like - there are no restrictions. You can include multiple files, too. Note that CodeGrade will not automatically grade your work.
+
+For this lab, *you are only submitting your proposal*; there is no code to submit!
+
+Before you have access to the actual program submission, you need to have the planning done. Your planning document should include:
+
+* A detailed description of the program. For instance, saying, "A stats program" is not sufficient - that is not descriptive. Instead, your description might say:
+
+^=^ ,,,,
+
+This program is a statistics program. The user will be prompted with a menu:
+
+```
+1. Enter a stat
+2. Modify a stat
+3. Delete a stat
+4. Display all stats
+5. Run analytics
+6. Quit
+```
+After the user makes a selection, a function in the program will perform the choice. While choices 1-4 are self-explanatory, choice 5 needs some explanation. When `run_analytics()` is called, all the stats will be considered and the following information will be returned - mean, median, mode, range, max, and min.
+
+^=
+
+* A detailed flowchart will also be submitted. Again, this cannot be a broad-stroke flowchart; every function will need to be clearly outlined. The flowchart should provide evidence of a logical flow. Consider the following example:
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vR_hZRBMF8m21btAYYCFs500BSzSYandW4L2sPba1WPA9dj2LMYZ1gZE3NoL_LdSvIEPQS88cEg2ezv/pub?w=1399&amp;h=893" style="width: 100%;" alt="A detailed flowchart for a small program to deal with stats." title="A detailed flowchart for a small program to deal with stats.">
+
+It is clear from this example what the variables are (there is one to read input from the user and one that is a `list` to store the values). It's also very clear what will be happening for each of the choices. Note that after each operation the user is returned to the menu and are allowed to interact with the software until `choice == 6`. 
+
+Anyone who can read a flowchart will be able to understand this; the proper symbols are used and the flow is crystal clear.
+
+You can use whatever software you'd like to make the flowchart but [diagrams.net](https://www.diagrams.net/) and [LucidChart](https://www.lucidchart.com/) are two very popular ones. The flowchart in this example was made using Google Slides (but it took a while!). If you decide to do this by hand, you can submit a picture of it. Note that every submission needs to be legible and easy to read.
+
+If you have questions about flowcharts, consult [this website](https://www.gliffy.com/blog/guide-to-flowchart-symbols) or your lessons in CSC-103: Computing Sciences Portal. You may also email me if you need clarification 😁.
+
+I will be checking submissions once a day. After you submit a flowchart that sufficiently describes your program, you will be able to see the submission for your actual software. You can keep submitting the proposal until I sign off on it.
+
+Note that it may take up to 24 hours for me to approve your proposal each time it is submitted, so plan accordingly.
+
