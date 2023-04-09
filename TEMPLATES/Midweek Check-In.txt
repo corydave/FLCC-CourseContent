@@ -1,4 +1,8 @@
-^^ <center>WEEK 1 - Midweek Check-In</center>
+<center>
+
+^^ WEEK 1 - Midweek Check-In
+
+</center>
 
 # Hope all is going well!
 
