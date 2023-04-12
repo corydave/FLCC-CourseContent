@@ -1,4 +1,4 @@
-^^ ASSIGNMENT - Phishing Quiz
+^^ LAB - Phishing Quiz
 
 # Description
 
@@ -8,3 +8,13 @@
 Phishing is probably the number one vector of attack. It's known as hacking humans, and you've probably laughed at poor attempts of phishing in email spam.
 
 But it works. And it's easier
+
+<div style="clear:both;"></div>
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
