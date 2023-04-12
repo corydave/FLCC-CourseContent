@@ -1,13 +1,1 @@
 ^^ Cybersecurity
-
-# Experiences
-
-* PRESENTATION - Cybersecurity
-
-* VIDEO - Hacking WiFi at Starbucks [⭐⭐⭐⭐⭐ This is a must see!]
-
-* VIDEO - Social Engineering in Hollywood [⭐⭐⭐⭐⭐]
-
-* **ASSIGNMENT - Security Health Check**
-
-* **ASSIGNMENT - Phishing Quiz**
