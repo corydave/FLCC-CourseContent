@@ -1,4 +1,4 @@
-^^ ASSIGNMENT - Router Configuration
+^^ LAB - Router Configuration
 
 # Description
 
