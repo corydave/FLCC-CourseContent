@@ -11,9 +11,13 @@ This is not an assessment! You'll receive a perfect grade just for doing this se
 
 Answer each question as best as you can.
 
+<div style="clear:left;"></div>
+
+<br /><center>
+
 **DO NOT ENTER ANY SENSITIVE INFORMATION (such as passwords, PINs, etc.).**
 
-<div style="display:block;width:100%;clear:left;">
+</center>
 
 # Specifications
 
@@ -24,3 +28,11 @@ Answer each question as best as you can.
 * Your score will be turned into a 100% at some point this semester; the score you actually receive is merely for your own edification.
 
 </div>
+
+^callout external-link-alt
+
+<br />
+
+Click here to take the quiz.
+
+^callout-end
