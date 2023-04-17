@@ -26,6 +26,12 @@ In this lab, we will look at adding some interaction with a list. The HTML and C
 
 * `clearNames()` should clear the values in the array as well as the values in the `div` with the id of `output`. This function has been done for you!
 
+^=^ ,,
+
+Please submit only the JavaScript file. You will need to `.zip` it or use the code editing feature.
+
+^=
+
 ^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/Rn-ioRyKT1M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius:15px !important;"></iframe>
 
 <br />
