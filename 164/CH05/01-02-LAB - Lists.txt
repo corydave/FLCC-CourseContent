@@ -1,0 +1,48 @@
+^^ LAB - Lists
+
+As you know, an *array* is one variable that can hold multiple values. We can access any one of the values but using the *index* of each element.
+
+```javascript
+
+// Declare an array with three values
+let names = ["Maria", "Ayana", "Dava"];
+
+// Output the value with index 1
+window.alert(names[1]); // Ayana
+
+```
+
+In this lab, we will look at adding some interaction with a list. The HTML and CSS files will be provided. Your job is to add JavaScript to make several functions operable. Note that the array, `names`, has been created for you.
+
+* `addName()` will grab the value in the text box and add it to the array.
+
+* `showNames()` will display the names, in the order that they were added to the array. They should be displayed in the `div` with the id of `output`.
+
+* `reverseNames()` should reverse the order of the elements in the list `names`.
+
+* `sortNames()` should sort the order of the elements in the list `names`.
+
+* `random()` should randomly select one of the elements from the array and display it using `window.alert()`.
+
+* `clearNames()` should clear the values in the array as well as the values in the `div` with the id of `output`. This function has been done for you!
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/Rn-ioRyKT1M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius:15px !important;"></iframe>
+
+<br />
+
+^callout file-download
+
+<br />
+
+[`.zip` files to get you started](https://drive.google.com/uc?export=download&id=1rdPJz3jXATrZoxBKHxdBFItXQmMXbebj)
+
+^callout-end
+
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
