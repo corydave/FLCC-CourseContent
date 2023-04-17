@@ -4,7 +4,7 @@
 
 # Experiences for this chapter
 
-<img src="https://docs.google.com/drawings/d/e/2PACX-1vQo7KU0HlORA6ar0yurhBjCE73TOu4yJl8Z8cpLFO6Ko8tnN-sk-dNfgupkfxgEVMHfY81OtFwUXO-I/pub?w=240&amp;h=180" alt="The words SMART, ALERT, STRONG, KIND, and BRAVE (in different colors)." title="The words SMART, ALERT, STRONG, KIND, and BRAVE (in different colors)." style="float:right;border-radius:25px;margin-right:20px;margin-left:20px;margin-top:-20px;margin-bottom:20px;">
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vQo7KU0HlORA6ar0yurhBjCE73TOu4yJl8Z8cpLFO6Ko8tnN-sk-dNfgupkfxgEVMHfY81OtFwUXO-I/pub?w=240&amp;h=180" alt="The words SMART, ALERT, STRONG, KIND, and BRAVE (in different colors)." title="The words SMART, ALERT, STRONG, KIND, and BRAVE (in different colors)." style="float:right;border-radius:25px;margin-right:20px;margin-left:20px;margin-top:20px;margin-bottom:20px;">
 
 "Digital Citizenship" is the responsible use of computers by users. That's a very broad responsibility! Digital citizenship means being vigilant about discerning information. It means protecting your privacy. It means guarding your secrets (like passwords!). It means contributing to digital society *in a responsible manner* (for instance, not being a bully).
 
