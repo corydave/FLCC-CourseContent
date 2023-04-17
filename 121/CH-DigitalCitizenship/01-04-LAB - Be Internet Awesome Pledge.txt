@@ -1,0 +1,14 @@
+^^ LAB - Be Internet Awesome Pledge
+
+Google has created a Be Internet Awesome Pledge. Download the pledge, sign it, and submit it!
+
+[Download the pledge here](https://storage.googleapis.com/gweb-interland.appspot.com/en-us/hub/pdfs/Google_BeInternetAwesome_Pledge.pdf)
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
+
