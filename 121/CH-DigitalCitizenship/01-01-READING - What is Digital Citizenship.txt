@@ -1,0 +1,28 @@
+^^ READING - What is Digital Citizenship
+
+Since digital citizenship is a relatively new concept and contains a number of different dimensions, different organizations have different interpretations of the standards, vocabulary, and meaning.
+
+## CommonSense.org
+
+One really neat resource to help understand digital citizenship is the non-profit "CommonSense.org". They have some pretty wonderful interpretations of digital citizenship as well as interactive activities, broken down by year in school! I definitely recommend poking around here for a little bit to get a sense of what digital citizenship is and also understanding what resources are available for you to use in your classroom.
+
+* [CommonSense.org Digital Citizenship](https://www.commonsense.org/education/digital-citizenship/curriculum)
+
+<center><img src="https://www.commonsense.org/modules/custom/cse_components/src/components/digcit_curriculum/digcit_curriculum_lessons/images/img_characters_k-2.png" style="width: 80%" alt="Cartoon characters representing different aspects of digital citizenship." title="Cartoon characters representing different aspects of digital citizenship." /></center><br /><br />
+
+## New York State Department of Education
+
+Though New York State doesn't explicitly refer to it as *digital citizenship*, they *do* provide **Computer Science and Digital Fluency Learning Standards*. You should also poke around their website and check out the learning standards by grade band.
+
+* [NYSED Digital Fluency Standards](https://www.nysed.gov/curriculum-instruction/computer-science-and-digital-fluency-learning-standards) - check out the standards for the grade you hope to teach (or are currently teaching!).
+
+<center><img src="https://www.nysed.gov/sites/all/images/nysed-logo.png" style="border-radius: 15px !important; width:80%;" alt="NYSED ogo" title="NYSED logo" /></center><br /><br />
+
+## Applied Educational Systems
+
+Another interesting perspective on digital citizenship is written by Applied Educational Systems. Note that this organization isn't part of New York State (AES is a for-profit company) though their thoughts on digital citizenship are interesting. 
+
+* You can [read their thoughts here](https://www.aeseducation.com/blog/what-is-digital-citizenship)
+
+<center><img src="https://www.aeseducation.com/hubfs/what-is-digital-citizenship.jpg" style="border-radius: 15px !important;width:80%;" alt="An illustration of a world map with the words WHAT IS DIGITAL CITIZENSHIP? superimposed on it." title="An illustration of a world map with the words WHAT IS DIGITAL CITIZENSHIP? superimposed on it." />
+
