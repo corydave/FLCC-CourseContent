@@ -1,4 +1,4 @@
-^^ ASSIGNMENT - Flowchart
+^^ LAB - Flowchart
 
 # Description
 
@@ -27,3 +27,11 @@ Design a broad-stroke flowchart. For example, it could be a flowchart of how you
 ^=
 
 <br /><br />
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
