@@ -1,9 +1,1 @@
 ^^ Pseudocode
-
-# Experiences
-
-* PRESENTATION - Pseudocode
-
-* **ASSIGNMENT - Pseudocode Quiz [Must get 100%]**
-
-* **ASSIGNMENT - Pseudocode**
