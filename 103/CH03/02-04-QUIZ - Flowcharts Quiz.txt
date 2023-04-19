@@ -2,8 +2,8 @@
 
 # Description
 
-<div style="display:block;width:100%;">
-<div style="float:left;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vTJdorhsj-CX3a18EXZSey3LEMa2NlIZxQ9r7z_SPB03RVcJyNYWG0NwsIoV-5sYUuz4u-2S0HEjCPg/pub?w=200&h=200" alt="An icon for a quiz. Some boxes with checkmarks and ‘X’s." style="margin: 0pt 10pt 10pt 0pt;float:left;"  /></div>
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vTJdorhsj-CX3a18EXZSey3LEMa2NlIZxQ9r7z_SPB03RVcJyNYWG0NwsIoV-5sYUuz4u-2S0HEjCPg/pub?w=200&h=200" alt="An icon for a quiz. Some boxes with checkmarks and ‘X’s." style="margin: 0pt 10pt 10pt 0pt;float:left;"  />
 
 Flowcharting is a language. Much like mathematicians worldwide agree that the plus sign means addition, the flowcharters worldwide agree (for example) that the diamond means *decision*.
 
@@ -14,8 +14,6 @@ This quiz assesses your understanding of the different shapes and their meanings
 You need to score a 100% on the quiz to see the flowchart assignment.
 
 Don't worry! You can take the quiz as many times as you'd like (but keep in mind that if you take a quiz after the due date, it will not be automatically graded and you'll have to email me and let me know - so it's in your best interest to take the quizzes before the due date.
-
-</div>
 
 <div style="display:block;width:100%;clear:left;">
 
@@ -30,3 +28,11 @@ Don't worry! You can take the quiz as many times as you'd like (but keep in mind
 * You must score a 100% to access the Flowchart assignment.
 
 </div>
+
+^callout external-link-alt
+
+<br />
+
+Click here to access the quiz.
+
+^callout-end
