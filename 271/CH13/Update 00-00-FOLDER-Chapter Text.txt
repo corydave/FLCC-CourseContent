@@ -1,0 +1,25 @@
+^^ Chapter 13 - Printing<br />[4-5 hours]
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vRj7YxOJNcMsnPbqP55qnLv_tx-vbwEVqx_7Js3uZ5fSYxjH_yyhFCzJNKeVOV-VEqUEzVbb6VYCzY1/pub?w=907&amp;h=385" alt="Icons of printers with the number 13 prominently displayed." title="Icons of printers with the number 13 prominently displayed." width="0" height="0" style="display:none;" />
+
+# Description
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vQr6iO3zowIY-1D2XK1E1eD9FJ-hYcjU4y1Zl5IvlIGEUJySolG5hEd9Kl2gbC5kFPnBVDZxCyMkjPm/pub?w=240&h=180" alt="A photograph of laserjet print cartridges." title="A photograph of laserjet print cartridges." style="float:right;border-radius:25px;margin-right:20px;margin-left:20px;margin-top:0px;margin-bottom:20px;" />
+
+
+The bane of all IT workers existence: Printers. They are security concerns, they have mechanical problems, they have network issues, and when employees need them, *they need them*.
+
+* 13.01: Printer Overview
+* 13.02: Print Connectivity
+* 13.03: Printer Types and Components
+* 13.04: Printer Troubleshooting
+
+<div style="clear:both;">&nbsp;</div>
+
+# Specifications
+
+* Complete all content in Chapter 13 in [TestOut](https://w3.testout.com/).
+
+<br /><br />
+
+## Let's be careful out there!
