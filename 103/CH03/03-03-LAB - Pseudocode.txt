@@ -1,4 +1,4 @@
-^^ ASSIGNMENT - Pseudocode
+^^ LAB - Pseudocode
 
 # Description
 
@@ -8,13 +8,13 @@ Remember that pseudocode is similar to an outline of a paper - it's a draft of y
 
 The reserved words are:
 
-* **START**
-* **READ (or INPUT)**
-* **PRINT (or OUTPUT)**
-* **IF**
-* **ELSE**
-* **WHILE**
-* **END**
+* **`START`**
+* **`READ` (or `INPUT`)**
+* **`PRINT` (or `OUTPUT`)**
+* **`IF`**
+* **`ELSE`**
+* **`WHILE`**
+* **`END`**
 
 # Specifications
 
@@ -32,4 +32,12 @@ The reserved words are:
 
 ^=
 
-<br /><br />
+<br />
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
