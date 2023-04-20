@@ -1,0 +1,27 @@
+^^ LAB - Interactive List
+
+In this lab, you will be given code (done in class) that will populate a list. Your job is to complete the `remove()` function.
+
+* `remove()` will prompt the user for an item number to remove and then you will remove it from the list and display the list.
+
+^=^ ,,
+
+Please submit the HTML/CSS/JavaScript file. You will need to `.zip` it or use the code editing feature.
+
+^=
+
+^callout file-download
+
+<br />
+
+[`interactiveList.html` file to get you started](https://drive.google.com/uc?export=download&id=1FlE3K-AGfp8CUl9G2z2rsSvboo_0ZXDo)
+
+^callout-end
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
