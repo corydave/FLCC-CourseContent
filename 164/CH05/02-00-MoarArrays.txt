@@ -1,0 +1,91 @@
+^^ Moar Arrays
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/bMGdadT1H5s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 15px !important;"></iframe>
+
+^acc
+
+^^^ `moarrays.html`
+
+```html
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>MoarArrays</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+
+        <h1>working?</h1>
+        
+        <script>
+
+            "use strict";
+
+            let inventory = ["arrows", "torch", "Excalibur", "potion", "snake venom"];
+            // console.log(inventory);
+            inventory.sort();
+            // Excalibur,arrows,potion,snake venom,torch
+            // console.log(inventory);
+            // let satchel = ["arrows", "potion", "snake venom"];
+            let satchel = inventory.slice(1, 4);
+            // .slice(starting point, one past ending point)
+            // [, )
+            // console.log("satchel = " + satchel);
+            // console.log("inventory = " + inventory);
+            let belt = [];
+            belt.push(inventory[0]);
+            belt.push(inventory[4]);
+            console.log("inventory = " + inventory);
+            // console.log("satchel = " + satchel);
+            // console.log("belt = " + belt);
+
+            // LIFO - Last In, First Out
+            inventory.pop();
+            console.log("inventory = " + inventory);
+
+            // One way to remove the first element:
+            inventory = inventory.slice(1, inventory.length);
+            console.log("inventory = " + inventory);
+
+            inventory.shift();
+            console.log("inventory = " + inventory);
+
+            console.log("");
+
+            inventory = ["arrows", "torch", "Excalibur", "potion", "snake venom"];
+            inventory.sort();
+
+            console.log("inventory = " + inventory);
+
+            inventory.pop();
+            inventory.shift();
+            inventory.shift();
+            console.log("inventory = " + inventory);
+
+            console.log("");
+
+            inventory = ["arrows", 3, "torch", "Excalibur", 1, 10, "potion", "snake venom"];
+            inventory.sort();
+
+            console.log("inventory = " + inventory);
+            // inventory = inventory.slice(0,2) + inventory.slice(4, 5);
+            // inventory = inventory.splice(2, 2);
+            inventory.splice(2, 2);
+            // console.log("inventory = " + inventory);
+            console.log("inventory = " + inventory);
+
+        </script>
+    </body>
+</html>
+```
+
+^acc-end
+
+<br />
+
+Of course, you can [see all the code at our *^icon b-github* GitHub](https://github.com/corydave/FLCC_CSC_164/blob/main/05%20-%20Arrays/moarArrays/moarrays.html)!
