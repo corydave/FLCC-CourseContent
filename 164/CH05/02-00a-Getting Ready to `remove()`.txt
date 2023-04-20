@@ -1,0 +1,82 @@
+^^ Getting Ready to `remove()`
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/dyh1ncBx32M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 15px !important;"></iframe>
+
+^acc
+
+^^^ `interactiveList.html`
+
+```html
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>InteractiveList</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    </head>
+    <body>
+
+        <input id="toAdd" type="text" /><button onclick="add()">Add</button>
+        <br />
+        <div id="listContainer"></div>
+        <br />
+        <button onclick="removeItem()">Remove an item</button>
+        
+        <script>
+            "use strict";
+            
+            let list = [];
+            let toAdd = document.getElementById("toAdd");
+            let listContainer = document.getElementById("listContainer");
+            toAdd.focus();
+
+            function add() {
+                let tempItem = toAdd.value;
+                
+                if (tempItem.length < 1) {
+                    window.alert("No item has been added");
+                    return;
+                }
+
+                list.push(tempItem);
+                displayList();
+                toAdd.value = "";
+                toAdd.focus();
+                console.log(list);
+            }
+
+            function displayList() {
+                // window.alert('hi');
+                listContainer.innerHTML = "";
+                list.sort();
+
+                for (let i = 0; i < list.length; i++) {
+                    listContainer.innerHTML += (i + 1) + ". " + list[i] + "<br />";
+                }
+            }
+
+            function removeItem() {
+                console.log("removeItem() has been called");
+                // Yer job:
+
+                // Ask the user which NUMBER item to remove (use window.prompt())
+                // Remove said item
+                // call displayList()
+            }
+
+        </script>
+
+    </body>
+</html>
+
+```
+
+^acc-end
+
+<br />
+
+Of course, you can [see all the code at our *^icon b-github* GitHub](https://github.com/corydave/FLCC_CSC_164/blob/main/05%20-%20Arrays/InteractiveLists/interactiveList.html)!
