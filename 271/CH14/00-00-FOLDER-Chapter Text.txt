@@ -1,54 +1,32 @@
-<div id="ch13Button" onclick="ch13ContentsToggle()">
+^^ Chapter 14 - Security<br />[8-10 hours]
 
-<CENTER>
-
-^^ Chapter 13 - Security [10-11 hours]<br />&#9660;
-
-</CENTER>
-
-
-</div>
-
-<div id="ch13Contents" style="display:none;">
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vR_GlIC47m4UinCnX3Ipq_lWupiyT290bOnQPIpkyiW5_TYC92pQZAR3JepcNuX3pxS9XUR0u7c0fbl/pub?w=907&amp;h=385" alt="A security shield and the words LETS BE CAREFUL OUT THERE as well as the number 14 prominently displayed." title="A security shield and the words LETS BE CAREFUL OUT THERE as well as the number 14 prominently displayed." width="0" height="0" style="display:none;" />
 
 # Description
 
-<img src="https://docs.google.com/drawings/d/e/2PACX-1vT2y4Je0asp6ngCYMMsIPTg2oeprvs_7nG3-qZowrHouo_m6b9O8UM209vBPuYI0ZAfcPPkcyZnac7E/pub?w=240&h=180" alt="The words LETS BE CAREFUL OUT THERE and an illustration of a shield with a lock on it." title="The words LETS BE CAREFUL OUT THERE and an illustration of a shield with a lock on it." style="float:right;border-radius:25px;margin-right:20px;margin-left:20px;margin-top:0px;margin-bottom:20px;">
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vT2y4Je0asp6ngCYMMsIPTg2oeprvs_7nG3-qZowrHouo_m6b9O8UM209vBPuYI0ZAfcPPkcyZnac7E/pub?w=480&amp;h=360" alt="A security shield and the words LETS BE CAREFUL OUT THERE as well as the number 14 prominently displayed." title="A security shield and the words LETS BE CAREFUL OUT THERE as well as the number 14 prominently displayed." style="float:right;border-radius:25px;margin-right:20px;margin-left:20px;margin-top:0px;margin-bottom:20px;" />
 
 
-If you like this chapter, you'll *love* CSC-270 - Principles of Information Security. Physical security like mantraps. Digital security like honeypots. Ransomware. Phishing. All the cool stuff!
+This is certainly one of my favorite chapters. If you haven't been in CSC-270: Principles of Information Security, then most of this stuff will be new to you (unless you've encountered it in other places in your life). This very well might be your first introduction to cybersecurity. My guess is that you know some of this stuff already. Either way, I hope you like this chapter. My favorite part is the Social Engineering!
 
-Like the previous chapter, this chapter is long, and there is **a ton** of stuff to know. But it's important. It's all important 
+* 14.01: Security Best Practices
+* 14.02: Incident Response and Regulated Data
+* 14.03: Physical Security
+* 14.04: Logical Security Measures
+* 14.05: Social Engineering Attacks
+* 14.06: Data Destruction and Disposal
+* 14.07: Malware Protection
+* 14.08: Firewalls
+* 14.09: Proxy Servers
+* 14.10: Install, Configure, and Secure Browsers
+* 14.11: Security Troubleshooting
 
-* 13.1 Security Best Practices
-* 13.2 Incident Response
-* 13.3 Physical Security
-* 13.4 Social Engineering
-* 13.5 BIOS/UEFI Security
-* 13.6 Malware Protection
-* 13.7 Authentication
-* 13.8 File Encryption
-* 13.9 Network Security
-* 13.10 Firewalls
-* 13.11 Proxy Servers
-* 13.12 VPN
-* 13.13 Security Troubleshooting
+<div style="clear:both;">&nbsp;</div>
 
 # Specifications
 
-* Complete all content in Chapter 13 in [TestOut](https://w3.testout.com/).
-* Optionally, feel free to add to the [Wakelet board](https://wakelet.com/i/invite?code=cak8qp0a) in this chapter
+* Complete all content in Chapter 14 in [TestOut](https://w3.testout.com/).
 
+<br /><br />
 
-</div>
-
-<script>
-function ch13ContentsToggle() {
-  var content = document.getElementById("ch13Contents");
-  if (content.style.display === "none") {
-    content.style.display = "inline-block";
-  } else {
-    content.style.display = "none";
-  }
-}
-</script>
+## Let's be careful out there!
