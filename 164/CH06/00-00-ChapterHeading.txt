@@ -1,0 +1,33 @@
+^^ Objects and JSON
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vQc6xC--C6FF4_gGefKxJl1_tXEnFyRKdVG9IsgLoHEtxqiIM-9qRfD-IZlIpwvp8UAQWGYBA2y_aGV/pub?w=900&amp;h=380" alt="The icon for JSON and the word JSON. The number 65 is prominently displayed." title="The icon for JSON and the word JSON. The number 65 is prominently displayed." width="0" height="0" style="display:none;">
+
+An *object* in JavaScript is a construct that can hold multiple pieces of information using a *key/value* pair. Check out this example:
+
+```javascript
+
+let data = {
+     members:
+     [
+        {
+          "name":"Dave Ghidiu",
+          "age": 44
+        },
+        {
+          "name":"John Ghidiu",
+          "age": 44.001
+        }
+     ]
+  }
+
+console.log(data.members[0].name);
+// Dave Ghidiu
+
+```
+
+In this chapter we'll be looking at some ways to use JSON (JavaScript Object Notation) files. It's important to know that JSON is:
+
+* lightweight
+* easy to read by humans (self-describing)
+* integrates with many other languages
+* supports strings, numbers, booleans, null, arrays, objects
