@@ -1,0 +1,69 @@
+^^ LAB - Explore Google Doc Features
+
+# Description
+
+Over the past few years Google Docs has rolled out several tools that are fantastic for collaboration, productivity, and interaction. This experience has two objectives:
+
+^= =
+
+## Objective 1
+
+You will learn how to use several tools that can help in productivity and collaboration.
+
+^= =
+
+* Title
+* Headings
+* Summary
+* Checkboxes
+* Dropdowns
+
+^===
+
+* Watermark
+* Orientation
+* Emoji voting
+* Smart Chips
+* Table of Contents
+
+^=
+
+^===
+
+## Objective 2
+
+You will look at some of the other really nifty tools in Google Docs.
+
+* Format painter
+* Voice typing
+* Word count
+
+^=
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/pgTbFvBxc9U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius:15px !important;"></iframe>
+
+<br />
+
+In the video we will examine all of these tools though your final product will only use *some* of the tools - but you should still be aware of the ones not required in your work.
+
+If you have any questions, just ask!
+
+<div style="clear:both;"></div>
+
+# Specifications
+
+* Your work must include the required tools
+
+* Your Google Doc must be shared such that [Anyone with the link can ***VIEW***](https://www.youtube.com/watch?v=jFGXfLDctcI)
+
+* Be sure you check the rubric for all specifications.
+
+## Let's be careful out there!
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
