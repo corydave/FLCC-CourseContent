@@ -1,0 +1,42 @@
+^^ LAB - Create a branded Google Doc with Embeddables
+
+# Description
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pgTbFvBxc9U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="float:right;margin-left:10px;margin-bottom:10px;border-radius:15px !important;max-width:420px;height:400px;width:40%;"></iframe>
+
+We're going to take some of the things we've made this semester and *embed* them into Google Docs! This is exciting because *if you change the original item, it can be easily updated in Google Docs*! The items we will be embedding are:
+
+* Avatar (Google Drawings)
+* Document Header (Google Drawings)
+* Parent Time (Google Sheets)
+
+At the end of the video I demonstrate how you can update all the items at once. Note that for this experience you don't have to modify any of your original pieces (but you can if you want to!).
+
+You can also [check out the final produce here](https://docs.google.com/document/d/1kQ7yLN81LpBz0SiLlD4K9piJRLH9fxeQj6qCpY2hNq4/preview).
+
+If you have any questions, just ask!
+
+<div style="clear:both;"></div>
+
+# Specifications
+* Your work must have your *avatar* from Google Drawings embedded.
+
+* Your work must have your *document header* from Google Drawings embedded.
+
+* Your work must have your *parent time* from Google Sheets embedded.
+
+* Please include some words to contextualize what this document is. In the video, I used *Lorem ipsum* (placeholder text) but your message to the parents should be genuine.
+
+* Your Google Doc must be shared such that [Anyone with the link can ***VIEW***](https://www.youtube.com/watch?v=jFGXfLDctcI)
+
+* Be sure you check the rubric for all specifications.
+
+## Let's be careful out there!
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
