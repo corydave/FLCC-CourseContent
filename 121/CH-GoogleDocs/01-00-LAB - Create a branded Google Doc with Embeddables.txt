@@ -12,7 +12,7 @@ We're going to take some of the things we've made this semester and *embed* them
 
 At the end of the video I demonstrate how you can update all the items at once. Note that for this experience you don't have to modify any of your original pieces (but you can if you want to!).
 
-You can also [check out the final produce here](https://docs.google.com/document/d/1kQ7yLN81LpBz0SiLlD4K9piJRLH9fxeQj6qCpY2hNq4/preview).
+You can also [check out the final product here](https://docs.google.com/document/d/1kQ7yLN81LpBz0SiLlD4K9piJRLH9fxeQj6qCpY2hNq4/preview).
 
 If you have any questions, just ask!
 
