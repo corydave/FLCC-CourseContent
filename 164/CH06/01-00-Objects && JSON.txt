@@ -1,0 +1,200 @@
+^^ Objects && JSON
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/ZacEEd5s6tM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 15px !important;"></iframe>
+
+^acc
+
+^^^ `objectDemo01.html`
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON</title>
+</head>
+
+<!-- 
+    JSON files are JavaScript Object Notation (you might hear it pronounced "JaSON")
+      - Lightweight (it's just a text file)
+      - Easy to read by humans
+      - Integrates with almost every other language
+
+      let characterName01 = "Gandolf";
+      let characterEyes01 = "brown";
+      let characterSpeed01 = 10;
+      let ...
+
+      KEY/VALUE PAIR
+
+      let character01 = {
+        "name": "Gandolf",
+        "eyes": "brown",
+        "speed": 10,
+        "inventory": ["potion", "staff", "book"]
+      }
+
+      let character02 = {
+        "name": "Frodo",
+        "eyes": "blue",
+        "speed": 6,
+        "inventory": ["ring", "sandwich"]
+      }
+
+      console.log(character01.eyes);
+
+      let players = [character01, character02];
+
+      for (let i = 0; i < players.length; i++) {
+        console.log(players[i].name);
+      }
+
+-->
+
+<body>
+
+    <h1>Hobbitsis</h1>
+
+    <ul id="fellowship">
+        <li id="hobbit01"></li><br />
+        <li id="hobbit02"></li>
+    </ul>
+
+    <script>
+        "use strict";
+
+        let frodo = {
+            "name": "Frodo",
+            "height": 48,
+            "inventory": ["ring", "sandwich"]
+        }
+
+        let sam = {
+            "name": "Samwise",
+            "height": 38,
+            "inventory": ["sword", "sandwich", "hat", "another sandwich"]
+        }
+
+        console.log(frodo);
+        let temp = document.getElementById("hobbit01");
+        temp.innerHTML += "Name = " + frodo.name;
+        temp.innerHTML += "<br />Height = " + frodo.height;
+        temp.innerHTML += "<br />Inventory = " + frodo.inventory;
+
+        let temp2 = document.getElementById("hobbit02");
+        temp2.innerHTML += "Name = " + sam.name;
+        temp2.innerHTML += "<br />Height = " + sam.height;
+        temp2.innerHTML += "<br />Inventory = " + sam.inventory;
+
+
+    </script>
+
+</body>
+</html>
+```
+
+^^^ `objectDemo02.html`
+```html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The RIGHT Way</title>
+</head>
+
+<body>
+
+    <h1>Now, for the right way...</h1>
+
+    <ul id="rebels"></ul>
+
+    <button onclick="revealRebels()">REVEAL REBELS</button>
+
+    <script>
+
+        "use strict";
+
+        // let temp = [asdf, asdf, asdf]
+
+        let rebelAlliance = {
+            rebels:
+                [
+                    {
+                        "name": "Luke",
+                        "force": true,
+                        "ship": "X-Wing",
+                        "inventory": ["droid", "lightsaber", "grappling hook"],
+                        "age": 25
+                    },
+                    {
+                        "name": "Han Solo",
+                        "force": false,
+                        "ship": "Millenium Falcon",
+                        "inventory": ["Companion, Chewy", "blaster"],
+                        "age": 35
+                    },
+                    {
+                        "name": "Leia",
+                        "force": true,
+                        "ship": "Alderann Diplomatic Cruiser",
+                        "inventory": ["R2-D2"],
+                        "age": 25
+                    }                                        
+
+                ]
+        }
+
+        function revealRebels() {
+            let spot = document.getElementById("rebels");
+            let html = "";
+            // spot.innerHTML = rebelAlliance;
+            // spot.innerHTML = rebelAlliance.rebels;
+            // console.log(rebelAlliance.rebels);
+
+            for (let i = 0; i < rebelAlliance.rebels.length; i++) {
+                // console.log(rebelAlliance.rebels[i]);
+                html += "<li>";
+                html += "Name: " + rebelAlliance.rebels[i].name;
+                html += "<br />Force: " + rebelAlliance.rebels[i].force;
+                html += "<br />Ship: " + rebelAlliance.rebels[i].ship;
+                // html += "<br />Inventory: " + rebelAlliance.rebels[i].inventory;
+                html += "<br />Age: " + rebelAlliance.rebels[i].age;
+                html += "</li><br />";
+            }
+
+            spot.innerHTML = html;
+
+        }
+    </script>
+
+</body>
+</html>
+
+```
+
+^acc-end
+
+<br /><br />
+
+Of course, you can [see all the code at our *^icon b-github* GitHub](https://github.com/corydave/FLCC_CSC_164/tree/main/06%20-%20Objects)!
+
+<br /><br />
+
+<hr />
+
+For more ideas and perspectives on JSON files, you might like these two videos:
+
+^= =
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/6OhMbf2v_jI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius:15px !important;"></iframe>
+
+^===
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/iiADhChRriM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius:15px !important;"></iframe>
+
+^=
