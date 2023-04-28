@@ -10,7 +10,7 @@ You can do this a number of ways, but one of the most interesting ways is to use
 
 This is handy for guided instruction (for instance, students responding to questions as they watch a movie or work on a project).
 
-In this experience, we will be changing the background color of a Google Doc and inserting tables after prompts to help guide students in their responses.
+In this experience, we will be changing the background color of a Google Doc and inserting tables after prompts to help guide students in their responses. You can [see the document I made by clicking here](https://docs.google.com/document/d/1YC5IM0vzGt_xVsdmwwh0sosJhRZybILOVjTMYKq_VCY/edit#)
 
 If you have any questions, just ask!
 
