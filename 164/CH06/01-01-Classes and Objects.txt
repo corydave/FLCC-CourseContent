@@ -1,0 +1,133 @@
+^^ Classes and Objects
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/fInnI1sZJjY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 15px !important;"></iframe>
+
+^acc
+
+^^^ `characterGame.html`
+
+```html
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>GAME</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+
+            .charPrompt {
+                display: inline-block;
+                width: 120px;
+            }
+
+            .charContainer {
+                width: 500px;
+                background-color: #1e90ff;
+                padding: 20px;
+                border-radius: 15px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        </style>
+
+
+
+    </head>
+    <body>
+        
+        <div class="charContainer">
+            <h1>GAME</h1>
+        
+
+            <div class="charPrompt">NAME: </div><input type="text" id="charName"><br /><br />
+            <div class="charPrompt">ATTACK: </div><input type="text" id="charAttack"><br /><br />
+            <div class="charPrompt">DEFENSE: </div><input type="text" id="charDefense"><br /><br />
+            <div class="charPrompt">SPEED: </div><input type="text" id="charSpeed"><br /><br />
+
+            <br />
+
+            <button onclick="addCharacter()">Add Character</button>
+            <br />
+            <br />
+            <button onclick="showCharacters()">Show Characters</button>
+
+
+            
+        </div>
+
+
+        <script>
+
+            "use strict";
+
+            // Declare the array that will hold the characters
+            let characters = [];
+
+            // Set the FOCUS to the `name` field
+            document.getElementById('charName').focus();
+
+            // Declare the CLASS, called `Player`, that describes the attributes
+            // of each character
+            class Player {
+                constructor(name, attack, defense, speed) {
+                    this.name = name;
+                    this.attack = attack;
+                    this.defense = defense;
+                    this.speed = speed;
+                }
+            }
+
+            // Get the input from the user and then create the character. Then
+            // add the new character, a `Player`, into the array.
+            function addCharacter() {
+
+                // Here's where we get the input from the user:
+                let tempName = document.getElementById("charName").value;
+                let tempAttack = document.getElementById("charAttack").value;
+                let tempDefense = document.getElementById("charDefense").value;
+                let tempSpeed = document.getElementById("charSpeed").value;
+
+                // Here's where we add the new `Player` to the array:
+                characters.push(new Player(tempName, tempAttack, tempDefense, tempSpeed));
+
+                clearContents();
+
+            }
+
+            // Clear the input from the user, prepping for another new character
+            function clearContents() {
+                let blanks = document.getElementsByTagName("input");
+                
+                for (let i = 0; i < blanks.length; i++) {
+                    blanks[i].value = "";
+                }
+
+                document.getElementById('charName').focus();
+            }
+
+            function showCharacters() {
+                console.log(characters);
+            }
+
+
+
+
+
+
+
+        </script>
+    </body>
+</html>
+```
+
+^acc-end
+
+<br /><br />
+
+Of course, you can [see all the code at our *^icon b-github* GitHub](https://github.com/corydave/FLCC_CSC_164/blob/main/06%20-%20Objects/characterGame.html)!
+
+<br /><br />
