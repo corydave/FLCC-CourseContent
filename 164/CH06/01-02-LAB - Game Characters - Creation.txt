@@ -1,0 +1,23 @@
+^^ LAB - Game Characters - Creation
+
+<center><img src="https://docs.google.com/drawings/d/e/2PACX-1vSxlKmm6T4CZwR6f-2nGMKVAKkLMWQD_VoGud-gwG_XMXYytmF62gkeJI14zifCdScEzuiTkKUpn6UC/pub?w=621&amp;h=561" alt="An illustration of a potential UI for creating a game character." title="An illustration of a potential UI for creating a game character." /></center>
+
+This is phase one of building a small game. The long vision is to create a game where players can create characters and have them battle each other, keep stats, and maybe even buy power-ups and save progress.
+
+For right now, we're just focusing on setting up the interface for the user to be able to create a few characters. You can use the image below as inspiration for your lab, but there are no formal specifications for design. You can have different attributes for the characters, additional attributes, and the layout can be whatever you'd like.
+
+The "Add Character" button must take the information that the user has entered and store it - as an object of the class - in an array.
+
+The "Show Characters" button only needs to output the characters in the console... for now.
+
+You may elect to do one file that contains the HTML, CSS, and JavaScript or you can do three individual files. Either way, compress the file(s) into a `.zip` file and submit it.
+
+<br />
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
