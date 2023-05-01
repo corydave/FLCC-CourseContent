@@ -1,0 +1,9 @@
+^^ Web Scraping
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vT-12tQb3w1z9kJzN8H2bkjyfLM15n8IMEPTucDKUw9iWEyodCcX-2RUV1kIN71P__ZUjhmucHlTfND/pub?w=907&amp;h=385" alt="The letters HTML in typewriter font with the number 9 prominently displayed." title="The letters HTML in typewriter font with the number 9 prominently displayed." style="display:none;" width="0" height="0">
+
+Web scraping is a term used to describe the act of having a program (or a "bot") snoop around on different websites to collect information. Or maybe they are looking to report vital information. Or even take action on a website.
+
+For instance, maybe someone might want to write a Python script to check out the number of PlayStation 5 units in stock at a local store. Or to find the price of items on different web pages.
+
+There are plenty of countermeasures websites can employ to deter bots, too. In this chapter we'll broadly look at different tools used to scrape websites.
