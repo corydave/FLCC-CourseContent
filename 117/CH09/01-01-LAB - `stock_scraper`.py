@@ -1,0 +1,101 @@
+^^ LAB - `stock_scraper`
+
+## DESCRIPTION
+In this exercise we will be exploring some lightweight web scraping. Essentially we will be building a bot to scrape different web pages (so we, as humans, don't need to go to each one individually).
+
+Note that web scraping can often violate terms of service (or might be illegal!), depending on laws and site policies.
+
+In this lab, we will be using a site I own (https://phishingdemo.org/). I have designed some fictional stock information sites - if they happen to coincide with real stocks, please do not make any investments based on the information presented! 
+
+Your job will be to:
+
+1. Ask a user for a stock to check
+2. Have your bot return the current value of that stock
+
+If you haven't watched [the video on web scraping](https://www.youtube.com/watch?v=-iTbjlE2BK0) yet, you'll need it to understand this task.
+
+Here are some guidelines to help you understand the schema of the stocks:
+
+* The base URL is: `https://phishingdemo.org/python/scraping/`. To that, append the stock symbol and `.html`. For instance, if the stock is BB8, the URL is `https://phishingdemo.org/python/scraping/BB8.html`
+
+* The format of every page is exactly the same.
+
+## SPECIFICATIONS
+
+* You will need to install some packages on your system:
+
+^=^ ,,,,
+
+```
+pip3 install requests
+pip3 install --update requests
+pip2 install beautifulsoup4
+```
+^=
+
+* You will need to ask the user for a stock symbol
+
+* Add a comment with your name, date, and program description at the top!
+
+* Your output must match the Sample Output *exactly*.
+
+## SAMPLE OUTPUT
+
+
+```
+Enter a stock symbol: DAVE
+233.29
+```
+
+<br />
+
+```
+Enter a stock symbol: BB8
+202.20
+```
+
+<br />
+
+```
+Enter a stock symbol: KATY
+311.23
+```
+
+<br />
+
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`stock_scraper.py`](https://drive.google.com/uc?export=download&id=1Tj0igdsd8-1njGzXGRXNc_UC4IHsFVJl)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+^acc
+
+^^^ `stock_scraper.py`
+
+```python ^copy
+
+# FILE NAME - stock_scraper.py
+
+# NAME - 
+# DATE - 
+# DESCRIPTION - 
+
+
+import requests
+from bs4 import BeautifulSoup
+
+
+
+```
+
+^acc-end
+
+<br /><br />
