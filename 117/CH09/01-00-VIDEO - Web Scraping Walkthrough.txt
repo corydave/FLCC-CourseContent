@@ -1,0 +1,37 @@
+^^ VIDEO - Web Scraping Walkthrough
+
+<center>
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/7bKvi-kTKU4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</center>
+
+^acc
+
+^^^ `scrape.py`
+
+```python
+
+import requests
+from bs4 import BeautifulSoup
+
+page = requests.get('https://phishingdemo.org/python/scraping/4070ti.html', headers={"User-Agent": ""})
+print(page.status_code)
+# print(page.text)
+
+soup = BeautifulSoup(page.content, 'html.parser')
+# print(soup)
+
+# classes = soup.find_all(class_="description")
+# print(classes[1])
+
+quantity = soup.find(id="remaining").string
+print(quantity)
+
+```
+
+^acc-end
+
+<br />
+
+Of course, you can [see all the code at our *^icon b-github* GitHub](https://github.com/corydave/FLCC_CSC_164/blob/main/06%20-%20Objects/characterGame.html)!
