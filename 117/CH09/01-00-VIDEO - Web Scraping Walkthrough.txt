@@ -6,6 +6,31 @@
 
 </center>
 
+<br /><br />
+
+## Links shown in video
+
+^= =
+
+[RTX 4070ti fictional website](https://phishingdemo.org/python/scraping/4070ti.html)
+
+[Amazon graphics card website](https://www.amazon.com/KAER-RX580-Graphics-Computer-7000MHz/dp/B0BNQCHZCS/?th=1)
+
+[`requests` website](https://pypi.org/project/requests/)
+
+^===
+
+[Wikipedia article on HTTP status codes](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
+
+[i am a teapot hack](https://coffeeordie.com/russia-teapot-prank)
+
+[Beautiful Soup website](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+
+^=
+
+<br />
+
+
 ^acc
 
 ^^^ `scrape.py`
@@ -31,6 +56,8 @@ print(quantity)
 ```
 
 ^acc-end
+
+<br />
 
 <br />
 
