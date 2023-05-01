@@ -34,4 +34,4 @@ print(quantity)
 
 <br />
 
-Of course, you can [see all the code at our *^icon b-github* GitHub](https://github.com/corydave/FLCC_CSC_164/blob/main/06%20-%20Objects/characterGame.html)!
+Of course, you can [see all the code at our *^icon b-github* GitHub](https://github.com/corydave/FLCC_CSC_117/blob/main/2022-Fall/CH09/scrape.py)!
