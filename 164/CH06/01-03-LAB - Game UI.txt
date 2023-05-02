@@ -2,7 +2,7 @@
 
 In this phase of the game development we will be working on the user interface. The video in class covered how to set up the HTML and CSS (but you don't have to if you don't want to!).
 
-^youtube
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/jUhVDuT7EJs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 This code was used in class as an example. It is incomplete.
 
