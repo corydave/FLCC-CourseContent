@@ -1,5 +1,11 @@
 ^^ LAB - Game UI
 
+In this phase of the game development we will be working on the user interface. The video in class covered how to set up the HTML and CSS (but you don't have to if you don't want to!).
+
+^youtube
+
+This code was used in class as an example. It is incomplete.
+
 ```javascript
 
 let html = "";
@@ -8,5 +14,6 @@ for (let i = 0; i < characters.length; i++) {
     html += "Attack:" + characters[i].attack;
 }
 
-```
+document.getElementById("statsContainer").innerHTML = html;
 
+```
