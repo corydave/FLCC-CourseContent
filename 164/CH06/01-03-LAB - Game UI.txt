@@ -1,0 +1,12 @@
+^^ LAB - Game UI
+
+```javascript
+
+let html = "";
+for (let i = 0; i < characters.length; i++) {
+    html += "Name: " + characters[i].name;
+    html += "Attack:" + characters[i].attack;
+}
+
+```
+
