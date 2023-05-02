@@ -17,3 +17,13 @@ for (let i = 0; i < characters.length; i++) {
 document.getElementById("statsContainer").innerHTML = html;
 
 ```
+
+<br />
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
