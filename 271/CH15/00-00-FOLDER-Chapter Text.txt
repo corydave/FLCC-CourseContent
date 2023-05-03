@@ -1,0 +1,27 @@
+^^ Final Exam<br />
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vQMiIkngnYiOFEbXPi2wduHT1xl7-3WiDGacrQMmc8IshC_D2PBrIaznGtVdNeA4FyHDwAezO2tt8Zx/pub?w=907&amp;h=385" alt="The text FINAL EXAM." title="The text FINAL EXAM." width="0" height="0" style="display:none;" />
+
+# Description
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vQdZUPFz4h0wg0qcl0zRGZd9z9sVFqEv4xoS0cvYah8vurk6qGF_kNcnwkjyYDEAQj7HNYpC2NFWw78/pub?w=480&amp;h=360" alt="The word TESTOUT." title="The word TESTOUT." style="float:right;border-radius:25px;margin-right:20px;margin-left:20px;margin-top:0px;margin-bottom:20px;" />
+
+The final exam in this class is through TestOut. If you do well enough, you'll get a certification. It's not a CompTIA certification, but it's still cool!
+
+I don't have any control over the final (in fact, I can't even see the questions!). But I know that it's just like the labs and quizzes. 
+
+The final closes at noon (12:00 pm) on May 17. Please have *all your work done* by then; no work for this class will be accepted past that date and time.
+
+Unrelated to this course, you might want to think about the CompTIA A+ exams (there are two - one for hardware and one for operating systems). TestOut was *just* purchased by CompTIA because TestOut has curriculum that is 100% aligned with CompTIA exams. That means that if you enjoyed this class and are interested in taking the CompTIA certification exam(s), you have learned everything you need! And as a student at FLCC, you get special pricing (like, 50% off!). [Here is a link to the CompTIA discount exam voucher website](https://academic-store.comptia.org/certification-vouchers/c/11332?facetValueFilter=tenant~user-type%3aindividual%2ctenant~certification%3acomptia-a-core-1-and-2&). Note that this exam is not required for this course. I recommend buying an exam voucher and taking the test(s) over the summer!
+
+
+
+<div style="clear:both;">&nbsp;</div>
+
+# Specifications
+
+* Complete the [TestOut PC Pro Certification](https://w3.testout.com/).
+
+<br /><br />
+
+## Let's be careful out there!
