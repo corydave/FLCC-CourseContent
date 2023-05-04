@@ -1,0 +1,74 @@
+^^ `battle` Functions
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/5nEyjYn9_LI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius:15px !important;"></iframe>
+
+<br />
+
+## Code you might find helpful:
+
+^acc
+
+^^^ `rollDie()`
+
+```javascript
+
+function rollDie(sides) {
+                return Math.floor((Math.random() * sides) + 1);
+            }
+```
+
+^^^ `attack()`
+
+```javascript
+
+function attack() {
+
+    let c1 = characters[0];
+    let c2 = characters[1];
+
+    console.log(c1.attack);
+    console.log(c2.defense);
+
+    while (true) {
+
+        if (c1.attack > c2.defense) {
+            c2.defense -= (c1.attack - c2.defense);
+            console.log("new c2 defense: " + c2.defense);
+        }
+        if (c1.attack < c2.defense) {
+            c1.attack -= 1;
+            console.log("new c1 attack: " + c1.attack);
+        } else {
+            c1.attack -= 1;
+            c2.defense -= 1;
+            console.log("new c1 attack: " + c1.attack + " new c2 defense: " + c2.defense);
+        }
+
+        if (c2.defense <= 0) {
+            window.alert(c2.name + " lost :(");
+            break;
+        }
+
+        if (c2.attack > c1.defense) {
+            c1.defense -= (c2.attack - c1.defense);
+            console.log("new c1 defense: " + c1.defense);
+        }
+        if (c2.attack < c1.defense) {
+            c2.attack -= 1;
+            console.log("new c2 attack: " + c2.attack);
+        } else {
+            c2.attack -= 1;
+            c1.defense -= 1;
+            console.log("new c2 attack: " + c2.attack + " new c1 defense: " + c1.defense);
+        }
+
+        if (c1.defense <= 0) {
+            window.alert(c1.name + " lost :(");
+            break;
+        }
+
+    }
+}
+```
+
+^acc-end
