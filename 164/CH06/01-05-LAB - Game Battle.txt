@@ -1,0 +1,15 @@
+^^ LAB - Game Battle
+
+In this next phase of the game, you will create a battle! There are a few things to keep in mind:
+
+* You don't *need* to have a mechanism to choose the characters to battle. For example, if you have 3 characters you can elect to have the Battle function just fight the first two in the array. Or it might pick 2 characters at random. Or, if you're feeling punchy, let the user pick which two characters will compete!
+
+* You don't need to do anything super glamorous. This is a wireframe proof of concept. You might want to use the console to dump information for debugging, but the winner should be announced in the window (or using an alert).
+
+* Be sure to [watch the video]() from class for an example. You can also [check out the *^icon b-github* code from class](https://github.com/corydave/FLCC_CSC_164/blob/main/06%20-%20Objects/battle.html).
+
+Here's a quick and dirty view of the progress we made during class.
+
+![test image](google:https://drive.google.com/file/d/1nJ1DjUc2EQIxT6O45JS0_tqyzirlkXTm/view?usp=share_link)
+
+
