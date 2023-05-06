@@ -6,7 +6,7 @@ In this next phase of the game, you will create a battle! There are a few things
 
 * You don't need to do anything super glamorous. This is a wireframe proof of concept. You might want to use the console to dump information for debugging, but the winner should be announced in the window (or using an alert).
 
-* Be sure to [watch the video]() from class for an example. You can also [check out the *^icon b-github* code from class](https://github.com/corydave/FLCC_CSC_164/blob/main/06%20-%20Objects/battle.html).
+* Be sure to [watch the video](https://www.youtube.com/watch?v=mjKcI3CQHOs) from class for an example. You can also [check out the *^icon b-github* code from class](https://github.com/corydave/FLCC_CSC_164/blob/main/06%20-%20Objects/battle.html).
 
 Here's a quick and dirty view of the progress we made during class.
 
