@@ -26,23 +26,4 @@ print(list_of_names)
 
 ```
 
-^^^ `folders.py`
-
-```python
-
-import os
-
-directory = os.getcwd()
-# print(directory)
-
-files = os.listdir()
-# print(files)
-
-for file in files:
-    if 'text' in file:
-        new_file = open(file, 'a')
-        new_file.write('I was here!')
-
-```
-
 ^acc-end
