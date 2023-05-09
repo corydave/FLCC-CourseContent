@@ -1,0 +1,48 @@
+^^ VIDEO - File IO
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/PRoNrG2t7Gg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 15px !important;"></iframe>
+
+<br />
+
+^acc
+
+^^^ `io.py`
+
+```python
+
+file = open('file.txt', 'a')
+name = input('what is your name? ')
+file.write(name + '\n')
+file.close()
+
+file = open('file2.txt', 'a')
+print(file.name)
+# print(file.read())
+# print(file.readlines())
+
+list_of_names = file.readlines()
+print(list_of_names)
+
+
+```
+
+^^^ `folders.py`
+
+```python
+
+import os
+
+directory = os.getcwd()
+# print(directory)
+
+files = os.listdir()
+# print(files)
+
+for file in files:
+    if 'text' in file:
+        new_file = open(file, 'a')
+        new_file.write('I was here!')
+
+```
+
+^acc-end
