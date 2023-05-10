@@ -6,7 +6,7 @@ The final project in this class is a portfolio (and reflection). You set up a Go
 
 I have [made a video](https://www.youtube.com/watch?v=xLcZErBH984) that reminds you how to embed your work (Google Docs, Google Sheets, Google Drawings, Google Slides, Twine, and PDFs). You don't have to watch the video if you don't want to, though you should at least watch the first four and a half minutes as it shows not only how to embed Google Slides but also how to resize your embeds and how to ***check that your work is visible to others (like me!).***
 
-Your task is to pick at least six items that you want to discuss. You should embed each one and then write a reflection on it (again, [the first four and a half minutes of the video](https://www.youtube.com/watch?v=xLcZErBH984) will show you how to do that).
+Your task is to pick at least six items that you want to discuss. You should embed each one and then write a reflection on it (again, [the first four and a half minutes of the video](https://www.youtube.com/watch?v=xLcZErBH984) will show you how to do that). You might want to [check out my sample portfolio here](https://sites.google.com/view/mr-ghidiu/home).
 
 <br />
 
