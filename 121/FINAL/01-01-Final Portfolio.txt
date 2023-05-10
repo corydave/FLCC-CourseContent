@@ -1,0 +1,45 @@
+^^ Final Portfolio
+
+
+# Description
+The final project in this class is a portfolio (and reflection). You set up a Google Sites portfolio earlier in the course. Now that the end of the semester is here, it's time to write a reflection on some of the work you've done this semester.
+
+I have [made a video](https://www.youtube.com/watch?v=xLcZErBH984) that reminds you how to embed your work (Google Docs, Google Sheets, Google Drawings, Google Slides, Twine, and PDFs). You don't have to watch the video if you don't want to, though you should at least watch the first four and a half minutes as it shows not only how to embed Google Slides but also how to resize your embeds and how to ***check that your work is visible to others (like me!).***
+
+Your task is to pick at least six items that you want to discuss. You should embed each one and then write a reflection on it (again, [the first four and a half minutes of the video](https://www.youtube.com/watch?v=xLcZErBH984) will show you how to do that).
+
+<br />
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/xLcZErBH984" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius:15px !important;"></iframe>
+
+<br />
+
+---
+
+<br />
+
+# Specifications
+
+* Include at least six items
+  * At least one Google Doc
+  * At least one Google Sheet
+  * At least one Google Slide
+  * At least one Google Drawing
+  * Your *interactives page* counts as one item
+  * You may also consider posting your Twine or perhaps a PDF of your certificate from The Hour of Code
+
+* Reflect on each item
+    * Include information such as what you learned, what you might do differently next time, and how you might incorporate what you learned into your classroom
+
+* Submit a link to your Google Site. Make sure you test it in *Incognito mode* before submitting because some of your items might not be visible to viewers of your website (including me!). If you observe that when you test it in Incognito mode there are some documents that are not shared appropriately, please make sure you change their visibility and test the site again.
+
+
+<br /><br />
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
