@@ -1,0 +1,123 @@
+^^ LAB - `file_reader`
+
+## DESCRIPTION
+This lab is intended to explore file reading capabilities with Python. In this lab, there are three different files on the server - `words01.txt`, `words02.txt`, and `words03.txt`. Your job is to ask the user for the name of a file and then output the contents.
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top!
+
+* Your output must match the Sample Output *exactly*.
+
+## SAMPLE OUTPUT
+
+
+```
+File name? words01.txt
+Wolverine
+Rogue
+Psylocke
+Professor X
+Beast
+
+```
+
+<br />
+
+```
+File name? words02.txt
+Lily
+Marshall
+Barney
+Robin
+Ted
+
+```
+
+<br />
+
+```
+File name? words03.txt
+blubber
+macadamia
+gazebo
+spatula
+plethora
+ploy
+foible
+
+```
+
+<br />
+
+
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`file_reader.zip`](https://drive.google.com/uc?export=download&id=1T5cGL1ApLhsLPFXzgiJsfsnpwoRys_g-)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+^acc
+
+^^^ `file_reader.py`
+
+```
+# FILE NAME - file_reader.py
+
+# NAME - 
+# DATE - 
+# DESCRIPTION - 
+
+```
+
+^^^ `words01.txt`
+
+```
+Wolverine
+Rogue
+Psylocke
+Professor X
+Beast
+
+```
+
+^^^ `words02.txt`
+
+```
+Lily
+Marshall
+Barney
+Robin
+Ted
+
+```
+
+^^^ `words03.txt`
+
+```
+blubber
+macadamia
+gazebo
+spatula
+plethora
+ploy
+foible
+
+```
+
+^acc-end
+
+
+
+
+
+<br /><br />
