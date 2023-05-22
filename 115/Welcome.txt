@@ -1,0 +1,18 @@
+<center><img src="https://acegif.com/wp-content/uploads/2021/4fh5wi/welcome-15.gif" style="max-width: 100%; display: none;" alt="Animation of a person jumping up and down excitedly with the word 'WELCOME' behind them." title="Animation of a person jumping up and down excitedly with the word 'WELCOME' behind them."></center>
+
+<h1 style="text-align: center;"><span style="color: #1e90ff;"><strong><span style="font-size: 100px; font-family: 'courier new', courier, sans-serif;">Welcome!</span></strong></span></h1>
+
+Welcome to the *best summer of your life!* I mean, forget **Guardians 3**, **Fast X**, and **Mission Impossible: Dead Reckoning**. You have **Java 1: The Genesis of Awesome**!!!
+
+You can expect more content to be entered into this course in a few days. But for now, check out this vieo and the course outline (syllabus)!
+
+<center>
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/AmdNMgmAU9Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius:15px !important;"></iframe>
+
+</center>
+
+<br /><br />
+
+<center><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/1UtgFnwViVDvncl9aJu8AGV7wv7yYqqntqYkEl4bHLxE/copy" target="_blank"><span style="background-color:#1e90ff;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Copy Google Doc</span></a><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/1UtgFnwViVDvncl9aJu8AGV7wv7yYqqntqYkEl4bHLxE/export?format=doc" target="_blank"><span style="background-color:#357EC7;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Download Word</span></a><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/1UtgFnwViVDvncl9aJu8AGV7wv7yYqqntqYkEl4bHLxE/export?format=pdf" target="_blank"><span style="background-color:#F40F02;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Download PDF</span></a><br /><br /><iframe src="https://docs.google.com/document/d/1UtgFnwViVDvncl9aJu8AGV7wv7yYqqntqYkEl4bHLxE/preview" height="1000" width="800" frameborder="0" style="width: 100%; max-width: 800px;"></iframe></center>
+
