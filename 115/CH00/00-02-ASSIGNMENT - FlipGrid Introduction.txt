@@ -1,30 +1,27 @@
-^^ ASSIGNMENT - FlipGrid Introduction
+^^ LAB - Flipgrid Introduction
 
 # Description
 
-<div style="display:block;width:100%;">
-<div style="float:left;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vRTNaJb0VboC_wek-Q0JZOrznHGQoglyf07GW_J7SiOUgfxszkF3LrvnoHpa_ftZmD3i2nZCaHEu6uO/pub?w=200&h=200" alt="Thumbnail images of people’s faces with their name, a chat bubble, and the word ‘Today’ or ‘Yesterday’ in front of the image.
-" style="margin: 0pt 10pt 10pt 0pt;float:left;"  /></div>
-
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vRTNaJb0VboC_wek-Q0JZOrznHGQoglyf07GW_J7SiOUgfxszkF3LrvnoHpa_ftZmD3i2nZCaHEu6uO/pub?w=200&h=200" alt="Thumbnail images of people’s faces with their name, a chat bubble, and the word ‘Today’ or ‘Yesterday’ in front of the image." style="margin: 0pt 10pt 10pt 0pt;float:right;"  />
 
 We will be using Flipgrid for this exercise. It's a great way for all of us to get to know each other and does not require you to download an app or create an account.
 
-To post an entry, you just need to login with your student ID and hit record! If you need help, you can [check out this video](https://www.youtube.com/watch?v=XTBLq-WUC88).
+To post an entry, you just need to login with your "student username" and hit record! If you need help, you can [check out this video](https://www.youtube.com/watch?v=tOTBqtcgTLg).
 
-If you can't see the FlipGrid, go directly to the website (https://flipgrid.com/---CODE---) or download the app. Our "Flip Code" is **---CODE---**.
+If you can't see the Flipgrid, go directly to the website (https://flipgrid.com/CODECODE) or download the app. Our "Flip Code" is **CODECODE**.
 
-The assignment is to post a short video where you tell us how to pronounce your name, something awesome about yourself, and where you live.
+The assignment is to post a short video where you tell us how to pronounce your name, something awesome about yourself, and where you live. You don't have to share a video if you don't want to (you can just do audio, you can record your screen, or you can upload an image).
 
-Note that the "Student username" in this exercise is actually a mashup of the first letter of your name and your last name. So for me, Dave Ghidiu, I would use '**dghidiu**'. If you have any issues with this, email me at dave.ghidiu@flcc.edu and I'll help you out!
+You will need to login with your Finger Lakes email account (if you are asked for a password, you do not - and should not - use your FLCC password. Make a new one up!)
 
-</div>
-<div style="display:block;width:100%;clear:left;">
-
+<div style="display:block;width:100%;clear:both;">
 
 # Specifications
 
 * There is nothing to submit for this assignment; when I see your post in FlipGrid I'll make sure you are given credit!
+
+* ***This assignment cannot be handed in late.***
+
 <br /><br /><hr />
-</div>
- 
-<center><iframe width="1000" height="900" frameborder="0" src="https://flipgrid.com/---CODE---?embed=true" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen" allow="microphone; camera"></iframe></center>
+
+<center><iframe width="800" height="900" frameborder="0" src="https://flipgrid.com/CODECODE?embed=true" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen" allow="microphone; camera"></iframe></center>
