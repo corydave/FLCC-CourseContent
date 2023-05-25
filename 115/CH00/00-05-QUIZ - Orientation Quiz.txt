@@ -1,0 +1,13 @@
+^^ QUIZ - Orientation Quiz 
+
+After watching the Orientation Video, please take this quiz. You must receive a 100% to see the rest of the content in this course.
+
+Don't panic! You can take the quiz as many times as you'd like!
+
+^callout external-link-alt
+
+<br />
+
+Click here to take the Orientation Quiz.
+
+^callout-end
