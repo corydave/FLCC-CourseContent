@@ -1,10 +1,6 @@
-<p><img src="https://docs.google.com/drawings/d/e/2PACX-1vRiAW0DoPOsnIVnbf_GByGAVVrWRaWG8vuAg_bNKFgbZwlrug-ZTkOYBWqNVKtGUA9jVlchdmkrcKfn/pub?w=900&amp;h=380" style="display: none; max-width: 100%;" alt="Illustrations of a compass rose and also a GPS map." title="Illustrations of a compass rose and also a GPS map."></p>
+^^ Orientation
 
-<span style="font-size: 72pt; color: #1e90ff; font-family: 'courier new', courier, sans-serif;">Orientation</span>
-
-^= =
-
-# What to expect
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vRiAW0DoPOsnIVnbf_GByGAVVrWRaWG8vuAg_bNKFgbZwlrug-ZTkOYBWqNVKtGUA9jVlchdmkrcKfn/pub?w=900&amp;h=380" style="display: none; max-width: 100%;" alt="Illustrations of a compass rose and also a GPS map." title="Illustrations of a compass rose and also a GPS map.">
 
 You might be new to college. You could be new to programming. Maybe you're new to Java. Perhaps you're new to computers. We all have different backgrounds and experiences. 
 
@@ -12,25 +8,19 @@ And that's awesome!
 
 We'll spend the first few days of this class working on getting to know each other (since we'll be helping each other all semester long), learning the tools, and talking about computer science.
 
-^===
+# Experiences for this chapter
 
-# Assignments
-
-* VIDEO - Orientation Video
-* ASSIGNMENT - FlipGrid Introduction
-* READING - Course Outline
-* ASSIGNMENT - Plagiarism Agreement
-* ASSIGNMENT - Orientation Quiz
-
-
-^=
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vSGEkkSjMP3ZLkJqvSxuChy0fSBEW_KyDBiqSbQVaSjoVG633J6b4KHJ48GLWNDYi0DNsYGjngd2MGY/pubhtml/sheet?headers=false&amp;gid=1072565424&amp;range=A1:D10'style="width:100%;max-width:720px;height:267px;" frameborder="0"></iframe></center>
 
 # To ponder
-In the meantime, ponder what you think this code might do:
-<div style="width:90%;margin-left:auto;margin-right:auto;background-color:#e1e1e1;border-radius:15px;padding: 10px 0px 10px 30px;line-height:1em;font-size:14pt;font-family: consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace;">
+In the meantime, ponder what you think this code might do.
+
+**HINT: It is reasonable to expect to be right half the time.**
+
+```java
 
 int age = 43;
 
 System.out.println("Half of your age is " + (age/2));	
 	
-</div>
+```
