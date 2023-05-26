@@ -1,10 +1,9 @@
 ^^ VIDEO - Orientation
 
-# Description
-Please, please, *please* watch this video. This course is very likely very different from the courses you have taken in the past. The video will be worth your time. In it, I discuss super important things that you'll need to know.
-
 <center><br />
 
-[Link to video]()
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/Wcf5dwpftW8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-^youtube
+[Link to video](https://www.youtube.com/watch?v=Wcf5dwpftW8)
+
+
