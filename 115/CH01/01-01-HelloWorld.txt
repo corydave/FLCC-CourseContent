@@ -41,7 +41,7 @@ Hello, World!
 
 ^^^ `HelloWorld.java`
 
-```java
+```java ^copy
 
 /**
  * Description
