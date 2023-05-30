@@ -1,0 +1,35 @@
+^^ FLIP - Week #1 Reflection
+
+Congratulations for making through the first week of programming! There are *a lot* of things that were probably new to you. 
+
+1. Java
+2. Google Cloud Shell
+3. CodeGrade
+4. Maybe even Brightspace
+
+Please take this opportunity to reflect on the week. Reflection is a form of *metacognition* (that means thinking bout your thinking). These small exercises have been shown to improve thinking and learning. 
+
+Here is the prompt for this week:
+
+^=^ ,
+
+Please share ONE thing that you learned during this week. Perhaps it is a mistake you made and you learned from. Maybe it's something you think you'll find handy for every program you write. 
+
+
+It is okay if the thing you share has already been shared by someone else; it's good to know what people think is hard when first starting to program.
+
+^=
+
+You can [go directly to the Flip here](https://flip.com/df7d60fb). The Flip ID is **`df7d60fb`**
+
+<center>
+<iframe
+    width="100%"
+    height="900"
+    frameBorder="0"
+    src="https://flip.com/df7d60fb?embed=true"
+    webkitallowfullscreen
+    mozallowfullscreen
+    allowfullscreen
+    allow="microphone; camera; display-capture" style="border-radius:15px !important; max-width:600px;"></iframe>
+</center>
