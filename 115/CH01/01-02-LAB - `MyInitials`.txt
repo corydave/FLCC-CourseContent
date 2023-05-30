@@ -1,0 +1,107 @@
+^^ LAB - `MyInitials`
+
+# DESCRIPTION
+
+Write a program that outputs your initials using precisely **6 lines** of output.
+
+<br />
+
+# SPECIFICATIONS
+
+* File name: `MyInitials.java`
+* The code to print the initials should be in a separate method that is called by the `main` method.
+* Work will not be assessed on the quality of the artwork 😝.
+
+^=^ ,
+
+## NOTE:
+
+Since the output will vary by student, this program will be graded manually; CodeGrade will merely check to see if there are six lines of output and I will look at each submission.
+
+^=
+
+<br />
+
+# SAMPLE OUTPUT
+
+*The first sample output is for a student who has the initials "T J" and the second sample output is for a student who has the initials "D G".*
+
+---
+ 
+```
+TTTTTTTT     JJJJJJJJ
+   TT            JJ
+   TT            JJ
+   TT        JJ  JJ
+   TT         JJ JJ
+   TT           JJ
+```
+
+<br />
+
+```
+DDDDDD          GGGG
+DD   DD       GG    GG  
+DD    DD     GG  
+DD    DD     GG    GGGGG
+DD   DD       GG    GG
+DDDDDD         GGGGGG 
+```
+
+<br />
+
+# STARTER CODE
+
+^callout external-link-alt
+
+<br />
+
+[`MyInitials.java`](https://drive.google.com/uc?export=download&id=1SxHCpwsEBx3Bok7XPXMKcjNszcJNRano)
+
+^callout-end
+
+^acc
+
+^^^ `MyInitials.java`
+
+```java ^copy
+
+/**
+ * Description
+ *
+ * @author Student Name
+ * @since Date Started
+ */
+
+public class MyInitials {
+    
+    public static void main(String[] args) {
+
+      // ========== INSERT YOUR CODE HERE ==========
+      
+      
+      
+      
+      
+
+    }
+}
+
+// =============== LAB SUMMARY ===============
+
+/*
+1. What was the hardest part of this lab?
+
+
+
+
+2. What will you always remember (never forget) from this exercise?
+
+
+
+
+*/
+
+```
+
+^acc-end
