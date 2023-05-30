@@ -1,4 +1,4 @@
-^^ LAB - Hello World
+^^ LAB - `HelloWorld`
 
 # DESCRIPTION
 
