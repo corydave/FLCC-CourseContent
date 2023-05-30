@@ -1,6 +1,6 @@
 ^^ LAB - Hello World
 
-## DESCRIPTION
+# DESCRIPTION
 
 Create an entire HelloWorld class with a `main` method that displays the greeting on its own line:
 
@@ -8,26 +8,26 @@ Create an entire HelloWorld class with a `main` method that displays the greetin
 Hello, World!
 ```
 
+<br />
 
-
-## SPECIFICATIONS
-
-
+# SPECIFICATIONS
 
 * File name: `HelloWorld.java`
 * Be sure to add your name at the top of your program using comments.  (ie.   `//Jon Smith`  )
 * Be sure to output the exact message as shown in the sample output, including letter case and punctuation.
 * Be sure to line up the curly braces as shown in the text. ([§1.3​ ​A​ ​Program:​ ​Structured​ ​Code](https://docs.google.com/document/d/1m7s4QfQ1JRQ9aMCzxMOgj2fYl-8o4pKK5SFKo_gQoBg/edit#heading=h.tpyz13d7o67t))
 
+<br />
 
-## SAMPLE OUTPUT
-
+# SAMPLE OUTPUT
 
 ```
 Hello, World!
 ```
 
-## STARTER CODE
+<br />
+
+# STARTER CODE
 
 ^callout external-link-alt
 
