@@ -1,0 +1,102 @@
+^^ LAB - `Triangles`
+
+# DESCRIPTION
+
+Write a program that outputs two "triangles" built out of `#` characters to match the specific arrangement shown below (note that there is a blank line between the two shapes).
+
+There is no trick to this lab; this is just a bunch of `System.out.println()` statements.
+
+<br />
+
+# SPECIFICATIONS
+
+* File name: `Triangles.java`
+* The code to print the triangles should be in a separate method that is called by the `main` method
+
+**TIP:** To print a blank line, you can use an empty `System.out.println()` statement.
+
+<br />
+
+# SAMPLE OUTPUT
+
+```
+#
+##
+###
+####
+#####
+
+    #
+   ##
+  ###
+ ####
+#####
+```
+
+<br />
+
+# STARTER CODE
+
+^callout external-link-alt
+
+<br />
+
+[`Triangles.java`](https://drive.google.com/uc?export=download&id=1Ee83hQ82KH_b7w33h148Q8Im8PkhD1V-)
+
+^callout-end
+
+^acc
+
+^^^ `Triangles.java`
+
+```java ^copy
+
+/**
+ * Description
+ * 
+ * @author Student Name
+ * @since Date Started
+ */
+
+public class Triangles {
+
+	public static void main(String[] args) {
+
+        // THIS IS A NEW CONCEPT!
+        // In the `main` method we are calling a method
+        // called `printTriangles()`. Think of this as
+        // a little mini-program or bot. You shouldn't 
+        // add any code here - add code to the next method.
+		printTriangles(); // calls the method to print the triangles
+    
+	}
+    
+    // NEW!!!! 	
+	// this method prints two triangles to the screen
+	public static void printTriangles() {
+		
+	  // ========== INSERT YOUR CODE HERE ==========
+    
+	}
+
+}
+
+
+// =============== LAB SUMMARY ===============
+
+/*
+1. What was the hardest part of this lab?
+
+
+
+
+2. What will you always remember (never forget) from this exercise?
+
+
+
+
+*/
+
+```
+
+^acc-end
