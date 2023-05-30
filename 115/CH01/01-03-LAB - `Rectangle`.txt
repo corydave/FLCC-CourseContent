@@ -1,0 +1,96 @@
+^^ LAB - `Rectangle`
+
+# DESCRIPTION
+
+Write a program that outputs an empty rectangle made of asterisks that is 5 characters across and 4 characters down.
+
+<br />
+
+# SPECIFICATIONS
+
+* File name: `Rectangle.java`
+* The code to print the rectangle should be in a separate method called `printRectangle()` that is invoked in the `main` method
+
+<br />
+
+# SAMPLE OUTPUT
+
+```
+*****
+*   *
+*   *
+*****
+```
+
+<br />
+
+# STARTER CODE
+
+^callout external-link-alt
+
+<br />
+
+[`Rectangle.java`](https://drive.google.com/uc?export=download&id=1eBt1jdAfynUDtM3tsPWxJeEmnuSFZQQW)
+
+^callout-end
+
+^acc
+
+^^^ `Rectangle.java`
+
+```java ^copy
+
+/**
+ * Description
+ *
+ * @author Student Name
+ * @since Date Started
+ */
+
+public class Rectangle {
+
+	public static void main(String[] args) {
+		
+        // THIS IS A NEW CONCEPT!
+        // In the `main` method we are calling a method
+        // called `printRectangle()`. Think of this as
+        // a little mini-program or bot. You shouldn't 
+        // add any code here - add code to the next method.
+		printRectangle(); // calls method to print the rectangle
+    
+	}
+	
+    // NEW!!!! 
+	// this method prints the rectangle to the screen
+	public static void printRectangle() {
+		
+    // ========== INSERT YOUR CODE HERE ==========
+    
+    
+    
+    
+    
+    
+	}
+  
+}
+
+
+// =============== LAB SUMMARY ===============
+
+/*
+1. What was the hardest part of this lab?
+
+
+
+
+2. What will you always remember (never forget) from this exercise?
+
+
+
+
+*/
+
+```
+
+^acc-end
