@@ -2,7 +2,7 @@
 
 ## DESCRIPTION
 
-Create an entire HelloWorld class with a main method that displays the greeting on its own line:
+Create an entire HelloWorld class with a `main` method that displays the greeting on its own line:
 
 ```
 Hello, World!
