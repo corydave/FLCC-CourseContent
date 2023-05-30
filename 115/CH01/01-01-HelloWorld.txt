@@ -1,0 +1,82 @@
+^^ LAB - Hello World
+
+## DESCRIPTION
+
+Create an entire HelloWorld class with a main method that displays the greeting on its own line:
+
+```
+Hello, World!
+```
+
+
+
+## SPECIFICATIONS
+
+
+
+* File name: `HelloWorld.java`
+* Be sure to add your name at the top of your program using comments.  (ie.   `//Jon Smith`  )
+* Be sure to output the exact message as shown in the sample output, including letter case and punctuation.
+* Be sure to line up the curly braces as shown in the text. ([§1.3​ ​A​ ​Program:​ ​Structured​ ​Code](https://docs.google.com/document/d/1m7s4QfQ1JRQ9aMCzxMOgj2fYl-8o4pKK5SFKo_gQoBg/edit#heading=h.tpyz13d7o67t))
+
+
+## SAMPLE OUTPUT
+
+
+```
+Hello, World!
+```
+
+## STARTER CODE
+
+^callout external-link-alt
+
+<br />
+
+[`HelloWorld.java`](https://drive.google.com/uc?export=download&id=1esv2Qve0FwBum8-SlCOq7F7gWTGJtax6)
+
+^callout-end
+
+^acc
+
+^^^ `HelloWorld.java`
+
+```java
+
+/**
+ * Description
+ *
+ * @author Student Name
+ * @since Date Started
+ */
+
+// ========== INSERT YOUR CODE HERE ==========
+
+
+
+
+
+
+
+
+
+
+
+
+
+// =============== LAB SUMMARY ===============
+
+/*
+1. What was the hardest part of this lab?
+
+
+
+
+2. What will you always remember (never forget) from this exercise?
+
+
+*/
+
+```
+
+^acc-end
