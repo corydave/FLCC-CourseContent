@@ -2,9 +2,7 @@
 
 ^^ CHAPTER 01 - Introduction
 
-This chapter is an examination of the tools you need to get started programming. We'll look at the Mimir IDE (integrated development environment), some basic output, and the typical flow of the course. 
-
-In class we'll look at how to use Blackboard and Mimir together. 
+This chapter is an examination of the tools you need to get started programming. We'll look at a few different IDEs (integrated development environments - the software you'll use to program!), CodeGrade (the software you'll use to see if your code works!), and some other tidbits about Java. 
 
 # Experiences for this chapter
 
