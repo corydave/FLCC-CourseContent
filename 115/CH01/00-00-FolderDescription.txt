@@ -2,35 +2,22 @@
 
 ^^ CHAPTER 01 - Introduction
 
-# Experiences for this chapter
-
-^= =
-
 This chapter is an examination of the tools you need to get started programming. We'll look at the Mimir IDE (integrated development environment), some basic output, and the typical flow of the course. 
 
 In class we'll look at how to use Blackboard and Mimir together. 
 
+# Experiences for this chapter
 
-^===
-
-* READING GUIDE - Chapter 1 Reading Guide
-
-* LAB - ```HelloWorld```
-
-* LAB - ```Initials```
-
-* LAB - ```Rectangle```
-
-* LAB - ```Triangle```
-
-^=
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vSGEkkSjMP3ZLkJqvSxuChy0fSBEW_KyDBiqSbQVaSjoVG633J6b4KHJ48GLWNDYi0DNsYGjngd2MGY/pubhtml/sheet?headers=false&amp;gid=0&amp;range=B1:D12'style="width:100%;max-width:720px;height:309px" frameborder="0"></iframe></center>
 
 # To ponder
 In the meantime, ponder what you think this code might do:
-<div style="width:90%;margin-left:auto;margin-right:auto;background-color:#e1e1e1;border-radius:15px;padding: 10px 0px 10px 30px;line-height:1em;font-size:14pt;font-family: consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace;">
+
+```java
 
 System.out.println("Bart Simpson");	
-	
-</div>
+
+```	
+
 
 <br /><br />
