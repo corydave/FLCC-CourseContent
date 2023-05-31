@@ -1,6 +1,6 @@
 <p><img src="https://docs.google.com/drawings/d/e/2PACX-1vSOuhD6ghgCciqaMrWLhpLEkds6YDWdtmjY7Ws1rFMCV8NPvFXkv9NXLeGGJ5XfEWmDyLLhRMFRfabL/pub?w=900&amp;h=380" style="display: none; max-width: 100%;" alt="The words HELLO WORLD in computer typeface." title="The words HELLO WORLD in computer typeface."></p>
 
-^^ CHAPTER 01 - Introduction
+^^ CHAPTER 1 - Introduction
 
 This chapter is an examination of the tools you need to get started programming. We'll look at a few different IDEs (integrated development environments - the software you'll use to program!), CodeGrade (the software you'll use to see if your code works!), and some other tidbits about Java. 
 
