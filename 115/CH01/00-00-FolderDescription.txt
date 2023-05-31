@@ -6,7 +6,7 @@ This chapter is an examination of the tools you need to get started programming.
 
 # Experiences for this chapter
 
-<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vSGEkkSjMP3ZLkJqvSxuChy0fSBEW_KyDBiqSbQVaSjoVG633J6b4KHJ48GLWNDYi0DNsYGjngd2MGY/pubhtml/sheet?headers=false&amp;gid=0&amp;range=A1:D12'style="width:100%;max-width:720px;height:309px" frameborder="0"></iframe></center>
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vSGEkkSjMP3ZLkJqvSxuChy0fSBEW_KyDBiqSbQVaSjoVG633J6b4KHJ48GLWNDYi0DNsYGjngd2MGY/pubhtml/sheet?headers=false&amp;gid=0&amp;range=A1:D14'style="width:100%;max-width:720px;height:351px" frameborder="0"></iframe></center>
 
 # To ponder
 In the meantime, ponder what you think this code might do:
