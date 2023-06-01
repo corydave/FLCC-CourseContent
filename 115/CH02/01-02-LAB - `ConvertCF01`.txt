@@ -43,7 +43,9 @@ Enter a temperature in Celsius:
 1 degrees Celsius is 33.8 degrees Fahrenheit.
 ```
 
-## STARTER CODE
+<br />
+
+# STARTER CODE
 
 You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
 
