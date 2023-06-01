@@ -1,10 +1,12 @@
 ^^ LAB - `InchesToFeet`
 
-## DESCRIPTION
+# DESCRIPTION
 
 Write a program that will ask the user for a number of total inches. Then convert the total inches into feet and inches. Output the result in the exact format shown below. 
 
-## SPECIFICATIONS
+<br />
+
+# SPECIFICATIONS
 
 * Starter code has been provided for this lab.
 
@@ -17,7 +19,9 @@ Write a program that will ask the user for a number of total inches. Then conver
 * Add a comment with your name, date, and program description at the top!
 
 
-## SAMPLE OUTPUT
+<br />
+
+# SAMPLE OUTPUT
 
 
 ```
@@ -41,7 +45,9 @@ Enter the number of inches:
 -4 inches is 0 feet, and -4 inches
 ```
 
-## STARTER CODE
+<br />
+
+# STARTER CODE
 
 You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
 
@@ -53,8 +59,9 @@ Download this file and load it into your IDE.
 
 ^callout-end
 
-^callout code
+^acc
 
+^^^ `InchesToFeet.java`
 ```java ^copy
 // FILE NAME - InchesToFeet.java
 
@@ -105,7 +112,7 @@ public class InchesToFeet {
 
 
 
-^callout-end
+^acc-end
 
 
 <br /><br />
