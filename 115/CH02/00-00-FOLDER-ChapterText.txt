@@ -1,41 +1,28 @@
-<p><img src="https://docs.google.com/drawings/d/e/2PACX-1vSCcEDQjAlVTwrCWbR1TJf_7W1yZLr6NHTV6X2GD760yem-TQZXU_adUbtnoPXM3WzPpsXtwDaz-qtc/pub?w=900&amp;h=380" style="display: none; max-width: 100%;" alt="The words ‘int age = 43; double gpa;’ in computer typeface." title="The words ‘int age = 43; double gpa;’ in computer typeface."></p>
+^^ CHAPTER 2 - Basic Java && Variables
 
-^^ CHAPTER 02 - Basic Java && Variables
-
-# Experiences for this chapter
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vSCcEDQjAlVTwrCWbR1TJf_7W1yZLr6NHTV6X2GD760yem-TQZXU_adUbtnoPXM3WzPpsXtwDaz-qtc/pub?w=900&amp;h=380" style="display: none; max-width: 100%;" alt="The words ‘int age = 43; double gpa;’ in computer typeface." title="The words ‘int age = 43; double gpa;’ in computer typeface.">
 
 We're going to look at some basic Java building blocks (primitive data types like int, char, double, and boolean). We'll also consider some basic mathematical operations and then we'll conclude with a fairly in-depth look at `System.out.println()` statements.
 
+# Experiences for this chapter
 
-* READING - Chapter 2 - Basic Java && Variables
-
-* READING GUIDE - Chapter 2 Reading Guide
-
-* VIDEOS - Chapter 2 Videos
-
-* LAB - `TriangleArea`
-
-* LAB - `InchesToFeet`
-
-* LAB - `ConvertCF01`
-
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vSGEkkSjMP3ZLkJqvSxuChy0fSBEW_KyDBiqSbQVaSjoVG633J6b4KHJ48GLWNDYi0DNsYGjngd2MGY/pubhtml/sheet?headers=false&amp;gid=2147410444&amp;range=A1:D10'style="width:100%;max-width:750px;height:267px" frameborder="0" style="overflow-x: visible;"></iframe></center>
 
 # To ponder
 In the meantime, ponder what you think this code might do:
-<div style="width:90%;margin-left:auto;margin-right:auto;background-color:#e1e1e1;border-radius:15px;padding: 10px 0px 10px 30px;line-height:1em;font-size:14pt;font-family: consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace;">
+	
+```java
 
 int num1 = 10;
 
 int num2 = 4;
 
-<br />
 
 System.out.print(num2 + " goes into " + num1);
 
 System.out.print(num1/num2 + " times with a remainder of ");
 
-System.out.print(num1%num2 + ".");	
-	
-</div>
+System.out.print(num1%num2 + ".");
+```
 					
 					
