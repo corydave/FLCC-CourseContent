@@ -61,12 +61,23 @@ Download this file and load it into your IDE.
 
 ^callout-end
 
-^callout code
+^acc
+
+^^^ `TriangleArea.java`
 
 ```java ^copy
 
 // FILE NAME - TriangleArea.java
-// Don't forget your comments here!
+
+/**
+ * Description
+ * 
+ * @author Student Name
+ * @since Date Started
+ */
+ 
+ 
+ 
 
 import java.util.Scanner; // You can ignore this line - we haven't covered this yet.
 
@@ -107,10 +118,25 @@ public class TriangleArea {
 }
 
 
+// =============== LAB SUMMARY ===============
+
+/*
+1. What was the hardest part of this lab?
+
+
+
+
+2. What will you always remember (never forget) from this exercise?
+
+
+
+
+*/
+
 ```
 
 
 
-^callout-end
+^acc-end
 
 <br /><br />
