@@ -1,7 +1,7 @@
 ^^ LAB - `TriangleArea`
 
 
-## DESCRIPTION
+# DESCRIPTION
 
 Write a program that uses the height and the base of a triangle to compute the area of the triangle using the formula `A = 1/2 * b * h`. Output the result in the exact format shown below.
 
@@ -15,7 +15,9 @@ Enter the base:
 The area of the triangle is 25.0
 ```
 
-## SPECIFICATIONS
+<br />
+
+# SPECIFICATIONS
 
 * Starter code has been provided for this lab.
 
@@ -29,7 +31,9 @@ The area of the triangle is 25.0
 
 **Hint:** You might find that you run into errors if you use division with integers. See if you can figure out a solution!
 
-## SAMPLE OUTPUT
+<br />
+
+# SAMPLE OUTPUT
 
 ```
 Enter the height:
@@ -49,7 +53,9 @@ Enter the base:
 The area of the triangle is 16.0
 ```
 
-## STARTER CODE
+<br />
+
+# STARTER CODE
 
 You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
 
