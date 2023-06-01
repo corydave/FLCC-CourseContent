@@ -1,15 +1,11 @@
 ^^ READING - Chapter 2 - Basic Java && Variables
 
-# Description
-
-<div style="display:block;width:100%;">
-<div style="float:left;"><a href="https://docs.google.com/document/d/1Nm77I53jfP5z9896pFOrjAcSjPR62l9G0O3U8Yo8JTw/" target="_blank"><img src="https://docs.google.com/drawings/d/e/2PACX-1vTo3_v7TZM9n5-LVKtiM_dbRaamDEUCVmS6m2RAIw0yLDXbw2dlXEzSlgvQFQYPaXQ1piHxVm9CnMg5/pub?w=200&h=280" alt="A thumbnail of the course information sheet." style="margin: 0pt 10pt 10pt 0pt;float:left;"  /></a></div>
-
 The reading for this chapter is [Chapter 2 - Basic Java && Variables](https://docs.google.com/document/d/1Nm77I53jfP5z9896pFOrjAcSjPR62l9G0O3U8Yo8JTw/). There are some really neat things here (and maddening things, too, especially when we look at output). Knowing how to use a *variable* (and naming it appropriately) is going to be mission critical to learning how to program.
 
 We start at the basics - *primitive data types*. These are the building blocks for programming almost anything. You'll always need somewhere to store values. For instance, when you enter your character's name into a game (or store your hit points, or store your avatar). You need a place to *store* the items so they can be recalled later (and modified).
 
-<div style="clear:both;">
+<div style="clear:both;"></div>
+
 
 We'll be looking at different variable types:
 
@@ -19,7 +15,8 @@ We'll be looking at different variable types:
 
 * `char` for characters (any letter, number, or special character - including many emoji!)
 
-* `boolean` for things that can be true or false
+* `boolean` for things that can be `true` or `false`
 
+<br /><br />
 
-</div>
+<center><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/1Nm77I53jfP5z9896pFOrjAcSjPR62l9G0O3U8Yo8JTw/copy" target="_blank"><span style="background-color:#1e90ff;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Copy Google Doc</span></a><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/1Nm77I53jfP5z9896pFOrjAcSjPR62l9G0O3U8Yo8JTw/export?format=doc" target="_blank"><span style="background-color:#357EC7;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Download Word</span></a><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/1Nm77I53jfP5z9896pFOrjAcSjPR62l9G0O3U8Yo8JTw/export?format=pdf" target="_blank"><span style="background-color:#F40F02;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Download PDF</span></a><br /><br /><iframe src="https://docs.google.com/document/d/1Nm77I53jfP5z9896pFOrjAcSjPR62l9G0O3U8Yo8JTw/preview" height="1000" width="800" frameborder="0" style="width: 100%; max-width: 800px;"></iframe></center>
