@@ -1,11 +1,13 @@
 ^^ LAB - `ConvertCF01`
 
 
-## DESCRIPTION
+# DESCRIPTION
 
 Write a program that will get a whole number from the user that represents a temperature in Celsius. Convert the temperature to Fahrenheit. Output the result in the exact format shown below. 
 
-## SPECIFICATIONS:
+<br /> 
+
+# SPECIFICATIONS
 
 * Starter code has been provided for this lab.
 
@@ -19,7 +21,9 @@ Write a program that will get a whole number from the user that represents a tem
 
 * The formula for converting from Celsius to Fahrenheit is C * <sup>9</sup>/<sub>5</sub> + 32, though you might find you will run into errors if you use division with integers.
 
-## SAMPLE OUTPUT
+<br /> 
+
+# SAMPLE OUTPUT
 
 ```
 Enter a temperature in Celsius:
@@ -51,7 +55,10 @@ Download this file and load it into your IDE.
 
 ^callout-end
 
-^callout code
+^acc 
+
+
+^^^ `ConvertCF01.java`
 
 ```java ^copy
 
@@ -96,7 +103,7 @@ public class ConvertCF01 {
 
 
 
-^callout-end
+^acc-end
 
 
 <br /><br />
