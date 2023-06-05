@@ -1,21 +1,12 @@
-<p><img src="https://docs.google.com/drawings/d/e/2PACX-1vSl7aqSXa4-4Uh7InDiNS9ONzN3zcmABcqXB84NdHWOfOdDTSfuCT3CNJTktJugj1umpd6MNZ2CdYK0/pub?w=900&amp;h=380" style="display: none; max-width: 100%;" alt="The mathematical symbols for multiplication, addition, division, subtraction, and modulo." title="TThe mathematical symbols for multiplication, addition, division, subtraction, and modulo."></p>
-
-
 ^^ CHAPTER 03 - Math
 
-Let's check out some of the built-in math features of Java. A few of the key features are modulus (the "%" sign - it means *remainder*, random numbers, overflow errors (which can be entry points for the bad actors), and casting.
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vSl7aqSXa4-4Uh7InDiNS9ONzN3zcmABcqXB84NdHWOfOdDTSfuCT3CNJTktJugj1umpd6MNZ2CdYK0/pub?w=900&amp;h=380" style="display: none; max-width: 100%;" alt="The mathematical symbols for multiplication, addition, division, subtraction, and modulo." title="TThe mathematical symbols for multiplication, addition, division, subtraction, and modulo.">
+
+Let's check out some of the built-in math features of Java. A few of the key features are modulus (the "%" sign - it means *remainder*, random numbers, overflow errors. Overflow errors can be entry points for the bad actors), and casting.
 
 # Experiences
 
-* READING - Chapter 3 - Math
-
-* VIDEOS - Chapter 3 Videos
-
-* READING GUIDE - Chapter 3 Reading Guide
-
-* LAB - `Circles01`
-
-* LAB - `BoxOfDonuts`
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vSGEkkSjMP3ZLkJqvSxuChy0fSBEW_KyDBiqSbQVaSjoVG633J6b4KHJ48GLWNDYi0DNsYGjngd2MGY/pubhtml/sheet?headers=false&amp;gid=1499791358&amp;range=A1:D10'style="width:100%;max-width:750px;height:267px" frameborder="0"></iframe></center>
 
 # Prediction
 
@@ -28,4 +19,3 @@ System.out.println("The length of " + name + " is " + name.length());
 ```
 
 <br /><br />
-
