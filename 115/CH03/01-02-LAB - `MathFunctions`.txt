@@ -1,0 +1,165 @@
+^^ LAB - `MathFunctions`
+
+
+## DESCRIPTION
+
+There are *tons* of math functions built in to Java. We'll learn about some of them in a later    part of the class, but today we are focusing on the big five:
+
+1. Addition (`+`)
+2. Subtraction (`-`)
+3. Multiplication (`*`)
+4. Division (`/`)
+5. Modulo (`%`)
+
+The program should ask the user for two numbers (integers) and then display the results.
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab. No need to worry about how to get the numbers from the user; that has already been taken care of in the starter code. You just need to concern yourself with the math and the output.
+
+* File name: `MathFunctions.java`
+
+* Add comments with your name, date, and program description at the top!
+
+* Answer the reflection questions at the end of the lab.
+
+## SAMPLE OUTPUT
+
+```
+
+Enter a number:
+1
+Enter another number:
+3
+
+Sum of 1 and 3: 4
+Difference of 1 and 3: -2
+Product of 1 and 3: 3
+Quotient of 1 and 3: 0
+Modulo of 1 and 3: 1
+
+```
+
+```
+
+Enter a number:
+14
+Enter another number:
+5
+
+Sum of 14 and 5: 19
+Difference of 14 and 5: 9
+Product of 14 and 5: 70
+Quotient of 14 and 5: 2
+Modulo of 14 and 5: 4
+
+```
+
+```
+
+Enter a number:
+1
+Enter another number:
+1
+
+Sum of 1 and 1: 2
+Difference of 1 and 1: 0
+Product of 1 and 1: 1
+Quotient of 1 and 1: 1
+Modulo of 1 and 1: 0
+
+```
+
+```
+
+Enter a number:
+100
+Enter another number:
+10
+
+Sum of 100 and 10: 110
+Difference of 100 and 10: 90
+Product of 100 and 10: 1000
+Quotient of 100 and 10: 10
+Modulo of 100 and 10: 0
+
+```
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`MathFunctions.java`](https://drive.google.com/uc?export=download&id=1krC8ArD-PTpx59eToMdADK2X0B-piTjd)
+
+Download this file and load it into your IDE.
+
+^callout-end
+
+```java ^copy
+
+// FILE NAME - MathFunctions.java
+
+
+/**
+ * Description
+ * 
+ * @author Student Name
+ * @since Date Started
+ */
+
+import java.util.Scanner;
+
+public class MathFunctions {
+    public static void main (String[] args) {
+
+        mathFunctions();
+
+    }
+
+    public static void mathFunctions() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a number:");
+        int numberOne = sc.nextInt();
+        System.out.println("Enter another number:");
+        int numberTwo = sc.nextInt();
+
+        // -------------------- INSERT YOUR CODE HERE --------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        //----------------------------------------------------------------
+    }
+}
+
+
+// =============== LAB SUMMARY ===============
+
+/*
+1. What was the hardest part of this lab?
+
+
+
+
+2. What will you always remember (never forget) from this exercise?
+
+
+
+
+*/
+```
+
+<br /><br />
