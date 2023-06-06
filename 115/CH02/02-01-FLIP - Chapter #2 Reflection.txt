@@ -1,0 +1,30 @@
+^^ FLIP - Chapter #2 Reflection
+
+Please take this opportunity to reflect on the week. Reflection is a form of *metacognition* (that means thinking bout your thinking). These small exercises have been shown to improve thinking and learning. 
+
+Here is the prompt for this week:
+
+^=^ ,
+
+In this chapter we looked at some basic math and variable manipulation. We wrote programs to ask the user for some input and then performed some math on the numbers the user typed in and experimented with ways to output information.
+
+
+What did you find the most frustrating this week?
+
+^=
+
+You can [go directly to the Flip here](https://flip.com/df7d60fb). The Flip ID is **`726900e9`**
+
+
+
+<center>
+<iframe
+    width="100%"
+    height="900"
+    frameBorder="0"
+    src="https://flip.com/726900e9?embed=true"
+    webkitallowfullscreen
+    mozallowfullscreen
+    allowfullscreen
+    allow="microphone; camera; display-capture" style="border-radius:15px !important; max-width:600px;"></iframe>
+</center>
