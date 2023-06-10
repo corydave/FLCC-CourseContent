@@ -1,40 +1,18 @@
-<p><img src="https://docs.google.com/drawings/d/e/2PACX-1vQFZc7sKP8rPFt0dW-fDlUF55H6hNLHDhIOUqe4bP0f72cz11licjzZwiRTqS8Pe6s2vk1ObYrbCnbv/pub?w=900&amp;h=380" style="display: none; max-width: 100%;" alt="The words MATH, SCANNER, STRING, and RANDOM." title="The words MATH, SCANNER, STRING, and RANDOM."></p>
+^^ CHAPTER 4 - Standard Classes
 
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vQFZc7sKP8rPFt0dW-fDlUF55H6hNLHDhIOUqe4bP0f72cz11licjzZwiRTqS8Pe6s2vk1ObYrbCnbv/pub?w=900&amp;h=380" style="display: none; max-width: 100%;" alt="The words MATH, SCANNER, STRING, and RANDOM." title="The words MATH, SCANNER, STRING, and RANDOM.">
 
+We'll take a deep dive into the `Math` class, `Random` class, `Scanner` class, and `String` class. These are all really helpful classes in Java that will help you as we explore more and more of what we can do in Java.
 
-^^ CHAPTER 04 - Standard Classes
+There are a number of labs (and some projects, which are more comprehensive than labs). I recommend you do them in the order they are listed here - that'll help scaffold your experience and mastery.
 
 # Experiences for this chapter
 
-We'll take a deep dive into the `Math` class, `Random` class, `Scanner` class, and `String` class. These are all really helpful classes in Java that will help you as we explore more and more of what we can do in Java.
-There are a number of labs (and some projects, which are more comprehensive tan labs). I recommend you do them in the order they are listed here - that'll help scaffold your experience and mastery.
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vSGEkkSjMP3ZLkJqvSxuChy0fSBEW_KyDBiqSbQVaSjoVG633J6b4KHJ48GLWNDYi0DNsYGjngd2MGY/pubhtml/sheet?headers=false&amp;gid=1250865820&amp;range=A1:D18'style="width:100%;max-width:750px;height:435px" frameborder="0"></iframe></center>
 
-* READING - Chapter 4 - Standard Classes
+# To Ponder
 
-* VIDEOS - Chapter 4 Videos
-
-* READING GUIDE - Chapter 4 Reading Guide
-
-* LAB - ```Circles02```
-
-* LAB - ```Compliment01```
-
-* LAB - ```RandomNumbers01```
-
-* LAB - ```RandomNumbers02```
-
-* LAB - ```RandomChars```
-
-* LAB - ```MadLibs```
-
-* PROJECT - ```CoinStar```
-
-* PROJECT - ```StringLab01```
-
-* PROJECT - ```SaltPassword```
-
-# To ponder
-In the meantime, ponder what you think this code might do if the user types in 1. What if the user types in 3? What if the user types in 55?:
+In the meantime, ponder what you think this code might do if the user types in `1`. What if the user types in `3`? What if the user types in `55`?
 
 ```java
 
