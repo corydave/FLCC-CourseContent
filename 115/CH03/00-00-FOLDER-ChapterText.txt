@@ -2,7 +2,7 @@
 
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vSl7aqSXa4-4Uh7InDiNS9ONzN3zcmABcqXB84NdHWOfOdDTSfuCT3CNJTktJugj1umpd6MNZ2CdYK0/pub?w=900&amp;h=380" style="display: none; max-width: 100%;" alt="The mathematical symbols for multiplication, addition, division, subtraction, and modulo." title="TThe mathematical symbols for multiplication, addition, division, subtraction, and modulo.">
 
-Let's check out some of the built-in math features of Java. A few of the key features are modulus (the "%" sign - it means *remainder*, random numbers, overflow errors. Overflow errors can be entry points for the bad actors), and casting.
+Let's check out some of the built-in math features of Java. A few of the key features are modulus (the "`%`" sign - it means *remainder*), random numbers, and overflow errors. Overflow errors can be entry points for the bad actors), and casting.
 
 # Experiences
 
