@@ -1,10 +1,10 @@
 ^^ READING - Chapter 4 - Standard Classes
 
-# Description
+The reading for this chapter is [Chapter 4 - Standard Classes](https://docs.google.com/document/d/1-FmWZFelbIoXxZuQifn5Xv1CceJwMijJnf7A3rjghOI//). In this chapter we'll start looking at some of the ways to potentiate your programs. We'll be looking at the proper way to get information from the user with the `Scanner` class. We'll look at some of the `Math` class functions. Be on the lookout for the subtle differences between the `Random` class and the `Math.random()` function in the `Math` class.
 
-<div style="display:block;width:100%;">
-<div style="float:left;"><a href="https://docs.google.com/document/d/https://docs.google.com/document/d/1-FmWZFelbIoXxZuQifn5Xv1CceJwMijJnf7A3rjghOI/edit#heading=h.nfg451ed03zz/preview" target="_blank"><img src="https://docs.google.com/drawings/d/e/2PACX-1vQvalNmQGe4hiAmZb0NHVBCw6vzlnKZ2N5XJUdteuwavez-MZisaL2QhQ2MxUhZ6HSkXIWpqFfaF_IF/pub?w=200&h=280" alt="A thumbnail of the course information sheet." style="margin: 0pt 10pt 10pt 0pt;float:left;"  /></a></div>
+Spoiler alert:
+* `Math.random()` gives an answer between `0.0` and `0.99999` whereas the `Random` class can be used to generate an `int` or a `double` - you choose! - as well as within a range.
 
-The reading for this chapter is [Chapter 4 - Standard Classes](https://docs.google.com/document/d/https://docs.google.com/document/d/1-FmWZFelbIoXxZuQifn5Xv1CceJwMijJnf7A3rjghOI/edit#heading=h.nfg451ed03zz). This chapter will look at `Scanner`, `Math`, `String`, and `Random` classes.
+<div style="clear:both;"></div>
 
-<br /><br />
+<center><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/1-FmWZFelbIoXxZuQifn5Xv1CceJwMijJnf7A3rjghOI/copy" target="_blank"><span style="background-color:#1e90ff;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Copy Google Doc</span></a><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/1-FmWZFelbIoXxZuQifn5Xv1CceJwMijJnf7A3rjghOI/export?format=doc" target="_blank"><span style="background-color:#357EC7;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Download Word</span></a><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/1-FmWZFelbIoXxZuQifn5Xv1CceJwMijJnf7A3rjghOI/export?format=pdf" target="_blank"><span style="background-color:#F40F02;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Download PDF</span></a><br /><br /><iframe src="https://docs.google.com/document/d/1-FmWZFelbIoXxZuQifn5Xv1CceJwMijJnf7A3rjghOI/preview" height="1000" width="800" frameborder="0" style="width: 100%; max-width: 800px;"></iframe></center>
