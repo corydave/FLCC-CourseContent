@@ -59,7 +59,7 @@ Download this file and load it into your IDE.
 
 ^acc
 
-^^^ `Circles01`
+^^^ `Circles01.java`
 
 ```java ^copy
 
