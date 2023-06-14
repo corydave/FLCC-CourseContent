@@ -27,7 +27,7 @@ Write a program that asks the user for an `int` and uses it as a seed for the ra
 
 * Hint- the general format for generating a random number in a range is:
 
-```java ^copy
+```java 
 rand.nextInt(<numberOfOptions>) + <lowestValue>;
 
 // where <numberOfOptions> is the range of values (max - min + 1)
@@ -84,6 +84,10 @@ Download this file and load it into your IDE.
 
 ^callout-end
 
+^acc
+
+^^^ `RandomChars.java`
+
 ```java ^copy
 
 /**
@@ -132,8 +136,6 @@ public class RandomChars {
 
 
 
-
-
 // =============== LAB SUMMARY ===============
 
 /*
@@ -151,4 +153,8 @@ public class RandomChars {
 
 ```
 
+^acc-end
+
 <br /><br />
+
+
