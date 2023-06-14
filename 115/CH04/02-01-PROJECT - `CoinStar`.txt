@@ -82,6 +82,10 @@ Download this file and load it into your IDE.
 
 ^callout-end
 
+^acc
+
+^^^ `Coinstar.java`
+
 ```java ^copy
 /**
  * Description
@@ -138,5 +142,7 @@ public class CoinStar {
 */
 
 ```
+
+^acc-end
 
 <br /><br />
