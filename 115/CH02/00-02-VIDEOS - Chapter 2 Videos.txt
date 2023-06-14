@@ -1,7 +1,5 @@
 ^^ VIDEOS - Chapter 2 Videos
 
-# Chapter 2 Review
-
 ^= =
 
 ^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/ctsW3qIAKgs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:15px !important;"></iframe>
