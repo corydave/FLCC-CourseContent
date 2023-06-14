@@ -57,6 +57,10 @@ Download this file and load it into your IDE.
 
 ^callout-end
 
+^acc
+
+^^^ `Circles01`
+
 ```java ^copy
 
 /**
@@ -119,5 +123,6 @@ public class Circles01 {
 */
 
 ```
+^acc-end
 
 <br /><br />
