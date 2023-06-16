@@ -74,42 +74,49 @@ Download this file and load it into your IDE.
  * @author Student Name
  * @since Date Started
  */
-
+ 
 import java.util.Scanner;
 
-public class Circles01 {
+public class Circles02 {
 
-    public static void main(String[] args) {
+	public static void main(String[] args) {
 
-    // All the dirty work happens in the 'circleArea()' method;
-    // let's call it here from the main method!
+		circleMath(); // get input, compute, output
+
+	}
 	
-        circleArea();    
+	// this method asks for a radius, calculates the circumference and area,
+	// and prints
+	
+	public static void circleMath() {
+		
+		// instantiate a new Scanner
+    Scanner sc = new Scanner(System.in);
+		
+    // prompt the user for a number
+		System.out.println("Radius:");
+		
+    // store the input from the user in 'radius'
+		double radius = sc.nextDouble();
+		
+    // ========== INSERT YOUR CODE HERE ==========
     
-    }
     
-    public static void circleArea() {
+    
 
-        Scanner scanner = new Scanner(System.in);
+    
+    
+    
+    
+    // ===========================================        
+    
+    // close the scanner
+		sc.close();
 		
-        System.out.println("Radius: ");
-        double radius = scanner.nextDouble();
-    
-        System.out.println();
-		
-        // ========== INSERT YOUR CODE HERE ==========
-    
-    
-    
-    
-    
-    
-    
-        // ===========================================        
-    
-  }
+	}
 
 }
+
 
 
 // =============== LAB SUMMARY ===============
