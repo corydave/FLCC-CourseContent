@@ -1,56 +1,62 @@
-<p><img src="https://docs.google.com/drawings/d/e/2PACX-1vRmXcKWFVuvbdNedW65fNtAX7jAPKjmS6KFKrapSTu5x2GKKd9RSyUdwWKHLu6JT9Jf6rudfQMI8D6r/pub?w=900&amp;h=380" style="display: none; max-width: 100%;" alt="The words IF…THEN" title="The words IF...THEN"></p>
+^^ CHAPTER 5 - Introduction to Selections
 
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vRmXcKWFVuvbdNedW65fNtAX7jAPKjmS6KFKrapSTu5x2GKKd9RSyUdwWKHLu6JT9Jf6rudfQMI8D6r/pub?w=900&amp;h=380" style="display: none; max-width: 100%;" alt="The words IF…THEN" title="The words IF...THEN">
 
+Let's look at if statements. That is, statements that make a decision (based on the state of a variable, for instance) and acts one way if the test passes and another way if the test does not pass. Here's some code that essentially flips a coin and provides different actions based on the result:
 
-^^ CHAPTER 05 - Introduction to Selections
+```java
 
-# Experiences for this chapter
-
-Let's look at if statements. That is, statements that make a decision (based on the state of a variable, for instance) and acts one way if the test passes and another way if the test does not pass. Here's some code:
-
-<center>
-
-<div style="width:90%;margin-left:auto;margin-right:auto;background-color:#e1e1e1;border-radius:15px;padding: 10px 0px 10px 30px;line-height:1em;font-size:14pt;font-family: consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace;text-align:left;margin-bottom:20px;">
-
-<br />
-
+// Recall that Math.random() returns a number between 0.0 and 0.99999...
 if (Math.random() > 0.5) {
 
-&nbsp;&nbsp;System.out.println("You may pass");
+  System.out.println("You may pass");
 
 } else {
 
-&nbsp;&nbsp;System.out.println("NONE SHALL PASS!");
+  System.out.println("NONE SHALL PASS!");
 
 }
-	
-</div>
 
-</center>
+```
+<br /><br />
 
-* READING GUIDE - Chapter 5 Reading Guide
+# Experiences for this chapter
 
-* VIDEOS - Chapter 5 Videos
-
-* LAB - `Compliment02`
-
-* LAB - `Compare01`
-
-* LAB - `Compare02`
-
-* LAB - `CoinToss`
-
-* LAB - `ConvertCF02`
-
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vSGEkkSjMP3ZLkJqvSxuChy0fSBEW_KyDBiqSbQVaSjoVG633J6b4KHJ48GLWNDYi0DNsYGjngd2MGY/pubhtml/sheet?headers=false&amp;gid=1265930329&amp;range=A1:D12'style="width:100%;max-width:750px;height:309px" frameborder="0"></iframe></center>
 
 # To ponder
 
 You'll need to draw on your knowledge of `String`, `Math`, `Scanner`, `Random`, variables, and `if-else` statements.
 
-In the meantime, can you conjecture what the output will be if the user types in 10?
+In the meantime, can you conjecture what the output will be if the user types in `10`?
 
-<center>
-<iframe src="https://trinket.io/embed/java/0e26eb4c24?showInstructions=true" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-</center>
+```java ^copy
+
+// Instatntiate a new Scanner
+Scanner scanner = new Scanner(System.in);
+    
+// Prompt the user for a number (age of a student) and then store it in 'age'
+System.out.println("Enter the age of your child:");
+int age = scanner.nextInt();
+    
+// Declare 'school' to hold the resulting String
+String school = "";
+
+// Logic to determine which school the child will go to
+if (age > 0 && age < 5) {
+  school = "Pre-K";
+} else if (age >= 5 && age < 12) {
+  school = "Elementary school";
+} else if (age >=12 && age < 15) {
+  school = "Middle school";
+} else {
+  school = "High school";
+}    
+    
+// Output to user
+System.out.println("The school is: " + school);
+
+```
+
 
 <br /><br />
