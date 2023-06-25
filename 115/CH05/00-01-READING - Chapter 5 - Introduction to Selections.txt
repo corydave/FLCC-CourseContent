@@ -1,0 +1,19 @@
+^^ READING - Chapter 5 - Introduction to Selections
+
+The reading for this chapter is [Chapter 5 - Introduction to Selections](https://docs.google.com/document/d/1NgGQXrp_lGwuIDEWc8bR9x4sLr-3-wjxJrFZkakmUTY/). In this chapter we'll start looking at `if` statements. To me, programming with *if* statements (we call them *conditionals*) is fairly close to the way we talk. Sure, it looks complicated when you introduce brackets, but logically `if` statements are organized the same way we think about them in every day life:
+
+```java
+
+if (age >= 35) {
+  System.out.println("You are old enough to run for President.");
+}
+
+```
+
+Things can get a bit more complicated once we start adding multiple conditions and also introduce `then` statements - but don't worry about that now. Just try to wrap your head around using the plain 'ole `if` statements for now.
+
+<br />
+
+<div style="clear:both;"></div>
+
+<center><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/1NgGQXrp_lGwuIDEWc8bR9x4sLr-3-wjxJrFZkakmUTY/copy" target="_blank"><span style="background-color:#1e90ff;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Copy Google Doc</span></a><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/1NgGQXrp_lGwuIDEWc8bR9x4sLr-3-wjxJrFZkakmUTY/export?format=doc" target="_blank"><span style="background-color:#357EC7;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Download Word</span></a><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/1NgGQXrp_lGwuIDEWc8bR9x4sLr-3-wjxJrFZkakmUTY/export?format=pdf" target="_blank"><span style="background-color:#F40F02;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Download PDF</span></a><br /><br /><iframe src="https://docs.google.com/document/d/1NgGQXrp_lGwuIDEWc8bR9x4sLr-3-wjxJrFZkakmUTY/preview" height="1000" width="800" frameborder="0" style="width: 100%; max-width: 800px;"></iframe></center>
