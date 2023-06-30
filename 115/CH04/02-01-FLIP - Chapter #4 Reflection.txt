@@ -1,0 +1,31 @@
+^^ FLIP - Chapter #4 Reflection
+
+Please take this opportunity to reflect on the week. Reflection is a form of *metacognition* (that means thinking bout your thinking). These small exercises have been shown to improve thinking and learning. 
+
+Here is the prompt for this week:
+
+^=^ ,
+
+This chapter lasted *two weeks*! As usual, we spent some time on labs. But then we had our first *project*. I'm curious how that went? Normally the labs only need one or two concepts to run. In this case, we jumped to projects that pretty much rely on everything you've learned so far.
+
+* Did you experience elation when you figured one of the projects out? If so, what was it like?
+
+* Was there a moment of hopelessness that you had?
+
+^=
+
+You can [go directly to the Flip here](https://flip.com/94f70ebf). The Flip ID is **`94f70ebf`**
+
+
+
+<center>
+<iframe
+    width="100%"
+    height="900"
+    frameBorder="0"
+    src="https://flip.com/94f70ebf?embed=true"
+    webkitallowfullscreen
+    mozallowfullscreen
+    allowfullscreen
+    allow="microphone; camera; display-capture" style="border-radius:15px !important; max-width:600px;"></iframe>
+</center>
