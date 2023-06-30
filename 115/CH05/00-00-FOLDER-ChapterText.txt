@@ -32,7 +32,7 @@ In the meantime, can you conjecture what the output will be if the user types in
 
 ```java ^copy
 
-// Instatntiate a new Scanner
+// Instantiate a new Scanner
 Scanner scanner = new Scanner(System.in);
     
 // Prompt the user for a number (age of a student) and then store it in 'age'
