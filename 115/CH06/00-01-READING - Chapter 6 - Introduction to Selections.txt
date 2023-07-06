@@ -1,0 +1,17 @@
+^^ READING - Chapter 6 - Introduction to Selections
+
+The reading for this chapter is [Chapter 6 - Complex Selections](https://docs.google.com/document/d/1xeEZH-k8q1ZcHQQGHGwwTD2E_TeDMXBxr0MGSEXqfj4/). In this chapter we'll dive deeper into`if` statements. We'll look at more complicated conditionals (instead of checking the state of one variable, we can check the state of multiple variables, for instance). We'll also look at the `switch` statement (which is easier to read but does the same thing as nested `if-else-if` statements.
+
+```java
+
+if (age >= 35 && country.equals("United States") {
+  System.out.println("You are old enough to run for President.");
+}
+
+```
+
+<br /><br />
+
+<div style="clear:both;"></div>
+
+<center><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/1xeEZH-k8q1ZcHQQGHGwwTD2E_TeDMXBxr0MGSEXqfj4/copy" target="_blank"><span style="background-color:#1e90ff;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Copy Google Doc</span></a><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/1xeEZH-k8q1ZcHQQGHGwwTD2E_TeDMXBxr0MGSEXqfj4/export?format=doc" target="_blank"><span style="background-color:#357EC7;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Download Word</span></a><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/1xeEZH-k8q1ZcHQQGHGwwTD2E_TeDMXBxr0MGSEXqfj4/export?format=pdf" target="_blank"><span style="background-color:#F40F02;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Download PDF</span></a><br /><br /><iframe src="https://docs.google.com/document/d/1xeEZH-k8q1ZcHQQGHGwwTD2E_TeDMXBxr0MGSEXqfj4/preview" height="1000" width="800" frameborder="0" style="width: 100%; max-width: 800px;"></iframe></center>
