@@ -1,11 +1,10 @@
 ^^ CHAPTER 6 - Complex Selection
 
-## Experiences for this chapter
+This chapter we will look at a few different, sophisticated conditionals:
 
-This chapter we will look at a few different, sophisticated if statements.
 * `if-else` statements have a few different options (off-ramps)
 
-* `switch` statements
+* `switch` statements (which function the same as `if-else-if` statements
 
 * Using `&&` or `||` to evaluate multiple components at the same time
 
@@ -22,15 +21,11 @@ if ( (a > b) || (c > b) ) {
 
 ```
 
-* READING GUIDE - Chapter 6 Reading Guide
+# Experiences for this chapter
 
-* LAB - `MovieQuotes`
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vSGEkkSjMP3ZLkJqvSxuChy0fSBEW_KyDBiqSbQVaSjoVG633J6b4KHJ48GLWNDYi0DNsYGjngd2MGY/pubhtml/sheet?headers=false&amp;gid=781517969&amp;range=A1:D12'style="width:100%;max-width:750px;height:309px" frameborder="0"></iframe></center>
 
-* LAB - `GradeCat`
-
-* LAB - `KickStarter`
-
-* PROEJCT - `StringLab02`
+# To ponder
 
 In the meantime, why do you think the `Scanner` is created in `main`?
 
