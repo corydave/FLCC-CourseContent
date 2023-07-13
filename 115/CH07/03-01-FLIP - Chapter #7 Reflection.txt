@@ -1,0 +1,31 @@
+^^ FLIP - Chapter #7 Reflection
+
+Please take this opportunity to reflect on the week. Reflection is a form of *metacognition* (that means thinking bout your thinking). These small exercises have been shown to improve thinking and learning. 
+
+Here is the prompt for this week:
+
+^=^ ,
+
+Using methods when programming is really slick. I'm curious about two things:
+
+* What was the hardest part to apprehend about the concept of *methods*?
+
+* Please, in your own words, describe the use of methods as if you were talking to someone who doesn't know anything about programming.
+
+^=
+
+You can [go directly to the Flip here](https://flip.com/7d8d98a7). The Flip ID is **`7d8d98a7`**
+
+
+
+<center>
+<iframe
+    width="100%"
+    height="900"
+    frameBorder="0"
+    src="https://flip.com/7d8d98a7?embed=true"
+    webkitallowfullscreen
+    mozallowfullscreen
+    allowfullscreen
+    allow="microphone; camera; display-capture" style="border-radius:15px !important; max-width:600px;"></iframe>
+</center>
