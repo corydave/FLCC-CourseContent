@@ -1,0 +1,31 @@
+^^ FLIP - Chapter #8 Reflection
+
+Please take this opportunity to reflect on the week. Reflection is a form of *metacognition* (that means thinking bout your thinking). These small exercises have been shown to improve thinking and learning. 
+
+Here is the prompt for this week:
+
+^=^ ,
+
+Using loops when programming is really slick. I'm curious about two things:
+
+* What was the hardest part to apprehend about the concept of *loops*?
+
+* Please, in your own words, describe the use of loops as if you were talking to someone who doesn't know anything about programming. Give an example (your example does not need to be limited to computer programming).
+
+^=
+
+You can [go directly to the Flip here](https://flip.com/4c476b39). The Flip ID is **`4c476b39`**
+
+
+
+<center>
+<iframe
+    width="100%"
+    height="900"
+    frameBorder="0"
+    src="https://flip.com/4c476b39?embed=true"
+    webkitallowfullscreen
+    mozallowfullscreen
+    allowfullscreen
+    allow="microphone; camera; display-capture" style="border-radius:15px !important; max-width:600px;"></iframe>
+</center>
