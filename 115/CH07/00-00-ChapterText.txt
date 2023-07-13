@@ -1,8 +1,8 @@
-<img src="https://docs.google.com/drawings/d/e/2PACX-1vTb_JI32ZsjrrgojJGPR04y_r6v3URUqZ4SxeK3nEQ5Rpz_716j2DostHvNDyxyyFaxpo0ImxKSuGRu/pub?w=900&amp;h=380" style="display: none; max-width: 100%;" alt="An icon of a flowchart" title="An icon of a flowchart" width="0" height="0">
-
 ^^ CHAPTER 7 - Methods
 
-In this chapter we will look at different ways *methods* can be used. Here are a few examples:
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vTb_JI32ZsjrrgojJGPR04y_r6v3URUqZ4SxeK3nEQ5Rpz_716j2DostHvNDyxyyFaxpo0ImxKSuGRu/pub?w=900&amp;h=380" style="display: none; max-width: 100%;" alt="An icon of a flowchart" title="An icon of a flowchart" width="0" height="0">
+
+In this chapter we will look at different ways *methods* can be used. A *method* is self-contained code that you can run whenever you'd like. You might think of it as a mini-program. Here are a few examples:
 
 ```java
 
@@ -18,7 +18,7 @@ public static void displayMenu() {
 ```
 In this example, the code in `displayMenu()` can be called whenever you want to display the menu.
 
----
+<br /><br />
 
 ```java
 
@@ -42,16 +42,29 @@ In this example, we created a method called `dogifyAge` and told it to expect an
 
 Note that one advantage of having a method do this is that if we needed to change the way the calculation is done, we just need to change the code *once* in the method. If we are "dogifying" many ages, we only update the code in one spot.
 
-## Experiences for this chapter
+```java
 
-* READING GUIDE - Chapter 7 Reading Guide
+System.out.println("Dogify 8 years = " + dogifyAge(8));
 
-* VIDEOS - Chapter 7 Videos
+System.out.println("Dogify 3 years = " + dogifyAge(3));
 
-* LAB - `Circles03`
+```
 
-* LAB - `Taxes`
+# Experiences for this chapter
 
-* PROJECT - `SciCalc`
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vSGEkkSjMP3ZLkJqvSxuChy0fSBEW_KyDBiqSbQVaSjoVG633J6b4KHJ48GLWNDYi0DNsYGjngd2MGY/pubhtml/sheet?headers=false&amp;gid=1068834178&amp;range=A1:D13'style="width:100%;max-width:750px;height:330px" frameborder="0"></iframe></center>
 
-* PROJECT - `PasswordProgram`
+# To Ponder
+
+In the meantime, think about what this code might do:
+
+```java
+
+int counter = 0;
+
+while (counter < 10) {
+  System.out.println("Number " + counter);
+  counter++;
+}
+
+```
