@@ -2,7 +2,6 @@
 
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vR3ve-gyWx1mT3kKQig2ipg26bawy6tMr808oAsBdH4dbUUegXgKNm3FnB5njlVdrRuNdMnGZ0rrjMQ/pub?w=900&amp;h=380" style="display: none; max-width: 100%;" alt="An icon of a loop - a circle with an arrow that leads back into the same circle - like a snake biting its tail." title="An icon of a loop - a circle with an arrow that leads back into the same circle - like a snake biting its tail." width="0" height="0">
 
-# Description
 Loops are used all the time in programming - that's how we have programs do the same thing over and over and over and over and over...
 
 There are a few different types of loops in Java. We'll be looking at two different kinds: `while` and `for`. They are interchangeable, but there certainly are circumstances when one is better than the other.
