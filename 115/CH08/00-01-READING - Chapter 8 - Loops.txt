@@ -1,0 +1,29 @@
+^^ READING - Chapter 8 - Loops
+
+The reading for this chapter is [Chapter 8 - Loops](https://docs.google.com/document/d/1HAPpbdoJkwmobvSKDeNsoJD_9xki7YR7NdEBFJzfojs/). We're about to look at *loops* - that is, code that repeats until a certain condition is met. There are a few different flavors of loops in Java. Let's take a brief look at them. You **do not** need to understand what the following code segments do (yet), but hopefully you can start forming some predictions:
+
+```java
+
+String choice = "yes";
+
+while (choice.equals("yes") {
+  System.out.print("Play again?");
+  choice = scanner.nextLine();
+}
+```
+
+<br />
+
+```java
+
+for (int i = 0; i < 10; i++) {
+  System.out.println(i);
+}
+
+```
+
+<br /><br />
+
+<div style="clear:both;"></div>
+
+<center><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/1HAPpbdoJkwmobvSKDeNsoJD_9xki7YR7NdEBFJzfojs/copy" target="_blank"><span style="background-color:#1e90ff;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Copy Google Doc</span></a><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/1HAPpbdoJkwmobvSKDeNsoJD_9xki7YR7NdEBFJzfojs/export?format=doc" target="_blank"><span style="background-color:#357EC7;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Download Word</span></a><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/1HAPpbdoJkwmobvSKDeNsoJD_9xki7YR7NdEBFJzfojs/export?format=pdf" target="_blank"><span style="background-color:#F40F02;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Download PDF</span></a><br /><br /><iframe src="https://docs.google.com/document/d/1HAPpbdoJkwmobvSKDeNsoJD_9xki7YR7NdEBFJzfojs/preview" height="1000" width="800" frameborder="0" style="width: 100%; max-width: 800px;"></iframe></center>
