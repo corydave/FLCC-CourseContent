@@ -1,5 +1,7 @@
 ^^ CHAPTER 6 - Complex Selection
 
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vQJD43V23gHe7uukDn2mn9Om-JcW8mHJtclegFtqZb5tdlsgrpptGu84x4QX9w5yiQGKJ96OKlrXNrC/pub?w=900&amp;h=380" style="display: none; max-width: 100%;" alt="The words IF…THEN… AND… OR" title="The words IF…THEN… AND… OR">
+
 This chapter we will look at a few different, sophisticated conditionals:
 
 * `if-else` statements have a few different options (off-ramps)
