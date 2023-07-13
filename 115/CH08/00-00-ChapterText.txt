@@ -1,6 +1,6 @@
-<p><img src="https://docs.google.com/drawings/d/e/2PACX-1vR3ve-gyWx1mT3kKQig2ipg26bawy6tMr808oAsBdH4dbUUegXgKNm3FnB5njlVdrRuNdMnGZ0rrjMQ/pub?w=900&amp;h=380" style="display: none; max-width: 100%;" alt="An icon of a loop - a circle with an arrow that leads back into the same circle - like a snake biting its tail." title="An icon of a loop - a circle with an arrow that leads back into the same circle - like a snake biting its tail." width="0" height="0"></p>
-
 ^^ Loops
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vR3ve-gyWx1mT3kKQig2ipg26bawy6tMr808oAsBdH4dbUUegXgKNm3FnB5njlVdrRuNdMnGZ0rrjMQ/pub?w=900&amp;h=380" style="display: none; max-width: 100%;" alt="An icon of a loop - a circle with an arrow that leads back into the same circle - like a snake biting its tail." title="An icon of a loop - a circle with an arrow that leads back into the same circle - like a snake biting its tail." width="0" height="0">
 
 # Description
 Loops are used all the time in programming - that's how we have programs do the same thing over and over and over and over and over...
@@ -15,21 +15,9 @@ These are better for times when you know exactly how many times the program will
 
 # Experiences for this chapter
 
-* READING GUIDE - Chapter 8 Reading Guide
-* LAB - `WhileLoopA`
-* LAB - `WhileLoopB`
-* LAB - `WhileLoopC`
-* LAB - `WhileLoopD`
-* LAB - `WhileLoopE`
-* LAB - `ForLoop01`
-* LAB - `ForLoop02`
-* LAB - `ForLoop03`
-* LAB - `ForLoop04`
-* LAB - `ForLoop05`
-* PROJECT - `RandomCompliment`
-* PROJECT - `AllTheLoops`
-* PROJECT - `GuessANumber02`
-* PROJECT - `GuessANumber03`
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vSGEkkSjMP3ZLkJqvSxuChy0fSBEW_KyDBiqSbQVaSjoVG633J6b4KHJ48GLWNDYi0DNsYGjngd2MGY/pubhtml/sheet?headers=false&amp;gid=1633787385&amp;range=A1:D23'style="width:100%;max-width:750px;height:540px" frameborder="0"></iframe></center>
+
+
 
 # Prediction
 
