@@ -1,0 +1,25 @@
+^^ READING GUIDE - Reading Guide #7
+
+Complete this Reading Guide while reading the chapter in the textbook. You can leave this assignment and return to it later before submitting. Remember the answers to the "Check Yourself" questions at the end of each section in the book are in the Appendix at the end of the book.
+
+^=^ ,,,
+
+<center>
+
+## NOTE
+
+You must score an 80% or higher to see the Labs for this chapter.
+
+</center>
+
+^=
+
+<br />
+
+^callout external-link-alt
+
+<br />
+
+Click here to complete the Reading Guide.
+
+^callout-end
