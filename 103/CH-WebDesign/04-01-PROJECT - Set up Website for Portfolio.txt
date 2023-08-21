@@ -40,7 +40,7 @@ Your landing page should say some general things - who you are, what your major 
 Your "About Me" page talks about what your major is, your experience, and some other fun details. This focuses more on who you are. What are your ambitions? What do you enjoy doing? This doesn't have to be related to your academics or your career. Maybe you like fishing - add that! Include pictures! Eventually this page will also include your resume.
 
 ## Portfolio
-Your portfolio setup (required for this assignment, but can be modified for the final portfolio.) For this assignment you need to set up the 8 pages, and include your Infographic as one of those pages. (You don't need to put content in any of the other 7 pages until the final portfolio is due at the end of the semester).
+Your portfolio setup (required for this assignment, but can be modified for the final portfolio.) For this assignment you need to set up the 8 subpages. You do not need to put content in any of the other 7 pages until the final portfolio is due at the end of the semester.
 
 # Specifications
 
@@ -49,14 +49,6 @@ Your portfolio setup (required for this assignment, but can be modified for the 
 * An "About Me" page.
 
 * Eight different *subpages*, each one ready to accept a piece of work.
-
-* One of your subpages should include your INFOGRAPHIC assignment. You should also write a small reflection on this page. The reflection should address:
-
-    * A brief synopsis of the assignment
-
-    * What you learned from the assignment
-
-    * What you would do differently in the future
 
 * Make sure you **publish** your website and submit a link.
 
