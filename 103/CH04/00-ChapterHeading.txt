@@ -1,4 +1,4 @@
-^^ CHAPTER 4 - Networking && Cybersecurity
+^^ Networking && Cybersecurity
 
 # Description
 <img style="float: right;" 
