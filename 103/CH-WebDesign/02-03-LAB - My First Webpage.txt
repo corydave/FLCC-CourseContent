@@ -22,6 +22,14 @@ For your first website, write code for a simple website. It needs to have the
 
 ```
 
+^callout exclamation-triangle
+
+Note that `<b>` stands for *bold* but that is obsolete in HTML. The better way to do this is to use `<strong>This text is bold</strong>` to invoke *bold*. 
+
+Likewise, `<i>` is the old way of using *italics*. Instead, use `<em>This text is emphasized</i>` to invoke *italics*.
+
+^callout-end
+
 Your file should have proper formatting (indenting for instance) - see the examples in this chapter for reference. Formatting includes tabs for code sandwiched between opened and closed tags. 
 
 If your website has more than one file (such as an image), then please submit all the files.
