@@ -1,4 +1,4 @@
-^^ CHAPTER 4 - Operating Systems && Hardware
+^^ Operating Systems && Hardware
 
 <div style="display: none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vTX-gt1-hEbaaAJzRbzJvvsac55ztFvHHR9saBkKWfwpV9I0LoQ2Z_YU9JAHTqGkyimgPmTw5vgiQhi/pub?w=907&amp;h=385"></div>
 
