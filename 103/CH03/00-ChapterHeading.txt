@@ -1,4 +1,4 @@
-^^ CHAPTER 3 - Computational Thinking
+^^ Computational Thinking
 
 # Description
 <img style="float: right;" title="A circular image divided into four equal quadrants. The top left shows the parts of a computer arranged neatly on a table, the upper right is a big pattern, the lower left is graphs and charts, and the lower right are abstracted lights." alt="A circular image divided into four equal quadrants. The top left shows the parts of a computer arranged neatly on a table, the upper right is a big pattern, the lower left is graphs and charts, and the lower right are abstracted lights."  src="https://docs.google.com/drawings/d/e/2PACX-1vSJKbbo2_7tIRE8JR4W_B6_mLNRtNisTdJjr0VaAC3jQ1EFMcIsQ39k6RsfQfLWMokJwrYGv5iew0RG/pub?w=200&amp;h=200" />
