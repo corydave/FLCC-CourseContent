@@ -30,6 +30,8 @@ In this activity, we will explore human-generated and AI-generated content. Then
 
 ^callout external-link-alt
 
-Click here to submit your work
+<br />
+
+Click here to submit your work.
 
 ^callout-end
