@@ -1,0 +1,108 @@
+^^ LAB - Ethics Podcast Assignment
+
+# Description
+
+Podcasts are a great way to stay updated on news and trends in the ever-changing field of Artificial Intelligence. Pick an episode from the list below. Listen using the link posted below or find the show in your favorite podcast player (Apple Podcasts, Spotify, etc.). After listening to the episode, fill in the information below and submit the form. 
+
+There are five different podcast episodes you can choose from. Pull the thread that interests you the most! When you are through listening to the episode(s), submit a reflection based on the questions below.
+
+If you don't listen to podcasts on your phone, you're missing out! Check out the podcast app that comes with your phone and start subscribing to sweet, sweet stuff (almost all podcasts are free!).
+
+^acc 
+
+^^^ The Indicator - Did AI Write This Headline?
+
+If you choose this podcast, you'll need to listen to both of the episodes (they are about 9 minutes each).
+
+**Did AI Write this Headline?**
+
+*The new chatbot, ChatGPT, has been hailed by some as the end of homework. Like why even learn to write when a chatbot can do it for you? But the stakes are higher than just homework. What if this kind of AI generates propaganda or calls to violence? Will anyone be able to tell the difference between something written by AI or a human? Does it matter?*
+
+* Fun and quick and informative
+* 9 minutes
+* [Link to episode](https://www.npr.org/2023/01/18/1149834091/did-ai-write-this-headline)
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/4waZsozWIoEc4OxihHhxLF?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+---
+
+**Artists vs. AI**
+
+*Artificial intelligence has advanced enough to create a seemingly original artwork in the style of living artists within minutes. Some artists argue that these AI models breach copyright law.*
+
+* Also fun and quick and informative
+* 9 minutes
+* [Link to episode](https://www.npr.org/2023/01/30/1152653269/artists-vs-ai)
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/2duuX8yyPSzmDYIxstcWqP?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+
+^^^ Flash Forward: Choose Your Own Adventure
+
+*The gist is simple: Welcome to Vanguard Estates is a choose your own path story. Each episode has a number, and a short title, and at the end of every episode you’ll be presented with a choice. All you have to do is follow the numbers, or titles, whichever works best for your brain, and you’ll be on your way.*
+
+This is a Choose-Your-Own-Adventure-Type experience. You start at episode one, and at the end you are given a decision to make; the choice you make will bring you to another mini-episode. 
+
+* This is a *really* good, thought-provoking experience.
+* Roughly 30 minutes to explore one path
+* [Link to show](https://www.flashforwardpod.com/vanguard-interactive/)
+* [Link to a text version (made in Twine!)](https://www.flashforwardpod.com/vanguard-estates.html)
+
+^^^ MIT In Machines We Trust
+
+*Three years ago this week we launched this podcast on a mission to show the world how AI touches our everyday lives. It's been our great honor and privilege to make it through three seasons, a global pandemic, an unbelievable nineteen (19!!) award nominations, and a whole lot of tests and demos.Goodbyes are very hard to say, so instead we'll leave you with some of the show's highlights.*
+
+* A medley of different and interesting topics covered over the past few years
+* 27 minutes
+* [Link to show](https://open.spotify.com/episode/6LrWE6V1Uo6x8SR67VovXs)
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/6LrWE6V1Uo6x8SR67VovXs?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+^^^ Managing the Future of Work - AI: The Good, The Bad, and the Transformative
+
+*Is it too late to secure the guardrails? More and more businesses are turning to AI for its efficiencies and revolutionary potential, but its proliferation has sparked widespread skepticism and questions about equity, privacy, liability, transparency, and security. AI expert and entrepreneur Manoj Saxena parses the business, policy, ethics, and workforce implications.*
+
+* Informative but dense episode
+* 36 minutes
+* [Link to show](https://hbs-mfw.libsyn.com/ai-the-good-the-bad-and-the-transformative)
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/0Y2ZDxK0fp0WpZtSXdgDEu?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+^^^ Freakonomics - How to Stop Worrying and Love the Robot Apocalypse
+
+*It’s true that robots (and other smart technologies) will kill many jobs. It may also be true that newer collaborative robots (“cobots”) will totally reinvigorate how work gets done. That, at least, is what the economists are telling us. Should we believe them?*
+
+* Enjoyable podcast
+* 48 minutes
+* [Link to show](https://freakonomics.com/podcast/how-to-stop-worrying-and-love-the-robot-apocalypse-ep-461/)
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/0lVW0vaFdlPWa4jo8GQA9E?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+^tabs-end
+
+
+
+
+
+# Specifications
+
+* Your document should address the following:
+
+    * Provide a brief summary of the episode(s) in your own words.
+    * What insights into AI did the podcast(s) offer you?
+    * What did you learn that you didn't know before listening to the podcast(s)?
+    * What was something that resonated with you from the episode(s)?
+
+* Submit a link to a cloud-based document such as Google Docs.
+
+* Verify that the document is shared such that ["Anyone with the link can COMMENT"](https://www.youtube.com/watch?v=jFGXfLDctcI).
+
+<br />
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
