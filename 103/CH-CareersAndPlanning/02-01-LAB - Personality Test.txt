@@ -2,11 +2,34 @@
 
 # Description
 
-Some jobs might ask you to take a personality test; one of the more popular personality tests is the Myers-Briggs. Despite it's wide-scale adoption, the jury is still out on the efficacy.
+Many jobs ask you to take a personality test. Some companies swear by these and say that it helps managers manage employees more effectively. Some believe that knowing behaviors, values, and skills of employees can help inform what tasks or groups people should be assigned to.
 
-Vox published the scathing article [Why the Myers-Briggs test is totally meaningless](https://www.vox.com/2014/7/15/5881947/myers-briggs-personality-test-meaningless), Psychology Today countered with [In Defense of the Myers-Briggs](https://www.psychologytoday.com/us/blog/my-brothers-keeper/202002/in-defense-the-myers-briggs), and USA Today is on the fence ([Here's why people still take the Myers-Briggs test — even though it might not mean anything](https://www.usatoday.com/story/news/nation/2019/05/06/myers-briggs-type-indicator-does-not-matter/3635592002/)).
+Some of the more popular tests (and you can take some of these if you'd like) include the [**Myers-Briggs test**](https://www.humanmetrics.com/personality) and the [**DISC Assessment**](https://discpersonalitytesting.com/free-disc-test/). 
 
-At any rate, it's still good to know your results as it might come up in an interview some day. You can [take the personality test here](http://www.humanmetrics.com/cgi-win/jtypes2.asp); it will take roughly 15 minutes.
+Despite it's wide-scale adoption, the jury is still out on the efficacy of the Myers-Briggs test. Vox published the scathing article [Why the Myers-Briggs test is totally meaningless](https://www.vox.com/2014/7/15/5881947/myers-briggs-personality-test-meaningless), Psychology Today countered with [In Defense of the Myers-Briggs](https://www.psychologytoday.com/us/blog/my-brothers-keeper/202002/in-defense-the-myers-briggs), and USA Today is on the fence ([Here's why people still take the Myers-Briggs test — even though it might not mean anything](https://www.usatoday.com/story/news/nation/2019/05/06/myers-briggs-type-indicator-does-not-matter/3635592002/)).
+
+At any rate, it's still good to know your results as it might come up in an interview some day. FLCC pays for a service that provides a few different tests for people as they start pondering careers and preparing for jobs. 
+
+In this experience, we will be taking two of the tests that are offered to FLCC students (although you can take all four of them if you'd like - you will get detailed and insightful reports for every test you take.
+
+To take the **Career Personality Test** and the **Work Values Cluster Assessment**, you'll need to do the following:
+
+### Create an account
+
+1. Go to https://flcc.myplan.com/ and copy the code that will make the tests free for you.
+
+2. Click the "**Create Free Account**" button to create an account.
+
+### Take the Assessments
+
+1. Once you are logged into your account, click on the tab at the top of the screen that says "**Assessment**".
+
+2. You should see a few different assessments. Please take the **Career Personality Test** and the **Career Values Assessment**.
+
+    1. The **Career Personality Test** has 60 questions and takes between five and ten minutes to complete. When you are done, you'll get a report. You will be given one of sixteen different personalities; they are listed as four letters. For instance, the image below shows a result of ENTP. Be sure to take a screenshot of this - you'll need to submit that.<center><img src="https://docs.google.com/drawings/d/e/2PACX-1vTLDIzNgwlPyal30xjiI0gwkKDe-VjGprua2jVARhVF624ZKkVb_B3rdg-79V1W6z0vkukySi-Ir84g/pub?w=764&amp;h=602" alt="A screenshot with the results of a personality test showing ENTP." title="A screenshot with the results of a personality test showing ENTP." width="300"></center>
+
+    2. The **Career Values Assessment** is also very quick - it will probably take you about five minutes. You'll have to rank 25 different things in level of importance to you. At the end, you'll get a very detailed report. Take a screenshot of this one, too. Note that your screenshot will most likely not capture most of the information, but you should be able to capture part of it. <center><img src="https://docs.google.com/drawings/d/e/2PACX-1vRJruJuBIxpXuZzIVBHMaBtLWBPGt8A34E5YUKNM71KhUPtUMlqOoLTZj9xp_vyzmzvDnebvWpRbHWU/pub?w=764&amp;h=602" alt="A screenshot with the results of a career values report." title="A screenshot with the results of a career values report." width="300"></center>
+
 
 When you are done, save the results as a PDF or a screenshot and submit them here.
 
