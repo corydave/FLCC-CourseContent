@@ -1,4 +1,4 @@
-^^ ASSIGNMENT - The Moral Machine Reflection
+^^ LAB - The Moral Machine Reflection
 
 # Description
 
@@ -29,4 +29,12 @@ This does not need to be anything formal. Just a paragraph or two about the exer
 
 ^=
 
-<br /><br />
+<br />
+
+^callout external-link-alt
+
+<br />
+
+Click here to participate in the Discussion.
+
+^callout-end
