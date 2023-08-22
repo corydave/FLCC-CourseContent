@@ -1,7 +1,13 @@
 ^^ DISCUSSION - AI Show and Tell
 
+
+# Description
+
+<div style="float:left;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vTSZ-juIZZ3w4xS9zq89XGqn5PyF25UFt2iAWPVvE0ocMa47khHmzj55dzCTzweOYVCG6UBiKxH6Wyb/pub?w=200&h=200" alt="A chat bubble indicating conversation or discussion." style="margin: 0pt 10pt 10pt 0pt;float:left;"  /></div>
+
 For this discussion assignment, **first read the details and instructions in the READING - Advances in Artificial Intelligence page**. Then, **post** a new thread sharing your results, and **respond to two other posts** about the ethical implications of their results.
 
+<div style="clear:both;"></div>
 
 ^= =
 
@@ -74,6 +80,10 @@ example prompts
 ^acc-end
 
 ^=
+
+# Specifications
+
+* **Post** a new thread sharing your results, and **respond to two other posts** about the ethical implications of their results.
 
 <br />
 
