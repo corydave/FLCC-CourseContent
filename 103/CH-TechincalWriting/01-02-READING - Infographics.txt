@@ -1,0 +1,25 @@
+^^ READING - Infographics
+
+Infographics are documents that convey information to the reader through images and words. It is not uncommon for infographics to contain technical information (like statistics).
+
+Good infographics will have a good design element; they will be appealing to the eye. Good infographics will also include citations for the facts that are presented. Information on an infographic should not need multiple sentences to describe the content or fact.
+
+Check out the following infographic on *multitasking*. We've chosen this infographic because not only is it designed well, but the content it covers is **vitally important to students!!!**
+
+<center><div class='visually_embed'><img class='visually_embed_infographic' src='https://visual.ly/node/image/104316?_w=540' alt='The High Cost of Multitasking' /><div class='visually_embed_cycle'></div><script type='text/javascript' src='https://a.visual.ly/api/embed/104316?width=540' class='visually_embed_script' id='visually_embed_script_104316'></script><p> From <a href='https://visual.ly?utm_source=content-embed&utm_medium=embed'>Visually</a>.</p></div></center>
+
+^=^ ,,
+
+## NOTE
+
+---
+
+* You only see complete sentences at the top of the infographic; it sets the stage for the facts that will be covered.
+
+* Each fact only has one component. For instance, instead of a compound fact that says contains multiple pieces of information, each "chunk" is self-contained. 
+
+* There are footnotes at the bottom that are the references.
+
+* There are numbers in the facts that correspond to the references at the bottom.
+
+^=
