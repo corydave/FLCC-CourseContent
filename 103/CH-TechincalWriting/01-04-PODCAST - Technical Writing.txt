@@ -1,7 +1,0 @@
-^^ PODCAST - Technical Writing 
-
-The CodeNewbie Podcast is a great podcast to subscribe to. It contains stories from people on their coding journey. [Check out their website](https://www.codenewbie.org/podcast) and be sure to subscribe; the episodes are really insightful for aspiring software engineers.
-
-In [December 2022, Philip Kiely sat down for an interview on the podcast and talked about *technical writing*](https://www.codenewbie.org/podcast/technical-writing-e3787c31-47c8-4bbe-83b4-ca58ff809e06). If you'd like the transcript, [click here](https://www.codenewbie.org/podcast/technical-writing-e3787c31-47c8-4bbe-83b4-ca58ff809e06/transcript). 
-
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/5HJHx1bXZPYGvmkcj95xfn?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>

@@ -1,0 +1,40 @@
+^^ LAB - Technical Writing Podcast Response
+
+# Description
+
+The CodeNewbie Podcast is a great podcast to subscribe to. It contains stories from people on their coding journey. [Check out their website](https://www.codenewbie.org/podcast) and be sure to subscribe; the episodes are really insightful for aspiring software engineers.
+
+In December 2022, Philip Kiely sat down for an interview on the podcast and talked about *technical writing*. Much of the conversation centers around his perspective about how technical writing is vital to software development.
+
+Listen to the podcast and write a response.
+
+* The podcast is embedded below or [you can listen here](https://www.codenewbie.org/podcast/technical-writing-e3787c31-47c8-4bbe-83b4-ca58ff809e06). The entire episode is around 35 minutes, but Philip starts talking about technical writing at the 9:33 mark. I'd recommend listening to the whole episode, but if you just want to listen to him talk about technical writing, skip ahead to 9:33.
+
+* If you'd like the transcript, [click here](https://www.codenewbie.org/podcast/technical-writing-e3787c31-47c8-4bbe-83b4-ca58ff809e06/transcript). 
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/5HJHx1bXZPYGvmkcj95xfn?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+# Specifications
+
+* Points to address:
+  * After listening to Philip talk about technical writing, how would you describe it to someone who has never heard of the term before?
+
+  * Please identify five things that you found fascinating about the interview.
+
+* One page maximum.
+
+* Your document should be terse; this is technical writing after all! Just a few bullet points or sentences. No need for extra words or descriptive language.
+
+* Please use cloud-based software such as Google Docs.
+
+* You should only be pasting a link to your document here - make sure the document is shared such that ["Anyone with the link can COMMENT"](https://www.youtube.com/watch?v=jFGXfLDctcI)
+
+<br />
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
