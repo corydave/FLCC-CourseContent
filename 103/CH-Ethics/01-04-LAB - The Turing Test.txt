@@ -1,4 +1,4 @@
-^^ LAB - The Turing Test
+^^ The Turing Test
 
 # Description
 
