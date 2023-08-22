@@ -1,0 +1,21 @@
+^^ LINK - Roadtrip Nation
+
+[Roadtrip Nation](https://roadtripnation.com/) is a great resource where you can explore careers and pathways. There are interviews with people in  industry, a course you can take, and other cool tools to help you find a desirable career.
+
+Of particular note is the [Roadmap tool](https://roadtripnation.com/roadmap) - in under thirty seconds you can narrow down some pathways that may not be on your radar.
+
+<center>
+
+[Click here to try the Roadmap tool](https://roadtripnation.com/roadmap)
+
+</center>
+
+---
+
+By the way, this is reminiscent of a talk Elizabeth Gilbert (author of "Eat, Pray, Love") where she categorizes the different types of jobs:
+* Hobby
+* Job
+* Career
+* Vocation
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/0g7ARarFNnw?si=UbFPI1tYFqfltmC5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius:15px !important;"></iframe>
