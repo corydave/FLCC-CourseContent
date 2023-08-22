@@ -32,14 +32,14 @@ To take the **Career Personality Test** and the **Work Values Cluster Assessment
 
 2. You should see a few different assessments. Please take the **Career Personality Test** and the **Career Values Assessment**.
 
-    1. The **Career Personality Test** has 60 questions and takes between five and ten minutes to complete. When you are done, you'll get a report. You will be given one of sixteen different personalities; they are listed as four letters. For instance, the image below shows a result of ENTP. Be sure to take a screenshot of this - you'll need to submit that.<center><img src="https://docs.google.com/drawings/d/e/2PACX-1vTLDIzNgwlPyal30xjiI0gwkKDe-VjGprua2jVARhVF624ZKkVb_B3rdg-79V1W6z0vkukySi-Ir84g/pub?w=764&amp;h=602" alt="A screenshot with the results of a personality test showing ENTP." title="A screenshot with the results of a personality test showing ENTP." width="300"></center>
+    1. The **Career Personality Test** has 60 questions and takes between five and ten minutes to complete. When you are done, you'll get a report. You will be given one of sixteen different personalities; they are listed as four letters. For instance, the image below shows a result of ENTP. Be sure to take a screenshot of this - you'll need to submit that.<center><img src="https://docs.google.com/drawings/d/e/2PACX-1vTLDIzNgwlPyal30xjiI0gwkKDe-VjGprua2jVARhVF624ZKkVb_B3rdg-79V1W6z0vkukySi-Ir84g/pub?w=764&amp;h=602" alt="A screenshot with the results of a personality test showing ENTP." title="A screenshot with the results of a personality test showing ENTP." width="300"></center><br />
 
     2. The **Career Values Assessment** is also very quick - it will probably take you about five minutes. You'll have to rank 25 different things in level of importance to you. At the end, you'll get a very detailed report. Take a screenshot of this one, too. Note that your screenshot will most likely not capture most of the information, but you should be able to capture part of it. <center><img src="https://docs.google.com/drawings/d/e/2PACX-1vRJruJuBIxpXuZzIVBHMaBtLWBPGt8A34E5YUKNM71KhUPtUMlqOoLTZj9xp_vyzmzvDnebvWpRbHWU/pub?w=764&amp;h=602" alt="A screenshot with the results of a career values report." title="A screenshot with the results of a career values report." width="300"></center>
 
 
 When you are done, save the results as a PDF or a screenshot and submit them here.
 
-Also, the Computing Sciences department is interested in your anonymous results (as we get lots of data, we can share the results with future students). Please consider filling out this form.
+Also, the Computing Sciences department is interested in your anonymous results (as we get lots of data, we can share the results with future students). Please consider filling out the form below, too.
 
 # Specifications
 
@@ -49,10 +49,6 @@ Also, the Computing Sciences department is interested in your anonymous results 
 
 <br />
 
-<center>
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfj5mzPwWJnygvj_UwTL-mwcRFLp27A30uNE2ejRejBDnLabg/viewform?embedded=true" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-</center>
-
 ^callout external-link-alt
 
 <br />
@@ -60,3 +56,11 @@ Also, the Computing Sciences department is interested in your anonymous results 
 Click here to submit your work.
 
 ^callout-end
+
+
+<br />
+
+<center>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfj5mzPwWJnygvj_UwTL-mwcRFLp27A30uNE2ejRejBDnLabg/viewform?embedded=true" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</center>
+
