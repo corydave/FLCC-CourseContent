@@ -13,6 +13,17 @@ Your Game Design Document should be an overview (big picture, 30,000 foot view) 
 This means that your game will most likely be text based and have decisions that the player will need to make. You can totally have images (and even music) if you'd like. But primarily your game will be story driven.
 
 
+^=^ ,,
+
+## NOTES
+---
+
+*Your Game Design Document *must* accurately describe the game you intend to build.
+
+* Make sure that in the Google Doc version of your Game Design Document you delete the text in the text boxes and replace it with your own text.
+
+^=
+
 # Specifications
 
 * Submit a link to a cloud-based document such as Google Docs.
