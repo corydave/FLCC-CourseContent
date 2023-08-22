@@ -16,6 +16,16 @@ Substantive posts and replies will be graded; disposable, empty posts and replie
 
 # Specifications
 
-* In this Discussion Forum, you need to make ONE post and reply to TWO posts. But, like, don't blow this off. This chapter is the best opportunity you'll have to really engage with your thoughts. Tune into your opinions, beliefs, morals, and principles. Share that with us!
+* In this Discussion Forum, you need to make ONE post and reply to TWO posts. But, like, don't blow this off. This chapter is the best opportunity you'll have to really engage with your peers. Tune into your opinions, beliefs, morals, and principles. Share that with us!
 
 </div>
+
+<br />
+
+^callout external-link-alt
+
+<br />
+
+Click here to participate in the Discussion.
+
+^callout-end
