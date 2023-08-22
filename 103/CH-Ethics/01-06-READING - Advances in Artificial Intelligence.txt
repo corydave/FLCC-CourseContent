@@ -1,0 +1,64 @@
+^^ READING - Advances in Artificial Intelligence
+
+^= =
+
+## Another Milestone in AI
+
+Artificial intelligence (AI) and machine learning (ML) technologies experienced recent breakthroughs. 
+
+Large language models and diffusion models have existed for many years. The size of their training models and the increase in computing performance made them hit an inflection point where the benefits of using them for a number of novel and impressive tasks became clear.
+
+As a result, there has been an explosion of public and commercial use and large tech companies are scrambling to take advantage faster than their competitors.
+
+^=^ , 10
+
+AI is becoming more of an umbrella term, lately. Even though these recent advancements are mostly within the machine learning area of research (more akin to data processing), you will likely see them labeled as advancements in AI.
+
+^=
+
+## So What?
+
+If you have not experienced ChatGPT's sometimes unnerving ability to fluidly chat with a seamingly boundless knowledge or Midjourney's ability to generate breathtaking images from your typed inputs, maybe this doesn't mean much to you, yet.
+
+[Watch this 8 minute video][avatar-video] to get a small taste of what is possible:
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/V2efVSXSlqc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius:15px !important;"></iframe>
+
+<center>
+
+[Link to video][avatar-video]
+
+</center>
+
+[avatar-video]:https://youtu.be/V2efVSXSlqc
+
+^===
+
+## Preparation for Assignment
+
+To use tools like ChatGPT or Midjourney, you will want to improve your ability to create "prompts". Like getting better at searches in Google, improving your "Google Fu", you'll need to know the types of information that the tool responds best to and include that in your prompt to the algorithm.
+
+### Prompt Engineering
+
+Fortunately, due to natural language processing (NLP), your prompts don't have to be robotic or mathematical. Instead, be explicit and detailed about what you want.
+
+A prompt can have any combination of the following:
+
+- Question
+- Instructions
+- Examples
+- Input Data (separate using quotes `"`)
+
+Including these elements effectively in a prompt will help garner useful AI responses.
+
+[Take some time to read through this article][prompt-article] (sorry about the incessant ads) to get examples and specific ideas about how to get better results.
+
+[prompt-article]:https://dataconomy.com/2023/01/27/what-is-ai-prompt-engineering-examples-how/
+
+### Accessing AI
+
+Most tools, such as [ChatGPT](https://chat.openai.com/) and [Stable Diffusion](https://stablediffusionweb.com/), allow you to **create a free or trial account**. Take the time to do this, reading carefully. You will need to use one of these or another similar tool for the assignment.
+
+Once you are in, try a few things informally. With a chat bot, just start a conversation about a subject that interests you. Type as if typing to a person, at first. Then, head to the assignment!
+
+^=
