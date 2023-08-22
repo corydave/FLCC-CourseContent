@@ -35,6 +35,6 @@ This does not need to be anything formal. Just a paragraph or two about the exer
 
 <br />
 
-Click here to participate in the Discussion.
+Click here to submit your work.
 
 ^callout-end
