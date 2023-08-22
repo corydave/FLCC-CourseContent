@@ -6,7 +6,7 @@ Good infographics will have a good design element; they will be appealing to the
 
 Check out the following infographic on *multitasking*. We've chosen this infographic because not only is it designed well, but the content it covers is **vitally important to students!!!**
 
-<center><div class='visually_embed'><img class='visually_embed_infographic' src='https://visual.ly/node/image/104316?_w=540' alt='The High Cost of Multitasking' /><div class='visually_embed_cycle'></div><script type='text/javascript' src='https://a.visual.ly/api/embed/104316?width=540' class='visually_embed_script' id='visually_embed_script_104316'></script><p> From <a href='https://visual.ly?utm_source=content-embed&utm_medium=embed'>Visually</a>.</p></div></center>
+<center><div class='visually_embed'><img class='visually_embed_infographic' src='https://visual.ly/node/image/104316?_w=540' alt='The High Cost of Multitasking' /><div class='visually_embed_cycle'></div><p> From <a href='https://visual.ly?utm_source=content-embed&utm_medium=embed'>Visually</a>.</p></div></center><br /><br />
 
 ^=^ ,,
 
