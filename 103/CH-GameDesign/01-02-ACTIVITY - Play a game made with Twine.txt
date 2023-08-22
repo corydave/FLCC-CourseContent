@@ -12,7 +12,7 @@
 
 # Description
 
-[Twine](https://twinery.org/) is a game engine that allows people to make interactive fiction games with minimal amount of programming ([Quest](http://textadventures.co.uk/quest) is another platform that also allows for easy-to-make interactive fiction games). Ultimately, we'll be making a game with Twine (or Quest), so it's important to get a feel for what the games can do. Interactive fiction is a genre of games that allow the user to 
+[Twine](https://twinery.org/) is a game engine that allows people to make interactive fiction games with minimal amount of programming ([Quest](http://textadventures.co.uk/quest) is another platform that also allows for easy-to-make interactive fiction games). Ultimately, we'll be making a game with Twine (or Quest), so it's important to get a feel for what the games can do. Interactive fiction is a genre of games that allow the user to have agency in how a text-based adventure progresses.
 
 There are some very popular games in the IF realm:
 
