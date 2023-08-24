@@ -7,7 +7,7 @@ We'll also spend some time looking at *college knowledge* - that's the stuff tha
 
 There is no textbook that you need to buy for this class! The faculty in the FLCC Computing Sciences department worked together to write, record, and put together all of the materials that we'll need. Everything will be available here, in our course. Over the next few days, I'll start making that course content live for you to see.
 
-You can reach me at emailaddress@flcc.edu.
+You can reach me at dave.ghidiu@flcc.edu.
 
 There is also a sub-folder called **Course Information**. In this folder you'll find resources that might help you throughout the semester. This includes things like the invitation to Discord, a place to give me feedback, the Student Hours schedule, and some other cool things.
 
@@ -15,7 +15,7 @@ Take a look at the syllabus below to get an understanding of this course. You ca
 
 I'm looking forward to learning with you this semester!
 
-<center>
+<br /><center>
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/YbQPhaMD_Vw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 15px !important; border: 0px solid black;"></iframe>
 
