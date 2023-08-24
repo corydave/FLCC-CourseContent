@@ -2,17 +2,20 @@
 
 <h1 style="text-align: center;"><span style="color: #1e90ff;"><strong><span style="font-size: 100px; font-family: 'courier new', courier, sans-serif;">Welcome!</span></strong></span></h1>
 
-Welcome to the *best summer of your life!* I mean, forget **Guardians 3**, **Fast X**, and **Mission Impossible: Dead Reckoning**. You have **Java 1: The Genesis of Awesome**!!!
+Hiya! Thanks for peeking into this Java class! I'm stoked to meet you on Monday, August 28!!! We'll be meeting in room 3217. Once you climb the main set of stairs to the third floor, turn left and walk. Keep walking until you hit a wall. Don't bump into the wall, but stop right before it. Turn left. You're looking into room 3217. Enter. Say "hi!"
 
-You can expect more content to be entered into this course in a few days. But for now, check out this vieo and the course outline (syllabus)!
+Take a look at the syllabus below to get an understanding of this course. Then look at the information in the Course Information section directly under the syllabus. Poke around in there. You can totally email me at dave.ghidiu@flcc.edu if you have any questions!
+
+I'm looking forward to learning with you this semester! I'll see you soon.
 
 <center>
 
-^youtube <iframe width="100%" height="500" src="https://www.youtube.com/embed/AmdNMgmAU9Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius:15px !important;"></iframe>
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/AmdNMgmAU9Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius:15px !important;"></iframe>
 
 </center>
 
 <br /><br />
 
-<center><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/1UtgFnwViVDvncl9aJu8AGV7wv7yYqqntqYkEl4bHLxE/copy" target="_blank"><span style="background-color:#1e90ff;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Copy Google Doc</span></a><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/1UtgFnwViVDvncl9aJu8AGV7wv7yYqqntqYkEl4bHLxE/export?format=doc" target="_blank"><span style="background-color:#357EC7;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Download Word</span></a><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/1UtgFnwViVDvncl9aJu8AGV7wv7yYqqntqYkEl4bHLxE/export?format=pdf" target="_blank"><span style="background-color:#F40F02;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Download PDF</span></a><br /><br /><iframe src="https://docs.google.com/document/d/1UtgFnwViVDvncl9aJu8AGV7wv7yYqqntqYkEl4bHLxE/preview" height="1000" width="800" frameborder="0" style="width: 100%; max-width: 800px;"></iframe></center>
+# Course Syllabus
 
+<center><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/1UtgFnwViVDvncl9aJu8AGV7wv7yYqqntqYkEl4bHLxE/copy" target="_blank"><span style="background-color:#1e90ff;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Copy Google Doc</span></a><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/1UtgFnwViVDvncl9aJu8AGV7wv7yYqqntqYkEl4bHLxE/export?format=doc" target="_blank"><span style="background-color:#357EC7;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Download Word</span></a><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/1UtgFnwViVDvncl9aJu8AGV7wv7yYqqntqYkEl4bHLxE/export?format=pdf" target="_blank"><span style="background-color:#F40F02;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Download PDF</span></a><br /><br /><iframe src="https://docs.google.com/document/d/1UtgFnwViVDvncl9aJu8AGV7wv7yYqqntqYkEl4bHLxE/preview" height="1000" width="800" frameborder="0" style="width: 100%; max-width: 800px;"></iframe></center>
