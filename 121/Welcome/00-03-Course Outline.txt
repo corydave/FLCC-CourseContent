@@ -1,17 +1,3 @@
-<div style="float:left;"><a href="https://docs.google.com/document/d/1IXRifnLbz7YUTvi75CA5qWxelwKUmY8-jEal-naDxs0/preview" target="_blank"><img src="https://docs.google.com/drawings/d/e/2PACX-1vQfSH7-wQfrL68T6XopW_TTzje64DsKF9anqEV4N7_Gr5UYlUUcV3NHD6Bgf-Y0EA9DMso20GpLSd-M/pub?w=200&h=280" alt="A thumbnail of the course information sheet." title="A thumbnail of the course information sheet." style="margin: 0pt 10pt 10pt 0pt;float:left;"  /></a></div>
+^^ Course Information Sheet
 
-The reading for this chapter is the [Course Information Sheet](https://docs.google.com/document/d/1IXRifnLbz7YUTvi75CA5qWxelwKUmY8-jEal-naDxs0/preview) (also known as the Course Outline or Course Syllabus). Yeah, I know. It's boring. Like, real boring. I tried to jazz it up. It will make you laugh. It will make you cry. It might make you laugh again.
-
-<div style="clear:both;">
-
-Here are the big takeaways:
-
-* The late work policy is interesting. Please read it carefully.
-
-* Work is due on Tuesdays at noon. Please make sure you plan accordingly.
-
-* I really love this Technology in Education class. But I really would like your input as the semester is unfolding. **Please, give me your honest, open, candid feedback!**
-
-* The first part of the Syllabus is specific to this class. The second part of the Syllabus contains elements you've probably seen before in other classes as they are relative to FLCC. You might want to read through this part, too, as the information may have changed.
-
-</div>
+<center><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/1IXRifnLbz7YUTvi75CA5qWxelwKUmY8-jEal-naDxs0/copy" target="_blank"><span style="background-color:#1e90ff;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Copy Google Doc</span></a><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/1IXRifnLbz7YUTvi75CA5qWxelwKUmY8-jEal-naDxs0/export?format=doc" target="_blank"><span style="background-color:#357EC7;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Download Word</span></a><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/1IXRifnLbz7YUTvi75CA5qWxelwKUmY8-jEal-naDxs0/export?format=pdf" target="_blank"><span style="background-color:#F40F02;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Download PDF</span></a><br /><br /><iframe src="https://docs.google.com/document/d/1IXRifnLbz7YUTvi75CA5qWxelwKUmY8-jEal-naDxs0/preview" height="1000" width="800" frameborder="0" style="width: 100%; max-width: 800px;"></iframe></center>
