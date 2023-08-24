@@ -1,28 +1,28 @@
 <center><img src="https://c.tenor.com/RpKXrOa3eOAAAAAC/welcome.gif" alt="An animation of the word 'Welcome'" title="An animation of the word 'Welcome'" style="width:0px;height:0px;display:none;"></center>
 <h1 style="text-align: center;"><span style="color: #1e90ff;"><strong><span style="font-size: 100px; font-family: 'courier new', courier, sans-serif;"><span style="color: #781346;">Welcome!</span></span></strong></span></h1>
 
-Hello and welcome to CSC 103! My name is Lorem ipsum dolor sit amet hac ac magna letius lectus netus primis. Pede torquent et amet magna sed dictum id. Ultricies at fermentum turpis nascetur letius. Aliquet justo arcu faucibus porta odio sit.
+Hello and welcome to CSC 103! My name is Dave Ghidiu and I'm your instructor for this course. I'm so looking forward to getting to know you better and walking through this online class together. This course is a melting pot of different things. We'll look at video game design. We'll look at web design. We'll look at networking and cybersecurity. We'll look at operating systems. We'll spend a lot of time looking at careers and some long term planning.
 
-Nibh dapibus senectus finibus odio posuere curae. Finibus accumsan vivamus tristique curabitur eu id tempus. Velit ullamcorper aenean dignissim tempus facilisis. Dictum maecenas molestie platea mattis pretium interdum.
-
-You can reach me at emailaddress@flcc.edu.
+We'll also spend some time looking at *college knowledge* - that's the stuff that will help you as you embark on your collegiate career!
 
 There is no textbook that you need to buy for this class! The faculty in the FLCC Computing Sciences department worked together to write, record, and put together all of the materials that we'll need. Everything will be available here, in our course. Over the next few days, I'll start making that course content live for you to see.
 
+You can reach me at emailaddress@flcc.edu.
+
+There is also a sub-folder called **Course Information**. In this folder you'll find resources that might help you throughout the semester. This includes things like the invitation to Discord, a place to give me feedback, the Student Hours schedule, and some other cool things.
+
+Take a look at the syllabus below to get an understanding of this course. You can *totally* email me if you have any questions!
 
 I'm looking forward to learning with you this semester!
 
-MY NAME HERE
-
-<br />
-
 <center>
 
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/xwbLR70Dtzw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 15px !important; border: 0px solid black;"></iframe>
+^youtube <iframe width="100%" height="500" src="https://www.youtube.com/embed/xwbLR70Dtzw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 15px !important; border: 0px solid black;"></iframe>
 
 </center>
 
-<br /><br />
+# Course Syllabus
 
-<center><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/1UtgFnwViVDvncl9aJu8AGV7wv7yYqqntqYkEl4bHLxE/copy" target="_blank"><span style="background-color:#1e90ff;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Copy Google Doc</span></a><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/1UtgFnwViVDvncl9aJu8AGV7wv7yYqqntqYkEl4bHLxE/export?format=doc" target="_blank"><span style="background-color:#357EC7;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Download Word</span></a><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/1UtgFnwViVDvncl9aJu8AGV7wv7yYqqntqYkEl4bHLxE/export?format=pdf" target="_blank"><span style="background-color:#F40F02;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Download PDF</span></a><br /><br /><iframe src="https://docs.google.com/document/d/1UtgFnwViVDvncl9aJu8AGV7wv7yYqqntqYkEl4bHLxE/preview" height="1000" width="800" frameborder="0" style="width: 100%; max-width: 800px;"></iframe></center>
-There is also a sub-folder called **Course Information**. In this folder you'll find resources that might help you throughout the semester. This includes things like the invitation to Discord, a place to give me feedback, the Student Hours schedule, and some other cool things.
+<br />
+
+<center><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/15qPfYHZig5VcsD-jqiE7MNKJTrp0l7DtNYfnkqF-hxk/copy" target="_blank"><span style="background-color:#1e90ff;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Copy Google Doc</span></a><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/15qPfYHZig5VcsD-jqiE7MNKJTrp0l7DtNYfnkqF-hxk/export?format=doc" target="_blank"><span style="background-color:#357EC7;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Download Word</span></a><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/15qPfYHZig5VcsD-jqiE7MNKJTrp0l7DtNYfnkqF-hxk/export?format=pdf" target="_blank"><span style="background-color:#F40F02;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Download PDF</span></a><br /><br /><iframe src="https://docs.google.com/document/d/15qPfYHZig5VcsD-jqiE7MNKJTrp0l7DtNYfnkqF-hxk/preview" height="1000" width="800" frameborder="0" style="width: 100%; max-width: 800px;"></iframe></center>
