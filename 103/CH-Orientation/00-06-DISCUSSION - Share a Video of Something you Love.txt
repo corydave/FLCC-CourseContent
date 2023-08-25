@@ -26,6 +26,8 @@ No matter what it is you decide to share, post it! And you should be reading pos
 
 ^callout external-link-alt
 
+<br />
+
 Click here to submit your work
 
 ^callout-end
