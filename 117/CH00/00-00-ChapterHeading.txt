@@ -4,7 +4,9 @@
 
 Welcome to CSC-117, Introduction to Python! This class has some oddities that probably require some explaining. This chapter is dedicated to acquainting you to my weirdness and peculiarities 😁.
 
-There are a few different assignments in this chapter, but you should start off by reading the syllabus and also watching the orientation video. Both of those will help you understand how the course works.
+There are a few different assignments in this chapter, but you should start off by reading the syllabus (if you haven't done that yet) and also watching the orientation videos. Both of those will help you understand how the course works. I know the videos seem a bit long, but please keep this in mind:
+* They are probably the longest videos in the class so you get the long boring stuff out of the way early!
+* The stuff we cover in the videos is super important for how you experience this class.
 
 If you have any questions, you can always email me at dave.ghidiu@flcc.edu. 
 
