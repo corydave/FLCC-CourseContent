@@ -4,34 +4,31 @@
 
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vRTNaJb0VboC_wek-Q0JZOrznHGQoglyf07GW_J7SiOUgfxszkF3LrvnoHpa_ftZmD3i2nZCaHEu6uO/pub?w=200&h=200" alt="Thumbnail images of people’s faces with their name, a chat bubble, and the word ‘Today’ or ‘Yesterday’ in front of the image." style="margin: 0pt 10pt 10pt 0pt;float:right;"  />
 
-We will be using Flipgrid for this exercise. It's a great way for all of us to get to know each other and does not require you to download an app or create an account.
+We will be using a platform called "Flip" for this exercise (it used to be called *Flipgrid*). It's a great way for all of us to get to know each other and does not require you to download an app or create an account. We'll also be using Flip for reflections at the end of each chapter.
 
-To post an entry, you just need to login with your "student username" and hit record! If you need help, you can [check out this video](https://www.youtube.com/watch?v=tOTBqtcgTLg).
+To post an entry, you just need to login with your `@fingerlakes.edu` email address and hit record! Your "username" is your first name mashed with your last name. So for me, Dave Ghidiu, I would use '**daveghidiu**'.If you need help, you can [check out this video](https://www.youtube.com/watch?v=g_GF7EgT7Z4).
 
-If you can't see the Flipgrid, go directly to the website (https://flipgrid.com/CODECODE) or download the app. Our "Flip Code" is **CODECODE**.
+If you can't see the Flip, go directly to the website (https://flipgrid.com/CODECODE) or download the app. Our "Flip Code" is **CODECODE**.
 
 The assignment is to post a short video where you tell us how to pronounce your name, something awesome about yourself, and where you live. You don't have to share a video if you don't want to (you can just do audio, you can record your screen, or you can upload an image).
 
-Note that the "Student username" in this exercise is actually your first name mashed with your last name. So for me, Dave Ghidiu, I would use '**daveghidiu**'. If you have any issues with this, email me at dave.ghidiu@flcc.edu and I'll help you out!
+If you have any issues with this, email me at dave.ghidiu@flcc.edu and I'll help you out!
 
 <div style="display:block;width:100%;clear:both;">
 
 # Specifications
 
-* After you've added to the Flipgrid, submit the words "I've finished it!" here. Then I'll know to go to Flipgrid and check it out.
-
-* ***This assignment cannot be handed in late.***
+* After you've added to the Flip, submit the words "I've finished it!" here. Then I'll know to go to Flip and check it out.
 
 <br /><br /><hr />
 </div>
 
 ^callout external-link-alt
 
-<br />
-
 Once you complete your Flipgrid entry, submit the text *"I've finished it!"* here.
+
+*Bonus points for also writing something funny or interesting.*
 
 ^callout-end
 
 <center><iframe width="90%" height="900" frameborder="0" src="https://flipgrid.com/CODECODE?embed=true" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen" allow="microphone; camera"></iframe></center>
-
