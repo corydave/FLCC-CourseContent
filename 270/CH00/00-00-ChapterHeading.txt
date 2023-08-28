@@ -1,0 +1,7 @@
+^^ CHAPTER 0 - Orientation
+
+This unit is designed to introduce you to how this class works. It will cover specifics for how this class is designed and an introduction to the everyone in the class.
+
+# Schedule
+
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vRxgRdNoBTaBuxf7fCDreea8kokhcOtQyD6erWSyiW4tB-KbR6EfTP9wUy9QJ-2cd14rlyzUPEx5zFB/pubhtml/sheet?headers=false&amp;gid=1072565424&amp;range=B1:F14'style="width:100%;max-width:720px;height:351px" frameborder="0"></iframe></center>	
