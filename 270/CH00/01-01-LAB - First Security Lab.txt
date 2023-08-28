@@ -1,8 +1,8 @@
-^^ <center>LAB - First Security Lab</center>
+^^ LAB - First Security Lab
+
+<center><img alt="A word cloud of various security words. They form the shape of a padlock." src="https://docs.google.com/drawings/d/e/2PACX-1vQKfLyV2lveyq4xeKTSEv7ZxBb3Iv77orRJjk1dpAuVlCwOgPOpYlWO_OlVGaKTu8yzw1iPbLRrCbWS/pub?w=400&amp;h=400" /></center>
 
 <br />
-
-<img alt="A word cloud of various security words. They form the shape of a padlock." src="https://docs.google.com/drawings/d/e/2PACX-1vQKfLyV2lveyq4xeKTSEv7ZxBb3Iv77orRJjk1dpAuVlCwOgPOpYlWO_OlVGaKTu8yzw1iPbLRrCbWS/pub?w=200&amp;h=200" style="float:right;">
 
 ## STEP ONE: Get a copy of this lab
 
