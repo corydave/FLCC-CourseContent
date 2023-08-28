@@ -1,0 +1,24 @@
+^^ WEEK #1 - What to Expect
+
+# Welcome!
+
+Hiya folks! I'm so glad we will be working together this semester!!! This week we will be getting acclimated to Brightspace and also how things work in this course. I know you might be eager to dive right into programming, but we won't be exploring that until the next week.
+
+In the meantime, please check out this video. I try to keep all information videos (the ones that talk about what we are doing each week) to under two minutes. It is important to watch the videos because oftentimes they are the only way to see what's happening each week.
+
+I add announcements three times a week. The first announcement sets the stage for what we are doing. The midweek announcement will update you on things (if I get a lot of questions about a topic, I'll add clarity - I'll also update you on any bugs that people have encountered). On the weekend, you'll get a *virtual postcard* from me reminding you to take a few minutes for yourself.
+
+At any rate, here's the first video clocking in at 1:52.
+
+I'm looking forward to working with you!
+
+<center>
+
+[Link to video](https://www.youtube.com/watch?v=8vy1zhvbznM)
+
+^youtube <iframe width="100%" height="400" src="https://www.youtube.com/embed/8vy1zhvbznM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius:15px !important;"></iframe>
+
+</center><br />
+
+## Let's be careful out there!
+
