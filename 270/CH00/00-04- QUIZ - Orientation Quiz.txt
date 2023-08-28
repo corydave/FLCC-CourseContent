@@ -1,0 +1,28 @@
+^^ QUIZ - Orientation
+
+Every chapter starts off with a reading. The book for this course is free and available as a PDF or a Google Doc. But for this first chapter, the reading is the Course Syllabus.
+
+The reading for this class is meant to be informative, relevant, and not-awful-to-read. Most of the chapters in this class have about 15 pages of reading, and it can be somewhat dense at times. Please make sure you do the readings!
+
+Every chapter also has a quiz based on the reading. You need to score an 80% or better on the quiz to see the rest of the content in the chapter. 
+
+Don't worry! You can take the quiz as many times as you'd like
+This quiz has questions covered in the orientation videos and the course syllabus. You should review the syllabus and watch the videos before taking this quiz.
+
+# Specifications
+
+* You must get 80% or better to unlock the rest of the chapter (and the rest of this course!)
+
+* You may take this quiz as many times as you'd like.
+
+* This quiz is open book - use whatever resources you'd like.
+
+<br />
+
+^callout external-link-alt
+
+<br />
+
+Click here to take the quiz.
+
+^callout-end
