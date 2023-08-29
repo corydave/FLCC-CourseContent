@@ -1,7 +1,9 @@
 ^^ CHAPTER 0 - Orientation
 
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vQ0K8TK7-ulRGaPA5Jyj6h9lV41-CgkdxfNd-8tgCZVretIgcQY9UKpV8OAB7nAI5vt5kSHXy2Spaw2/pub?w=907&amp;h=385" alt="A blue background with a illustrations of a handshake and a compass rose." title="A blue background with a illustrations of a handshake and a compass rose." width="0" height="0" style="display:none;">
+
 This unit is designed to introduce you to how this class works. It will cover specifics for how this class is designed and an introduction to the everyone in the class.
 
 # Schedule
 
-<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vRxgRdNoBTaBuxf7fCDreea8kokhcOtQyD6erWSyiW4tB-KbR6EfTP9wUy9QJ-2cd14rlyzUPEx5zFB/pubhtml/sheet?headers=false&amp;gid=1072565424&amp;range=B1:F14'style="width:100%;max-width:720px;height:351px" frameborder="0"></iframe></center>	
+<center><iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRxgRdNoBTaBuxf7fCDreea8kokhcOtQyD6erWSyiW4tB-KbR6EfTP9wUy9QJ-2cd14rlyzUPEx5zFB/pubhtml/sheet?headers=false&amp;gid=1072565424&amp;range=B1:F14"style="width:100%;max-width:720px;height:351px" frameborder="0"></iframe></center>	
