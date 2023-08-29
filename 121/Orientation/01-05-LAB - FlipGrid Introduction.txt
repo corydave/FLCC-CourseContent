@@ -6,7 +6,7 @@
 
 We will be using a platform called "Flip" for this exercise (it used to be called *Flipgrid*). It's a great way for all of us to get to know each other and does not require you to download an app or create an account. We'll also be using Flip for reflections at the end of each chapter.
 
-To post an entry, you just need to login with your `@fingerlakes.edu` email address and hit record! Your "username" is your first name mashed with your last name. So for me, Dave Ghidiu, I would use '**daveghidiu**'.If you need help, you can [check out this video](https://www.youtube.com/watch?v=g_GF7EgT7Z4).
+To post an entry, you just need to login with your `@fingerlakes.edu` email address and hit record! YIf you need help, you can [check out this video](https://www.youtube.com/watch?v=g_GF7EgT7Z4).
 
 If you can't see the Flip, go directly to the website (https://flipgrid.com/CODECODE) or download the app. Our "Flip Code" is **CODECODE**.
 
