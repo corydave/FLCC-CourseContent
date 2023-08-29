@@ -26,3 +26,10 @@ Coordinator for the Networking & Cybersecurity degree and you'll have many class
 
 * Once you've sent requests, submit an acknowledgment here in Brightspace. You just have to say, "Dave, I sent a LinkedIn request :)". If you have already connected with us in a previous class, please tell me in your submission
 
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
