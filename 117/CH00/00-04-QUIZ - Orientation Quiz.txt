@@ -22,6 +22,6 @@ Don't worry! You can take the quiz as many times as you'd like. But keep in mind
 
 <br />
 
-Submit your work here.
+Click here to take the quiz.
 
 ^callout-end
