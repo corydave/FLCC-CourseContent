@@ -6,6 +6,8 @@
 
 Throughout this course, there will be assignments that require you to make a copy of a Google Doc, do some work in it, and then submit the link to me. It's mission critical that you set the sharing permissions such that **[Anyone with the link can comment](https://www.youtube.com/watch?v=jFGXfLDctcI)**. Otherwise I might not have access to the document 😥.
 
+This assignment is your first taste of that! Read the steps below; you'll copy a Google Doc, make some changes, shared the document, and then submit the link to me in Brightspace. This video walks you through each step 😁.
+
 ^===
 
 ^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/wagHwpdg6uI?si=54bikJgK5mPrKEGE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius:15px !important;"></iframe>
