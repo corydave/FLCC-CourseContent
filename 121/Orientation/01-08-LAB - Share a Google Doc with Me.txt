@@ -6,17 +6,14 @@
 
 Throughout this course, there will be assignments that require you to make a copy of a Google Doc, do some work in it, and then submit the link to me. It's mission critical that you set the sharing permissions such that **[Anyone with the link can comment](https://www.youtube.com/watch?v=jFGXfLDctcI)**. Otherwise I might not have access to the document 😥.
 
-
-<br />
-
-## STEP 1
-[Make a copy of the Google Doc by clicking on this link](https://docs.google.com/document/d/1JK7CUC8u75icwSIsDGjCz2aXzSKZvCaWak-4VCV8W_g/copy) (make sure you are signed in to Google).
-
 ^===
 
 ^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/wagHwpdg6uI?si=54bikJgK5mPrKEGE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius:15px !important;"></iframe>
 
 ^=
+
+## STEP 1
+[Make a copy of the Google Doc by clicking on this link](https://docs.google.com/document/d/1JK7CUC8u75icwSIsDGjCz2aXzSKZvCaWak-4VCV8W_g/copy) (make sure you are signed in to Google).<br /><br />
 
 ## STEP 2
 Take a screenshot on your computer as instructed (there are details and a video walkthrough in the Google Doc) and paste it into the appropriate spot.<br /><br />
