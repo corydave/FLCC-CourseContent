@@ -18,15 +18,8 @@ print("Hello World!")
 
 Yeah. That's it. It's that simple.
 
+Since this is our first chapter with Python, there are still some things to get used to. In this chapter you'll find a video about understanding how each chapter works - including using *Jupyter Notebooks*. Then we'll look at how to submit work to CodeGrade. We'll also look at how ChatGPT can be super dumb sometimes. Then, it's off to the races - the Python Races. And by that I mean we'll just program. There's really no race.
+
 # Experiences for this chapter
 
-1. VIDEO - Setting up your development environment and `helloWorld.py` ^box^
-2. VIDEO - **GameDev** - Demo 
-3. VIDEO - Submission process (CodeGrade)
-4. LABS
-    1. `helloWorld.py`
-    2. `rectangle.py`
-    3. `triangle.py`
-    4. `initials.py`
-
-----
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vSOhM7OqlrMOHdc48h9j67Qlaa4itEbuYv848PrCh_NY-Wqr_x3osK_tLvmyRGeVArn99cw3PEqLshG/pubhtml/sheet?headers=false&amp;gid=0&amp;range=A1:D14'style="width:100%;max-width:720px;height:351px" frameborder="0"></iframe></center>
