@@ -1,4 +1,4 @@
-^^ LAB - First Security Lab
+^^ LAB - Linux Terminal Commands
 
 <center><img alt="An illustration of a Linux terminal screen. Black background with the words: 'root@kali:~#' in red."  title="An illustration of a Linux terminal screen. Black background with the words: 'root@kali:~#' in red." src="https://docs.google.com/drawings/d/e/2PACX-1vR1XnLMhUaxUJclPfYbHbN8wO22mWnTsXyzKESMSgA-lkswliHJVKR4xFZ7DhbNt1H7T-1pzE0ucpGG/pub?w=400&amp;h=400" /></center>
 
