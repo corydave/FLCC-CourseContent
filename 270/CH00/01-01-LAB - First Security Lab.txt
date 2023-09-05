@@ -27,6 +27,8 @@
 * This lab can take anywhere between 10 minutes and 20 minutes, depending on your familiarity with
 your web browser and your experience with screenshots.
 
+<br />
+
 ^callout external-link-alt
 
 <br />
