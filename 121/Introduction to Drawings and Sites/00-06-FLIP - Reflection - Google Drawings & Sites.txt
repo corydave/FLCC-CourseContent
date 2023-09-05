@@ -12,7 +12,11 @@ Take a minute to reflect on your avatar and favicon. How did you express yoursel
 
 You can [go directly to the Flip here](https://flip.com/c4a6a881). The Flip ID is **`c4a6a881`**
 
+# Specifications
 
+* Answer the prompt with a genuine, heartfelt response. Add something to the conversation. Dig deep. Help us understand where you are coming from.
+
+* There is nothing to submit for this assignment; your post at Flip will be the submission.
 
 <center>
 <iframe
