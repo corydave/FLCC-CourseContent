@@ -1,0 +1,7 @@
+^^ READING - Chapter 1
+
+Chapter 1 is all about acclimating us to the fundamentals of information security. We'll look at some of the major tenets of information security. We'll check out some of the more famous breaches. We'll dabble with privacy.
+
+This chapter sets the stage for the rest of the course.
+
+You can [read the chapter here](https://docs.google.com/document/d/1ZyccdIt_EL_VUOMY1kZBn-NpzGG4KGnUYfGhHoyU1MM/edit#) or access it from [OpenCompSci.com](https://dev.opencompsci.com/books/information-security). If you decide to read it from the first link, you can leave comments in the margin! This is a great opportunity to add examples, point out errors, and make suggestions!
