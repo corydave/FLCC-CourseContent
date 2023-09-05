@@ -1,0 +1,27 @@
+^^ FLIP - Reflection - Google Drawings & Sites
+
+Please take this opportunity to reflect on the week. Reflection is a form of *metacognition* (that means thinking bout your thinking). These small exercises have been shown to improve thinking and learning. 
+
+Here is the prompt for this week:
+
+^=^ ,
+
+Take a minute to reflect on your avatar and favicon. How did you express yourself in your avatar and favicon? How do you think your students and their parents will respond to your avatar and favicon?
+
+^=
+
+You can [go directly to the Flip here](https://flip.com/c4a6a881). The Flip ID is **`c4a6a881`**
+
+
+
+<center>
+<iframe
+    width="100%"
+    height="900"
+    frameBorder="0"
+    src="https://flip.com/c4a6a881?embed=true"
+    webkitallowfullscreen
+    mozallowfullscreen
+    allowfullscreen
+    allow="microphone; camera; display-capture" style="border-radius:15px !important; max-width:600px;"></iframe>
+</center>
