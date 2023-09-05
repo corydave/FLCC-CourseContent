@@ -1,6 +1,6 @@
 ^^ LAB - Install Linux
 
-<center><img alt="An illustration of a laptop displaying the logo for Linux." src="https://docs.google.com/drawings/d/e/2PACX-1vQfuC8yTedXTgcQh7FS9381aJctD5Gf9DlNALSlj3uViDGX7LMF_0Z97Qa4kxO1RicDMP47y4HanqbU/pub?w=400&amp;h=400" /></center>
+<center><img alt="An illustration of a laptop displaying the logo for Linux." title="An illustration of a laptop displaying the logo for Linux." src="https://docs.google.com/drawings/d/e/2PACX-1vQfuC8yTedXTgcQh7FS9381aJctD5Gf9DlNALSlj3uViDGX7LMF_0Z97Qa4kxO1RicDMP47y4HanqbU/pub?w=400&amp;h=400" /></center>
 
 <br />
 
