@@ -1,0 +1,36 @@
+^^ LAB - First Security Lab
+
+<center><img alt="An illustration of a Linux terminal screen. Black background with the words: 'root@kali:~#' in red."  title="An illustration of a Linux terminal screen. Black background with the words: 'root@kali:~#' in red." src="https://docs.google.com/drawings/d/e/2PACX-1vR1XnLMhUaxUJclPfYbHbN8wO22mWnTsXyzKESMSgA-lkswliHJVKR4xFZ7DhbNt1H7T-1pzE0ucpGG/pub?w=400&amp;h=400" /></center>
+
+<br />
+
+## STEP ONE: Get a copy of this lab
+
+* [Make a copy of this Google Doc](https://docs.google.com/document/d/13uQ2uLZSDOvlX11JTyFJ8b0HiFdxvPJFOYC-Xjo6kuY/copy) (you must be logged into Google)
+
+<br />
+
+## STEP TWO: Complete the lab
+
+* Read through each step
+
+* You'll be asked to take screenshots at certain points; replace the screenshots in the Google Doc with your own
+
+<br />
+
+## STEP THREE: Submit the lab
+
+* Since you will be using a Google Doc, paste a link to it
+
+    * Make sure it is shared such that "[Anyone with the link can comment](https://www.youtube.com/watch?v=jFGXfLDctcI)"
+
+* This lab can take anywhere between 20 minutes and 90 minutes, depending on your familiarity with
+your web browser and your experience with screenshots.
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
