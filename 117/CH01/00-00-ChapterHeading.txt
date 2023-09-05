@@ -1,5 +1,8 @@
 ^^ Basic Output
 
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vRP3Mx-7OIgiIKCCEKBEMECd-WfnBq9BqgkTfi7jh_PVfh-jFYQS1tgY3ktnhSIWfaiIoo2-R8XSEBS/pub?w=900&amp;h=380" style="display: none; max-width: 100%;" alt="The words HELLO WORLD in computer typeface." title="The words HELLO WORLD in computer typeface.">
+
+
 If you have programmed in Java before, this small chapter will blow your mind (at the simplicity of Python). Consider this code from Java (to be clear, you are *not* responsible for any Java in this course):
 
 ```java
