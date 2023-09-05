@@ -1,0 +1,5 @@
+^^ VIDEO - 20 Ways to Use a Virtual Machine
+
+Normally I prefer to create videos for you (instead of including videos made by other people). But every once in a while I'll include a video that I have encountered that is ***awesome***. Here's a good example:
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/SVQmzaSabEQ?si=iiY5llBK3C-fEaAI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius:15px !important;"></iframe>
