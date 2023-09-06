@@ -1,0 +1,47 @@
+^^ Programming with GitHub CodeSpaces
+
+## STEP 1: Login to Github
+
+Go to [GitHub](https://github.com/) and login.
+
+<br /><br />
+
+## STEP 2: Launch Codespaces
+
+Enter the repository that you'd like to launch your IDE for and then click the green "Codespaces" button. If you have never launched a Codespace in the repository, create a new one. However, if you have an existing one in your list, choose that. Remember that each new instance will reset your preferences (themes, etc.) and any work that hasn't been pushed to the repo. So it is best to use the same one over and over.
+
+<center><img src="https://docs.google.com/drawings/d/e/2PACX-1vTknmOe6IbAmCu77uZDCGG-Yng2tqe3FsWNbbI2tUaZP1n_5vaWstymbSnSAbijGA67g8MdAfbaq6SD/pub?w=960&amp;h=546" alt="A screenshot of a GitHub repository. The green CODE button has been pressed and the options for Codespaces are displayed." title="A screenshot of a GitHub repository. The green CODE button has been pressed and the options for Codespaces are displayed."></center>
+
+<br /><br />
+
+## STEP 3: Pull down any changes
+
+In most cases it is best to make changes to the code through an IDE. Every now and then you might make changes through the web interface and it is best to make sure you *pull* those changes before you do anything else. Make sure you are in the proper path (the root directory is probably the best) before executing a *pull*:
+
+<div style="padding-left:50px;">
+
+`@corydave ➜ /workspaces/java (main) $ git pull`
+
+</div>
+
+<br /><br />
+
+## STEP 4: Code
+
+Modify code, add code, delete code, make new files, do whatever you want!
+
+<br /><br />
+
+## STEP 5: Push all your changes
+
+When you are finishing up your programming session, you'll need to do three things to *push* your code back to GitHub:
+
+<div style="padding-left:50px;">
+
+`@corydave ➜ /workspaces/java (main) $ git add .`
+
+`@corydave ➜ /workspaces/java (main) $ git commit -m "<text for the update note>"`
+
+`@corydave ➜ /workspaces/java (main) $ git push`
+
+</div>
