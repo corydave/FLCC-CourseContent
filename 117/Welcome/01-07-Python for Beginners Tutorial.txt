@@ -1,0 +1,11 @@
+^^ Python for Beginners Tutorial
+
+If you know Kevin Stratvert's work, then you'll love this hour-long tutorial. Kevin makes content that covers all things tech (a lot of Windows content). If you don't know Kevin, then you'll probably still love his videos. His videos are extremely approachable and sometimes he uses a fictitious cookie company as an example.
+
+Either way, this video is worth an hour of your time as you embark on Python! 
+
+<center>
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/b093aqAZiPU?si=PkpfG5b0_U2RMyAZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius:15px !important;"></iframe>
+
+</center>
