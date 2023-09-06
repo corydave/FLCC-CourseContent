@@ -1,0 +1,74 @@
+^^ Linux Tips
+
+# Navigation
+
+`ls` will provide a list of all the files and sub-directories (folders) in the directory (folder) you are currently in.
+
+<br />
+
+`cd java` or `cd CH01` will *change directory* to the directory (folder) you choose. The first example will bring you into the sub-directory of your current folder called "java" and the second example will bring you into a sub-directory called "CH01".
+
+<br />
+
+`cd ..` will bring you up one level (up one directory/folder).
+
+<br />
+
+`cd` will bring you to the root; you don't want to go here. If you wind up going here, you can change your directory to where you *should* be with `cd /workspaces/java` (assuming your repository is called "java". If, say, your repository is called "javaAwesome", then use `cd /workspaces/javaAwesome`.
+
+<br />
+
+`cd /workspaces/java` will bring you to the repository named "java". If your respository is names, say, "coolCoolCool", try `cd /workspaces/coolCoolCool`.
+
+<br />
+
+`mkdir <directoryname>` will make a directory (folder) with the provided name.
+
+<br />
+
+`pwd` will give you the "present working directory" that you are in.
+
+<br />
+
+`clear` will clear the terminal.
+
+<br />
+<br />
+
+# Java
+
+`javac <filename>.java` will compile the Java file.
+
+<br />
+
+`java <filename>` will run the file.
+
+<br />
+
+`clear && javac <filename>.java && java <filename>` will clear the terminal, compile the file, and then run it.
+
+<br />
+<br />
+
+# Files
+
+`touch <filename>` will create a file with the filename you used. If the file already exists, then the `touch` command will merely update the timestamp of when that file was used last.
+
+<br />
+
+`cat <filename>` will output the contents of the file right in the terminal.
+
+<br />
+
+`rm <filename>` will remove the file you specify.
+
+<br />
+<br />
+
+# Keyboard Shortcuts
+
+*^key ↑* will cycle through the commands (heading towards the oldest)
+
+*^key ↓* will cycle through the commands (heading towards the most recent)
+
+*^key tab* will autocomplete
