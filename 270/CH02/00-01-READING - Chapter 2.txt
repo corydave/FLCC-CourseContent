@@ -1,0 +1,3 @@
+^^ READING - Chapter 2
+
+You can [read the chapter here](https://docs.google.com/document/d/1W877o7fgZ1szBskxX8xIzHqSipURMcUzkLl1ehkp1xw/edit#) or access it from [OpenCompSci.com](https://dev.opencompsci.com/books/information-security). If you decide to read it from the first link, you can leave comments in the margin! This is a great opportunity to add examples, point out errors, and make suggestions!
