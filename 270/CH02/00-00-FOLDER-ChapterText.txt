@@ -4,10 +4,14 @@
 
 By the time you are done reading this chapter,&nbsp;hopefully you will have a whole new appreciation for passwords, authentication, and authorization.&nbsp;The very simple problem of authenticating people is very complex, and hopefully you'll be able to contextualize how all the moving parts work together. This chapter examines some hacks and includes a number of labs for you to gain experience (including some hacking of passwords!).
 
+# Schedule 
+
 <center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vRxgRdNoBTaBuxf7fCDreea8kokhcOtQyD6erWSyiW4tB-KbR6EfTP9wUy9QJ-2cd14rlyzUPEx5zFB/pubhtml/sheet?headers=false&amp;gid=1499791358&amp;range=A1:D16'style="width:100%;max-width:720px;height:393px" frameborder="0"></iframe></center>	
 
+# Outcomes
+
 <details>
-<summary><span style="font-size:24pt;font-weight:bold;">OUTCOMES</span></summary>
+<summary>Click to reveal outcomes</summary>
 
 * Recognize that information security breaches are on the rise
 * Understand the potentially damaging impact of security breaches
