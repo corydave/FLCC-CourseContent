@@ -1,0 +1,26 @@
+^^ CHAPTER 2 - Passwords & People
+
+<img style="width: 100%;display:none;" src="https://docs.google.com/drawings/d/e/2PACX-1vQoeMkNMFRDCv0m7DhN_cmbLU3q37g9rAoEWguy5mLQn6LS0h1WTx_eMPw7hi2ndEFQzdhPnIZg-zAs/pub?w=907&amp;h=385" alt="A password being typed in but the characters are represented by bullets." title="A password being typed in but the characters are represented by bullets.">
+
+By the time you are done reading this chapter,&nbsp;hopefully you will have a whole new appreciation for passwords, authentication, and authorization.&nbsp;The very simple problem of authenticating people is very complex, and hopefully you'll be able to contextualize how all the moving parts work together. This chapter examines some hacks and includes a number of labs for you to gain experience (including some hacking of passwords!).
+
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vRxgRdNoBTaBuxf7fCDreea8kokhcOtQyD6erWSyiW4tB-KbR6EfTP9wUy9QJ-2cd14rlyzUPEx5zFB/pubhtml/sheet?headers=false&amp;gid=1499791358&amp;range=A1:D16'style="width:100%;max-width:720px;height:393px" frameborder="0"></iframe></center>	
+
+<details>
+<summary><span style="font-size:24pt;font-weight:bold;">OUTCOMES</span></summary>
+
+* Recognize that information security breaches are on the rise
+* Understand the potentially damaging impact of security breaches
+* Recognize that information security must be made a top organizational priority
+* Provide examples of things you know, things you have, and things you are
+* Describe the benefits of multi-factor authentication
+* Describe brute force attacks, dictionary attacks, and rainbow table attacks
+* Differentiate between authentication, authorization, and accounting
+* Explain why authentication services are necessary
+* Discuss different authentication services
+* Recognize that information security breaches are on the rise
+* Understand the potentially damaging impact of security breaches
+* Recognize that information security must be made a top organizational priority
+*  Discuss different authentication services
+
+</details>
