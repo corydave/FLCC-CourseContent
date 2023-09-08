@@ -1,25 +1,12 @@
 ^^ LAB - Making an app from a database
 
-^= =
-
 # Background
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1wZrGiWtgMQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:15px !important;float:right;width:50%;height:315px;max-width:560px;margin-left:15px;"></iframe>
+
 Databases are handy when you are tracking data that is multidimensional. As an example, an address book typically can be handled in a spreadsheet because the data is relatively flat (that is, there are two dimensions - rows and columns).
 
 But when data gets more sophisticated and becomes dependent on other data, then a database is necessary.
-
-^===
-
-<center>
-
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/1wZrGiWtgMQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:15px !important;"></iframe>
-
-<br />
-
-[Link to video](https://www.youtube.com/watch?v=1wZrGiWtgMQ)
-
-</center>
-
-^=
 
 Consider a POS system (Point of Sale) in a restaurant. When a party sits down at a table, a check will be opened in the POS system. Let's say there are five people at the table - the server has to track which of the five people order each item (and how much of each item). Some of the items have multiple options (what are the sides? how is the steak cooked? are there allergies?), and then there are different prices for the items.
 
@@ -29,27 +16,23 @@ Oh yeah - there is also an inventory management system baked into the POS system
 # Description
 In this experience, you will be creating a sweet, sweet POS system for a hardware store! Actually, I guess you can create it for any type of store you want, but the video tutorial is for a hardware store. Feel free to substitute the items with whatever you'd like - you don't need 4x4s and hammers. 
 
-Note that this will be very rudimentary since it's most likely your first dive into databases. We actually won't be automating too many processes or including an inventory. But we *will* include receipts and inventories.
+This will be very rudimentary since it's most likely your first dive into databases. We actually won't be automating too many processes or including an inventory. But we *will* include receipts and inventories.
+
+You will be using [Airtable](https://airtable.com/) to create a database. There are four tables you'll need: *Customers*, *Items*, *Receipts*, and *Item Detail* (they are all included in the video). 
+
+Feel free to use the [customer base and item list found here](https://docs.google.com/spreadsheets/d/1LZgYt3j4v-IyF1tS8PVtFcOMgM_fIPkBs7ZQUw_0Sl8/edit#gid=0) or just make up your own! Note that you should have at least four customers and five items to create a data set that is rich enough to play with.
+
+Note that you should watch the video in it's entirety. Yes, it's a long video (around 24 minutes). This topic might be pretty new to you, but the video walks through every step you need to take to make a POS system.
+
+You do not need to use unique IDs for your primary keys, but if you decide that you'd like to, it's easy! You can [follow this quick video](https://www.youtube.com/watch?v=bZANO7qzSH8) for instructions.
 
 # Specifications
-* You will need to use [Airtable](https://airtable.com/) to create a database. There are four tables you'll need: *Customers*, *Items*, *Receipts*, and *Item Detail*.
 
-* You can use the [customer base and item list found here](https://docs.google.com/spreadsheets/d/1LZgYt3j4v-IyF1tS8PVtFcOMgM_fIPkBs7ZQUw_0Sl8/edit#gid=0) or just make up your own! Note that you should have at least four customers and five items to create a data set that is rich enough to play with.
-
-* The tables (and views) you need to embed are:
-
-  * "Add a customer" as a *form*
-  * "List of products" as a *gallery*
-  * "Start a tab" as a *form*
-  * "Add item to a tab" as a *form*
-  * "All transactions" as a *gallery*
-
-
-* Note that you should watch the video in it's entirety. Yes, it's a long video (around 24 minutes). This topic is probably pretty new to most of you, but the video walks through every step you need to take to make a POS system.
-
-* You do not need to use unique IDs for your primary keys, but if you decide that you'd like to, it's easy! You can [follow this quick video](https://www.youtube.com/watch?v=bZANO7qzSH8) for instructions.
+* Please look at the rubric for this assignment before submitting; it lists all the specifications. 
 
 * Submit a link to your Airtable (be sure to share so that anyone with the link can view).
+
+
 
 <br />
 
