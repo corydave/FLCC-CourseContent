@@ -2,37 +2,27 @@
 
 # Description
 
-^= =
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OHClPHJa7Xc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:15px !important;float:right;width:50%;height:315px;max-width:560px;margin-left:15px;"></iframe>
 
 Let's look at how Google Sheets can really be leveraged. Sheets is *such a potent tool* and you should really know a few of the cool things you can do with it.
 
 I've made a video that walks through some of the really nifty things you can do with Sheets. Your job is to follow along and do all the cool things, too!
 
-^===
-
-<center>
-
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/OHClPHJa7Xc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:15px !important;"></iframe>
-
-</center>
-
-^=
-
 I've made you a Sheet with the same data, but the entire sheet is unformatted. You'll have to follow along and when you're done, your document should look very similar to mine.
 
 To get a copy of the Google Sheet, make sure you are logged into your account and [**click here**](https://docs.google.com/spreadsheets/d/1ktXvHIfHSIuKE34AxBafmoBdTEkhBl-vOayhr3pyoiE/copy).
 
-Share the link so that "Anybody with the link can ***edit***".
+<br />
+
+^=^ ,
+
+Note that you'll also be exporting your work as a PDF and submitting that. Once you attach the PDF to this submission, you can paste a link to your Google Doc. Verify that the document is shared such that ["Anyone with the link can ***EDIT***"](https://www.youtube.com/watch?v=jFGXfLDctcI).
+
+^=
 
 # Specifications
 
-* Submit the PDF version of your Google Sheet.
-
-* Submit a link to the Google Sheet, too.
-
-* Verify that the document is shared such that ["Anyone with the link can ***EDIT***"](https://www.youtube.com/watch?v=jFGXfLDctcI).
- 
-
+* Please look at the rubric for this assignment before submitting; it lists all the specifications. 
 <br />
 
 ^callout external-link-alt
