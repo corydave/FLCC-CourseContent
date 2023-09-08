@@ -2,7 +2,7 @@
 
 # Description
 
-^= =
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mLJeXlYDSzs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:15px !important;float:right;width:50%;height:315px;max-width:560px;margin-left:15px;"></iframe>
 
 Let's look at how Google Docs can really be used as an instrument to rock your research paper skills!
 
@@ -10,28 +10,19 @@ I've made a video that walks through some of the really nifty things you can do 
 
 I've made you a Doc with some sample writing, but the entire document is unformatted. You'll have to follow along and when you're done, your document should look very similar to mine.
 
-^===
+To get a copy of the Google Doc, make sure you are logged into your account and [click here](https://docs.google.com/document/d/1KDK3zWYONJ3SdmNiIpk7gONRSKkhxzbftvPTYdt4q1w/copy).
 
-<center>
+<br />
 
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/mLJeXlYDSzs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:15px !important;"></iframe>
+^=^ ,
 
-</center>
+Note that you'll also be exporting your work as a PDF and submitting that. Once you attach the PDF to this submission, you can paste a link to your Google Doc. Verify that the document is shared such that ["Anyone with the link can ***EDIT***"](https://www.youtube.com/watch?v=jFGXfLDctcI).
 
 ^=
 
-To get a copy of the Google Doc, make sure you are logged into your account and [click here](https://docs.google.com/document/d/1KDK3zWYONJ3SdmNiIpk7gONRSKkhxzbftvPTYdt4q1w/copy).
-
-Share the link so that "Anybody with the link can **edit**".
-
 # Specifications
 
-* Submit the PDF version of your Google Doc.
-
-* Submit a link to the Google Doc, too.
-
-* Verify that the document is shared such that ["Anyone with the link can ***EDIT***"](https://www.youtube.com/watch?v=jFGXfLDctcI).
-
+* Please look at the rubric for this assignment before submitting; it lists all the specifications. 
 
 <br />
 
