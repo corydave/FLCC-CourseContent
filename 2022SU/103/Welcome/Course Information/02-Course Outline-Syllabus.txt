@@ -1,7 +1,0 @@
-^^ Course Outline (Syllabus)
-
-<center><a style="text-decoration-line: none; color: #999999;" href="https://docs.google.com/document/d/15qPfYHZig5VcsD-jqiE7MNKJTrp0l7DtNYfnkqF-hxk/export?format=pdf"><button style="border-radius:15px;margin: 5px; background-color: red; color: white; font-weight: bold; padding: 10px; border-width: 0px;">Download as PDF</button></a>
-<div style="width: 100%; text-align: center;"><iframe width="750" height="1000" src="https://drive.google.com/file/d/15qPfYHZig5VcsD-jqiE7MNKJTrp0l7DtNYfnkqF-hxk/preview" frameborder="0"></iframe></div>
-</center>
-
-<br /><br />

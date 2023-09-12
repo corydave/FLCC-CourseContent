@@ -1,8 +1,0 @@
-^^ WEEK 2 - CodeGrade Observations
-
-Hey there folks! I know yesterday was the first day of like real, awesome Python programming. Some people have already submitted work (but don't panic if you haven't yet!). Here are a few things to know that I've observed:
-Your grade, after submission, is not the final grade for the assignment. CodeGrade can automatically grade some of your work, but I need to also look at your code (to see if the comments are done properly and see how the formatting looks, for instance). So your grade in CodeGrade and Brightspace will most likely be a 54% if your program runs flawlessly (at least for the first few labs). Once I look at the code, your grade will (hopefully) increase. But that won't happen immediately.
-
-* Don't forget to look at the comments I might leave in your code. I won't always leave comments, but I have committed to leaving comments on the first assignment, helloWorld, so make sure you check that out.
-* I'm not sure if you can resubmit work in CodeGrade (and if you can, how that works with Brightspace's grade book). Please be patient - I know it's an unknown and I'm just as eager to find out as you are!
-* Have fun with Python!

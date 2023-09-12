@@ -1,9 +1,0 @@
-^^ VIRTUAL POSTCARD #6
-
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/z6--wWRruPo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<center><br />
-
-[Link to video](https://www.youtube.com/watch?v=z6--wWRruPo)
-
-<br /></center>

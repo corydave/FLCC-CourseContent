@@ -1,9 +1,0 @@
-^^ Instructor Feedback
-
-<center>
-
-<iframe width="800" height="1000" frameborder="0" src="https://docs.google.com/forms/d/e/#*#FORM_ID#*#/viewform?usp=pp_url&amp;entry.1243583268=2022+-+Summer&amp;entry.1716698402=Computing+Sciences+Portal+(CSC-103-S1+-+83496)"></iframe>
-
-</center>
-
-<br /><br />

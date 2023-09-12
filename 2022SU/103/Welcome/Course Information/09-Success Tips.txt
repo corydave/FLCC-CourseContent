@@ -1,5 +1,0 @@
-^^ Success Tips
-
-<center><iframe width="720" height="449" src="https://docs.google.com/presentation/d/e/2PACX-1vRK5hubuRWgDejk5AbcG2D5qgjCPqanOYveFE-KU_4rPs8NvpZQyKjvIgyB_7tCnMX5oztQ_mo_x2yT/embed?start=false&amp;loop=false&amp;delayms=3000" frameborder="0" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" webkitallowfullscreen="webkitallowfullscreen" data-mce-fragment="1"></iframe></center>
-
-<br /><br />

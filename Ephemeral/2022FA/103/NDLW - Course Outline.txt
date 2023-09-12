@@ -1,6 +1,0 @@
-^^ Course Outline
-<center>
-
-<a href="https://docs.google.com/document/d/15qPfYHZig5VcsD-jqiE7MNKJTrp0l7DtNYfnkqF-hxk/export?format=docx">Download Word</a>&nbsp;&nbsp; | &nbsp;&nbsp;<a href="https://docs.google.com/document/d/15qPfYHZig5VcsD-jqiE7MNKJTrp0l7DtNYfnkqF-hxk/export?format=pdf">Download PDF</a>&nbsp;&nbsp; | &nbsp;&nbsp;<a href="https://docs.google.com/document/d/15qPfYHZig5VcsD-jqiE7MNKJTrp0l7DtNYfnkqF-hxk/copy">Copy Google Doc</a>
-
-^youtube <iframe src="https://docs.google.com/document/d/15qPfYHZig5VcsD-jqiE7MNKJTrp0l7DtNYfnkqF-hxk/preview"></iframe>
