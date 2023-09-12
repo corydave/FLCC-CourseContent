@@ -14,21 +14,17 @@ We will be looking at three different topics in this chapter.
 We'll be doing deeper dives on all three of these concepts later, but if you start learning them now we'll be able to do some real sick stuff later in the course!
 
 # Prediction
-What do you think this code does?
+What do you think this code does? What do you think is the difference between `capitalize()` and `upper()`?
 
 
 ```python
 
 name = input("What is your name? ")
 print('Nice to meet you,', name.capitalize())
+print('Nice to meet you,', name.upper())
 
 ```
 
 # Experiences for this chapter
 
-1. READING - Chapter 02 Reading
-2. VIDEO - `FeetToMiles` Demo
-3. LABS
-    1. `triangleArea.py`
-    2. `convertCF01.py`
-    3. `inchesToFeet.py`
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vSOhM7OqlrMOHdc48h9j67Qlaa4itEbuYv848PrCh_NY-Wqr_x3osK_tLvmyRGeVArn99cw3PEqLshG/pubhtml/sheet?headers=false&amp;gid=2147410444&amp;range=A1:D10'style="width:100%;max-width:720px;height:267px" frameborder="0"></iframe></center>
