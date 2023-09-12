@@ -1,0 +1,38 @@
+^^ LAB - Have I Been Pwned?
+
+<center><img src="https://docs.google.com/drawings/d/e/2PACX-1vRj5XGLnGn0cIwlstzOSBJbNSXDNUdk9cjeJeq-086iLL-bjbVvlLfUzeRMQTdjctfzgco7KXMXjIAt/pub?w=200&amp;h=200" alt="A light blue, rounded-corner square with white text that says, 'have i been pwned?'"></center>
+
+<br />
+
+## STEP ONE: Get a copy of this lab
+
+* [Make a copy of this Google Doc](https://docs.google.com/document/d/16p1HoLoBhqL-a5qJilGSK9Z03odnsyUA0zhDOxTAkWg/copy) (you must be logged into Google)
+
+<br />
+
+## STEP TWO: Complete the lab
+
+* Read through each step
+
+* You'll be asked to take screenshots at certain points; replace the screenshots in the Google Doc with your own
+
+<br />
+
+## STEP THREE: Submit the lab
+
+* Since you will be using a Google Doc, paste a link to it
+
+    * Make sure it is shared such that "[Anyone with the link can comment](https://www.youtube.com/watch?v=jFGXfLDctcI)"
+
+* This lab can take anywhere between 5 minutes and 10 minutes, depending on your familiarity with
+your web browser and your experience with your browser.
+
+<br />
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
