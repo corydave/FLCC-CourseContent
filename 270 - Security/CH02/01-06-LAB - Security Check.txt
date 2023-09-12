@@ -1,0 +1,25 @@
+^^ LAB - Security Check
+
+<center><img src="https://docs.google.com/drawings/d/e/2PACX-1vRFVYYe3vThkYfcTvT6_9sKJ8XmCRdgYnAg212ob-id8G0JEmkSJacteC6XNpzGlsp40zCXlRXhKtMO/pub?w=200&amp;h=200" alt="An illustration of a doctor standing next to a padlock."></center>
+
+<br />
+
+## STEP ONE: Fill out this survey
+
+* [Google Form](https://docs.google.com/forms/d/e/1FAIpQLScpWp41bbd4geo7Phg2WypnAtq1jELIA3NUFey5MFhyDRmGrg/viewform?usp=pp_url&entry.2121420660=2020+-+Fall)
+
+<br />
+
+* This lab can take anywhere between 5 minutes and 10 minutes, depending on your familiarity with your web browser.
+
+* Once you fill out the form, please submit the text "I completed the security check" in Brightspace.
+
+<br />
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
