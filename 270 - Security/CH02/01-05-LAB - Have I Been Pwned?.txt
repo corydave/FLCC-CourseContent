@@ -25,7 +25,7 @@
     * Make sure it is shared such that "[Anyone with the link can comment](https://www.youtube.com/watch?v=jFGXfLDctcI)"
 
 * This lab can take anywhere between 5 minutes and 10 minutes, depending on your familiarity with
-your web browser and your experience with your browser.
+your web browser.
 
 <br />
 
