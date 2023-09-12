@@ -1,0 +1,38 @@
+^^ LAB - Hash Fun
+
+<center><img src="https://docs.google.com/drawings/d/e/2PACX-1vTacs0oKEZAoDC3DHxrx3rYMZ9DvwbxOmHSa3Iw19DqVNycprKzpjR3_-0btZei01GWdT5L9pWlYE6N/pub?w=200&amp;h=200" alt="An illustration of a matrix of characters. Some are capital letters, some are lowercase, and there are some numbers, too. All of them are white except one set that is red. The background is black. The feeling of hacking is invoked."></center>
+
+<br />
+
+## STEP ONE: Get a copy of this lab
+
+* [Make a copy of this Google Doc](https://docs.google.com/document/d/17icIItJUwz9SMrZWes_8hjc1Ci-SfpT_NaWwSuCjfrY/copy) (you must be logged into Google)
+
+<br />
+
+## STEP TWO: Complete the lab
+
+* Read through each step
+
+* You'll be asked to take screenshots at certain points; replace the screenshots in the Google Doc with your own
+
+<br />
+
+## STEP THREE: Submit the lab
+
+* Since you will be using a Google Doc, paste a link to it
+
+    * Make sure it is shared such that "[Anyone with the link can comment](https://www.youtube.com/watch?v=jFGXfLDctcI)"
+
+* This lab can take anywhere between 10 minutes and 60 minutes, depending on your familiarity with
+your web browser and your experience with virtual machines.
+
+<br />
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
