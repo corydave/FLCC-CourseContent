@@ -1,5 +1,0 @@
-^^ Vocabulary
-
-<center>
-    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTMsFjLw8BkwCGwtNYAXCWKrhkbo7AH_b5dx1GwY7vpJPtPmqIPM-lKkIzUWMrrd7UI9fYfTymabtV4/pubhtml?widget=true&amp;headers=false" style="width:80%;height:800px;"></iframe>
-</center>
