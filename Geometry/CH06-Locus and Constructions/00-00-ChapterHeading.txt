@@ -1,0 +1,70 @@
+<div id="ch06Button" onclick="ch06ContentsToggle()">
+
+<CENTER>
+
+^^ CHAPTER 6 - Locus and Constructions
+<br />&#9660;
+
+</CENTER>
+
+
+</div>
+
+<div id="ch06Contents" style="display:none;">
+
+# Topics for this chapter
+
+Even though I've been teaching geometry for twenty years, I always giggle at the term **locus**. I always think of those bugs (locusts). The words just sound so dang similar. You may be asking yourself, "Self, what does **locus** mean?"
+
+Permit me to take you on a journey. Think about a point (a dot) just sitting in the middle of a piece of paper. Now, draw one dot *precisely* one inch away. 
+
+Draw another dot (but not in the same spot as the one you just drew) that is also one inch away from the original dot. 
+
+Now draw another... And another... And another...
+
+Keep doing it like one hundred more times.
+
+During this exercise, most people will usually draw the first four dots as directly up from the original dot, directly to the right of the original dot, directly to the left of the original dot, and directly below the original dot. Then they start to recognize that there are more than just these four dots that are one inch away from the original dots. As they start plotting more dots, a pattern emerges:
+
+<center><img src="https://docs.google.com/drawings/d/e/2PACX-1vRDIaTD8JEwsUmN3j-jZCf_guCPvVyTBMBPv72P5egfm9ZSCY59U-QCmdiqKilbNaxueqh_rcWb4o4K/pub?w=1079&amp;h=702" alt="A diagram of the different stages of drawing the locus of points a fixed distance from one point (a circle!)." title="A diagram of the different stages of drawing the locus of points a fixed distance from one point (a circle!)." style="width:90%"></center>
+
+* The compass and the straightedge
+
+* Copying a line segment
+
+* Copying an angle
+
+* Constructing a perpendicular bisector
+
+* Constructing an equilateral triangle
+
+# To ponder
+
+Before starting this chapter, see if you can answer these questions:
+
+1. Given a compass and a straightedge, can you create an equilateral triangle?
+
+2. The diagram below is a **construction**. Can you guess what has been constructed? What is the relationship of the two lines?
+
+<center>
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vRn6RYbD1J1xKp1Ye98wjRPeA7TFQ0MMGi1g7jzX6mHOG3Kpq6B7jNX2Lv80NmWI7L6PM7DyTutYxzZ/pub?w=780&amp;h=552" style="width:40%;min-width:200px;" alt="A diagram of a construction of a perpendicular bisector." title="A diagram of a construction of a perpendicular bisector.">
+
+
+</center>
+
+
+<br /><br />
+
+</div>
+
+<script>
+function ch06ContentsToggle() {
+  var content = document.getElementById("ch06Contents");
+  if (content.style.display === "none") {
+    content.style.display = "inline-block";
+  } else {
+    content.style.display = "none";
+  }
+}
+</script>

@@ -1,0 +1,15 @@
+^^ Course Overview & Information
+
+This should provide information to the learner on what to expect. How will you be assessing their work (if you elect to do so)? What are the due dates? What is the level-setting in this course?
+
+This is a sample video that shows an orientation video. You will most likely need to replace it to suit your LMS and the way the course is arranged.
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/cCh5p4AgJUc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<center><br />
+
+[Link to video](https://www.youtube.com/watch?v=cCh5p4AgJUc)
+
+</center>
+
+<br /><br />

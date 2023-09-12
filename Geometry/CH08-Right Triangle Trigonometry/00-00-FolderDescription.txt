@@ -1,0 +1,63 @@
+<div style="padding: .5rem 0 0 0;font-size: 1.2rem; font-family: 'Arial', 'Helvetica', sans-serif; ">
+<div style="margin: 0 auto; max-width: 130ch; background-color: white; ">
+<div id="ch08Button" onclick="ch08ContentsToggle()">
+
+<CENTER>
+
+<div style="padding: .5em; margin: 0 0 .5em 0; font-size: 1.3em; font-weight: bold; border-radius:15px; background-color: #335E3B; color: #e9e9e9; "> CHAPTER 8 - Right Triangle Trigonometry
+<br />&#9660;</div>
+</CENTER>
+
+
+</div>
+
+<div id="ch08Contents" style="display:none;">
+
+<h4 style="font-size: 1.3em; margin: 0px; padding: .5em 1rem .5em 1rem; "><b>Topics for this chapter</b></h4>
+<p style="margin: 0px; padding: 0 1rem .5em 1rem; "><strong>Trigonometry</strong> explores the relationship between angles and the lengths of sides of a triangle. If you&#39;re old like me, you&#39;ll remember &quot;trig tables&quot; - a giant list of four digit decimals. Happily, we have calculators now that replace the &quot;trig tables&quot;.</p>
+<p style="margin: 0px; padding: 0 1rem .5em 1rem; ">Either way, there are two types of trigonometry. <strong>Right triangle</strong> trigonometry and plain ole&#39; trigonometry. We will only consider the trigonometry of a right triangle in this class. That&#39;s okay, though. Right triangle trigonometry is the most fun you can have with trigonometry.</p>
+<ul>
+<li><p style="margin: 0px; padding: 0 1rem .5em 1rem; ">Sine</p>
+</li>
+<li><p style="margin: 0px; padding: 0 1rem .5em 1rem; ">Cosine</p>
+</li>
+<li><p style="margin: 0px; padding: 0 1rem .5em 1rem; ">Tangent</p>
+</li>
+<li><p style="margin: 0px; padding: 0 1rem .5em 1rem; ">SOH CAH TOA</p>
+</li>
+</ul>
+<h4 style="font-size: 1.3em; margin: 0px; padding: .5em 1rem .5em 1rem; "><b>To ponder</b></h4>
+<p style="margin: 0px; padding: 0 1rem .5em 1rem; ">Before starting this chapter, see if you can answer these questions:</p>
+<ol>
+<li>In the following diagram, what do you think the little box in the lower left hand corner might signify?</li>
+</ol>
+<center>
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vR5DntdtexF770N96CP_90mokEWYvautAW_OyigZz0IwmJh_o2z907hd7sfoCquVsY_amElkht50nJr/pub?w=609&amp;h=305" style="width:40%;min-width:200px;" alt="Scalene right triangle ABC with right angle B." title="Scalene right triangle ABC with right angle B.">
+
+</center>
+
+<ol start="2">
+<li>In the following diagram, which side is <strong>opposite</strong> &angle;ACB? Which side is <strong>adjacent</strong>? Which side is the <strong>hypotenuse</strong>?</li>
+</ol>
+<center>
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vRDU44dnH4o7h5Fzr5Jg4lnhp50LX21Akd9np6NHa0aptsPTFBxHhDrhEmrQj-PyuCwaQ0LUEePwemR/pub?w=610&amp;h=526" style="width:40%;min-width:200px;" alt="Isosceles right triangle ABC with right angle B." title="Isosceles right triangle ABC with right angle B.">
+
+</center>
+
+
+
+<p style="margin: 0px; padding: 0 1rem .5em 1rem; "><br /><br /></p>
+</div>
+
+<script>
+function ch08ContentsToggle() {
+  var content = document.getElementById("ch08Contents");
+  if (content.style.display === "none") {
+    content.style.display = "inline-block";
+  } else {
+    content.style.display = "none";
+  }
+}
+</script>
+</div>
+</div>

@@ -1,0 +1,46 @@
+<div id="ch00Button" onclick="ch00ContentsToggle()">
+
+<CENTER>
+
+^^ ORIENTATION
+<br />&#9660;
+
+</CENTER>
+
+
+</div>
+
+<div id="ch00Contents" style="display:none;">
+
+# Topics for this chapter
+
+*Right triangles. Circles. Parallel lines. Pythagorean Theorem. Fractions. Decimals.*
+
+You probably recognize some (or all!) of these terms. In this  class we'll start out by reviewing numbers and some arithmetic. Then we'll work into Geometry. The content in this course has been curated to provide you meaningful experiences that can help prepare you for working with schematics.
+
+This orientation module has a few different items in it:
+
+* A bit about me, your instructor!
+
+* Link to the **Are you stuck?** discussion where you can post questions if you get stuck - other students might help answer (or I will).
+
+* An overview of how this course works (grading, due dates, etc.).
+
+* The course vocabulary (there is *a lot* of jargon in geometry!).
+
+
+
+<br /><br />
+
+</div>
+
+<script>
+function ch00ContentsToggle() {
+  var content = document.getElementById("ch00Contents");
+  if (content.style.display === "none") {
+    content.style.display = "inline-block";
+  } else {
+    content.style.display = "none";
+  }
+}
+</script>

@@ -1,0 +1,66 @@
+<div id="ch10Button" onclick="ch10ContentsToggle()">
+
+<CENTER>
+
+^^ CHAPTER 10 - Polygons
+<br />&#9660;
+
+</CENTER>
+
+
+</div>
+
+<div id="ch10Contents" style="display:none;">
+
+# Topics for this chapter
+
+You probably are fairly familiar with shapes like triangles, squares, and rectangles. Maybe you recall that a **pentagon** has five sides. Or a **dodecagon** has twelve sides.
+
+You might even have a mental model of a **perfect shape** - that is, all the sides are the same length (like a square). But *any* shape that has eight sides is an **octagon** (even if it doesn't look like a stop sign (that is, some sides are longer than others).
+
+Let's dive a bit deeper on geometric shapes!
+
+* Triangles
+
+  * Isosceles, scalene, equilateral
+  * Right triangles
+
+
+* Quadrilaterals
+
+* n-gons
+
+* Perimeter and area
+
+# To ponder
+
+Before starting this chapter, see if you can answer these questions:
+
+1. How many sides does a **hexagon** have?
+
+2. What is the measure of the angle between any two sides in a regular hexagon?
+
+3. Which of the following shapes have diagonals that are equal in length?
+
+<center>
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vTadhPcZ54Y-5Mh8Jf0k-t0usPjctEOrcf55c7U4VuFGuwi18J4Phg9iNnjyVE5JWEyYPLX9bBPe6r-/pub?w=731&amp;h=645" style="width:40%;min-width:200px;" alt="Six shapes with diagonals in each. The names of the shapes are underneath. The shapes are: a parallelogram, an isosceles trapezoid, a square, a rectangle, a trapezoid, and a rhombus." title="Six shapes with diagonals in each. The names of the shapes are underneath. The shapes are: a parallelogram, an isosceles trapezoid, a square, a rectangle, a trapezoid, and a rhombus.">
+
+
+</center>
+
+
+<br /><br />
+
+</div>
+
+<script>
+function ch10ContentsToggle() {
+  var content = document.getElementById("ch10Contents");
+  if (content.style.display === "none") {
+    content.style.display = "inline-block";
+  } else {
+    content.style.display = "none";
+  }
+}
+</script>
