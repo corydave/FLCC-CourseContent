@@ -4,13 +4,11 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PKkhvehhXlw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:15px !important;float:right;width:50%;height:315px;max-width:560px;margin-left:15px;"></iframe>
 
-I created a video (yeah, it's 17 minutes long, but it's jam packed with helpful things!) that goes over formatting in Google Sheets. It starts off with a really cool, not-well-known feature - importing data tables from websites (in this case, I used a table from Wikipedia). It's not necessary to use this feature in your sheet, but it IS kinda cool!
+Professor Dave Ghidiu created a video (yeah, it's 23 minutes long, but it's jam packed with helpful things!) that goes over formatting in Google Docs.
 
-In my video, I grab a list of the best selling video games (according to Wikipedia). Then I go over formatting (like a table format, widening columns, etc.).
+Your job is to follow along. The difference is that instead of movies, you'll be making a list of whatever you want. Whatever you choose, you'll be formatting it like he formatted his document.
 
-Your job is to follow along. The difference is that instead of video games, you'll be making (or grabbing!) a list of whatever you want. Whatever you choose, you'll be formatting it like I formatted my document.
-
-Your formatting doesn't have to be the same (for instance, I used a blue background but you can use any color you want). That's true for the other things, too. You don't have to change your styles to match mine, but you do need to change your styles. Things like that.
+Your formatting doesn't have to be the same (for instance, he used a blue background but you can use any color you want). That's true for the other things, too. You don't have to change your styles to match his, but you do need to change your styles. Things like that. You can check the rubric if you'd like for a checklist of specifications.
 
 <br />
 
