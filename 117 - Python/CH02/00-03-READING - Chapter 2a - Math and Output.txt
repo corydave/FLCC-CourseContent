@@ -1,0 +1,11 @@
+^^ JUPYTER NOTEBOOK - Chapter 2a
+
+This Jupyter Notebook is out of this world! We'll look at some traditional math (and Pythonesque math) as well as how to output wonky things with the `print()` function.
+
+^callout file-download
+
+[`ch02a_jupyter_notebook.ipynb`](https://drive.google.com/uc?export=download&id=1xtOaSPTBdvTkUzxfq0kOmlHXyzDYIT2l)
+
+Download this file and load it into your IDE.
+
+^callout-end
