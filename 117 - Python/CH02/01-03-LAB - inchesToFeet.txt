@@ -30,13 +30,6 @@ Enter the number of inches: 100
 100 inches is 8 feet, and 4 inches
 ```
 
-```
-Enter the number of inches:
--4
-
--4 inches is 0 feet, and 8 inches
-```
-
 ## STARTER CODE
 
 You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
