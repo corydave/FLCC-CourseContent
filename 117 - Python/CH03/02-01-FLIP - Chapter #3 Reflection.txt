@@ -1,0 +1,32 @@
+^^ FLIP - Chapter #3 Reflection
+
+Congratulations for making through the **third** week of programming! Random numbers are bonkers! Like, why would we want to seed a random number generator? That doesn't make much sense...
+
+
+...or does it???
+
+Please take this opportunity to reflect on the week. Reflection is a form of *metacognition* (that means thinking bout your thinking). These small exercises have been shown to improve thinking and learning. 
+
+Here is the prompt for this week:
+
+^=^ ,
+
+Talk about `random` as it pertains to Python. I'd love for you to come up with an example of when you might want predictability when generating random numbers, and an example of a time when you really want a random number. 
+
+I don't want to put you on the spot, though, so if you would prefer, you can just spout out one fact about random numbers (either related to Python or not).
+
+^=
+
+You can [go directly to the Flip here](https://flip.com/ec2c3ba1). The Flip ID is **`ec2c3ba1`**
+
+<center>
+<iframe
+    width="100%"
+    height="900"
+    frameBorder="0"
+    src="https://flip.com/ec2c3ba1?embed=true"
+    webkitallowfullscreen
+    mozallowfullscreen
+    allowfullscreen
+    allow="microphone; camera; display-capture" style="border-radius:15px !important; max-width:600px;"></iframe>
+</center>
