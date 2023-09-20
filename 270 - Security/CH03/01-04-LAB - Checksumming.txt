@@ -1,0 +1,40 @@
+^^ LAB - Checksumming
+
+<center><img src="https://docs.google.com/drawings/d/e/2PACX-1vQ0eTZ5DdnqA80F51KQDjKV8wWQ314AC6e6JxcMoUc-MPHGuvzCnHEQGiM-HHQBKcSkm06rR9JXy-gT/pub?w=200&amp;h=200" alt="Black background with green text that says'C#3CK5UM'."></center>
+
+<br />
+
+## STEP ONE: Get a copy of this lab
+
+* [Make a copy of this Google Doc](https://docs.google.com/document/d/18gaLi2gAiftxiO8aY_zozOcDwAgK5Ddoc_ZckBJJtHA/copy) (you must be logged into Google)
+
+<br />
+
+## STEP TWO: Complete the lab
+
+* Read through each step
+
+* You'll be asked to take screenshots at certain points; replace the screenshots in the Google Doc with your own
+
+<br />
+
+## STEP THREE: Submit the lab
+
+* Since you will be using a Google Doc, paste a link to it
+
+    * Make sure it is shared such that "[Anyone with the link can comment](https://www.youtube.com/watch?v=jFGXfLDctcI)"
+
+* This lab can take anywhere between 10 minutes and 20 minutes, depending on your familiarity with Linux.
+
+<br />
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
+</center>
+
+<br />
