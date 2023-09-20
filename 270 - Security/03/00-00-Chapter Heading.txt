@@ -1,0 +1,25 @@
+^^ CHAPTER 3 - Malware & Threats
+
+<img style="width: 100%;display:none;" src="https://docs.google.com/drawings/d/e/2PACX-1vTvU0xtURRub05Daj2m_EvmhwcjMzuDT5p5azPGK3AhZrLxyVanAoggGRGohfPOdLnvjTDtkF8GAMNX/pub?w=907&amp;h=385" alt="A blue background with a illustrations of a caution symbol, a skull, a virus, and a worm." title="A blue background with a illustrations of a caution symbol, a skull, a virus, and a worm.">
+
+Malware has always been an issue (as early as the 1970s when ARPANET first arrived on the scene) for the security minded. Unfortunately, it's a bigger issue today with the sophistication of malware (like ransomware), the assets that need to be protected (more and more personal information is being stored), and the distribution of data centers (making attack vectors even bigger). This unit will explore some of the different types of malware out there today and suggest ways to mitigate exposure.
+
+# Schedule 
+
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vRxgRdNoBTaBuxf7fCDreea8kokhcOtQyD6erWSyiW4tB-KbR6EfTP9wUy9QJ-2cd14rlyzUPEx5zFB/pubhtml/sheet?headers=false&amp;gid=277957836&amp;range=A1:D12'style="width:100%;max-width:720px;height:309px" frameborder="0"></iframe></center>		
+
+# Outcomes
+
+<details>
+<summary>Click to reveal outcomes</summary>
+
+* Compare and contrast types of malware
+* Understand the threats that different types of malware present
+* Create a sandboxed environment to examine potentially harmful files
+* Use tools to identify potentially harmful files
+* Gain an appreciation of spearfishing
+* Check integrity of files with checksums
+
+</details>
+
+<br /><br />
