@@ -1,0 +1,37 @@
+^^ LAB - Setting up a `chroot` Jail
+
+<center><img src="https://docs.google.com/drawings/d/e/2PACX-1vQpdvKAcDk3MQpvMG2Yvs9w8kEbTRL54sl7LC9rj2XMq7rhdNIRitHtwrmCMKyPYBdN7zO_7GMdkNp2/pub?w=200&amp;h=200" alt="A black background with the word 'chroot' in white. In front of the text are vertical green bars, implying a jail cell."></center>
+
+<br />
+
+## STEP ONE: Get a copy of this lab
+
+* [Make a copy of this Google Doc](https://docs.google.com/document/d/1WJKPO_hUkc9d1Jt7FENRAVdkl5TW4C59jNYxcusvg0k/copy) (you must be logged into Google)
+
+<br />
+
+## STEP TWO: Complete the lab
+
+* Read through each step
+
+* You'll be asked to take screenshots at certain points; replace the screenshots in the Google Doc with your own
+
+<br />
+
+## STEP THREE: Submit the lab
+
+* Since you will be using a Google Doc, paste a link to it
+
+    * Make sure it is shared such that "[Anyone with the link can comment](https://www.youtube.com/watch?v=jFGXfLDctcI)"
+
+* This lab can take anywhere between 20 minutes and 40 minutes, depending on your familiarity with Linux.
+
+<br />
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
