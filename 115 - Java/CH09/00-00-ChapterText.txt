@@ -40,13 +40,7 @@ System.out.println(basketballJerseyNumbers[5]);
 
 # Experiences for this chapter
 
-* READING GUIDE - Chapter 9 Reading Guide
-* LAB - `ArrayOutputValues`
-* LAB - `ArrayDoubleValues`
-* LAB - `ArrayBackwards`
-* LAB - `ArrayShiftLeft`
-* LAB - `ArrayShiftRight`
-* PROJECT - `RandomCompliment02`
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vQosxGgDcakc-fNCrEbEMxFwQpClqJzWinUcbuJ9lZpbPtb3V5LYil0B5Oe98VpkpypvxeafQxkyH93/pubhtml/sheet?headers=false&amp;gid=1792781858&amp;range=A1:D15'style="width:100%;max-width:750px;height:372px" frameborder="0"></iframe></center>
 
 # Prediction
 
