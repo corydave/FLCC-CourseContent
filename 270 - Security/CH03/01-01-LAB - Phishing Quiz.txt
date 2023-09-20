@@ -1,0 +1,38 @@
+^^ LAB - Phishing Quiz
+
+<center><img src="https://docs.google.com/drawings/d/e/2PACX-1vSd47zsCbKc1HxagtKFdZHjvv035Ucg9gUsEEWiDB96sgdubSpClSzgix8d-itCva_qd8eAu_d9p_cs/pub?w=200&amp;h=200" alt="An old time anatomical illustration of a fish. The word 'Fishing' appears in old timey font."></center>
+
+<br />
+
+## STEP ONE: Get a copy of this lab
+
+* [Make a copy of this Google Doc](https://docs.google.com/document/d/1KIbrK9YZ-ssPGTbLdihzDpvkE4Isiux9-YauGYDIMGo/copy) (you must be logged into Google)
+
+<br />
+
+## STEP TWO: Complete the lab
+
+* Read through each step
+
+* You'll be asked to take screenshots at certain points; replace the screenshots in the Google Doc with your own
+
+<br />
+
+## STEP THREE: Submit the lab
+
+* Since you will be using a Google Doc, paste a link to it
+
+    * Make sure it is shared such that "[Anyone with the link can comment](https://www.youtube.com/watch?v=jFGXfLDctcI)"
+
+* This lab can take anywhere between 10 minutes and 60 minutes, depending on your familiarity with
+your web browser and your experience with Linux.
+
+<br />
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
