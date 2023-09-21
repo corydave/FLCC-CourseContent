@@ -27,12 +27,12 @@ Hi, Dave Ghidiu
 ```
 bart
 simpson
-Hi, Bart Simpson
+Hi, bart simpson
 ```
 
 ```
 Lisa
-Simson, esquire
+Simpson, esquire
 Hi, Lisa Simpson, esquire
 ```
 
