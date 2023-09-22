@@ -36,7 +36,7 @@ Pick a topic that seems grade appropriate for the littles you'll be teaching. On
 # Specifications
 * Pick a topic that you imagine you might use when you are teaching (so it must be age appropriate)
 * You do not have to have your face in the video, but you can if you want to
-* Please embed the video into your Google Site under the "Interactives" page
+* Please embed the video into your Google Site under the "Interactives" page ([you can find a video on how to embed Screencastify in Google Sites here](https://www.youtube.com/watch?v=38tJFitHV6k))
 * Copy the link to this specific item and submit it in this assignment
 
 
