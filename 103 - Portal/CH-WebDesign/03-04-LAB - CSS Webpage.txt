@@ -21,17 +21,7 @@ The ugliest website gets an award!
 
 # Specifications
 
-* CSS includes at least five classes.
-
-* Each class includes at least four attributes.
-
-* At least 12 unique attributes.
-
-* Include `:hover` style as well.
-
-* If multiple files are involved, please submit them as one .zip file.
-
-* The uglier, the better. Seriously.
+* Please look at the rubric for this assignment before submitting; it lists all the specifications. 
 
 ^callout external-link-alt
 
