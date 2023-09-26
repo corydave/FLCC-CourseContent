@@ -1,0 +1,31 @@
+^^ FLIP - Reflection - Google Sheets
+
+Please take this opportunity to reflect on the week. Reflection is a form of *metacognition* (that means thinking bout your thinking). These small exercises have been shown to improve thinking and learning. 
+
+Here is the prompt for this week:
+
+^=^ ,
+
+Google Sheets is a wonderful tool for productivity as an educator. We looked at different ways to use Google Sheets to help you be more efficient in the classroom. What surprised you the most about Google Sheets?
+
+^=
+
+You can [go directly to the Flip here](https://flip.com/e109ae29). The Flip ID is **`e109ae29`**
+
+# Specifications
+
+* Answer the prompt with a genuine, heartfelt response. Add something to the conversation. Dig deep. Help us understand where you are coming from.
+
+* There is nothing to submit for this assignment; your post at Flip will be the submission.
+
+<center>
+<iframe
+    width="100%"
+    height="900"
+    frameBorder="0"
+    src="https://flip.com/e109ae29?embed=true"
+    webkitallowfullscreen
+    mozallowfullscreen
+    allowfullscreen
+    allow="microphone; camera; display-capture" style="border-radius:15px !important; max-width:600px;"></iframe>
+</center>
