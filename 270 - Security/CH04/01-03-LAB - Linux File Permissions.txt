@@ -1,4 +1,4 @@
-^^ LAB - Linux File Permissions
+^^ LAB - File Permissions in Linux
 
 <center><img src="https://docs.google.com/drawings/d/e/2PACX-1vTMU9CiXOELZOvCovRK5FhC-EXbzZedTJXGIa2Qti37BDQ6LGqfH5A_9-74WEp7QxFWTpnxjz7EtXry/pub?w=200&amp;h=200" alt="A screenshot of a Linux terminal showing a list of files and permissions. Text above the screenshot says 'Linux', and text underneath says 'File Permissions'."></center>
 
