@@ -1,0 +1,47 @@
+^^ LAB - Using GnuPG
+
+<center><img src="https://docs.google.com/drawings/d/e/2PACX-1vRxuK7T1UaTJUID4brrrIBClLkOOTPED5RCHDzjCXeFiCbazXPdzl9rmkQm1MPImSXSJGpeMVGyfyeO/pub?w=200&amp;h=200" alt="An illustration of a lock with a lightning bolt through it. It kinda/sorta resembles the logo for GnuPG, but is clearly not."></center>
+
+<br />
+
+## STEP ONE: Get a copy of this lab
+
+* [Make a copy of this Google Doc](https://docs.google.com/document/d/19oVsbqBdY5SNF_jm7H3rU9EG-YyjWSivOJCx8g2dsqg/copy) (you must be logged into Google)
+
+<br />
+
+## STEP TWO: Complete the lab
+
+* Read through each step
+
+* You'll be asked to take screenshots at certain points; replace the screenshots in the Google Doc with your own
+
+^=^ ,,
+
+<br />
+
+**NOTE:** You will also be asked to submit images with your lab - make sure that in addition to providing a link to your Google Doc you are also submitting other files
+
+<br />
+
+^=
+
+<br />
+
+## STEP THREE: Submit the lab
+
+* Since you will be using a Google Doc, paste a link to it
+
+    * Make sure it is shared such that "[Anyone with the link can comment](https://www.youtube.com/watch?v=jFGXfLDctcI)"
+
+* This lab can take anywhere between 25 minutes and 45 minutes, depending on your familiarity with Linux.
+
+<br />
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
