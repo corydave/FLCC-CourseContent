@@ -174,7 +174,7 @@ def wonky_program():
     # that function do the dirty work. Since that function RETURNS
     # a value we need to put it in a `print()` statement.
     print()
-print(wonky_util.upper_string(str))
+    print(wonky_util.upper_string(str))
 
     print()
     print()
@@ -301,6 +301,51 @@ def add(num1, num2):
     This function RETURNS the sum of the two numbers passed in
     as input.
     '''
+
+
+
+
+
+
+
+# SAMPLE OUTPUT
+
+==================================================================
+# THIS IS A TEST OF THE `wonky_util.py` module. This is only a test.
+# ==================================================================
+
+
+# CALL TO `roll_one_d12()`:
+# 8
+
+
+# CALL TO `roll_two_d12()`:
+# Die 1 is 1 and die 2 is 7 and the sum is 8
+
+
+# CALL TO `upper_string(str)`:
+# Enter a string: dave
+# DAVE
+
+
+# CALL TO `compliment()`:
+# You smell like petunias, which is nice!
+
+
+# CALL TO `personal_compliment(name)`:
+# Enter your name: DAVE
+# Hey, DAVE you are super nice!
+
+
+# CALL TO `add(num1, num2)`:
+# Enter a number: 4
+# Enter a second number: 5
+# The sum is 9
+
+
+# ==================================================================
+#  THIS CONCLUDES THE TEST. Thank you for your patience and effort.
+# ==================================================================
 
 
 
