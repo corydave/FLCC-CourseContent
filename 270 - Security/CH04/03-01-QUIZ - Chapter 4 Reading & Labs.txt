@@ -1,0 +1,17 @@
+^^ QUIZ - Chapter 4 Reading & Labs
+
+This quiz is based on questions from the reading in the textbook. You must score an 85% or better to see the Labs and SHARE exercises in the chapter.
+
+* This is open book.
+* This quiz can be taken as many times as you'd like; the highest score will be kept.
+* There is no time limit for this quiz.
+
+<br />
+
+^callout external-link-alt
+
+<br />
+
+Click here to take the quiz.
+
+^callout-end
