@@ -104,6 +104,42 @@ Download these files and load them into your IDE.
 # DESCRIPTION - 
 
 
+
+
+
+
+
+
+# SAMPLE OUTPUT
+
+# Welcome to the Calculator
+
+# What is the first number? 10
+# What is the second number? 5
+
+# SUM =  15.0
+# DIFFERENCE =  5.0
+# PRODUCT =  50.0
+# QUOTIENT =  2.0
+
+# Have a nice, mathy day.
+
+
+
+
+# Welcome to the Calculator
+# 
+# What is the first number? 0
+# What is the second number? 1
+# 
+# SUM =  1.0
+# DIFFERENCE =  -1.0
+# PRODUCT =  0.0
+# QUOTIENT =  0.0
+# 
+# Have a nice, mathy day.
+#
+
 ```
 
 ^^^ `wonky_util.py`
@@ -116,6 +152,42 @@ Download these files and load them into your IDE.
 # DATE - 
 # DESCRIPTION - 
 
+
+
+
+
+
+
+
+# SAMPLE OUTPUT
+
+# Welcome to the Calculator
+
+# What is the first number? 10
+# What is the second number? 5
+
+# SUM =  15.0
+# DIFFERENCE =  5.0
+# PRODUCT =  50.0
+# QUOTIENT =  2.0
+
+# Have a nice, mathy day.
+
+
+
+
+# Welcome to the Calculator
+# 
+# What is the first number? 0
+# What is the second number? 1
+# 
+# SUM =  1.0
+# DIFFERENCE =  -1.0
+# PRODUCT =  0.0
+# QUOTIENT =  0.0
+# 
+# Have a nice, mathy day.
+# 
 ```
 
 ^acc-end
