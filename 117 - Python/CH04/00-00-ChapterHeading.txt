@@ -14,6 +14,8 @@ Here are two files - one is a *driver* file with the `main()` function, and the 
 
 <br /><br />
 
+### `triangle.py`
+
 ```python
 
 # FILE NAME - triangle.py
@@ -41,6 +43,8 @@ main()
 ^===
 
 <br /><br />
+
+### `triangle_util.py`
 
 ```python
 
