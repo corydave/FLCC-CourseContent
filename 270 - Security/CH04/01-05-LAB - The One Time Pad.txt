@@ -26,11 +26,21 @@
 
 You have a specific code to break; consult the list below.
 
-[[[INSERT LIST]]]
-
 <br />
 
 ^=
+
+<br />
+
+<center>
+
+** INSERT NAMES HERE **
+
+</center>
+
+<br />
+<br />
+
 
 ## STEP THREE: Submit the lab
 
@@ -38,7 +48,7 @@ You have a specific code to break; consult the list below.
 
     * Make sure it is shared such that "[Anyone with the link can comment](https://www.youtube.com/watch?v=jFGXfLDctcI)"
 
-* This lab can take anywhere between 15 minutes and 45 minutes, depending on your familiarity with codebreaking.
+* This lab can take anywhere between 15 minutes and 45 minutes, depending on your familiarity with code breaking.
 
 <br />
 
