@@ -1,0 +1,37 @@
+^^ LAB - Certificates, CRLs, and OCSPs
+
+<center><img src="https://docs.google.com/drawings/d/e/2PACX-1vSRy8U1PtLXk4hhhCPhEcCrDXaeX_a68gVsmMhbT1_z7gedgKlDbgByYT5z0-kxEpXhiPGYyc5uYeTh/pub?w=200&amp;h=200" alt="A screenshot of a web browser, probably Chrome, in developer mode. The left half of the screen is the website (a picture of a beautiful Vizsla) and the right half of the screen is the code for the site."></center>
+
+<br />
+
+## STEP ONE: Get a copy of this lab
+
+* [Make a copy of this Google Doc](https://docs.google.com/document/d/1dUzZ0RBiqISvXj1MVaZsgvnpSOtxn0_MlVgxlSrzF50/copy) (you must be logged into Google)
+
+<br />
+
+## STEP TWO: Complete the lab
+
+* Read through each step
+
+* You'll be asked to take screenshots at certain points; replace the screenshots in the Google Doc with your own
+
+<br />
+
+## STEP THREE: Submit the lab
+
+* Since you will be using a Google Doc, paste a link to it
+
+    * Make sure it is shared such that "[Anyone with the link can comment](https://www.youtube.com/watch?v=jFGXfLDctcI)"
+
+* This lab can take anywhere between 10 minutes and 30 minutes, depending on your familiarity with your web browser.
+
+<br />
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
