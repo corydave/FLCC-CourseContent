@@ -78,7 +78,7 @@ You may use the following code as starter code. You will need to change the comm
 
 ^callout file-download
 
-[`RandomChars.java`](https://drive.google.com/uc?export=download&id=11AEqbHJftMH7a8kuUriKQ-vBpAxEoGhD)
+[`RandomChars.java`](https://drive.google.com/uc?export=download&id=13sCESfzUlSV9OO9-UL1850itLdzoGQWN)
 
 Download this file and load it into your IDE.
 
