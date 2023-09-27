@@ -1,4 +1,5 @@
 ^^ More Functions
+<div style=”display:none;”><img src="https://docs.google.com/drawings/d/e/2PACX-1vS2xP_Y9FXpjzs_9_VszKmmoqOzSTagCwifjkP_qLOYNwDaw8Oaq70j537Rz2WTFPx6q5OMqfiW2yFf/pub?w=900&amp;h=380" style="display: none; max-width: 100%;" alt="The word ‘return’." title="The word ‘return’."></div>
 
 Python has a really slick way you can use the code from one file inside another - by *importing* it.
 
@@ -89,8 +90,6 @@ Length of side 3: 5
 PERIMETER: 12.0
 ```
 
-<br /><br />
+# Experiences for this chapter
 
-There will be one long video and some labs for you to experiment with.
-
-<br /><br />
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vSOhM7OqlrMOHdc48h9j67Qlaa4itEbuYv848PrCh_NY-Wqr_x3osK_tLvmyRGeVArn99cw3PEqLshG/pubhtml/sheet?headers=false&amp;gid=1250865820&amp;range=A1:D12'style="width:100%;max-width:720px;height:309px" frameborder="0"></iframe></center>
