@@ -1,0 +1,14 @@
+^^ PLAY - `main.py` and `helper.py`
+
+## Experiment with the two files below
+
+This code sandbox has the two files we looked at in the Jupyter Notebook - you can poke around in one (or both) of them and generate some guesses about how the two files interact with each other.
+
+<center>
+
+^youtube <iframe src="https://trinket.io/embed/python3/7f799f7059" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+         
+[Link to Trinket](https://trinket.io/python3/7f799f7059)
+
+
+</center>
