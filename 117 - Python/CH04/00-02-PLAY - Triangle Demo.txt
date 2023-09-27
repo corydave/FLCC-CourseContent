@@ -1,4 +1,4 @@
-^^ Triangle Demo
+^^ PLAY - Triangle Demo
 
 ## Experiment with the two files below
 
