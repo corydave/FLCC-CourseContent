@@ -26,6 +26,16 @@ Note that you should watch the video in it's entirety. Yes, it's a long video (a
 
 You do not need to use unique IDs for your primary keys, but if you decide that you'd like to, it's easy! You can [follow this quick video](https://www.youtube.com/watch?v=bZANO7qzSH8) for instructions.
 
+^=^ ,,
+
+**NOTE**
+
+Though the video shows how to embed the forms and tables into Google Sites, please don't. Instead, just submit a link to the AirTable such that anyone with the link can EDIT.
+
+^=
+
+<br />
+
 # Specifications
 
 * Please look at the rubric for this assignment before submitting; it lists all the specifications. 
