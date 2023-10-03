@@ -150,7 +150,7 @@ main()
 
 # SAMPLE OUTPUT
 
---------------------------------------------------
+# --------------------------------------------------
 # Welcome to the Fortune Telling Machine
 
 # The instructions are simple - you may request one
@@ -240,6 +240,47 @@ def dashes():
 def quit():
     print()
     print('I hope you enjoyed your fortunes...\n')
+
+# SAMPLE OUTPUT
+
+# --------------------------------------------------
+# Welcome to the Fortune Telling Machine
+
+# The instructions are simple - you may request one
+# fortune, you  may request multiple fortunes, or you
+# may request to quit.
+
+# Please enjoy your fortune(s)! But beware! When you use
+# the Fortune Telling Machine, you get what you get and
+# you don't get upset!
+
+# --------------------------------------------------
+# ONE FORTUNE:
+# There's a lot of atoms in you.
+
+
+# --------------------------------------------------
+# MULTIPLE FORTUNES:
+# How many fortunes would you like? 7
+
+# 1 - Bring an umbrella today.
+
+# 2 - There's a lot of atoms in you.
+
+# 3 - You will live a long, prosperous life.
+
+# 4 - Chin up! It's going to be a great day!
+
+# 5 - If you have no pockets, your phone can't fall out of them!
+
+# 6 - Chin up! It's going to be a great day!
+
+# 7 - You will live a long, prosperous life.
+
+# --------------------------------------------------
+
+# I hope you enjoyed your fortunes...
+
 
 ```
 
