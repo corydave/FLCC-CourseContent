@@ -48,10 +48,4 @@ if username.lower() == 'admin':
 
 # Experiences for this chapter
 
-1. VIDEOS - Chapter 05 Videos
-2. LABS
-    1. `compliment.py`
-    2. `coin_toss.py`
-    3. `compliment2.py`
-    4. `convertCF02.py`
-    5. `grade_converter.py`
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vSOhM7OqlrMOHdc48h9j67Qlaa4itEbuYv848PrCh_NY-Wqr_x3osK_tLvmyRGeVArn99cw3PEqLshG/pubhtml/sheet?headers=false&amp;gid=1265930329&amp;range=A1:D12'style="width:100%;max-width:720px;height:309px" frameborder="0"></iframe></center>
