@@ -1,0 +1,41 @@
+^^ LAB - Darknet Diaries #52
+
+<center>
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vQtSaAscUSFLqCWoqgxg71npYoEKIcIajrGZweapGTAOrjTWrIIKRwGi2stic35mwZavxVDR1Sdp4bx/pub?w=200&amp;h=200" alt="An illustration of a miniature devil standing on the trackpad of a laptop. The devil is facing the monitor, and is holding a modified pitchfork. Instead of the typical prongs, the pitchfork looks to be the USB symbol.">
+
+</center>
+
+<br />
+
+## STEP ONE: Get a copy of this lab
+
+* [Make a copy of this Google Doc](https://docs.google.com/document/d/1eWeGJC_gyIFB_Qj0kQZyxbpFmp9-n5HLtSo9eeyfyjA/copy) (you must be logged into Google)
+
+<br />
+
+## STEP TWO: Complete the lab
+
+* This lab will require you to listen to [episode #52 of the Darknet Diaries](https://darknetdiaries.com/episode/52/)
+
+* Write a response
+
+<br />
+
+## STEP THREE: Submit the lab
+
+* Since you will be using a Google Doc, paste a link to it
+
+    * Make sure it is shared such that "[Anyone with the link can comment](https://www.youtube.com/watch?v=jFGXfLDctcI)"
+
+* This lab can take anywhere between 60 minutes and 150 minutes because you will be listening to a podcast that is roughly fifty minutes long and then writing a response.
+
+<br />
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
