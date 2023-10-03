@@ -1,27 +1,29 @@
-<h1 style="background-color: #113063; color: #f7f7f7; text-align:center; padding: 1.875rem; border-radius: .25rem;">
-     CHAPTER 4 - Information &amp; Cryptography
-</h1>
+^^ CHAPTER 4 - Information & Cryptography
+
 <div style="text-align: center; display: none;"><img style="display: none; width: 100%;" src="https://docs.google.com/drawings/d/e/2PACX-1vSzT6cf2Awm_IKWffS9uwxSin_0vdUf2fFdX4y2ZquyP7Fxhb4OtXlHKuEE_E_rbixCL0FAJVarh_7a/pub?w=907&amp;h=385" alt="A blue background with the icons of a lock and two different keys." title="A blue background with the icons of a lock and two different keys."></div>
 
-<p>Being aware of information, hiding information, and securely transporting information are mission critical in the realm of information security. This chapter looks at some neat concepts related to protecting information from attackers.</p>
-<h1 style="text-align: center ">Schedule</h1>
-<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vRxgRdNoBTaBuxf7fCDreea8kokhcOtQyD6erWSyiW4tB-KbR6EfTP9wUy9QJ-2cd14rlyzUPEx5zFB/pubhtml/sheet?headers=false&amp;gid=318211283&amp;range=A1:D16'style="width:100%;max-width:720px;height:393px" frameborder="0"></iframe></center>        
+Being aware of information, hiding information, and securely transporting information are mission critical in the realm of information security. This chapter looks at some neat concepts related to protecting information from attackers.
 
-<h1 style="text-align: center ">Outcomes</h1>
+# Schedule 
+
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vRxgRdNoBTaBuxf7fCDreea8kokhcOtQyD6erWSyiW4tB-KbR6EfTP9wUy9QJ-2cd14rlyzUPEx5zFB/pubhtml/sheet?headers=false&amp;gid=318211283&amp;range=A1:D16'style="width:100%;max-width:720px;height:393px" frameborder="0"></iframe></center>		
+
+# Outcomes
+
 <details>
 <summary>Click to reveal outcomes</summary>
 
-<ul>
-<li>Compare and contrast types of attacks</li>
-<li>Compare and contrast basic concepts of cryptography</li>
-<li>Demonstrate steganography</li>
-<li>Implement public/private key encryption</li>
-<li>Identify CIA</li>
-<li>Understand the importance of digital certificates</li>
-<li>Use a VPN</li>
-<li>Explain a man-in-the-middle attack</li>
-<li>Advise users on primary safety behavior</li>
-</ul>
+* Compare and contrast types of attacks
+* Compare and contrast basic concepts of cryptography
+* Demonstrate steganography
+* Implement public/private key encryption
+* Identify CIA
+* Understand the importance of digital certificates
+* Use a VPN
+* Explain a man-in-the-middle attack
+* Advise users on primary safety behavior
+
 </details>
 
-<p><br /><br /></p>
+<br /><br />
+
