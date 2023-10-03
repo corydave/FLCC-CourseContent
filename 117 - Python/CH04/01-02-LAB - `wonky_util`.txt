@@ -225,6 +225,59 @@ def wonky_program():
     
 main()
 
+
+
+
+
+
+
+
+
+
+
+
+# SAMPLE OUTPUT
+
+==================================================================
+# THIS IS A TEST OF THE `wonky_util.py` module. This is only a test.
+# ==================================================================
+
+
+# CALL TO `roll_one_d12()`:
+# 8
+
+
+# CALL TO `roll_two_d12()`:
+# Die 1 is 1 and die 2 is 7 and the sum is 8
+
+
+# CALL TO `upper_string(str)`:
+# Enter a string: dave
+# DAVE
+
+
+# CALL TO `compliment()`:
+# You smell like petunias, which is nice!
+
+
+# CALL TO `personal_compliment(name)`:
+# Enter your name: DAVE
+# Hey, DAVE you are super nice!
+
+
+# CALL TO `add(num1, num2)`:
+# Enter a number: 4
+# Enter a second number: 5
+# The sum is 9
+
+
+# ==================================================================
+#  THIS CONCLUDES THE TEST. Thank you for your patience and effort.
+# ==================================================================
+
+
+
+
 ```
 
 ^^^ `wonky_util.py`
@@ -245,7 +298,7 @@ def roll_one_d12():
 def roll_two_d12():
     '''
     This function will not return anything but *will* PRINT
-    two values (each one is a call to `roll_one_die12()`) and then
+    two values (each one is a call to `roll_one_d12()`) and then
     it will PRINT the sum. 
     '''
     # To implement this function, your best bet is to create
@@ -262,7 +315,7 @@ def roll_two_d12():
 def upper_string(str):
     '''
     This function takes, as input, one string and will
-    return the capitalized version. Note that this function
+    return the uppercase version. Note that this function
     RETURNS and does not *print* the result.
     '''
     
