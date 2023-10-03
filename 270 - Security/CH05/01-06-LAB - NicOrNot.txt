@@ -1,0 +1,42 @@
+^^ LAB - NicOrNot
+
+<center>
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vTeZDxQG62WPtKSICQmgF8ojwMPv3-m9kZpNGIuWKeUpuIz1rTPjdBlccOJPyYT6Gye3uYQDLEW7CpY/pub?w=200&amp;h=200" alt="An image of Nicolas Cage. The left half of his face is visible and the right half has been replaced with a Guy Falkes mask."  title="An image of Nicolas Cage. The left half of his face is visible and the right half has been replaced with a Guy Falkes mask." >
+
+
+</center>
+
+<br />
+
+## STEP ONE: Get a copy of this lab
+
+* [Make a copy of this Google Doc](https://docs.google.com/document/d/1FK6iK8SLIQGzduDL8i8Po25ctr3g5omt2dn4TsDWyIA/copy) (you must be logged into Google)
+
+<br />
+
+## STEP TWO: Complete the lab
+
+* Read through each step
+
+* You'll be asked to take screenshots at certain points; replace the screenshots in the Google Doc with your own
+
+<br />
+
+## STEP THREE: Submit the lab
+
+* Since you will be using a Google Doc, paste a link to it
+
+    * Make sure it is shared such that "[Anyone with the link can comment](https://www.youtube.com/watch?v=jFGXfLDctcI)"
+
+* This lab can take anywhere between 15 minutes and 30 minutes, depending on your familiarity with installing software and Nic Cage.
+
+<br />
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
