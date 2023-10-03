@@ -1,0 +1,28 @@
+^^ CHAPTER 5 - Information & Cryptography
+
+<div style="text-align: center; display: none;"><img style="width: 100%;" src="https://docs.google.com/drawings/d/e/2PACX-1vQSFgOe4XQjQOvmEa6pgmY7DodD-MaJQOFUycoDN_hF-OBcyTThP5D04pQvHczEIThf0CGNYFjOrDA8/pub?w=907&amp;h=385" alt="A blue background with the icons of a lock and two different keys." title="A blue background with the icons of a lock and two different keys."></div>
+
+Being aware of information, hiding information, and securely transporting information are mission critical in the realm of information security. This chapter looks at some neat concepts related to protecting information from attackers.
+
+# Schedule 
+
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vRxgRdNoBTaBuxf7fCDreea8kokhcOtQyD6erWSyiW4tB-KbR6EfTP9wUy9QJ-2cd14rlyzUPEx5zFB/pubhtml/sheet?headers=false&amp;gid=1265930329&amp;range=A1:D14'style="width:100%;max-width:720px;height:351px" frameborder="0"></iframe></center>		
+
+# Outcomes
+
+<details>
+<summary>Click to reveal outcomes</summary>
+
+* Compare and contrast types of attacks
+* Compare and contrast basic concepts of cryptography
+* Demonstrate steganography
+* Implement public/private key encryption
+* Identify CIA
+* Understand the importance of digital certificates
+* Use a VPN
+* Explain a man-in-the-middle attack
+* Advise users on primary safety behavior
+
+</details>
+
+<br /><br />
