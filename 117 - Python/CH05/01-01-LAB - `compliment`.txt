@@ -80,6 +80,38 @@ def compliment():
 main()
 
 
+
+
+
+
+
+
+# ====================
+# SAMPLE OUTPUT
+
+# ====================
+
+# Would you like a compliment? yes
+# You have wonderful eyes.
+# Thank you for playing.
+
+# ====================
+
+# Would you like a compliment? y
+# Thank you for playing.
+
+# ====================
+
+# Would you like a compliment? Yes
+# Thank you for playing.
+
+# ====================
+
+# Would you like a compliment? no
+# Thank you for playing.
+
+# ====================
+
 ```
 
 
