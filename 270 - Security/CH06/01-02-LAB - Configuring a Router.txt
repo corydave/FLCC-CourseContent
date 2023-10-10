@@ -26,9 +26,7 @@
 
 ## STEP THREE: Submit the lab
 
-* Since you will be using a Google Doc, paste a link to it
-
-    * Make sure it is shared such that "[Anyone with the link can comment](https://www.youtube.com/watch?v=jFGXfLDctcI)"
+* The only thing you need to put in your submission is text to let me know you've finished this lab
 
 * This lab can take anywhere between 10 minutes and 20 minutes, depending on your familiarity with your web browser and router configurations.
 
