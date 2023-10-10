@@ -1,0 +1,79 @@
+^^ SHARE - LinkedIn - Summarize Three Articles
+
+# Description
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vQC7X7LtrKUVzUvcdX6nKPLsd1Yk9gfX_7TgZHZ8AHGppfTEcbqi4loH-LuV9mcbwn5PhDzjOJi-QHT/pub?w=200&amp;h=200" alt="The LinkedIn logo. A blue square with rounded corners and, in white, modern text, the letters 'in'." title="The LinkedIn logo. A blue square with rounded corners and, in white, modern text, the letters 'in'." style="margin: 0pt 10pt 10pt 0pt;float:right;"  />
+
+Your job here is to find three articles that relate to **STAYING SAFE AT HOME**.
+
+* You must summarize the article in 3-5 well-structured and informative sentences and then post them in LinkedIn. 
+
+* Use the hashtags **`#LetsBeCarefulOutThere`** and **`#flcc270`**.
+
+* You should not tease the article; that is, you should not be providing clickbait. For example, your summary should not say, "Click on this article to read it".
+
+* You absolutely should be providing spoilers and summarizing the article.
+
+* The people who read your summary should learn something; there should be a few takeaways for the readers.
+
+* You should have 2 or 3 specific examples from the article.
+
+* Provide a genuine, short summary.
+
+<br />
+
+^accordion
+
+^^^ Tips on writing a good post
+
+If your post is merely a restatement of the title of the article, you have not succeeded in helping the reader of your post learn anything. Here are examples of posts that provide absolutely no value to the reader:
+
+* Read this article to learn some new ways to enhance your security online
+
+    * *Instead, there should be three tips from the article that explain how to increase security online.*
+
+* This article explains how to properly dispose of files you don't need anymore
+    * *This summary should include methods of file destruction that the article suggests.*
+
+* Learn how to make a proper password
+    * *Examples of how to make a password would be good to include.*
+
+^^^ Example of good post
+
+Now look at this example of a good post. Note that it provides a lot of examples from the article and that
+it has some contextualization. But most importantly, the post pictured below provides actionable
+takeaways to the people reading it.
+
+<center>
+<p><img src="https://docs.google.com/drawings/d/e/2PACX-1vSmGV8TyaM5yLoCjRdJMcgAJY_f6e42YmxMMtnPDYUxrmos2i14X5KsZYpdcA1qcdQ8nnX_E2AL1yNL/pub?w=361&amp;h=485" height="484" width="361" alt="A screenshot of a well-constructed post in LinkedIn. The summary is meaningful and provides lots of actionable items and good ideas." title="A screenshot of a well-constructed post in LinkedIn. The summary is meaningful and provides lots of actionable items and good ideas." /></p>
+</center>
+
+^^^ Video instructions
+
+If you need help, check out this video:
+
+<br />
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/0rUAlief2EU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:15px !important;"></iframe>
+
+^acc-end
+
+# Specifications
+
+* Make sure you provide a meaningful summary
+
+* Post links to the *posts you authored* in LinkedIn, not links to the articles
+
+    * Paste each link into the submission - there should be three links
+
+    * Please do not number your posts; three links is sufficient (and preferred)
+
+<br />
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
