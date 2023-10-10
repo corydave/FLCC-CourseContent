@@ -76,15 +76,5 @@ for x in range(0, 15, 2):
 
 # Experiences for this chapter
 
-1. VIDEOS - Chapter 06 Videos
-2. LABS
-    1. `for_loop_range.py`
-    2. `for_loop_start_end.py`
-    3. `for_loop_start_end_increment.py`
-    4. `for_loop_list.py`
-    5. `while_loop_count.py`
-    6. `while_loop_count_nice.py`
-    7. `while_loop_guess.py`
-    8. `while_loop_guess_high_low.py`
-    9. `authenticate.py`
-    10. `rectangle_redux.py`
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vSOhM7OqlrMOHdc48h9j67Qlaa4itEbuYv848PrCh_NY-Wqr_x3osK_tLvmyRGeVArn99cw3PEqLshG/pubhtml/sheet?headers=false&amp;gid=277957836&amp;range=A1:D14'style="width:100%;max-width:720px;height:351px" frameborder="0"></iframe></center>
+
