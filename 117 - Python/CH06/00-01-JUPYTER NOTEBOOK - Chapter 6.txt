@@ -1,0 +1,11 @@
+^^ JUPYTER NOTEBOOK - Chapter 6
+
+This Jupyter Notebook is so loopy!
+
+^callout file-download
+
+[`ch06_jupyter_notebook.ipynb`](https://drive.google.com/uc?export=download&id=1pDy5SEgxA1i4kaqF-t_5We2kHN0wn0-j)
+
+Download this file and load it into your IDE.
+
+^callout-end
