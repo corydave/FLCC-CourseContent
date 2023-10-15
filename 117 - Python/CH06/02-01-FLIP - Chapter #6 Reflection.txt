@@ -1,0 +1,19 @@
+^^ FLIP - Chapter #6 Reflection
+
+For this chapter, share ONE piece of advice you'd give to someone who is learning how to program and is *just* starting loops.
+
+^=
+
+You can [go directly to the Flip here](https://flip.com/b55fd887). The Flip ID is **`b55fd887`**
+
+<center>
+<iframe
+    width="100%"
+    height="900"
+    frameBorder="0"
+    src="https://flip.com/b55fd887?embed=true"
+    webkitallowfullscreen
+    mozallowfullscreen
+    allowfullscreen
+    allow="microphone; camera; display-capture" style="border-radius:15px !important; max-width:600px;"></iframe>
+</center>
