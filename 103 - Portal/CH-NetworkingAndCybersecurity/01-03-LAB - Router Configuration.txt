@@ -18,7 +18,7 @@ If you want a soft copy of the instructions, [click here to get your very own](h
 
 <br /><center>
 
-Regardless, you can find the **[online router simulator here](https://daveghidiu.com/103/router.html)** or scroll down to the bottom of this page.
+Regardless, you can find the **[online router simulator here](https://phishingdemo.org/103/router.html)** or scroll down to the bottom of this page.
 
 </center><br />
 
@@ -62,11 +62,10 @@ Click here to submit your work.
 <br /><br />
 
 <center>
-<iframe src="https://script.google.com/macros/s/AKfycbzsEInBoW_FTa-Mg8q9MG0ft4_BCVdDECR_F_AIbgNEfoPwWMw17RdrKr_G9Xp32mShdw/exec?name=@X@user.full_name@X@&course=@X@course.id@X@" width="95%" height="1200px">...Loading...</iframe>
+<iframe src="https://script.google.com/macros/s/AKfycbwfAXPNbpNEitPrf1ujGS54V5Uz7ebuMXO2Sxl0zXlB1fLIVudOS-5yrSlPAG9zMDW0/exec" width="95%" height="1200px">...Loading...</iframe>
 </center>
 
 
 
 
 </div>
-
