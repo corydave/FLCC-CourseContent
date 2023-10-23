@@ -37,10 +37,13 @@ NOTE: Your solution MUST use a switch statement to receive full credit. Refer to
 
 ```
 Welcome to Kickstarter!
+
 How much would you like to contribute to the 'Cones of Dunshire' project?
 5
+
 You will have your name put on a list of backers on our website.
 You will receive a thank-you email.
+
 
 Thanks for backing 'Cones of Dunshire'.
 ```
@@ -49,12 +52,15 @@ Thanks for backing 'Cones of Dunshire'.
 
 ```
 Welcome to Kickstarter!
+
 How much would you like to contribute to the 'Cones of Dunshire' project?
 20
+
 You will receive a copy of the mobile app version of 'Cones of Dunshire'.
 You will have your name put on a list of backers on our website.
 You will receive a thank-you email.
 
+
 Thanks for backing 'Cones of Dunshire'.
 
 ```
@@ -63,10 +69,13 @@ Thanks for backing 'Cones of Dunshire'.
 
 ```
 Welcome to Kickstarter!
+
 How much would you like to contribute to the 'Cones of Dunshire' project?
 4
+
 You did not enter a valid amount
  
+
 Thanks for backing 'Cones of Dunshire'.
 ```
 
