@@ -33,14 +33,4 @@ for x in range(0, 15, 2):
 
 # Experiences for this chapter
 
-1. VIDEOS - Chapter 07 Videos
-2. LABS
-    1. `output_values`
-    2. `sort_values`
-    3. `double_values`
-    4. `output_left`
-    5. `output_right`
-    6. `average_values`
-
-3. PROJECTS
-    1. `fortune_teller`
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vSOhM7OqlrMOHdc48h9j67Qlaa4itEbuYv848PrCh_NY-Wqr_x3osK_tLvmyRGeVArn99cw3PEqLshG/pubhtml/sheet?headers=false&amp;gid=318211283&amp;range=A1:D6'style="width:100%;max-width:720px;height:183px" frameborder="0"></iframe></center>
