@@ -1,0 +1,31 @@
+^^ FLIP - Reflection - Communication
+
+Please take this opportunity to reflect on the week. Reflection is a form of *metacognition* (that means thinking bout your thinking). These small exercises have been shown to improve thinking and learning. 
+
+Here is the prompt for this week:
+
+^=^ ,
+
+Please share a memory of a communication a teacher you had (K-12) sent home. Maybe it was a news letter, maybe it was a note that needed to get signed. I'd love to know how it made you feel! And what you might do when you have a class.
+
+^=
+
+You can [go directly to the Flip here](https://flip.com/ca407979). The Flip ID is **`ca407979`**
+
+# Specifications
+
+* Answer the prompt with a genuine, heartfelt response. Add something to the conversation. Dig deep. Help us understand where you are coming from.
+
+* There is nothing to submit for this assignment; your post at Flip will be the submission.
+
+<center>
+<iframe
+    width="100%"
+    height="900"
+    frameBorder="0"
+    src="https://flip.com/ca407979?embed=true"
+    webkitallowfullscreen
+    mozallowfullscreen
+    allowfullscreen
+    allow="microphone; camera; display-capture" style="border-radius:15px !important; max-width:600px;"></iframe>
+</center>
