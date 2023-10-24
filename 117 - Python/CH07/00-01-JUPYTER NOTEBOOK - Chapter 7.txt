@@ -1,0 +1,11 @@
+^^ JUPYTER NOTEBOOK - Chapter 7
+
+There is a list of reasons why you should download this Jupyter Notebook!
+
+^callout file-download
+
+[`ch07_jupyter_notebook.ipynb`](https://drive.google.com/uc?export=download&id=1ELcVR3noRKgWkhwJqSSHtcFh1EqDMzVw)
+
+Download this file and load it into your IDE.
+
+^callout-end
