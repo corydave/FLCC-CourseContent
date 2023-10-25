@@ -1,0 +1,25 @@
+^^ CHAPTER 8 - Social Engineering
+
+<div style="text-align: center; display: none;"><img style="width: 100%;" src="https://docs.google.com/drawings/d/e/2PACX-1vRJbN16sdwvhJ8q-aQ_bdJrQ5qm1SHhwwmPMGFW7pl8WOdycvYhQ9tty-GVIYDw5qZq18mqQppI_Gtr/pub?w=907&amp;h=385" alt="A blue background with vocabulary from social engineering." title="A blue background with vocabulary from social engineering."></div>
+
+*Social Engineering* is the art of hacking *people*. A conman (confidence man). A flimflammer. A fraud. A swindler. A scammer. A con-artist. A sharpie.
+
+All of those are terms for people who use tools like authority, urgency, and pretexting to trick their marks.
+
+# Schedule 
+
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vRxgRdNoBTaBuxf7fCDreea8kokhcOtQyD6erWSyiW4tB-KbR6EfTP9wUy9QJ-2cd14rlyzUPEx5zFB/pubhtml/sheet?headers=false&amp;gid=2020899895&amp;range=A1:D18'style="width:100%;max-width:720px;height:435px" frameborder="0"></iframe></center>			
+
+# Outcomes
+
+<details>
+<summary>Click to reveal outcomes</summary>
+
+* Compare and contrast types of social engineering attacks.
+* Understand common vocabulary terms in the realm of social engineering.
+* Generate scenarios where social engineering is the primary method of attack.
+* Develop guidelines for preventing social engineering attacks.
+
+</details>
+
+<br /><br />
