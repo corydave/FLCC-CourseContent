@@ -1,0 +1,37 @@
+^^ SHARE - Construct a Socially Engineered Scheme
+
+# Description
+
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vTSZ-juIZZ3w4xS9zq89XGqn5PyF25UFt2iAWPVvE0ocMa47khHmzj55dzCTzweOYVCG6UBiKxH6Wyb/pub?w=200&h=200" alt="A chat bubble indicating conversation or discussion." style="margin: 0pt 10pt 10pt 0pt;float:right;" />
+
+As you've been watching video clips and reading about social engineering, hopefully you've been parsing the content for subtle tips on how social engineering works. Your task here is to create a scenario that relies on social engineering.
+
+You should tell a small story here. Be creative. Spend some time designing a scenario that is plausible and draws on a few social engineering tips.
+
+Your scenario should be fun to read, easy to understand, and showcase an understanding of social engineering. Most successful scenarios lean on a few tenets:
+
+* They are not 5-6 sentences (short submissions do not tell a story or paint a picture; they merely list a few facts)
+* They should be engaging. A work of believable fiction.
+* They should not rely on any unbelievable actions. For instance, please don't include things like, "I then hack into the victim's computer and install malware". Remember - this is about social engineering, not hacking.
+
+<div style="display:block;width:100%;clear:left;">
+
+# Specifications
+
+* Your post should be coherent, logical, and not rely on digital hacking - it's only about hacking the person.
+* You may (but do not need to) respond to posts from other students and say what you like about their post.
+* For examples of posts from previous classes, [check out this link](https://docs.google.com/document/d/1OitTEYqsn4J2sdzwwPrvYeshcmvjBL9CzsP-4We1Bqo/preview).
+* You submit this assignment in Brightspace simply by leaving a message in the submission form
+
+</div>
+
+## Let's be careful out there!
+
+^callout external-link-alt
+
+<br />
+
+Click here to participate in the Discussion.
+
+^callout-end
