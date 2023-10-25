@@ -1,0 +1,41 @@
+^^ LAB - Configuring a RAID
+
+<center>
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vQBSLcgt2UHWCC3Ab6TeFU2NZI5pxYGvnOmX9LaCkhOJBrft1gO9G2hSUf3mYFqP-r78ZEoUPj3zT-P/pub?w=200&amp;h=200" alt="A black chevron with yellow letters in front of it that say 'RAID' and then, in smaller letters underneath, 'Redundant Array of Inexpensive Drives'.">
+
+</center>
+
+<br />
+
+## STEP ONE: Get a copy of this lab
+
+* [Make a copy of this Google Doc](https://docs.google.com/document/d/1WKPFH-WPbANPoZblnTbgNA5XcdUKMhpC7p8WBuCg39s/copy) (you must be logged into Google)
+
+<br />
+
+## STEP TWO: Complete the lab
+
+* Read through each step
+
+* You'll be asked to take screenshots at certain points; replace the screenshots in the Google Doc with your own
+
+<br />
+
+## STEP THREE: Submit the lab
+
+* Since you will be using a Google Doc, paste a link to it
+
+    * Make sure it is shared such that "[Anyone with the link can comment](https://www.youtube.com/watch?v=jFGXfLDctcI)"
+
+* This lab can take anywhere between 10 minutes and 25 minutes, depending on your familiarity with your web browser and your experience with a BIOS.
+
+<br />
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
