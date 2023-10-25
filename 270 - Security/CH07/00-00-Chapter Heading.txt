@@ -1,24 +1,37 @@
-^^ CHAPTER 3 - Malware & Threats
+^^ CHAPTER 7 - Staying Safe At Work
 
-<img style="width: 100%;display:none;" src="https://docs.google.com/drawings/d/e/2PACX-1vTvU0xtURRub05Daj2m_EvmhwcjMzuDT5p5azPGK3AhZrLxyVanAoggGRGohfPOdLnvjTDtkF8GAMNX/pub?w=907&amp;h=385" alt="A blue background with a illustrations of a caution symbol, a skull, a virus, and a worm." title="A blue background with a illustrations of a caution symbol, a skull, a virus, and a worm.">
+<div style="text-align: center; display: none;"><img style="width: 100%;" src="https://docs.google.com/drawings/d/e/2PACX-1vTRMYqz-n1xT3ncf3pVCtoFE-7Hdm3fs4os74bHj6RDiToPLGivDMYDyZTAlZEg0R5wOgU-LS2rQZ66/pub?w=907&amp;h=385" alt="A blue background with illustrations of a router, a home, and a lightbulb." title="A blue background with illustrations of a router, a home, and a lightbulb."></div>
 
-Malware has always been an issue (as early as the 1970s when ARPANET first arrived on the scene) for the security minded. Unfortunately, it's a bigger issue today with the sophistication of malware (like ransomware), the assets that need to be protected (more and more personal information is being stored), and the distribution of data centers (making attack vectors even bigger). This unit will explore some of the different types of malware out there today and suggest ways to mitigate exposure.
+In this chapter, we'll be exploring some workplace concerns. How is data backed up? How do you know if there is an intrusion? What do you do to respond after an incident? What is the weakest point in your security at work? How do you educate employees?
 
 # Schedule 
 
-<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vRxgRdNoBTaBuxf7fCDreea8kokhcOtQyD6erWSyiW4tB-KbR6EfTP9wUy9QJ-2cd14rlyzUPEx5zFB/pubhtml/sheet?headers=false&amp;gid=277957836&amp;range=A1:D12'style="width:100%;max-width:720px;height:309px" frameborder="0"></iframe></center>		
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vRxgRdNoBTaBuxf7fCDreea8kokhcOtQyD6erWSyiW4tB-KbR6EfTP9wUy9QJ-2cd14rlyzUPEx5zFB/pubhtml/sheet?headers=false&amp;gid=1250865820&amp;range=A1:D20'style="width:100%;max-width:720px;height:477px" frameborder="0"></iframe></center>	
 
 # Outcomes
 
 <details>
 <summary>Click to reveal outcomes</summary>
 
-* Compare and contrast types of malware
-* Understand the threats that different types of malware present
-* Create a sandboxed environment to examine potentially harmful files
-* Use tools to identify potentially harmful files
-* Gain an appreciation of spearfishing
-* Check integrity of files with checksums
+* Give examples of an incident
+* Construct&nbsp; an incident response plan
+* Develop a backup routine
+* Differentiate between an IDS and an IPS (and provide examples of each)
+* Provide a walkthrough of a TPM
+* Distinguish between RAID-0, -1, -5/6, and -10
+* Discuss recovery site options
+* Explain risk management processes and concepts
+* Compare and contrast types of attacks
+* Explain the impact associated with types of vulnerabilities
+* Install and configure network components, both hardware and software based, to support organizational security
+* Given a scenario, use appropriate software tools to assess the security posture of an organization
+* Given a scenario, troubleshoot common security issues
+* Explain use cases and purpose for frameworks, best practices, and secure configuration guides
+* Explain how resiliency and automation strategies reduce risk
+* Explain the importance of physical security controls
+* Implement identity and access management controls
+* Summarize business impact analysis concepts
+* Explain disaster recovery and continuity of operation concepts
 
 </details>
 
