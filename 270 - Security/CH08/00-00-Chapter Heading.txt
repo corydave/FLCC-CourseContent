@@ -8,7 +8,7 @@ All of those are terms for people who use tools like authority, urgency, and pre
 
 # Schedule 
 
-<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vRxgRdNoBTaBuxf7fCDreea8kokhcOtQyD6erWSyiW4tB-KbR6EfTP9wUy9QJ-2cd14rlyzUPEx5zFB/pubhtml/sheet?headers=false&amp;gid=2020899895&amp;range=A1:D18'style="width:100%;max-width:720px;height:435px" frameborder="0"></iframe></center>			
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vRxgRdNoBTaBuxf7fCDreea8kokhcOtQyD6erWSyiW4tB-KbR6EfTP9wUy9QJ-2cd14rlyzUPEx5zFB/pubhtml/sheet?headers=false&amp;gid=2020899895&amp;range=A1:D15'style="width:100%;max-width:720px;height:372px" frameborder="0"></iframe></center>	
 
 # Outcomes
 
