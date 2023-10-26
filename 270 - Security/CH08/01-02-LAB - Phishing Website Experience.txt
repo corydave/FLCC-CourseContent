@@ -1,0 +1,41 @@
+^^ LAB - Phishing Website Experience
+
+<center>
+
+<img alt="An illustration of a burglar popping out of a laptop. The burglar has discovered someone's credit cards! The text says, 'Phishing Website Experience'." src="https://docs.google.com/drawings/d/e/2PACX-1vTockkKl5LQdHL93MoEbHPsXL1yava51NgpqXf50hteSwPHfscWifLKmowsU2LK1zYa3-YgflZY1eRU/pub?w=200&amp;h=200" width="200" height="200" title="A silhouette of a Victorian era detective">
+
+</center>
+
+<br />
+
+## STEP ONE: Get a copy of this lab
+
+* [Make a copy of this Google Doc](https://docs.google.com/document/d/1nqSPB0lLpI0OZJTo9cn9dSmnmjTNzIlhxWWwOLweqYU/copy) (you must be logged into Google)
+
+<br />
+
+## STEP TWO: Complete the lab
+
+* Read through each step
+
+* You'll be asked to take screenshots at certain points; replace the screenshots in the Google Doc with your own
+
+<br />
+
+## STEP THREE: Submit the lab
+
+* Since you will be using a Google Doc, paste a link to it
+
+    * Make sure it is shared such that "[Anyone with the link can comment](https://www.youtube.com/watch?v=jFGXfLDctcI)"
+
+* This lab can take anywhere between 15 minutes and 25 minutes, depending on your familiarity with your web browser.
+
+<br />
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
