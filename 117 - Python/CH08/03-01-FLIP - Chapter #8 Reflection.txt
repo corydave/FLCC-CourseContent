@@ -1,4 +1,4 @@
-^^ FLIP - Chapter #7 Reflection
+^^ FLIP - Chapter #8 Reflection
 
 As you start putting everything you've learned into a full-blown program, sometimes you start to see connections that were not obvious when we studied individual topics. If you watched the video that walks through a program, maybe you saw something that you didn't think about. Even if you didn't watch it, just playing with the different things you've learned about might yield some insight. Please share with us some connections you've made, some concepts that you've revealed, or some ideas you have about putting everything together in one program.
 ^=
