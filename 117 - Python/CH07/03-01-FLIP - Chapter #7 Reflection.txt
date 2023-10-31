@@ -1,5 +1,7 @@
 ^^ FLIP - Chapter #7 Reflection
 
+^=^ ,
+
 This week, please share your biggest struggle with college - it does not have to be Python related (but it can be!). If you don't feel comfortable sharing your biggest struggle, share *a* struggles - it doesn't need to be your biggest. We'll never know!
 
 ^=
