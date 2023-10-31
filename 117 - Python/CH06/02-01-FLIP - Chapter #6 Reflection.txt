@@ -1,5 +1,7 @@
 ^^ FLIP - Chapter #6 Reflection
 
+^=^ ,
+
 For this chapter, share ONE piece of advice you'd give to someone who is learning how to program and is *just* starting loops.
 
 ^=
