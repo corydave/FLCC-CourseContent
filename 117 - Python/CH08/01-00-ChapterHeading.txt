@@ -19,4 +19,19 @@ Note that it may take up to 24 hours for me to approve your proposal each time i
 
 After your proposal has been accepted, you may start working on your program. Your program will not be graded by CodeGrade - I will be grading it manually so make sure you address all the specifications in the project description.
 
+<br /><br />
+
+^=^ ,, 
+
+<center>
+
+**NOTE:**
+
+No AI may be used in this program.
+
+</center>
+
+^=
+
+
 <br /><hr style="height:10px;border-width:0;background-color:#335E3B"><br />
