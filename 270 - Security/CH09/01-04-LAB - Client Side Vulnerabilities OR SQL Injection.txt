@@ -1,0 +1,84 @@
+^tabs Client Side Vulnerabilities, SQL Injection
+
+^^ LAB - Client Side Vulnerabilities
+
+<center>
+
+<img title="An icon of a laptop with a bypass symbol skirting around it." height="200" width="200" src="https://docs.google.com/drawings/d/e/2PACX-1vQfffaY9tAfkw33Qos_09aF5uVoOD3SHipL4gmhXJQf1wNF_q-rY1ThF-uUuAJyD_7f0Ysb38Z1SGPP
+/pub?w=200&amp;h=200" alt="An icon of a laptop with a bypass symbol skirting around it.">
+
+</center>
+
+<br />
+
+## STEP ONE: Get a copy of this lab
+
+* [Make a copy of this Google Doc](https://docs.google.com/document/d/1NWwqn5dYJA5bvQ64-ieQKi2tATX4wBIOf5ndImUDSIY/copy) (you must be logged into Google)
+
+<br />
+
+## STEP TWO: Complete the lab
+
+* Read through each step
+
+* You'll be asked to take screenshots at certain points; replace the screenshots in the Google Doc with your own
+
+<br />
+
+## STEP THREE: Submit the lab
+
+* Since you will be using a Google Doc, paste a link to it
+
+    * Make sure it is shared such that "[Anyone with the link can comment](https://www.youtube.com/watch?v=jFGXfLDctcI)"
+
+* This lab can take anywhere between 60 minutes and 120 minutes, depending on your familiarity with your experience with your web browser and HTML editing.
+
+
+
+^tab
+
+^^ LAB - SQL Injection
+
+<center>
+
+<img title="An illustration of a needle that says SQL." height="200" width="200" src="https://docs.google.com/drawings/d/e/2PACX-1vS3MyPZCdXCtwzuCn1Vsv7XzbpjFh0Zkz7RRvR5Yco86UT5hepxFc7sJ9WX9iQW63h75hG5RTGzcaZT/pub?w=200&amp;h=200" alt="An illustration of a needle that says SQL.">
+
+</center>
+
+<br />
+
+## STEP ONE: Get a copy of this lab
+
+* [Make a copy of this Google Doc](https://docs.google.com/document/d/1kVgn4h4EEgk_tYVneD8fHSn8G80zd7b213ks-VfUNFI/copy) (you must be logged into Google)
+
+<br />
+
+## STEP TWO: Complete the lab
+
+* Read through each step
+
+* You'll be asked to take screenshots at certain points; replace the screenshots in the Google Doc with your own
+
+<br />
+
+## STEP THREE: Submit the lab
+
+* Since you will be using a Google Doc, paste a link to it
+
+    * Make sure it is shared such that "[Anyone with the link can comment](https://www.youtube.com/watch?v=jFGXfLDctcI)"
+
+* This lab can take anywhere between 30 minutes and 60 minutes, depending on your familiarity with your experience withSQL.
+
+
+
+^tabs-end
+
+<br />
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
