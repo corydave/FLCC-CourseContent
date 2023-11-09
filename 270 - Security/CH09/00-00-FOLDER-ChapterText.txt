@@ -1,0 +1,26 @@
+^^ CHAPTER 9 - Secure Software Design
+
+<div style="text-align: center; display: none;"><img style="width: 100%;" src="https://docs.google.com/drawings/d/e/2PACX-1vSk67pbOj9aGT63Z_xEfHmx9Q705hKxyQl8Iway-Nds2ztoTLfD2KEc0fWdle_t7ijUeCPa-96LoZFJ/pub?w=907&amp;h=385" alt="A flowchart with a locked padlock in the START position." title="A flowchart with a locked padlock in the START position."></div>
+
+Remember when [fitness tracking app Strava gives away location of secret US army bases](https://www.theguardian.com/world/2018/jan/28/fitness-tracking-app-gives-away-location-of-secret-us-army-bases) or when [Venmo was used to locate drug dealers](https://mashable.com/article/come-on-really)? All because software developers had the default sharing setting as "public". Or how about that time the [Australian Prime Minister posted his boarding pass online and was hacked](https://www.theverge.com/2020/10/15/21516842/tony-abbott-passport-boarding-pass-instagram-hacking-cybersecurity) or that time [teachers in Missouri had their social security numbers posted online](https://www.zdnet.com/article/missouri-apologizes-to-600k-teachers-who-had-ssns-and-private-info-exposed-offers-credit-monitoring/)? All because the software engineers were lazy with what information they were serving to browsers.
+
+Yeah, we're gonna look at how to be smart from the ground up.
+
+# Schedule 
+
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vRxgRdNoBTaBuxf7fCDreea8kokhcOtQyD6erWSyiW4tB-KbR6EfTP9wUy9QJ-2cd14rlyzUPEx5zFB/pubhtml/sheet?headers=false&amp;gid=950897978&amp;range=A1:D17'style="width:100%;max-width:720px;height:415px" frameborder="0"></iframe></center>	
+
+# Outcomes
+
+<details>
+<summary>Click to reveal outcomes</summary>
+
+* Become familiar with OWASP
+* Learn basic tenets of secure software design
+* Identify common vulnerabilities in software engineering
+* Examine recent, high-visibility software fails
+* Design secure software principles
+
+</details>
+
+<br /><br />
