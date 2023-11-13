@@ -1,7 +1,7 @@
 ^^ LAB - `ForLoop03`
 
 ## DESCRIPTION
-Using a `for` loop, write a small program that asks the user for a beginning number and an ending number. Then the program outputs the next consecutive five numbers. Consult the **Sample Output** for specific formatting.
+Using a `for` loop, write a small program that asks the user for a beginning number and an ending number. Then the program outputs consecutive numbers in that range. Consult the **Sample Output** for specific formatting.
 
 ## SPECIFICATIONS
 
