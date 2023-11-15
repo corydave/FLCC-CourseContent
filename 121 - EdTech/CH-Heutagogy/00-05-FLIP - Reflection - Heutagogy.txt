@@ -1,4 +1,4 @@
-^^ FLIP - Reflection - Google Slides
+^^ FLIP - Reflection - Heutagogy
 
 Please take this opportunity to reflect on the week. Reflection is a form of *metacognition* (that means thinking bout your thinking). These small exercises have been shown to improve thinking and learning. 
 
@@ -6,11 +6,11 @@ Here is the prompt for this week:
 
 ^=^ ,
 
-Some have Google Slides the "Swiss Army Knife" of Google (Matt Miller & Kasey Bell of the Google Teacher Podcast). Other than slide shows, how might you use it in the classroom?
+Talk for a bit explaining the differences between Nearpod and Pear Deck. Then reflect on how you liked (or disliked) figuring everything out on your own. Was it uncomfortable? What were strategies that helped?
 
 ^=
 
-You can [go directly to the Flip here](https://flip.com/56ce0137). The Flip ID is **`56ce0137`**
+You can [go directly to the Flip here](https://flip.com/4c9af8df). The Flip ID is **`4c9af8df`**
 
 # Specifications
 
@@ -23,7 +23,7 @@ You can [go directly to the Flip here](https://flip.com/56ce0137). The Flip ID i
     width="100%"
     height="900"
     frameBorder="0"
-    src="https://flip.com/56ce0137?embed=true"
+    src="https://flip.com/4c9af8df?embed=true"
     webkitallowfullscreen
     mozallowfullscreen
     allowfullscreen
