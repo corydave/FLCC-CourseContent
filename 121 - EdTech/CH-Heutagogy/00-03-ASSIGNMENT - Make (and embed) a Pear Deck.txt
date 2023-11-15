@@ -1,11 +1,10 @@
-^^ ASSIGNMENT - Make (and embed) a Pear Deck
+^^ LAB - Make a Pear Deck
 
-<img src="https://images.squarespace-cdn.com/content/v1/5a5031001f318dd30f2083e1/527e29ec-5bb5-4250-8f98-a8cc543a7085/1586369904577.jpg" alt="Pear Deck logo" width="85%" style="margin:0px 10px 0px 20px;max-width:400px; float:right;" />
+<center><img src="https://images.squarespace-cdn.com/content/v1/5a5031001f318dd30f2083e1/527e29ec-5bb5-4250-8f98-a8cc543a7085/1586369904577.jpg" alt="Pear Deck logo" width="85%" style="margin:0px 10px 0px 20px;max-width:400px;" /></center>
 
 # Description
 I'm not going to tell you what Pear Deck is. You're going to have to figure it out! Your job is to figure out what [Pear Deck (for Google Slides)](https://www.peardeck.com/googleslides) is and design an educational experience for your students using Pear Deck and Google Slides.
 
-# Rationale
 No matter where you wind up working, two things are true about technology:
 
 1. Despite what we cover in this class, you will find that your school uses different technology
@@ -20,9 +19,16 @@ Because of this, you need to be equipped with experience in sense-making new too
 
 * This should be representative of how you want your students and their parents to view the caliber of your work. It should appropriately represent your effort and exude quality.
 
-* Embed your final Pear Deck product into your Google Site (under the "Interactives" tab).
-
-* Leave a link to the Pear Deck for ***Google Slides*** product in Blackboard.
+* Leave a link to the Pear Deck for ***Google Slides*** product in Brightspace.
 
 * Have fun! This is exciting! You get to learn a new tool and design something you might use when you are in a classroom!
 
+<br />
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
