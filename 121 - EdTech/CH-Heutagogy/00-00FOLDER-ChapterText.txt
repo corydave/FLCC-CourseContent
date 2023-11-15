@@ -1,6 +1,7 @@
-^^ Chapter 5 - Heutagogy, NearPod, & PearDeck
+^^Heutagogy, NearPod, & PearDeck
 
-# Experiences for this chapter
+<img title="A pear, a tablet, a light bulb, and a brain!" alt="A pear, a tablet, a light bulb, and a brain!" src="https://docs.google.com/drawings/d/e/2PACX-1vSWmh0QmnX6KAmo9zQBpdOgkKLPtRVe32bQd8UL-p-1xcTyaqQOFSL4rb_D44D6kN1H1rdNavaYTlVn/pub?w=200&amp;h=200" style="display:none;" />
+
 
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vTGE0HNytTrAnJs9UKlunA6Gpw6HW8-Sd25d7wSYUfNhpCCN0FfzQM2eJikPcUSrWFi361ntPpqCBe0
 /pub?w=240&amp;h=180" alt="An illustration of a networked brain sitting over the icons for Nearpod and Pear Deck." title="An illustration of a networked brain sitting over the icons for Nearpod and Pear Deck." style="float:right;border-radius:25px;margin-right:20px;margin-left:20px;margin-top:-20px;margin-bottom:20px;">
@@ -15,7 +16,7 @@ I am not going to give you much more instruction than that 😁.
 
 <div style="clear:both;">
 
-<iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vQxQU3Z_qJqXJJLdKHi9zJnaPihlqmonB8qf_9jl0f_R9Lp4CSiYqFDk4WN-89tQH2TMQOglJ5KAGWN/pubhtml/sheet?headers=false&amp;gid=1265930329&amp;range=A1:D9'style="width:100%;max-width:720px;height:246px" frameborder="0"></iframe>
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vQxQU3Z_qJqXJJLdKHi9zJnaPihlqmonB8qf_9jl0f_R9Lp4CSiYqFDk4WN-89tQH2TMQOglJ5KAGWN/pubhtml/sheet?headers=false&amp;gid=1265930329&amp;range=B1:D9'style="width:100%;max-width:720px;height:247px" frameborder="0"></iframe></center>	
 
 </div>
 
