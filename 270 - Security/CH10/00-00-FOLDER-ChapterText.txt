@@ -1,0 +1,25 @@
+^^ CHAPTER 10 - The Law
+
+<div style="text-align: center; display: none;"><img style="width: 100%;" src="https://docs.google.com/drawings/d/e/2PACX-1vSk67pbOj9aGT63Z_xEfHmx9Q705hKxyQl8Iway-Nds2ztoTLfD2KEc0fWdle_t7ijUeCPa-96LoZFJ/pub?w=907&amp;h=385" alt="A flowchart with a locked padlock in the START position." title="A flowchart with a locked padlock in the START position."></div>
+
+For a long time, there were very few laws that regulated cybercrime. In fact, the most influential law governing computers was written in 1986 - almost a decade before widespread internet adoption! That was the Computer Fraud and Abuse Act. We'll be looking at organizations, laws, and thought-leaders in the industry. And how that landscape is rapidly changing.
+
+# Schedule 
+
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vRxgRdNoBTaBuxf7fCDreea8kokhcOtQyD6erWSyiW4tB-KbR6EfTP9wUy9QJ-2cd14rlyzUPEx5zFB/pubhtml/sheet?headers=false&amp;gid=1792781858&amp;range=B1:D10'style="width:100%;max-width:720px;height:268px" frameborder="0"></iframe></center>	
+
+# Outcomes
+
+<details>
+<summary>Click to reveal outcomes</summary>
+
+* Understand different organizations in the cyberlaw space
+* Understand big picture federal laws in the United States
+* Understand high profile state level laws (and some international laws)
+* Know famous hackers and other thought leaders in the space
+* Know current legislation efforts and landmark cases
+* Develop guidelines for preventing social engineering attacks.
+
+</details>
+
+<br /><br />
