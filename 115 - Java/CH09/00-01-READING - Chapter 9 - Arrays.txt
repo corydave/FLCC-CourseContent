@@ -1,0 +1,40 @@
+^^ READING - Chapter 9 - Arrays
+
+The reading for this chapter is [Chapter 9 - Arrays](https://docs.google.com/document/d/12Mb6XFR26TXlqP_No8FVszjdAfOuCW476_7O5f3SEwA/). This is the last unit of basic Java fundamentals - we will be looking at *arrays*. An array is one variable that can hold multiple values. You, as the programmer, can access each individual value whenever you want. 
+
+Here's a simple code segment that shows how arrays are created, how values are stored in each *element* of the array, and how to see the value stored in each *element* of the array. Don't worry if it doesn't make sense to you now - that is what the reading is for! But making a prediction always helps!
+
+
+```java
+
+int[] testScores = new int[3];
+
+System.out.println("Enter score 1:");
+testScores[0] = scanner.nextInt();
+
+System.out.println("Enter score 2:");
+testScores[1] = scanner.nextInt();
+
+System.out.println("Enter score 3:");
+testScores[2] = scanner.nextInt();
+
+```
+
+This code will *load* values into the array. Now, if we want to output them, the best way to do that is a loop:
+
+```java
+
+for (int i = 0; i < testScores.size; i++) { 
+  System.out.println("Score 1 = " + testScores[i]);
+}
+
+
+```
+
+
+
+<br /><br />
+
+<div style="clear:both;"></div>
+
+<center><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/12Mb6XFR26TXlqP_No8FVszjdAfOuCW476_7O5f3SEwA/copy" target="_blank"><span style="background-color:#1e90ff;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Copy Google Doc</span></a><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/12Mb6XFR26TXlqP_No8FVszjdAfOuCW476_7O5f3SEwA/export?format=doc" target="_blank"><span style="background-color:#357EC7;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Download Word</span></a><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/12Mb6XFR26TXlqP_No8FVszjdAfOuCW476_7O5f3SEwA/export?format=pdf" target="_blank"><span style="background-color:#F40F02;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Download PDF</span></a><br /><br /><iframe src="https://docs.google.com/document/d/12Mb6XFR26TXlqP_No8FVszjdAfOuCW476_7O5f3SEwA/preview" height="1000" width="800" frameborder="0" style="width: 100%; max-width: 800px;"></iframe></center>
