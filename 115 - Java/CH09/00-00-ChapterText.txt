@@ -1,8 +1,6 @@
+^^ CHAPTER 9 - Arrays
+
 <p><img src="https://docs.google.com/drawings/d/e/2PACX-1vTQtqiKuhQWXp7_XH9FH-4pxKpTXjrgi_6R42M0MweCIvn2KUeoQXL-d2PvIq_nsTnwAvJiT0kt5y7w/pub?w=900&amp;h=380" style="display: none; max-width: 100%;" alt="An illustration of the concept of an array in Java. It’s just a bunch of squares in a line. Each square holds an integer." title="An illustration of the concept of an array in Java. It’s just a bunch of squares in a line. Each square holds an integer." width="0" height="0"></p>
-
-^^ Arrays
-
-# Description
 
 When you're programming and you find that you need to have a whole bunch of variables with the same name except maybe the numbers at the end of each one (like `grade01`, `grade02`, `grade03`,... `grade50`) - you need an *array*.
 
