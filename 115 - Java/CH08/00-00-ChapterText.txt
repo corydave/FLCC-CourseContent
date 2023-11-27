@@ -1,4 +1,4 @@
-^^ Loops
+^^ CHAPTER 8 - Loops
 
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vR3ve-gyWx1mT3kKQig2ipg26bawy6tMr808oAsBdH4dbUUegXgKNm3FnB5njlVdrRuNdMnGZ0rrjMQ/pub?w=900&amp;h=380" style="display: none; max-width: 100%;" alt="An icon of a loop - a circle with an arrow that leads back into the same circle - like a snake biting its tail." title="An icon of a loop - a circle with an arrow that leads back into the same circle - like a snake biting its tail." width="0" height="0">
 
