@@ -25,4 +25,4 @@ Since this is our first chapter with Python, there are still some things to get 
 
 # Experiences for this chapter
 
-<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vSOhM7OqlrMOHdc48h9j67Qlaa4itEbuYv848PrCh_NY-Wqr_x3osK_tLvmyRGeVArn99cw3PEqLshG/pubhtml/sheet?headers=false&amp;gid=0&amp;range=B1:D14'style="width:100%;max-width:720px;height:351px" frameborder="0"></iframe></center>
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vSOhM7OqlrMOHdc48h9j67Qlaa4itEbuYv848PrCh_NY-Wqr_x3osK_tLvmyRGeVArn99cw3PEqLshG/pubhtml/sheet?headers=false&amp;gid=0&amp;range=B2:D14'style="width:100%;max-width:720px;height:352px" frameborder="0"></iframe></center>
