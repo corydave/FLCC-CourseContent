@@ -2,4 +2,6 @@
 
 David Sanger's book, The Perfect Weapon, is a phenomenal interrogation of cybersecurity. HBO has made a documentary (1 hour, 25 minutes) that is available October 17, 2020 that follows the cases in the book:
 
+<br />
+
 ^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/eeLHlOUNOmY?si=Fmv2npr2TaGd8bEt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius:15px !important;"></iframe>
