@@ -7,3 +7,17 @@ Web scraping is a term used to describe the act of having a program (or a "bot")
 For instance, maybe someone might want to write a Python script to check out the number of PlayStation 5 units in stock at a local store. Or to find the price of items on different web pages.
 
 There are plenty of countermeasures websites can employ to deter bots, too. In this chapter we'll broadly look at different tools used to scrape websites.
+
+# Prediction
+
+^=^ ,,,, 12
+
+<br />
+
+In HTML, can you guess what a *class* is? What about an *id*? Hint: In HTML, many things can be of the same class but only **one** thing can have a unique ID.
+
+^=
+
+# Experiences for this chapter
+
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vSOhM7OqlrMOHdc48h9j67Qlaa4itEbuYv848PrCh_NY-Wqr_x3osK_tLvmyRGeVArn99cw3PEqLshG/pubhtml/sheet?headers=false&amp;gid=614048328&amp;range=B2:D7'style="width:100%;max-width:720px;height:205px" frameborder="0"></iframe></center>
