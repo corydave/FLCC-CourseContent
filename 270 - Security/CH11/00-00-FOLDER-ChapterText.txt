@@ -1,0 +1,25 @@
+^^ CHAPTER 11 - InfoSec Report
+
+<div style="text-align: center; display: none;"><img style="width: 100%;" src="https://docs.google.com/drawings/d/e/2PACX-1vTBVHrf1a9caIT38yCA9gMWyDbNUBSc-V4EkoF_WwWK1cICXUuEdvcbPwYO5HDdGBLnF_O2y79fV-mV/pub?w=907&amp;h=385" alt="Icons of a shield and a technical report." title="Icons of a shield and a technical report."></div>
+
+There is a book called The Perfect Weapon: War, Sabotage, and Fear in the Cyber Age. Every chapter chronicles (in painstakingly accurate details) a major cybersecurity breach (including Olympic Games, Stuxnet, and the DNC Email Hack). The book is both a technical and geo-political examination of how devastating these hacks are. You are certainly not responsible for reading this book (but it's a solid read and after this class you will hopefully want to read about just how insidious--and maybe avoidable--these attacks were.
+
+For this assignment, you will be writing a chapter for a similar book! We will all pick a hack, research it, and write a paper. We'll have to be careful with citations, make sure we do a solid job writing, and even edit each others work. By the end of the semester, we'll have a book that is made up of all the papers we have written. It will be available for download for you and all your loved ones. It will also make a great birthday present for people you care about. If you have any questions, let me know!
+
+# Schedule 
+
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vRxgRdNoBTaBuxf7fCDreea8kokhcOtQyD6erWSyiW4tB-KbR6EfTP9wUy9QJ-2cd14rlyzUPEx5zFB/pubhtml/sheet?headers=false&amp;gid=971362858&amp;range=B1:D7'style="width:100%;max-width:720px;height:205px" frameborder="0"></iframe></center>			
+
+# Outcomes
+
+<details>
+<summary>Click to reveal outcomes</summary>
+
+* Furnish examples that demonstrate cybersecurity practices constantly need improvement
+* Provide examples protecting yourself in a digital environment
+* Provide recommendations for staying safe
+* Describe (and debrief) a noteworthy hack or breach
+
+</details>
+
+<br /><br />
