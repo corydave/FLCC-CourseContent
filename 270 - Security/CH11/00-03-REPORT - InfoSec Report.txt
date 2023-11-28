@@ -1,0 +1,40 @@
+^^ REPORT - InfoSec Report
+
+<div style="float: right;"><img style="margin: 0pt 0pt 10pt 10pt; float: left;" alt="An icon of a well-constructed, well-researched report." src="https://docs.google.com/drawings/d/e/2PACX-1vQViH8Uf2WGLuM_WqB_QiB-tPeV1_uweFbESbJwGRTJIG1O3Swapz6T1WCFdRbIEAmSKuLcNyPPqWlL/pub?w=200&amp;h=200"></div>
+
+Find a recent information security event and research it!
+
+Sharpen up your storytelling skills! You will need to have facts about the event you are talking about, as well as a summary that informs the reader of how it could have been prevented. Oftentimes, there are several indicators that were ignored (phishing along with a RAT and maybe weak passwords).
+
+You can be very conversational during your report, but don't be colloquial. This means that you can write your report as if you're telling a story, but don't use filler words or phrases to pad your writing. For instance, "As we all know, cybersecurity is an issue in today's world." That phrase does nothing to advance the story and just takes up space.&nbsp;
+
+Here's another way to consider the assignment - you and I share an affinity for all the cool cybersecurity&nbsp;things. We think it's cool that social engineering happens, and we can appreciate the need for hashing passwords and the occasional salt. But not everyone does. Jack Rhysider&nbsp;does a really good job translating the mundane and technical parts of cybersecurity&nbsp;into gripping tales that anyone can listen to. Think of this as your opportunity to do the same. Sure, he injects his commentary in there, but you can, too! Just make sure your commentary accentuates the story. If you're feeling loquacious, feel free to go over the requisite three pages.
+
+One&nbsp;critical part of this assignment -&nbsp;you must debrief the event. When you are done with reporting the facts of the event and the resolution, you need to identify the weak points. Help the reader understand the vulnerabilities were and how they could have been avoided.
+
+Remember, this assignment is really a chance to demonstrate what we've covered this semester; it will be compiled into a book and made available to anyone who wants it. If you require proofreading or help authoring, make sure you work with the [Write Place (you can set up appointments)](https://www.flcc.edu/offices/writingcenter/).
+
+I can't wait to read your work!
+
+# Specifications
+
+* You MUST submit a Google Doc for this assignment (MS Word and PDF files are not accepted)
+
+* You may NOT use AI to aid in your writing.
+
+* At least two full pages double-spaced
+
+* 12 point Arial or Times New Roman
+
+* No need for APA or MLA citations - instead, in your report highlight the text you are citing and make it a hyperlink to the source
+  * You may also use footnotes as modeled in the readings (CONTROL + ALT + F in Google Docs)
+
+* Use credible sources. [Wikipedia](https://www.wikipedia.org/) is permissible but should not be the majority of your research. [Wired](https://www.wired.com/), [ThreatPost](https://threatpost.com/), [The Verge](https://www.theverge.com/), [TechCrunch](https://techcrunch.com/), [DarkReading](https://www.darkreading.com/), [The Wall Street Journal](https://www.wsj.com/), and [The New York Times](https://www.wsj.com/) are good sources, but you may use other credible sources too.
+
+^callout external-link-alt
+
+<br />
+
+Submit your work here.
+
+^callout-end
