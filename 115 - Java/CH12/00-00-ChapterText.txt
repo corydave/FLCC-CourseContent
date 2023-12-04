@@ -1,3 +1,29 @@
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vROn0vXo-8pCISbRqoguh5X2HAM1cYo7Pl77KPn7oioqFL_H4GpE4mYbf6icISKB8AQJJvX9AtZUOW_/pub?w=900&amp;h=380" style="display: none; max-width: 100%;" alt="The word FINAL." title="The word FINAL." width="0" height="0">
 
 ^^ Final Exam
+
+This exam is open book. That means the following resources are available to you:
+
+* The textbook for this class (either the hardcopy or an online copy)
+* The content from Brightspace
+* My GitHub account with all code samples
+* Your IDE with software you've created
+* Any notes you've taken this semester
+
+<br />
+
+Additionally, you are permitted to use an IDE to run code snippets.
+
+<br />
+
+Sources that are off-limits include:
+
+* StackOverflow (or any other similar site)
+* Chegg, CourseHero, and other sites that make answers to exams accessible
+* AI tools such as ChatGPT or CoPilot
+
+<br />
+
+---
+
+If you have any questions, please let me know! Good luck!
