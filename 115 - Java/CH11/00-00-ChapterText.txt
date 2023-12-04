@@ -10,7 +10,11 @@ This exam is open book. That means the following resources are available to you:
 * Your IDE with software you've created
 * Any notes you've taken this semester
 
+<br />
+
 Additionally, you are permitted to use an IDE to run code snippets.
+
+<br />
 
 Sources that are off-limits include:
 
@@ -18,4 +22,8 @@ Sources that are off-limits include:
 * Chegg, CourseHero, and other sites that make answers to exams accessible
 * AI tools such as ChatGPT or CoPilot
 
-If you have any questions, please let me know!
+<br />
+
+---
+
+If you have any questions, please let me know! Good luck!
