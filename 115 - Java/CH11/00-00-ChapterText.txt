@@ -1,3 +1,21 @@
 <p><img src="https://docs.google.com/drawings/d/e/2PACX-1vRQPFsFcfHl8JhcOIMNZWn5qnpn6GVA62lV0eeUUlzq-w_uI_dD-eSXT9vwbOkdGfHq4Wx_6XOD5At3/pub?w=900&amp;h=380" style="display: none; max-width: 100%;" alt="The words PRACTICE FINAL." title="The words PRACTICE FINAL." width="0" height="0"></p>
 
 ^^ Practice Final
+
+This exam is open book. That means the following resources are available to you:
+
+* The textbook for this class (either the hardcopy or an online copy)
+* The content from Brightspace
+* My GitHub account with all code samples
+* Your IDE with software you've created
+* Any notes you've taken this semester
+
+Additionally, you are permitted to use an IDE to run code snippets.
+
+Sources that are off-limits include:
+
+* StackOverflow (or any other similar site)
+* Chegg, CourseHero, and other sites that make answers to exams accessible
+* AI tools such as ChatGPT or CoPilot
+
+If you have any questions, please let me know!
