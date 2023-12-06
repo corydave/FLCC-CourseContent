@@ -18,7 +18,6 @@ Additionally, you are permitted to use an IDE to run code snippets.
 
 Sources that are off-limits include:
 
-* StackOverflow (or any other similar site)
 * Chegg, CourseHero, and other sites that make answers to exams accessible
 * AI tools such as ChatGPT or CoPilot
 
