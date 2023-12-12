@@ -1,7 +1,13 @@
-^^ Final Project
+^^ Final Stuff
 
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vSZcKbz-SlMJHT3QSN7xB42MBqKPIXgCz9jZbVqNtvd0xy84xikA1wnGxCBAuPZBDjhhS9ak8EoIXSR/pub?w=907&amp;h=385" alt="A computer screen with the words FINAL PROJECT across it." title="A computer screen with the words FINAL PROJECT across it." style="display:none;" />
 
-This semester we looked at variables, conditionals, loops, and lists. The beginning of the class explored a game called **Pennywise** that was able to be programmed using these constructs.
+This semester we will not do a final project. If you've made it this far, you've pretty much apprehended the concepts you need to.
 
-Your mission is to create a program that embodies all those topics.
+Instead, I'd like to ask you to do two things.
+* Please help me make review questions for future students
+* Please fill out an anonymous survey about this class
+
+## Experiences for this chapter
+
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vSOhM7OqlrMOHdc48h9j67Qlaa4itEbuYv848PrCh_NY-Wqr_x3osK_tLvmyRGeVArn99cw3PEqLshG/pubhtml/sheet?headers=false&amp;gid=1761213870&amp;range=B2:D6'style="width:100%;max-width:720px;height:184px" frameborder="0"></iframe></center>
