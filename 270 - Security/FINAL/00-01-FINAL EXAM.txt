@@ -22,7 +22,7 @@ You did it! It's the end of the semester! This final exam will be open from now 
 
 <br />
 
-Click here to take the final exam
+Click here to take the final exam.
 
 ^callout-end
 
