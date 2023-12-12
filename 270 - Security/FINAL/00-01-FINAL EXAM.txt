@@ -1,0 +1,29 @@
+^^ FINAL EXAM
+
+You did it! It's the end of the semester! This final exam will be open from now until noon on the last day of the semester. There is no opportunity to submit this exam after that time.
+
+* The final exam closes December 17 at 12:00 PM (noon).
+
+* You may take this exam up to three (3) times. The highest score will be counted.
+
+* There are 100 questions and the format accurately reflects the quizzes you've taken in this course.
+
+* There is no time limit.
+
+* This exam is open book, though you may not consult other people.
+
+* Good luck!
+
+* This message will self-destruct in five seconds.
+
+* JK. No self-destruction.
+
+^callout external-link-alt
+
+<br />
+
+Click here to take the final exam
+
+^callout-end
+
+## Let's be careful out there!
