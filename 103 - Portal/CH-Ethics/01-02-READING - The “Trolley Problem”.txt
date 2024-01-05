@@ -1,0 +1,13 @@
+^^ READING - The “Trolley Problem”
+
+You will be considering different self-driving scenarios in the Moral Machine by MIT in the next lab. It is based on a thought experiment you might be familiar with known as [*The Trolley Problem*](https://en.wikipedia.org/wiki/Trolley_problem). However, some philosophers think that our current advancements in self-driving cars require a rethink of the traditional Trolley Problem. 
+
+If you are interested, you can read [The “Trolley Problem” Doesn’t Work for Self-Driving Cars ](https://spectrum.ieee.org/av-trolley-problem) in Spectrum, the trade magazine from the Institute of Electrical and Electronics Engineers. 
+
+If you *really want a wild ride*, give the podcast episode of RadioLab ([Driverless Dilemma](https://radiolab.org/podcast/driverless-dilemma-0923)) a listen.
+
+<center>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/11juv6mCSdgWGfmRV12cta?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+</center>
