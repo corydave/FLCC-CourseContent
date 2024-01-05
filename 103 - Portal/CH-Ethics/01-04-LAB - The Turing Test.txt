@@ -2,9 +2,28 @@
 
 # Description
 
-In this activity, we will explore human-generated and AI-generated content. Then we will consider and discuss how we feel about AI-generated work and the potential impacts of AI on our society. 
+In this activity, we will explore human-generated and AI-generated content. Then we will consider and discuss how we feel about AI-generated work and the potential impacts of AI on our society.
 
-1. [Take this version of Turing Test](https://daveghidiu.com/103/turingTest.html) - it is also embedded below.
+In 1950, Alan Turing proposed a test:
+
+^=^ ,,,,
+
+<br />
+
+*The Turing test... is a test of a machine's ability to exhibit intelligent behaviour equivalent to, or indistinguishable from, that of a human. Turing proposed that a human evaluator would judge natural language conversations between a human and a machine designed to generate human-like responses. The evaluator would be aware that one of the two partners in conversation was a machine, and all participants would be separated from one another. The conversation would be limited to a text-only channel, such as a computer keyboard and screen, so the result would not depend on the machine's ability to render words as speech. If the evaluator could not reliably tell the machine from the human, the machine would be said to have passed the test. The test results would not depend on the machine's ability to give correct answers to questions, only on how closely its answers resembled those a human would give.*
+
+<center>
+
+[Turing Test](https://en.wikipedia.org/wiki/Turing_test)
+
+</center>
+
+^=
+
+<br />
+
+
+1. [Take this version of Turing Test](https://daveghidiu.com/103/turingTest.html)  that the FLCC Computing Sciences department created with a tool called [Twine](https://twinery.org/) - it is also embedded below.
 
 2. When you finish, you will be presented with a final result. Please take a screenshot that shows your name and how you did.
 
