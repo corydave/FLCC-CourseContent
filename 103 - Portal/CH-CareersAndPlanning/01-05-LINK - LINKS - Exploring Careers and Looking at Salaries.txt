@@ -1,5 +1,6 @@
 ^^ LINK - Roadtrip Nation
 
+
 [Roadtrip Nation](https://roadtripnation.com/) is a great resource where you can explore careers and pathways. There are interviews with people in  industry, a course you can take, and other cool tools to help you find a desirable career.
 
 Of particular note is the [Roadmap tool](https://roadtripnation.com/roadmap) - in under thirty seconds you can narrow down some pathways that may not be on your radar.
