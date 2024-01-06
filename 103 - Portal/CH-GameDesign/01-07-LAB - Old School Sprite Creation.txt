@@ -27,6 +27,10 @@ To make your own sprite in the Google Sheet, simply put an "X" in a cell. That c
 
 * This must be submitted as a cloud-based document and be shared such that ["Anyone with the link can COMMENT"](https://www.youtube.com/watch?v=jFGXfLDctcI).
 
+# Examples
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vTM_cpu3jDPUMbTP46-QQCg6A8pfNZ4w7KL1a1nkWBqNDBecLXaGc2IBIZZzX3PZd-vNTLSD9VgBfvw/pub?w=2071&amp;h=394" alt="Examples of Old School Sprites" title="Examples of Old School Sprites">
+
 
 ^callout external-link-alt
 
