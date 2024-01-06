@@ -28,7 +28,7 @@ You can get a [copy of the Problem Set here](https://docs.google.com/document/d/
 <center><b>HARD [Pick one]</b></center><br />
 
 * Widget Durability
-* Dr. Frankenstein's Switch
+* A Mean Computer Science Teacher
 * Poisoned Bug Juice
 
 ^=
