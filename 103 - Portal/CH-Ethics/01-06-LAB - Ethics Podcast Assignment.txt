@@ -37,11 +37,13 @@ If you choose this podcast, you'll need to listen to both of the episodes (they 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/2duuX8yyPSzmDYIxstcWqP?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 
-^^^ Flash Forward: Choose Your Own Adventure
+^^^ Flash Forward: Choose Your Own Adventure  [Made with Twine!]
 
 *The gist is simple: Welcome to Vanguard Estates is a choose your own path story. Each episode has a number, and a short title, and at the end of every episode you’ll be presented with a choice. All you have to do is follow the numbers, or titles, whichever works best for your brain, and you’ll be on your way.*
 
-This is a Choose-Your-Own-Adventure-Type experience. You start at episode one, and at the end you are given a decision to make; the choice you make will bring you to another mini-episode. 
+This is a Choose-Your-Own-Adventure-Type experience. You start at episode one, and at the end you are given a decision to make; the choice you make will bring you to another mini-episode.
+
+As an alternative to the podcast, you can go through a text-based "choose your own adventure" version of the podcast. This was written in [Twine](https://twinery.org/) - software we look at in the Game Design chapter!
 
 * This is a *really* good, thought-provoking experience.
 * Roughly 30 minutes to explore one path
