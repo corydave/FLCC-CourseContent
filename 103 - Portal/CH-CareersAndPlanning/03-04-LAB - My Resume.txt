@@ -18,6 +18,8 @@ The intent of this exercise is to:
 
 * Submit a link to a cloud-based document such as Google Docs or Canva or VisualCV.
 
+* If you have an existing resume, you may use that. But make sure that it is updated to be accurate *and* to leverage a cool, modern layout
+
 * Verify that the document is shared such that ["Anyone with the link can COMMENT"](https://www.youtube.com/watch?v=jFGXfLDctcI).
 
 ^callout external-link-alt
