@@ -13,8 +13,7 @@ For this discussion assignment, **first read the details and instructions in the
 
 ## AI Show and Tell
 
-1. Choose **one** of the five listed AI **use cases**. 
-    - Note: If there are already 3 people that posted a thread about images, please choose a chat bot use case
+1. Choose **one** of the four listed AI **use cases**. 
 2. Use the links below to visit an AI system website to create a free or trial account and log in.
 3. Try a starter prompt suggested by your chosen use case
     - You don't have to use the examples. It's more fun to try your own.
@@ -23,7 +22,7 @@ For this discussion assignment, **first read the details and instructions in the
 5. **Go to the discussion, and create a post** to paste your experience into (the prompts and the results) so everyone can see it and discuss it.
 6. **Reply to two other posts from an ethical standpoint**: What are the potential benefits? What are the potential drawbacks? What should we be concerned about? What are the ethical considerations?
 
-^= = ,
+^=^ ,
 
 ###### Chat Bots
 
@@ -31,13 +30,6 @@ For this discussion assignment, **first read the details and instructions in the
 - [ChatSonic](https://writesonic.com/chat?via=devinder14)
 - [Character AI](https://beta.character.ai/)
 
-^=== ,
-
-###### Image AI
-
-- [Stable Diffusion](https://stablediffusionweb.com/)
-- [DALL-E2](https://openai.com/product/dall-e-2)
-- [Midjourney](https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F)
 
 ^=
 
@@ -71,11 +63,7 @@ For this discussion assignment, **first read the details and instructions in the
 - Prompt: Rewrite this such that it has the same tone and fix any mistakes: `[TEXT]`
 - [Text Samples are on this linked page](https://docs.google.com/document/d/1ZuxjSxNa9LqPmhREDkCtXInKSDQb9Og4ZAHRyIBBJTg/edit?usp=sharing)
 
-^^^ Use Case: Image Creation
 
-- Use an image AI system instead of a chat bot.
-- Use the software’s prompt database and/or tutorials for 
-example prompts
 
 ^acc-end
 
