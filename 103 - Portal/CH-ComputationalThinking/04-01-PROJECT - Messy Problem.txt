@@ -25,19 +25,9 @@ You can get a [copy of the Problem Set here](https://docs.google.com/document/d/
 
 # Problem Assignments
 
-
-
-
-
-
 <!--NAMES AND PROBLEM ASSIGNMENTS HERE-->
 
-^=^ ,,,, 12
-
-Look up your name and which problem you are assigned here.
-
-^=
-
+<center><iframe src="https://docs.google.com/spreadsheets/d/e/2PACX/pubhtml/sheet?headers=false&amp;gid=744450278&amp;range=E1:G40" style="width: 100%; max-width: 470px; height: 500px;" frameborder="0" scrolling="no"></iframe></center>
 
 <br />
 
@@ -59,6 +49,12 @@ Look up your name and which problem you are assigned here.
 * Any information you research should be cited. Hyperlinks are fine.
 
 * This must be submitted as a cloud-based document and be shared such that ["Anyone with the link can COMMENT"](https://www.youtube.com/watch?v=jFGXfLDctcI).
+
+<br />
+
+# Examples
+
+<center><iframe src="https://docs.google.com/drawings/d/10Gsp54QnHWg2mbDBgJAXmZSZyKpjcxMQuC-JI6Xa4jU/preview" width="793" height="365" title="Three thumbnails of Messy Problem solutions." frameborder="0" longdesc="Three thumbnails of Messy Problem solutions." style="border:4px solid #781346; border-radius: 15px !important; padding: 7px;"></iframe></center>
 
 <br />
 
