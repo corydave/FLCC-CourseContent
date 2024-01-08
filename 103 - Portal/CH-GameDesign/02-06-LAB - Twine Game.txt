@@ -23,11 +23,11 @@ Make a sweet game. Make sure it has:
 
 ^^^ STEP #3 - Export the game
 
-Export as an HTML file by going to "Publish to File", then convert to a `.zip` file (see instructions below)
+Export as an HTML file by going to "Build → Publish to File", then convert to a `.zip` file (see instructions below)
 
 ^^^ STEP #4 - Submit the game
 
-Submit `.zip` file here in Blackboard
+Submit `.zip` file in Brightspace
 
 ^acc-end
 
@@ -35,20 +35,64 @@ Submit `.zip` file here in Blackboard
 
 # RESOURCES
 
-^tabs Tutorial, Images & Video, Variables, Prompts, Navigation
+^tabs Tutorial, Navigation, Images & Media, Variables, Prompts
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/ABC?si=xsusuAlvvwi0LEPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 15px !important;"></iframe>
+
+<br />
+
+You also might find these resources helpful:
 
 * [Twinery Wiki](https://twinery.org/wiki/)
 * [Harlowe Manual](https://twine2.neocities.org/)
 * [Writing Interactive Fiction in Six Steps](https://www.dashjump.com/blog/writing-interactive-fiction-six-steps/)
 * [YouTube video tutorials](https://www.youtube.com/playlist?list=PLlXuD3kyVEr5tlic4SRe6ZG-R9OyS1T4d)
 
+
 ^tab
 
-* You can include images using the HTML `<img>` tag:
+* To go from one passage to another, use:
+    * `[[Go East -> Room4]]`
+        * This will display the text "Go East" and will take the user to the passage "Room4" if it is clicked.
+
+^tab
+
+^= =
+
+### Images
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/ABC?si=xsusuAlvvwi0LEPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 15px !important;"></iframe>
+
+
 ```html
 <img src="http://walkerbay.com/wp-content/gallery/8-performance-sail-kit/wb_2466_sail.jpg">
 ```
-* You can include videos by putting in their embed code.
+
+^===
+
+### Video
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/ABC?si=xsusuAlvvwi0LEPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 15px !important;"></iframe>
+
+```html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ib8fl7KrUC4?si=wn5F5QWdN08doxPG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+```
+
+^=
+
+### Audio
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/ABC?si=xsusuAlvvwi0LEPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 15px !important;"></iframe>
+
+```html
+<audio src="https://drive.google.com/uc?export=download&id=1lNDtbTLrFsYrV82H_Ux33aOst1FPfpQh" autoplay>
+```
+
+<center>or</center>
+
+```html
+<iframe width="10" height="10" src="https://www.youtube.com/embed/5tWAtI5Jqp4?&autoplay=1"frameborder="0" allowfullscreen></iframe>
+```
 
 ^tab
 
@@ -64,12 +108,6 @@ Submit `.zip` file here in Blackboard
 * If you want to ask the user for a piece of information (and then use it later on), the easiest way to do that is using the “prompt” command.
 * In the following example, this line of code will both prompt a user for their name and then also set the value to `$name`:
     * `(set: $name to (prompt: "Your name, please:", ""))`
-
-^tab
-
-* To go from one passage to another, use:
-    * `[[Go East -> Room4]]`
-        * This will display the text "Go East" and will take the user to the passage "Room4" if it is clicked.
 
 ^tabs-end
 
@@ -95,9 +133,9 @@ https://twinery.org/wiki/
 
 # Specifications
 
-* Your program must make use of variables that are evident (they change value and are visible in different areas)
+* Be sure to look at the rubric for a list of detailed requirements.
 
-* To submit your assignment, select "Publish to File" from the lower left menu. Find the HTML file, right-click on it and select Send to --> Compressed (zipped) folder. Submit the `.zip` file to Blackboard.
+* To submit your assignment, go to the "Build" menu and choose "Publish to File" Find the HTML file, right-click on it and select Send to → Compressed (zipped) folder. Submit the `.zip` file.
 
 
 ^callout external-link-alt
@@ -107,5 +145,3 @@ https://twinery.org/wiki/
 Click here to submit your work.
 
 ^callout-end
-
-
