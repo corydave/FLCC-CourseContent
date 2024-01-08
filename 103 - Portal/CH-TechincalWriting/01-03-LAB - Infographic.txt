@@ -65,6 +65,10 @@ Check out the following submissions from previous students for ideas!
 
 <br />
 
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/ABC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:15px !important;"></iframe>
+
+<br />
+
 ^callout external-link-alt
 
 <br />
