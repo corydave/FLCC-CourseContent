@@ -25,7 +25,9 @@ If none of my posted times work, please email me and we can find a common time.
 
 # Specifications
 
-* After you set up an appointment in Starfish, put the date and time in the submission for this assignment. Please make sure you show up to the meeting though (otherwise you'll get a zero for the assignment and nobody wants that!).
+* After you set up an appointment in Starfish, **put the date and time in the submission for this assignment**. Please make sure you show up to the meeting though (otherwise you'll get a zero for the assignment and nobody wants that!).
+
+* I totally recognize that my Student Time (Office Hours) might not work well for you. If that's the case, email me and we can set something up! I'm *always* willing to meet early morning, in the evenings, or on the weekends. We'll make something work!
 
 * You should get a confirmation from Starfish after you schedule a time. The link should be in the confirmation, but if if is not, the link is: https://meet.google.com/jht-foar-vrb.
 
