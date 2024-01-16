@@ -1,4 +1,4 @@
-^^ LAB - `convertCF01`
+^^ LAB - `convert_C_to_F_01`
 
 
 ## DESCRIPTION
@@ -9,9 +9,9 @@ Write a program that will get a whole number from the user that represents a tem
 
 * Starter code has been provided for this lab.
 
-* The filename for this program is `convertCF01.py`
+* The filename for this program is `convert_C_to_F_01.py`
 
-* Complete the `convertCF()` method to compute and output the converted temperature as shown below.
+* Complete the `convert_C_to_F()` method to compute and output the converted temperature as shown below.
 
 * Add comments with your name, date, and program description at the top!
 
@@ -43,40 +43,9 @@ You may use the following code as starter code. You will need to change the comm
 
 ^callout file-download
 
-[`convertCF01.py`](https://drive.google.com/uc?export=download&id=1HHiZPWikhyMyLAMtguCU1t4UGKo8WPk-)
+[`convert_C_to_F_01.py`](https://drive.google.com/uc?export=download&id=1HHiZPWikhyMyLAMtguCU1t4UGKo8WPk-)
 
 Download this file and load it into your IDE.
-
-^callout-end
-
-^callout code
-
-```python ^copy
-
-# FILE NAME - convertCF01.py
-
-# NAME - 
-# DATE - 
-# DESCRIPTION - 
-
-def main():
-    convertCF()
-
-def convertCF():
-    
-    # Don't forget to cast as a float!
-
-    ####### ENTER YER CODE HERE #######
-
-    
-
-    
-    ###################################
-
-main()
-```
-
-
 
 ^callout-end
 
