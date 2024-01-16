@@ -1,4 +1,4 @@
-^^ LAB - `inchesToFeet`
+^^ LAB - `inches_to_feet`
 
 ## DESCRIPTION
 
@@ -8,9 +8,9 @@ Write a program that will ask the user for a number of total inches. Then conver
 
 * Starter code has been provided for this lab.
 
-* The filename for this program is `InchesToFeet.py`
+* The filename for this program is `inches_to_feet.py`
 
-* Complete the method `convert()` to compute and output the converted feet and inches as shown below.
+* Complete the function called `convert()` to compute and output the converted feet and inches as shown below.
 
 * Add a comment with your name, date, and program description at the top!
 
@@ -36,45 +36,9 @@ You may use the following code as starter code. You will need to change the comm
 
 ^callout file-download
 
-[`inchesToFeet.py`](https://drive.google.com/uc?export=download&id=1RhfJc4CPvnRlBJPqp8tY7mGVOKEp1nhV)
+[`inches_to_feet.py`](https://drive.google.com/uc?export=download&id=1RhfJc4CPvnRlBJPqp8tY7mGVOKEp1nhV)
 
 Download this file and load it into your IDE.
-
-^callout-end
-
-^callout code
-
-```python ^copy
-
-# FILE NAME - inchesToFeet.py
-
-# NAME - 
-# DATE - 
-# DESCRIPTION
-
-def main():
-    convert()
-
-def convert():
-
-    # BEWARE! You'll need to cast not only the
-    # input from the user but also maybe the
-    # number of feet
-
-    ####### ENTER YER CODE HERE #######
-
-
-
-    
-    ###################################
-
-main()
-
-
-
-```
-
-
 
 ^callout-end
 
