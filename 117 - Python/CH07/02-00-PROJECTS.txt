@@ -1,1 +1,3 @@
 ^^ PROJECTS
+
+Projects are typically a bit longer than labs. They will draw on a pretty solid understanding of the programming concepts covered in the course. You'll need to plan a bit more than you would for labs. You'll need to think about the design of the program and the flow of the program.
