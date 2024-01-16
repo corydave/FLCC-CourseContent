@@ -1,4 +1,4 @@
-^^ LAB - `triangleArea`
+^^ LAB - `triangle_area`
 
 
 ## DESCRIPTION
@@ -17,7 +17,7 @@ The area of the triangle is 25.0
 
 * Starter code has been provided for this lab.
 
-* The filename for this program is `triangleArea.py`
+* The filename for this program is `triangle_area.py`
 
 * Complete the `findArea()` function. The function should ask for the measure of the height and the base and then output the area.
 
@@ -45,41 +45,12 @@ You may use the following code as starter code. You will need to change the comm
 
 ^callout file-download
 
-[`triangleArea.py`](https://drive.google.com/uc?export=download&id=1X6YqIqOCsjB6DJdwPJ68f8wlVtnyTUqf)
+[`triangle_area.py`](https://drive.google.com/uc?export=download&id=1X6YqIqOCsjB6DJdwPJ68f8wlVtnyTUqf)
 
 Download this file and load it into your IDE.
 
 ^callout-end
 
-^callout code
 
-```python ^copy
-
-# FILE NAME - triangleArea.py
-
-# NAME - 
-# DATE - 
-# DESCRIPTION - 
-
-def main():
-    findArea()
-
-def findArea():
-    
-    ####### ENTER YER CODE HERE #######
-
-
-
-    
-    ###################################
-
-
-
-main()
-```
-
-
-
-^callout-end
 
 <br /><br />
