@@ -48,36 +48,5 @@ Download this file and load it into your IDE.
 
 ^callout-end
 
-^acc
-
-^^^ `glue_name.py`
-
-```python ^copy
-
-# FILE NAME - glue_name.py
-
-# NAME - 
-# DATE - 
-# DESCRIPTION
-
-def main():
-    glue_name()
-
-def glue_name():
-
-    ####### ENTER YER CODE HERE #######
-
-
-
-    
-    ###################################
-
-main()
-
-
-
-```
-
-^acc-end
 
 <br /><br />
