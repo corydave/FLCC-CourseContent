@@ -1,14 +1,14 @@
-^^ LAB - `helloWorld`
+^^ LAB - `hello_world`
 
 
 ## DESCRIPTION
 
-Create an entire `HelloWorld` script that displays the greeting on its own line:
+Create an entire `hello_world` script that displays the greeting on its own line. You will need to write *precisely* one line of Python.
 
 ## SPECIFICATIONS
 
-* File name: `helloWorld.py`
-* Be sure to add your name at the top of your program using comments.  (ie.   `#Jane Smith`  )
+* File name: `hello_world.py`
+* Be sure to add your name at the top of your program using comments.  (ie.   `#Jane Smith`  ).
 * Be sure to output the exact message as shown in the sample output, including letter case and punctuation.
 
 ## SAMPLE OUTPUT
@@ -24,7 +24,7 @@ You may use the following code as starter code. Since this is the first lab, the
 
 ^callout file-download
 
-[`helloWorld.py`](https://drive.google.com/uc?export=download&id=1j44STIDQa7fwzoyJp3YCGJsycgf0wY--)
+[`hello_world.py`](https://drive.google.com/uc?export=download&id=1j44STIDQa7fwzoyJp3YCGJsycgf0wY--)
 
 Download this file and load it into your IDE.
 
@@ -33,9 +33,11 @@ Download this file and load it into your IDE.
 
 ^acc
 
-^^^ `helloWorld.py`
+^^^ `hello_world.py`
 
 ```python ^copy
+
+# FILE NAME: hello_world.py
 
 # NAME: 
 # DATE: 
