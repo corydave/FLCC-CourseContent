@@ -19,7 +19,7 @@ The area of the triangle is 25.0
 
 * The filename for this program is `triangle_area.py`
 
-* Complete the `findArea()` function. The function should ask for the measure of the height and the base and then output the area.
+* Complete the `find_area()` function. The function should ask for the measure of the height and the base and then output the area.
 
 * Add a comment with your name, date, and program description at the top.
 
