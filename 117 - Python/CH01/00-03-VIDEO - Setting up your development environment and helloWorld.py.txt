@@ -1,3 +1,0 @@
-^^ VIDEO - Setting up your development environment and `helloWorld.py`
-
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/_T-hEU_vhXY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
