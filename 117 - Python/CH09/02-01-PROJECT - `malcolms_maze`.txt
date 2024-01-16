@@ -1,4 +1,4 @@
-^^ LAB - `malcolms_maze`
+^^ PROJECT - `malcolms_maze`
 
 ## DESCRIPTION
 
