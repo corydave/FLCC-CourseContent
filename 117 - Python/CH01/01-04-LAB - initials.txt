@@ -47,19 +47,5 @@ Download this file and load it into your IDE.
 
 ^callout-end
 
-^acc
-
-^^^ `initials.py`
-
-```python ^copy
-
-# initials.py
-
-# NAME - 
-# DATE - 
-# DESCRIPTION - 
-
-```
-^acc-end
 
 <br /><br />
