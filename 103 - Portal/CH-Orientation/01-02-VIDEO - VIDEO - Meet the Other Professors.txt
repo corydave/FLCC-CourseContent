@@ -1,0 +1,4 @@
+^^ VIDEO - Meet the Other Professors
+This course, *Computing Sciences Portal*, has been made collaboratively by some of the faculty in the department. It's possible you will see some of the professors in videos in this course. Now is a great time to get to meet them! You are also likely to encounter other faculty in future semesters here at the college.
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/hVC6WQvjloo?si=JVKUONKvxl4Z4I1i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 15px !important;"></iframe>
