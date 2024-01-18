@@ -1,15 +1,19 @@
-^^ Welcome
+<center><img src="https://i.giphy.com/l0MYC0LajbaPoEADu.gif" alt="Dr. Evil saying WELCOME." title="Dr. Evil saying WELCOME." style="width:0px; height:0px;" /></center>
 
-<img src="https://i.giphy.com/l0MYC0LajbaPoEADu.gif" alt="Dr. Evil saying WELCOME." title="Dr. Evil saying WELCOME." style="width:0px; height:0px;" />
+<h1 style="text-align: center;"><span style="color: #1e90ff;"><strong><span style="font-size: 100px; font-family: 'courier new', courier, sans-serif;"><span style="color: #cc6600;">Welcome!</span></span></strong></span></h1>
 
-<center>
+Welcome to Hardware and Operating Systems! The content in this course will prepare you for the CompTIA A+ Hardware exam as well as the CompTIA A+ Operating Systems exam. This class *also* requires you to purchase access to TestOut (you'll hear more about that in the first week of class).
 
-[Link to video](https://www.youtube.com/watch?v=-07h5V2o2xg)
+In the meantime, please look through the course information sheet (syllabus) below for a sneak peek into the course!
 
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/-07h5V2o2xg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius:15px !important;"></iframe>
+
+
+<br /><center>
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/w8HVXTAquLU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 15px !important; border: 0px solid black;"></iframe>
+
 </center>
 
 <br /><br />
 
-<center><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/1y7Yep3XvRVeis8vLK7ZIzHIWuly_sp3juiLBeR6Bd2M/copy" target="_blank"><span style="background-color:#1e90ff;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Copy Google Doc</span></a><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/1y7Yep3XvRVeis8vLK7ZIzHIWuly_sp3juiLBeR6Bd2M/export?format=doc" target="_blank"><span style="background-color:#357EC7;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Download Word</span></a><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/1y7Yep3XvRVeis8vLK7ZIzHIWuly_sp3juiLBeR6Bd2M/export?format=pdf" target="_blank"><span style="background-color:#F40F02;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Download PDF</span></a><br /><br /><iframe src="https://docs.google.com/document/d/1y7Yep3XvRVeis8vLK7ZIzHIWuly_sp3juiLBeR6Bd2M/preview" height="1000" width="800" frameborder="0" style="width: 100%; max-width: 800px;"></iframe></center>
-
+<center><a rel="noopener" style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/1y7Yep3XvRVeis8vLK7ZIzHIWuly_sp3juiLBeR6Bd2M/copy" target="_blank"><span style="background-color: #1e90ff; padding: 10px; width: 200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Copy Google Doc</span></a><a rel="noopener" style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/1y7Yep3XvRVeis8vLK7ZIzHIWuly_sp3juiLBeR6Bd2M/export?format=doc" target="_blank"><span style="background-color: #357ec7; padding: 10px; width: 200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Download Word</span></a><a rel="noopener" style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/1y7Yep3XvRVeis8vLK7ZIzHIWuly_sp3juiLBeR6Bd2M/export?format=pdf" target="_blank"><span style="background-color: #f40f02; padding: 10px; width: 200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Download PDF</span></a><br><br><iframe src="https://docs.google.com/document/d/1y7Yep3XvRVeis8vLK7ZIzHIWuly_sp3juiLBeR6Bd2M/preview" height="1000" width="800" frameborder="0" style="width: 100%; max-width: 800px;"></iframe></center>
