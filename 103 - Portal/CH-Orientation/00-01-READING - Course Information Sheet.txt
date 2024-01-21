@@ -1,8 +1,8 @@
-^^ READING - Course Information Sheet
+^^ READING - Course Outline
 
 # Description
 
-The reading for this chapter is the [Course Information Sheet](https://docs.google.com/document/d/15qPfYHZig5VcsD-jqiE7MNKJTrp0l7DtNYfnkqF-hxk/preview) (also known as the Course Outline or Course Syllabus). Yeah, I know. It's boring. Like, real boring. I tried to jazz it up. It will make you laugh. It will make you cry. It might make you laugh again.
+The reading for this chapter is the [Course Outline](https://docs.google.com/document/d/15qPfYHZig5VcsD-jqiE7MNKJTrp0l7DtNYfnkqF-hxk/preview) (also known as the Course Information Sheet or Course Syllabus). Yeah, I know. It's boring. Like, real boring. I tried to jazz it up. It will make you laugh. It will make you cry. It might make you laugh again.
 
 Here's the big takeaways:
 
@@ -18,7 +18,7 @@ Here's the big takeaways:
 
 # Specifications
 
-* Read the Course Information Sheet (Course Outline, Course Syllabus)
+* Read the Course Outline (Course Information Sheet, Course Syllabus)
 
 * Also watch the orientation video in this chapter; both the reading and the video set the stage for the wonkiness of this class.
 
