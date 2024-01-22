@@ -1,14 +1,14 @@
-^^ LAB - Flipgrid Introduction
+^^ LAB - Flip Introduction
 
 # Description
 
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vRTNaJb0VboC_wek-Q0JZOrznHGQoglyf07GW_J7SiOUgfxszkF3LrvnoHpa_ftZmD3i2nZCaHEu6uO/pub?w=200&h=200" alt="Thumbnail images of people’s faces with their name, a chat bubble, and the word ‘Today’ or ‘Yesterday’ in front of the image." style="margin: 0pt 10pt 10pt 0pt;float:right;"  />
 
-We will be using Flipgrid for this exercise. It's a great way for all of us to get to know each other and does not require you to download an app or create an account.
+We will be using a tool called Flip (used to be Flipgrid) for this exercise. It's a great way for all of us to get to know each other and does not require you to download an app or create an account.
 
 To post an entry, you just need to login with your "student username" and hit record! If you need help, you can [check out this video](https://www.youtube.com/watch?v=tOTBqtcgTLg).
 
-If you can't see the Flipgrid, go directly to the website (https://flipgrid.com/CODECODE) or download the app. Our "Flip Code" is **CODECODE**.
+If you can't see the Flip, go directly to the website (https://flipgrid.com/CODECODE) or download the app. Our "Flip Code" is **CODECODE**.
 
 The assignment is to post a short video where you tell us how to pronounce your name, something awesome about yourself, and where you live. You don't have to share a video if you don't want to (you can just do audio, you can record your screen, or you can upload an image).
 
@@ -18,7 +18,7 @@ Note that the "Student username" in this exercise is actually your first name ma
 
 # Specifications
 
-* After you've added to the Flipgrid, submit the words "I've finished it!" here. Then I'll know to go to Flipgrid and check it out.
+* After you've added to the Flip, submit the words "I've finished it!" here. Then I'll know to go to Flip and check it out.
 
 * ***This assignment cannot be handed in late.***
 
@@ -29,7 +29,7 @@ Note that the "Student username" in this exercise is actually your first name ma
 
 <br />
 
-Once you complete your Flipgrid entry, submit the text *"I've finished it!"* here.
+Once you complete your Flip entry, submit the text *"I've finished it!"* here.
 
 ^callout-end
 
