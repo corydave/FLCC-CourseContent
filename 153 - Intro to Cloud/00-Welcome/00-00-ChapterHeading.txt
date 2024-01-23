@@ -1,5 +1,5 @@
 <center><img src="https://c.tenor.com/RpKXrOa3eOAAAAAC/welcome.gif" alt="An animation of the word 'Welcome'" title="An animation of the word 'Welcome'" style="width:0px;height:0px;display:none;"></center>
-<h1 style="text-align: center;"><span style="color: #964b00;"><strong><span style="font-size: 100px; font-family: 'courier new', courier, sans-serif;"><span style="color: #964b00;">Welcome!</span></span></strong></span></h1>
+<h1 style="text-align: center;"><span style="color: #964b00;"><strong><span style="font-size: 60; font-family: 'courier new', courier, sans-serif;"><span style="color: #964b00;">Welcome!</span></span></strong></span></h1>
 
 Hello and welcome to CSC 153! My name is Dave Ghidiu and I'm your instructor for this course, Introduction to Cloud Computing. I'm so looking forward to getting to know you better and learning about the cloud together. This course will serve as an introduction to cloud computing - specifically through the lens of Amazon Web Services. We'll also look at other computer nerdy things like *git*, *linux*, and a bunch of other tools that will equip you in your career.
 
