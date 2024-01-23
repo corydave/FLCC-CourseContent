@@ -1,0 +1,3 @@
+^colors bg:#492000 text:#eeeeee link:#ccccff
+
+^^ Course Information
