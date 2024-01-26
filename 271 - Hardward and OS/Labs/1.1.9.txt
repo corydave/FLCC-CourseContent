@@ -1,0 +1,11 @@
+^colors bg:#CC6600 text:#eeeeee link:#ccccff
+
+^^ UPDATE: Lab 1.1.9
+
+While most of the lab experiences in LabSim are awesome and flawless, there are a few labs that might make you pull your hair out. **Lab 1.1.9** is one of them.
+
+Here's the deal - at the end of the lab you are instructed to unplug the UPS to test what happens when no power goes to the rack. Happily, everything is still humming along. Now a rational IT professional would plug the two plugs back in. 
+
+BUT IF YOU DO THIS, YOU WILL NOT GET FULL CREDIT! In the real world, we would *totally* want to get power back to the rack. But the state of the equipment when the lab ends requires that the two plugs are unplugged.
+
+That is all. Carry on.
