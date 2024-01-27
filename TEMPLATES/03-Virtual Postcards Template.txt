@@ -10,3 +10,28 @@ transform: rotate(-4deg);
 -ms-transform: rotate(-4deg);"></iframe>
 
 </center>
+
+
+<!-- 
+
+Portal
+^colors bg:#781346 text:#ffffff link:#ccccff
+
+Python
+^colors bg:#335E3B text:#ffffff link:#ccccff
+
+Java
+^colors bg:#1e90ff text:#ffffff link:#ccccff
+
+TechEd
+^colors bg:#940000 text:#ffffff link:#ccccff
+
+Hardware & Operating Systems
+^colors bg:#CC6600 text:#ffffff link:#ccccff
+
+JavaScript
+^colors bg:#E6B800 text:#000000 link:#900900
+
+<br /><hr style="height:10px;border-width:0;background-color:#335e3b"><br />
+
+-->
