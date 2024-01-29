@@ -14,8 +14,6 @@ Make a [copy of this Google Doc](https://docs.google.com/document/d/1d8p9nHB7Xme
 
 # Specifications
 
-* Please look at the rubric for this assignment before submitting; it lists all the specifications.
-
 * Make sure the document is shared such that ["Anyone with the link can COMMENT"](https://www.youtube.com/watch?v=jFGXfLDctcI)
 
 <br />
