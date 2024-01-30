@@ -1,0 +1,18 @@
+^colors bg:#492000 text:#eeeeee link:#ccccff
+
+^^ Tutoring
+
+If you want help with Python, you can *totally* use the tutoring services! There are a few Computer Science tutors who can explain things differently (and probably better!) than me.
+
+Tutoring is free, too! And they meet face-to-face and online. It's an amazing time to be alive.
+
+Schedule an appointment here:
+
+<center>
+
+https://flcc.mywconline.com/
+
+</center>
+<br /><br />
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/R_Xzdo_d4jg?si=UYwCXp9zYjkE7w-p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius:15px !important;"></iframe>
