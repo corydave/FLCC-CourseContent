@@ -32,24 +32,26 @@ A brief primer...
 <!-- 
 
 Portal
-#781346
+^colors bg:#781346 text:#ffffff link:#ccccff
 
 Python
-#335E3B
+^colors bg:#335E3B text:#ffffff link:#ccccff
 
 Java
-#1e90ff
+^colors bg:#1e90ff text:#ffffff link:#ccccff
 
 TechEd
-#940000
+^colors bg:#940000 text:#ffffff link:#ccccff
+
+Hardware & Operating Systems
+^colors bg:#CC6600 text:#ffffff link:#ccccff
 
 JavaScript
-#e6b800
+^colors bg:#E6B800 text:#000000 link:#900900
 
-Hardware
-#cc6600
+Cloud Computing
+^colors bg:#492000 text:#ffffff link:#ccccff
 
-Cloud
-#492000
+<br /><hr style="height:10px;border-width:0;background-color:#335e3b"><br />
 
 -->
