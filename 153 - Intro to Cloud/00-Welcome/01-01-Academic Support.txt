@@ -1,0 +1,25 @@
+<center><img src="https://c.tenor.com/RpKXrOa3eOAAAAAC/welcome.gif" alt="An animation of the word 'Welcome'" title="An animation of the word 'Welcome'" style="width:0px;height:0px;display:none;"></center>
+<h1 style="text-align: center;"><span style="color: #1e90ff;"><strong><span style="font-size: 100px; font-family: 'courier new', courier, sans-serif;"><span style="color: #335E3B;">Welcome!</span></span></strong></span></h1>
+
+Welcome to the *most awesome semester ever!* I mean, sure. This fall there are sweet things to do. Trips to take. Sights to see. Mountains to hike. Fires to snuggle up to. Flowers to smell. 
+
+But then there's a whole new level - this class. Python. Please make sure you check out the sweet, sweet video and Course Outline below.
+
+There are also other files below that might help you navigate through the semester - so be sure to check them out. Things like Academic Support, an invitation to Discord,  a place to give me feedback, my Student Hours schedule, and some other cool things.
+
+
+<br /><center>
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/xwbLR70Dtzw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 15px !important; border: 0px solid black;"></iframe>
+
+</center>
+
+<br /><br />
+
+# Course Syllabus
+
+<br />
+
+<center><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/1C7GpbTqMnn7UTuHwSen1kHtIV47fS7oJqdHyHyu5KSo/copy" target="_blank"><span style="background-color:#1e90ff;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Copy Google Doc</span></a><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/1C7GpbTqMnn7UTuHwSen1kHtIV47fS7oJqdHyHyu5KSo/export?format=doc" target="_blank"><span style="background-color:#357EC7;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Download Word</span></a><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/1C7GpbTqMnn7UTuHwSen1kHtIV47fS7oJqdHyHyu5KSo/export?format=pdf" target="_blank"><span style="background-color:#F40F02;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Download PDF</span></a><br /><br /><iframe src="https://docs.google.com/document/d/1C7GpbTqMnn7UTuHwSen1kHtIV47fS7oJqdHyHyu5KSo/preview" height="1000" width="800" frameborder="0" style="width: 100%; max-width: 800px;"></iframe></center>
+
+<br />
