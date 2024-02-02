@@ -1,0 +1,85 @@
+^^ PRACTICE - `triforce`
+
+
+## DESCRIPTION
+
+Create a script that displays the Triforce (from Zelda). This is actually known as [the Sierpiński triangle](https://en.wikipedia.org/wiki/Sierpi%C5%84ski_triangle) which is a cool fractal!
+
+## SPECIFICATIONS
+
+* File name: `triforce.py`
+* There is no grade associated with this practice exercise
+* There is a video walkthrough below
+
+<br />
+
+^=^ ,,,,
+
+### NOTE:
+
+This practice exercise is nothing more than a few `print` statements; there is no need to research how to do *loops* or other complex code. Just do some sweet, sweet output statements.
+
+^=
+
+<br />
+
+## SAMPLE OUTPUT
+
+```
+     ^
+    ^ ^
+   ^ ^ ^ 
+  ^     ^
+ ^ ^   ^ ^
+^ ^ ^ ^ ^ ^
+```
+
+<br /><br />
+
+## VIDEO WALKTHROUGH
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/Y1SXErTnahw?si=xOvhf3-OYnedlyIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 15px !important;"></iframe>
+
+<br /><br />
+
+## STARTER CODE
+
+You may use the following code as starter code. Because this lab is very simple, the starter code does not contain anything other than comments and the file name. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`triforce.py`](https://drive.google.com/uc?export=download&id=1mjcF2XN1cYO6GIpksLfwmHsasSL3BnWX)
+
+Download this file and load it into your IDE.
+
+^callout-end
+
+<br /><br />
+
+## SOLUTION
+
+^acc
+
+^^^ `triforce_solution.py`
+
+```python ^copy
+
+# Solution for `triforce.py`
+
+
+print('     ^')
+print('    ^ ^')
+print('   ^ ^ ^')
+print('  ^     ^')
+print(' ^ ^   ^ ^')
+print('^ ^ ^ ^ ^ ^')
+
+```
+
+<br /><br />
+
+*^icon download* [`triforce_solution.py`](https://drive.google.com/uc?export=download&id=17S_8J0Hq6orz-FTc8W0F6Djm_BNHFwP8)
+
+^acc-end
+
+
