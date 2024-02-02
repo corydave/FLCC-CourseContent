@@ -1,2 +1,3 @@
 ^^ PRACTICE
+
 These are practice problems for you (they have video walkthroughs and also solution code). None of this work is graded and is completely optional.
