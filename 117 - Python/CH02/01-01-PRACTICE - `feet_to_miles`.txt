@@ -1,0 +1,100 @@
+^^ PRACTICE - `feet_to_miles`
+
+
+## DESCRIPTION
+
+Write a program that asks the user for a number of feet. Take the number they enter and do some math so that you can report how many miles there are (and any leftover feet). 
+
+There are 5280 feet in a mile.
+
+So if the user types in `5282` when prompted, the program should say that there is 1 mile with 2 feet left over.
+
+## SPECIFICATIONS
+
+* File name: `feet_to_miles.py`
+* There is no grade associated with this practice exercise
+* There is a video walkthrough below
+
+<br /><br />
+
+## SAMPLE OUTPUT
+
+```
+How many feet are there? 6000
+There are 1 miles with 720 feet left over.
+```
+
+```
+How many feet are there? 12000
+There are 2 miles with 1440 feet left over.
+```
+
+```
+How many feet are there? 5283
+There are 1 miles with 3 feet left over.
+```
+
+<br /><br />
+
+## VIDEO WALKTHROUGH
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/KlsWSf00Odk?si=xOvhf3-OYnedlyIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 15px !important;"></iframe>
+
+<br /><br />
+
+## STARTER CODE
+
+You may use the following code as starter code. 
+
+^callout file-download
+
+[`feet_to_miles.py`](https://drive.google.com/uc?export=download&id=1mVLSDU9acz-8vFR2J6E4bKcDHpdpWIU1)
+
+Download this file and load it into your IDE.
+
+^callout-end
+
+<br /><br />
+
+## SOLUTION
+
+^acc
+
+^^^ `feet_to_miles.py`
+
+```python ^copy
+
+# Solution for feet_to_miles.py
+
+def main():
+    feet_to_miles()
+
+def feet_to_miles():
+    feet = int(input('How many feet are there? '))
+    # print(feet)
+    # print(type(feet))
+
+    miles = int(feet / 5280)
+    # print(miles)
+
+    leftover_feet = feet % 5280
+    # print(leftover_feet)
+
+    print(f'There are {miles} miles with {leftover_feet} feet left over.')
+
+    # 1 mile = 5280 feet
+
+
+
+main()
+
+```
+
+<br /><br />
+
+*^icon download* [`feet_to_miles.py`](https://drive.google.com/uc?export=download&id=1mVLSDU9acz-8vFR2J6E4bKcDHpdpWIU1)
+
+^acc-end
+
+
+<br /><br />
