@@ -1,181 +1,27 @@
-<!DOCTYPE html>
-<html lang="en"><head>
-   <!-- Required meta tags -->
-   <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+^^ FLIP - Chapter #2 Reflection
 
-   <!-- Bootstrap CSS -->
-   <link rel="stylesheet" href="/shared/Course File templates/Standard/pages/../_assets/thirdpartylib/bootstrap-4.3.1/css/bootstrap.min.css">
-   <!-- Font Awesome CSS -->
-   <link rel="stylesheet" href="/shared/Course File templates/Standard/pages/../_assets/thirdpartylib/fontawesome-free-5.9.0-web/css/all.min.css">
-   <!-- prism.min.css for code linting -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/themes/prism.min.css">
-   <!-- Template CSS -->
-   <link rel="stylesheet" href="/shared/Course File templates/Standard/pages/../_assets/css/styles.min.css">
-   <link rel="stylesheet" href="/shared/Course File templates/Standard/pages/../_assets/css/custom.css">
-<style>
-  code {
-    background-color: #f5f2f0;
-    color: #000;
-    border-radius: .25em;
-    padding: 0 .25em 0 .25em;
-}
-  .h1, .h2, .h3, .h4, .h5, .h6,
-h1, h2, h3, h4, h5, h6 {
-    text-align: center;
-}
-.h2, h2 {
-    color: #355e3B;
-}
-.accentColor .h2, .accentColor h2 {
-    color: #fff;
-}
-.accentDark .h2, .accentDark h2 {
-    color: #e9e9e9;
-}
-.two-col-panels .card .card-body h2 {
-    color: #355e3B;
-    margin-top: 0px;
-}
+Congratulations for making through the second week of programming! I think the hardest thing to wrap your head around when learning programming is how variables work.
 
-  .accentOutline {
-    border-width: 3px; 
-    border-style: solid;
-    border-radius: .25em;
-    border-color: #355e3B;
-}
-.accentColor {
-    background-color: #355e3B;
-    color: #fff;
-}
-.accentColor h1, .accentColor h2, .accentColor h3, .accentColor h4, .accentColor h5, .accentColor h6 {
-    color: #fff;
-} 
-.accentColor a  {
-    color: #fce;
-    border-color: #fce;
-    font-weight: bold;
-    border-bottom-width: 2px;
-}
-.jumbotron {
-    background-color: #355e3B;
-    color: #fff;
-}
-.jumbotron a {
-    color: #fff;
-    border-color: #fce;
-}
+Please take this opportunity to reflect on the week. Reflection is a form of metacognition (that means thinking bout your thinking). These small exercises have been shown to improve thinking and learning.
 
-.accentDark {
-    background-color: #555;
-    color: #e9e9e9;
-}
-.accentDark h1, .accentDark h2, .accentDark h3, .accentDark h4, .accentDark h5, .accentDark h6 {
-    color: #e9e9e9;
-} 
-.accentDark a {
-    color: lightblue;
-    border-color: lightblue;
-}
-.accentLite {
-    background-color: #e3e9f1;
-    color: black;
-}
-.accentLite h1, .accentLite .h1, .accentLite h3, .accentLite .h3, .accentLite h4, .accentLite .h4, .accentLite h5, .accentLite .h5, .accentLite h6, .accentLite .h6 {
-    color: black;
-} 
-.accentLite h2, .accentLite .h2 {
-    color: #355e3B;
-}
+Here is the prompt for this week:
 
-.card-graphic {
-    border-color: #355e3B;
-}
+^=^ ,
 
-.card-graphic .card-body .card-icon .fa,
-.card-graphic .card-body .card-icon .fas, 
-.card-graphic .card-body .card-icon .fab {
-    font-size: 3.125rem;
-    min-width: 5.313rem;
-    text-align: center;
-    color: #355e3B;
-}
+I'm interested in your explanation of variables (in Python). Pretend you are explaining how you use variables in programming to a ten year old. Honestly, I think this is a great exercise and helps me understand how people new to programming contextualize the notion of input and variables.
 
-ol.large-number li:before {
-    color: #355e3B;
-}
+^=
 
-ol.box-number li:before,
-ol.box-alpha li:before {
-    background-color: #355e3B;
-    color: #fff;
-}
+You can [go directly to the Flip here](https://flip.com/b6eb349d). The Flip ID is **`b6eb349d`**
 
-  /*
-    .center-column {
-    border-width: 3px; 
-    border-style: solid;
-    border-radius: .25em;
-    border-color: #355e3B;
-    margin-bottom: 1em;
-    margin-top: 1em;
-}
-*/
-  .table-responsive td,
-.table-responsive tr,
-.table-responsive caption {
-    background-color: #fff;
-}
-  .col, .col-1, .col-10, .col-11, .col-12, 
-.col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, 
-.col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, 
-.col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, 
-.col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, 
-.col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, 
-.col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, 
-.col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, 
-.col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, 
-.col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, 
-.col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, 
-.col-xl-8, .col-xl-9, .col-xl-auto {
-    padding-left: 1px;
-    padding-right: 1px;
-}
-</style>
-   <title>Page</title>
-</head>
-<body>
-<div class="container-fluid">
-<h1 class="jumbotron">
-                         FLIP - Chapter #2 Reflection
-                    </h1>
-<p>Congratulations for making through the second week of programming! I think the hardest thing to wrap your head around when learning programming is how variables work. </p>
-<p>Please take this opportunity to reflect on the week. Reflection is a form of <em>metacognition</em> (that means thinking bout your thinking). These small exercises have been shown to improve thinking and learning. </p>
-<p>Here is the prompt for this week:</p>
-<div><div class="row mx-1 mb-4 justify-content-md-center">
-<div class="col-md-8 rounded accentLite center-column">
-<div class="rounded px-2 py-1">
-<p>I&#39;m interested in your explanation of variables (in Python). Pretend you are explaining how you use variables in programming to a ten year old. Honestly, I think this is a great exercise and helps <em>me</em> understand how people new to programming contextualize the notion of input and variables.</p>
-</div>
-</div>
-</div>
-</div>
-<p>You can <a target='_blank' href="https://flip.com/44b937f1">go directly to the Flip here</a>. The Flip ID is <strong><code>44b937f1</code></strong></p>
 <center>
 <iframe
     width="100%"
     height="900"
     frameBorder="0"
-    src="https://flip.com/44b937f1?embed=true"
+    src="https://flip.com/b6eb349d?embed=true"
     webkitallowfullscreen
     mozallowfullscreen
     allowfullscreen
     allow="microphone; camera; display-capture" style="border-radius:15px !important; max-width:600px;"></iframe>
 </center>
-</div>
-<script src="/shared/Course File templates/Standard/pages/../_assets/thirdpartylib/jquery/jquery-3.3.1.slim.min.js"></script>
-<script src="/shared/Course File templates/Standard/pages/../_assets/thirdpartylib/popper-js/popper.min.js"></script>
-<script src="/shared/Course File templates/Standard/pages/../_assets/thirdpartylib/bootstrap-4.3.1/js/bootstrap.min.js"></script>
-<!-- Template JavaScript -->
-<script src="/shared/Course File templates/Standard/pages/../_assets/js/scripts.min.js"></script>
-</body></html>
