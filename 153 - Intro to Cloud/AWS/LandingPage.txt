@@ -1,0 +1,28 @@
+^colors bg:#492000 text:#ffffff link:#ccccff
+
+<center>
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vTQhP1KSBhsbAuGQHd5FoD45N_xGNiRL8gMvmg1iLRFXATiJ8GizOCtCq2K6s1PLJFKEjeK0zqgjcep/pub?w=1200&amp;h=300" alt="A brown background with illustrations of a cloud ……. Text says, CLOUD COMPUTING." title="A brown background with illustrations of a cloud ……. Text says, CLOUD COMPUTING." /></center>
+
+<br />
+
+# Welcome
+
+Welcome to CSC-153: Introduction to Cloud Computing! This is a merry mix of Amazon Web Service (AWS) content with a healthy dose of Linux, `git`, version control, markdown, and a host of other cool tools that you'll find handy in your career.
+
+You can always contact me at EMAIL_ADDRESS if you have questions in this class. There are some other resources that you might find helpful too:
+
+<br />
+
+<center>
+<iframe src="https://docs.google.com/drawings/d/1daIWwBNcxyLioObaEt8Qt88zxeNRIrY5cnQAZkAfyiw/preview" style="width:731px; height:328px;" frameborder="no"></iframe>
+</center>
+
+<br /><br /><br />
+
+
+<br /><hr style="height:10px;border-width:0;background-color:#492000"><br />
+
+
+<center>
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vQHLXB-7chWgY6diMY6kr9OQt4ZXO4qQQIw52oxaDoDyjm91Ufa54O6D0jbel2ILSSLJY0P7bkSkzdH/pub?w=913&amp;h=264" alt="The AWS Academy Banner." title="The AWS Academy Banner."></center>
