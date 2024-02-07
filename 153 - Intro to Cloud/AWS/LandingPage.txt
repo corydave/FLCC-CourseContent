@@ -9,13 +9,11 @@
 
 Welcome to CSC-153: Introduction to Cloud Computing! This is a merry mix of Amazon Web Service (AWS) content with a healthy dose of Linux, `git`, version control, markdown, and a host of other cool tools that you'll find handy in your career.
 
-You can always contact me at EMAIL_ADDRESS if you have questions in this class. There are some other resources that you might find helpful too:
+You can always contact me at dave.ghidiu@flcc.edu if you have questions in this class. There are some other resources that you might find helpful too:
 
 <br />
 
-<center>
-<iframe src="https://docs.google.com/drawings/d/1daIWwBNcxyLioObaEt8Qt88zxeNRIrY5cnQAZkAfyiw/preview" style="width:731px; height:328px;" frameborder="no"></iframe>
-</center>
+<center><iframe src="https://docs.google.com/drawings/d/1daIWwBNcxyLioObaEt8Qt88zxeNRIrY5cnQAZkAfyiw/preview" style="width:731px; height:328px;" frameborder="no"></iframe></center>
 
 <br /><br /><br />
 
