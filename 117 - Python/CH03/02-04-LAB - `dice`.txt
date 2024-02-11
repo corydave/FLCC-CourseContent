@@ -54,27 +54,4 @@ Download this file and load it into your IDE.
 ^callout-end
 
 
-```python ^copy
-
-# FILE NAME - dice.py
-
-# NAME - 
-# DATE - 
-# DESCRIPTION - 
-
-def main():
-    rollDie()
-
-def rollDie():
-
-    
-
-main()
-
-```
-
-
-
-
-
 <br /><br />
