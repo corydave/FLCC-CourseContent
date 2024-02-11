@@ -48,28 +48,4 @@ Download this file and load it into your IDE.
 
 ^callout-end
 
-
-```python ^copy
-
-# FILE NAME - boundedRandomNumber.py
-
-# NAME - 
-# DATE - 
-# DESCRIPTION - # 
-
-
-def main():
-    boundedRandom()
-
-def boundedRandom():
-    
-
-main()
-
-```
-
-
-
-
-
 <br /><br />
