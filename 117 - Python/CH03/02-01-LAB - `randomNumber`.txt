@@ -1,115 +1,49 @@
-^^ PRACTICE - `random_letter`
+^^ LAB - `randomNumber`
 
 
 ## DESCRIPTION
 
-Write a program that:
-
-1. Asks the user for a number to use as a random seed.
-2. Seed a random number generator
-3. Use the random number generator to generate a random letter.
-
+Write a program that outputs a random number using the `random` module in Python.
 
 ## SPECIFICATIONS
 
-* File name: `random_letter.py`
-* There is no grade associated with this practice exercise
-* There is a video walkthrough below
+* Starter code has been provided for this lab.
 
-<br /><br />
+* The filename for this program is `randomNumber.py`
+
+* Complete the `generateRandomNumber` function. The sole purpose of this function is to output a random number
+
+* Add comments with your name, date, and program description at the top.
+
+* The very first line of this program should be `import random`; if you do not include it you may have access to the `random` module.
+
+* The auto-test for this program will only check to see that a random number has been output; it will not check to see that the random number is any specific number.
 
 ## SAMPLE OUTPUT
 
 ```
------------------------
-RANDOM LETTER GENERATOR
------------------------
-
-Enter a seed for the random number generator: 33
-The random letter is: s
+0.8525041884365221
 ```
 
 ```
------------------------
-RANDOM LETTER GENERATOR
------------------------
-
-Enter a seed for the random number generator: 32
-The random letter is: c
+0.13938116419681712
 ```
 
 ```
------------------------
-RANDOM LETTER GENERATOR
------------------------
-
-Enter a seed for the random number generator: 32
-The random letter is: c
+0.6717733648463142
 ```
-
-<br /><br />
-
-## VIDEO WALKTHROUGH
-
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/LuKCrxrbPsU?si=xOvhf3-OYnedlyIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 15px !important;"></iframe>
-
-<br /><br />
 
 ## STARTER CODE
 
-You may use the following code as starter code. 
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
 
 ^callout file-download
 
-[`random_letter.py`](https://drive.google.com/uc?export=download&id=1sTeGUcvPU8c8kkqiChCnr1gqZMQ37kh4)
+[`randomNumber.py`](https://drive.google.com/uc?export=download&id=1p9oIBn99Kqnf9wnKIoKuaHlCSXqQS0i_)
 
 Download this file and load it into your IDE.
 
 ^callout-end
-
-<br /><br />
-
-## SOLUTION
-
-^acc
-
-^^^ `random_letter_SOLUTION.py`
-
-```python ^copy
-
-# SOLUTION for `random_letter.py`
-
-import random
-import string
-
-def main():
-    random_letter_generator()
-
-def random_letter_generator():
-    print('-----------------------')
-    print('RANDOM LETTER GENERATOR')
-    print('-----------------------')
-
-    print()
-
-    seed_from_user = int(input('Enter a seed for the random number generator: '))
-
-    random.seed(seed_from_user)
-
-    random_letter = random.choice(string.ascii_lowercase)
-
-    print(f'The random letter is: {random_letter}')
-
-
-main()
-
-```
-
-<br /><br />
-
-*^icon download* [`random_letter_SOLUTION.py`](https://drive.google.com/uc?export=download&id=1Skcak6zCvDrxhbboyHD8fp_WsnrlxX-f)
-
-^acc-end
 
 
 <br /><br />
