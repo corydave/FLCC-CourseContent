@@ -51,7 +51,7 @@ The random letter is: c
 
 ## VIDEO WALKTHROUGH
 
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/KlsWSf00Odk?si=xOvhf3-OYnedlyIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 15px !important;"></iframe>
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/LuKCrxrbPsU?si=xOvhf3-OYnedlyIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 15px !important;"></iframe>
 
 <br /><br />
 
@@ -73,7 +73,7 @@ Download this file and load it into your IDE.
 
 ^acc
 
-^^^ `random_letter.py`
+^^^ `random_letter_SOLUTION.py`
 
 ```python ^copy
 
@@ -107,7 +107,7 @@ main()
 
 <br /><br />
 
-*^icon download* [`feet_to_miles.py`](https://drive.google.com/uc?export=download&id=1g82Nrx0kSvS-t1JVpb5FpvLDXdUxFEpN)
+*^icon download* [`random_letter_SOLUTION.py`](https://drive.google.com/uc?export=download&id=1Skcak6zCvDrxhbboyHD8fp_WsnrlxX-f)
 
 ^acc-end
 
