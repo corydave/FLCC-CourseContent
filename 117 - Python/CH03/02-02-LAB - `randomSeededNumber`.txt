@@ -49,26 +49,6 @@ Download this file and load it into your IDE.
 ^callout-end
 
 
-```python ^copy
-
-# FILE NAME - randomSeededNumber.py
-
-# NAME - 
-# DATE - 
-# DESCRIPTION - 
-
-def main():
-    generateSeededRandomNumber()
-
-def generateSeededRandomNumber():
-    
-
-main()
-
-
-
-```
-
 
 
 
