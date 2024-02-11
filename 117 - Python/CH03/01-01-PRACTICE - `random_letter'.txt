@@ -3,15 +3,16 @@
 
 ## DESCRIPTION
 
-Write a program that asks the user for a number of feet. Take the number they enter and do some math so that you can report how many miles there are (and any leftover feet). 
+Write a program that:
 
-There are 5280 feet in a mile.
+1. Asks the user for a number to use as a random seed.
+2. Seed a random number generator
+3. Use the random number generator to generate a random letter.
 
-So if the user types in `5282` when prompted, the program should say that there is 1 mile with 2 feet left over.
 
 ## SPECIFICATIONS
 
-* File name: `feet_to_miles.py`
+* File name: `random_letter.py`
 * There is no grade associated with this practice exercise
 * There is a video walkthrough below
 
@@ -20,25 +21,37 @@ So if the user types in `5282` when prompted, the program should say that there 
 ## SAMPLE OUTPUT
 
 ```
-How many feet are there? 6000
-There are 1 miles with 720 feet left over.
+-----------------------
+RANDOM LETTER GENERATOR
+-----------------------
+
+Enter a seed for the random number generator: 33
+The random letter is: s
 ```
 
 ```
-How many feet are there? 12000
-There are 2 miles with 1440 feet left over.
+-----------------------
+RANDOM LETTER GENERATOR
+-----------------------
+
+Enter a seed for the random number generator: 32
+The random letter is: c
 ```
 
 ```
-How many feet are there? 5283
-There are 1 miles with 3 feet left over.
+-----------------------
+RANDOM LETTER GENERATOR
+-----------------------
+
+Enter a seed for the random number generator: 32
+The random letter is: c
 ```
 
 <br /><br />
 
 ## VIDEO WALKTHROUGH
 
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/KlsWSf00Odk?si=xOvhf3-OYnedlyIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 15px !important;"></iframe>
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/LuKCrxrbPsU?si=xOvhf3-OYnedlyIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 15px !important;"></iframe>
 
 <br /><br />
 
@@ -48,7 +61,7 @@ You may use the following code as starter code.
 
 ^callout file-download
 
-[`feet_to_miles.py`](https://drive.google.com/uc?export=download&id=1mVLSDU9acz-8vFR2J6E4bKcDHpdpWIU1)
+[`random_letter.py`](https://drive.google.com/uc?export=download&id=1sTeGUcvPU8c8kkqiChCnr1gqZMQ37kh4)
 
 Download this file and load it into your IDE.
 
@@ -60,30 +73,32 @@ Download this file and load it into your IDE.
 
 ^acc
 
-^^^ `feet_to_miles.py`
+^^^ `random_letter_SOLUTION.py`
 
 ```python ^copy
 
-# Solution for feet_to_miles.py
+# SOLUTION for `random_letter.py`
+
+import random
+import string
 
 def main():
-    feet_to_miles()
+    random_letter_generator()
 
-def feet_to_miles():
-    feet = int(input('How many feet are there? '))
-    # print(feet)
-    # print(type(feet))
+def random_letter_generator():
+    print('-----------------------')
+    print('RANDOM LETTER GENERATOR')
+    print('-----------------------')
 
-    miles = int(feet / 5280)
-    # print(miles)
+    print()
 
-    leftover_feet = feet % 5280
-    # print(leftover_feet)
+    seed_from_user = int(input('Enter a seed for the random number generator: '))
 
-    print(f'There are {miles} miles with {leftover_feet} feet left over.')
+    random.seed(seed_from_user)
 
-    # 1 mile = 5280 feet
+    random_letter = random.choice(string.ascii_lowercase)
 
+    print(f'The random letter is: {random_letter}')
 
 
 main()
@@ -92,7 +107,7 @@ main()
 
 <br /><br />
 
-*^icon download* [`feet_to_miles.py`](https://drive.google.com/uc?export=download&id=1g82Nrx0kSvS-t1JVpb5FpvLDXdUxFEpN)
+*^icon download* [`random_letter_SOLUTION.py`](https://drive.google.com/uc?export=download&id=1Skcak6zCvDrxhbboyHD8fp_WsnrlxX-f)
 
 ^acc-end
 
