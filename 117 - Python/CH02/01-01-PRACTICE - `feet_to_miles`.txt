@@ -60,7 +60,7 @@ Download this file and load it into your IDE.
 
 ^acc
 
-^^^ `feet_to_miles.py`
+^^^ `feet_to_miles_SOLUTION.py`
 
 ```python ^copy
 
@@ -92,7 +92,7 @@ main()
 
 <br /><br />
 
-*^icon download* [`feet_to_miles.py`](https://drive.google.com/uc?export=download&id=1g82Nrx0kSvS-t1JVpb5FpvLDXdUxFEpN)
+*^icon download* [`feet_to_miles_SOLUTION.py`](https://drive.google.com/uc?export=download&id=1g82Nrx0kSvS-t1JVpb5FpvLDXdUxFEpN)
 
 ^acc-end
 
