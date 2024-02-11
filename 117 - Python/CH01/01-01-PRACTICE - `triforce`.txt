@@ -60,7 +60,7 @@ Download this file and load it into your IDE.
 
 ^acc
 
-^^^ `triforce_solution.py`
+^^^ `triforce_SOLUTION.py`
 
 ```python ^copy
 
@@ -78,7 +78,7 @@ print('^ ^ ^ ^ ^ ^')
 
 <br /><br />
 
-*^icon download* [`triforce_solution.py`](https://drive.google.com/uc?export=download&id=17S_8J0Hq6orz-FTc8W0F6Djm_BNHFwP8)
+*^icon download* [`triforce_SOLUTION.py`](https://drive.google.com/uc?export=download&id=17S_8J0Hq6orz-FTc8W0F6Djm_BNHFwP8)
 
 ^acc-end
 
