@@ -11,7 +11,7 @@ Write a program that takes in a number from the user, seeds the `random` module 
 
 * The filename for this program is `dice.py`
 
-* Complete the `rollDie` function. This function should prompt the user for input and use the input to seed a random number generator. Then the function should produce the result of a die rolled twice.
+* Complete the `roll_die` function. This function should prompt the user for input and use the input to seed a random number generator. Then the function should produce the result of a die rolled twice.
 
 * Add comments with your name, date, and program description at the top.
 
