@@ -1,4 +1,4 @@
-^^ LAB - `randomNumber`
+^^ LAB - `random_number`
 
 
 ## DESCRIPTION
@@ -9,9 +9,9 @@ Write a program that outputs a random number using the `random` module in Python
 
 * Starter code has been provided for this lab.
 
-* The filename for this program is `randomNumber.py`
+* The filename for this program is `random_number.py`
 
-* Complete the `generateRandomNumber` function. The sole purpose of this function is to output a random number
+* Complete the `generate_random_number` function. The sole purpose of this function is to output a random number
 
 * Add comments with your name, date, and program description at the top.
 
@@ -39,7 +39,7 @@ You may use the following code as starter code. You will need to change the comm
 
 ^callout file-download
 
-[`randomNumber.py`](https://drive.google.com/uc?export=download&id=1p9oIBn99Kqnf9wnKIoKuaHlCSXqQS0i_)
+[`random_number.py`](https://drive.google.com/uc?export=download&id=1p9oIBn99Kqnf9wnKIoKuaHlCSXqQS0i_)
 
 Download this file and load it into your IDE.
 
