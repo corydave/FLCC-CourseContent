@@ -1,4 +1,4 @@
-^^ LAB - `randomSeededNumber`
+^^ LAB - `random_seeded_number`
 
 
 ## DESCRIPTION
@@ -9,9 +9,9 @@ Write a program that takes in a number from the user, seeds the `random` module 
 
 * Starter code has been provided for this lab.
 
-* The filename for this program is `randomSeededNumber.py`
+* The filename for this program is `random_seeded_number.py`
 
-* Complete the `generateSeededRandomNumber` function. This function should prompt the user for input and use the input to seed a random number generator. Then produce one random number.
+* Complete the `generate_seeded_random_number` function. This function should prompt the user for input and use the input to seed a random number generator. Then produce one random number.
 
 * Add comments with your name, date, and program description at the top.
 
@@ -42,7 +42,7 @@ You may use the following code as starter code. You will need to change the comm
 
 ^callout file-download
 
-[`randomSeededNumber.py`](https://drive.google.com/uc?export=download&id=1CJ-6FjAt-sWH8ANOKqKk9Tpm7T4qYf-T)
+[`random_seeded_number.py`](https://drive.google.com/uc?export=download&id=1CJ-6FjAt-sWH8ANOKqKk9Tpm7T4qYf-T)
 
 Download this file and load it into your IDE.
 
