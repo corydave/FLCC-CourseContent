@@ -1,4 +1,4 @@
-^^ PRACTICE - `cirlce` && `circle_util`
+^^ PRACTICE - `circle` && `circle_util`
 
 
 ## DESCRIPTION
@@ -12,7 +12,7 @@ Write a program that:
 
 ## SPECIFICATIONS
 
-* File name: `random_letter.py`
+* File names: `circle.py`, `circle_util.py`
 * There is no grade associated with this practice exercise
 * There is a video walkthrough below
 
