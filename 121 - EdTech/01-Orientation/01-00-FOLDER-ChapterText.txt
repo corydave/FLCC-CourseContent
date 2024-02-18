@@ -1,4 +1,4 @@
-^^ CHAPTER 0 - Orientation
+^^ Orientation
 
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vSM00Tk3e3GpBaf6IHvbRPAB1efs8TFWP-h8-FX_xhVpK8AfG-5i7BowLAUkKkCnVZthv3p0yb3oMEC/pub?w=240&amp;h=180" alt="A drawing on a chalkboard of two hands shaking." title="A drawing on a chalkboard of two hands shaking." style="float: right; border-radius: 25px; margin: 0px 20px 20px 20px;">
 
