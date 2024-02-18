@@ -1,4 +1,4 @@
-^^ Chapter 5 - Google Drawings
+^^ Google Drawings
 
 <img title="The icon for Google Drawings." alt="The icon for Google Drawings." src="https://docs.google.com/drawings/d/e/2PACX-1vREZgeAWv0lHCNXqU73WgWZuS08_0Fo30CWEqqo0GSg3g0M1PqSjImXwKXtaQbJAGIAQdT8XtmumYR7/pub?w=200&amp;h=200" style="display:none;" />
 
