@@ -20,7 +20,7 @@ You can watch the video here and follow along! Note that the formulas are necess
 
 In the video, I use CONDITIONAL FORMATTING to change the color of the cells for 'p' and 'a'. Google has made it easier for users to do this by using the DATA VALIDATION menu! Here's how to do that:
 
-![Google Sheets - Data Validation](google:https://drive.google.com/file/d/1h0UwvevHIZ5Yp9hEQIkuF8ihU1lxEh3m/view?usp=share_link)
+![Google Sheets - Data Validation](google-thumb:https://drive.google.com/file/d/1h0UwvevHIZ5Yp9hEQIkuF8ihU1lxEh3m/)
 
 ^=
 
