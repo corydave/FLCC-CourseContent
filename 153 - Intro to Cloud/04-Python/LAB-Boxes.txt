@@ -1,0 +1,32 @@
+^colors bg:#492000 text:#ffffff link:#ccccff
+
+^^ PYTHON: `boxes.py`
+
+Create a Python file named `boxes.py` that will ask the user for a message. The program should take that message and enclose it in a box of stars:
+
+```
+What is the message?
+any message
+
+***************
+* any message *
+***************
+```
+
+```
+What is the message?
+This is the clock song!
+
+***************************
+* This is the clock song! *
+***************************
+```
+
+```
+What is the message?
+We're just two lost souls swimming in a fish bowl
+
+*****************************************************
+* We're just two lost souls swimming in a fish bowl *
+*****************************************************
+```
