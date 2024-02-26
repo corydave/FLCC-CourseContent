@@ -1,6 +1,6 @@
 ^colors bg:#492000 text:#ffffff link:#ccccff
 
-^^ LAB - `boxes.py`
+^^ LAB - `boxes.py` [Submission]
 
 Create a Python file named `boxes.py` that will ask the user for a message. The program should take that message and enclose it in a box of stars:
 
