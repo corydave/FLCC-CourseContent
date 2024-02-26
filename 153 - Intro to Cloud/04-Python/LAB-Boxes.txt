@@ -4,6 +4,8 @@
 
 Create a Python file named `boxes.py` that will ask the user for a message. The program should take that message and enclose it in a box of stars:
 
+## Sample Output
+
 ```
 What is the message?
 any message
@@ -30,3 +32,11 @@ We're just two lost souls swimming in a fish bowl
 * We're just two lost souls swimming in a fish bowl *
 *****************************************************
 ```
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
