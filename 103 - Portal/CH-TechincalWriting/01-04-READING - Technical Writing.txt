@@ -42,4 +42,6 @@ If you want to learn more, be sure to check out [Google's ***free*** Technical W
 
 # Video
 
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/dtNV3tdZklY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Think technical writing is easy? Take seven minutes and watch the hilarious fallout from ambiguous instructions.
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/FN2RM-CHkuI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:15px !important"></iframe>
