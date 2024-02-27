@@ -8,6 +8,8 @@ Your task is to author a document in a technical writing style. Specifically, yo
 
 You'll be asked to pick a topic and describe it in excruciating detail. The challenge lies in distilling the details into coherent, concise steps.
 
+Watch the [video for a walkthrough](https://www.youtube.com/watch?v=Ta3SEWds7Tw) and check out [the final product here](https://docs.google.com/document/d/1L5DTeL3SDszjkvMPPlGpWLVWRw0YVQBUsSrQrlVvmto/edit).
+
 ^===
 
 ^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/Ta3SEWds7Tw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:15px !important;"></iframe>
