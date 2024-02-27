@@ -10,7 +10,7 @@ You'll be asked to pick a topic and describe it in excruciating detail. The chal
 
 ^===
 
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/ABC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:15px !important;"></iframe>
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/Ta3SEWds7Tw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:15px !important;"></iframe>
 
 ^=
 
@@ -27,21 +27,7 @@ Please submit the work as a link to a cloud-based document such as Google Docs. 
 
 # Specifications
 
-* One page maximum
-
-* Single spaced
-
-* 12 point font size
-
-* Use any font face you choose
-
-* Include at least one bulleted or numbered list
-
-* Set page margins to be 0.5 on all four sides
-
-* Make sensible use of formatting such as bold, underlining, and text color
-
-* Technical drawings, illustrations, and white space are leveraged to provide easy consumption by the reader.
+* Be sure to look at the rubric before submitting.
 
 * You should only be pasting a link to your document here - make sure the document is shared such that ["Anyone with the link can COMMENT"](https://www.youtube.com/watch?v=jFGXfLDctcI)
 
