@@ -1,0 +1,127 @@
+^^ PRACTICE - `cm_and_inch_converter`
+
+
+## DESCRIPTION
+
+Write a program that:
+
+1. Asks the user if they would like to convert centimeters to inches or inches to centimeters.
+2. Based on their decision, the program will:
+   1. Ask the user for a number and convert it to inches
+   2. Ask the user for a number and convert it to centimeters
+3. There are 2.54 centimeters for every one inch
+
+## SPECIFICATIONS
+
+* File name: `cm_and_inch_converter.py`
+* There is no grade associated with this practice exercise
+* There is a video walkthrough below
+
+<br /><br />
+
+## SAMPLE OUTPUT
+
+```
+Welcome to the converter. Please choose from the following menu:
+1. Convert from cm to in
+2. Convert from in to cm
+
+1
+
+Enter the number of centimeters: 3
+3 centimeters is 1.1811 inches
+```
+
+```
+
+```
+
+<br /><br />
+
+## VIDEO WALKTHROUGH
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/QzTclcTNFnQ?si=xOvhf3-OYnedlyIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 15px !important;"></iframe>
+
+<br /><br />
+
+## STARTER CODE
+
+You may use the following code as starter code. Be sure to put both files in the same directory (folder)!
+
+^callout file-download
+
+[`circle.py`](https://drive.google.com/uc?export=download&id=1Zzt9GCBgnuImTNvcy9-KlR8THpNvANJL)
+
+[`circle_util.py`](https://drive.google.com/uc?export=download&id=1UKz3fOvGfX7HgjDcCA-PnhKsaId4oNQs)
+
+Download these files and load them into your IDE *in the same directory*.
+
+^callout-end
+
+<br /><br />
+
+## SOLUTION
+
+^acc
+
+^^^ `circle.py`
+
+```python ^copy
+
+# SOLUTION for `circle.py`
+
+# FILE NAME: circle.py
+# This is the main driver; it will rely on functions in `circle_util.py`
+
+import circle_util
+
+radius = float(input('What is the circle radius? '))
+
+# circle_util.test()
+
+print()
+print()
+
+circle_util.area(radius)
+print()
+circle_util.circumference(radius)
+
+
+```
+
+<br /><br />
+
+*^icon download* [`circle.py`](https://drive.google.com/uc?export=download&id=19hg-qDHE6GtViuskEMn0nieS8dG4XxPe)
+
+^^^ `circle_util.py`
+
+```python ^copy
+
+# FILE NAME: circle_util.py
+# This is a helper file for the `circle.py` file. It contains functions that
+# the main program can call!
+
+import math
+
+def test():
+    print('circle_util is working')
+
+def area(r):
+    circle_area = math.pi * r * r
+    print(f'The area is {circle_area}')
+
+def circumference(radius):
+    circle_circumference = 2 * math.pi * radius
+    print(f'The circumference is {circle_circumference}')
+
+```
+
+<br /><br />
+
+*^icon download* [`circle_util.py`](https://drive.google.com/uc?export=download&id=1EumxM9tBuyFNzapsV-p7Yj1ddfrFbWYK)
+
+
+^acc-end
+
+
+<br /><br />
