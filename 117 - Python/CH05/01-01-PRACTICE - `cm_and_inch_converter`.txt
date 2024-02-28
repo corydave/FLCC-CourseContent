@@ -23,18 +23,64 @@ Write a program that:
 
 ```
 Welcome to the converter. Please choose from the following menu:
-1. Convert from cm to in
-2. Convert from in to cm
+  1. Convert from cm to in
+  2. Convert from in to cm
 
-1
+Your choice: 3
 
+Enter the number of inches: 10
+
+10 inches is 25.4 centiemters.
+
+=========================
+Thank you for converting.
+```
+
+```
+Welcome to the converter. Please choose from the following menu:
+  1. Convert from cm to in
+  2. Convert from in to cm
+
+Your choice: 2
+Enter the number of inches: 100
+
+100 inches is 254.0 centimeters.
+
+
+=========================
+Thank you for converting.
+```
+
+```
+Welcome to the converter. Please choose from the following menu:
+  1. Convert from cm to in
+  2. Convert from in to cm
+
+Your choice: 1
 Enter the number of centimeters: 3
-3 centimeters is 1.1811 inches
+
+3 centimeters is 1.1811 inches.
+
+
+=========================
+Thank you for converting.
 ```
 
 ```
+Welcome to the converter. Please choose from the following menu:
+  1. Convert from cm to in
+  2. Convert from in to cm
 
+Your choice: 2
+Enter the number of inches: 33
+
+33 inches is 83.82000000000001 centimeters.
+
+
+=========================
+Thank you for converting.
 ```
+
 
 <br /><br />
 
@@ -46,15 +92,13 @@ Enter the number of centimeters: 3
 
 ## STARTER CODE
 
-You may use the following code as starter code. Be sure to put both files in the same directory (folder)!
+You may use the following code as starter code.
 
 ^callout file-download
 
-[`circle.py`](https://drive.google.com/uc?export=download&id=1Zzt9GCBgnuImTNvcy9-KlR8THpNvANJL)
+[`cm_and_inch_converter.py`](https://drive.google.com/uc?export=download&id=1VyPapM2ABEB_t9acVqXJfx0vRnuJsC1m)
 
-[`circle_util.py`](https://drive.google.com/uc?export=download&id=1UKz3fOvGfX7HgjDcCA-PnhKsaId4oNQs)
-
-Download these files and load them into your IDE *in the same directory*.
+Download this file and load it into your IDE.
 
 ^callout-end
 
@@ -64,62 +108,53 @@ Download these files and load them into your IDE *in the same directory*.
 
 ^acc
 
-^^^ `circle.py`
+^^^ `cm_and_inch_converter.py`
 
 ```python ^copy
 
-# SOLUTION for `circle.py`
+# SOLUTION for `cm_and_inch_converter_SOLUTION.py`
 
-# FILE NAME: circle.py
-# This is the main driver; it will rely on functions in `circle_util.py`
+# FILE NAME: cm_and_inch_converter_SOLUTION.py
+# AUTHOR: Dave Ghidiu
+# DATE: 2024-02-26
+# DESCRIPTION: The user gets to convert from either centimeters to inches or inches to centimeters.
 
-import circle_util
+def main():
+    cm_and_inch_converter()
 
-radius = float(input('What is the circle radius? '))
+def cm_and_inch_converter():
+    print('Welcome to the converter. Please choose from the following menu:')
+    print('  1. Convert from cm to in')
+    print('  2. Convert from in to cm')
 
-# circle_util.test()
+    print()
 
-print()
-print()
+    choice = int(input('Your choice: '))
 
-circle_util.area(radius)
-print()
-circle_util.circumference(radius)
+    if choice == 1:
+        centi = int(input('Enter the number of centimeters: '))
+        converted = centi / 2.54
+        print()
+        print(f'{centi} centimeters is {converted:.4f} inches.')
+    else:
+        inches = int(input('Enter the number of inches: '))
+        converted = inches * 2.54
+        print()
+        print(f'{inches} inches is {converted} centimeters.')
 
+    print()
+    print()
+    print('=========================')
+    print('Thank you for converting.')
+
+
+main()
 
 ```
 
 <br /><br />
 
-*^icon download* [`circle.py`](https://drive.google.com/uc?export=download&id=19hg-qDHE6GtViuskEMn0nieS8dG4XxPe)
-
-^^^ `circle_util.py`
-
-```python ^copy
-
-# FILE NAME: circle_util.py
-# This is a helper file for the `circle.py` file. It contains functions that
-# the main program can call!
-
-import math
-
-def test():
-    print('circle_util is working')
-
-def area(r):
-    circle_area = math.pi * r * r
-    print(f'The area is {circle_area}')
-
-def circumference(radius):
-    circle_circumference = 2 * math.pi * radius
-    print(f'The circumference is {circle_circumference}')
-
-```
-
-<br /><br />
-
-*^icon download* [`circle_util.py`](https://drive.google.com/uc?export=download&id=1EumxM9tBuyFNzapsV-p7Yj1ddfrFbWYK)
-
+*^icon download* [`cm_and_inch_converter_SOLUTION.py`](https://drive.google.com/uc?export=download&id=1TfLEDNbsX__cHhQnpT4hhaQCqrT3UoQJ)
 
 ^acc-end
 
