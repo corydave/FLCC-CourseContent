@@ -26,11 +26,12 @@ Welcome to the converter. Please choose from the following menu:
   1. Convert from cm to in
   2. Convert from in to cm
 
-Your choice: 3
+Your choice: 2
 
 Enter the number of inches: 10
 
-10 inches is 25.4 centiemters.
+10 inches is 25.4 centimeters.
+
 
 =========================
 Thank you for converting.
@@ -112,9 +113,9 @@ Download this file and load it into your IDE.
 
 ```python ^copy
 
-# SOLUTION for `cm_and_inch_converter_SOLUTION.py`
+# SOLUTION for `cm_and_inch_converter.py`
 
-# FILE NAME: cm_and_inch_converter_SOLUTION.py
+# FILE NAME: cm_and_inch_converter.py
 # AUTHOR: Dave Ghidiu
 # DATE: 2024-02-26
 # DESCRIPTION: The user gets to convert from either centimeters to inches or inches to centimeters.
@@ -126,25 +127,34 @@ def cm_and_inch_converter():
     print('Welcome to the converter. Please choose from the following menu:')
     print('  1. Convert from cm to in')
     print('  2. Convert from in to cm')
-
     print()
-
     choice = int(input('Your choice: '))
 
     if choice == 1:
+        # Get the number of cm from the user
         centi = int(input('Enter the number of centimeters: '))
+
+        # Take that number and divide by 2.54 and store it
         converted = centi / 2.54
+        
+        # Output the result!
         print()
         print(f'{centi} centimeters is {converted:.4f} inches.')
+
     else:
+        # Get the number of in from the user
         inches = int(input('Enter the number of inches: '))
+
+        # Take that number and multiply by 2.54 and store it
         converted = inches * 2.54
+        
+        # Output the result!
         print()
         print(f'{inches} inches is {converted} centimeters.')
 
-    print()
-    print()
-    print('=========================')
+
+    # Say goodbye!
+    print('\n\n=========================')
     print('Thank you for converting.')
 
 
