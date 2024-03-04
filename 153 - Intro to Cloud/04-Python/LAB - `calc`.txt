@@ -1,0 +1,137 @@
+^colors bg:#492000 text:#ffffff link:#ccccff
+
+^^ LAB - `calc`
+
+## DESCRIPTION
+
+This lab explores how multiple modules (files, scripts) can work together. 
+
+In this exercise, you will be responsible for both `calc.py` and `calc_util.py`.
+
+This is a very simply four function calculator. There is nothing tricky here - just addition, subtraction, multiplication, and division. Since we have explored `if` statements we can have some decision making and logic flow that kinda-sorta mimics a traditional calculator. 
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab - there are two files:
+    * `calc.py` is what will be run when you submit. You have an empty canvas with this file.
+
+    * `calc_util.py` is the companion code you will also be submitting. There is some structure to the starter code.
+
+* Modify both files to mirror the sample output. Note that the following methods *must be present* in the utility module:
+    * `add(num1, num2)`
+    * `subtract(num1, num2)`
+    * `divide(num1, num2)`
+    * `multiply(num1, num2)`
+
+* You should cast the input as `float` when you capture the numbers from the users.
+
+* Be sure to fill out the comments at the top of the files as well as the bottom of the files. This includes your name, date, a brief description of the program, and some reflection pieces.
+
+## SAMPLE OUTPUT
+
+
+```
+Welcome to the Calculator
+
+What is the first number? 4
+What is the second number? 5
+
+Please choose from the following menu:
+  1. Add the two numbers
+  2. Subtract the two numbers
+  3. Multiply the two numbers
+  4. Divide the two numbers
+
+Enter selection: 1
+SUM = 9.0
+```
+
+<br />
+
+```
+Welcome to the Calculator
+
+What is the first number? 10
+What is the second number? 2
+
+Please choose from the following menu:
+  1. Add the two numbers
+  2. Subtract the two numbers
+  3. Multiply the two numbers
+  4. Divide the two numbers
+
+Enter selection: 2
+DIFFERENCE = 8.0
+```
+
+<br />
+
+```
+Welcome to the Calculator
+
+What is the first number? -7
+What is the second number? -3
+
+Please choose from the following menu:
+  1. Add the two numbers
+  2. Subtract the two numbers
+  3. Multiply the two numbers
+  4. Divide the two numbers
+
+Enter selection: 3
+PRODUCT = 21.0
+```
+
+<br />
+
+```
+Welcome to the Calculator
+
+What is the first number? 90
+What is the second number? 6
+
+Please choose from the following menu:
+  1. Add the two numbers
+  2. Subtract the two numbers
+  3. Multiply the two numbers
+  4. Divide the two numbers
+
+Enter selection: 4
+QUOTIENT = 15.0
+```
+
+<br />
+
+```
+Welcome to the Calculator
+
+What is the first number? 1
+What is the second number? 2
+
+Please choose from the following menu:
+  1. Add the two numbers
+  2. Subtract the two numbers
+  3. Multiply the two numbers
+  4. Divide the two numbers
+
+Enter selection: 5
+You did not enter a valid choice. You lose. Good day.
+```
+
+
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`calc.py`](https://drive.google.com/uc?export=download&id=1ybwuYe08NVwrhqEFPXmRVPj4dppP6XtI)
+
+[`calc_util.py`](https://drive.google.com/uc?export=download&id=1ilPslHlSy2axhBIt0B9TxBcX9eO6EaRk)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+<br /><br />
