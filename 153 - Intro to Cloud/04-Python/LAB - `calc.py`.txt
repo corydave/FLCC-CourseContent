@@ -1,6 +1,6 @@
 ^colors bg:#492000 text:#ffffff link:#ccccff
 
-^^ LAB - `calc.`
+^^ LAB - `calc.py`
 
 ## DESCRIPTION
 
