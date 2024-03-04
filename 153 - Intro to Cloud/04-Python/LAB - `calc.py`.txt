@@ -134,13 +134,14 @@ Download these files and load them into your IDE.
 
 ^callout-end
 
-<br />
 
 ^callout external-link-alt
 
 <br />
 
 Click here to submit your work.
+
+Note that you need to submit both `calc.py` and `calc_util.py`.
 
 ^callout-end
 
