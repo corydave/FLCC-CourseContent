@@ -43,26 +43,4 @@ Download these files and load them into your IDE.
 ^callout-end
 
 
-```python ^copy
-
-# FILE NAME - while_loop_count.py
-
-# NAME - 
-# DATE - 
-# DESCRIPTION - 
-
-def main():
-    while_loop_count()
-
-def while_loop_count():
-
-
-
-main()
-
-
-```
-
-
-
 <br /><br />
