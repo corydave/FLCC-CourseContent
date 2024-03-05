@@ -69,29 +69,5 @@ Download these files and load them into your IDE.
 ^callout-end
 
 
-```python ^copy
-
-# FILE NAME - authenticate.py
-
-# NAME - 
-# DATE - 
-# DESCRIPTION - 
-
-PASSWORD = 'tooManySecrets'
-
-def main():
-    authenticate()
-
-def authenticate():
-
-    
-
-    
-main()
-
-
-```
-
-
 
 <br /><br />
