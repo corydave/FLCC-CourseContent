@@ -54,41 +54,5 @@ Download these files and load them into your IDE.
 ^callout-end
 
 
-```python ^copy
-
-for_loop_start_end_increment.py
-Last week
-Sat 1:38 PM
-
-You shared an item
-Text
-for_loop_start_end_increment.py
-Can view
-Anyone on the internet with this link
-Sat 1:37 PM
-
-You uploaded an item
-Text
-for_loop_start_end_increment.py
-# FILE NAME - for_loop_start_end_increment.py
-
-# NAME - 
-# DATE - 
-# DESCRIPTION - 
-
-def main():
-    for_loop_start_end_increment()
-
-def for_loop_start_end_increment():
-    
-
-
-
-main()
-
-
-```
-
-
 
 <br /><br />
