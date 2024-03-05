@@ -77,26 +77,6 @@ Download these files and load them into your IDE.
 
 ^callout-end
 
-
-```python ^copy
-
-# FILE NAME - rectangle_redux.py
-
-# NAME - 
-# DATE - 
-# DESCRIPTION - 
-
-def main():
-    rectangles()
-
-def rectangles():
-
-
-
-main()
-
-```
-
-
+    
 
 <br /><br />
