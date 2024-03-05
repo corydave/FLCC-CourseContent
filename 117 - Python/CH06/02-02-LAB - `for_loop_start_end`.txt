@@ -52,24 +52,4 @@ Download these files and load them into your IDE.
 ^callout-end
 
 
-```python ^copy
-
-# FILE NAME - for_loop_range.py
-
-# NAME - 
-# DATE - 
-# DESCRIPTION - 
-
-def main():
-    for_loop_range()
-
-def for_loop_range():
-
-
-main()
-
-```
-
-
-
 <br /><br />
