@@ -56,27 +56,4 @@ Download these files and load them into your IDE.
 ^callout-end
 
 
-```python ^copy
-
-# FILE NAME - while_loop_guess.py
-
-# NAME - 
-# DATE - 
-# DESCRIPTION - 
-
-def main():
-    while_loop_guess()
-
-def while_loop_guess():
-
-
-
-main()
-
-
-
-```
-
-
-
 <br /><br />
