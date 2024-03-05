@@ -73,28 +73,6 @@ Download these files and load them into your IDE.
 ^callout-end
 
 
-```python ^copy
-
-# FILE NAME - while_loop_guess_high_low.py
-
-# NAME - 
-# DATE - 
-# DESCRIPTION - 
-
-SECRET_NUMBER = 33
-
-def main():
-    high_low()
-
-def high_low():
-
-
-    
-
-main()
-
-```
-
 
 
 <br /><br />
