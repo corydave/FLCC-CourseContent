@@ -76,39 +76,5 @@ Download these files and load them into your IDE.
 ^callout-end
 
 
-```python ^copy
-
-# FILE NAME - for_loop_list.py
-
-# NAME - 
-# DATE - 
-# DESCRIPTION - 
-
-def main():
-    doggo_names = get_doggo_names()
-    output_names(doggo_names)
-
-def get_doggo_names():
-    name = ''
-    names = []
-    while name != 'DONE':
-        name = input('Name of doggo: ')
-        if name != 'DONE':
-            names.append(name)
-    
-    return names
-
-def output_names(doggo_names):
-
-    print()
-
-    # Insert your code to output the names in the list here:
-
-main()
-
-
-```
-
-
 
 <br /><br />
