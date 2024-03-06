@@ -20,7 +20,7 @@ Write a program that:
 
 ## FLOWCHART
 
-<center><img src="https://docs.google.com/drawings/d/e/2PACX-1vT9rn6tn93VUlcw9JPzmdUNoFxu5Gd64xO2K8zkXCIk1lxXoi7kFWK5vfSafWKMqqAs441ryinp7GYq/pub?w=750&amp;h=1303" alt="A flowchart that shows a program that generates random numbers repeatedly." title="A flowchart that shows a program that generates random numbers repeatedly." /></center>
+<center><img src="https://docs.google.com/drawings/d/e/2PACX-1vT9rn6tn93VUlcw9JPzmdUNoFxu5Gd64xO2K8zkXCIk1lxXoi7kFWK5vfSafWKMqqAs441ryinp7GYq/pub?w=750&amp;h=1110" alt="A flowchart that shows a program that generates random numbers repeatedly." title="A flowchart that shows a program that generates random numbers repeatedly." /></center>
 
 
 <br /><br />
@@ -82,7 +82,7 @@ Thank you for playing.
 
 ## VIDEO WALKTHROUGH
 
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/ABC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 15px !important;"></iframe>
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/W4_u2U6QczM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 15px !important;"></iframe>
 
 <br /><br />
 
