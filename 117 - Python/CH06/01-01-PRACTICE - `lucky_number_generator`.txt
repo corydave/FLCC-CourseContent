@@ -1,0 +1,160 @@
+^^ PRACTICE - `lucky_number_generator`
+
+
+## DESCRIPTION
+
+Write a program that:
+
+1. Welcomes the user to the **Lucky Number Generator**.
+2. Generate a random number (1-50).
+3. Ask the user if they want another number.
+    1. If YES, generate another number and ask again.
+    2. If NO, end the program.
+4. Provide a departing message.
+
+## SPECIFICATIONS
+
+* File name: `lucky_number_generator.py`
+* There is no grade associated with this practice exercise
+* There is a video walkthrough below
+
+## FLOWCHART
+
+<center><img src="https://docs.google.com/drawings/d/e/2PACX-1vT9rn6tn93VUlcw9JPzmdUNoFxu5Gd64xO2K8zkXCIk1lxXoi7kFWK5vfSafWKMqqAs441ryinp7GYq/pub?w=750&amp;h=1303" alt="A flowchart that shows a program that generates random numbers repeatedly." title="A flowchart that shows a program that generates random numbers repeatedly." /></center>
+
+
+<br /><br />
+
+## SAMPLE OUTPUT
+
+```
+Welcome to the Lucky Number Generator!
+46
+Would you like a lucky number (y/n)? y
+14
+Would you like a lucky number (y/n)? y
+13
+Would you like a lucky number (y/n)? n
+
+Thank you for playing.
+```
+
+```
+Welcome to the Lucky Number Generator!
+23
+Would you like a lucky number (y/n)? n
+
+Thank you for playing.
+```
+
+```
+Welcome to the Lucky Number Generator!
+11
+Would you like a lucky number (y/n)? y
+32
+Would you like a lucky number (y/n)? y
+8
+Would you like a lucky number (y/n)? y
+13
+Would you like a lucky number (y/n)? y
+44
+Would you like a lucky number (y/n)? y
+40
+Would you like a lucky number (y/n)? y
+49
+Would you like a lucky number (y/n)? y
+50
+Would you like a lucky number (y/n)? y
+16
+Would you like a lucky number (y/n)? y
+47
+Would you like a lucky number (y/n)? y
+5
+Would you like a lucky number (y/n)? y
+16
+Would you like a lucky number (y/n)? n
+
+Thank you for playing.
+```
+
+
+<br /><br />
+
+## VIDEO WALKTHROUGH
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/ABC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 15px !important;"></iframe>
+
+<br /><br />
+
+## STARTER CODE
+
+You may use the following code as starter code.
+
+^callout file-download
+
+[`lucky_number_generator.py`](https://drive.google.com/uc?export=download&id=1HZXcnWILtF4YlkciMy9L1gL_cICm7yWF)
+
+Download this file and load it into your IDE.
+
+^callout-end
+
+<br /><br />
+
+## SOLUTION
+
+^acc
+
+^^^ `lucky_number_generator.py`
+
+```python ^copy
+
+# SOLUTION for `lucky_number_generator.py`
+
+# FILE NAME: lucky_number_generator.py
+# AUTHOR: Dave Ghidiu
+# DATE: 2024-03-056
+# DESCRIPTION: A lucky number, 1-50, is provided to the user. They can keep generating more lucky numbers until they want to quit.
+
+
+import random
+
+def main():
+    lucky_number_generator()
+
+def lucky_number_generator():
+
+    # Welcome the user
+    print('Welcome to the Lucky Number Generator!')
+
+    # Create the variable to capture the user's choice - let's
+    # call it `choice`. Let's also give it an initial value 
+    # of 'y'
+    choice = 'y'
+
+    # Create a loop that repeats as long as `choice` equals 'y'
+    while choice.lower() == 'y':
+
+        # Output a random number between 1 and 50
+        print(random.randint(1, 50))
+
+        # Give the user a choice to play again
+        choice = input('Would you like a lucky number (y/n)? ')
+
+    # At this point, the loop is over, so code below
+    # here will *always* execute. Let's thank the 
+    # user for playing!
+    print('\nThank you for playing.')
+    
+
+main()
+
+```
+
+<br /><br />
+
+*^icon download* [`lucky_number_generator_SOLUTION.py`](https://drive.google.com/uc?export=download&id=1Y5A3O9688iSjEmPlzZfoTZaAD5CCNFa8)
+
+^acc-end
+
+
+<br /><br />
