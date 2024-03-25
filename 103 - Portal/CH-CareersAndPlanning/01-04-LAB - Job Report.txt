@@ -1,14 +1,199 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="/shared/Course File templates/Standard/pages/../_assets/thirdpartylib/bootstrap-4.3.1/css/bootstrap.min.css">
+   <!-- Font Awesome CSS -->
+   <link rel="stylesheet" href="/shared/Course File templates/Standard/pages/../_assets/thirdpartylib/fontawesome-free-5.9.0-web/css/all.min.css">
+   <!-- prism.min.css for code linting -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/themes/prism.min.css">
+   <!-- Template CSS -->
+   <link rel="stylesheet" href="/shared/Course File templates/Standard/pages/../_assets/css/styles.min.css">
+   <link rel="stylesheet" href="/shared/Course File templates/Standard/pages/../_assets/css/custom.css">
+<style>
+  code {
+    background-color: #f5f2f0;
+    color: #000;
+    border-radius: .25em;
+    padding: 0 .25em 0 .25em;
+}
+  .h1, .h2, .h3, .h4, .h5, .h6,
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+.h2, h2 {
+    color: #781346;
+}
+.accentColor .h2, .accentColor h2 {
+    color: #f7f7f7;
+}
+.accentDark .h2, .accentDark h2 {
+    color: #e9e9e9;
+}
+.two-col-panels .card .card-body h2 {
+    color: #781346;
+    margin-top: 0px;
+}
+
+  .accentOutline {
+    border-width: 3px; 
+    border-style: solid;
+    border-radius: .25em;
+    border-color: #781346;
+}
+.accentColor {
+    background-color: #781346;
+    color: #f7f7f7;
+}
+.accentColor h1, .accentColor h2, .accentColor h3, .accentColor h4, .accentColor h5, .accentColor h6 {
+    color: #f7f7f7;
+} 
+.accentColor a  {
+    color: #dde;
+    border-color: #dde;
+    font-weight: bold;
+    border-bottom-width: 2px;
+}
+.jumbotron {
+    background-color: #781346;
+    color: #f7f7f7;
+}
+.jumbotron a {
+    color: #f7f7f7;
+    border-color: #dde;
+}
+
+.accentDark {
+    background-color: #555;
+    color: #e9e9e9;
+}
+.accentDark h1, .accentDark h2, .accentDark h3, .accentDark h4, .accentDark h5, .accentDark h6 {
+    color: #e9e9e9;
+} 
+.accentDark a {
+    color: lightblue;
+    border-color: lightblue;
+}
+.accentLite {
+    background-color: #e3e9f1;
+    color: black;
+}
+.accentLite h1, .accentLite .h1, .accentLite h3, .accentLite .h3, .accentLite h4, .accentLite .h4, .accentLite h5, .accentLite .h5, .accentLite h6, .accentLite .h6 {
+    color: black;
+} 
+.accentLite h2, .accentLite .h2 {
+    color: #781346;
+}
+
+.card-graphic {
+    border-color: #781346;
+}
+
+.card-graphic .card-body .card-icon .fa,
+.card-graphic .card-body .card-icon .fas, 
+.card-graphic .card-body .card-icon .fab {
+    font-size: 3.125rem;
+    min-width: 5.313rem;
+    text-align: center;
+    color: #781346;
+}
+
+ol.large-number li:before {
+    color: #781346;
+}
+
+ol.box-number li:before,
+ol.box-alpha li:before {
+    background-color: #781346;
+    color: #f7f7f7;
+}
+
+  /*
+    .center-column {
+    border-width: 3px; 
+    border-style: solid;
+    border-radius: .25em;
+    border-color: #781346;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+*/
+  .table-responsive td,
+.table-responsive tr,
+.table-responsive caption {
+    background-color: #fff;
+}
+  .col, .col-1, .col-10, .col-11, .col-12, 
+.col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, 
+.col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, 
+.col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, 
+.col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, 
+.col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, 
+.col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, 
+.col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, 
+.col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, 
+.col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, 
+.col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, 
+.col-xl-8, .col-xl-9, .col-xl-auto {
+    padding-left: 1px;
+    padding-right: 1px;
+}
+</style>
+   <title>Page</title>
+</head>
+<body>
+<div class="container-fluid">
+<h1 class="jumbotron">
+                         LAB - Job Report
+                    </h1>
+<h1 id="description">Description</h1>
+<div style="float:left;"><a href="https://docs.google.com/document/d/1DqlF9750CCaLl6M9yOBWFNbPreEIJy4DKo5QTfFDha4/copy" target="_blank"><img src="https://lh3.googleusercontent.com/d/1DqlF9750CCaLl6M9yOBWFNbPreEIJy4DKo5QTfFDha4=w320" alt="Thumbnail of a Google Doc." title="Thumbnail of a Google Doc." style="border:2px solid #434343;margin:5px;margin: 0pt 10pt 10pt 0pt;float:left;width:200px;" /></a></div>
+
+<p>It&#39;s time to look for a job! Using the search engines you&#39;ve explored, find a job that you think you would be qualified for after getting this degree. </p>
+<p>You will have to get a copy of the <a target='_blank' href="https://docs.google.com/document/d/1DqlF9750CCaLl6M9yOBWFNbPreEIJy4DKo5QTfFDha4/copy">Job Report Google Doc</a> and answer the questions. This experience is designed to help you interrogate what is really important in a job and consider the different variables that might affect your calculus. You&#39;ll also have to think about what actions you&#39;ll need to do to prepare for a job (schooling, certifications, internships, etc.).</p>
+<div style="clear:left;"></div>
+
+<h1 id="specifications">Specifications</h1>
+<ul>
+<li><p>Submit a link to a cloud-based document such as Google Docs.</p>
+</li>
+<li><p>Verify that the document is shared such that <a target='_blank' href="https://www.youtube.com/watch?v=jFGXfLDctcI">&quot;Anyone with the link can COMMENT&quot;</a>.</p>
+</li>
+</ul>
+<!-- callout begin -->
+<div class="card card-graphic">
+  <div class="card-body">
+    <div class="card-icon">
+      <p><span class="fas fa-external-link-alt"></p>
+    </div>
+    <div class="card-text"><br />
+
+<p>Click here to submit your work.</p>
+    </div>
+  </div>
+</div> <!-- end callout -->
+
+<!-------------------------------------------------------------->    
+<pre style="display: none">
+--------------------------------------------------
+Source markdown in custom md-to-brightspace format
+--------------------------------------------------
+^version 2023-06-08^
+^source markdown start^
 ^^ LAB - Job Report
 
 # Description
 
-<div style="float:left;"><a href="https://docs.google.com/document/d/1DqlF9750CCaLl6M9yOBWFNbPreEIJy4DKo5QTfFDha4/copy" target="_blank"><img src="https://docs.google.com/drawings/d/e/2PACX-1vTlIPT04ZmBVYpyuWGr162VGkv95AVzH705VL1zyCYGU3BGFeOXg67wSfCSOTPgUYpT6Y1hPMl-d_CG/pub?w=200&h=280" alt="A thumbnail of the Linux Walkthrough assignment." style="margin: 0pt 10pt 10pt 0pt;float:left;"  /></a></div>
+&lt;div style="float:left;">&lt;a href="https://docs.google.com/document/d/1DqlF9750CCaLl6M9yOBWFNbPreEIJy4DKo5QTfFDha4/copy" target="_blank">&lt;img src="https://lh3.googleusercontent.com/d/1DqlF9750CCaLl6M9yOBWFNbPreEIJy4DKo5QTfFDha4=w320" alt="Thumbnail of a Google Doc." title="Thumbnail of a Google Doc." style="border:2px solid #434343;margin:5px;margin: 0pt 10pt 10pt 0pt;float:left;width:200px;" />&lt;/a>&lt;/div>
 
 It's time to look for a job! Using the search engines you've explored, find a job that you think you would be qualified for after getting this degree. 
 
 You will have to get a copy of the [Job Report Google Doc](https://docs.google.com/document/d/1DqlF9750CCaLl6M9yOBWFNbPreEIJy4DKo5QTfFDha4/copy) and answer the questions. This experience is designed to help you interrogate what is really important in a job and consider the different variables that might affect your calculus. You'll also have to think about what actions you'll need to do to prepare for a job (schooling, certifications, internships, etc.).
 
-<div style="clear:left;"></div>
+&lt;div style="clear:left;">&lt;/div>
 
 # Specifications
 
@@ -18,8 +203,18 @@ You will have to get a copy of the [Job Report Google Doc](https://docs.google.c
 
 ^callout external-link-alt
 
-<br />
+&lt;br />
 
 Click here to submit your work.
 
 ^callout-end
+^source markdown end^
+</pre>
+<!-------------------------------------------------------------->    
+</div>
+<script src="/shared/Course File templates/Standard/pages/../_assets/thirdpartylib/jquery/jquery-3.3.1.slim.min.js"></script>
+<script src="/shared/Course File templates/Standard/pages/../_assets/thirdpartylib/popper-js/popper.min.js"></script>
+<script src="/shared/Course File templates/Standard/pages/../_assets/thirdpartylib/bootstrap-4.3.1/js/bootstrap.min.js"></script>
+<!-- Template JavaScript -->
+<script src="/shared/Course File templates/Standard/pages/../_assets/js/scripts.min.js"></script>
+</body></html>
