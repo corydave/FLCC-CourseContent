@@ -1,0 +1,128 @@
+^^ PRACTICE - `doggo_name_collector`
+
+
+## DESCRIPTION
+
+Write a program that:
+
+1. Ask the user to input the name of a doggo.
+2. As long as *DONE* is not entered, the add the name to a list of doggo names.
+3. Repeat until *DONE* is entered.
+
+## SPECIFICATIONS
+
+* File name: `doggo_name_collector.py`
+* There is no grade associated with this practice exercise
+* There is a video walkthrough below
+
+## FLOWCHART
+
+<center><img src="https://docs.google.com/drawings/d/e/2PACX-1vSQa3SIv7l5qLXfS1MhvmSdGUsIpLOJpi_YrZ6kzJM7ds2zqB1lL0Iv0kMLUA8dLvF-Sx1_9T9TYhWT/pub?w=750&amp;h=1110" alt="A flowchart that shows a program that collects names of doggos, input from the user." title="A flowchart that shows a program that collects names of doggos, input from the user." style="max-width:95%;" /></center>
+
+
+<br /><br />
+
+## SAMPLE OUTPUT
+
+```
+DOGGO NAME LIST
+===============
+
+Name of doggo: a
+Name of doggo: b
+Name of doggo: c
+Name of doggo: DONE
+['a', 'b', 'c']
+```
+
+```
+DOGGO NAME LIST
+===============
+
+Name of doggo: Maggie
+Name of doggo: Quinnie
+Name of doggo: BB-8
+Name of doggo: DONE
+['Maggie', 'Quinnie', 'BB-8']
+```
+
+```
+DOGGO NAME LIST
+===============
+
+Name of doggo: Yogi
+Name of doggo: Rudy
+Name of doggo: Piper
+Name of doggo: Josie
+Name of doggo: Oscar
+Name of doggo: Nash
+Name of doggo: DONE
+['Yogi', 'Rudy', 'Piper', 'Josie', 'Oscar', 'Nash']
+```
+
+
+<br /><br />
+
+## VIDEO WALKTHROUGH
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/ABC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 15px !important;"></iframe>
+
+<br /><br />
+
+## STARTER CODE
+
+You may use the following code as starter code.
+
+^callout file-download
+
+[`doggo_name_collector.py`](https://drive.google.com/uc?export=download&id=1tp3LQX_VifqB-TXeDdLx34OjDYhsFLrz)
+
+Download this file and load it into your IDE.
+
+^callout-end
+
+<br /><br />
+
+## SOLUTION
+
+^acc
+
+^^^ `doggo_name_collector.py`
+
+```python ^copy
+
+# SOLUTION for `doggo_name_collector.py`
+
+# NAME: Dave Ghidiu
+# DATE: 2024-03-24
+# BRIEF DESCRIPTION: Collect names of doggos from the user and store in a list
+
+
+def main():
+    doggo_names = get_doggo_names()
+
+def get_doggo_names():
+    
+    print('DOGGO NAME LIST\n===============\n')
+
+    name = ''
+    names = []
+    while name != 'DONE':
+        name = input('Name of doggo: ')
+        if name != 'DONE':
+            names.append(name)
+    
+    print(names)    
+
+main()
+
+```
+
+<br /><br />
+
+*^icon download* [`lucky_number_generator_SOLUTION.py`](https://drive.google.com/uc?export=download&id=1FttSc4LtVo6hnTgjlKePCxVa-H1AukQH)
+
+^acc-end
+
+
+<br /><br />
