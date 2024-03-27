@@ -65,7 +65,7 @@ Name of doggo: DONE
 
 ## VIDEO WALKTHROUGH
 
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/ABC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 15px !important;"></iframe>
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/aMh0-yNCWcc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 15px !important;"></iframe>
 
 <br /><br />
 
