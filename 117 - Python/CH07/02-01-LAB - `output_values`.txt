@@ -66,58 +66,5 @@ Download these files and load them into your IDE.
 
 ^callout-end
 
-^acc
-
-^^^ `output_values.py`
-
-```python ^copy
-
-# FILE NAME - output_values.py
-
-# NAME - 
-# DATE - 
-# DESCRIPTION - 
-
-def main():
-    output_values()
-
-def output_values():
-    # Create a list of size 5 that is empty
-    # Note that 'None' means there is no type assigned.
-    # 'None' is not 0, False, or the empty String.
-    numbers =[None] * 5
-
-    # Walk through the list and grab a number from the
-    # user. Insert that number into the next available cell
-    for x in range(len(numbers)):
-        numbers[x] = int(input('Enter a number: '))
-
-    print()
-    
-    #########################################
-    #               YOUR JOB:               #
-    #                                       #
-    # 1. Sort the list                      #
-    # 2. Print out the list naturally       #
-    # 3. Print out the list in a pretty way #
-    #                                       #
-    #########################################
-
-    # Sort the list
-    
-
-    # Print out the list naturally:
-    
-
-    # Print out the list in a pretty way:
-    
-    
-    
-    
-main()
-
-```
-
-^acc-end
 
 <br /><br />
