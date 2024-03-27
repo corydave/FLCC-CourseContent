@@ -154,88 +154,9 @@ You may use the following code as starter code. You will need to change the comm
 
 [`average_values.py`](https://drive.google.com/uc?export=download&id=1HcSaE5qzQ_JZd09nqGKFrjOz3_JKz6GU)
 
-Download these files and load them into your IDE.
+Download this file and load it into your IDE.
 
 ^callout-end
 
-^acc
-
-^^^ `fortune_machine.py`
-
-```python ^copy
-
-# FILE NAME - fortune_machine.py
-
-# NAME - 
-# DATE - 
-# DESCRIPTION - 
-
-import random
-
-def main():
-    fortune_teller()
-
-def fortune_teller():
-    # Provide a welcome message
-    welcome_message()
-    
-    # Create a list and populate it with
-    # the function "get_fortunes()"
-    fortune_list = get_fortunes()
-    
-    # Keep dispensing fortunes until the user
-    # has had enough
-    dispense_fortunes(fortune_list)
-    
-    # Thank the user.
-    closing_message()
-    
-    
-    
-
-def welcome_message():
-    '''
-    This method should do nothing more than print out
-    a welcome message to the user.
-    '''
-
-    
-    
-    
-def get_fortunes():
-    '''
-    This method should prompt the user for fortunes. Every time
-    the user enters a fortune, it should be stored into a list.
-    Once the user types in "DONE", then theis method terminates
-    and returns the list to the "fortune_teller()" function. The
-    list is stored as "fortune_list".
-    '''
-    
-
-    
-    
-def dispense_fortunes(list):
-    '''
-    This function will randomly pick a fortune from the list and print
-    it out. The user is given an option to get another fortune. As long
-    as the user does not press "N" or "n", then they will be served
-    more fortunes.
-    '''
-
-    
-    
-    
-def closing_message():
-    '''
-    A closing message to the user.
-    '''
-    
-    
-    
-    
-main()
-```
-
-^acc-end
 
 <br /><br />
