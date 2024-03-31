@@ -152,7 +152,7 @@ You may use the following code as starter code. You will need to change the comm
 
 ^callout file-download
 
-[`average_values.py`](https://drive.google.com/uc?export=download&id=1HcSaE5qzQ_JZd09nqGKFrjOz3_JKz6GU)
+[`fortune_machine.py`](https://drive.google.com/uc?export=download&id=1HcSaE5qzQ_JZd09nqGKFrjOz3_JKz6GU)
 
 Download this file and load it into your IDE.
 
