@@ -16,6 +16,7 @@ This lab is intended to explore file reading capabilities with Python. In this l
 
 ```
 File name? words01.txt
+
 Wolverine
 Rogue
 Psylocke
@@ -28,6 +29,7 @@ Beast
 
 ```
 File name? words02.txt
+
 Lily
 Marshall
 Barney
@@ -40,6 +42,7 @@ Ted
 
 ```
 File name? words03.txt
+
 blubber
 macadamia
 gazebo
@@ -60,63 +63,19 @@ You may use the following code as starter code. You will need to change the comm
 
 ^callout file-download
 
-[`file_reader.zip`](https://drive.google.com/uc?export=download&id=1T5cGL1ApLhsLPFXzgiJsfsnpwoRys_g-)
+[`file_reader.py`](https://drive.google.com/uc?export=download&id=1UUTp1sDrka8zBbc3H-8vBf2rueAU9jB5)
+
+[`words01.txt`](https://drive.google.com/uc?export=download&id=1ig9v-AGGq1jxBKYNZdcaU-K5kcqMUUBJ)
+
+[`words02.txt`](https://drive.google.com/uc?export=download&id=1sVTLd1bkpXnItgIVAdqWwlDTSaNS31Q0)
+
+[`words03.txt`](https://drive.google.com/uc?export=download&id=1218K9eXA5dEzRKtsNRj8FP0g-hzHvomB)
+
+
 
 Download these files and load them into your IDE.
 
 ^callout-end
-
-^acc
-
-^^^ `file_reader.py`
-
-```
-# FILE NAME - file_reader.py
-
-# NAME - 
-# DATE - 
-# DESCRIPTION - 
-
-```
-
-^^^ `words01.txt`
-
-```
-Wolverine
-Rogue
-Psylocke
-Professor X
-Beast
-
-```
-
-^^^ `words02.txt`
-
-```
-Lily
-Marshall
-Barney
-Robin
-Ted
-
-```
-
-^^^ `words03.txt`
-
-```
-blubber
-macadamia
-gazebo
-spatula
-plethora
-ploy
-foible
-
-```
-
-^acc-end
-
-
 
 
 
