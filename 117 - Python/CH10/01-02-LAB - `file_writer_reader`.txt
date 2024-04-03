@@ -1,0 +1,129 @@
+^^ LAB - `file_writer_reader`
+
+## DESCRIPTION
+This lab is intended to explore file writing capabilities with Python. In this lab, there are three different files on the server - `pokemon.txt`, `marvel.txt`, and `movies.txt`. Your job is to:
+1. Ask the user for the name of a file
+2. Ask them for an entry
+3. Add the entry to the end of the file
+4. Close the file
+5. Open the file and print out the contents
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top!
+
+* Your output must match the Sample Output *exactly*.
+
+## SAMPLE OUTPUT
+
+
+```
+File name? marvel.txt
+Word to add? She-Hulk
+
+Steve Rogers
+Tony Stark
+Thor Odinson
+Bruce Banner
+Natasha Romanoff
+Clint Barton
+Sam Wilson
+Wanda Maximoff
+Pietro Maximoff
+The Vision
+Scott Lang
+Peter Parker
+Carol Danvers
+Darcy Lewis
+Valkyrie
+Korg
+Miek
+Yelena Belova
+Hank Pym
+She-Hulk
+```
+
+<br />
+
+```
+File name? movies.txt
+Word to add? Blair Witch Project
+
+Star Wars: Episode I - The Phantom Menace
+The Sixth Sense
+Toy Story 2
+Austin Powers: The Spy Who Shagged Me
+The Matrix
+Tarzan
+Big Daddy
+The Mummy
+Runaway Bride
+Blair Witch Project
+```
+
+<br />
+
+```
+File name? pokemon.txt
+Word to add? Sandslash
+
+Bulbasaur
+Ivysaur
+Venusaur
+Charmander
+Charmeleon
+Charizard
+Squirtle
+Wartortle
+Blastoise
+Caterpie
+Metapod
+Butterfree
+Weedle
+Kakuna
+Beedrill
+Pidgey
+Pidgeotto
+Pidgeot
+Rattata
+Raticate
+Spearow
+Fearow
+Ekans
+Arbok
+Pikachu
+Raichu
+Sandshrew
+Sandslash
+```
+
+<br />
+
+
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`file_writer_reader.py`](https://drive.google.com/uc?export=download&id=108w0vzTlCz0XgqG9haD0V_q6Y22MoU17)
+
+[`marvel.txt`](https://drive.google.com/uc?export=download&id=1jRv7T2_h57G5XV9ZHU2Mz2G7WCRx1Mat)
+
+[`movies.txt`](https://drive.google.com/uc?export=download&id=1IDEnhyf7kISOGpN8wSOmiI0ffltnaweY)
+
+[`pokemon.txt`](https://drive.google.com/uc?export=download&id=1R3lQXu4Ru72lN8ZSvWt3Aq4tBqvy1Ntr)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+
+
+
+
+
+<br /><br />
