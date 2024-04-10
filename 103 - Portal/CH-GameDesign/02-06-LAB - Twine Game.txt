@@ -85,13 +85,13 @@ You also might find these resources helpful:
 ^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/vumI5fSjn8E?si=xsusuAlvvwi0LEPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 15px !important;"></iframe>
 
 ```html
-<audio src="https://drive.google.com/uc?export=download&id=1lNDtbTLrFsYrV82H_Ux33aOst1FPfpQh" autoplay>
+<audio autoplay><source src="https://innovativedave.com/assets/beep.mp3" type="audio/mpeg"></audio>
 ```
 
 <center>or</center>
 
 ```html
-<iframe width="10" height="10" src="https://www.youtube.com/embed/5tWAtI5Jqp4?&autoplay=1"frameborder="0" allowfullscreen></iframe>
+<iframe width="0%" height="0" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/9585817&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 ```
 
 ^tab
