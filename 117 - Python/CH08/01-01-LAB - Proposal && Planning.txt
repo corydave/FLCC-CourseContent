@@ -3,10 +3,15 @@
 It's time to put everything together! You're going to write a meaningful program from scratch! Your program needs to contain the core elements that we've studied so far - variables, `if` statements, loops, and lists. 
 
 You can write a program that does whatever you'd like. Ideas include (but are not limited to):
-1. A checklist that lets the user create items and remove items
-2. A game
-3. A recipe book
-4. Software that keeps track of stats (for instance a program that tracks baseball stats)
+1. A game
+
+2. Software that keeps track of stats (for instance a program that tracks baseball stats)
+
+^=^ ,,
+
+Software that requires significantly less planning (like a TO-DO list or a Recipe Book) will not be eligible for full credit.
+
+^=
 
 This program does *not* need to be a big endeavor, but it *does* need to be functional and it needs to cover the topics we looked at this semester.
 
@@ -70,7 +75,7 @@ It may take up to 24 hours for me to approve your proposal each time it is submi
 
 </center>
 
-No AI may be used in this program.
+No AI may be used in this program without a meeting with me.
 
 ^=
 
