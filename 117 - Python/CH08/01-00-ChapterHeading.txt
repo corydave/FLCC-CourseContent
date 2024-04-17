@@ -6,20 +6,25 @@ Your next project in this class is a culminating attestation of your understandi
 * conditionals (`if` statements)
 * loops
 * lists
+* files (reading and writing)
 
 There are two stages for this. 
 
 ## STEP 1: Proposal && Planning
 
-The first step is to design a proposal (including a flowchart) that coherently describes the flow of the program. Once you submit that, I will look at it and either greenlight your project or kickback your proposal with feedback for you to consider. You can keep submitting the proposal until I sign off on it.
+The first step is to design a proposal (including a flowchart) that coherently describes the flow of the program. Once you submit that, I will look at it and either greenlight your project or kickback your proposal with feedback for you to consider. You can keep submitting the proposal until I sign off on it. We can also meet via webconference to hammer out a plan.
+
+I find one of the best ways to make flowcharts is [draw.io](https://app.diagrams.net/) though you can use any method you'd like.
 
 Note that it may take up to 24 hours for me to approve your proposal each time it is submitted, so plan accordingly.
+
+<br />
 
 ## STEP 2: Project Implementation
 
 After your proposal has been accepted, you may start working on your program. Your program will not be graded by CodeGrade - I will be grading it manually so make sure you address all the specifications in the project description.
 
-<br /><br />
+<br />
 
 ^=^ ,, 
 
@@ -27,7 +32,7 @@ After your proposal has been accepted, you may start working on your program. Yo
 
 **NOTE:**
 
-No AI may be used in this program.
+No AI may be used in this program without a meeting with me.
 
 </center>
 
