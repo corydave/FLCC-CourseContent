@@ -1,0 +1,55 @@
+^colors bg:#492000 text:#ffffff link:#ccccff
+
+^^ FINAL PROJECT
+
+This class has a final project with the following intent:
+
+^=^ ,,,,
+
+<br />
+
+Learners will produce a document that explains how AWS cloud architectural principles and web content and delivery technologies can be used/applied to managing operations at an organization.				
+
+^=
+
+I'm interested in what *you* think this should look like. We will discuss the specifications in class and formalize the content and format. Things to consider:
+
+## CONTENT COVERED
+* This project needs to demonstrate understanding of the AWS content:
+    * Describing Cloud Concepts
+    * Cloud Economics & Billing
+    * AWS Global Infrastructure
+    * AWS Cloud Security
+    * Networking & Content Delivery
+    * Compute
+    * Storage
+    * Databases
+    * Cloud Architecture
+    * Auto Scaling & Monitoring
+
+## EXPLORING OTHER CLOUD SERVICES
+* This project should involve comparing and contrasting services and prices from other competitors (Microsoft Azure and Google Cloud).
+
+## SCENARIO-BASED
+* There will most likely be a scenario where you will be working at a fictitious company.
+    * A scenario where you work at a company and are tasked with determining if cloud computing is appropriate for your company and, if so, providing a rational argument (using the knowledge accrued through the AWS modules).
+
+## FORMAT
+* Formats might include:
+    * A recorded presentation
+    * A written report
+    * Other formats - open to suggestions
+
+## SPECIFICATIONS
+* The final submission will be a link to your GitHub repository that houses all the materials for your project
+* There must be a `README.md` file that describes the project and links to individual assets.
+* Assets such as documents, spreadsheets, or slide shows should be stored in the cloud and referenced via hyperlinks/embeds when possible.
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
+
