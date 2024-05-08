@@ -1,0 +1,23 @@
+^^ Encoding, Encrypting, and Hashing
+
+<p><img src="https://docs.google.com/drawings/d/e/2PACX-1vQZTX4K8j945VRZ8iX9jGvyvYnNo1eeC3ERv3-bJ6PlGPf6CVLAaeQE5H0oRXUY77Z7Zp3bLvTofCd-/pub?w=907&amp;h=385" alt="A string of numbers that look like a SHA-256 hash." title="A string of numbers that look like a SHA-256 hash." style="display: none; max-width: 100%;"></p>
+
+Do you know the difference between *encoding*, *encrypting*, and *hashing*? 
+
+* *Encoding* translates a data into characters that use a smaller subset (many encoding schemes use letters, numbers, and the "`+`" sign and "`/`" sign only). Data can be easily encoded or decoded - and there is no security or secrets.<br /><br />
+* *Encryption* uses a "key" to lock data into an unrecognizable state - the data can *only* be decrypted with a key. Encrypted data is secure from prying eyes.<br /><br />
+* *Hashing* is a one-way conversion of data. There is no way to derive the original data from a hash.
+
+# Prediction
+
+^=^ ,,,, 12
+
+<br />
+
+Can you think of times when you might want to encode? How about times when you might want to encrypt? What about hashing?
+
+^=
+
+# Experiences for this chapter
+
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vSOhM7OqlrMOHdc48h9j67Qlaa4itEbuYv848PrCh_NY-Wqr_x3osK_tLvmyRGeVArn99cw3PEqLshG/pubhtml/sheet?headers=false&amp;gid=173277705&amp;range=B2:D9'style="width:100%;max-width:720px;height:247px" frameborder="0"></iframe></center>
