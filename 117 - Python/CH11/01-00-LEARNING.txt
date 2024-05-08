@@ -1,0 +1,3 @@
+^^ LEARNING
+
+Learning items are designed to help you understand the curriculum. These items usually include the Jupyter Notebooks and some videos.
