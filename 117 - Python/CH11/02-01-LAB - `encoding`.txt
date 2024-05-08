@@ -1,0 +1,49 @@
+^^ LAB - `encoding`
+
+## DESCRIPTION
+In this program, you are tasked with retrieving data from a text file and encoding them so that they can be used safely in other applications.
+
+The data must be encoded in base64, so the default encoding function in Python should not be used.
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top.
+
+* The output will be a byte literal - no need to convert the result.
+
+## SAMPLE OUTPUT
+
+
+```
+File name? data01.txt
+b'VGhpcyBpcyB0aGUgbWVzc2FnZS4='
+```
+<br />
+
+```
+File name? data02.txt
+b'VGhpcyBpcyB0aGUgY2xvY2sgc29uZwpJJ20gc2V0dGluZyBhbGwgdGhlIGNsb2NrcyB3cm9uZw=='
+```
+
+<br />
+
+```
+File name? data03.txt
+b'Qmx1ZSBza2llcyBmcm9tIHBhaW4/CkNhbiB5b3UgdGVsbCBhIGdyZWVuIGZpZWxkCkZyb20gYSBjb2xkIHN0ZWVsIHJhaWw/CkEgc21pbGUgZnJvbSBhIHZlaWw/CkRPIHlvdSB0aGluayB5b3UgY2FuIHRlbGw/'
+```
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`encoding.zip`](https://drive.google.com/uc?export=download&id=1ys_QtdyNflIJACMClC4BeQgHSlGrpmPa)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+<br /><br />
