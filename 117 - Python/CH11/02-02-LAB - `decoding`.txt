@@ -1,0 +1,49 @@
+^^ LAB - `decoding`
+
+## DESCRIPTION
+In this program, you are tasked with retrieving data from a text file and decoding them so that the data can be used in a downstream application.
+
+The data must be decoded in base64, so the default encoding function in Python should not be used.
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top.
+
+* The output will be a byte literal - no need to convert the result.
+
+## SAMPLE OUTPUT
+
+
+```
+File name? data01.txt
+b'Jagged Little Pill is underrated.'
+```
+<br />
+
+```
+File name? data02.txt
+b"I have seen the writing on the wall\nDon't think I need anything at all\nNo, don't think I'll need anything at all\nAll in all, it was all just bricks in the wall\nAll in all, you were all just bricks in the wall"
+```
+
+<br />
+
+```
+File name? data03.txt
+b'Floating down, through the clouds\nMemories come rushing up to meet me now\nBut in the space between the heavens\nAnd the corner of some foreign field\nI had a dream\nI had a dream'
+```
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`decoding.zip`](https://drive.google.com/uc?export=download&id=1mqoTUJ7W2vesOqaraxSVHCYgDrEBtXu0)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+<br /><br />
