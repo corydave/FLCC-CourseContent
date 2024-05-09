@@ -1,0 +1,45 @@
+^^ LAB - `hashing`
+
+## DESCRIPTION
+In this program, you are tasked with using the `sha256` function in `hashlib` to hash input from the user.
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top.
+
+## SAMPLE OUTPUT
+
+
+```
+Enter the message to hash: Like a worm on a hook Like a knight from some old fashioned book I have saved all my ribbons for thee
+Hashed:  ecfcef7b8e6c8afcb62835940272a8466b97e46589ecd46bda4667d91e9f4887
+```
+<br />
+
+```
+Enter the message to hash: And she shows you where to look among the garbage and the flowers
+Hashed:  a86aec0bcef37e0457595037e97938b71c3177670dca79ba461fac986a0d2cca
+```
+
+<br />
+
+```
+Enter the message to hash: When I look on your eyes Then I find that I'll do fine When I look on your eyes Then I'll do better
+Hashed:  b5285bf408fde86a7948b7f872265b96fdf7254c0a0ed700ead23dfb14f526de
+```
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`hashing.py`](https://drive.google.com/uc?export=download&id=11HVBDxx4rzQFcjmkgBjFndCiIdvqQ3BO)
+
+Download this file and load it into your IDE.
+
+^callout-end
+
+<br /><br />
