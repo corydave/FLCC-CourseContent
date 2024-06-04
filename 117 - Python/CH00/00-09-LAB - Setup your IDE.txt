@@ -1,0 +1,31 @@
+^^ LAB - Setup your IDE
+
+# Description
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/G5zA-pG2q2M?si=eDCUCf3uZq3Ev3T3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius:15px !important;float:right;margin-left:7px;margin-bottom:7px;"></iframe>
+
+This is a quick assignment - you'll be setting up the software where you will program. In the biz, this is called an IDE *(Integrated Development Environment)*. It has a place to type your code (an editor), a way to run your program (a compiler), a way to test your program (a debugger), and all sorts of other bells and whistles.
+
+We will be using a cloud-based IDE for this class. You can find it at https://shell.cloud.google.com - as long as you are logged into your Google account, you'll have access to this IDE!
+
+If you'd rather install an IDE on your computer, the IDE of choice for most developers - across all programming languages - is Visual Studio Code by Microsoft. It's free! It's awesome!
+
+If you want to install that on your computer, go for it. You'll also have to install Python and maybe some other software. I don't provide much technical support for installing on your computer. 
+
+Google Cloud Shell, by the way, is essentially Visual Studio Code.
+
+# Specifications
+
+* Watch the [YouTube video tutorial](https://www.youtube.com/watch?v=G5zA-pG2q2M) above for step-by-step instructions.
+
+* When you set up your IDE, take a screenshot and submit it.
+
+* **IF YOU GET STUCK, I WILL HELP YOU! EMAIL ME AT dave.ghidiu@flcc.edu - I'm here for you!**
+
+^callout external-link-alt
+
+<br />
+
+Submit your work here.
+
+^callout-end
