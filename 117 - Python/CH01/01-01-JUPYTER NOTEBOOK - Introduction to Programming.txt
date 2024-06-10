@@ -1,4 +1,4 @@
-^^ JUPYTER NOTEBOOK - Output in Python
+^^ JUPYTER NOTEBOOK - Introduction to Programming
 
 Jupyter Notebooks are digital files that you can load into your *IDE* (that stands for Integrated Development Environment, or where you code). They are interactive! They have text, videos, collapsible text, and - best of all - code that you can play with!
 
