@@ -1,14 +1,12 @@
-^^ JUPYTER NOTEBOOK - Chapter 1
+^^ JUPYTER NOTEBOOK - Output in Python
 
 Jupyter Notebooks are digital files that you can load into your *IDE* (that stands for Integrated Development Environment, or where you code). They are interactive! They have text, videos, collapsible text, and - best of all - code that you can play with!
 
 I think these notebooks are an awesome way to really dig into code. When you download these, you need to upload them into your IDE (in this case, we use [Google Cloud Shell ](https://shell.cloud.google.com/)) and run them. They are yours to keep. You can dork around with the code and experiment with Python!
 
-<center><iframe src="https://www.youtube.com/embed/eWHMlbZ1RYw?si=8pXqUNdQsBWJMiGv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius:15px !important; max-width:560px; height:315px; width:100%;"></iframe></center>
-
 ^callout file-download
 
-[`ch01_jupyter_notebook.ipynb`](https://drive.google.com/uc?export=download&id=1BGsT728KJHSmzhTmWxpXX5fq4nXI6ajp)
+[`output_in_python.ipynb`](https://drive.google.com/uc?export=download&id=170UmD9O9sFhY4lahjefSP3GmRoXjaY4v)
 
 Download this file and load it into your IDE.
 
