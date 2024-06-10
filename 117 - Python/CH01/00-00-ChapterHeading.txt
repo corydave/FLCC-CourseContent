@@ -2,6 +2,11 @@
 
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vRP3Mx-7OIgiIKCCEKBEMECd-WfnBq9BqgkTfi7jh_PVfh-jFYQS1tgY3ktnhSIWfaiIoo2-R8XSEBS/pub?w=900&amp;h=380" style="display: none; max-width: 100%;" alt="The words HELLO WORLD in computer typeface." title="The words HELLO WORLD in computer typeface.">
 
+<center>
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/Eic2aPX0C5s?si=pX7vUEgQiaiut_wA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius:15px !important;"></iframe>
+
+</center>
 
 If you have programmed in Java before, this small chapter will blow your mind (at the simplicity of Python). Consider this code from Java (to be clear, you are *not* responsible for any Java in this course):
 
@@ -25,4 +30,4 @@ Since this is our first chapter with Python, there are still some things to get 
 
 # Experiences for this chapter
 
-<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vSOhM7OqlrMOHdc48h9j67Qlaa4itEbuYv848PrCh_NY-Wqr_x3osK_tLvmyRGeVArn99cw3PEqLshG/pubhtml/sheet?headers=false&amp;gid=0&amp;range=B2:D14'style="width:100%;max-width:720px;height:352px" frameborder="0"></iframe></center>
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vSOhM7OqlrMOHdc48h9j67Qlaa4itEbuYv848PrCh_NY-Wqr_x3osK_tLvmyRGeVArn99cw3PEqLshG/pubhtml/sheet?headers=false&amp;gid=0&amp;range=B2:D15'style="width:100%;max-width:720px;height:373px" frameborder="0"></iframe></center>
