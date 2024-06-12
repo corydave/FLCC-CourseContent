@@ -1,0 +1,11 @@
+^^ JUPYTER NOTEBOOK - Math && Output
+
+Hey math nerds! We'll look at some traditional math (and Pythonesque math) as well as how to output wonky things with the `print()` function.
+
+^callout file-download
+
+[`math_and_output.ipynb`](https://drive.google.com/uc?export=download&id=1xtOaSPTBdvTkUzxfq0kOmlHXyzDYIT2l)
+
+Download this file and load it into your IDE.
+
+^callout-end
