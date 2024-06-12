@@ -1,10 +1,10 @@
-^^ JUPYTER NOTEBOOK - Chapter 2
+^^ JUPYTER NOTEBOOK - Variables && Input
 
 This Jupyter Notebook is out of this world! It's a look at *variables*, input, and *functions*.
 
 ^callout file-download
 
-[`ch02_jupyter_notebook.ipynb`](https://drive.google.com/uc?export=download&id=1-FD_va5apMRinEXqjLYd-w4syG-i3PY9)
+[`variables_and_input.ipynb`](https://drive.google.com/uc?export=download&id=1-FD_va5apMRinEXqjLYd-w4syG-i3PY9)
 
 Download this file and load it into your IDE.
 
