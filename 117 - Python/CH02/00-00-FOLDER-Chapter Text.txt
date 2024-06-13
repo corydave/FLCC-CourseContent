@@ -1,7 +1,12 @@
+^^ Introduction to Variables, Input, and Functions
+
 <div style="display:none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vTKvSAsNtGUNgEN0twgwOEPT_IT_hhECs6QHuHNNpYX0pFITYCFcjcr_TOljq_BZa8GCMqBBbbvxyYM/pub?w=900&amp;h=380" style="display: none; max-width: 100%;" alt="Some Python code - Iit appears to ask the user for a name and then output the name (making sure the first letter is capitalized)." title="Some Python code - It appears to ask the user for a name and then output the name (making sure the first letter is capitalized)."></div>
 
+<center>
 
-^^ Introduction to Variables, Input, and Functions
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/lxrsVhuKaGU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius:15px !important;"></iframe>
+
+</center>
 
 We will be looking at three different topics in this chapter. 
 
