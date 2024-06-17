@@ -1,10 +1,10 @@
-^^ JUPYTER NOTEBOOK - Chapter 4
+^^ JUPYTER NOTEBOOK - More Functions
 
 This Jupyter Notebook is so functional! There is a support file to download, as well.
 
 ^callout file-download
 
-[`ch04_jupyter_notebook.ipynb`](https://drive.google.com/uc?export=download&id=1A7pLcynEV3StwlVZdtHuGIDQFEs8DyJ8)
+[`more_functions.ipynb`](https://drive.google.com/uc?export=download&id=1A7pLcynEV3StwlVZdtHuGIDQFEs8DyJ8)
 [`dice_util.py`](https://drive.google.com/uc?export=download&id=1ESJkNDyp7EeURAi7jX5s_1loWWr7jsro)
 
 Download these files and load them into your IDE.
