@@ -1,0 +1,11 @@
+^^ JUPYTER NOTEBOOK - Random
+
+This Jupyter Notebook is so random! It's a look at how random numbers are generated in Python.
+
+^callout file-download
+
+[`random.ipynb`](https://drive.google.com/uc?export=download&id=1blcwgjRdatp0WjMKJGX4bA_RxId1KZyH)
+
+Download this file and load it into your IDE.
+
+^callout-end
