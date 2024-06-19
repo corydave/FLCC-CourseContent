@@ -1,6 +1,8 @@
+^^ Random
+
 <div style="display: none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vTRgaXo4wqRNrsbWqZ1NuBfH9vlytwDBaLzs7kBbV-w8IPqJ0rF2nl0hCpLeTEN5KI5toXsddkajqaT/pub?w=900&amp;h=380" style="display: none; max-width: 100%;" alt="Askew green dice. Seems like the message is randomness." title="Askew green dice. Seems like the message is randomness."></div>
 
-^^ Random
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/xuO8bXHCn98?si=nbmU0mrUdKzMDdgP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius:15px !important;"></iframe></center><br />
 
 There really isn't such a thing as purely random numbers in computing. Newer technologies are working towards that and, in some cases, show strong evidence that purely randomness is possible. But for our purposes, we will accept the fact that random numbers in Python are *pseudorandom*. That means that when random numbers are generated, they are *random enough*.
 
