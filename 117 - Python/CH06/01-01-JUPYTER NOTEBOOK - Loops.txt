@@ -1,4 +1,4 @@
-^^ JUPYTER NOTEBOOK - Chapter 6
+^^ JUPYTER NOTEBOOK - Loops
 
 This Jupyter Notebook is so loopy!
 
