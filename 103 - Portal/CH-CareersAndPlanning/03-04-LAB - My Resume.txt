@@ -2,7 +2,7 @@
 
 # Description
 
-Submit a *high quality* resume that demonstrates your skills and work experience (if possible). You can use any software you'd like, but don't forget the [resources we went over in class](https://docs.google.com/document/d/17oPce0Iq69kuFhr2fHZu-qYetVpQL91XjazVvYd-37I/preview) (specifically [Canva.com](https://www.canva.com/) and [VisualCV](https://www.visualcv.com/)).
+Submit a *high quality* resume that demonstrates your skills and work experience (if possible). You can use any software you'd like, but don't forget the [resources we went over in class](https://docs.google.com/document/d/17oPce0Iq69kuFhr2fHZu-qYetVpQL91XjazVvYd-37I/preview) (specifically [Canva.com](https://www.canva.com/)).
 
 Your resume should be stylistic and accurate. If you don't have a lot of experience, you can instead design a resume that would accurately reflect yourself in the future (you should have a pretty good idea of degrees/internships/certifications you might need, so put them on your future-resume! Don't go wild--keep your fake experience tempered so that it seems real (and is actually a career goal).
 
@@ -16,7 +16,7 @@ The intent of this exercise is to:
 
 # Specifications
 
-* Submit a link to a cloud-based document such as Google Docs or Canva or VisualCV.
+* Submit a link to a cloud-based document such as Google Docs or Canva.
 
 * If you have an existing resume, you may use that. But make sure that it is updated to be accurate *and* to leverage a cool, modern layout
 
