@@ -1,6 +1,9 @@
-<img src="https://docs.google.com/drawings/d/e/2PACX-1vQ2Bs3xGIBAvHkZNGksZrZUm4SGKpi34tQF2nZvnWgHPZ191btqbKBOQ5m_U2MlhE2_FS9VE8tSeqDu/pub?w=907&amp;h=385" alt="A list of names." title="A list of names." width="0" height="0">
-
 ^^ Lists
+
+<div style="display:none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vQ2Bs3xGIBAvHkZNGksZrZUm4SGKpi34tQF2nZvnWgHPZ191btqbKBOQ5m_U2MlhE2_FS9VE8tSeqDu/pub?w=907&amp;h=385" alt="A list of names." title="A list of names." width="0" height="0"></div>
+
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/YnJ52sTtcs8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius:15px !important;"></iframe></center><br /><hr /><br />
+
 
 *Lists* are a type of variable that can hold multiple values (we can access any particular values in the list whenever we want). Consider these examples:
 
