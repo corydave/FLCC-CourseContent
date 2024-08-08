@@ -1,10 +1,10 @@
-^^ JUPYTER NOTEBOOK - Chapter 11
+^^ JUPYTER NOTEBOOK - Encoding, Encryption, and Hashing
 
 This Jupyter Notebook is not encrypted. Or encoded. Or hashed. It's just plain.
 
 ^callout file-download
 
-[`ch11_jupyter_notebook.ipynb`](https://drive.google.com/uc?export=download&id=1Qcnv2zDpdyE8pwUiVh1crSp4oVvreFLt)
+[`encoding_encryption_hashing.ipynb`](https://drive.google.com/uc?export=download&id=1Qcnv2zDpdyE8pwUiVh1crSp4oVvreFLt)
 
 Download this file and load it into your IDE.
 
