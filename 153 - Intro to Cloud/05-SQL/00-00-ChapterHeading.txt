@@ -1,0 +1,19 @@
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vTGsjve4q29nW8yXtOSoES3ubsiPmeXxdTgEwW7mxJXTuFlkC59tp5RJOFe5ely9s5fea4GDCQnfZxa/pub?w=900&amp;h=400" width="100%" style="border-radius:15px !important;" alt="A brown rectangle with a white illustration of the flowchart symbol for STORAGE along with the letters SQL." title="A brown rectangle with a white illustration of the flowchart symbol for STORAGE along with the letters SQL." />
+
+<br /><br />
+
+**SQL**, or *structured query language*, is a computer language that let's you interface with a database. SQL is quite extensive - if you master the craft you will  probably never have trouble finding a job.
+
+In this course, we will do a brief intro into SQL. Happily, `codeCademy` has a brilliant course that covers some of the basics. 
+
+One of the things I like about SQL is that it is a language that is pretty easy to understand. 
+
+* `CREATE TABLE`, for instance, will create a table.
+* `INSERT INTO` will add a new row to the table.
+* `SELECT` is how you get information from the table - you'll be using this pretty much all the time.
+* `DELETE FROM` will, you guessed it, delete data from a table.
+
+In this chapter, you will create a free `codeCademy` account (you can login with your GitHub account if you'd like!) and go through the SQL course. There is no need to pay for the full course; you'll be fine with the free version. You won't be able to do some of the labs, but you'll get a basic understanding of SQL.
+
+The course uses readings, videos, and some live coding examples (which are really neat). At the end of each module, you'll 
+
