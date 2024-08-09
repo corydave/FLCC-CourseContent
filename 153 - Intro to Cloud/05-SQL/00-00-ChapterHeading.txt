@@ -14,6 +14,3 @@ One of the things I like about SQL is that it is a language that is pretty easy 
 * `DELETE FROM` will, you guessed it, delete data from a table.
 
 In this chapter, you will create a free `codeCademy` account (you can login with your GitHub account if you'd like!) and go through the SQL course. There is no need to pay for the full course; you'll be fine with the free version. You won't be able to do some of the labs, but you'll get a basic understanding of SQL.
-
-The course uses readings, videos, and some live coding examples (which are really neat). At the end of each module, you'll 
-
