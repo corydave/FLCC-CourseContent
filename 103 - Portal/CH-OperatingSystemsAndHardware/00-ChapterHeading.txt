@@ -1,6 +1,7 @@
 ^^ Operating Systems && Hardware
 
-<div style="display: none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vTX-gt1-hEbaaAJzRbzJvvsac55ztFvHHR9saBkKWfwpV9I0LoQ2Z_YU9JAHTqGkyimgPmTw5vgiQhi/pub?w=907&amp;h=385"></div>
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vTX-gt1-hEbaaAJzRbzJvvsac55ztFvHHR9saBkKWfwpV9I0LoQ2Z_YU9JAHTqGk
+yimgPmTw5vgiQhi/pub?w=907&amp;h=385" alt="A tablet is shown with many icons on the desktop." title="A tablet is shown with many icons on the desktop." width="0" height="0" style="display:none;" />
 
 
 # Description
