@@ -1,5 +1,7 @@
 ^^ Final Portfolio
 
+<img title="A neon sign (in blue, against a pitch black background) that says, 'DO SOMETHING GREAT'." alt="A neon sign (in blue, against a pitch black background) that says, 'DO SOMETHING GREAT'." src="https://docs.google.com/drawings/d/e/2PACX-1vTwRVDWBnpod7OKqrtQE5-4raLeCanwEHIWU5CMZ4JnSLrkEelOAncuU9-trzGHdlqvC9G-_mIrLM9L/pub?w=200&amp;h=200" width="0" height="0" style="display:none;" />
+
 # Portfolio
 
 <div style="display:block;width:100%;">
