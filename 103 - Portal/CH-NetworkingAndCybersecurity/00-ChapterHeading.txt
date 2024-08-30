@@ -1,5 +1,7 @@
 ^^ Networking && Cybersecurity
 
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vSLy8dY-ih34ILVHVybR0OPM33_2CfYbdz3ylTJkXbkirKb1FfCzETpYmVsJhfaVwmFSyE2kwP8qBMP/pub?w=907&amp;h=385" alt="A person with a Guy Fawkes mask on with their hand reaching out towards the camera" title="A person with a Guy Fawkes mask on with their hand reaching out towards the camera" width="0" height="0" style="display:none;" />
+
 # Description
 <img style="float: right;" 
 title="A picture of a person in a hoody wearing a Guy Fawkes mask." title="A picture of a person in a hoody wearing a Guy Fawkes mask." src="https://docs.google.com/drawings/d/e/2PACX-1vT2VcMR3xlhEIvVU2eGZMTXdnQJG134z7Lv7bl23LTPajusb53C_p3CWhcDwg3VO4nVm8vY4lGPji9D/pub?w=200&amp;h=200" />
