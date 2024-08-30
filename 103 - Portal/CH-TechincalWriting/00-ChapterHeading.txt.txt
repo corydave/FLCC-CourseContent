@@ -1,5 +1,7 @@
 ^^ Technical Writing
 
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vSdsYA4WcBsugijdWeEFA2iao5xR-l-y0txSaBWhcFp0AQq7Zcj1EN3zdHUVvLuUlLhbxXN0BEPlTGr/pub?w=907&amp;h=385" alt="A blurred computer screen with some code displayed." title="A blurred computer screen with some code displayed." width="0" height="0" style="display:none;" />
+
 # Description
 <img style="float: right;" title="Multicolored code that is out of focus on a computer screen." src="https://docs.google.com/drawings/d/e/2PACX-1vQ5bM8bigXH7JQSQNV5ibh64f-sVc5LWzhi_47e3Nb598MgEqVc0OYTIVtz3WCvAYKlyhI8_xrupFZp/pub?w=200&amp;h=200" alt="Multicolored code that is out of focus on a computer screen." />
 
