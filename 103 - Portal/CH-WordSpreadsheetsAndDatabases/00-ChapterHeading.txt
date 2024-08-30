@@ -1,5 +1,7 @@
 ^^ Word Processing && Spreadsheets && Databases
 
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vRT9deBq1H4kukS-Vq2RHkA8q5fHabmcTRvYNntdEjwc_TE__a4RY5b2RB-miSUOq2WTA5RY04ONEvm/pub?w=907&amp;h=385" alt="Looking over the shoulder of a laptop user, you can spy a dashboard that looks like a spreadsheet with a lot of graphs and some numbers." title="Looking over the shoulder of a laptop user, you can spy a dashboard that looks like a spreadsheet with a lot of graphs and some numbers." width="0" height="0" style="display:none;" />
+
 # Description
 <img style="float: right;" title="Looking over the shoulder of a laptop user, you can spy a dashboard that looks like a spreadsheet with a lot of graphs and some numbers." alt="Looking over the shoulder of a laptop user, you can spy a dashboard that looks like a spreadsheet with a lot of graphs and some numbers."  src="https://docs.google.com/drawings/d/e/2PACX-1vTm4J-nrsS9C77n9nJ6pk6cy_pdipgxiIeZHFas2m03MCPvhkwg4eUaIk1pVH7WT1gMaEIX7qJHsh9X/pub?w=200&amp;h=200" />
 
