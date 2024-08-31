@@ -19,4 +19,7 @@ JavaScript
 Cloud Computing
 ^colors bg:#492000 text:#ffffff link:#ccccff
 
+Cloud Operations
+^colors bg:#1155cc text:#ffffff link:#ccccff
+
 <br /><hr style="height:10px;border-width:0;background-color:#335e3b"><br />
