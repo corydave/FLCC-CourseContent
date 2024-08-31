@@ -1,3 +1,5 @@
+^colors bg:#1155cc text:#ffffff link:#ccccff
+
 ^^ Welcome
 
 <p><img src="https://docs.google.com/drawings/d/1zWAIDCSrPKnTjEqJ-OivDRG99ptZrWb_YOWKZvu9dYw/pub?w=900&amp;h=400" alt="A blue background with white writing that says WELCOME" title="A blue background with white writing that says WELCOME" style="display: none; max-width: 100%;"></p>
