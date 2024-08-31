@@ -1,5 +1,6 @@
 <center><img src="https://c.tenor.com/RpKXrOa3eOAAAAAC/welcome.gif" alt="An animation of the word 'Welcome'" title="An animation of the word 'Welcome'" style="width:0px;height:0px;display:none;"></center>
-<h1 style="text-align: center;"><span style="color: #1e90ff;"><strong><span style="font-size: 100px; font-family: 'courier new', courier, sans-serif;"><span style="color: #781346;">Welcome!</span></span></strong></span></h1>
+
+^^ Welcome
 
 Hello and welcome to CSC 103! My name is Dave Ghidiu and I'm your instructor for this course. I'm so looking forward to getting to know you better and walking through this online class together. This course is a melting pot of different things. We'll look at video game design. We'll look at web design. We'll look at networking and cybersecurity. We'll look at operating systems. We'll spend a lot of time looking at careers and some long term planning.
 
@@ -9,7 +10,7 @@ There is no textbook that you need to buy for this class! The faculty in the FLC
 
 You can reach me at dave.ghidiu@flcc.edu.
 
-There is also a sub-folder called **Course Information**. In this folder you'll find resources that might help you throughout the semester. This includes things like the invitation to Discord, a place to give me feedback, the Student Hours schedule, and some other cool things.
+There is also a sub-folder called **Course Information**. In this folder you'll find resources that might help you throughout the semester. This includes things like the invitation to Discord (a communication tool learners and educators can use), a place to give me feedback, my Learner Time schedule (time I carve out every week to meet with *you*), and some other cool things.
 
 Take a look at the syllabus below to get an understanding of this course. You can *totally* email me if you have any questions!
 
