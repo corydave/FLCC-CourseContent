@@ -1,0 +1,5 @@
+^colors bg:#1155cc text:#ffffff link:#ccccff
+
+^^ Course Information
+
+This section contains all the course-level information you might need to reference throughout the semester. Things like the Course Outline (Syllabus), due dates, learner time (office hours), etc.
