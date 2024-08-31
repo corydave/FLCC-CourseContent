@@ -1,7 +1,8 @@
 <center><img src="https://c.tenor.com/RpKXrOa3eOAAAAAC/welcome.gif" alt="An animation of the word 'Welcome'" title="An animation of the word 'Welcome'" style="width:0px;height:0px;display:none;"></center>
-<h1 style="text-align: center;"><span style="color: #1e90ff;"><strong><span style="font-size: 100px; font-family: 'courier new', courier, sans-serif;"><span style="color: #335E3B;">Welcome!</span></span></strong></span></h1>
 
-Welcome to the *most awesome semester ever!* I mean, sure. This fall there are sweet things to do. Trips to take. Sights to see. Mountains to hike. Fires to snuggle up to. Flowers to smell. 
+^^ Welcome!
+
+Welcome to the *most awesome semester ever!* I mean, sure. This fall there are sweet things to do. This Fall there are sweet things to do. Trips to take. Sights to see. Mountains to hike. Flowers to smell. Beetlejuice 2 movies to see.
 
 But then there's a whole new level - this class. Python. Please make sure you check out the sweet, sweet video and Course Outline below.
 
@@ -10,7 +11,7 @@ There are also other files below that might help you navigate through the semest
 
 <br /><center>
 
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/xwbLR70Dtzw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 15px !important; border: 0px solid black;"></iframe>
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/F8HCsW81qF0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 15px !important; border: 0px solid black;"></iframe>
 
 </center>
 
