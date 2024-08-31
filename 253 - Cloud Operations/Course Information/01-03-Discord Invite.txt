@@ -1,0 +1,11 @@
+^colors bg:#1155cc text:#ffffff link:#ccccff
+
+^^ Discord Invite
+
+<center>
+
+[Link to FLCC Computing Sciences Discord Server](https://discord.gg/---CODE---)
+
+</center>
+
+<br /><br />
