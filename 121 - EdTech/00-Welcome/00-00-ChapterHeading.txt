@@ -1,5 +1,6 @@
 <center><img src="https://i.giphy.com/media/KczqttEJqm55hE1ccU/giphy.webp" alt="Kristen Bell from the Good Place saying 'Come on in!'" title="Kristen Bell from the Good Place saying 'Come on in!'" style="display: none;"></center>
-<h1 style="text-align: center;"><span style="color: #1e90ff;"><strong><span style="font-size: 100px; font-family: 'trebuchet ms', helvetica, sans-serif;"><span style="color: #940000;">Welcome!</span></span></strong></span></h1>
+
+^^ Welcome!
 
 Welcome to the *most awesome semester* ever! I mean, sure. This Falls there are sweet things to do. Trips to take. Sights to see. Campfires to be had. Flowers to smell. But then there's a whole new level. This class. Technology in Education. Please make sure you check out a sick welcome video and the Course Syllabus below.
 
@@ -11,9 +12,7 @@ There is also a sub-folder called **Course Information**. In this folder you'll 
 
 <center>
 
-[Link to video](https://www.youtube.com/watch?v=COnJ-1jevgc)
-
-^youtube <iframe width="100%" height="500" src="https://www.youtube.com/embed/COnJ-1jevgc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border:0px solid black; border-radius: 15px !important;"></iframe>
+^youtube <iframe width="100%" height="500" src="https://www.youtube.com/embed/f5WUxdtFDWM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border:0px solid black; border-radius: 15px !important;"></iframe>
 
 </center>
 
