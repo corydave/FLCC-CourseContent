@@ -1,15 +1,5 @@
 ^^ WEEK #7 - Midweek Check-In
 
-# Three things to know for this week
-
-* abc
-
-* abc
-
-* abc
-
-<br />
-
 <center>
 
 [Link to video](https://www.youtube.com/watch?v=ABC)
@@ -17,6 +7,9 @@
 ^youtube <iframe width="100%" height="400" src="https://www.youtube.com/embed/ABC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius:15px !important;"></iframe>
 
 </center><br />
+
+# TL;DR
+
 
 ## Let's be careful out there!
 
