@@ -1,0 +1,16 @@
+^^ QUIZ - Python Basics
+
+
+## DESCRIPTION
+
+This quiz considers the content from all the videos, Jupyter Notebooks, and Practice content in the chapter. Scoring 80% or better will unlock the rest of the chapter. You may take this quiz as many times as you'd like.
+
+^callout brain
+
+<br />
+
+Click here to take the quiz.
+
+^callout-end
+
+<br /><br />
