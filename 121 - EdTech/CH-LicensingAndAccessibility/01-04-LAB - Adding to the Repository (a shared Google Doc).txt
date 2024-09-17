@@ -2,8 +2,8 @@
 
 # Description
 
-Having places to look for quality open content is mission critical for educators (after all, you should be modeling proper attributions in your work). Sure, there are various clipart pieces and cheesy stock photos you can use. But why? There are thousands of repositories online. 
-**Find two**! Write a summary (1-2 sentences) for each of your entries and make sure you also address the following:
+Having places to look for quality open content is mission critical for educators (after all, you should be modeling proper attributions in your work). Sure, there are various clipart pieces and cheesy stock photos you can use. But why? There are thousands of repositories online - 
+**find one**! Write a summary (1-2 sentences) for  your entry and make sure you also address the following:
 
 * Is it searchable?
 
@@ -17,7 +17,7 @@ By the end of this exercise, we should have access to a list of all sorts of dif
 
 # Specifications
 
-* You must add *two* items to the [shared Google Doc](XXX-GOOGLE-DOC-ID-XXX)
+* You must add *one* item to the [shared Google Doc](XXX-GOOGLE-DOC-ID-XXX)
 
 * Please follow the format in the examples I left:
     * Name of site (as a hyperlink)
@@ -26,7 +26,7 @@ By the end of this exercise, we should have access to a list of all sorts of dif
 
 * Please do not copy and paste the description of the site - use your own words.
 
-* Once you have contributed two items to the list, copy and paste them into the submission here as well (that's how a grade will be attached to your work!).
+Once you have contributed to the list, copy and paste your work into the submission here as well (that's how a grade will be attached to your work!).
 
 <center>
 
