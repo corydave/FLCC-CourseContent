@@ -19,26 +19,26 @@ Write a program that will ask the user for their first name and their last name.
 
 
 ```
-Dave
-Ghidiu
+Enter first name: Dave
+Enter last name: Ghidiu
 Hi, Dave Ghidiu
 ```
 
 ```
-bart
-simpson
+Enter first name: bart
+Enter last name: simpson
 Hi, bart simpson
 ```
 
 ```
-Paige
-LaBarr
+Enter first name: Paige
+Enter last name: LaBarr
 Hi, Paige LaBarr
 ```
 
 ```
-Lisa
-Simpson, esquire
+Enter first name: Lisa
+Enter last name: Simpson, esquire
 Hi, Lisa Simpson, esquire
 ```
 
