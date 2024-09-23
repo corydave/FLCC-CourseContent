@@ -26,7 +26,7 @@ For your first website, write code for a simple website. It needs to have the
 
 Note that `<b>` stands for *bold* but that is obsolete in HTML. The better way to do this is to use `<strong>This text is bold</strong>` to invoke *bold*. 
 
-Likewise, `<i>` is the old way of using *italics*. Instead, use `<em>This text is emphasized</i>` to invoke *italics*.
+Likewise, `<i>` is the old way of using *italics*. Instead, use `<em>This text is emphasized</em>` to invoke *italics*.
 
 ^callout-end
 
