@@ -19,8 +19,6 @@ Write a program that takes in a number from the user, seeds the `random` module 
 
 * The auto-test for this program will check to see that a random number has been output *and* that the random number is specific to the seed that was used as input.
 
-* Use `randrange`
-
 ## SAMPLE OUTPUT
 
 ```
