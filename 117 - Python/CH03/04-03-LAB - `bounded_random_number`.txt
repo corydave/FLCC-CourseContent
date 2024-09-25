@@ -13,6 +13,8 @@ Write a program that takes in a number from the user, seeds the `random` module 
 
 * Complete the `bounded_random` function. This function should prompt the user for input and use the input to seed a random number generator. Then the function should produce a random number between 1 and 10 (inclusive of both).
 
+* Be sure to use `randint()`, not `randrange()`.
+
 * Add comments with your name, date, and program description at the top.
 
 * The very first line of this program should be `import random`; if you do not include it you may have access to the `random` module.
