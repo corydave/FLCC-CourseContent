@@ -34,7 +34,7 @@ Enter a temperature in Celsius: -40
 ```
 Enter a temperature in Celsius: 1
 
-1 degrees Celsius is 33.8 degrees Fahrenheit.
+1.0 degrees Celsius is 33.8 degrees Fahrenheit.
 ```
 
 ## STARTER CODE
