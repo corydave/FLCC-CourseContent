@@ -2,9 +2,9 @@
 
 # Check out this magic trick
 
-<center><iframe width="320" height="240" style="border-collapse: collapse; width: 80%; height: 600px; border-radius:15px !important;" src="https://dghidiu.csc.flcc.edu/binary/BinaryChooseANumber.html" frameborder="0"></iframe>
+<center><iframe width="320" height="240" style="border-collapse: collapse; width: 80%; height: 600px; border-radius:15px !important;" src="https://daveghidiu.com/FLCC/CSC103/binary.html" frameborder="0"></iframe>
 
-<a href="http://dghidiu.csc.flcc.edu/binary/BinaryChooseANumber.html" target="_blank" rel="noopener">If you can't see the trick, click here.</a></center><br />
+<a href="https://daveghidiu.com/FLCC/CSC103/binary.html" target="_blank" rel="noopener">If you can't see the trick, click here.</a></center><br />
 
 # Your thoughts
 
