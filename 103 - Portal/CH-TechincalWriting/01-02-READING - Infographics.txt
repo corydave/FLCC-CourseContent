@@ -6,7 +6,13 @@ Good infographics will have a good design element; they will be appealing to the
 
 Check out the following infographic on *multitasking*. We've chosen this infographic because not only is it designed well, but the content it covers is **vitally important to students!!!** Please make sure that you read the content as well as pay attention to the design.
 
-<center><iframe src="https://www.dailyinfographic.com/wp-content/uploads/2014/02/Multitasking.jpg" width="640" height="800">...https://www.dailyinfographic.com/wp-content/uploads/2014/02/Multitasking.jpg...</iframe></center><br /><br />
+<center>
+
+<img src="https://graphis-assets.s3.amazonaws.com/uploads/cfe/entry/f1a2ff80-aaac-451d-abe9-d0a679bd14fe/mult-infographic-final-2.jpg" width="640" alt="An infographic talking about multitasking." title="An infographic talking about multitasking." />
+
+[Link to source](https://graphis-assets.s3.amazonaws.com/uploads/cfe/entry/f1a2ff80-aaac-451d-abe9-d0a679bd14fe/mult-infographic-final-2.jpg)
+
+</center><br /><br />
 
 ^=^ ,
 
