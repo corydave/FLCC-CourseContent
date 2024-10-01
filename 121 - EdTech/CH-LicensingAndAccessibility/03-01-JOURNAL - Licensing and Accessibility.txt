@@ -1,35 +1,30 @@
 ^^ JOURNAL - Licensing and Accessibility
 
 # Description
+
 This week we examined licensing and accessibility. In addition to awesome modeling for the kiddos, taking these two issues seriously will help prevent you from violating laws (that are easy to break) and help you create equitable learning for all.
 
-## Take a minute to reflect on your experiences.
+## Have you seen educators break one or both of these laws? What is your biggest takeaway regarding licensing? What is your biggest takeaway regarding accessibility?
 
-Have you seen educators break one or both of these laws? What is your biggest takeaway regarding licensing? What is your biggest takeaway regarding accessibility?
+<br />
 
 ### Here is my response:
 
-<div style="padding-left:20px;">
+I have definitely seen educators in violation of copyright and accessibility laws. Many educators (and this is not limited to the domain - I see people everywhere doing this) are quick to use "fair use" as a shield. But the reality is that fair use is a tenuous equivocation at best. I'll admit that when I was a teacher (especially early on in my career), I didn't really care if I was using copyrighted material in my teachings. I'd use images, copyrighted cartoon characters, music, and videos that did not belong to me. I think that I justified it by saying that it was for the greater good - I was teaching the next generation!
 
-I have *definitely* seen educators in violation of copyright and accessibility laws. Many educators (and this is not limited to the domain - I see people *everywhere* doing this) are quick to use "fair use" as a shield. But the reality is that fair use is a tenuous equivocation at best. I'll admit that when I was a teacher (especially early on in my career), I didn't really care if I was using copyrighted material in my teachings. I'd use images, copyrighted cartoon characters, music, and videos that did not belong to me. I think that I justified it by saying that it was for the greater good - I was teaching the next generation!
+But really what I was doing was breaking the law and modeling poor habits to my students.
 
-But really what I was doing was breaking the law and modeling poor habits to my students. 
+Honestly, if [https://unsplash.com/](unsplash) and [https://pixabay.com/](Pixabay) had been around back then, I would have totally used them. The images at unsplash are incredible. Pixabay has amazing illustrations. It's ridiculous that all that stuff is free to use and you can modify it however you want.
 
-Honestly, if [unsplash](https://www.unsplash.com) and [Pixabay](https://www.pixabay.com) had been around back then, I would have totally used them. The images at unsplash are incredible. Pixabay has amazing illustrations. It's ridiculous that all that stuff is free to use *and* you can modify it however you want. 
-
-As far as accessibility is concerned, I witness a lot of infractions that could get people sued all the time. Tools like Blackboard make it easier to be compliant. For instance, when I post content I'll get a prompt if I include an image and I don't add the ALT tag. Blackboard *also* has a tool called "A11y" that will check my content to make sure it's accessible.
+As far as accessibility is concerned, I witness a lot of infractions that could get people sued all the time. Tools like Blackboard make it easier to be compliant. For instance, when I post content I'll get a prompt if I include an image and I don't add the ALT tag. Blackboard also has a tool called "A11y" that will check my content to make sure it's accessible.
 
 I know it's a pain, but adding ALT tags is definitely worth it. And using styles in Google Docs (Microsoft Word has them, too) is a game changer. Not only does it make the content more accessible, but it also provides other benefits like document outlines and easy-to-change formatting.
 
-The hardest thing to do with accessibility, in my opinion, is to get other educators on board. I used to get a lot of resistance like, "I don't have time" or "it's too hard" or "but I don't have any students who need it". Unfortunately, it kind of doesn't matter. Some day you *will* have students who benefit from these things. And compliance with the law is always good! I think showing people how to do ALT tags is easy and quick.
+The hardest thing to do with accessibility, in my opinion, is to get other educators on board. I used to get a lot of resistance like, "I don't have time" or "it's too hard" or "but I don't have any students who need it". Unfortunately, it kind of doesn't matter. Some day you will have students who benefit from these things. And compliance with the law is always good! I think showing people how to do ALT tags is easy and quick.
 
-</div>
 <br />
-<hr />
-<br />
-<div style="clear:both;width:80%;margin-left:auto;margin-right:auto;">
 
-^=, 12
+^=^ ,
 
 Every week, we will be reflecting on the things we learned. Typically this will involve software (and how it fits into the context of teaching), cognitive science (how learning works), or just visceral reactions. The intent of these journaling sessions are to help you recognize where the totality of your educational experiences have led you and how those experiences intersect with what we know about teaching and learning. The journal entries are private (you and I are the only ones reading them; they will not be shared to the class).
 
@@ -41,12 +36,13 @@ I will read every entry and respond - please make sure you read my comments. The
 
 ^=
 
+<br />
+
 # Specifications
 
 * Please paste a link to the Google Doc that holds your journal in this submission.
 
 * Your Google Doc must be shared such that [Anyone with the link can comment](https://www.youtube.com/watch?v=jFGXfLDctcI).
-</div>
 
 <br /><br />
 
@@ -54,6 +50,6 @@ I will read every entry and respond - please make sure you read my comments. The
 
 <br />
 
-Submit your work here.
+Click here to submit your work.
 
 ^callout-end
