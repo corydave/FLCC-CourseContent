@@ -1,3 +1,201 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="/shared/Course File templates/Standard/pages/../_assets/thirdpartylib/bootstrap-4.3.1/css/bootstrap.min.css">
+   <!-- Font Awesome CSS -->
+   <link rel="stylesheet" href="/shared/Course File templates/Standard/pages/../_assets/thirdpartylib/fontawesome-free-5.9.0-web/css/all.min.css">
+   <!-- prism.min.css for code linting -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/themes/prism.min.css">
+   <!-- Template CSS -->
+   <link rel="stylesheet" href="/shared/Course File templates/Standard/pages/../_assets/css/styles.min.css">
+   <link rel="stylesheet" href="/shared/Course File templates/Standard/pages/../_assets/css/custom.css">
+<style>
+  code {
+    background-color: #f5f2f0;
+    color: #000;
+    border-radius: .25em;
+    padding: 0 .25em 0 .25em;
+}
+  .h1, .h2, .h3, .h4, .h5, .h6,
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+.h2, h2 {
+    color: #940000;
+}
+.accentColor .h2, .accentColor h2 {
+    color: #f7f7f7;
+}
+.accentDark .h2, .accentDark h2 {
+    color: #e9e9e9;
+}
+.two-col-panels .card .card-body h2 {
+    color: #940000;
+    margin-top: 0px;
+}
+
+  .accentOutline {
+    border-width: 3px; 
+    border-style: solid;
+    border-radius: .25em;
+    border-color: #940000;
+}
+.accentColor {
+    background-color: #940000;
+    color: #f7f7f7;
+}
+.accentColor h1, .accentColor h2, .accentColor h3, .accentColor h4, .accentColor h5, .accentColor h6 {
+    color: #f7f7f7;
+} 
+.accentColor a  {
+    color: #fce;
+    border-color: #fce;
+    font-weight: bold;
+    border-bottom-width: 2px;
+}
+.jumbotron {
+    background-color: #940000;
+    color: #f7f7f7;
+}
+.jumbotron a {
+    color: #f7f7f7;
+    border-color: #fce;
+}
+
+.accentDark {
+    background-color: #555;
+    color: #e9e9e9;
+}
+.accentDark h1, .accentDark h2, .accentDark h3, .accentDark h4, .accentDark h5, .accentDark h6 {
+    color: #e9e9e9;
+} 
+.accentDark a {
+    color: lightblue;
+    border-color: lightblue;
+}
+.accentLite {
+    background-color: #e3e9f1;
+    color: black;
+}
+.accentLite h1, .accentLite .h1, .accentLite h3, .accentLite .h3, .accentLite h4, .accentLite .h4, .accentLite h5, .accentLite .h5, .accentLite h6, .accentLite .h6 {
+    color: black;
+} 
+.accentLite h2, .accentLite .h2 {
+    color: #940000;
+}
+
+.card-graphic {
+    border-color: #940000;
+}
+
+.card-graphic .card-body .card-icon .fa,
+.card-graphic .card-body .card-icon .fas, 
+.card-graphic .card-body .card-icon .fab {
+    font-size: 3.125rem;
+    min-width: 5.313rem;
+    text-align: center;
+    color: #940000;
+}
+
+ol.large-number li:before {
+    color: #940000;
+}
+
+ol.box-number li:before,
+ol.box-alpha li:before {
+    background-color: #940000;
+    color: #f7f7f7;
+}
+
+  /*
+    .center-column {
+    border-width: 3px; 
+    border-style: solid;
+    border-radius: .25em;
+    border-color: #940000;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+*/
+  .table-responsive td,
+.table-responsive tr,
+.table-responsive caption {
+    background-color: #fff;
+}
+  .col, .col-1, .col-10, .col-11, .col-12, 
+.col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, 
+.col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, 
+.col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, 
+.col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, 
+.col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, 
+.col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, 
+.col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, 
+.col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, 
+.col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, 
+.col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, 
+.col-xl-8, .col-xl-9, .col-xl-auto {
+    padding-left: 1px;
+    padding-right: 1px;
+}
+</style>
+   <title>Page</title>
+</head>
+<body>
+<div class="container-fluid">
+<h1 class="jumbotron">
+                         JOURNAL - Google Slides Reflection
+                    </h1>
+<h1 id="description">Description</h1>
+<p>Google Slides (and Microsoft PowerPoint) are well known for their ability to make slide shows. But did you know you can use them for desktop publishing? Instead of Google Docs or Microsoft Word, you could use a tool that affords you more flexibility.</p>
+<p>We will be looking at layers, guidelines, and aligning as tools to help your work look awesome!</p>
+<h2 id="some-have-google-slides-the-swiss-army-knife-of-google-matt-miller--kasey-bell-of-the-google-teacher-podcast-other-than-slide-shows-how-might-you-use-it-in-the-classroom-what-are-some-of-the-tools-you-learned-about-in-slides-that-you-did-not-know-beforehand">Some have Google Slides the &quot;Swiss Army Knife&quot; of Google (Matt Miller &amp; Kasey Bell of the Google Teacher Podcast). Other than slide shows, how might you use it in the classroom? What are some of the tools you learned about in Slides that you did not know beforehand?</h2>
+<br />
+
+<div><div class="row mx-1 mb-4 justify-content-md-center">
+<div class="col-md-8 rounded accentLite center-column">
+<div class="rounded px-2 py-1">
+<p>Every week, we will be reflecting on the things we learned. Typically this will involve software (and how it fits into the context of teaching), cognitive science (how learning works), or just visceral reactions. The intent of these journaling sessions are to help you recognize where the totality of your educational experiences have led you and how those experiences intersect with what we know about teaching and learning. The journal entries are private (you and I are the only ones reading them; they will not be shared to the class).</p>
+<p>It is important to note that these journals are not assessed based on the content; I cannot assign you a grade based on your beliefs or your interpretations of what we learned. Instead, I am interested in the rigor of your curiosity. I want to know how what we talk about has informed your approach to teaching. If we are looking at software, how could you leverage that software in class? If we discuss learning science, how will you take what you know and transform it into killer educational experiences?</p>
+<p>Each journal will have a unique prompt to it; your job is to respond with passion. Your job is to respond with questions. Your job is to respond with lofty ideas. FLCC is invested in creating a cadre of multidimensional thinkers that can leverage technology and curate phenomenal experiences for K12 students. Your job is to realize that mission by dedicating time to reflect.</p>
+<p>I will read every entry and respond - please make sure you read my comments. These journals are symbiotic - I rely on your responses to gage the efficacy of the course. Your candid conversation may drive the direction of this class and inform future iterations of this course.</p>
+</div>
+</div>
+</div>
+</div>
+<br />
+
+<h1 id="specifications">Specifications</h1>
+<ul>
+<li><p>Please paste a link to the Google Doc that holds your journal in this submission.</p>
+</li>
+<li><p>Your Google Doc must be shared such that <a target='_blank' href="https://www.youtube.com/watch?v=jFGXfLDctcI">Anyone with the link can comment</a>.</p>
+</li>
+</ul>
+<p><br /><br /></p>
+<!-- callout begin -->
+<div class="card card-graphic">
+  <div class="card-body">
+    <div class="card-icon">
+      <p><span class="fas fa-external-link-alt"></p>
+    </div>
+    <div class="card-text"><br />
+
+<p>Click here to submit your work.</p>
+    </div>
+  </div>
+</div> <!-- end callout -->
+
+<!-------------------------------------------------------------->    
+<pre style="display: none">
+--------------------------------------------------
+Source markdown in custom md-to-brightspace format
+--------------------------------------------------
+^version 2023-06-08^
+^source markdown start^
 ^^ JOURNAL - Google Slides Reflection
 
 # Description
@@ -6,26 +204,9 @@ Google Slides (and Microsoft PowerPoint) are well known for their ability to mak
 
 We will be looking at layers, guidelines, and aligning as tools to help your work look awesome!
 
-^=^ ,,,, 12
+## Some have Google Slides the "Swiss Army Knife" of Google (Matt Miller & Kasey Bell of the Google Teacher Podcast). Other than slide shows, how might you use it in the classroom? What are some of the tools you learned about in Slides that you did not know beforehand?
 
-## Reflect on your experience
-
-<br /><center>
-
-This chapter was designed to delicately introduce you to the cool features of Google Slides. Consider this prompt: 
-
-**Some have Google Slides the "Swiss Army Knife" of Google**<br />
-**(Matt Miller & Kasey Bell of the Google Teacher Podcast)**
-
-</center><br />
-
-1. Other than slide shows, how might you use it in the classroom?
-
-2. What are some of the tools you learned about in Slides that you did not know beforehand?
-
-^=
-
-<br />
+&lt;br />
 
 ^=^ ,
 
@@ -39,7 +220,7 @@ I will read every entry and respond - please make sure you read my comments. The
 
 ^=
 
-<br />
+&lt;br />
 
 # Specifications
 
@@ -47,12 +228,23 @@ I will read every entry and respond - please make sure you read my comments. The
 
 * Your Google Doc must be shared such that [Anyone with the link can comment](https://www.youtube.com/watch?v=jFGXfLDctcI).
 
-<br /><br />
+&lt;br />&lt;br />
 
 ^callout external-link-alt
 
-<br />
+&lt;br />
 
 Click here to submit your work.
 
 ^callout-end
+
+^source markdown end^
+</pre>
+<!-------------------------------------------------------------->    
+</div>
+<script src="/shared/Course File templates/Standard/pages/../_assets/thirdpartylib/jquery/jquery-3.3.1.slim.min.js"></script>
+<script src="/shared/Course File templates/Standard/pages/../_assets/thirdpartylib/popper-js/popper.min.js"></script>
+<script src="/shared/Course File templates/Standard/pages/../_assets/thirdpartylib/bootstrap-4.3.1/js/bootstrap.min.js"></script>
+<!-- Template JavaScript -->
+<script src="/shared/Course File templates/Standard/pages/../_assets/js/scripts.min.js"></script>
+</body></html>
