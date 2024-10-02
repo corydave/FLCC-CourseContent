@@ -14,9 +14,9 @@ num1 = 10
 num2 = 12
 
 if num1 > num2:
-  print(num1, 'is larger than', num2)
+  print(f'{num1} is larger than {num2}')
 else:
-  print(num1, 'is not larger than', num2)
+    print(f'{num1} is not larger than {num2}')
 
 ```
 In this example, we can compare a string to another string and make a determination on how to proceed:
