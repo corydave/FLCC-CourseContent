@@ -1,0 +1,16 @@
+^^ Understanding Systems Operations on AWS
+
+This chapter is brief introduction of the way you'll explore this class. We'll look at:
+* Introduction
+* Overview of the Labs
+* AWS Identity and Access Management (IAM)
+* **DEMO** - IAM
+* **DEMO** - Amazon Command Line Interface
+* **ACTIVITY** - Install and Configure the AWS CLI
+* Module 1 Wrapup Video
+* **OPTIONAL DEMO** - IAM Policy Simulator
+* Student Guide
+* ***MODULE 1 Knowledge Check*** - Score at least 70%
+
+
+
