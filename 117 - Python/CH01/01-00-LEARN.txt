@@ -1,3 +1,5 @@
 ^^ LEARN
 
 This is where the bulk of your knowledge acquisition will happen. We will use Jupyter Notebooks and videos as the primary engine of learning. You'll get to play with some code in the Jupyter Notebooks.
+
+Note there is an optional podcast that covers the content in the Jupyter Notebook.
