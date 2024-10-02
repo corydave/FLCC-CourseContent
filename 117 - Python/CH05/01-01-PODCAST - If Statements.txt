@@ -1,0 +1,24 @@
+^^ PODCAST - If Statements
+
+This podcast has been generated based on the content in the Jupyter Notebooks. If you prefer to listen to your content, give this podcast episode (roughly 10 minutes) a listen! Note that the podcast is 100% AI generated and uses the Jupyter Notebook content as the information model. But don't be put off by this fact; the episode is *fantastic*!
+
+<center>
+
+<iframe
+  frameborder="0"
+  width="60%"
+  min-width="500"
+  height="75"
+  style="border-radius:50px;"
+  src="https://drive.google.com/file/d/1jsohey-To5l9yVJy9oRh_CYtmYpR7QjB/preview">
+</iframe>
+
+</center>
+
+^callout podcast
+
+[`PYTHON - CH04.wav`](https://drive.google.com/uc?export=download&id=1jsohey-To5l9yVJy9oRh_CYtmYpR7QjB)
+
+Download this audio file and put it on your favorite music machine!
+
+^callout-end
