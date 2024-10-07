@@ -1,3 +1,4 @@
+
 ^^ JOURNAL - Google Docs Reflection
 
 # Description
@@ -6,16 +7,11 @@ We examined a number of ways to use Google Docs in the classroom (communication 
 
 I'd love to hear your thoughts on how you might use these ideas in your own classroom. What are some ways we did not examine that might be beneficial for your students (or you as an educator)?
 
-## Reflect on your experience.
-
-1. Did you extract any value from any of these experiences?
-
-2. Do you envision yourself using any of the things you learned in your teaching career (with students or as a way for you to be more productive??
+## Did you extract any value from any of these experiences? Do you envision yourself using any of the things you learned in your teaching career (with students or as a way for you to be more productive??
 
 <br />
 
-
-<div style="margin-left:20px; margin-right:20px; padding:20px; background-color: #efefef; border-radius:15px;">
+^=^ ,
 
 Every week, we will be reflecting on the things we learned. Typically this will involve software (and how it fits into the context of teaching), cognitive science (how learning works), or just visceral reactions. The intent of these journaling sessions are to help you recognize where the totality of your educational experiences have led you and how those experiences intersect with what we know about teaching and learning. The journal entries are private (you and I are the only ones reading them; they will not be shared to the class).
 
@@ -25,7 +21,9 @@ Each journal will have a unique prompt to it; your job is to respond with passio
 
 I will read every entry and respond - please make sure you read my comments. These journals are symbiotic - I rely on your responses to gage the efficacy of the course. Your candid conversation may drive the direction of this class and inform future iterations of this course.
 
-</div>
+^=
+
+<br />
 
 # Specifications
 
