@@ -1,0 +1,33 @@
+^^ LAB - Google Docs Walkthrough
+
+# Description
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PKkhvehhXlw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:15px !important;float:right;width:50%;height:315px;max-width:560px;margin-left:15px;"></iframe>
+
+I created a video (yeah, it's 23 minutes long, but it's jam packed with helpful things!) that goes over formatting in Google Docs.
+
+Your job is to follow along. The difference is that instead of movies, you'll be making a list of whatever you want - but you should keep an eye towards how you would use this in your classroom. Whatever you choose, you'll be formatting it like I formatted my document.
+
+Your formatting doesn't have to be the same (for instance, I used a blue background but you can use any color you want). That's true for the other things, too. You don't have to change your styles to match mine, but you do need to change your styles. Things like that. You can check the rubric if you'd like for a checklist of specifications.
+
+<br />
+
+^=^ ,
+
+Note that you'll also be exporting your work as a PDF and submitting that. Once you attach the PDF to this submission, you can paste a link to your Google Doc. Verify that the document is shared such that ["Anyone with the link can ***EDIT***"](https://www.youtube.com/watch?v=jFGXfLDctcI).
+
+^=
+
+# Specifications
+
+* Please look at the rubric for this assignment before submitting; it lists all the specifications. 
+
+<br />
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
