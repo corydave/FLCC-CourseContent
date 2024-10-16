@@ -17,7 +17,7 @@ This podcast has been generated based on the content in the Jupyter Notebooks. I
 
 ^callout podcast
 
-[`PYTHON - CH03.wav`](https://drive.google.com/uc?export=download&id=1KjeV_zVoRuK9-XZEhGKfNwRBU7E__eK0)
+[`PYTHON - Random.wav`](https://drive.google.com/uc?export=download&id=1KjeV_zVoRuK9-XZEhGKfNwRBU7E__eK0)
 
 Download this audio file and put it on your favorite music machine!
 
