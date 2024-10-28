@@ -1,0 +1,3 @@
+^^ QUIZ
+
+Please review the videos and the Jupyter Notebooks before attempting this quiz. You must get an 80% or better before the Labs and Projects are visible.
