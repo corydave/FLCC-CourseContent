@@ -1,0 +1,5 @@
+^^ LABS
+
+Labs are typically shorter programming exercises that require using only one or two newly acquired skills. Labs almost always rely on content covered in previous chapters.
+
+You will not see the labs for this chapter unless you score 80% or better on the chapter quiz.
