@@ -51,7 +51,7 @@ https://phishingdemo.org/python/scraping/maze/8513664478886891394555646402835183
 ```
 pip3 install requests
 pip3 install --update requests
-pip2 install beautifulsoup4
+pip3 install beautifulsoup4
 ```
 ^=
 
