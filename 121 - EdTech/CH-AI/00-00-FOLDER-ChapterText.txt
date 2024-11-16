@@ -1,0 +1,32 @@
+^^ Artificial Intelligence (AI)
+
+# Experiences for this chapter
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vSGTlVoozEaj-8rdTDP5mrTjboOHRGhJFmEjIvgFQfL92_zUo8N1wNdXL_aDFzNKDTNWTn7hDyuhBNA/pub?w=240&amp;h=180" alt="A claymation caterpillar with candy in it's hands. There are also logos of various AI tools." title="A claymation caterpillar with candy in it's hands. There are also logos of various AI tools." style="float:right;border-radius:25px;margin-right:20px;margin-left:20px;margin-top:-20px;margin-bottom:20px;">
+
+There are some immutable truths about AI:
+
+1. Today will be the dumbest AI will ever be - it gets better and better all the time.
+
+2. The tools featured in this chapter are likely to constantly change; screenshots and videos may not be accurate.
+
+3. You will need AI to be productive as an educator (maybe not today, but soon!).
+
+4. Reception to AI has been VERY mixed - especially in schools. 
+
+5. There are some ethical concerns about AI, but we as a society are slowly navigating our way through them.
+
+6. AI (just like any technology) should not be the centerpiece of any instruction (with the exception of lessons that are designed to explore AI). Don't use AI with the sole purpose of using AI. Use AI if it helps you achieve a goal.
+
+<div style="clear:both;">
+
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vQxQU3Z_qJqXJJLdKHi9zJnaPihlqmonB8qf_9jl0f_R9Lp4CSiYqFDk4WN-89tQH2TMQOglJ5KAGWN/pubhtml/sheet?headers=false&amp;gid=1370654388&amp;range=A1:D9'style="width:100%;max-width:720px;height:247px" frameborder="0"></iframe></center>	
+
+
+</div>
+
+<center><br />
+
+## Let's be careful out there!
+
+<br /></center>
