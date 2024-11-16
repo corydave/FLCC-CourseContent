@@ -1,5 +1,7 @@
 ^^ Artificial Intelligence (AI)
 
+<div style="display: none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vSwARaqo-YpCLYV8FjNK4FlQmvFKqmFcozx1Bdsio3QJxMmmUgWwlfKAxT0yHAmAHHXnMKWSOVJwQwj/pub?w=907&amp;h=385" alt="Some line drawings of technology things like a computer, phone, and a globe." title="Some line drawings of technology things like a computer, phone, and a globe." style="max-width: 100%;"></div>
+
 # Experiences for this chapter
 
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vSGTlVoozEaj-8rdTDP5mrTjboOHRGhJFmEjIvgFQfL92_zUo8N1wNdXL_aDFzNKDTNWTn7hDyuhBNA/pub?w=240&amp;h=180" alt="A claymation caterpillar with candy in it's hands. There are also logos of various AI tools." title="A claymation caterpillar with candy in it's hands. There are also logos of various AI tools." style="float:right;border-radius:25px;margin-right:20px;margin-left:20px;margin-top:-20px;margin-bottom:20px;">
