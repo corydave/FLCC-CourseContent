@@ -1,0 +1,35 @@
+^^ LAB - AI Image Generation
+
+<iframe src="https://www.youtube.com/embed/hoMc6-agD-w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:15px !important;float:right;margin-left:10px;height:315px;width:40%;min-width:200px;"></iframe>
+
+There are a ton of AI tools available to you today. Some tools you've probably already used because they are baked into software. For instance, Canva has AI baked into it! Google Docs, Slides, and Sheets also have AI baked into it. 
+
+But other tools are for more general purposes. The big ones are:
+
+* [ChatGPT](https://chatgpt.com/)
+* [Google Gemini](https://gemini.google.com/)
+* [Meta AI](https://www.meta.ai/)
+
+But there are plenty of other ones. In this lab, you will spend some time playing with each one of these. There is no need to pay money for access to these sites - you should be able to get some free compute time with them (if you find out that is not the case, email me!).
+
+[Copy this document](https://docs.google.com/document/d/1o69FYNjAX-1f2zbYhYcPCr4rX1uo3-uuuJ9c22L5l3U/copy) and use my examples to help you on your AI exploration. You should delete all my content and replace it with your own. 
+
+The intent of this lab is for you to create an image in AI in a few different platforms. Note that you don't *have* to use the sites I did. But you *should* refine each image you create. That is, you should not generate one image and then move on to the next tool. Instead, create one image and then use a few prompts to make it better!
+
+<div style="clear:both;">
+
+# Specifications
+* Use at least 3 different AI tools
+* Your tools do not need to be the three I used in my example, but you should change the "Tab" name in Google Docs (by double clicking on it) to reflect the tool you used.
+* Don't settle for the first image - spend some time refining each image.
+* Your Google Doc must be shared such that [Anyone with the link can ***VIEW***](https://www.youtube.com/watch?v=l1K2AwPJ4Gw)
+
+</div>
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
