@@ -1,0 +1,33 @@
+^^ LAB - AI Lesson Plan - Beginner
+
+<iframe src="https://www.youtube.com/embed/W3WBUwAssjE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:15px !important;float:right;margin-left:10px;height:315px;width:40%;min-width:200px;"></iframe>
+
+Generative AI is a very capable tool for educators. This is our first exploration into how AI can help generate lesson plans. We're not looking to collaborate deeply with AI at this point (we'll do that soon, though!). 
+
+Right now we are interested in how AI can take minimal instructions and create a lesson plan. Then we'll critique the results.
+
+You can use any generative AI tool, but these are the top five. ***Make sure in your summary you say which AI you used***
+
+* [ChatGPT](https://chatgpt.com/)
+* [Google Gemini](https://gemini.google.com/)
+* [Meta AI](https://www.meta.ai/)
+* [Perplexity](https://www.perplexity.ai/)
+* [Claude](https://claude.ai/)
+
+[Copy this document](https://docs.google.com/document/d/1SHqB63nOb_Kap8fG_BZVCkP-_2Vt8-HN6xotFnzVjxA/copy) and fill in each part of the document. Remember that the intent of this lab is for you to create a very basic lesson plan with generative AI. Use a very simple prompt. In a future lab we'll collaborate more with AI.
+
+<div style="clear:both;">
+
+# Specifications
+* Be sure to include the AI tool you used in your summary
+* Your Google Doc must be shared such that [Anyone with the link can ***VIEW***](https://www.youtube.com/watch?v=l1K2AwPJ4Gw)
+
+</div>
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
