@@ -1,0 +1,139 @@
+^^ LAB - `insult_machine`
+
+## DESCRIPTION
+
+This lab has two files - `insult_machine.py` (which is 100% complete and should not be modified by you) and `insult_machine_util.py` (which you will be modifying).
+
+The code in `insult_machine_util.py` has functions with no code - your job is to fill in the code. You should be able to derive the functionality of the code based on the *docstrings* and the Sample Output.
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab - there are two files:
+    * `insult_machine.py` is the main program. Do not modify this code, and do not submit it to CodeGrade.
+    * `insult_machine_util.py` is the companion code you will be submitting. You will need to provide code to each function.
+
+* You will need to modify the list called `insults` and replace the temporary insults with your own.
+
+* Add a comment with your name, date, and program description at the top!
+
+
+## SAMPLE OUTPUT
+
+
+```
+
+TESTING: welcome()
+---------------------------------
+Welcome to the Insulternator 3500
+---------------------------------
+TESTING: show_all_insults()
+['A', 'B', 'C', 'D', 'E']
+
+TESTING: one_insult()
+B
+
+TESTING: two_insults()
+C
+A
+
+TESTING: insult_specific_name(name)
+What is your name? Dave
+Dave, here is your insult: D
+
+TESTING: insult_x_number_of_insults(num)
+Enter number of insults: 3
+D
+D
+A
+
+TESTING: goodbye()
+
+---------------------------------------------
+Thank you for playing the Insulternator 3500!
+---------------------------------------------
+```
+<br />
+
+```
+TESTING: show_all_insults()
+['A', 'B', 'C', 'D', 'E']
+
+TESTING: one_insult()
+B
+
+TESTING: two_insults()
+E
+C
+
+TESTING: insult_specific_name(name)
+What is your name? BB-8
+BB-8, here is your insult: D
+
+TESTING: insult_x_number_of_insults(num)
+Enter number of insults: 10
+E
+C
+A
+E
+A
+C
+D
+D
+B
+B
+
+TESTING: goodbye()
+
+---------------------------------------------
+Thank you for playing the Insulternator 3500!
+---------------------------------------------
+
+```
+
+<br />
+
+```
+TESTING: welcome()
+---------------------------------
+Welcome to the Insulternator 3500
+---------------------------------
+
+TESTING: show_all_insults()
+['A', 'B', 'C', 'D', 'E']
+
+TESTING: one_insult()
+C
+
+TESTING: two_insults()
+A
+D
+
+TESTING: insult_specific_name(name)
+What is your name? Quinnie
+Quinnie, here is your insult: B
+
+TESTING: insult_x_number_of_insults(num)
+Enter number of insults: 0
+
+TESTING: goodbye()
+
+---------------------------------------------
+Thank you for playing the Insulternator 3500!
+---------------------------------------------
+```
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`insult_machine.py`](https://drive.google.com/uc?export=download&id=1lofNlb8jg5oFpngEjw28QMxXvfWCZBWD)
+
+[`insult_machine_util.py`](https://drive.google.com/uc?export=download&id=1CPR-CiYyL736mOXJHjoOuWBPzLMmuRui)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+<br /><br />
