@@ -21,11 +21,11 @@ The code in `insult_machine_util.py` has functions with no code - your job is to
 
 
 ```
-
 TESTING: welcome()
 ---------------------------------
 Welcome to the Insulternator 3500
 ---------------------------------
+
 TESTING: show_all_insults()
 ['A', 'B', 'C', 'D', 'E']
 
@@ -55,6 +55,11 @@ Thank you for playing the Insulternator 3500!
 <br />
 
 ```
+TESTING: welcome()
+---------------------------------
+Welcome to the Insulternator 3500
+---------------------------------
+
 TESTING: show_all_insults()
 ['A', 'B', 'C', 'D', 'E']
 
@@ -87,7 +92,6 @@ TESTING: goodbye()
 ---------------------------------------------
 Thank you for playing the Insulternator 3500!
 ---------------------------------------------
-
 ```
 
 <br />
