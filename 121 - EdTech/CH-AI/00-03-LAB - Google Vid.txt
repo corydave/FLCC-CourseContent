@@ -1,0 +1,43 @@
+^^ LAB - Google Vid
+
+<iframe src="https://www.youtube.com/embed/q_i5eDsgDmY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:15px !important;float:right;margin-left:10px;height:315px;width:40%;min-width:200px;"></iframe>
+
+There are a ton of tools out there right now that are powered by AI and promise to help you create.
+
+There are a number of tools out there that help you make videos, too. Adobe Express, WeVideo, and Microsoft Clipchamp are three tools that are cloud-based and help you make sweet videos.
+
+Some tools merge both of those - and we'll be playing with Google's new tool - **Google Vids** to see how it stacks up!
+
+Since this tool is so new, we'll be exploring it together. Your job is to create a Google Vid and explore the features. You can poke around as much as you'd like, but you should *definitely* check out:
+* How to get AI to do voiceovers on some of the slides
+* Recording your own voice overs
+* Inserting stock video
+* Inserting your own video or image
+* Moving text around
+* Inserting some sweet text blocks from the menu on the left
+* Anything else you like!
+
+Note that when you first create a Google Vid (by going into Google Drive and clicking "NEW") you will land at the first page in Google Vids. Make sure you choose "Help me create" so you can use the AI tools:
+
+<center>
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vTUO1c9EzFK3FrQ9A5J3Ih3ImnTVhJ287VI0PMUBk-arq0QofsvlCwnSBmloaltXaEXL9gP_tOLGUhe/pub?w=957&amp;h=672" alt="The first screen you see when creating a Google Vid - the words HELP ME CREATE are circled." title="The first screen you see when creating a Google Vid - the words HELP ME CREATE are circled." style="border-radius:15px; width: 60%">
+
+
+</center>
+
+<div style="clear:both;">
+
+# Specifications
+* In the submission where you paste your link, write a few sentences about things you liked and things you didn't like.
+* Your Google Vid must be shared such that [Anyone with the link can ***COMMENT***](https://www.youtube.com/watch?v=l1K2AwPJ4Gw)
+
+</div>
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
