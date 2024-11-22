@@ -26,7 +26,7 @@ The phases of the program are:
 
 ^acc
 
-^^^ SAMPLE OUTPUT
+^^^ Test Case 1
 
 ```
 =======================================
@@ -65,7 +65,11 @@ Thank you for using the Fortune Telling Machine!
 Smash that LIKE and Subscribe button and tell your friends!
 ```
 
-<br />
+^acc-end
+
+^acc
+
+^^^ Test Case 2
 
 ```
 =======================================
@@ -106,7 +110,11 @@ Thank you for using the Fortune Telling Machine!
 Smash that LIKE and Subscribe button and tell your friends!
 ```
 
-<br />
+^acc-end
+
+^acc
+
+^^^ Test Case 3
 
 ```
 =======================================
@@ -143,7 +151,7 @@ Smash that LIKE and Subscribe button and tell your friends!
 
 ^acc-end
 
-<br />
+<br /><br />
 
 
 ## STARTER CODE
