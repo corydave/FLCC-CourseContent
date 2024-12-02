@@ -1,0 +1,34 @@
+^^ LAB - AI Tools Exploration
+
+<iframe src="https://www.youtube.com/embed/J4mJzZKKWIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:15px !important;float:right;margin-left:10px;height:315px;width:40%;min-width:200px;"></iframe>
+
+In addition to tools dedicated to help you make lesson plans, there are a ton of emerging tools that will help you create supporting assets (music, images, etc.) as you are designing your learning experiences. 
+
+This lab explores some of the niche tools that exist today and can help you create cool, multi-modal experiences for your learners!
+
+Tools we'll be looking at:
+
+* [MusicFX](https://aitestkitchen.withgoogle.com/tools/music-fx) - Create ambient music for your lessons
+* [ImageFX](https://aitestkitchen.withgoogle.com/tools/image-fx) - Granular control for adjusting AI images
+* [GenType](https://labs.google/gentype) - Creating sweet, sweet custom fonts
+* [TextFX](https://textfx.withgoogle.com/) - Generating a list of ideas topically related to a specific word or phrase
+* [Illuminate](https://illuminate.google.com/home) - Distilling a research paper or book into an approachable podcast
+
+<div style="clear:both;">&nbsp;</div>
+
+[Copy this document](https://docs.google.com/document/d/17jjapOX-lTDS9ZP4mzA1d6kIDyp1IxPWP5KOQfmjgho/copy) and [follow along in the video](https://www.youtube.com/watch?v=J4mJzZKKWIs). Be sure to document your prompts and final products in the Google Doc.
+
+
+# Specifications
+* Have fun exploring these tools!
+* Your Google Doc must be shared such that [Anyone with the link can ***VIEW***](https://www.youtube.com/watch?v=l1K2AwPJ4Gw)
+
+</div>
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
