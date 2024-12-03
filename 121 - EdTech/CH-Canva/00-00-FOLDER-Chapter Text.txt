@@ -1,0 +1,15 @@
+^^ Canva
+
+<div style="display: none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vRMjepkr8x9nCfHHF6pRXVsAk2Tpqo8FvwgrpeoX8gBABvYTEi3w6vyoop05a4H4jVRKCkrYinmCr6U/pub?w=907&amp;h=385" alt="The logo from Canva." title="The logo from Canva." width="0" height="0"></div>
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vTu5drpOIViAQ-7-DJI72ebwfOY5rZFSryT_d-G4L3kPk-19mXcTVv0iDbHOtDtqlusc5T5MB87WuXD/pub?w=240&amp;h=180" alt="The words CANVA FOR EDUCATORS" title="The words CANVA FOR EDUCATORS" style="float:right" />
+
+Whereas most of the tools we've explored in this class have included tutorials and clear expectations, you need to be comfortable exploring other tools. EdTech tools come and go, districts switch tools frequently, and you might move from district to district (or even building to building or grade to grade). You'll need to be comfortable exploring new tools and figuring out how they fit into your classroom.
+
+In this chapter, you'll be responsible for exploring Canva on your own. There are plenty of resources out there (educators publish tons of videos about Canva on YouTube), there are plenty of templates in Canva, and the software is designed to be "explorer friendly". In fact, it was created by an educator who needed a tool to make yearbooks for her school! You can listen to the episode of [**How I Built This**](https://www.npr.org/2021/02/26/971813519/canva-melanie-perkins-2019) with Melanie Perkins and hear all about it.
+
+At any rate, there are few specifications for you for these labs; the intent is for you to go out and explore! Play with the templates and customize them to your own liking!
+
+<div style="clear:both;">
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vQxQU3Z_qJqXJJLdKHi9zJnaPihlqmonB8qf_9jl0f_R9Lp4CSiYqFDk4WN-89tQH2TMQOglJ5KAGWN/pubhtml/sheet?headers=false&amp;gid=1727412736&amp;range=B2:D9'style="width:100%;max-width:720px;height:247px" frameborder="0"></iframe></center>
+</div>
