@@ -1,0 +1,13 @@
+^^ LAB - Create a Presentation with Canva
+
+In the spirit of learning-as-you-go, there are no specifications for this lab. You should create a presentation using [Canva](https://www.canva.com/). You may use a template or start from scratch. Note that if you use a template you need to change the content to make it something you would use in your own classroom.
+
+For funsies, see if you can find the "secret keys" to press during a presentation. One of them (my favorite) is "c". See if you can find out what it does - and any other keys, too.
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
