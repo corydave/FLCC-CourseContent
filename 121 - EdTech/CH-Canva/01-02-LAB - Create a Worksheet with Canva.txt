@@ -1,0 +1,13 @@
+^^ LAB - Create a Worksheet with Canva
+
+In the spirit of learning-as-you-go, there are no specifications for this lab. You should create a worksheet using [Canva](https://www.canva.com/). You may use a template or start from scratch. Note that if you use a template you need to change the content to make it something you would use in your own classroom.
+
+Note that in general worksheets are not always an exciting and engaging way to learn. If you can, spice this up and make it awesome! But don't lose any sleep over this; the idea is to just get you out there learning Canva.
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
