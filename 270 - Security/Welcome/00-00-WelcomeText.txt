@@ -1,0 +1,24 @@
+<center><img src="https://acegif.com/wp-content/uploads/2021/4fh5wi/welcome-15.gif" style="max-width: 100%; display: none;" alt="Animation of a person jumping up and down excitedly with the word 'WELCOME' behind them." title="Animation of a person jumping up and down excitedly with the word 'WELCOME' behind them."></center>
+
+^^ Welcome!
+
+Welcome to the *most awesome semester ever!* Seriously. This is legit. In this course we will crack passwords, hack websites, and learn how to protect ourselves.
+
+Please make sure you check out the sweet, sweet video and Course Outline below.
+
+There are also other files below that might help you navigate through the semester - so be sure to check them out. Things like Academic Support, an invitation to Discord,  a place to give me feedback, my Student Hours schedule, and some other cool things.
+
+<br /><center>
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/uyk4eztg0Kw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 15px !important; border: 0px solid black;"></iframe>
+
+</center>
+
+<br /><br />
+
+# Course Syllabus
+
+<br />
+
+<center><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/12-KCLUzB9b9iJnR14v22sMpJPVPiLYbPel5Qlf9W0Q4/copy" target="_blank"><span style="background-color:#1e90ff;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Copy Google Doc</span></a><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/12-KCLUzB9b9iJnR14v22sMpJPVPiLYbPel5Qlf9W0Q4/export?format=doc" target="_blank"><span style="background-color:#357EC7;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Download Word</span></a><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/12-KCLUzB9b9iJnR14v22sMpJPVPiLYbPel5Qlf9W0Q4/export?format=pdf" target="_blank"><span style="background-color:#F40F02;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Download PDF</span></a><br /><br /><iframe src="https://docs.google.com/document/d/12-KCLUzB9b9iJnR14v22sMpJPVPiLYbPel5Qlf9W0Q4/preview" height="1000" width="800" frameborder="0" style="width: 100%; max-width: 800px; border-radius:15px !important;"></iframe></center>
+<br />
