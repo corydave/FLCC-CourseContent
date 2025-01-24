@@ -2,7 +2,7 @@
 
 ^^ Welcome!
 
-Welcome to the *most awesome semester ever!* I mean, sure. This fall there are sweet things to do. This Fall there are sweet things to do. Trips to take. Sights to see. Mountains to hike. Flowers to smell. Beetlejuice 2 movies to see.
+Welcome to the *most awesome semester ever!* I mean, sure. This Spring there are sweet things to do. Trips to take. Sights to see. Mountains to hike. Flowers to smell. Mission Impossible - The Final Reckoning movies to watch..
 
 But then there's a whole new level - this class. Python. Please make sure you check out the sweet, sweet video and Course Outline below.
 
@@ -11,7 +11,7 @@ There are also other files below that might help you navigate through the semest
 
 <br /><center>
 
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/F8HCsW81qF0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 15px !important; border: 0px solid black;"></iframe>
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/M4uoXRXuwOI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 15px !important; border: 0px solid black;"></iframe>
 
 </center>
 
