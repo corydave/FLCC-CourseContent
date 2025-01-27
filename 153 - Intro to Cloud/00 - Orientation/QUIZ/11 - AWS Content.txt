@@ -1,0 +1,19 @@
+^^ AWS Content
+
+^youtube <iframe width="100%" height="500" src="https://www.youtube.com/embed/_A0sIAaciVk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius: 15px !important;"></iframe>
+
+<br />
+
+Which of the following is true regarding the content in this class?
+
+<!--
+
+All content has been provided by Amazon.
+
+Some content has been provided by Amazon and other content I made just for you.
+
+No content has been provided by Amazon.
+
+The content in this course is partially authored by AI.
+
+-->
