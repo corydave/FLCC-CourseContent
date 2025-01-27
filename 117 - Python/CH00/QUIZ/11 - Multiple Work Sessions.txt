@@ -1,0 +1,19 @@
+^^ Multiple Work Sessions
+
+^youtube <iframe width="100%" height="500" src="https://www.youtube.com/embed/dcij5Nxaxu4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius: 15px !important;"></iframe>
+
+<br />
+
+How many times a week should you devote to Python?
+
+<!--
+
+One day of playing with Python is the best way to learn.
+
+Being able to practice Python 2 to 4 times a week is optimal.
+
+It is imperative that you spend at least 5 days a week (30 minutes a day) on Python.
+
+There is no recommendation for how to spread your time across the week when it comes to learning Python.
+
+-->
