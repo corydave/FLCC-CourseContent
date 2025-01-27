@@ -1,0 +1,19 @@
+^^ Email Policy
+
+^youtube <iframe width="100%" height="500" src="https://www.youtube.com/embed/zoV6YGR8tAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius: 15px !important;"></iframe>
+
+<br />
+
+What is the policy for sending email to Dave?
+
+<!--
+
+Only email from your FLCC email account will be read.
+
+You may use any email address you'd like.
+
+In email communication, refer to Dave as "Batman".
+
+You may not use AI to write emails.
+
+-->
