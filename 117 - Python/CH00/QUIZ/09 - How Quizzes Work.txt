@@ -1,0 +1,19 @@
+^^ How Quizzes Work
+
+^youtube <iframe width="100%" height="500" src="https://www.youtube.com/embed/v7QgJutv7Z0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius: 15px !important;"></iframe>
+
+<br />
+
+Which of the following is true about the quizzes in this course?
+
+<!--
+
+You may take quizzes up to three times.
+
+Quizzes can only be taken once.
+
+You must get an 80% or better on quizzes to see the content that follows.
+
+There are no quizzes in this class.
+
+-->
