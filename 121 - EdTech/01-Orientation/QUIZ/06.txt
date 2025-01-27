@@ -1,0 +1,19 @@
+^^ Rubrics
+
+^youtube <iframe width="100%" height="500" src="https://www.youtube.com/embed/1VSPIX-guqc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius: 15px !important;"></iframe>
+
+<br />
+
+Why should you look at a *rubric* before submitting work?
+
+<!--
+
+A rubric will fix all grammar and spelling mistakes.
+
+A rubric is a checklist of sorts and will help you make sure your work is aligned with the description of the assignment.
+
+A rubric is a chance to reflect on your work after submitting it and receiving feedback.
+
+A rubric will allow you to submit work past the grace period.
+
+-->
