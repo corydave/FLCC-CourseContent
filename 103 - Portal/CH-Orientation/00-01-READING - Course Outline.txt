@@ -1,27 +1,3 @@
-^^ READING - Course Outline
+^^ Course Outline (Syllabus)
 
-# Description
-
-The reading for this chapter is the [Course Outline](https://docs.google.com/document/d/15qPfYHZig5VcsD-jqiE7MNKJTrp0l7DtNYfnkqF-hxk/preview) (also known as the Course Information Sheet or Course Syllabus). Yeah, I know. It's boring. Like, real boring. I tried to jazz it up. It will make you laugh. It will make you cry. It might make you laugh again.
-
-Here's the big takeaways:
-
-* The late work policy is interesting. Please read it carefully.
-
-* For the most part, all work is due the same day every week. Unless otherwise specified, work is due at noon (12:00 PM). Please make sure you plan accordingly.
-
-* This course is a pretty novel experience. You'll see a lot of new things in here - keep an open mind and always feel free to contact me!
-
-* The first part of the Syllabus is specific to this class. The second part of the Syllabus contains elements you've probably seen before in other classes as they are relative to FLCC. You might want to read through this part, too, as the information may have changed.
-
-<div style="display:block;width:100%;clear:left;">
-
-# Specifications
-
-* Read the Course Outline (Course Information Sheet, Course Syllabus)
-
-* Also watch the orientation video in this chapter; both the reading and the video set the stage for the wonkiness of this class.
-
-* The information in the reading and video is important! There will be a quiz on it. Don't worry - it's open notes and you can take it as many times as you'd like.
-
-</div>
+<center><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/15qPfYHZig5VcsD-jqiE7MNKJTrp0l7DtNYfnkqF-hxk/copy" target="_blank"><span style="background-color:#1e90ff;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Copy Google Doc</span></a><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/15qPfYHZig5VcsD-jqiE7MNKJTrp0l7DtNYfnkqF-hxk/export?format=doc" target="_blank"><span style="background-color:#357EC7;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Download Word</span></a><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/15qPfYHZig5VcsD-jqiE7MNKJTrp0l7DtNYfnkqF-hxk/export?format=pdf" target="_blank"><span style="background-color:#F40F02;padding: 10px; width:200px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 9pt; text-transform: uppercase;">Download PDF</span></a><br /><br /><iframe src="https://docs.google.com/document/d/15qPfYHZig5VcsD-jqiE7MNKJTrp0l7DtNYfnkqF-hxk/preview" height="1000" width="800" frameborder="0" style="width: 100%; max-width: 800px;"></iframe></center>
