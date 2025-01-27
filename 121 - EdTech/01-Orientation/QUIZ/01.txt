@@ -5,3 +5,15 @@
 <br />
 
 Which statement below is true regarding submissions?
+
+<!--
+
+You may only submit a lab once.
+
+You may submit a lab twice.
+
+You may submit labs more than once - if you are not happy with your grade, correct the issue and resubmit!
+
+You may submit a lab multiple times as long as you have provided a metacognitive response with each new submission.
+
+-->
