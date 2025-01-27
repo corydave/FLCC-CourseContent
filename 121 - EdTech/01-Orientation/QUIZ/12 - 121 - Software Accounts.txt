@@ -1,0 +1,19 @@
+^^ EdTech - Software Accounts
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/p4ZTcBAdSUs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius: 15px !important;"></iframe>
+
+<br />
+
+Which of the following is true about creating accounts at different websites this semester?
+
+<!--
+
+You should always register as a TEACHER when making accounts for this class.
+
+You should always register as a STUDENT when making accounts for this class.
+
+You should be prepared to pay money for some accounts in this class.
+
+You should not make any accounts in this class - always operate incognito.
+
+-->
