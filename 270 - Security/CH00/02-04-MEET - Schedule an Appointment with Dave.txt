@@ -1,12 +1,12 @@
-^^ MEET - Schedule an Appointment with Dave
+^^ LAB - Schedule an Appointment with Dave
 
 # Description
 
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vSB-p5d18Kb42-pa1KS1ifl3etzBd9MRPbQek8kX6BvdFGLPZ75o71-LaEY2Q9mibIbxhYMzgdJUggE/pub?w=200&h=200" alt="A thumbnail of a generic calendar." style="margin: 0pt 10pt 10pt 0pt;float:right;" />
 
-I want to get to know you! We will be using Google Meet to chat, and you'll use Starfish to schedule the meeting. That may sound overwhelming, but here's what you need to know:
+I want to get to know you! We will be using Webex to chat, and you'll use Starfish to schedule the meeting. That may sound overwhelming, but here's what you need to know:
 
-* Google Meet is a free app for mobile devices, but if you're on a computer you don't even need an app; When you create an appointment, Starfish will email you. There will be a link in the email - just click on that link and it will bring you right into my video chat!
+* Webex is a free app for mobile devices, but if you're on a computer you don't even need an app. When you create an appointment, Starfish will email you. There will be a link in the email - just click on that link and it will bring you right into my video chat!
 
 * ***Don't panic!!!*** These meetings aren't painful. I just wanna get to know you!!!
 
@@ -27,7 +27,7 @@ If none of my posted times work, please email me and we can find a common time.
 
 * After you set up an appointment in Starfish, put the date and time in the submission for this assignment. Please make sure you show up to the meeting though (otherwise you'll get a zero for the assignment and nobody wants that!).
 
-* You should get a confirmation from Starfish after you schedule a time. The link should be in the confirmation, but if if is not, the link is: https://meet.google.com/jht-foar-vrb.
+* You should get a confirmation from Starfish after you schedule a time. The link should be in the confirmation, but if if is not, the link is: https://flcc.webex.com/meet/dave.ghidiu.
 
 * Please pick a date in the first four weeks of the semester if possible.
 
