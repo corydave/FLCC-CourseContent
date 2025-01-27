@@ -1,0 +1,15 @@
+^^ EdTech - Software Accounts
+
+^youtube <iframe width="100%" height="500" src="https://www.youtube.com/embed/wk6A45f6ya0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius: 15px !important;"></iframe>
+
+<br />
+
+Which of the following is true about perseverance?
+
+<!--
+
+You might experience small failures and setbacks in this class (and in life!). But if you stick with it, ask for help, and know when to take a break, you'll find that you can do things you think you can't. 
+
+Technology is hard sometimes - but you can figure it out!
+
+-->
