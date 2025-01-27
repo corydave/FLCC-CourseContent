@@ -1,0 +1,19 @@
+^^ Comments in the Grade Book
+
+^youtube <iframe width="100%" height="500" src="https://www.youtube.com/embed/giogGQ57BHo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius: 15px !important;"></iframe>
+
+<br />
+
+Which of the following is true regarding comments in the grade book?
+
+<!--
+
+The grade book does not have comments.
+
+Comments in the grade book might help you improve work you've submitted.
+
+Comments in the grade book must be responded to by you.
+
+You are required to read every comment in the grade book.
+
+-->
