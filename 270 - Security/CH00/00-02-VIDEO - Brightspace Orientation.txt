@@ -1,5 +1,9 @@
 ^^ VIDEO - Brightspace Orientation
 
+# Optional Video
+
+If you've used Brightspace before, you can skip this video. If you have 10 minutes and want a refresher on Brightspace, you should watch it 😎
+
 <center>
 
 ^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/cnQ-DDBXoYE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius:15px !important;"></iframe>
