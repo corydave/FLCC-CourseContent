@@ -1,0 +1,19 @@
+^^ How Quizzes Work
+
+^youtube <iframe width="100%" height="500" src="https://www.youtube.com/embed/hS0cMiwMgR0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius: 15px !important;"></iframe>
+
+<br />
+
+Which of the following is true about the quizzes in this course?
+
+<!--
+
+You need to score above a certain percentage to gain access to the content in the chapter.
+
+You may only take quizzes once.
+
+Quizzes are offered on Mondays only.
+
+You may only take a quiz twice.
+
+-->
