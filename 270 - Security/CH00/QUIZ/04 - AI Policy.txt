@@ -1,0 +1,19 @@
+^^ AI Policy
+
+^youtube <iframe width="100%" height="500" src="https://www.youtube.com/embed/oTtgnrmEoks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius: 15px !important;"></iframe>
+
+<br />
+
+What is the policy on using AI in this course?
+
+<!--
+
+AI is never allowed.
+
+You may use AI as much as you'd like.
+
+AI use must be cleared with Dave before you submit.
+
+The AI policy in this course is a nuanced, so consult the Course Information Sheet (Syllabus).
+
+-->
