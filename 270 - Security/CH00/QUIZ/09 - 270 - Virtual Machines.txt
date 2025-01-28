@@ -1,0 +1,19 @@
+^^ Virtual Machines
+
+^youtube <iframe width="100%" height="500" src="https://www.youtube.com/embed/v9k3p3p-j2U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius: 15px !important;"></iframe>
+
+<br />
+
+What is true about *virtual machines*?
+
+<!--
+
+You will need to use Kali Linux this semester.
+
+You will need to use Ubuntu Linux this semester.
+
+You can use a cloud-based virtual machine this semester.
+
+You can use a LAN-based virtual machine this semester.
+
+-->
