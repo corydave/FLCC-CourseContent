@@ -1,0 +1,19 @@
+^^ Exploring & Failures
+
+^youtube <iframe width="100%" height="500" src="https://www.youtube.com/embed/d4YEQp4LT7o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius: 15px !important;"></iframe>
+
+<br />
+
+Which statement below is true regarding submissions?
+
+<!--
+
+You may only submit a lab once.
+
+You may submit a lab twice.
+
+You may submit labs more than once - if you are not happy with your grade, correct the issue and resubmit!
+
+You may submit a lab multiple times as long as you have provided a metacognitive response with each new submission.
+
+-->
