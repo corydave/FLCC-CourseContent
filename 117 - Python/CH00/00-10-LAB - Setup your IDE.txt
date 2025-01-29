@@ -17,6 +17,6 @@ HOWEVER! We will be doing things a bit differently; we will be using a cloud-bas
 
 <br />
 
-Click here to submit your work
+Click here to submit your work.
 
 ^callout-end
