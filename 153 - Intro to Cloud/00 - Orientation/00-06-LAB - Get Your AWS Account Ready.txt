@@ -17,3 +17,11 @@ But one thing is certain - almost every pathway starts at the Cloud Foundations 
 For this lab, you will be getting situated in the AWS platform. We won't use Brightspace for the AWS content - they have their own learning management software. But don't worry! Their system is easy to follow.
 
 You should have an invite in your FLCC email. Please follow the instructions and log into the AWS course. When you are done, take a screenshot and submit it 😃
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
