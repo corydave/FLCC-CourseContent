@@ -1,3 +1,19 @@
 ^^ LAB - Get Your AWS Account Ready!
 
-*This will be updated on Tuesday*
+<div style="float:right"><img src="https://docs.google.com/drawings/d/e/2PACX-1vSvhMmy2xaAM53w74u00HfjUInGwVVbPntwqu04uY8dEfSgK5eluEKp35SoEnwIP7t-Vhs5sSk2mQXj/pub?w=384&amp;h=384" alt="The AWS Cloud Practitioner Foundational Badge." title="The AWS Cloud Practitioner Foundational Badge." /></div>
+
+Much of the content in this course has been provided by Amazon Web Services (AWS). There are a number of careers targeted by AWS certifications. Some of them include:
+1. Solutions architect
+2. Application architect
+3. Cloud data engineer
+4. Software development engineer
+5. Systems administrator
+6. DevSecOps Engineer
+
+If you'd like to see a complete list (along with the certifications needed for each), [click here](https://d1.awsstatic.com/training-and-certification/docs/AWS_certification_paths.pdf). 
+
+But one thing is certain - almost every pathway starts at the Cloud Foundations certification. And that's what this class prepares you for!
+
+For this lab, you will be getting situated in the AWS platform. We won't use Brightspace for the AWS content - they have their own learning management software. But don't worry! Their system is easy to follow.
+
+You should have an invite in your FLCC email. Please follow the instructions and log into the AWS course. When you are done, take a screenshot and submit it 😃
