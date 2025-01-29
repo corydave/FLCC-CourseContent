@@ -1,3 +1,17 @@
-^^ LAB - Set up GitHub
+^^ LAB - Setup GitHub
 
-*Content coming on Tuesday.*
+In this lab you will create a GitHub account (if you already have one, you may choose to use it).
+
+Please use your FLCC email account - in the video I mention that you don't have to, but you might need to use the FLCC account to get access to some of the features in our grading system.
+
+When you are done, please take a screenshot and submit it. Check out this video tutorial!
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/ovdM1A6_OZY?si=sSNRXLoZHW-AeYRK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius: 15px !important;"></iframe>
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work
+
+^callout-end
