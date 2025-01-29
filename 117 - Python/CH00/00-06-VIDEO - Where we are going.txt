@@ -1,3 +1,7 @@
 ^^ VIDEO - Where we are going
 
-**Content coming on Tuesday.**
+Here's the big picture - we will be working on small projects this semester that will lead up to a BIG project!
+
+We call it: `cyber_suite`
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/VMxQ4uHAO8I?si=oqrHtNTNziSXEFMp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius: 15px !important"></iframe>
