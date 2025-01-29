@@ -12,6 +12,6 @@ When you are done, please take a screenshot and submit it. Check out this video 
 
 <br />
 
-Click here to submit your work
+Click here to submit your work.
 
 ^callout-end
