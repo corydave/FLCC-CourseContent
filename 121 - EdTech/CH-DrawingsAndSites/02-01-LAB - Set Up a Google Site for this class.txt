@@ -19,8 +19,9 @@ I'm building my site right along with you. My current progress is right about wh
 
 # Specifications
 
-
 * There IS a rubric for this assignment - check it out before submitting!
+* Please check that your Google Site is published properly - [test it in incognito mode](https://www.youtube.com/watch?v=VWSYbAu73yU) before submitting.
+
 
 <center>
 
