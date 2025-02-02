@@ -18,23 +18,9 @@ I'm building my site right along with you. My current progress is right about wh
 <br />
 
 # Specifications
-* [Watch the video](https://www.youtube.com/watch?v=t2C19sBAbOs) for reference
 
-* Customize the text in the header (top left of the page) relevant. It should contextualize the page for people who visit the site.
 
-* Change the site favicon to the one you made.
-
-* Change the background image for *at least* the landing page (the HOME page).
-
-* Create a meaningful bio/statement of ambition.
-
-* Create a menu that has the subpages (as shown in the video).
-
-* Your Google Site must be *published*. You should [check it out in incognito mode](https://www.youtube.com/watch?v=VWSYbAu73yU).
-
-* Please paste a link to the Google Drawing in this assignment.
-
-* **There IS a rubric for this assignment - check it out before submitting!**
+* There IS a rubric for this assignment - check it out before submitting!
 
 <center>
 
