@@ -1,0 +1,38 @@
+^^ Cloud Concepts Overview
+
+<div style="display: none;"><center><img src="https://docs.google.com/drawings/d/e/2PACX-1vRhkklz5fjltAd5R9oaIpraaAd8CPjP5nAbhm6Gu1xGRfFfEcoaMkrVZwmdR1M44LR2L9az72jS_QNR/pub?w=900&amp;h=400" alt="Icon of a cloud with the letters AWS in it. There is text to the right of the cloud that say #1." title="Icon of a cloud with the letters AWS in it. There is text to the right of the cloud that say #1." style="height: 0px; width: 0px;"></center></div>
+
+This chapter is designed by Amazon. You'll be using their platform to gain a basic understanding of cloud computing, Amazon Web Services (AWS), and what AWS offers. 
+
+<br />
+
+**Time Estimate**
+
+|Content |Estimated Time   |
+|:---------------------|:----------|
+| Lecture              | 45 minutes|
+| Sample exam question | 5 minutes |
+| Knowledge check      | 10 minutes|
+| **TOTAL**                | **60 minutes**|
+
+<br />
+
+**Objectives**
+
+* Define different types of cloud computing models.
+* Describe six advantages of cloud computing.
+* Recognize the main AWS service categories and core services.
+* Review the AWS Cloud Adoption Framework (AWS CAF).
+
+<br />
+
+**Additional Resources**
+* [Cloud computing with AWS](https://aws.amazon.com/what-is-aws/)
+* [Overview of Amazon Web Services](https://d1.awsstatic.com/whitepapers/aws-overview.pdf)
+* [An Overview of the AWS Cloud Adoption Framework](https://d1.awsstatic.com/whitepapers/aws_cloud_adoption_framework.pdf)
+* [6 Strategies for Migrating Applications to the Cloud](https://aws.amazon.com/blogs/enterprise-strategy/6-strategies-for-migrating-applications-to-the-cloud/)
+
+<br />
+
+**Work Due**
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vSNfw4faq8HVnTGH2LQiFiM5Lsh-ms7opKlpP-1WixTyV-ccAdrzBzWj2nUN5I6P8LbWg6vcdhF2WTO/pubhtml/sheet?headers=false&amp;gid=0&amp;range=B2:D6'style="width:100%;max-width:720px;height:184px" frameborder="0"></iframe></center>
