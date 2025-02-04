@@ -1,4 +1,4 @@
-^^ PROJECT - `cyber_suite`
+^^ PROJECT - `cyber_suite_menu`
 
 ## DESCRIPTION
 
@@ -6,7 +6,7 @@ Throughout this course, we will be building small components that will be assemb
 
 ## SPECIFICATIONS
 
-* File name: `cyber_suite.py`
+* File name: `cyber_suite_menu.py`
 * Be sure to add your name at the top of your program using comments.  (ie. `#Jane Smith`  ).
 * Be sure to output the exact message as shown in the sample output, including letter case, spaces, and punctuation.
 
@@ -34,7 +34,7 @@ You may use the following code as starter code. Since this is the first lab, the
 
 ^callout file-download
 
-[`cyber_suite.py`](https://drive.google.com/uc?export=download&id=1qPM_lu1vMj-3goVi-E0GwNeCibxUt5yT)
+[`cyber_suite_menu.py`](https://drive.google.com/uc?export=download&id=1qPM_lu1vMj-3goVi-E0GwNeCibxUt5yT)
 
 Download this file and load it into your IDE.
 
