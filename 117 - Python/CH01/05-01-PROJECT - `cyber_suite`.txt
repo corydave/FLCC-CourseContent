@@ -1,0 +1,44 @@
+^^ PROJECT - `cyber_suite`
+
+## DESCRIPTION
+
+Throughout this course, we will be building small components that will be assembled into a big program. This is the first stage. You'll be making small programs every chapter, so make sure you store your code where you can find it.
+
+## SPECIFICATIONS
+
+* File name: `cyber_suite.py`
+* Be sure to add your name at the top of your program using comments.  (ie. `#Jane Smith`  ).
+* Be sure to output the exact message as shown in the sample output, including letter case, spaces, and punctuation.
+
+## SAMPLE OUTPUT
+
+```
+WELCOME TO THE cyber_suite 
+
+Please choose from the following menu:
+  1. Password manager
+  2. Examine logs
+  3. Scrape website
+  4. Hash
+  5. Encrypt
+  6. Encode
+  7. Steganography
+  8. EXIT
+
+Enter selection:
+```
+
+## STARTER CODE
+
+You may use the following code as starter code. Since this is the first lab, the starter code is complete! It runs! And runs well! All you need to do is change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`cyber_suite.py`](https://drive.google.com/uc?export=download&id=1qPM_lu1vMj-3goVi-E0GwNeCibxUt5yT)
+
+Download this file and load it into your IDE.
+
+^callout-end
+
+<br /><br />
+
