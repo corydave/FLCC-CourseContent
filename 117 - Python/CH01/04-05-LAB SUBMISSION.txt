@@ -1,0 +1,11 @@
+^^ LAB - `insert_lab_here`
+
+To submit this lab, please take a screenshot of your code and also a screenshot of the output in the terminal (after running your code). Submit the screenshots. Please also submit the response to the question(s) at the end of the lab.
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
