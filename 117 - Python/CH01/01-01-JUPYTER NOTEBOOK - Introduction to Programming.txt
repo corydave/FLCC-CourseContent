@@ -2,7 +2,7 @@
 
 Jupyter Notebooks are digital files that you can load into your *IDE* (that stands for Integrated Development Environment, or where you code). They are interactive! They have text, videos, collapsible text, and - best of all - code that you can play with!
 
-I think these notebooks are an awesome way to really dig into code. When you download these, you need to upload them into your IDE (in this case, we use [Google Cloud Shell ](https://shell.cloud.google.com/)) and run them. They are yours to keep. You can dork around with the code and experiment with Python!
+I think these notebooks are an awesome way to really dig into code. When you download these, you need to upload them into your IDE (in this case, we use CodeSpaces from GitHub) and run them. They are yours to keep. You can dork around with the code and experiment with Python!
 
 ^callout file-download
 
