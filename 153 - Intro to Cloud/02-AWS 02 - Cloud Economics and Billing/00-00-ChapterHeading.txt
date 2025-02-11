@@ -1,0 +1,48 @@
+^^ Cloud Economics and Billing
+
+<div style="display:none;"><center><img src="https://docs.google.com/drawings/d/e/2PACX-1vTr3yN1AyYsFDNdipEnNEBOM0I4w2KjF2FqdV8aq7VQziFm1prGV8i7HMDNN-7yhYZN9IW1HiQmSK_r/pub?w=900&amp;h=400" alt="Icon of a cloud with the letters AWS in it. There is text to the right of the cloud that says #2." title="Icon of a cloud with the letters AWS in it. There is text to the right of the cloud that says #2." style="height:0px; width:0px;" /></div></center>
+
+This chapter is designed by Amazon. You'll be using their platform to gain a basic understanding of cloud computing, Amazon Web Services (AWS), and what AWS offers. 
+
+<br />
+
+**Time Estimate**
+
+|Content |Estimated Time   |
+|:---------------------|:----------|
+| Lecture              | 45 minutes|
+| AS Pricing Calculator Activity | 20 minutes |
+| Billing Dashboard Demonstration      | 10 minutes|
+| Support Plan Scavenger Hunt Activity      | 10 minutes|
+| Knowledge Check      | 10 minutes|
+| Sample Exam Question Activity      | 5 minutes|
+| **TOTAL**                | **100 minutes**|
+
+<br />
+
+**Objectives**
+
+Explain the AWS pricing philosophy.
+* Recognize fundamental pricing characteristics.
+* Indicate the elements of the Total Cost of Ownership.
+* Discuss the results of the AWS Pricing Calculator.
+* Identify how to set up an organizational structure that simplifies billing and account visibility.
+* Identify the functionality in the AWS Billing Dashboard.
+* Describe how to use AWS Billing, AWS Cost Explorer, AWS Budgets, and AWS Cost and Usage Reports.
+* Identify the various AWS technical support plans and their costs.
+
+<br />
+
+**Additional Resources**
+* [Cloud Economics Center
+](https://aws.amazon.com/economics/)
+* [AWS Well-Architected Cost Optimization Labs](https://dx1572sre29wk.cloudfront.net/)
+* [Introduction to AWS Economics](https://d1.awsstatic.com/whitepapers/introduction-to-aws-cloud-economics-final.pdf)
+* [AWS Billing and Cost Management](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/getting-viewing-bill.html)
+* [AWS Control Tower](https://aws.amazon.com/controltower/)
+* [When will my AWS bill be ready?](https://repost.aws/knowledge-center/monthly-aws-billing)
+
+<br />
+
+**Work Due**
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vSNfw4faq8HVnTGH2LQiFiM5Lsh-ms7opKlpP-1WixTyV-ccAdrzBzWj2nUN5I6P8LbWg6vcdhF2WTO/pubhtml/sheet?headers=false&amp;gid=2147410444&amp;range=B2:D5'style="width:100%;max-width:720px;height:163px" frameborder="0"></iframe></center>
