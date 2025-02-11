@@ -8,15 +8,15 @@ This chapter is designed by Amazon. You'll be using their platform to gain a bas
 
 **Time Estimate**
 
-|Content |Estimated Time   |
-|:---------------------|:----------|
-| Lecture              | 45 minutes|
-| AS Pricing Calculator Activity | 20 minutes |
-| Billing Dashboard Demonstration      | 10 minutes|
-| Support Plan Scavenger Hunt Activity      | 10 minutes|
-| Knowledge Check      | 10 minutes|
-| Sample Exam Question Activity      | 5 minutes|
-| **TOTAL**                | **100 minutes**|
+|Content                               |Estimated Time   |
+|:-------------------------------------|:----------------|
+| Lecture                              | 45 minutes      |
+| AS Pricing Calculator Activity       | 20 minutes      |
+| Billing Dashboard Demonstration      | 10 minutes      |
+| Support Plan Scavenger Hunt Activity | 10 minutes      |
+| Knowledge Check                      | 10 minutes      |
+| Sample Exam Question Activity        | 5 minutes       |
+| **TOTAL**                            | **100 minutes** |
 
 <br />
 
