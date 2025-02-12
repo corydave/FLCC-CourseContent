@@ -2,19 +2,13 @@
 
 <div style="display:none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vTKvSAsNtGUNgEN0twgwOEPT_IT_hhECs6QHuHNNpYX0pFITYCFcjcr_TOljq_BZa8GCMqBBbbvxyYM/pub?w=900&amp;h=380" style="display: none; max-width: 100%;" alt="Some Python code - Iit appears to ask the user for a name and then output the name (making sure the first letter is capitalized)." title="Some Python code - It appears to ask the user for a name and then output the name (making sure the first letter is capitalized)."></div>
 
-<center>
-
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/lxrsVhuKaGU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius:15px !important;"></iframe>
-
-</center>
-
 We will be looking at three different topics in this chapter. 
 
-1. **Variables** are ways to hold data in memory for a while. For instance, when you play a video game and the game asks you your name. That's probably stored in a variable called `name`.
+1. **Variables** are ways to hold data in memory for a while. For instance, when you play a video game and the game asks you your name. That information (your name) is stored in a variable that can be recalled later. That variable is probably called `name`, though it might be called `first_name` or `players_name`.
 
 2. **Input** is a way to capture, well, input from the user. Usually we store the value of the input (what the user types) into a variable (see above!).
 
-3. **Functions** are like little mini-programs in your program.
+3. **Functions** are like little mini-programs in your program. You can invoke them whenever you'd like!
 
 We'll be doing deeper dives on all three of these concepts later, but if you start learning them now we'll be able to do some real sick stuff later in the course!
 
