@@ -1,0 +1,60 @@
+^^ PROJECT - `cyber_suite_new_user`
+
+## DESCRIPTION
+
+In this project we will be mimicking a simple account creation (and confirming the output on the screen. This is not how an actual login would be conducted - this is just a simulation that uses the skills we've learned so far.
+
+## SPECIFICATIONS
+
+* File name: `cyber_suite_new_user.py`
+* Be sure to add your name at the top of your program using comments.  (ie. `#Jane Smith`  ).
+* Be sure to output the exact message as shown in the sample output, including letter case, spaces, and punctuation.
+
+## SAMPLE OUTPUT
+
+```
+Please enter your name: Dave
+Please enter your user id: 12345
+Please enter your password: abc123
+
+Welcome, Dave. Your ID is 12345.
+
+PASSWORD: 
+XXXXXX
+```
+
+```
+Please enter your name: Katie
+Please enter your user id: 13090
+Please enter your password: PCT2024
+
+Welcome, Katie. Your ID is 13090.
+
+PASSWORD: 
+XXXXXXX
+```
+
+```
+Please enter your name: John
+Please enter your user id: 10008
+Please enter your password: TheOtherDayISawABearAGreatBigBear
+
+Welcome, John. Your ID is 10008.
+
+PASSWORD: 
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+```
+
+## STARTER CODE
+
+You may use the following code as starter code. Since this is the first lab, the starter code is complete! It runs! And runs well! All you need to do is change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`cyber_suite_new_user.py`](https://drive.google.com/uc?export=download&id=1CIH2uO_F3rxZ2P0jTHTRKM61z5PcV8GG)
+
+Download this file and load it into your IDE.
+
+^callout-end
+
+<br /><br />
