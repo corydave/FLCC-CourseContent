@@ -17,7 +17,7 @@ This podcast has been generated based on the content in the Jupyter Notebooks. I
 
 ^callout podcast
 
-[`PYTHON - Letters and Numbers.wav`](https://drive.google.com/uc?export=download&id=1W3qyapTP4z-b5qlJGbzZWzPk-UpaOn_o)
+[`PYTHON - Letters and Numbers.mp3`](https://drive.google.com/uc?export=download&id=1W3qyapTP4z-b5qlJGbzZWzPk-UpaOn_o)
 
 Download this audio file and put it on your favorite music machine!
 
