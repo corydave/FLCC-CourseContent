@@ -1,4 +1,4 @@
-^^ Introduction to Variables, Input, and Functions
+^^ Letters && Numbers
 
 <div style="display:none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vTKvSAsNtGUNgEN0twgwOEPT_IT_hhECs6QHuHNNpYX0pFITYCFcjcr_TOljq_BZa8GCMqBBbbvxyYM/pub?w=900&amp;h=380" style="display: none; max-width: 100%;" alt="Some Python code - Iit appears to ask the user for a name and then output the name (making sure the first letter is capitalized)." title="Some Python code - It appears to ask the user for a name and then output the name (making sure the first letter is capitalized)."></div>
 
@@ -8,7 +8,9 @@ We will be looking at three different topics in this chapter.
 
 2. **Input** is a way to capture, well, input from the user. Usually we store the value of the input (what the user types) into a variable (see above!).
 
-3. **Functions** are like little mini-programs in your program. You can invoke them whenever you'd like!
+3. **Types** are the type of data that variables can hold. For now, there are only two types:
+    1. *String* - a whole bunch of letters. A name is a string. A sentence is a string. We see this in Python as `str`.
+    2. *Number* - a number. There are two kinds - `int` stands for *integer* which means a whole number (can be negative!) and `float` which means decimal. Your age is an `int` and your GPA is a `float`.
 
 We'll be doing deeper dives on all three of these concepts later, but if you start learning them now we'll be able to do some real sick stuff later in the course!
 
