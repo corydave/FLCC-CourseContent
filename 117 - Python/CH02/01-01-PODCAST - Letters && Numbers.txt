@@ -1,4 +1,4 @@
-^^ PODCAST - Introduction to Variables, Input, and Functions
+^^ PODCAST - Letters && Numbers
 
 This podcast has been generated based on the content in the Jupyter Notebooks. If you prefer to listen to your content, give this podcast episode (roughly 10 minutes) a listen! Note that the podcast is 100% AI generated and uses the Jupyter Notebook content as the information model. But don't be put off by this fact; the episode is *fantastic*!
 
@@ -17,7 +17,7 @@ This podcast has been generated based on the content in the Jupyter Notebooks. I
 
 ^callout podcast
 
-[`PYTHON - CH02.wav`](https://drive.google.com/uc?export=download&id=1W3qyapTP4z-b5qlJGbzZWzPk-UpaOn_o)
+[`PYTHON - Letters and Numbers.wav`](https://drive.google.com/uc?export=download&id=1W3qyapTP4z-b5qlJGbzZWzPk-UpaOn_o)
 
 Download this audio file and put it on your favorite music machine!
 
