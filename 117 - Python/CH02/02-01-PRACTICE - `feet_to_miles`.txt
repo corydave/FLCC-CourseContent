@@ -38,21 +38,8 @@ There are 1 miles with 3 feet left over.
 
 ## VIDEO WALKTHROUGH
 
-^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/KlsWSf00Odk?si=xOvhf3-OYnedlyIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 15px !important;"></iframe>
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/vq0hIylc2Jk?si=xOvhf3-OYnedlyIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-radius: 15px !important;"></iframe>
 
-<br /><br />
-
-## STARTER CODE
-
-You may use the following code as starter code. 
-
-^callout file-download
-
-[`feet_to_miles.py`](https://drive.google.com/uc?export=download&id=1mVLSDU9acz-8vFR2J6E4bKcDHpdpWIU1)
-
-Download this file and load it into your IDE.
-
-^callout-end
 
 <br /><br />
 
@@ -66,35 +53,24 @@ Download this file and load it into your IDE.
 
 # Solution for feet_to_miles.py
 
-def main():
-    feet_to_miles()
+# How many feet are there? 6000
+# There are 1 miles with 720 feet left over.
 
-def feet_to_miles():
-    feet = int(input('How many feet are there? '))
-    # print(feet)
-    # print(type(feet))
+feet = int(input('How many feet are there? '))
 
-    miles = int(feet / 5280)
-    # print(miles)
+# print(f'You entered: {feet}')
 
-    leftover_feet = feet % 5280
-    # print(leftover_feet)
+miles = feet // 5280
+leftover_feet = feet % 5280
 
-    print(f'There are {miles} miles with {leftover_feet} feet left over.')
+# print(miles)
+# print(leftover_feet)
 
-    # 1 mile = 5280 feet
-
-
-
-main()
+print(f'There are {miles} miles with {leftover_feet} feet left over.')
 
 ```
 
-<br /><br />
 
-*^icon download* [`feet_to_miles_SOLUTION.py`](https://drive.google.com/uc?export=download&id=1g82Nrx0kSvS-t1JVpb5FpvLDXdUxFEpN)
-
-^acc-end
 
 
 <br /><br />
