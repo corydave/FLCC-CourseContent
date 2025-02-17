@@ -61,9 +61,7 @@ Download this file and load it into your IDE.
 
 ^callout external-link-alt
 
-<br />
-
-Click here to submit your work
+Click here to clone the repo and submit your work.
 
 ^callout-end
 
