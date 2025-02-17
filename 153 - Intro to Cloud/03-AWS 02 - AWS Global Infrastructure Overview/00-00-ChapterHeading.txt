@@ -1,0 +1,39 @@
+^^ AWS Global Infrastructure Overview
+
+<div style="display:none;"><center><img src="https://docs.google.com/drawings/d/e/2PACX-1vSiQXtHc_vlTRAn9uk3htCgbXWQbkWvahBBKkwtTCoqr_8_XeAYHPim3gzgjF1NmmZk2vjnpqbXPrxC/pub?w=900&amp;h=400" alt="Icon of a cloud with the letters AWS in it. There is text to the right of the cloud that says #3." title="Icon of a cloud with the letters AWS in it. There is text to the right of the cloud that say #3." style="height:0px; width:0px;" /></div></center>
+
+This chapter is designed by Amazon. You'll be using their platform to gain a basic understanding of cloud computing, Amazon Web Services (AWS), and what AWS offers. 
+
+<br />
+
+**Time Estimate**
+
+|Content                               |Estimated Time   |
+|:-------------------------------------|:----------------|
+| Lecture                              | 25 minutes      |
+| AWS Global Infrastructure demonstration| 10 minutes      |
+| AWS Management Console clickthrough activity &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| 20 minutes      |
+| Knowledge Check                      | 10 minutes      |
+| Sample Exam Question Activity        | 5 minutes       |
+| **TOTAL**                            | **70 minutes** |
+
+<br />
+
+**Objectives**
+
+Explain the AWS pricing philosophy.
+* Identify the difference between AWS Regions, Availability Zones, and edge locations.
+* Identify AWS services and service categories.
+
+<br />
+
+**Additional Resources**
+* [AWS Global Infrastructure
+](https://aws.amazon.com/about-aws/global-infrastructure/)
+* [AWS Cloud Services
+](https://aws.amazon.com/products/?aws-products-all.sort-by=item.additionalFields.productNameLowercase&aws-products-all.sort-order=asc&awsf.re%3AInvent=*all&awsf.Free%20Tier%20Type=*all&awsf.tech-category=*all)
+
+<br />
+
+**Work Due**
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vSNfw4faq8HVnTGH2LQiFiM5Lsh-ms7opKlpP-1WixTyV-ccAdrzBzWj2nUN5I6P8LbWg6vcdhF2WTO/pubhtml/sheet?headers=false&amp;gid=1499791358&amp;range=B2:D5'style="width:100%;max-width:720px;height:163px" frameborder="0"></iframe></center>
