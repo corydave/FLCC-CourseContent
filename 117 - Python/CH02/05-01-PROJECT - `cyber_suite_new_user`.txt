@@ -57,8 +57,6 @@ Download this file and load it into your IDE.
 
 ^callout-end
 
-<br />
-
 ^callout external-link-alt
 
 <br />
