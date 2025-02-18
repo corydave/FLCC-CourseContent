@@ -1,0 +1,53 @@
+^^ Compute
+
+<div style="display: none;"><center><img src="https://docs.google.com/drawings/d/e/2PACX-1vTPVfBa6ZgUTcoFtTQag0t9-L_5gCU-kLBIHj12rAwmqrSFwv_yjf8dAOIND2My42YQzMUegCu4yN8D/pub?w=900&amp;h=400" alt="Icon of a cloud with the letters AWS in it. There is text to the right of the cloud that says #6." title="Icon of a cloud with the letters AWS in it. There is text to the right of the cloud that say #6." style="height: 0px; width: 0px;"></center></div>
+
+This chapter is designed by Amazon. You'll be using their platform to gain a basic understanding of cloud computing, Amazon Web Services (AWS), and what AWS offers. 
+
+<br />
+
+**Time Estimate**
+
+|Content                                                                                    | Estimated Time  |
+|:------------------------------------------------------------------------------------------|:----------------|
+| Lecture                                                                                   | 80 minutes      |
+| Amazon EC2 Educator-led activity                                                          | 30 minutes      |
+| Create an AWS Lambda stopinator function hands-on activity &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 30 minutes      |
+| Deploy a web app on Elastic Beanstalk hands-on activity                                   | 30 minutes      |
+| Amazon EC2 recorded demonstration                                                         | 5 minutes       |
+| Introduction to Amazon EC2 lab                                                            | 35 minutes      |
+| Sample Exam Question Activity                                                             | 5 minutes       |
+| Knowledge Check                                                                           | 10 minutes      |
+| **TOTAL**                                                                                 | **225 minutes** |
+
+<br />
+
+**Objectives**
+
+* Provide an overview of different AWS compute services in the cloud
+* Demonstrate why to use Amazon Elastic Compute Cloud (Amazon EC2)
+* Identify the functionality in the Amazon EC2 console
+* Perform basic functions in Amazon EC2 to build a virtual computing environment
+* Identify Amazon EC2 cost-optimization elements
+* Demonstrate when to use AWS Elastic Beanstalk
+* Demonstrate when to use AWS Lambda
+* Identify how to run containerized applications in a cluster of managed servers
+
+
+<br />
+
+**Additional Resources**
+* [Amazon EC2 Documentation](https://docs.aws.amazon.com/ec2/)
+* [Amazon EC2 Pricing](https://aws.amazon.com/ec2/pricing/)
+* [Amazon ECS Workshop](https://ecsworkshop.com/)
+* [Running Containers on AWS](https://containersonaws.com/)
+* [Amazon EKS Workshop](https://www.eksworkshop.com/)
+* [AWS Lambda Documentation](https://docs.aws.amazon.com/lambda/)
+* [AWS Elastic Beanstalk Documentation](https://docs.aws.amazon.com/elastic-beanstalk/)
+* [Cost Optimization Playbook](https://d1.awsstatic.com/pricing/AWS_CO_Playbook_Final.pdf)
+
+
+<br />
+
+**Work Due**
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vSNfw4faq8HVnTGH2LQiFiM5Lsh-ms7opKlpP-1WixTyV-ccAdrzBzWj2nUN5I6P8LbWg6vcdhF2WTO/pubhtml/sheet?headers=false&amp;gid=277957836&amp;range=B2:D7'style="width:100%;max-width:720px;height:205px" frameborder="0"></iframe></center>
