@@ -1,0 +1,46 @@
+^^ Databases
+
+<div style="display: none;"><center><img src="https://docs.google.com/drawings/d/e/2PACX-1vSaT7qEz9aDn-RLIRwf6vSIDQoiwLNzLdwICtc78lc7uE5hdblm0Z7_OqfHgp7L-7-sIqQzi2tp60wf/pub?w=900&amp;h=400" alt="Icon of a cloud with the letters AWS in it. There is text to the right of the cloud that says #8." title="Icon of a cloud with the letters AWS in it. There is text to the right of the cloud that say #8." style="height: 0px; width: 0px;"></center></div>
+
+This chapter is designed by Amazon. You'll be using their platform to gain a basic understanding of cloud computing, Amazon Web Services (AWS), and what AWS offers. 
+
+<br />
+
+**Time Estimate**
+
+|Content                                                                                         |Estimated Time   |
+|:-----------------------------------------------------------------------------------------------|:----------------|
+| Lecture                                                                                        | 60 minutes      |
+| Database case study activity                                                                   | 15 minutes      |
+| Build your DB server and interact with your DB using an app lab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 30 minutes      |
+| Amazon RDS demonstration                                                                       | 5 minutes       |
+| Amazon DynamoDB demonstration                                                                  | 5 minutes       |
+| Sample Exam Question Activity                                                                  | 5 minutes       |
+| Knowledge Check                                                                                | 10 minutes      |
+| **TOTAL**                                                                                      | **130 minutes** |
+
+<br />
+
+**Objectives**
+
+* Explain Amazon Relational Database Service (Amazon RDS).
+* Identify the functionality in Amazon RDS.
+* Explain Amazon DynamoDB.
+* Identify the functionality in Amazon DynamoDB.
+* Explain Amazon Redshift.
+* Explain Amazon Aurora.
+* Perform tasks in an Amazon RDS database such as launching, configuring, and interacting.
+
+
+<br />
+
+**Additional Resources**
+* [AWS Database page](https://aws.amazon.com/products/databases/)
+* [Amazon RDS page](https://aws.amazon.com/rds/)
+* [Overview of Amazon database services](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/database.html)
+* [Getting started with AWS databases](https://aws.amazon.com/products/databases/learn/)
+
+<br />
+
+**Work Due**
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vSNfw4faq8HVnTGH2LQiFiM5Lsh-ms7opKlpP-1WixTyV-ccAdrzBzWj2nUN5I6P8LbWg6vcdhF2WTO/pubhtml/sheet?headers=false&amp;gid=194658895&amp;range=B2:D7'style="width:100%;max-width:720px;height:205px" frameborder="0"></iframe></center>
