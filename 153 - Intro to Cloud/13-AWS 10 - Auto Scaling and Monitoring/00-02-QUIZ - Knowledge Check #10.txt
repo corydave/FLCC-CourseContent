@@ -1,0 +1,23 @@
+^^ QUIZ - Knowledge Check #10
+
+<center>
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vQ-0qzg5aCOgRhsbs4KC8VPMv2UXSouJOV6lDsUlqdFgikO2AVAajGe93LRTJoZ74PfuWe-OAILUJeM/pub?w=576&amp;h=576" alt="A line illustration of a college with the words AWS ACADEMY below it." title="A line illustration of a college with the words AWS ACADEMY below it." style="width: 200px;" />
+
+</center>
+
+<br />
+
+After watching the videos and reading the content, please take the Knowledge Check (Quiz) in the AWS platform. You may take this quiz as many times as you'd like.
+
+The grades are not transferred from the AWS platform to Brightspace immediately, but they will ultimately wind up in the Brightspace Grade Book.
+
+<br />
+
+^callout external-link-alt
+
+<br />
+
+[Click here to go to the AWS platform](https://awsacademy.instructure.com/)
+
+^callout-end
