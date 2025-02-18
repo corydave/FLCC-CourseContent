@@ -8,16 +8,16 @@ This chapter is designed by Amazon. You'll be using their platform to gain a bas
 
 **Time Estimate**
 
-|Content                               |Estimated Time   |
-|:-------------------------------------|:----------------|
-| Lecture                              | 60 minutes      |
-| Amazon VPC recorded demonstration | 5 minutes      |
-| Label this network diagram activity | 5 minutes      |
-| Design a VPC activity | 15 minutes |
-| Build Your VPC and Launch a Web Server Lab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 30 minutes |
-| Sample Exam Question Activity        | 5 minutes       |
-| Knowledge Check                      | 10 minutes      |
-| **TOTAL**                            | **130 minutes** |
+|Content                                                                    |Estimated Time   |
+|:--------------------------------------------------------------------------|:----------------|
+| Lecture                                                                   | 60 minutes      |
+| Amazon VPC recorded demonstration                                         | 5 minutes       |
+| Label this network diagram activity                                       | 5 minutes       |
+| Design a VPC activity                                                     | 15 minutes      |
+| Build Your VPC and Launch a Web Server Lab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 30 minutes      |
+| Sample Exam Question Activity                                             | 5 minutes       |
+| Knowledge Check                                                           | 10 minutes      |
+| **TOTAL**                                                                 | **130 minutes** |
 
 <br />
 
