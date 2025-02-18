@@ -1,6 +1,6 @@
 ^^ Networking and Content Delivery
 
-<div style="display:none;"><center><img src="https://docs.google.com/drawings/d/e/2PACX-1vSiQXtHc_vlTRAn9uk3htCgbXWQbkWvahBBKkwtTCoqr_8_XeAYHPim3gzgjF1NmmZk2vjnpqbXPrxC/pub?w=900&amp;h=400" alt="Icon of a cloud with the letters AWS in it. There is text to the right of the cloud that says #3." title="Icon of a cloud with the letters AWS in it. There is text to the right of the cloud that say #3." style="height:0px; width:0px;" /></div></center>
+<div style="display: none;"><center><img src="https://docs.google.com/drawings/d/e/2PACX-1vQLirp6aAARndcgPILctPCWMYqPJ8Xj2rDUDskvh4zVp9ijBzBRMfsGARJEfF-Kzcmywt5SpMBfgbt7/pub?w=900&amp;h=400" alt="Icon of a cloud with the letters AWS in it. There is text to the right of the cloud that says #5." title="Icon of a cloud with the letters AWS in it. There is text to the right of the cloud that say #5." style="height: 0px; width: 0px;"></center></div>
 
 This chapter is designed by Amazon. You'll be using their platform to gain a basic understanding of cloud computing, Amazon Web Services (AWS), and what AWS offers. 
 
