@@ -1,0 +1,35 @@
+^^ Auto Scaling and Monitoring
+
+<div style="display: none;"><center><img src="https://docs.google.com/drawings/d/e/2PACX-1vQ6DVgljr9V-B5EoIkvw-80shmAjelPEMVK_7N2JG0yOIv3bFNY2ZS10XH_DM8BZNxJeNZ4yqV9Bvqj/pub?w=900&amp;h=400" alt="Icon of a cloud with the letters AWS in it. There is text to the right of the cloud that says #10." title="Icon of a cloud with the letters AWS in it. There is text to the right of the cloud that say #10." style="height: 0px; width: 0px;"></center></div>
+
+This chapter is designed by Amazon. You'll be using their platform to gain a basic understanding of cloud computing, Amazon Web Services (AWS), and what AWS offers. 
+
+<br />
+
+**Time Estimate**
+
+|Content                                                                      |Estimated Time   |
+|:----------------------------------------------------------------------------|:----------------|
+| Lecture                                                                     | 35 minutes      |
+| Elastic Load Balancing activity                                             | 5 minutes       |
+| Amazon CloudWatch activity                                                  | 5 minutes       |
+| Scale and Load Balance your Architecture lab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 30 minutes      |
+| Sample Exam Question Activity                                               | 5 minutes       |
+| Knowledge Check                                                             | 10 minutes      |
+| **TOTAL**                                                                   | **90 minutes**  |
+
+<br />
+
+**Objectives**
+
+* Indicate how to distribute traffic across Amazon EC2 instances by using Elastic Load Balancing.
+* Identify how Amazon CloudWatch enables you to monitor AWS resources and applications in real time.
+* Explain how Amazon EC2 Auto Scaling launches and releases servers in response to workload changes.
+* Perform scaling and load balancing tasks to improve an architecture.
+
+
+<br />
+
+
+**Work Due**
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vSNfw4faq8HVnTGH2LQiFiM5Lsh-ms7opKlpP-1WixTyV-ccAdrzBzWj2nUN5I6P8LbWg6vcdhF2WTO/pubhtml/sheet?headers=false&amp;gid=614048328&amp;range=B2:D7'style="width:100%;max-width:720px;height:205px" frameborder="0"></iframe></center>
