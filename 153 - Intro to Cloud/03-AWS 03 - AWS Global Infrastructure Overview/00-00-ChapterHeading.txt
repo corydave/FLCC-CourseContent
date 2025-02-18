@@ -8,14 +8,14 @@ This chapter is designed by Amazon. You'll be using their platform to gain a bas
 
 **Time Estimate**
 
-|Content                               |Estimated Time   |
-|:-------------------------------------|:----------------|
-| Lecture                              | 25 minutes      |
-| AWS Global Infrastructure demonstration| 10 minutes      |
+|Content                                                                           |Estimated Time   |
+|:---------------------------------------------------------------------------------|:----------------|
+| Lecture                                                                          | 25 minutes      |
+| AWS Global Infrastructure demonstration                                          | 10 minutes      |
 | AWS Management Console clickthrough activity &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| 20 minutes      |
-| Knowledge Check                      | 10 minutes      |
-| Sample Exam Question Activity        | 5 minutes       |
-| **TOTAL**                            | **70 minutes** |
+| Knowledge Check                                                                  | 10 minutes      |
+| Sample Exam Question Activity                                                    | 5 minutes       |
+| **TOTAL**                                                                        | **70 minutes** |
 
 <br />
 
