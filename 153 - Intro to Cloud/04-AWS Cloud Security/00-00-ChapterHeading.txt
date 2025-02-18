@@ -1,0 +1,53 @@
+^^ AWS Cloud Security
+
+<div style="display: none;"><center><img src="https://docs.google.com/drawings/d/e/2PACX-1vTum1c9Q4rwXWD-6EbdJWpBuNukkvFW92KCU-lCAb4podSCB7TcJsKTmJIahmqtjxYScKCCxJnqtH47/pub?w=900&amp;h=400" alt="Icon of a cloud with the letters AWS in it. There is text to the right of the cloud that says #3." title="Icon of a cloud with the letters AWS in it. There is text to the right of the cloud that say #4." style="height: 0px; width: 0px;"></center></div>
+
+This chapter is designed by Amazon. You'll be using their platform to gain a basic understanding of cloud computing, Amazon Web Services (AWS), and what AWS offers. 
+
+<br />
+
+**Time Estimate**
+
+|Content                               |Estimated Time   |
+|:-------------------------------------|:----------------|
+| Lecture                              | 45 minutes      |
+| Shared responsibility model activity &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| 10 minutes      |
+| IAM demonstration | 5 minutes      |
+| IAM Lab | 40 minutes
+| Sample Exam Question Activity        | 5 minutes       |
+| Knowledge Check                      | 10 minutes      |
+
+| **TOTAL**                            | **115 minutes** |
+
+<br />
+
+**Objectives**
+
+Explain the AWS pricing philosophy.
+Recognize the shared responsibility model.
+* Identify the responsibility of the customer and AWS.
+* Recognize IAM users, groups, and roles.
+* Describe different types of security credentials in IAM.
+* Identify the steps to securing a new AWS account.
+* Explore IAM users and groups.
+* Recognize how to secure AWS data.
+* Recognize AWS compliance programs.
+
+<br />
+
+**Additional Resources**
+
+itional resources
+* [AWS Cloud Security](https://aws.amazon.com/security/)
+* [AWS Security Resources](https://aws.amazon.com/security/security-learning/?cards-top.sort-by=item.additionalFields.sortDate&cards-top.sort-order=desc&awsf.Types=*all)
+* [AWS Security Blog](https://aws.amazon.com/blogs/security/)
+* [Security Bulletins](https://aws.amazon.com/security/security-bulletins/)
+* [Penetration Testing](https://aws.amazon.com/security/penetration-testing/)
+* [AWS Well-Architected Framework – Security Pillar whitepaper](https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/welcome.html)
+* [AWS documentation – Security Best Practices in IAM](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html)
+
+
+<br />
+
+**Work Due**
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vSNfw4faq8HVnTGH2LQiFiM5Lsh-ms7opKlpP-1WixTyV-ccAdrzBzWj2nUN5I6P8LbWg6vcdhF2WTO/pubhtml/sheet?headers=false&amp;gid=1250865820&amp;range=B2:D7'style="width:100%;max-width:720px;height:205px" frameborder="0"></iframe></center>
