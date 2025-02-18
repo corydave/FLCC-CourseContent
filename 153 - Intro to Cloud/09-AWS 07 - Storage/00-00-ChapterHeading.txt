@@ -1,0 +1,52 @@
+^^ Storage
+
+<div style="display: none;"><center><img src="https://docs.google.com/drawings/d/e/2PACX-1vQbrDudVzAescGvf4QOcrv9KJ2x7tnairkbyZWub_A5aSDHs7QiH3iOeeyapo6aVrP6mzE9nwVJ0Ok0/pub?w=900&amp;h=400" alt="Icon of a cloud with the letters AWS in it. There is text to the right of the cloud that says #7." title="Icon of a cloud with the letters AWS in it. There is text to the right of the cloud that say #7." style="height: 0px; width: 0px;"></center></div>
+
+This chapter is designed by Amazon. You'll be using their platform to gain a basic understanding of cloud computing, Amazon Web Services (AWS), and what AWS offers. 
+
+<br />
+
+**Time Estimate**
+
+|Content                                                                     |Estimated Time   |
+|:---------------------------------------------------------------------------|:----------------|
+| Lecture                                                                    | 45 minutes      |
+| Storage case study activity                                                | 20 minutes      |
+| Working with Amazon EBS lab                                                | 30 minutes      |
+| Amazon Simple Storage Service demonstration &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 5 minutes       |
+| Amazon Elastic Block Store demonstration                                   | 5 minutes       |
+| Amazon Elastic File System demonstration                                   | 5 minutes       |
+| Amazon Glacier demonstration                                               | 5 minutes       |
+| Knowledge Check                                                            | 10 minutes      |
+| Sample Exam Question Activity                                              | 5 minutes       |
+| **TOTAL**                                                                  | **130 minutes** |
+
+<br />
+
+**Objectives**
+
+Identify the different types of storage.
+* Explain Amazon Simple Storage Service (Amazon S3).
+* Identify the functionality in Amazon S3.
+* Explain Amazon Elastic Block Store (Amazon EBS).
+* Identify the functionality in Amazon EBS.
+* Perform functions in Amazon EBS to build an EC2 storage solution.
+* Explain Amazon Elastic File System (Amazon EFS).
+* Identify the functionality in Amazon EFS.
+* Explain Amazon Simple Storage Service Glacier.
+* Identify the functionality in Amazon S3 Glacier.
+* Differentiate between Amazon EBS, Amazon S3, Amazon EFS, and Amazon S3 Glacier
+
+<br />
+
+**Additional Resources**
+* [AWS Storage page](https://aws.amazon.com/products/storage/)
+* [Storage Overview](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/storage-services.html)
+* [Recovering files from an Amazon EBS volume backup](https://aws.amazon.com/blogs/compute/recovering-files-from-an-amazon-ebs-volume-backup/)
+* [Confused by AWS Storage Options? S3, EFS, EBS Explained](https://dzone.com/articles/confused-by-aws-storage-options-s3-ebs-amp-efs-explained)
+
+
+<br />
+
+**Work Due**
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vSNfw4faq8HVnTGH2LQiFiM5Lsh-ms7opKlpP-1WixTyV-ccAdrzBzWj2nUN5I6P8LbWg6vcdhF2WTO/pubhtml/sheet?headers=false&amp;gid=318211283&amp;range=B2:D7'style="width:100%;max-width:720px;height:205px" frameborder="0"></iframe></center>
