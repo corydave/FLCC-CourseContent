@@ -1,0 +1,42 @@
+^^ Cloud Architecture
+
+<div style="display: none;"><center><img src="https://docs.google.com/drawings/d/e/2PACX-1vSaWlf24L96ZMo2zFExQZdyHhn7HSk2hRz9KK5od9GTXpnYvijWBVxnQSIN_bDn2uJ7fwuXus_wSIoe/pub?w=900&amp;h=400" alt="Icon of a cloud with the letters AWS in it. There is text to the right of the cloud that says #9." title="Icon of a cloud with the letters AWS in it. There is text to the right of the cloud that say #9." style="height: 0px; width: 0px;"></center></div>
+
+This chapter is designed by Amazon. You'll be using their platform to gain a basic understanding of cloud computing, Amazon Web Services (AWS), and what AWS offers. 
+
+<br />
+
+**Time Estimate**
+
+|Content                                                                                   |Estimated Time   |
+|:-----------------------------------------------------------------------------------------|:----------------|
+| Lecture                                                                                  | 40 minutes      |
+| AWS Well-Architected Framework Design Principles activity &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 50 minutes      |
+| Interpret AWS Trusted Advisor recommendations activity                                   | 10 minutes      |
+| Sample Exam Question Activity                                                            | 5 minutes       |
+| Knowledge Check                                                                          | 10 minutes      |
+| **TOTAL**                                                                                | **115 minutes** |
+
+<br />
+
+**Objectives**
+
+* Describe the AWS Well-Architected Framework, including the six pillars.
+* Identify the design principles of the AWS Well-Architected Framework.
+* Explain the importance of reliability and high availability.
+* Identify how AWS Trusted Advisor helps customers.
+* Interpret AWS Trusted Advisor recommendations.
+
+
+<br />
+
+**Additional Resources**
+* [AWS Well-Architected website](https://aws.amazon.com/architecture/well-architected/?wa-lens-whitepapers.sort-by=item.additionalFields.sortDate&wa-lens-whitepapers.sort-order=desc&wa-guidance-whitepapers.sort-by=item.additionalFields.sortDate&wa-guidance-whitepapers.sort-order=desc)
+* [AWS Well-Architected Framework whitepaper](https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html)
+* [AWS Trusted Advisor Best Practice Checks](https://docs.aws.amazon.com/awssupport/latest/user/trusted-advisor-check-reference.html)
+* [AWS Well-Architected Labs](https://wellarchitectedlabs.com/)
+
+<br />
+
+**Work Due**
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vSNfw4faq8HVnTGH2LQiFiM5Lsh-ms7opKlpP-1WixTyV-ccAdrzBzWj2nUN5I6P8LbWg6vcdhF2WTO/pubhtml/sheet?headers=false&amp;gid=173277705&amp;range=B2:D6'style="width:100%;max-width:720px;height:184px" frameborder="0"></iframe></center>
