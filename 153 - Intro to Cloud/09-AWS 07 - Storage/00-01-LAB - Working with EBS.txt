@@ -1,0 +1,23 @@
+^^ LAB - Working with EBS
+
+<center>
+
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vQOA1vJW5N51a51-1qLHuU9_fWhNqjzKmoTkXWBp_r6LE_jZkuqnzew3nRSkuaAjN3T1yAjNnNS0JQ3/pub?w=576&amp;h=576" alt="A flask with a liquid in it and the words AWS ACADEMY." title="A flask with a liquid in it and the words AWS ACADEMY." style="width: 200px;"/>
+
+</center>
+
+<br />
+
+Please complete the lab in the AWS platform. Some of the labs take a lot of time - please be sure you have enough time carved out to dedicate to your lab.
+
+The grades are not transferred from the AWS platform to Brightspace immediately, but they will ultimately wind up in the Brightspace Grade Book.
+
+<br />
+
+^callout external-link-alt
+
+<br />
+
+[Click here to go to the AWS platform](https://awsacademy.instructure.com/)
+
+^callout-end
