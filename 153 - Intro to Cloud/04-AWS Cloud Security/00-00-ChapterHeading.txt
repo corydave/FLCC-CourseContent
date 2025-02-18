@@ -16,8 +16,7 @@ This chapter is designed by Amazon. You'll be using their platform to gain a bas
 | IAM Lab | 40 minutes
 | Sample Exam Question Activity        | 5 minutes       |
 | Knowledge Check                      | 10 minutes      |
-
-| **TOTAL**                            | **115 minutes** |
+| **TOTAL**   | **115 minutes** |
 
 <br />
 
