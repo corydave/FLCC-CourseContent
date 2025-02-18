@@ -1,0 +1,50 @@
+^^ Networking and Content Delivery
+
+<div style="display:none;"><center><img src="https://docs.google.com/drawings/d/e/2PACX-1vSiQXtHc_vlTRAn9uk3htCgbXWQbkWvahBBKkwtTCoqr_8_XeAYHPim3gzgjF1NmmZk2vjnpqbXPrxC/pub?w=900&amp;h=400" alt="Icon of a cloud with the letters AWS in it. There is text to the right of the cloud that says #3." title="Icon of a cloud with the letters AWS in it. There is text to the right of the cloud that say #3." style="height:0px; width:0px;" /></div></center>
+
+This chapter is designed by Amazon. You'll be using their platform to gain a basic understanding of cloud computing, Amazon Web Services (AWS), and what AWS offers. 
+
+<br />
+
+**Time Estimate**
+
+|Content                               |Estimated Time   |
+|:-------------------------------------|:----------------|
+| Lecture                              | 60 minutes      |
+| Amazon VPC recorded demonstration | 5 minutes      |
+| Label this network diagram activity | 5 minutes      |
+| Design a VPC activity | 15 minutes |
+| Build Your VPC and Launch a Web Server Lab &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 30 minutes |
+| Sample Exam Question Activity        | 5 minutes       |
+| Knowledge Check                      | 10 minutes      |
+| **TOTAL**                            | **130 minutes** |
+
+<br />
+
+**Objectives**
+
+* Recognize the basics of networking.
+* Describe virtual networking in the cloud with Amazon VPC.
+* Label a network diagram.
+* Design a basic VPC architecture.
+* Indicate the steps to build a VPC.
+* Identify security groups.
+* Create their own VPC and add additional components to it to produce a customized network.
+* Identify the fundamentals of Amazon Route 53.
+* Recognize the benefits of Amazon CloudFront.
+
+
+<br />
+
+**Additional Resources**
+* [Amazon VPC overview page](https://aws.amazon.com/vpc/)
+* [Amazon Virtual Private Cloud Connectivity Options whitepaper](https://aws.amazon.com/blogs/architecture/one-to-many-evolving-vpc-design/)
+* [One to Many: Evolving VPC Design AWS Architecture blog post](https://aws.amazon.com/blogs/architecture/one-to-many-evolving-vpc-design/)
+* [Amazon VPC User Guide](https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html)
+* [Amazon CloudFront overview page](https://aws.amazon.com/cloudfront/?nc=sn&loc=1)
+
+
+<br />
+
+**Work Due**
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vSNfw4faq8HVnTGH2LQiFiM5Lsh-ms7opKlpP-1WixTyV-ccAdrzBzWj2nUN5I6P8LbWg6vcdhF2WTO/pubhtml/sheet?headers=false&amp;gid=1265930329&amp;range=B2:D7'style="width:100%;max-width:720px;height:205px" frameborder="0"></iframe></center>
