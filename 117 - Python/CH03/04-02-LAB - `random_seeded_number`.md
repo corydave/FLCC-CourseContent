@@ -48,6 +48,13 @@ Download this file and load it into your IDE.
 
 ^callout-end
 
+^callout external-link-alt
+
+<br />
+
+Click here to clone the repo and submit your work.
+
+^callout-end
 
 
 
