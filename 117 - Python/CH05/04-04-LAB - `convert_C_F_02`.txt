@@ -1,7 +1,7 @@
-^^ LAB - `convertCF02`
+^^ LAB - `convert_C_F_02`
 
 ## DESCRIPTION
-Building off `convertCF01.py` this module will first ask the user if they would like to convert from Celsius to Fahrenheit or from Fahrenheit to Celsius. Once the conversion has been established the user is prompted to enter a temperature and the equivalent temperature is output to the screen.
+Building off `convert_C_F_01.py` this module will first ask the user if they would like to convert from Celsius to Fahrenheit or from Fahrenheit to Celsius. Once the conversion has been established the user is prompted to enter a temperature and the equivalent temperature is output to the screen.
 
 ## SPECIFICATIONS
 
@@ -84,11 +84,18 @@ You may use the following code as starter code. You will need to change the comm
 
 ^callout file-download
 
-[`convertCF02.py`](https://drive.google.com/uc?export=download&id=16AVPSx5NA1iJweGv49hfto68qqV9yrl4)
+[`convert_C_F_02.py`](https://drive.google.com/uc?export=download&id=16AVPSx5NA1iJweGv49hfto68qqV9yrl4)
 
 Download these files and load them into your IDE.
 
 ^callout-end
 
+^callout external-link-alt
+
+<br />
+
+Click here to clone the repo and submit your work.
+
+^callout-end
 
 <br /><br />
