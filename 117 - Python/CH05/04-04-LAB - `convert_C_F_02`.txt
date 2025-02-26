@@ -13,10 +13,10 @@ Building off `convert_C_F_01.py` this module will first ask the user if they wou
 
 * The formulas are listed below:
 
-|Conversion |Formula   |
-|:----:|:--------:|
-| Celsius to Fahrenheit    | `temperature * 9/5 + 32`|
-| Fahrenheit to Celsius    | `(temperature - 32 ) * 5/9`|
+| Conversion            | Formula                     |
+|:---------------------:|:---------------------------:|
+| Celsius to Fahrenheit | `temperature * 9/5 + 32`    |
+| Fahrenheit to Celsius | `(temperature - 32 ) * 5/9` |
 
 
 ## SAMPLE OUTPUT
