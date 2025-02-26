@@ -1,4 +1,4 @@
-^^ LAB - `compliment`
+^^ LAB - `compliment_01`
 
 ## DESCRIPTION
 In this program, the user is prompted whether they want a compliment or not. If they choose "yes", then a compliment is given. 
@@ -49,9 +49,17 @@ You may use the following code as starter code. You will need to change the comm
 
 ^callout file-download
 
-[`compliment.py`](https://drive.google.com/uc?export=download&id=1V59VJjnfVKUdyd7T1wlrURd7FIqwbXi9)
+[`compliment_01.py`](https://drive.google.com/uc?export=download&id=1V59VJjnfVKUdyd7T1wlrURd7FIqwbXi9)
 
 Download these files and load them into your IDE.
+
+^callout-end
+
+^callout external-link-alt
+
+<br />
+
+Click here to clone the repo and submit your work.
 
 ^callout-end
 
