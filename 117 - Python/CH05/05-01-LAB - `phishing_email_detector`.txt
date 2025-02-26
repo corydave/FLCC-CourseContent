@@ -90,7 +90,7 @@ Analyzed subject: "Did you request a password reset?"
 ```
 
 <center>
-<iframe src="https://corydave.github.io/websitetest/console/?program=phishingDetector" width="80%" height="450" frameborder="0"></iframe>
+<iframe src="https://corydave.github.io/websitetest/console/?program=phishing" width="80%" height="450" frameborder="0"></iframe>
 </center>
 
 ## STARTER CODE
