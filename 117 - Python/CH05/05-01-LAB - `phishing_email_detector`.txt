@@ -1,0 +1,112 @@
+^^ LAB - `phishing_email_detector`
+
+
+## DESCRIPTION
+
+Write a program that analyzes an email subject line to detect phishing attempts based on common red flags:
+
+1. Prompt the user to enter an email subject line (as a string).
+
+2. Check for phishing indicators using `if-elif-else` and output an appropriate warning message:
+    * If the subject contains "**urgent**" or "**immediate action required**" output "**HIGH RISK: Possible phishing attempt.**"
+
+    * Else if the subject contains "**win**" or "**free**" output "**MEDIUM RISK: Suspicious offer detected.**"
+
+    * Else if the subject contains "**password reset**" output "**LOW RISK: Verify legitimacy with sender.**"
+
+    * Else output "**No phishing indicators detected.**"
+
+Good news! You'll get to use a new Python skill! When looking at strings, there is an operator called `in` that works like this:
+
+```python
+full_name = 'Dave Ghidiu'
+
+if 'Ghi' in full_name:
+    print('PARTIAL MATCH')
+
+# This will output PARTIAL MATCH
+```
+
+Note that the `in` is case sensitive! So the inquiry 
+```python
+if 'ghi' in full_name:
+# 'ghi' is not in 'Ghi', so there is no match
+```
+would be negative. However, if we don't care about capitalization, we could use this:
+
+```python
+full_name = 'Dave Ghidiu'
+
+if 'ghi' in full_name.lower():
+    print('PARTIAL MATCH')
+
+# This will output PARTIAL MATCH as well
+```
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* The filename for this program is `phishing_email_detector.py`
+
+* Add comments with your name, date, and program description at the top.
+
+## SAMPLE OUTPUT
+
+```
+Enter the email subject line: Meeting on Friday
+
+SECURITY ASSESSMENT:
+No phishing indicators detected.
+------------------------
+Analyzed subject: "Meeting on Friday"
+```
+
+```
+Enter the email subject line: URGENT REQUEST FOR BANK TRANSFER
+
+SECURITY ASSESSMENT:
+HIGH RISK: Possible phishing attempt.
+------------------------
+Analyzed subject: "URGENT REQUEST FOR BANK TRANSFER"
+```
+
+```
+Enter the email subject line: All I do is win win win no matter what
+
+SECURITY ASSESSMENT:
+MEDIUM RISK: Suspicious offer detected.
+------------------------
+Analyzed subject: "All I do is win win win no matter what"
+```
+
+```
+Enter the email subject line: Did you request a password reset?
+
+SECURITY ASSESSMENT:
+LOW RISK: Verify legitimacy with sender.
+------------------------
+Analyzed subject: "Did you request a password reset?"
+```
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`phishing_email_detector.py`](https://drive.google.com/uc?export=download&id=17YDplcfGoDK79gKSAS80GnAGdtahdEkk)
+
+Download this file and load it into your IDE.
+
+^callout-end
+
+^callout external-link-alt
+
+<br />
+
+Click here to clone the repo and submit your work.
+
+^callout-end
+
+<br /><br />
