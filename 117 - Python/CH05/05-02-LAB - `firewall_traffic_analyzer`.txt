@@ -1,0 +1,119 @@
+^^ LAB - `firewall_traffic_analyzer`
+
+## DESCRIPTION
+
+Write a program that considers two pieces of data and makes a risk analysis. The program monitors data transfers to a network and the risk assessment is based on the port number as well as the size of the transfer.
+
+1. Prompt the user for:
+    * The port number as an `int` (e.g., 80, 22, 443, 3389).
+    * The data transfer size in megabytes 
+ as in `int` (MB).
+
+2. Categorize traffic using `if-elif-else`:
+    * If port 22 (SSH) and transfer size > 500MB output "**HIGH RISK: Potential unauthorized remote access detected!**"
+    * Else if port 80 (HTTP) with transfer size > 100MB output "**MEDIUM RISK: Large unencrypted data transfer detected.**"
+    * Else if port 443 (HTTPS) output "**LOW RISK: Secure encrypted transfer detected.**"
+    * Else output "**UNKNOWN: Unrecognized traffic pattern.**"
+
+Print a firewall log message summarizing the risk level.
+
+Good news! You'll get to use another new Python skill! Conditionals can be *compound* that means they can have an `and` or an `or`:
+
+```python
+port_number = 21
+
+if port_number == 21 or 22:
+  print('File transfer')
+```
+
+<br />
+
+You can use an `and` statement the same way:
+
+```python
+port_number = 3889
+transfer_size = 675
+
+if port_number == 3889 and transfer_size > 500:
+  print('Suspicious activity')
+```
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* The filename for this program is `firewall_traffic_analyzer.py`
+
+* Add comments with your name, date, and program description at the top.
+
+## SAMPLE OUTPUT
+
+```
+=== Network Traffic Security Analyzer ===
+
+Enter the port number (e.g., 80, 22, 443, 3389): 80
+Enter the data transfer size in megabytes (MB): 120
+
+FIREWALL LOG:
+Port: 80, Transfer Size: 120 MB
+Risk Assessment: MEDIUM RISK: Large unencrypted data transfer detected.
+------------------------
+```
+
+```
+=== Network Traffic Security Analyzer ===
+
+Enter the port number (e.g., 80, 22, 443, 3389): 22
+Enter the data transfer size in megabytes (MB): 12
+
+FIREWALL LOG:
+Port: 22, Transfer Size: 12 MB
+Risk Assessment: HIGH RISK: Potential unauthorized remote access detected!
+------------------------
+```
+
+```
+=== Network Traffic Security Analyzer ===
+
+Enter the port number (e.g., 80, 22, 443, 3389): 443
+Enter the data transfer size in megabytes (MB): 1024
+
+FIREWALL LOG:
+Port: 443, Transfer Size: 1024 MB
+Risk Assessment: LOW RISK: Secure encrypted transfer detected.
+------------------------
+```
+
+```
+=== Network Traffic Security Analyzer ===
+
+Enter the port number (e.g., 80, 22, 443, 3389): 1725
+Enter the data transfer size in megabytes (MB): 234567
+
+FIREWALL LOG:
+Port: 1725, Transfer Size: 234567 MB
+Risk Assessment: UNKNOWN: Unrecognized traffic pattern.
+------------------------
+```
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`firewall_traffic_analyzer.py`](https://drive.google.com/uc?export=download&id=13oMf9g_vsLvvabf2Bx3DmLsOXnTGJ54r)
+
+Download this file and load it into your IDE.
+
+^callout-end
+
+^callout external-link-alt
+
+<br />
+
+Click here to clone the repo and submit your work.
+
+^callout-end
+
+<br /><br />
