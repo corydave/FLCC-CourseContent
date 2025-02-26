@@ -15,14 +15,14 @@ Most learning management systems (Blackboard, Brightspace, etc.) have a feature 
 
 ^=^ , 4
 
-|<center>Grade Range</center> |<center>Letter</center>   |
-|:---------:|:--------:|
-| Below 65     | F  |
-| [65, 70)     | D  |
-| [70, 80)     | C  |
-| [80, 90)     | B  |
-| [90, 100]    | A  |
-| Above 100    | A+ |
+| <center>Grade Range</center> | <center>Letter</center>  |
+|:----------------------------:|:------------------------:|
+| Below 65                     | F                        |
+| [65, 70)                     | D                        |
+| [70, 80)                     | C                        |
+| [80, 90)                     | B                        |
+| [90, 100]                    | A                        |
+| Above 100                    | A+                       |
 
 ^=
 
