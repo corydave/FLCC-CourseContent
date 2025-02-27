@@ -64,10 +64,10 @@ Risk Assessment: MEDIUM RISK: Large unencrypted data transfer detected.
 === Network Traffic Security Analyzer ===
 
 Enter the port number (e.g., 80, 22, 443, 3389): 22
-Enter the data transfer size in megabytes (MB): 12
+Enter the data transfer size in megabytes (MB): 1200
 
 FIREWALL LOG:
-Port: 22, Transfer Size: 12 MB
+Port: 22, Transfer Size: 1200 MB
 Risk Assessment: HIGH RISK: Potential unauthorized remote access detected!
 ------------------------
 ```
