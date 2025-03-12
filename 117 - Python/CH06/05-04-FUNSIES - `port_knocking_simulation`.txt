@@ -1,0 +1,88 @@
+^^ FUNSIES - `port_knocking_simulation`
+
+## DESCRIPTION
+Remember the rectangle lab from early on (it was just a bunch of `print()` statements)? Well we are revisiting it.
+
+This time around, the user gets to pick a *height*. The software should always output the top and the bottom of the rectangle, but the height depends on the user's input.
+
+Feel free to use either a `for` loop or a `while` loop - whatever you are more comfortable with.
+
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top!
+
+* Your output must match the Sample Output *exactly*.
+
+## SAMPLE OUTPUT
+
+
+```
+How tall would you like the rectangle? 3
+*****
+*   *
+*   *
+*   *
+*****
+```
+<br />
+
+```
+How tall would you like the rectangle? 1
+*****
+*   *
+*****
+```
+
+<br />
+
+```
+How tall would you like the rectangle? 0
+*****
+*****
+```
+
+<br />
+
+```
+How tall would you like the rectangle? 10
+*****
+*   *
+*   *
+*   *
+*   *
+*   *
+*   *
+*   *
+*   *
+*   *
+*   *
+*****
+```
+
+<br />
+
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`rectangle_redux.py`](https://drive.google.com/uc?export=download&id=1hJGdW3PP5UTukjwDYt20z91PjZVtGd6T)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+^callout b-github
+
+<br />
+
+Click here to clone the repo and submit your work.
+
+^callout-end    
+
+<br /><br />
