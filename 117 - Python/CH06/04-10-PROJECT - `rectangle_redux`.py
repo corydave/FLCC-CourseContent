@@ -1,4 +1,4 @@
-^^ LAB - `rectangle_redux`
+^^ PROJECT - `rectangle_redux`
 
 ## DESCRIPTION
 Remember the rectangle lab from early on (it was just a bunch of `print()` statements)? Well we are revisiting it.
@@ -77,6 +77,12 @@ Download these files and load them into your IDE.
 
 ^callout-end
 
-    
+^callout b-github
+
+<br />
+
+Click here to clone the repo and submit your work.
+
+^callout-end    
 
 <br /><br />
