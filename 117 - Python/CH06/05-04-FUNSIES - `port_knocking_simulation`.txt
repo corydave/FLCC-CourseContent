@@ -1,12 +1,34 @@
 ^^ FUNSIES - `port_knocking_simulation`
 
 ## DESCRIPTION
-Remember the rectangle lab from early on (it was just a bunch of `print()` statements)? Well we are revisiting it.
+In cybersecurity, "port knocking" is a technique where a firewall only grants access after detecting a specific sequence of connection attempts on various ports - similar to a secret knock on a door. This lab will help you understand loop-based validation and sequence checking, which are fundamental cybersecurity concepts.
 
-This time around, the user gets to pick a *height*. The software should always output the top and the bottom of the rectangle, but the height depends on the user's input.
+You may find it easier to use a *nested loop* - that is when one loop lives inside another. Let's say that the inside loop iterates 4 times and the outside (containing) loop iterates 3 times. That means we have 12 iterations! Here's a simple example:
 
-Feel free to use either a `for` loop or a `while` loop - whatever you are more comfortable with.
+```python
 
+for i in range(3):  # Outer loop: iterates 3 times (0, 1, 2)
+    for j in range(4):  # Inner loop: iterates 4 times (0, 1, 2, 3) for each outer loop iteration of the containing loop
+        print(f'Outer: {i}, Inner: {j}, Product: {i * j}')
+
+```
+
+The output is:
+
+```
+Outer: 0, Inner: 0, Product: 0
+Outer: 0, Inner: 1, Product: 0
+Outer: 0, Inner: 2, Product: 0
+Outer: 0, Inner: 3, Product: 0
+Outer: 1, Inner: 0, Product: 0
+Outer: 1, Inner: 1, Product: 1
+Outer: 1, Inner: 2, Product: 2
+Outer: 1, Inner: 3, Product: 3
+Outer: 2, Inner: 0, Product: 0
+Outer: 2, Inner: 1, Product: 2
+Outer: 2, Inner: 2, Product: 4
+Outer: 2, Inner: 3, Product: 6
+```
 
 ## SPECIFICATIONS
 
@@ -18,52 +40,96 @@ Feel free to use either a `for` loop or a `while` loop - whatever you are more c
 
 ## SAMPLE OUTPUT
 
-
 ```
-How tall would you like the rectangle? 3
-*****
-*   *
-*   *
-*   *
-*****
+===== PORT KNOCKING FIREWALL SIMULATOR =====
+This firewall requires a specific sequence of port connections.
+You have 3 attempts to find the correct sequence.
+(Hint: Enter ports as integers, one at a time)
+
+Attempt 1 of 3:
+Enter your port knock sequence. Enter 0 when finished.
+Enter port number: 3
+Enter port number: 4
+Enter port number: 5
+Enter port number: 0
+
+FIREWALL RESPONSE: Connection rejected!
+Your sequence had 3 knocks, but the firewall expects 4.
+
+Attempt 2 of 3:
+Enter your port knock sequence. Enter 0 when finished.
+Enter port number: 2222
+Enter port number: 3333
+Enter port number: 4444
+Enter port number: 5555
+Enter port number: 0
+
+FIREWALL RESPONSE: Connection accepted!
+Correct port knocking sequence detected.
+Firewall has opened port 22 for your connection.
 ```
 <br />
 
 ```
-How tall would you like the rectangle? 1
-*****
-*   *
-*****
+===== PORT KNOCKING FIREWALL SIMULATOR =====
+This firewall requires a specific sequence of port connections.
+You have 3 attempts to find the correct sequence.
+(Hint: Enter ports as integers, one at a time)
+
+Attempt 1 of 3:
+Enter your port knock sequence. Enter 0 when finished.
+Enter port number: 2222
+Enter port number: 3333
+Enter port number: 4444
+Enter port number: 5555
+Enter port number: 0
+
+FIREWALL RESPONSE: Connection accepted!
+Correct port knocking sequence detected.
+Firewall has opened port 22 for your connection.
 ```
 
 <br />
 
 ```
-How tall would you like the rectangle? 0
-*****
-*****
+===== PORT KNOCKING FIREWALL SIMULATOR =====
+This firewall requires a specific sequence of port connections.
+You have 3 attempts to find the correct sequence.
+(Hint: Enter ports as integers, one at a time)
+
+Attempt 1 of 3:
+Enter your port knock sequence. Enter 0 when finished.
+Enter port number: 1
+Enter port number: 0
+
+FIREWALL RESPONSE: Connection rejected!
+Your sequence had 1 knocks, but the firewall expects 4.
+
+Attempt 2 of 3:
+Enter your port knock sequence. Enter 0 when finished.
+Enter port number: 2
+Enter port number: 3
+Enter port number: 0
+
+FIREWALL RESPONSE: Connection rejected!
+Your sequence had 2 knocks, but the firewall expects 4.
+
+Attempt 3 of 3:
+Enter your port knock sequence. Enter 0 when finished.
+Enter port number: 4
+Enter port number: 5
+Enter port number: 6
+Enter port number: 0
+
+FIREWALL RESPONSE: Connection rejected!
+Your sequence had 3 knocks, but the firewall expects 4.
+
+MAXIMUM ATTEMPTS REACHED
+Firewall has blocked your IP address for 30 minutes.
+The correct sequence was: [2222, 3333, 4444, 5555]
 ```
 
 <br />
-
-```
-How tall would you like the rectangle? 10
-*****
-*   *
-*   *
-*   *
-*   *
-*   *
-*   *
-*   *
-*   *
-*   *
-*   *
-*****
-```
-
-<br />
-
 
 ## STARTER CODE
 
@@ -71,7 +137,7 @@ You may use the following code as starter code. You will need to change the comm
 
 ^callout file-download
 
-[`rectangle_redux.py`](https://drive.google.com/uc?export=download&id=1hJGdW3PP5UTukjwDYt20z91PjZVtGd6T)
+[`port_knocking.py`](https://drive.google.com/uc?export=download&id=14kkH4j_FcjXqS2cliNLjOcsOyrZtz2Ba)
 
 Download these files and load them into your IDE.
 
