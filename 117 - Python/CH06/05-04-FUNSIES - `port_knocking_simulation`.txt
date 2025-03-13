@@ -40,6 +40,10 @@ Outer: 2, Inner: 3, Product: 6
 
 ## SAMPLE OUTPUT
 
+^acc
+
+^^^ Test Case 1
+
 ```
 ===== PORT KNOCKING FIREWALL SIMULATOR =====
 This firewall requires a specific sequence of port connections.
@@ -70,6 +74,8 @@ Firewall has opened port 22 for your connection.
 ```
 <br />
 
+^^^ Test Case 2
+
 ```
 ===== PORT KNOCKING FIREWALL SIMULATOR =====
 This firewall requires a specific sequence of port connections.
@@ -90,6 +96,8 @@ Firewall has opened port 22 for your connection.
 ```
 
 <br />
+
+^^^ Test Case 3
 
 ```
 ===== PORT KNOCKING FIREWALL SIMULATOR =====
@@ -129,7 +137,15 @@ Firewall has blocked your IP address for 30 minutes.
 The correct sequence was: [2222, 3333, 4444, 5555]
 ```
 
+<br />
+
+^^^ Live Demo
+
 <center><iframe src="https://corydave.github.io/websitetest/claude/console/?program=portknock" width="80%" height="450" frameborder="0"></iframe></center>
+
+<br />
+
+^acc-end
 
 <br />
 
