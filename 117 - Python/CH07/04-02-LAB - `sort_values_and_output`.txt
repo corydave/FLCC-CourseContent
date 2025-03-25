@@ -1,13 +1,17 @@
-^^ LAB - `sort_values`
+^^ LAB - `sort_values_and_output`
 
 ## DESCRIPTION
-In this exercise we will be sorting a `list` in Python. The user will get to enter as many words as they want. The input phase will end when the *sentinel* of `_DONE_` has been entered. The program will then sort the `list` and output the words three times.
+In this exercise we will be sorting a `list` in Python. The user will get to enter as many words as they want. The input phase will end when the *sentinel* of `_DONE_` has been entered. The program will then sort the `list` and output the items in the list three times:
 
 * The first time the words are output, they will be in the order in which they were entered.
 
 * The second time, they will be sorted.
 
 * The third time, they will be reversed
+
+You should consider using the functions `.sort()` and `.reverse()`
+
+Note that in the second example, the numbers are treated as strings (so `'1'`, '`10`', '`4`' makes sense as they are sorted alphabetically, not numerically). 
 
 ## SPECIFICATIONS
 
@@ -96,9 +100,17 @@ You may use the following code as starter code. You will need to change the comm
 
 ^callout file-download
 
-[`sort_values.py`](https://drive.google.com/uc?export=download&id=1KkP-VBpIIaISfcByMnLAvGcStpYwA60l)
+[`sort_values_and_output.py`](https://drive.google.com/uc?export=download&id=1KkP-VBpIIaISfcByMnLAvGcStpYwA60l)
 
 Download these files and load them into your IDE.
+
+^callout-end
+
+^callout external-link-alt
+
+<br />
+
+Click here to clone the repo and submit your work.
 
 ^callout-end
 
