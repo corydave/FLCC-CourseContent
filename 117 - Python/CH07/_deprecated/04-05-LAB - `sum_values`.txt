@@ -1,0 +1,98 @@
+^^ LAB - `sum_values`
+
+## DESCRIPTION
+In this exercise we will continue to hone our `list` manipulation skills. We will be taking input from the user as they provide integers for a `list` - the number of failed login attempts at a company.
+
+Here is the use case scenario:
+
+^=^ ,, 10
+
+Security teams monitor failed login attempts to detect potential brute force attacks. In this simple lab, you'll work with a list that contains the number of failed login attempts recorded each day of the week. Your task is to calculate the total number of failed attempts for the entire week to determine if a security threshold has been exceeded.
+
+^=
+
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top!
+
+* Your output must match the Sample Output *exactly*.
+
+* Your solution MUST sum the values of the list. Of course, you could go through the list and add all the values. Or you can use the nifty `sum()` function built into Python:
+
+```python
+
+numbers = [1, 2, 3, 4, 5]
+total = sum(numbers) # Returns 15
+print(total) # Outputs 15
+
+```
+
+## SAMPLE OUTPUT
+
+```
+Please enter failed login attempts
+==================================
+
+  Monday:    1
+  Tuesday:   2
+  Wednesday: 3
+  Thursday:  4
+  Friday:    5
+
+
+===== FAILED LOGIN ATTEMPTS ANALYZER =====
+
+Total failed login attempts for the week: 15
+
+Everything seems normal. It's quiet. Too quiet.
+Recommendation: Continue routine monitoring.
+```
+
+<br />
+
+```
+Please enter failed login attempts
+==================================
+
+  Monday:    12
+  Tuesday:   10
+  Wednesday: 4
+  Thursday:  0
+  Friday:    88
+
+
+===== FAILED LOGIN ATTEMPTS ANALYZER =====
+
+Total failed login attempts for the week: 114
+
+SECURITY ALERT: Weekly threshold of 100 attempts has been exceeded!
+Recommendation: Investigate for potential brute force attacks.
+```
+
+<br />
+
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`sum_values.py`](https://drive.google.com/uc?export=download&id=15GXsDkwaIgueeT-XonA2hplZ-ZBhhAAz)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+^callout b-github
+
+<br />
+
+Click here to clone the repo and submit your work.
+
+^callout-end
+
+<br /><br />
