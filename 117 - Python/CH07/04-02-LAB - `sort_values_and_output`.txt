@@ -1,7 +1,7 @@
 ^^ LAB - `sort_values_and_output`
 
 ## DESCRIPTION
-In this exercise we will be sorting a `list` in Python. The user will get to enter as many words as they want. The input phase will end when the *sentinel* of `_DONE_` has been entered. The program will then sort the `list` and output the items in the list three times:
+In this exercise, we will be sorting a `list` in Python. The user will get to enter as many words as they want. The input phase will end when the *sentinel* of `_DONE_` has been entered. The program will then sort the `list` and output the items in the list three times:
 
 * The first time the words are output, they will be in the order in which they were entered.
 
@@ -106,7 +106,7 @@ Download these files and load them into your IDE.
 
 ^callout-end
 
-^callout external-link-alt
+^callout b-github
 
 <br />
 
