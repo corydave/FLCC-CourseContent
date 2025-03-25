@@ -149,6 +149,10 @@ Thank you for using the Fortune Telling Machine!
 Smash that LIKE and Subscribe button and tell your friends!
 ```
 
+^^^ Live Demo
+
+<center><iframe src="https://corydave.github.io/websitetest/claude/console/?program=fortune" width="80%" height="450" frameborder="0"></iframe></center>
+
 ^acc-end
 
 <br /><br />
