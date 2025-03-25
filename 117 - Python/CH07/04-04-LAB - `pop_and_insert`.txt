@@ -1,7 +1,7 @@
-^^ LAB - `output_left`
+^^ LAB - `pop_and_insert`
 
 ## DESCRIPTION
-In this exercise we will hone our `list` manipulation skills. We will be taking input from the user as they provide integers for a `list`. When they are done, we will output all the elements in the list--in order--with one caveat: the first item in the list will be output as the last item. 
+In this exercise, we will hone our `list` manipulation skills. We will be taking input from the user as they provide integers for a `list`. When they are done, we will output all the elements in the list (in order) with one caveat: the first item in the list will be output as the last item. 
 
 Programmatically, there are two ways to approach this. The first method includes not disturbing the order of the items in the `list`:
 1. Print out items 1-9
@@ -9,7 +9,7 @@ Programmatically, there are two ways to approach this. The first method includes
 
 Alternatively, you could just *pop* the first item and append it to the `list` and then print the `list`.
 
-Let's choose the second option that physically reorients the `list`. Here is the use case scenario:
+We will choose the second option that physically reorganizes the `list`. Here is the use case scenario:
 
 ^=^ ,, 10
 
@@ -17,26 +17,13 @@ The DMV has a policy that mandates all customers get a ticket when they enter. C
 
 ^=
 
-The code below satisfies the requirement of the first scenario (outputting the names such that the first name is now the last) but it does not permanently alter the structure of the `list`. Note that this code, while workable, does not meet the requirements of this exercise:
+Don't forget that `.pop(0)` will remove the first item in a list. For instance, if the list is called `doggo_names` and has the following values:
 
-```python
+`['BB-8', 'Quinnie', 'Maggie']`
 
-    # Assume a list named `customers` holds the
-    # names of drivers.
+then the code below will take `'BB-8'` out of the list and store it as `first_doggo`:
 
-    # Iterate through the list starting at index
-    # one (instead of index 0) and go through
-    # the length of the list:
-    for x in range(1, len(customers)):
-
-        # Print each name (on the same line!).
-        print(customers[x] + ', ', end='')
-    
-    # Now print the first name.
-    print(customers[0], end='')
-
-```
-
+`first_doggo = doggo_names.pop(0)`
 
 
 ## SPECIFICATIONS
@@ -47,7 +34,7 @@ The code below satisfies the requirement of the first scenario (outputting the n
 
 * Your output must match the Sample Output *exactly*.
 
-* Your program *must* alter the structure of the `list` by moving the first item to the last spot. The `pop()` function works well for removing an item (by index number) from a `list`.
+* Your program *must* alter the structure of the `list` by moving the first item to the last spot. The `pop()` function works well for removing an item (by index number) from a `list` and `append(item)` is great for tacking it on to the back of the list.
 
 ## SAMPLE OUTPUT
 
@@ -95,9 +82,17 @@ You may use the following code as starter code. You will need to change the comm
 
 ^callout file-download
 
-[`output_left.py`](https://drive.google.com/uc?export=download&id=1io4osR3SpAYtFLGyIO54wUXHWJm9A6wb)
+[`pop_and_insert.py`](https://drive.google.com/uc?export=download&id=1io4osR3SpAYtFLGyIO54wUXHWJm9A6wb)
 
 Download these files and load them into your IDE.
+
+^callout-end
+
+^callout b-github
+
+<br />
+
+Click here to clone the repo and submit your work.
 
 ^callout-end
 
