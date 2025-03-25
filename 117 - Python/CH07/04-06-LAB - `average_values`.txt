@@ -74,6 +74,13 @@ You may use the following code as starter code. You will need to change the comm
 Download these files and load them into your IDE.
 
 ^callout-end
+^callout b-github
+
+<br />
+
+Click here to clone the repo and submit your work.
+
+^callout-end
 
 
 <br /><br />
