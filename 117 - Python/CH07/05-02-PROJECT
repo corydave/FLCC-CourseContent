@@ -1,0 +1,181 @@
+^^ PROJECT - `password_strength_validator`
+
+## DESCRIPTION
+This project requires a comprehensive knowledge of everything we've explored so far in Python. We'll also be on the hook for providing some thought into the design of the program.
+
+## WALKTHROUGH
+
+The phases of the program are:
+1. Welcome the user to the Fortune Telling Machine.
+
+2. Ask them to load in fortunes. These fortunes will be dispensed randomly later.
+
+3. The software will randomly pick a fortune and print it out. The user will choose if they want to get another fortune. This goes on until the user indicates that they are done.
+
+4. Thank the user for playing the game and ask them to smash that like button.
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top!
+
+* Your output can look however you'd like it to; this lab will be assessed by hand.
+
+## SAMPLE OUTPUT
+
+^acc
+
+^^^ Test Case 1
+
+```
+=======================================
+Welcome to the Fortune Telling Machine!
+=======================================
+
+
+Enter some fortunes. Type "DONE" when you are through.
+Enter a fortune: You will live a long life.
+Enter a fortune: You will be rich!
+Enter a fortune: You will eat the most delicious cookie later this week.
+Enter a fortune: You have a great smile.
+Enter a fortune: DONE
+
+You will live a long life.
+
+Another fortune (y/n)? y
+You will eat the most delicious cookie later this week.
+
+Another fortune (y/n)? y
+You will live a long life.
+
+Another fortune (y/n)? y
+You will be rich!
+
+Another fortune (y/n)? y
+You will eat the most delicious cookie later this week.
+
+Another fortune (y/n)? y
+You will be rich!
+
+Another fortune (y/n)? n
+
+
+Thank you for using the Fortune Telling Machine!
+Smash that LIKE and Subscribe button and tell your friends!
+```
+
+^acc-end
+
+^acc
+
+^^^ Test Case 2
+
+```
+=======================================
+Welcome to the Fortune Telling Machine!
+=======================================
+
+
+Enter some fortunes. Type "DONE" when you are through.
+Enter a fortune: a
+Enter a fortune: b
+Enter a fortune: c
+Enter a fortune: DONE
+
+c
+
+Another fortune (y/n)? y
+a
+
+Another fortune (y/n)? y
+a
+
+Another fortune (y/n)? y
+c
+
+Another fortune (y/n)? y
+c
+
+Another fortune (y/n)? y
+b
+
+Another fortune (y/n)? y
+b
+
+Another fortune (y/n)? n
+
+
+Thank you for using the Fortune Telling Machine!
+Smash that LIKE and Subscribe button and tell your friends!
+```
+
+^acc-end
+
+^acc
+
+^^^ Test Case 3
+
+```
+=======================================
+Welcome to the Fortune Telling Machine!
+=======================================
+
+
+Enter some fortunes. Type "DONE" when you are through.
+Enter a fortune: You smell funny.
+Enter a fortune: You smell awesome!
+Enter a fortune: Watch out for falling ice cream.                  
+Enter a fortune: Enjoy your time in the fields of gold!
+Enter a fortune: This is the clock song.
+Enter a fortune: Cold comfort for change.
+Enter a fortune: DONE
+
+Cold comfort for change.
+
+Another fortune (y/n)? y
+Cold comfort for change.
+
+Another fortune (y/n)? y
+Enjoy your time in the fields of gold!
+
+Another fortune (y/n)? y
+This is the clock song.
+
+Another fortune (y/n)? n
+
+
+Thank you for using the Fortune Telling Machine!
+Smash that LIKE and Subscribe button and tell your friends!
+```
+
+^^^ Live Demo
+
+<center><iframe src="https://corydave.github.io/websitetest/claude/console/?program=fortune" width="80%" height="450" frameborder="0"></iframe></center>
+
+^acc-end
+
+<br /><br />
+
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`fortune_machine.py`](https://drive.google.com/uc?export=download&id=1HcSaE5qzQ_JZd09nqGKFrjOz3_JKz6GU)
+
+Download this file and load it into your IDE.
+
+^callout-end
+
+^callout b-github
+
+<br />
+
+Click here to clone the repo and submit your work.
+
+^callout-end
+
+<br /><br />
