@@ -1,0 +1,181 @@
+^^ PROJECT - `mfa_simulator`
+
+## DESCRIPTION
+
+Multi-Factor Authentication (MFA) is a critical security measure that requires users to provide two or more verification factors to gain access to a system. One common MFA method is a Time-based One-Time Password (TOTP), where a unique code is generated for a short period of time.
+
+In this lab, you'll create a simple MFA code generator and validator that demonstrates the basic concept of one-time security codes.
+
+## WALKTHROUGH
+
+### Part 1: Create an MFA Code Generator
+1. Ask the user for a seed
+2. Generate a list of 10 random numbers (six digits long each)
+3. Displays the codes to the user
+
+### Part 2: Validate MFA Codes
+1. Ask the user to input a security code
+2. Check if the entered code matches any code in your valid codes list
+3. If the code is not in the list, the user is denied access.
+4. If the code is in the list, the user is granted access and the code is removed from the list.
+5. The remaining codes are displayed.
+
+
+
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top!
+
+* Your output can look however you'd like it to; this lab will be assessed by hand.
+
+## SAMPLE OUTPUT
+
+^acc
+
+^^^ Test Case 1
+
+```
+ENTER SEED FOR SIMULATION: 33
+
+===============================
+  SIMULATING CODE GENERATION   
+===============================
+
+Backup code: 698032
+Backup code: 275378
+Backup code: 762944
+Backup code: 344546
+Backup code: 956690
+Backup code: 981604
+Backup code: 390760
+Backup code: 602233
+Backup code: 783524
+Backup code: 658550
+
+===============================
+     SIMULATING CODE USE       
+===============================
+
+You have 10 codes remaining.
+Enter a valid code: 123456
+
+Access Denied
+```
+
+^^^ Test Case 2
+
+```
+ENTER SEED FOR SIMULATION: 33
+
+===============================
+  SIMULATING CODE GENERATION   
+===============================
+
+Backup code: 698032
+Backup code: 275378
+Backup code: 762944
+Backup code: 344546
+Backup code: 956690
+Backup code: 981604
+Backup code: 390760
+Backup code: 602233
+Backup code: 783524
+Backup code: 658550
+
+===============================
+     SIMULATING CODE USE       
+===============================
+
+You have 10 codes remaining.
+Enter a valid code: 344546
+
+Access Granted
+
+You have 9 codes remaining.
+
+Backup code: 698032
+Backup code: 275378
+Backup code: 762944
+Backup code: 956690
+Backup code: 981604
+Backup code: 390760
+Backup code: 602233
+Backup code: 783524
+Backup code: 658550
+```
+
+^^^ Test Case 3
+
+```
+ENTER SEED FOR SIMULATION: 0
+
+===============================
+  SIMULATING CODE GENERATION   
+===============================
+
+Backup code: 985440
+Backup code: 503958
+Backup code: 894772
+Backup code: 541001
+Backup code: 142450
+Backup code: 371493
+Backup code: 636110
+Backup code: 609532
+Backup code: 524604
+Backup code: 921872
+
+===============================
+     SIMULATING CODE USE       
+===============================
+
+You have 10 codes remaining.
+Enter a valid code: 985440
+
+Access Granted
+
+You have 9 codes remaining.
+
+Backup code: 503958
+Backup code: 894772
+Backup code: 541001
+Backup code: 142450
+Backup code: 371493
+Backup code: 636110
+Backup code: 609532
+Backup code: 524604
+Backup code: 921872
+```
+
+^^^ Live Demo
+
+<center><iframe src="https://corydave.github.io/websitetest/claude/console/?program=mfa" width="80%" height="450" frameborder="0"></iframe></center>
+
+^acc-end
+
+<br /><br />
+
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`mfa_simulator.py`](https://drive.google.com/uc?export=download&id=15aul0RMr0SwaywnxDq8D1LulEd7Uvl1W)
+
+Download this file and load it into your IDE.
+
+^callout-end
+
+^callout b-github
+
+<br />
+
+Click here to fork the repo and submit your work.
+
+^callout-end
+
+<br /><br />
