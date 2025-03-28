@@ -7,7 +7,9 @@ Here is the use case scenario:
 
 ^=^ ,, 10
 
-Security teams monitor failed login attempts to detect potential brute force attacks. In this simple lab, you'll work with a list that contains the number of failed login attempts recorded each day of the week. Your task is to calculate the total number of failed attempts for the entire week to determine if a security threshold has been exceeded.
+Security teams monitor failed login attempts to detect potential brute force attacks. In this simple lab, you'll work with a list that contains the number of failed login attempts recorded each day of the week. Your task is to calculate the total number of failed attempts for the entire week to determine if a security threshold of 100 has been exceeded.
+
+Feedback for weekly thresholds is presented in the Sample Output.
 
 ^=
 
