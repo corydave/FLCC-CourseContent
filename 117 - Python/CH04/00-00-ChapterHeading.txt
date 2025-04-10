@@ -2,13 +2,13 @@
 
 <div style=”display:none;”><img src="https://docs.google.com/drawings/d/e/2PACX-1vS2xP_Y9FXpjzs_9_VszKmmoqOzSTagCwifjkP_qLOYNwDaw8Oaq70j537Rz2WTFPx6q5OMqfiW2yFf/pub?w=900&amp;h=380" style="display: none; max-width: 100%;" alt="The word ‘return’." title="The word ‘return’."></div>
 
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/0H3eurcnX_M?si=YZCEnBcEnkbBlKG3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius:15px !important;"></iframe></center><br />
-
 Python has a really slick way you can use the code from one file inside another - by *importing* it.
 
 It is super simple to do it but there are a few caveats for doing it well (we won't get into those just yet). An interesting way to look at this paradigm is to consider *utility* files.
 
 Think of it this way - a calculator program might be broken up into two different files. One file that does all the dirty work (like adding, subtracting, etc.) and one file that is the front-end (the software that gets input from the user). One advantage of this is that multiple calculators can exist, each one with a different interface. But if they all use the *utility* file, all the complex stuff can be used from all the other calculator front-ends. 
+
+Another example (that you are already familiar with) is `random`. You *import* random, and in doing so you can now use functions from that file. For instance, `random.random()` or `random.seed()` or `random.randint(10, 20)`. You don't need to see the code for how `random` works - you just need to know how to implement those functions!
 
 ### EXAMPLE CODE
 
@@ -92,6 +92,12 @@ Length of side 3: 5
 
 PERIMETER: 12.0
 ```
+
+# NEW - AI POLICY
+
+This week, please use AI (you can choose from any AI you want, but I recommend [ChatGPT](https://chat.openai.com/), [Google Gemini](https://gemini.google.com/), or [Claude](https://claude.ai/). You shouldn't have to pay for any of these accounts - the free tier is fine.
+
+I'm curious if you can use AI to help you understand the concepts in this chapter. There is more on this in the LEARN section, but for now just know that at the end of the chapter I'm going to ask you for feedback (so I can use AI in Python classes moving forward). I value your input!
 
 # Experiences for this chapter
 
