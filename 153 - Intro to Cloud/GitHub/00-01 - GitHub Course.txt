@@ -1,0 +1,26 @@
+^^ GitHub Course
+
+This course is offered by Google and offered through Coursera. You should have received an email from Coursera. If you did not, check your Junk/Spam folder in your FLCC email account. If you still don't have it, email me at dave.ghidiu@flcc.edu and I'll send another one.
+
+Once you get the email, follow the steps below to accept it. If you already have a Coursera account, try logging in with it. If not, you'll have to create one.
+
+<center><iframe src="https://script.google.com/macros/s/AKfycbysMdTqOznMWklore9ob-Oj-22WUUtbjgKE5AnWHlVxDSPx5pMTuffc-qI7aeCggbSn/exec" width="100%" height="800" frameborder="0"></iframe></center>
+
+<hr />
+
+You will have access to a few different courses - but for right now we are just working in the GitHub course. There are four modules in this course:
+
+1. Introduction to Version Control
+2. Using `git` Locally
+3. Working with Remotes
+4. Collaboration
+
+When you are done, download your certificate and submit it
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
