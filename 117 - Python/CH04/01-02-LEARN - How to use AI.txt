@@ -1,0 +1,17 @@
+^^ LEARN - How to use AI
+
+I'm sure some of you have been experimenting with AI in this class (and others). I'm excited about how AI can help learn a concept, and I'd love to hear your thoughts about it. 
+
+Here's the deal - I'd love to have learners use AI the next time this course is run. I think it has a ton of value for being a tutor, giving examples, etc. So in this chapter feel free to use AI! The only guardrail is that I'm asking you not to use AI to do your labs for you. Other than that, I want to know how you are using it.
+
+You may choose to use any AI service you want, but I think [ChatGPT](https://chat.openai.com/), [Google Gemini](https://gemini.google.com/), and [Claude](https://claude.ai/) are the best (especially when it comes to coding). You don't need to pay for any accounts - the free tier should be sufficient.
+
+Here are some examples of ways that you might use AI:
+* Ask AI to explain a concept to you. Have a dialogue - ask followup questions.
+* Give AI some code that isn't working and ask why.
+* Give AI some code (for instance, from the Jupyter Notebook) and ask it to explain what's going on.
+* Ask AI to give you a few questions to test your knowledge on a topic.
+* Give the description of a lab to AI and ask it to break down the steps (but tell it not to give you the code).
+
+At the end of the chapter, I'm going to ask you to submit a Google Doc that has your thoughts (as well as screenshots of some of your chats) - so you may want to start a Google Doc before you embark on this chapter.
+
