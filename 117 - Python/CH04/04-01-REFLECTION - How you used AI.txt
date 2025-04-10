@@ -1,0 +1,22 @@
+^^ REFLECTION - How you used AI
+
+I'm super curious how you used AI this chapter. Don't hold back! I wanna know *everything*. No judgement. But please don't just list how you used AI. Provide a reflection. I'm curious about how you used AI, but I'm even more curious about how it helped. Things like what did it do that made you learn more about Python? How would you advise other learners to use AI? Was there a moment when things "popped" for you?
+
+Please take screenshots of some of your chats (all of them if you want, but not necessary). I want to get a better sense of how AI can be used and your chats will help.
+
+Please also recommend ways that this course can advise future learners on how to use AI.
+
+When you are done, please [share your Google Doc such that anyone with the link can comment](https://www.youtube.com/watch?v=jFGXfLDctcI) and copy the link. Paste it into the submission.
+
+Please remember to be as specific as you can and include these three components:
+1. A deep reflection on how you used it and your reaction.
+2. Screenshots
+3. Recommendations
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
