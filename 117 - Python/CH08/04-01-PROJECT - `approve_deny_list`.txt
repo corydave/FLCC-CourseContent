@@ -1,0 +1,135 @@
+^^ PROJECT - `approve_deny_list`
+
+## DESCRIPTION
+This lab is intended to explore file writing capabilities with Python. In this lab, there are four files on the server - 
+* `approve.txt` contains a list of URLs that are safe for the organization
+* `deny.txt` contains a list of URLs that are not permitted by the organization
+* `review.txt` starts empty but any URL that is considered and is not on either the "approve list" or the "deny list" should be added.
+* `log.txt` should include *every* URL as well as the status.
+
+Your job is to:
+1. Ask the user for a URL
+2. See if the URL is in the `approve.txt` list or the `deny.txt` list
+3. Log the request, indicating STATUS of either `approve`, `deny`, or `review` (if the IP address is not on either list)
+4. Add the URL to `review.txt` if it is not in `approve.txt` or `deny.txt`
+
+^=^ ,, 10
+
+### Adding a time stamp
+
+To add a time stamp, you'll need to use the `datetime` module. Make sure you do two things:
+
+1. `import datetime` at the beginning of your code
+2. Generate a timestamp using this code:
+
+<center>
+
+`timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")`
+
+</center>
+
+^=
+
+## SPECIFICATIONS
+
+* Starter code has been provided for this lab.
+
+* Add a comment with your name, date, and program description at the top!
+
+* Your output must match the Sample Output *exactly*.
+
+## SAMPLE OUTPUT
+
+^acc 
+
+
+^^^ Test Case 1
+```
+Enter a URL to access: www.flcc.edu
+
+ACCESS GRANTED
+--------------------------------------------------
+       CONTENT FROM: www.flcc.edu
+--------------------------------------------------
+This website has been verified as safe by your organization.
+Feel free to browse this content for business or educational purposes.
+Remember to follow the organization's acceptable use policy.
+--------------------------------------------------
+
+This access attempt has been logged to log.txt
+```
+
+^^^ Test Case 2
+
+```
+Enter a URL to access: www.phishingdemo.org
+
+ACCESS DENIED
+--------------------------------------------------
+       BLOCKED URL: www.phishingdemo.org
+--------------------------------------------------
+This website has been blocked by your organization's web filter.
+Reason: This URL is on the deny list.
+If you believe this is an error, please contact IT support.
+--------------------------------------------------
+
+This access attempt has been logged to log.txt
+```
+
+^^^ Test Case 3
+
+```
+Enter a URL to access: www.opencompsci.com
+
+URL UNDER REVIEW
+--------------------------------------------------
+       PENDING REVIEW: www.opencompsci.com
+--------------------------------------------------
+This website is not on the approve or deny lists.
+It has been submitted for review by the security team.
+Access is currently restricted until review is complete.
+Please check back later or contact IT if urgent access is needed.
+--------------------------------------------------
+
+URL has been added to review.txt for security team review.
+
+This access attempt has been logged to log.txt
+```
+
+^^^ Live Demo
+
+<center><iframe src="https://corydave.github.io/websitetest/claude/console/?program=urlFilter" width="80%" height="450" frameborder="0"></iframe></center>
+
+^acc-end
+
+
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`approve_deny.py`](https://drive.google.com/uc?export=download&id=19wEHynrjXJnhIyk4uxldvbMBH-3566UA)
+
+[`approve.txt`](https://drive.google.com/uc?export=download&id=19cK1vBsu_PuwMeSJWUW2ahpeSrfDAvwv)
+
+[`deny.txt`](https://drive.google.com/uc?export=download&id=19gPy2RGGd0P0DYwefZLWsJGzChgBTuI2)
+
+[`log.txt`](https://drive.google.com/uc?export=download&id=19jH9QWTw9oWeez2jBvmc7359Tirj7YRF)
+
+[`review.txt`](https://drive.google.com/uc?export=download&id=19mLRSJ-Tg2CfFMsOVSOP0X1F43zwpM7Q)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+^callout b-github
+
+<br />
+
+Click here to fork the repo and submit your work.
+
+^callout-end
+
+<br /><br />
