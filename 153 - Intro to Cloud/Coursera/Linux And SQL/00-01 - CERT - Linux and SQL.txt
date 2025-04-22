@@ -1,5 +1,4 @@
-
-^^ Linux && SQL
+^^ CERT - Linux and SQL
 
 This course is offered by Google and offered through Coursera. You should have received an email from Coursera. If you did not, check your Junk/Spam folder in your FLCC email account. If you still don't have it, email me at dave.ghidiu@flcc.edu and I'll send another one.
 
