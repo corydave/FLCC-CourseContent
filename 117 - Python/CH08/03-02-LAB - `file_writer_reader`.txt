@@ -121,9 +121,12 @@ Download these files and load them into your IDE.
 
 ^callout-end
 
+^callout b-github
 
+<br />
 
+Click here to fork the repo and submit your work.
 
-
+^callout-end
 
 <br /><br />
