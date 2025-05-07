@@ -1,5 +1,8 @@
 ^^ Anything Goes
 
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vSbZ5HQZoE1iEbdpWbClnBPYfXv7woVPwicB9dQ7fJlU8M0gpwIlRhF80PPKCAKBrrefkoNcfJ7wGbK/pub?w=907&amp;h=385" alt="The words ANYTHING GOES." title="The words ANYTHING GOES." style="display:none;" />
+
+
 It's time for the final project in this class - and *anything goes*. No rules. No limits. You can use AI. This project is open form. There is one specification - you *have* to go out of your comfort zone. 
 
 You'll be writing software - I don't care what it does - but you need to use tools we haven't explored. I *hope* that you play with some AI (I think [Claude AI](https://claude.ai/) is the best for coding). Try describing the project you have (if you don't have an idea, converse with AI to get a cool idea). 
