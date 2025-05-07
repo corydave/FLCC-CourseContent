@@ -70,32 +70,18 @@ You may use the following code as starter code. You will need to change the comm
 
 ^callout file-download
 
-[`stock_scraper.py`](https://drive.google.com/uc?export=download&id=1Tj0igdsd8-1njGzXGRXNc_UC4IHsFVJl)
+[`stocks.py`](https://drive.google.com/uc?export=download&id=1-m0t25vauadAjCI7yQ7uLCLOu0N5roWe)
 
 Download these files and load them into your IDE.
 
 ^callout-end
 
-^acc
+^callout b-github
 
-^^^ `stock_scraper.py`
+<br />
 
-```python ^copy
+Click here to fork repository.
 
-# FILE NAME - stock_scraper.py
-
-# NAME - 
-# DATE - 
-# DESCRIPTION - 
-
-
-import requests
-from bs4 import BeautifulSoup
-
-
-
-```
-
-^acc-end
+^callout-end
 
 <br /><br />
