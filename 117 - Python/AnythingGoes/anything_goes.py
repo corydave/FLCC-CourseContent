@@ -1,0 +1,34 @@
+^^ Anything Goes
+
+It's time for the final project in this class - and *anything goes*. No rules. No limits. You can use AI. This project is open form. There is one specification - you *have* to go out of your comfort zone. 
+
+You'll be writing software - I don't care what it does - but you need to use tools we haven't explored. I *hope* that you play with some AI (I think [Claude AI](https://claude.ai/) is the best for coding). Try describing the project you have (if you don't have an idea, converse with AI to get a cool idea). 
+
+Once the code is generated, test it. See if there are features you want to add. Try adding features. Don't feel like you have to use Python to fix the code that you and AI generate - you can totally use natural language processing!
+
+There are a few questions that you should answer after you've gone through this exercise - they are in the starter code. 
+
+This project is pass/fail.
+
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`anything_goes.py`](https://drive.google.com/uc?export=download&id=1-m0t25vauadAjCI7yQ7uLCLOu0N5roWe)
+
+Download these files and load them into your IDE.
+
+^callout-end
+
+^callout b-github
+
+<br />
+
+Click here to fork repository.
+
+^callout-end
+
+<br /><br />
