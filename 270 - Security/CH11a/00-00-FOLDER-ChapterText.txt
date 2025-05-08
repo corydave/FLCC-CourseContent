@@ -1,0 +1,21 @@
+^^ CHAPTER 11 - InfoSec Report
+
+<div style="text-align: center; display: none;"><img style="width:100%" src="https://docs.google.com/drawings/d/e/2PACX-1vTk8oAZaOsUAS8drTgQQTMMTGe4FtU938tuEIQFj8QEudfD75hYu5OsFqObMJK9ahaIUxthpAoWoO_E/pub?w=907&amp;h=385" alt="Icons of a shield and email." title="Icons of a shield and email."></div>
+
+# Schedule 
+
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vRxgRdNoBTaBuxf7fCDreea8kokhcOtQyD6erWSyiW4tB-KbR6EfTP9wUy9QJ-2cd14rlyzUPEx5zFB/pubhtml/sheet?headers=false&amp;gid=1117533938&amp;range=B1:D6'style="width:100%;max-width:720px;height:184px" frameborder="0"></iframe></center>	
+
+# Outcomes
+
+<details>
+<summary>Click to reveal outcomes</summary>
+
+* Furnish examples that demonstrate cybersecurity practices constantly need improvement
+* Provide examples protecting yourself in a digital environment
+* Provide recommendations for staying safe
+* Describe (and debrief) noteworthy hacks or breaches
+
+</details>
+
+<br /><br />
