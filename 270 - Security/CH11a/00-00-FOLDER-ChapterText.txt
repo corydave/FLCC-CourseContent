@@ -1,4 +1,4 @@
-^^ CHAPTER 11 - InfoSec Report
+^^ CHAPTER 11 - Email Campaign
 
 <div style="text-align: center; display: none;"><img style="width:100%" src="https://docs.google.com/drawings/d/e/2PACX-1vTk8oAZaOsUAS8drTgQQTMMTGe4FtU938tuEIQFj8QEudfD75hYu5OsFqObMJK9ahaIUxthpAoWoO_E/pub?w=907&amp;h=385" alt="Icons of a shield and email." title="Icons of a shield and email."></div>
 
