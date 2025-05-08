@@ -1,0 +1,42 @@
+^^ REPORT - Email Campaign
+
+<div style="float: right;"><img style="margin: 0pt 0pt 10pt 10pt; float: left;" alt="An icon of a well-constructed, well-researched report." src="https://docs.google.com/drawings/d/e/2PACX-1vQViH8Uf2WGLuM_WqB_QiB-tPeV1_uweFbESbJwGRTJIG1O3Swapz6T1WCFdRbIEAmSKuLcNyPPqWlL/pub?w=200&amp;h=200"></div>
+
+Many companies are helping their employees understand the threats of the cyber landscape with weekly emails.
+
+For this capstone project, you will create an email campaign. You will construct seven different emails with the following topics:
+* Passwords & People
+* Malware & Threats
+* Information & Cryptography
+* Staying Safe Online
+* Staying Safe at Home
+* Staying Safe at Work
+* Social Engineering
+
+# Specifications
+
+* This project is Pass/Fail
+* You may use as much AI as you'd like (but you should disclose the amount of AI you used and how you used it in the textbox where you submit your work in Brightspace).
+* You should [check out the sample document and make a copy](https://docs.google.com/document/d/18Xp1EfwaSJRxr52GN9yqYD0ORdazR7TE5sEs-ceNpXs/copy) as a template for your work
+    * Be sure to check out the section on **Social Engineering** to get a good perspective on what this should look like
+
+* Each email should include:
+    * A descriptive subject
+    * An image - you should use sites like [Unsplash.com](https://unsplash.com/) or [Pixabay.com](https://pixabay.com/) for images you can legally use. Alternatively, you can use AI to generate images. I find [Meta AI](https://www.meta.ai/) to be the best, but [ChatGPT](https://chat.openai.com/) and [Google Gemini](https://gemini.google.com/) work well, too.
+    * A brief description of the topic
+    * A summary of a recent news article related to the topic (and link to it)
+    * Three to five bullet points of how the readers can protect themselves
+
+* You MUST submit a Google Doc for this assignment (MS Word and PDF files are not accepted)
+
+* Use credible sources. [Wikipedia](https://www.wikipedia.org/) is permissible but should not be the majority of your research. [Wired](https://www.wired.com/), [ThreatPost](https://threatpost.com/), [The Verge](https://www.theverge.com/), [TechCrunch](https://techcrunch.com/), [DarkReading](https://www.darkreading.com/), [The Wall Street Journal](https://www.wsj.com/), and [The New York Times](https://www.wsj.com/) are good sources, but you may use other credible sources too.
+
+I can't wait to read your work!
+
+^callout external-link-alt
+
+<br />
+
+Submit your work here.
+
+^callout-end
