@@ -1,0 +1,40 @@
+^^ LAB - AI Lesson Plan - Intermediate
+
+We just looked at making a very simple lesson plan with AI. We gave it very simple instructions - almost too broad to be of any use.
+
+Now we are interested in how we can leverage AI to potentiate our lesson planning by providing a lot more context for the AI to think about. We will be using the CRAFT prompting technique (the Google Doc for this lab has examples):
+
+* **Context:** This section provides background information, data, or relevant details that the AI needs to understand and perform its task. It ensures the AI's response is accurate and relevant to the situation.
+
+* **Register:** Register refers to the tone, language, and style of the AI's response. It dictates how the AI should communicate and interact with the user. For example, a formal register would be used for a technical document, while a conversational register would be used for a friendly chat.
+
+* **Acting Role:** This element defines the role or persona the AI should adopt when interacting with the user. It clarifies the AI's point of view and how it should be perceived by the user. This can be a specific character, expert, or simply a helpful assistant.
+
+* **Format:** Format specifies the desired structure or output style of the AI's response. It can include the length of the text, the type of response (e.g., code, bullet points, paragraphs), or even specific formatting rules.
+
+* **Task:** The task element defines the specific action the AI should perform. This could be writing a story, summarizing text, translating language, or answering questions.
+
+You can use any generative AI tool, but these are the top five. ***Make sure in your summary you say which AI you used***
+
+* [ChatGPT](https://chatgpt.com/)
+* [Google Gemini](https://gemini.google.com/)
+* [Meta AI](https://www.meta.ai/)
+* [Perplexity](https://www.perplexity.ai/)
+* [Claude](https://claude.ai/)
+
+[Copy this document](https://docs.google.com/document/d/1wegNIzJVAs336UoqrdMNUHzUc8MjC3iPLIBnzb-nb64/copy) and fill in each part of the document. Remember that the intent of this lab is for you to create a pretty specific lesson plan with generative AI. Use the CRAFT prompting technique.
+<div style="clear:both;">
+
+# Specifications
+* Be sure to include the AI tool you used in your summary
+* Your Google Doc must be shared such that [Anyone with the link can ***VIEW***](https://www.youtube.com/watch?v=l1K2AwPJ4Gw)
+
+</div>
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
