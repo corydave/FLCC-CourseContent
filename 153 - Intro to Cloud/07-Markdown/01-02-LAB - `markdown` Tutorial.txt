@@ -1,0 +1,30 @@
+^^ LAB - `markdown` Tutorial
+
+Markdown is a plaintext language that focuses on content, not design. There are certain symbols used (for instance, `#` means "heading one" and `##` means "heading two" and bookending text with one `*` will make the text italic).
+
+^= =
+
+In this tutorial, you will explore some of the more popular "commands" in markdown. Some platforms (like GitHub) have special markdown that they have added to the main set of commands; we'll look at a few of those as well.
+
+Your job is to [opy this Google Doc](https://docs.google.com/document/d/1pvonN723EddQgu8sa1W35mrdh7V4syipLY7zjiQaLsk/copy) and put your own markdown in the boxes that say "EVIDENCE". You can use any markdown converter that you want (GitHub has one built in! Just create a document with a file extension of `.md`! Or you can [use this one that works in a pinch](https://corydave.github.io/websitetest/tools/md-tester/).
+
+^===
+
+<center><iframe width="420" height="205" src="https://www.youtube.com/embed/yXm1sxbgVRI?si=TPt-WS_7iqATgQ1T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius: 15px !important;"></iframe></center>
+
+^=
+
+# Specifications
+
+* [Copy the Google Doc](https://docs.google.com/document/d/1pvonN723EddQgu8sa1W35mrdh7V4syipLY7zjiQaLsk/copy)
+* Enter your own markdown where appropriate
+* Your Google Doc must be shared such that [Anyone with the link can ***VIEW***](https://www.youtube.com/watch?v=l1K2AwPJ4Gw)
+* Paste the link of your Google Doc in Brightspace
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
