@@ -235,34 +235,12 @@ You may use the following code as starter code. You will need to change the comm
 
 ^callout file-download
 
-[`malcolms_maze.py`](https://drive.google.com/uc?export=download&id=1-HvO4optNTDU-iaurkLF5Ts_oFDEPLID)
+[`maze.py`](https://drive.google.com/uc?export=download&id=1-oNrDQuuWPj0s4CYqLQLhgEZdOSskTmY)
 
 Download these files and load them into your IDE.
 
 ^callout-end
 
-^acc
 
-^^^ `malcoms_maze.py`
-
-```python ^copy
-
-# FILE NAME - malcolms_maze.py
-
-# NAME - 
-# DATE - 
-# DESCRIPTION - 
-
-
-import requests
-from bs4 import BeautifulSoup
-
-
-
-```
-
-^acc-end
 
 <br /><br />
-maze.txt
-Displaying maze.txt.
