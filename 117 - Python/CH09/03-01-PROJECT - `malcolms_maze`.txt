@@ -1,24 +1,61 @@
-^^ LAB - `stock_scraper`
+None selected 
+
+Skip to content
+Using Gmail with screen readers
+
+Conversations
+temp
+Inbox
+
+
+Dave FE - Ghidiu
+Attachments
+1:37 PM (0 minutes ago)
+to me
+
+^^ PROJECT - `malcolms_maze`
 
 ## DESCRIPTION
-In this exercise we will be exploring some lightweight web scraping. Essentially we will be building a bot to scrape different web pages (so we, as humans, don't need to go to each one individually).
 
-Note that web scraping can often violate terms of service (or might be illegal!), depending on laws and site policies.
+My buddy Malcolm and I like to brainstorm evil new ideas for Python class. Once, as we were walking our dogs, he suggested a maze. The user gets to enter the starting point (a URL). That URL hosts an address to the next stop in the maze. If you go to *that* URL, you'll find *another* URL. This goes on for some time. You reach the end of the maze when you encounter a page that has only one four-letter word.
 
-In this lab, we will be using a site I own (https://phishingdemo.org/). I have designed some fictional stock information sites - if they happen to coincide with real stocks, please do not make any investments based on the information presented! 
+Here are some guidelines to help you understand the schema of the websites:
 
-Your job will be to:
+* The base URL is: `https://phishingdemo.org/python/scraping/maze/`. For instance, the first step in the maze is `https://phishingdemo.org/python/scraping/maze/maze.html`
 
-1. Ask a user for a stock to check
-2. Have your bot return the current value of that stock
+* Except for the last step in the maze, the formatting of every page is the same - text that says "`Next: `" and then a long number followed by "`.html`". You need to grab everything but the `Next: ` part.
 
-If you haven't watched [the video on web scraping](https://www.youtube.com/watch?v=-iTbjlE2BK0) yet, you'll need it to understand this task.
+^=^
 
-Here are some guidelines to help you understand the schema of the stocks:
+```
+Next: 8513664478886891394555646402835183262752360655675524428945795335146894399778133796724879595664982283.html
+```
 
-* The base URL is: `https://phishingdemo.org/python/scraping/`. To that, append the stock symbol and `.html`. For instance, if the stock is BB8, the URL is `https://phishingdemo.org/python/scraping/BB8.html`
+^=
 
-* The format of every page is exactly the same.
+* This is the next step in the maze! So you would go to
+
+^=^
+
+```
+https://phishingdemo.org/python/scraping/maze/8513664478886891394555646402835183262752360655675524428945795335146894399778133796724879595664982283.html
+```
+^=
+
+* You'll need a loop to keep doing this until you get to the end.
+
+* The format of every page is exactly the same. So you can visit any of the sites, inspect the structure, and reliably scrape the pages.
+
+* The end of the maze will have a four letter word. For instance, the first maze ends with a page that says, "`DONE`". The HTML of the page is as follows:
+
+^=^
+
+```html
+<html><body>DONE</body></html>
+```
+
+^=
+
 
 ## SPECIFICATIONS
 
@@ -29,40 +66,49 @@ Here are some guidelines to help you understand the schema of the stocks:
 ```
 pip3 install requests
 pip3 install --update requests
-pip2 install beautifulsoup4
+pip3 install beautifulsoup4
 ```
 ^=
 
-* You will need to ask the user for a stock symbol
+* You will need to ask the user for place to start. In this example, the user will type in "`maze`". It is up to you to prepend and append the proper characters to get `https://phishingdemo.org/python/scraping/maze/maze.html`
 
 * Add a comment with your name, date, and program description at the top!
 
 * Your output must match the Sample Output *exactly*.
 
+* While in development, you may want to output information that isn't needed in the final product (just to make sure you know what you are dealing with).
+
+* You *do not* need to use `beautifulsoup` for this lab, though it might make it easier.
+  * Depending on how you parse the contents of each website you *might* run into a problem. You might *think* that your URL is correct but it might contain some weird whitespace that you can't see (like a return). I recommend "*trimming*" your URLs - that will remove any whitespace before or after. Here's what that looks like (assume that `url` is a variable that hold some text):
+
+^=^
+
+```python
+
+url = url.strip()
+
+```
+
+^=
+
+<br /><br /><br />
+
 ## SAMPLE OUTPUT
 
 
 ```
-Enter a stock symbol: DAVE
-233.29
+Enter the starting page: maze
+DONE
 ```
 
 <br />
 
 ```
-Enter a stock symbol: BB8
-202.20
+Enter the starting page: maze2
+PEAR
 ```
 
 <br />
-
-```
-Enter a stock symbol: KATY
-311.23
-```
-
-<br />
-
 
 ## STARTER CODE
 
@@ -70,18 +116,168 @@ You may use the following code as starter code. You will need to change the comm
 
 ^callout file-download
 
-[`stocks.py`](https://drive.google.com/uc?export=download&id=1-oNrDQuuWPj0s4CYqLQLhgEZdOSskTmY)
+[`malcolms_maze.py`](https://drive.google.com/uc?export=download&id=1-HvO4optNTDU-iaurkLF5Ts_oFDEPLID)
 
 Download these files and load them into your IDE.
 
 ^callout-end
 
-^callout b-github
+^acc
+
+^^^ `malcoms_maze.py`
+
+```python ^copy
+
+# FILE NAME - malcolms_maze.py
+
+# NAME -
+# DATE -
+# DESCRIPTION -
+
+
+import requests
+from bs4 import BeautifulSoup
+
+
+
+```
+
+^acc-end
+
+<br /><br />
+ 2 Attachments
+  •  Scanned by Gmail
+^^ PROJECT - `malcolms_maze`
+
+## DESCRIPTION
+
+My buddy Malcolm and I like to brainstorm evil new ideas for Python class. Once, as we were walking our dogs, he suggested a maze. The user gets to enter the starting point (a URL). That URL hosts an address to the next stop in the maze. If you go to *that* URL, you'll find *another* URL. This goes on for some time. You reach the end of the maze when you encounter a page that has only one four-letter word.
+
+Here are some guidelines to help you understand the schema of the websites:
+
+* The base URL is: `https://phishingdemo.org/python/scraping/maze/`. For instance, the first step in the maze is `https://phishingdemo.org/python/scraping/maze/maze.html`
+
+* Except for the last step in the maze, the formatting of every page is the same - text that says "`Next: `" and then a long number followed by "`.html`". You need to grab everything but the `Next: ` part.
+
+^=^
+
+```
+Next: 8513664478886891394555646402835183262752360655675524428945795335146894399778133796724879595664982283.html
+```
+
+^=
+
+* This is the next step in the maze! So you would go to
+
+^=^
+
+```
+https://phishingdemo.org/python/scraping/maze/8513664478886891394555646402835183262752360655675524428945795335146894399778133796724879595664982283.html
+```
+^=
+
+* You'll need a loop to keep doing this until you get to the end.
+
+* The format of every page is exactly the same. So you can visit any of the sites, inspect the structure, and reliably scrape the pages.
+
+* The end of the maze will have a four letter word. For instance, the first maze ends with a page that says, "`DONE`". The HTML of the page is as follows:
+
+^=^
+
+```html
+<html><body>DONE</body></html>
+```
+
+^=
+
+
+## SPECIFICATIONS
+
+* You will need to install some packages on your system:
+
+^=^ ,,,,
+
+```
+pip3 install requests
+pip3 install --update requests
+pip3 install beautifulsoup4
+```
+^=
+
+* You will need to ask the user for place to start. In this example, the user will type in "`maze`". It is up to you to prepend and append the proper characters to get `https://phishingdemo.org/python/scraping/maze/maze.html`
+
+* Add a comment with your name, date, and program description at the top!
+
+* Your output must match the Sample Output *exactly*.
+
+* While in development, you may want to output information that isn't needed in the final product (just to make sure you know what you are dealing with).
+
+* You *do not* need to use `beautifulsoup` for this lab, though it might make it easier.
+  * Depending on how you parse the contents of each website you *might* run into a problem. You might *think* that your URL is correct but it might contain some weird whitespace that you can't see (like a return). I recommend "*trimming*" your URLs - that will remove any whitespace before or after. Here's what that looks like (assume that `url` is a variable that hold some text):
+
+^=^
+
+```python
+
+url = url.strip()
+
+```
+
+^=
+
+<br /><br /><br />
+
+## SAMPLE OUTPUT
+
+
+```
+Enter the starting page: maze
+DONE
+```
 
 <br />
 
-Click here to fork repository.
+```
+Enter the starting page: maze2
+PEAR
+```
+
+<br />
+
+## STARTER CODE
+
+You may use the following code as starter code. You will need to change the comments (for instance, your name and the date).
+
+^callout file-download
+
+[`malcolms_maze.py`](https://drive.google.com/uc?export=download&id=1-HvO4optNTDU-iaurkLF5Ts_oFDEPLID)
+
+Download these files and load them into your IDE.
 
 ^callout-end
 
+^acc
+
+^^^ `malcoms_maze.py`
+
+```python ^copy
+
+# FILE NAME - malcolms_maze.py
+
+# NAME - 
+# DATE - 
+# DESCRIPTION - 
+
+
+import requests
+from bs4 import BeautifulSoup
+
+
+
+```
+
+^acc-end
+
 <br /><br />
+maze.txt
+Displaying maze.txt.
