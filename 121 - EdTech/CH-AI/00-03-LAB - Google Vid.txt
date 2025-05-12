@@ -17,6 +17,16 @@ Since this tool is so new, we'll be exploring it together. Your job is to create
 * Inserting some sweet text blocks from the menu on the left
 * Anything else you like!
 
+^=^ ,,
+
+## NOTE
+
+You may not have access to Google Vids. You can use [Adobe Express](https://www.adobe.com/express/) instead if you'd like. The tool is similar enough that you can gain a similar experience.
+
+<br />
+
+^=
+
 Note that when you first create a Google Vid (by going into Google Drive and clicking "NEW") you will land at the first page in Google Vids. Make sure you choose "Help me create" so you can use the AI tools:
 
 <center>
