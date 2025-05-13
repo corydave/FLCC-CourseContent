@@ -1,4 +1,4 @@
-^^ Python Crash Course
+^^ VIDEO - Python Crash Course
 
 Hey folks! Many of you have probably done some programming so this should be review. But for those of you who haven't programmed, I hope you find this exciting!
 
