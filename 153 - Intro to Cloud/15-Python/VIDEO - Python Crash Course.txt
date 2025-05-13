@@ -6,4 +6,17 @@ Remember - you can *always* schedule time to chat with me if you'd like!
 
 Here's the video. It mentions using https://shell.cloud.google.com/ as an IDE (that's probably the quickest and easiest option).
 
+I did omit one part you'll need (and it should make sense after learning a bit about Python):
+
+``` ^python
+
+message = "Hello, Python!"
+length = len(message)
+print("Your message has", length, "characters.")
+
+
+```
+
+<br />
+
 ^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/QbTVQM8kukE?si=K4aoZi09lzf1VXoC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius: 15px !important;"></iframe>
