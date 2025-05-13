@@ -1,0 +1,41 @@
+^^ LAB - `weather.py`
+
+Create a Python file named `weather.py` that will write a simple weather recommendation program. The program should ask the user for the current temperature (as a float) and then print a recommendation.
+
+Use the following criteria:
+
+* **Above 85°F:** "Wow, it's hot! Drink plenty of water."
+* **85°F and below:** "It's a nice day, enjoy the outdoors!"
+
+## Specifications
+
+* File name: `weather.py`
+* Prompt the user clearly for the temperature in Fahrenheit.
+* Convert the input to a float.
+* Use `if` and `else` statements to print recommendations exactly.
+* Your output must match the Sample Output *exactly*
+
+
+
+## Sample Output
+
+```
+What's the temperature today? 
+75
+It's a nice day, enjoy the outdoors!
+```
+
+```
+What's the temperature today? 
+92
+Wow, it's hot! Drink plenty of water.
+```
+
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
