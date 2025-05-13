@@ -1,0 +1,9 @@
+^^ Python Crash Course
+
+Hey folks! Many of you have probably done some programming so this should be review. But for those of you who haven't programmed, I hope you find this exciting!
+
+Remember - you can *always* schedule time to chat with me if you'd like!
+
+Here's the video. It mentions using https://shell.cloud.google.com/ as an IDE (that's probably the quickest and easiest option).
+
+^youtube <iframe width="560" height="315" src="https://www.youtube.com/embed/QbTVQM8kukE?si=K4aoZi09lzf1VXoC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius: 15px !important;"></iframe>
