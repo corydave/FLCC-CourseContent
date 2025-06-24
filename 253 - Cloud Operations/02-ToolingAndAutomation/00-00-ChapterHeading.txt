@@ -1,4 +1,5 @@
-^^ Understanding Systems Operations on AWS
+
+^^ Tooling and Automation
 
 <div style="display:none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vRUf26OlrAUII59dcN0-081-wXOUOQjmPXGnfac7g4IcYtuGN54XkAzevn-UM4mpi9S03X-VmEMEUhm/pub?w=900&amp;h=400" alt="The words CHAPTER 1 UNDERSTANDING SYSTEMS OPERATIONS ON AWS." title="The words CHAPTER 1 UNDERSTANDING SYSTEMS OPERATIONS ON AWS." /></div>
 
