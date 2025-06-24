@@ -1,5 +1,9 @@
 ^^ Understanding Systems Operations on AWS
 
-<img src="https://docs.google.com/drawings/d/e/2PACX-1vRUf26OlrAUII59dcN0-081-wXOUOQjmPXGnfac7g4IcYtuGN54XkAzevn-UM4mpi9S03X-VmEMEUhm/pub?w=900&amp;h=400" alt="The words CHAPTER 1 UNDERSTANDING SYSTEMS OPERATIONS ON AWS." title="The words CHAPTER 1 UNDERSTANDING SYSTEMS OPERATIONS ON AWS." />
+<div style="display:none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vRUf26OlrAUII59dcN0-081-wXOUOQjmPXGnfac7g4IcYtuGN54XkAzevn-UM4mpi9S03X-VmEMEUhm/pub?w=900&amp;h=400" alt="The words CHAPTER 1 UNDERSTANDING SYSTEMS OPERATIONS ON AWS." title="The words CHAPTER 1 UNDERSTANDING SYSTEMS OPERATIONS ON AWS." /></div>
+
+In this chapter, we'll look at the very basics of getting started with AWS operations - including an activity where we will install and configure the AWS command line interface. Get used to using the command line!
+
+<br />
 
 <center><iframe src='https://docs.google.com/spreadsheets/d/1BiZp6ZXfyMTUNvYE_nZ8h6-TO0lUCxWHCWFFc54gfn8/pubhtml?headers=false&amp;gid=0&amp;range=B2:D13&amp;single=true&amp;chrome=false&amp;embedded=true13'style="width:100%;max-width:720px;height:331px" frameborder="0"></iframe></center>
