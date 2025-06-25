@@ -11,7 +11,7 @@ While all the content is important, you should certainly make sure you go throug
 <center><iframe src='https://docs.google.com/spreadsheets/d/1BiZp6ZXfyMTUNvYE_nZ8h6-TO0lUCxWHCWFFc54gfn8/pubhtml?headers=false&amp;gid=614048328&amp;range=B2:D12&amp;single=true&amp;chrome=false&amp;embedded=true12'style="width:100%;max-width:720px;height:240px" frameborder="0"></iframe></center>
 
 # Chapter Objectives
-Explain the purpose and function of tagging in AWS.
+* Explain the purpose and function of tagging in AWS.
 * Describe the cost management strategies associated with tagging.
 * Describe how to enforce tagging using Identity and Access Management (IAM) policies.
 * Identify some of the cost benefits of the cloud.
