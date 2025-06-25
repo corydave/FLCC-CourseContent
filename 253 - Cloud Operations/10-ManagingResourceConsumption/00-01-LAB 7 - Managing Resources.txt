@@ -2,6 +2,11 @@
 
 Complete the lab in the AWS system. Take screenshots along the way (especially at the conclusion) and paste them into a Google Doc.  Your Google Doc must be shared such that [Anyone with the link can ***VIEW***](https://www.youtube.com/watch?v=l1K2AwPJ4Gw)
 
+# Learning Objectives
+* Apply tags to existing AWS resources.
+* Find resources based on tags.
+* Use the AWS CLI or AWS SDK for PHP to stop and terminate Amazon EC2 instance
+
 <br />
 
 ^callout external-link-alt
