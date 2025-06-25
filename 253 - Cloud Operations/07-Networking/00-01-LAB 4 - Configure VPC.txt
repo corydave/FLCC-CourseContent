@@ -2,6 +2,13 @@
 
 Complete the lab in the AWS system. Take screenshots along the way (especially at the conclusion) and paste them into a Google Doc.  Your Google Doc must be shared such that [Anyone with the link can ***VIEW***](https://www.youtube.com/watch?v=l1K2AwPJ4Gw)
 
+# Learning Objectives
+* Create a virtual private cloud (VPC) that contains a private and public subnet, an internet gateway, and a Network Translation (NAT) gateway.
+* Configure route tables that are associated with a public subnet for internet-bound traffic to be directed to the internet gateway for direct internet access.
+* Configure route tables that are associated with a private subnet for isolated resources to securely connect to the internet through a NAT gateway.
+* Launch a bastion host in a public subnet for resourcebased secured access to the private subnet.
+* Evaluate the operation of the private subnet's ability to communicate with the internet.
+
 <br />
 
 ^callout external-link-alt
