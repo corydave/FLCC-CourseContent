@@ -1,1 +1,19 @@
-a
+^^ Monitoring and Security
+
+<div style="display:none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vQ4JZQgfA3hON6qcGdGEO3wPstAoZe9tL6S_i54QRneFfGPeGFBGoqyATWUTmbJZaq9Lnaop7bGSTJu/pub?w=900&amp;h=400" alt="The words CHAPTER 9 - Monitoring and Security." title="The words CHAPTER 9 - Monitoring and Security." /></div>
+
+In this chapter, we'll learn about *CloudWatch* and *CloudTrail*.
+
+While all the content is important, you should certainly make sure you go through the activities. All work is done [in the AWS learning platform](https://awsacademy.instructure.com/) (with the exception of labs - those are completed in the AWS platform but the evidence is submitted in Brightspace).
+
+<br />
+
+<center><iframe src='https://docs.google.com/spreadsheets/d/1BiZp6ZXfyMTUNvYE_nZ8h6-TO0lUCxWHCWFFc54gfn8/pubhtml?headers=false&amp;gid=173277705&amp;range=B2:D12&amp;single=true&amp;chrome=false&amp;embedded=true12'style="width:100%;max-width:720px;height:240px" frameborder="0"></iframe></center>
+
+# Chapter Objectives
+* Explain the benefits of Amazon CloudWatch.
+* Describe Amazon CloudWatch monitoring features, including metrics and alarm details.
+* Describe Amazon CloudWatch log features and benefits.
+* Explain the purpose and function of AWS CloudTrail.
+* Describe AWS Config features and benefits.
+* Use Amazon CloudWatch to monitor applications and infrastructure.
