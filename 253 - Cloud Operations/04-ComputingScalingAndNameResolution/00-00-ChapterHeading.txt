@@ -1,1 +1,19 @@
-a
+^^ Computing, Scaling, and Name Resolution
+
+<div style="display:none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vTFRiHotakp3A0HOYh_XYDzooYHBmew3R32ys4-64RQTgoFukTRvCEP3KPourljeU73H93WrurDFc7k/pub?w=900&amp;h=400" alt="The words CHAPTER 4 - Computing, Scaling, and Name Resolution." title="The words CHAPTER 4 - Computing, Scaling, and Name Resolution." /></div>
+
+In this chapter, we'll investigate *elastic load balancing*.
+
+While all the content is important, you should certainly make sure you go through the activities. All work is done [in the AWS learning platform](https://awsacademy.instructure.com/) (with the exception of labs - those are completed in the AWS platform but the evidence is submitted in Brightspace).
+
+<br />
+
+<center><iframe src='https://docs.google.com/spreadsheets/d/1BiZp6ZXfyMTUNvYE_nZ8h6-TO0lUCxWHCWFFc54gfn8/pubhtml?headers=false&amp;gid=1250865820&amp;range=B2:D13&amp;single=true&amp;chrome=false&amp;embedded=true13'style="width:100%;max-width:720px;height:331px" frameborder="0"></iframe></center>
+
+# Chapter Objectives
+* Describe Elastic Load Balancing features.
+* Differentiate the types of ELB load balancers.
+* Describe Amazon EC2 Auto Scaling and launch configurations.
+* Use EC2 Auto Scaling.
+* Describe Amazon Route 53 features and routing options.
+* Configure failover routing.
