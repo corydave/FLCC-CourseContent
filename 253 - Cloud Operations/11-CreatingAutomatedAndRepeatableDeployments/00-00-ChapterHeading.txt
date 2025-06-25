@@ -1,1 +1,19 @@
-a
+^^ Creating Automated and Repeatable Deployments
+
+<div style="display:none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vSFGeis4iKs1BDq92MUpuai9Iw-23bCN1VpyPpHSkC9zQKV5u_ZNUz7RfBR-0cZ4RBj2Tbs1-9uKeCB/pub?w=900&amp;h=400" alt="The words CHAPTER 11 - Creating Automated and Repeatable Deployments." title="The words CHAPTER 11 - Creating Automated and Repeatable Deployments." /></div>
+
+In this chapter, we'll check out ways to manage different systems in AWS with their tools.
+
+While all the content is important, you should certainly make sure you go through the activities. All work is done [in the AWS learning platform](https://awsacademy.instructure.com/) (with the exception of labs - those are completed in the AWS platform but the evidence is submitted in Brightspace).
+
+<br />
+
+<center><iframe src='https://docs.google.com/spreadsheets/d/1BiZp6ZXfyMTUNvYE_nZ8h6-TO0lUCxWHCWFFc54gfn8/pubhtml?headers=false&amp;gid=371634509&amp;range=B2:D18&amp;single=true&amp;chrome=false&amp;embedded=true18'style="width:100%;max-width:720px;height:366px" frameborder="0"></iframe></center>
+
+# Chapter Objectives
+* Identify some of the AWS services for configuration management.
+* Describe the challenges associated with cloud deployments and potential solutions for remedy.
+* Describe infrastructure as code and the value it creates.
+* Describe the purpose of AWS CloudFormation.
+* Describe some of the types of errors with AWS CloudFormation and their remedy.
+* Describe best practices using AWS CloudFormation.
