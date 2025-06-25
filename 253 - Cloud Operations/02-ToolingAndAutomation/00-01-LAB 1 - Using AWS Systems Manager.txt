@@ -2,6 +2,12 @@
 
 Complete the lab in the AWS system. Take screenshots along the way (especially at the conclusion) and paste them into a Google Doc.  Your Google Doc must be shared such that [Anyone with the link can ***VIEW***](https://www.youtube.com/watch?v=l1K2AwPJ4Gw)
 
+# Learning Objectives
+* Use AWS Systems Manager Inventory to verify configurations and permissions.
+* Use AWS Systems Manager Run Command to execute tasks on multiple servers.
+* Use AWS Systems Manager Parameter Store to update application settings or configurations.
+* Use AWS Systems Manager Session Manager to access the command line on an instance.
+
 <br />
 
 ^callout external-link-alt
