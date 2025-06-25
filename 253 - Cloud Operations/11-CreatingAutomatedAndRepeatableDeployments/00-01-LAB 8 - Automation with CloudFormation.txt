@@ -1,0 +1,20 @@
+^^ LAB 8 - Automation with CloudFormation
+
+Complete the lab in the AWS system. Take screenshots along the way (especially at the conclusion) and paste them into a Google Doc.  Your Google Doc must be shared such that [Anyone with the link can ***VIEW***](https://www.youtube.com/watch?v=l1K2AwPJ4Gw)
+
+<br />
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
+
+<br />
+
+# Learning Objectives
+* Deploy an AWS CloudFormation stack with a defined Virtual Private Cloud (VPC), Identity and Access Management (IAM) role, and Security Group.
+* Configure an AWS CloudFormation stack with resources, such as an Amazon Simple Storage Solution (S3) bucket and Amazon Elastic Compute Cloud (EC2).
+* Terminate an AWS CloudFormation and its respective resources.
