@@ -1,0 +1,18 @@
+^^ Computing Database Services
+
+<div style="display:none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vSr_rAmJ0qamcPjGoIo-0fzH2_qcl_SvZXM573xnq7gaFXnuxXC_-IRcNeCli8bT3Kz15A4oggG8j4g/pub?w=900&amp;h=400" alt="The words CHAPTER 6 - Computing Database Services." title="The words CHAPTER 6 - Computing Database Services." /></div>
+
+In this chapter, we'll check out different types of database services offered through AWS.
+
+While all the content is important, you should certainly make sure you go through the activities. All work is done [in the AWS learning platform](https://awsacademy.instructure.com/) (with the exception of labs - those are completed in the AWS platform but the evidence is submitted in Brightspace).
+
+<br />
+
+<center><iframe src='https://docs.google.com/spreadsheets/d/1BiZp6ZXfyMTUNvYE_nZ8h6-TO0lUCxWHCWFFc54gfn8/pubhtml?headers=false&amp;gid=277957836&amp;range=B2:D14&amp;single=true&amp;chrome=false&amp;embedded=true14'style="width:100%;max-width:720px;height:282px" frameborder="0"></iframe></center>
+
+# Chapter Objectives
+* Differentiate the types of managed database services offered by Amazon Web Services (AWS) and identify their recommended use.
+* Identify some of the factors for consideration when selecting a database (engine and workloads).
+* Explain the purpose and function of Amazon Relational Database Service (Amazon RDS), Amazon Aurora, and Amazon DynamoDB and related benefits of each.
+* Describe the main features and benefits of Amazon Relational Database Service (Amazon RDS), Amazon Aurora, and Amazon DynamoDB.
+* Explain the benefits of the AWS Database Migration Service (AWS DMS) and the capabilities of the AWS Schema Conversion Tool (AWS SCT).
