@@ -1,1 +1,20 @@
-a
+^^ Computing Servers
+
+<div style="display:none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vR0tcTjFfVCJ9p6qg3oca7rUH10cVSiKvnsNeomOnMkmyHsBcmNn-b22hs_e4BFolkGQj0u-HKnjCsH/pub?w=900&amp;h=400" alt="The words CHAPTER 3 - Computing Servers." title="The words CHAPTER 3 - Computing Servers." /></div>
+
+In this chapter, we'll dig deeper into Amazon's Elastic Compute Cloud (EC2).
+
+While all the content is important, you should certainly make sure you go through the activities. All work is done [in the AWS learning platform](https://awsacademy.instructure.com/) (with the exception of labs - those are completed in the AWS platform but the evidence is submitted in Brightspace).
+
+<br />
+
+<center><iframe src='https://docs.google.com/spreadsheets/d/1BiZp6ZXfyMTUNvYE_nZ8h6-TO0lUCxWHCWFFc54gfn8/pubhtml?headers=false&amp;gid=1499791358&amp;range=B2:D11&amp;single=true&amp;chrome=false&amp;embedded=true11'style="width:100%;max-width:720px;height:289px" frameborder="0"></iframe></center>
+
+**Chapter Objectives**
+* Describe Amazon Elastic Compute Cloud (Amazon EC2) virtualization.
+* Differentiate between the instance types and storage options available for EC2 instances.
+* Understand the networking components that must be specified when you launch an EC2 instance.
+* Explain Amazon EC2 user data and metadata.
+* Differentiate the lifecycle states for an EC2 instance.
+* Explain the shared responsibility model.
+* Create Amazon EC2 instances.
