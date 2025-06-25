@@ -1,1 +1,19 @@
-a
+^^ Networking
+
+<div style="display:none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vQavceG4iwGgdqNUcRyXVHXaDHnWb88x4MU0sTaXuCEZAexTKewZNjez45d_2sNOcc7iNRkaQ7Zk3J-/pub?w=900&amp;h=400" alt="The words CHAPTER 7 - Networking." title="The words CHAPTER 7 - Networking." /></div>
+
+In this chapter, we'll fall in love with *virtual private clouds*! This includes the layered defense model.
+
+While all the content is important, you should certainly make sure you go through the activities. All work is done [in the AWS learning platform](https://awsacademy.instructure.com/) (with the exception of labs - those are completed in the AWS platform but the evidence is submitted in Brightspace).
+
+<br />
+
+<center><iframe src='https://docs.google.com/spreadsheets/d/1BiZp6ZXfyMTUNvYE_nZ8h6-TO0lUCxWHCWFFc54gfn8/pubhtml?headers=false&amp;gid=318211283&amp;range=B2:D14&amp;single=true&amp;chrome=false&amp;embedded=true14'style="width:100%;max-width:720px;height:282px" frameborder="0"></iframe></center>
+
+# Chapter Objectives
+* Explain the foundational role of an Amazon virtual private cloud (VPC) in AWS Cloud networking.
+* Identify the networking components inside of a VPC and their purpose.
+* Differentiate the options for VPC connectivity.
+* Describe the layered network defense model inside a VPC, such as network Access Control Lists (network ACLs), security groups, and bastion hosts.
+* List the steps to troubleshoot common VPC network issues.
+* Configure a VPC.
