@@ -1,1 +1,19 @@
-a
+^^ Managing Resource Consumption
+
+<div style="display:none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vTcyjUaCmglWnl8DLtee_0C0ma1KffaJxGhOST_m5ZW8s6uoF4rUnmIMRgVcBSZZDSkHdINxa0sMedH/pub?w=900&amp;h=400" alt="The words CHAPTER 10 - Managing Resource Consumption." title="The words CHAPTER 10 - Managing Resource Consumption." /></div>
+
+In this chapter, we'll take a look at managing costs and the concept of *tagging*.
+
+While all the content is important, you should certainly make sure you go through the activities. All work is done [in the AWS learning platform](https://awsacademy.instructure.com/) (with the exception of labs - those are completed in the AWS platform but the evidence is submitted in Brightspace).
+
+<br />
+
+<center><iframe src='https://docs.google.com/spreadsheets/d/1BiZp6ZXfyMTUNvYE_nZ8h6-TO0lUCxWHCWFFc54gfn8/pubhtml?headers=false&amp;gid=614048328&amp;range=B2:D12&amp;single=true&amp;chrome=false&amp;embedded=true12'style="width:100%;max-width:720px;height:240px" frameborder="0"></iframe></center>
+
+# Chapter Objectives
+Explain the purpose and function of tagging in AWS.
+* Describe the cost management strategies associated with tagging.
+* Describe how to enforce tagging using Identity and Access Management (IAM) policies.
+* Identify some of the cost benefits of the cloud.
+* Explain the purpose and function of the AWS Trusted Advisor service.
+* Manage Resources with tagging.
