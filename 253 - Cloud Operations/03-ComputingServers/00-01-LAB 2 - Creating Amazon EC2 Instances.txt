@@ -2,6 +2,10 @@
 
 Complete the lab in the AWS system. Take screenshots along the way (especially at the conclusion) and paste them into a Google Doc.  Your Google Doc must be shared such that [Anyone with the link can ***VIEW***](https://www.youtube.com/watch?v=l1K2AwPJ4Gw)
 
+# Learning Objectives
+* Launch an Amazon EC2 instance using the management console.
+* Launch an Amazon EC2 instance using the AWS Command Line Interface (CLI).
+
 <br />
 
 ^callout external-link-alt
