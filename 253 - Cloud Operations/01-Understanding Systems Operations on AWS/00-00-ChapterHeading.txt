@@ -7,3 +7,10 @@ In this chapter, we'll look at the very basics of getting started with AWS opera
 <br />
 
 <center><iframe src='https://docs.google.com/spreadsheets/d/1BiZp6ZXfyMTUNvYE_nZ8h6-TO0lUCxWHCWFFc54gfn8/pubhtml?headers=false&amp;gid=0&amp;range=B2:D13&amp;single=true&amp;chrome=false&amp;embedded=true13'style="width:100%;max-width:720px;height:331px" frameborder="0"></iframe></center>
+
+# Chapter Objectives
+* Describe system operations in the cloud related to automated and repeatable deployments.
+* Explain Amazon Web Services (AWS) regions and edge locations, and criteria for selecting them.
+* Describe core services related to system operations, including services for network, compute, and access.
+* Explain how AWS Identity and Access Management (IAM) provides security over AWS account resources.
+* Describe AWS Command Line Interface (AWS CLI) features.
