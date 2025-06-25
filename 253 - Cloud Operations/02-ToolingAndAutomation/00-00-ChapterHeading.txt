@@ -2,7 +2,7 @@
 
 <div style="display:none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vQdwP8SxmhlT9ZjruHT6JkHesal8SKZ1HVIDFLu6IWJvSDFFOelj4ICp6rejHOwfKvCmPGznKbsf1xl/pub?w=900&amp;h=400" alt="The words CHAPTER 2 - Tooling and Automation." title="The words CHAPTER 2 - Tooling and Automation." /></div>
 
-In this chapter, we'll look at admin and development tools. While all the content is important, you should certainly make sure you go through the activities.
+In this chapter, we'll look at admin and development tools. While all the content is important, you should certainly make sure you go through the activities. All work is done [in the AWS learning platform](https://awsacademy.instructure.com/) (with the exception of labs - those are completed in the AWS platform but the evidence is submitted in Brightspace).
 
 <br />
 
