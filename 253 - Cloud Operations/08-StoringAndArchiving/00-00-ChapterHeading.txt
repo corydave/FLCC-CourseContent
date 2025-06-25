@@ -1,1 +1,17 @@
-a
+^^ Storing and Archiving
+
+<div style="display:none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vQgSyBVk32M30er2Zw2hBwL9fpSQPxGsdo8xKAVb0ltUkVF9kdqifbA0HNamr5xg_DKROo5Rfeo06Ho/pub?w=900&amp;h=400" alt="The words CHAPTER 8 - Storing and Archiving." title="The words CHAPTER 8 - Storing and Archiving." /></div>
+
+In this chapter, we'll take a peek at different storage options in AWS.
+
+While all the content is important, you should certainly make sure you go through the activities. All work is done [in the AWS learning platform](https://awsacademy.instructure.com/) (with the exception of labs - those are completed in the AWS platform but the evidence is submitted in Brightspace).
+
+<br />
+
+<center><iframe src='https://docs.google.com/spreadsheets/d/1BiZp6ZXfyMTUNvYE_nZ8h6-TO0lUCxWHCWFFc54gfn8/pubhtml?headers=false&amp;gid=194658895&amp;range=B2:D14&amp;single=true&amp;chrome=false&amp;embedded=true14'style="width:100%;max-width:720px;height:282px" frameborder="0"></iframe></center>
+
+# Chapter Objectives
+* Differentiate the AWS data storage options and explain their purpose and benefits.
+* Create and manage Amazon EBS snapshots.
+* Store, retrieve, and archive Amazon S3 objects.
+* Identify AWS data migration services.
