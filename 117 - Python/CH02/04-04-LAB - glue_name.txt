@@ -20,6 +20,9 @@ Write a program that will ask the user for their first name and their last name.
 
 ## SAMPLE OUTPUT
 
+^acc
+
+^^^ Test Case 1
 
 ```
 Enter first name: Dave
@@ -27,11 +30,19 @@ Enter last name: Ghidiu
 Hi, Dave Ghidiu
 ```
 
+<br />
+
+^^^ Test Case 2
+
 ```
 Enter first name: bart
 Enter last name: simpson
 Hi, bart simpson
 ```
+
+<br />
+
+^^^ Test Case 3
 
 ```
 Enter first name: Paige
@@ -44,6 +55,16 @@ Enter first name: Lisa
 Enter last name: Simpson, esquire
 Hi, Lisa Simpson, esquire
 ```
+
+<br />
+
+^^^ Live Demo
+
+<center><iframe src="https://corydave.github.io/websitetest/claude/console/?program=glueName" width="80%" height="450" frameborder="0"></iframe></center>
+
+<br />
+
+^acc-end
 
 ## STARTER CODE
 
