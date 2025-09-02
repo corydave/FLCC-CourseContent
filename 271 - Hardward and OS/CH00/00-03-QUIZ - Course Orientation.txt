@@ -1,10 +1,12 @@
+^colors bg:#cc6600 text:#eeeeee link:#ccccff
+
 ^^ QUIZ - Course Orientation
 
 # Description
 
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vTJdorhsj-CX3a18EXZSey3LEMa2NlIZxQ9r7z_SPB03RVcJyNYWG0NwsIoV-5sYUuz4u-2S0HEjCPg/pub?w=200&h=200" alt="An icon for a quiz. Some boxes with checkmarks and ‘X’s." style="margin: 0pt 10pt 10pt 0pt;float:right;"  />
 
-Quiz time! This quiz assesses content covered in the Course Information Sheet (Syllabus). You don't have to remember everything you read in the syllabus, though; There are videos in this quiz to help you recall the quirks of this class.
+Quiz time! This quiz assesses content covered in the Course Information Sheet (Syllabus). You don't have to remember everything you read in the syllabus, though; there are videos in this quiz to help you recall the quirks of this class.
 
 Don't worry! You can take the quiz as many times as you'd like!
 
