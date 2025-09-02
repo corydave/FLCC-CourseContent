@@ -1,3 +1,5 @@
+^colors bg:#cc6600 text:#eeeeee link:#ccccff
+
 ^^ DISCUSSION - Your Work Area
 
 # Description
@@ -21,7 +23,13 @@ You should spend some time looking at posts from other people. Tell us what you 
 
 * If you do not want to share a photo of your entire workspace, you can just share an image of your computer or phone - whatever it is you primarily work with.
 
-* If you have an iPhone, you might wind up storing your photo as an HEIC file. This file is not supported by most web browsers, so you'll have to convert it to a more common format like JPG or PNG before embedding it.
+* If you have an iPhone, you might wind up storing your photo as an HEIC file. This file is not supported by most web browsers, so you'll have to convert it to a more common format like JPG or PNG before embedding it. Do that below:
+
+<center>
+
+<iframe src="https://corydave.github.io/websitetest/claude/photoConverter/" width="100%" height="600" style="border-radius: 15px !important;"></iframe>
+
+</center>
 
 </div>
 
