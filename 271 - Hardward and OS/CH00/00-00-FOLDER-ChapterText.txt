@@ -1,3 +1,5 @@
+^colors bg:#cc6600 text:#eeeeee link:#ccccff
+
 <h1 style="background-color: #c60; color: #f7f7f7; text-align:center; padding: 1.875rem; border-radius: .25rem;">
      Chapter 0 - Orientation
 </h1>
@@ -6,12 +8,14 @@
 
 <img src="https://docs.google.com/drawings/d/e/2PACX-1vSM00Tk3e3GpBaf6IHvbRPAB1efs8TFWP-h8-FX_xhVpK8AfG-5i7BowLAUkKkCnVZthv3p0yb3oMEC/pub?w=240&amp;h=180" alt="A drawing on a chalkboard of two hands shaking." title="A drawing on a chalkboard of two hands shaking." style="float:right;border-radius:25px;margin:0px 0px 10px 10px;">
 
-<p>In this chapter, we will be acclimating to the class. There are a bunch of wonky things I do when teaching (like using Google Docs a lot, commenting on work, encouraging resubmitting work) that requires a bit of explanation. </p>
-<p>In this chapter, there are a few experiences where we will get to know each other. Then you&#39;ll learn how things operate in this class. Don&#39;t panic! It&#39;s not painful!</p>
+<p>In this chapter, we will be acclimating to the class. We'll look at some of the more important things to know (like where the work is done and some tips for thriving in this course. Don&#39;t panic! It&#39;s not painful!</p>
 <div style="clear:both;">
 
 <h1 style="text-align: center ">What to expect</h1>
-<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vSVszv5W4sMZDVwaz-xYWJU583eUH20aSkt0grsZWFjLuP4d5U2Gjd_v2DBX56ZBW2VE5MTKD8IFHWg/pubhtml/sheet?headers=false&amp;gid=1072565424&amp;range=B1:D13'style="width:100%;max-width:720px;height:330px" frameborder="0"></iframe></center>        
+
+* Meeting everyone in the course
+* Understanding how this course is run
+* Signing up for Coursera
 
 </div>
 
