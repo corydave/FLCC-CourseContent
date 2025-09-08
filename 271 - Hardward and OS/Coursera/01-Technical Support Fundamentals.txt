@@ -1,6 +1,6 @@
 ^^ UNIT 1 - Technical Support Fundamentals
 
-<div style="display:none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vTJ5f3p2Q-QjR4bxAzZkGnOHrTbZzUudfcrsz25_Tb8CAm1oPAljAJFgWrxNic7tUc6xB9VuabgcU9B/pub?w=907&amp;h=385" width="0" height="0" alt="The words TECHNICAL SUPPORT FUNDAMENTALS." title="The words TECHNICAL SUPPORT FUNDAMENTALS." /></div>
+<center><div style="display:none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vTJ5f3p2Q-QjR4bxAzZkGnOHrTbZzUudfcrsz25_Tb8CAm1oPAljAJFgWrxNic7tUc6xB9VuabgcU9B/pub?w=907&amp;h=385" width="0" height="0" alt="The words TECHNICAL SUPPORT FUNDAMENTALS." title="The words TECHNICAL SUPPORT FUNDAMENTALS." /></div></center>
 
 # Description
 
