@@ -1,0 +1,106 @@
+^^ UNIT 1 - Technical Support Fundamentals
+
+<div style="display:none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vTJ5f3p2Q-QjR4bxAzZkGnOHrTbZzUudfcrsz25_Tb8CAm1oPAljAJFgWrxNic7tUc6xB9VuabgcU9B/pub?w=907&amp;h=385" width="0" height="0" alt="The words TECHNICAL SUPPORT FUNDAMENTALS." title="The words TECHNICAL SUPPORT FUNDAMENTALS." /></div>
+
+# Description
+
+This unit has six modules:
+
+<details>
+  <summary><span style="font-size: 1.4em; font-weight: bold;">Introduction to IT [2 hours]</span></summary>
+  <p>In the first module of the course, we'll learn about how computers were invented, how they've evolved over time, and how they work today. We will also learn about what an "IT Support Specialist" is and what they do in their job. By the end of this module, you will know how to count like a computer using binary and understand why these calculations are so powerful for society. So let's get started!
+</p>
+  <ul>
+    <li>15 videos</li>
+    <li>4 readings</li>
+    <li>5 assignments</li>
+    <li>1 plugin</li>
+  </ul>
+</details>
+
+<br />
+
+<details>
+  <summary><span style="font-size: 1.4em; font-weight: bold;">Hardware [3 hours]</span></summary>
+  <p>In the second module of this course, we'll learn about what's inside a computer. We'll learn all about the hardware components or different pieces inside a computer. We'll discover what each component does and how they work together to make a computer function. By the end of this module, you will also know how to build a computer from scratch!</p>
+  <ul>
+    <li>19 videos</li>
+    <li>9 readings</li>
+    <li>5 assignments</li>
+    <li>1 plugin</li>
+  </ul>
+</details>
+
+<br />
+
+<details>
+  <summary><span style="font-size: 1.4em; font-weight: bold;">Operating System [5 hours]</span></summary>
+  <p>In the third module of this course, learners will explore operating systems (OS). They will learn about the common operating systems that are used today and understand how they work with the computer hardware. Learners will review the "boot process" of an operating system and show learners how to install Windows, Linux, and Mac OSX operating systems. Finally, learners will use the hands-on lab environment to interact directly with the Windows and Linux operating systems.</p>
+  <ul>
+    <li>19 videos</li>
+    <li>9 readings</li>
+    <li>3 assignments</li>
+    <li>2 app items</li>
+    <li>1 plugin</li>
+  </ul>
+</details>
+
+<br />
+
+<details>
+  <summary><span style="font-size: 1.4em; font-weight: bold;">Networking [1 hour]</span></summary>
+  <p>In the fourth module of this course, we'll learn about computer networking. We'll explore the history of the Internet and what "The Web" actually is. We'll also discuss topics like Internet privacy, security, and what the future of the Internet may look like. You'll also understand why the Internet has limitations even today. By the end of this module, you will know how the Internet works and recognize both the positive and negative impacts the Internet has had on the world.</p>
+  <ul>
+    <li>15 videos</li>
+    <li>2 readings</li>
+    <li>2 assignments</li>
+  </ul>
+</details>
+
+<br />
+
+<details>
+  <summary><span style="font-size: 1.4em; font-weight: bold;">Software [3 hours]</span></summary>
+  <p>In the fifth module of this course, we'll learn about computer software. We'll learn about what software actually is and the different types of software you may encounter as an IT Support Specialist. We'll also explore how to manage software and revisit the concept of "abstraction." By the end of this module, you'll use the Qwiklabs environment to install, update and remove software on both Windows and Linux operating systems.</p>
+  <ul>
+    <li>10 videos</li>
+    <li>5 readings</li>
+    <li>3 assignments</li>
+    <li>2 app items</li>
+  </ul>
+</details>
+
+<br />
+
+<details>
+  <summary><span style="font-size: 1.4em; font-weight: bold;">Troubleshooting [2 hours]</span></summary>
+  <p>Congratulations, you've made it to the last module of the course! In the final module, learners examine the importance of troubleshooting and customer support. They’ll go through some real-world scenarios that they might encounter in a Help Desk or Desktop Support role. They’ll also learn why empathizing with users is critical when working in a tech role. Finally, learners will learn why writing effective documentation is an important aspect of any IT role. By the end of this module, learners will be able to utilize soft skills and write documentation in order to communicate effectively with others.</p>
+  <ul>
+    <li>23 videos</li>
+    <li>5 readings</li>
+    <li>2 assignments</li>
+  </ul>
+</details>
+
+<br /><br />
+
+One of the most underrated skills in IT (and, well, life) is *troubleshooting*. It's a delicate balance of optimizing time, understanding the holistic system, and (in many cases) patience with people. Please go through troubleshooting with this lens!
+
+
+# Outcomes
+This course is part of the **[Google IT Support Professional Certificate](https://www.coursera.org/professional-certificates/google-it-support)**. Outcomes include:
+* Learn new concepts from industry experts
+* Gain a foundational understanding of a subject or tool
+* Develop job-relevant skills with hands-on projects
+* Earn a shareable career certificate from Google
+
+
+# Specifications
+
+* Complete all six modules in  [Coursera](https://www.coursera.org/). There is no need to submit anything as your grades will be kept in Coursera. 
+
+</div><br /><br />
+
+## Let's be careful out there!
+
+
