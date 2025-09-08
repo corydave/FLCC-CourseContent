@@ -1,0 +1,110 @@
+^^ UNIT 2 - The Bits and Bytes of Computer Networking
+
+<div style="display:none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vSr1fVofdrybkPfTNsjRsv_EQPFV9qUNR7mC70_21j4JF_bz_gpVHyhDIQ9f2HbtWHBACx1xv3Poe2M/pub?w=907&amp;h=385" width="0" height="0" alt="The words THE BITS AND BYTES OF COMPUTER NETWORKING." title="The words THE BITS AND BYTES OF COMPUTER NETWORKING." /></div>
+
+# Description
+
+This unit has six modules:
+
+<details>
+  <summary><span style="font-size: 1.1em; font-weight: bold;">Introduction to Networking [3 hours]</span></summary>
+  <p>Welcome to the Networking course of the IT Support Professional Certificate! In the first module of this course, we will cover the basics of computer networking. We will learn about the TCP/IP and OSI networking models and how the network layers work together. We'll also cover the basics of networking devices such as cables, hubs and switches, routers, servers and clients. We'll also explore the physical layer and data link layer of our networking model in more detail. By the end of this module, you will know how all the different layers of the network model fit together to create a network.</p>
+  <ul>
+    <li>15 videos</li>
+    <li>7 readings</li>
+    <li>6 assignments</li>
+    <li>1 plugin</li>
+  </ul>  
+</details>
+
+<br />
+
+<details>
+  <summary><span style="font-size: 1.1em; font-weight: bold;">The Network Layer [2 hours]</span></summary>
+  <p>In the second module of this course, we'll explore the network layer in more depth. We'll learn about the IP addressing scheme and how subnetting works. We'll explore how encapsulation works and how protocols such as ARP allow different layers of the network to communicate. We'll also cover the basics of routing, routing protocols, and how the Internet works. By the end of this module, you'll be able to describe the IP addressing scheme, understand how subnetting works, perform binary math to describe subnets, and understand how the Internet works.</p>
+  <ul>
+    <li>18 videos</li>
+    <li>3 readings</li>
+    <li>4 assignments</li>
+  </ul>  
+</details>
+
+<br />
+
+<details>
+  <summary><span style="font-size: 1.1em; font-weight: bold;">The Transport and Application Layers [4 hours]</span></summary>
+  <p>In the third module of this course, we'll explore the transport and application layers. By the end of this module, you'll be able to describe TCP ports and sockets, identify the different components of a TCP header, show the difference between connection-oriented and connectionless protocols, and explain how TCP is used to ensure data integrity.</p>
+  <ul>
+    <li>11 videos</li>
+    <li>2 readings</li>
+    <li>4 assignments</li>
+    <li>2 plugins</li>
+  </ul>  
+</details>
+
+<br />
+
+<details>
+  <summary><span style="font-size: 1.1em; font-weight: bold;">Networking Services [3 hours]</span></summary>
+  <p>In the fourth module of this course, we'll explore networking services. We'll learn about why we need DNS and how it works. We'll also show you why DHCP makes network administration a simpler task. By the end of this module, you'll be able to do describe how DNS and DHCP work, how NAT technologies help keep networks secure, and how VPNs and proxies help users connect and stay secured.</p>
+  <ul>
+    <li>14 videos</li>
+    <li>2 readings</li>
+    <li>7 assignments</li>
+  </ul>  
+</details>
+
+<br />
+
+<details>
+  <summary><span style="font-size: 1.1em; font-weight: bold;">Connecting to the Internet [3 hours]</span></summary>
+  <p>In the fifth module of this course, we'll explore the history of the Internet, how it evolved, and how it works today. We'll understand the different ways to connect to the Internet through cables, wireless and cellar connections, and even fiber connections. By the end of this module, you'll be able to define the components of WANs and outline the basics of wireless and cellular networking.</p>
+  <ul>
+    <li>15 videos</li>
+    <li>8 readings</li>
+    <li>6 assignments</li>
+  </ul>  
+</details>
+
+<br />
+
+<details>
+  <summary><span style="font-size: 1.1em; font-weight: bold;">Troubleshooting and the Future of Networking [2 hours]</span></summary>
+  <p>Congratulations, you've made it to the final module in the course! In the last module of this course, we'll explore the future of computer networking. We'll also cover the practical aspects of troubleshooting a network using popular operating systems. By the end of this module, you'll be able to detect and fix a lot of common network connectivity problems using tools available in Microsoft Windows, MacOS, and Linux operating systems.</p>
+  <ul>
+    <li>18 videos</li>
+    <li>6 readings</li>
+    <li>4 assignments</li>
+  </ul>  
+</details>
+
+<br />
+
+<br /><br />
+
+One of the most underrated skills in IT (and, well, life) is *troubleshooting*. It's a delicate balance of optimizing time, understanding the holistic system, and (in many cases) patience with people. Please go through troubleshooting with this lens!
+
+<br />
+
+# Outcomes
+This course is part of the **[Google IT Support Professional Certificate](https://www.coursera.org/professional-certificates/google-it-support)**. Outcomes include:
+* Learn new concepts from industry experts
+* Gain a foundational understanding of a subject or tool
+* Develop job-relevant skills with hands-on projects
+* Earn a shareable career certificate from Google
+
+<br /><br />
+
+^=^ ,,,, 12
+
+<br />
+
+Complete all six modules in  [Coursera](https://www.coursera.org/). There is no need to submit anything as your grades will be kept in Coursera. 
+
+^=
+
+</div><br /><br />
+
+## Let's be careful out there!
+
+<br /><br />
