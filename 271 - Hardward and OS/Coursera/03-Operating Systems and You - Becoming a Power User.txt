@@ -1,6 +1,6 @@
 ^^ UNIT 3 - Operating Systems and You - Becoming a Power User
 
-<div style="display: none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vSXlrdxuWpW4V7OCLbfFsvEeTBBux3Dt1Er_vYMyXQUAVrALlREtdqbK9vMhAah_nUbNcupJwBsKZJA/pub?w=907&amp;h=385" width="0" height="0" alt="The words OPERATING SYSTEMS AND YOU - BECOMING A POWER USER." title="The words OPERATING SYSTEMS AND YOU - BECOMING A POWER USER."></div>
+<center><div style="display: none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vSXlrdxuWpW4V7OCLbfFsvEeTBBux3Dt1Er_vYMyXQUAVrALlREtdqbK9vMhAah_nUbNcupJwBsKZJA/pub?w=907&amp;h=385" width="0" height="0" alt="The words OPERATING SYSTEMS AND YOU - BECOMING A POWER USER." title="The words OPERATING SYSTEMS AND YOU - BECOMING A POWER USER."></div></center>
 
 # Description
 
