@@ -1,6 +1,6 @@
 ^^ UNIT 5 - IT Security - Defense Against the Digital Dark Arts
 
-<div style="display: none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vQFEOmWkrIi3vI05TqTwp3Jr2-2upviu-iheX2_4TOA0zwc-N5C_lKQiXRWvryxYuJCgTVW-AERzJln/pub?w=907&amp;h=385" width="0" height="0" alt="The words IT SECURITY - DEFENSE AGAINST THE DIGITAL DARK ARTS." title="The words IT SECURITY - DEFENSE AGAINST THE DIGITAL DARK ARTS."></div>
+<center><div style="display: none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vQFEOmWkrIi3vI05TqTwp3Jr2-2upviu-iheX2_4TOA0zwc-N5C_lKQiXRWvryxYuJCgTVW-AERzJln/pub?w=907&amp;h=385" width="0" height="0" alt="The words IT SECURITY - DEFENSE AGAINST THE DIGITAL DARK ARTS." title="The words IT SECURITY - DEFENSE AGAINST THE DIGITAL DARK ARTS."></div></center>
 
 # Description
 
