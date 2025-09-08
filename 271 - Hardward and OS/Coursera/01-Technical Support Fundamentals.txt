@@ -95,18 +95,18 @@ This course is part of the **[Google IT Support Professional Certificate](https:
 * Develop job-relevant skills with hands-on projects
 * Earn a shareable career certificate from Google
 
-<br />
+<br /><br />
 
-^callout external-link-alt
+^=^ ,,,, 12
 
 <br />
 
 Complete all six modules in  [Coursera](https://www.coursera.org/). There is no need to submit anything as your grades will be kept in Coursera. 
 
-^callout-end
+^=
 
 </div><br /><br />
 
 ## Let's be careful out there!
 
-
+<br /><br />
