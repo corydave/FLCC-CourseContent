@@ -1,6 +1,6 @@
 ^^ UNIT 4 - System Administration and IT Infrastructure Services
 
-<div style="display: none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vTQrSzytlBk9-rkzW5xCXP8HJrqFBxeEuVAiLp60AeuWF7aZMiF7IbjI87dRIJepBBP6imJY9daXAfh/pub?w=907&amp;h=385" width="0" height="0" alt="The words SYSTEM ADMINISTRATION AND IT INFRASTRUCTURE SERVICES." title="The words SYSTEM ADMINISTRATION AND IT INFRASTRUCTURE SERVICES."></div>
+<center><div style="display: none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vTQrSzytlBk9-rkzW5xCXP8HJrqFBxeEuVAiLp60AeuWF7aZMiF7IbjI87dRIJepBBP6imJY9daXAfh/pub?w=907&amp;h=385" width="0" height="0" alt="The words SYSTEM ADMINISTRATION AND IT INFRASTRUCTURE SERVICES." title="The words SYSTEM ADMINISTRATION AND IT INFRASTRUCTURE SERVICES."></div></center>
 
 # Description
 
