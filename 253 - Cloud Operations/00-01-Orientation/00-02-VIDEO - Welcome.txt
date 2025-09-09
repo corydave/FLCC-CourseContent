@@ -1,6 +1,6 @@
 ^colors bg:#1155cc text:#ffffff link:#ccccff
 
-^^ Welcome Video
+^^ VIDEO - Welcome
 
 <center>
 
