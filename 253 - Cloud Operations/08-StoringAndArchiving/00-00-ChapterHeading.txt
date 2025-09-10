@@ -8,7 +8,7 @@ While all the content is important, you should certainly make sure you go throug
 
 <br />
 
-<center><iframe src='https://docs.google.com/spreadsheets/d/1BiZp6ZXfyMTUNvYE_nZ8h6-TO0lUCxWHCWFFc54gfn8/pubhtml?headers=false&amp;gid=194658895&amp;range=B2:D14&amp;single=true&amp;chrome=false&amp;embedded=true14'style="width:100%;max-width:720px;height:282px" frameborder="0"></iframe></center>
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vT-Kc2uIR7h_5J7zPVxcgpZ3fpxVtqrHRoi4G7PAoT1ux385pRyBO1gxygEU_IXeTEamzNvDcg9MMNc/pubhtml/sheet?headers=false&amp;gid=194658895&amp;range=B2:D8&amp;single=true&amp;chrome=false&amp;embedded=true8'style="width:100%;max-width:720px;height:226px" frameborder="0"></iframe></center>
 
 # Chapter Objectives
 * Differentiate the AWS data storage options and explain their purpose and benefits.
