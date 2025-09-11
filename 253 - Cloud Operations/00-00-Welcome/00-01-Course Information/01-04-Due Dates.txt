@@ -2,8 +2,4 @@
 
 ^^ Due Dates
 
-<div style='clear:both;text-align:center;width:100%;'>
-
-<iframe src="https://docs.google.com/spreadsheets/d/1BiZp6ZXfyMTUNvYE_nZ8h6-TO0lUCxWHCWFFc54gfn8/pubhtml?gid=1890661085&amp;&range=Q2:S21&amp;single=true&amp;widget=true&amp;rm=minimal&amp;headers=false" style="width:580px;max-width:720px;height:500px;" frameborder="0"></iframe>
-
-</div>
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vT-Kc2uIR7h_5J7zPVxcgpZ3fpxVtqrHRoi4G7PAoT1ux385pRyBO1gxygEU_IXeTEamzNvDcg9MMNc/pubhtml/sheet?headers=false&amp;gid=1890661085&amp;range=Q2:S20&amp;single=true&amp;chrome=false&amp;embedded=true8' style='width:100%;max-width:640px;height:399px;' frameborder='0'></iframe></center>		
