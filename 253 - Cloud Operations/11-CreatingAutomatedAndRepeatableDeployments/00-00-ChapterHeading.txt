@@ -8,7 +8,7 @@ While all the content is important, you should certainly make sure you go throug
 
 <br />
 
-<center><iframe src='https://docs.google.com/spreadsheets/d/1BiZp6ZXfyMTUNvYE_nZ8h6-TO0lUCxWHCWFFc54gfn8/pubhtml?headers=false&amp;gid=371634509&amp;range=B2:D18&amp;single=true&amp;chrome=false&amp;embedded=true18'style="width:100%;max-width:720px;height:366px" frameborder="0"></iframe></center>
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vT-Kc2uIR7h_5J7zPVxcgpZ3fpxVtqrHRoi4G7PAoT1ux385pRyBO1gxygEU_IXeTEamzNvDcg9MMNc/pubhtml/sheet?headers=false&amp;gid=371634509&amp;range=B2:D18&amp;single=true&amp;chrome=false&amp;embedded=true18'style="width:100%;max-width:720px;height:436px" frameborder="0"></iframe></center>
 
 # Chapter Objectives
 * Identify some of the AWS services for configuration management.

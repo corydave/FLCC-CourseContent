@@ -1,3 +1,14 @@
 ^^ Orientation
 
-This orientation is brief - if you have further questions on how to use Brightspace, let me know dave.ghidiu@flcc.edu
+<div style="display:none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vRcoJJ55Y9pr3RocmtOYLjtJ2DGJw-vb1mwegIxQpVJRnTJOiR4xv-8TDreAA1WviV9IFTrbBQ5ECog/pub?w=900&amp;h=400" alt="The words ORIENTATION." title="The words ORIENTATION." /></div>
+
+Welcome to the course! In this brief orientation, please check out the Course Outline (Syllabus), schedule a time to meet with me, and scope out Amazon's orientation to their platform (we will be using that platform for the entire semester).
+
+<br />
+
+<center><div style='clear:both;'><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vT-Kc2uIR7h_5J7zPVxcgpZ3fpxVtqrHRoi4G7PAoT1ux385pRyBO1gxygEU_IXeTEamzNvDcg9MMNc/pubhtml/sheet?headers=false&amp;gid=1072565424&amp;range=B2:D8&amp;single=true&amp;chrome=false&amp;embedded=true8' style="width:100%;max-width:640px;height:226px;" frameborder="0"></iframe></div></center>
+
+# Chapter Objectives
+* Get to know the layout of the course
+* Set up a time to meet with Dave
+* Check out Amazon's learning platform

@@ -6,7 +6,7 @@ In this chapter, we'll look at the very basics of getting started with AWS opera
 
 <br />
 
-<center><iframe src='https://docs.google.com/spreadsheets/d/1BiZp6ZXfyMTUNvYE_nZ8h6-TO0lUCxWHCWFFc54gfn8/pubhtml?headers=false&amp;gid=0&amp;range=B2:D13&amp;single=true&amp;chrome=false&amp;embedded=true13'style="width:100%;max-width:720px;height:331px" frameborder="0"></iframe></center>
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vT-Kc2uIR7h_5J7zPVxcgpZ3fpxVtqrHRoi4G7PAoT1ux385pRyBO1gxygEU_IXeTEamzNvDcg9MMNc/pubhtml/sheet?headers=false&amp;gid=0&amp;range=B2:D14&amp;single=true&amp;chrome=false&amp;embedded=true14'style="width:100%;max-width:720px;height:352px" frameborder="0"></iframe></center>
 
 # Chapter Objectives
 * Describe system operations in the cloud related to automated and repeatable deployments.
