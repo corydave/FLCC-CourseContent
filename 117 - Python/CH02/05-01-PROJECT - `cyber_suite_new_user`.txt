@@ -19,7 +19,7 @@ Please enter your password: abc123
 
 Welcome, Dave. Your ID is 12345.
 
-PASSWORD: 
+PASSWORD:
 XXXXXX
 ```
 
@@ -30,7 +30,7 @@ Please enter your password: PCT2024
 
 Welcome, Katie. Your ID is 13090.
 
-PASSWORD: 
+PASSWORD:
 XXXXXXX
 ```
 
@@ -41,7 +41,7 @@ Please enter your password: TheOtherDayISawABearAGreatBigBear
 
 Welcome, John. Your ID is 10008.
 
-PASSWORD: 
+PASSWORD:
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 ```
 
