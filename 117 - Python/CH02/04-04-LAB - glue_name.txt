@@ -10,8 +10,6 @@ Write a program that will ask the user for their first name and their last name.
 
 * The filename for this program is `glue_name.py`
 
-* Complete the method `glue_name()`
-
 * Add a comment with your name, date, and program description at the top!
 
 ## DEMO
