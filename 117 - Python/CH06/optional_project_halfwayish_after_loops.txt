@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="/shared/Course File templates/Standard/pages/../_assets/thirdpartylib/bootstrap-4.3.1/css/bootstrap.min.css">
+   <!-- Font Awesome CSS -->
+   <link rel="stylesheet" href="/shared/Course File templates/Standard/pages/../_assets/thirdpartylib/fontawesome-free-5.9.0-web/css/all.min.css">
+   <!-- prism.min.css for code linting -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/themes/prism.min.css">
+   <!-- Template CSS -->
+   <link rel="stylesheet" href="/shared/Course File templates/Standard/pages/../_assets/css/styles.min.css">
+   <link rel="stylesheet" href="/shared/Course File templates/Standard/pages/../_assets/css/custom.css">
+<style>
+  code {
+    background-color: #f5f2f0;
+    color: #000;
+    border-radius: .25em;
+    padding: 0 .25em 0 .25em;
+}
+  .h1, .h2, .h3, .h4, .h5, .h6,
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+.h2, h2 {
+    color: #355e3B;
+}
+.accentColor .h2, .accentColor h2 {
+    color: #f7f7f7;
+}
+.accentDark .h2, .accentDark h2 {
+    color: #e9e9e9;
+}
+.two-col-panels .card .card-body h2 {
+    color: #355e3B;
+    margin-top: 0px;
+}
+
+  .accentOutline {
+    border-width: 3px; 
+    border-style: solid;
+    border-radius: .25em;
+    border-color: #355e3B;
+}
+.accentColor {
+    background-color: #355e3B;
+    color: #f7f7f7;
+}
+.accentColor h1, .accentColor h2, .accentColor h3, .accentColor h4, .accentColor h5, .accentColor h6 {
+    color: #f7f7f7;
+} 
+.accentColor a  {
+    color: lightblue;
+    border-color: lightblue;
+    font-weight: bold;
+    border-bottom-width: 2px;
+}
+.jumbotron {
+    background-color: #355e3B;
+    color: #f7f7f7;
+}
+.jumbotron a {
+    color: #f7f7f7;
+    border-color: lightblue;
+}
+
+.accentDark {
+    background-color: #555;
+    color: #e9e9e9;
+}
+.accentDark h1, .accentDark h2, .accentDark h3, .accentDark h4, .accentDark h5, .accentDark h6 {
+    color: #e9e9e9;
+} 
+.accentDark a {
+    color: lightblue;
+    border-color: lightblue;
+}
+.accentLite {
+    background-color: #e3e9f1;
+    color: black;
+}
+.accentLite h1, .accentLite .h1, .accentLite h3, .accentLite .h3, .accentLite h4, .accentLite .h4, .accentLite h5, .accentLite .h5, .accentLite h6, .accentLite .h6 {
+    color: black;
+} 
+.accentLite h2, .accentLite .h2 {
+    color: #355e3B;
+}
+
+.card-graphic {
+    border-color: #355e3B;
+}
+
+.card-graphic .card-body .card-icon .fa,
+.card-graphic .card-body .card-icon .fas, 
+.card-graphic .card-body .card-icon .fab {
+    font-size: 3.125rem;
+    min-width: 5.313rem;
+    text-align: center;
+    color: #355e3B;
+}
+
+ol.large-number li:before {
+    color: #355e3B;
+}
+
+ol.box-number li:before,
+ol.box-alpha li:before {
+    background-color: #355e3B;
+    color: #f7f7f7;
+}
+
+  /*
+    .center-column {
+    border-width: 3px; 
+    border-style: solid;
+    border-radius: .25em;
+    border-color: #355e3B;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+*/
+  .table-responsive td,
+.table-responsive tr,
+.table-responsive caption {
+    background-color: #fff;
+}
+  .col, .col-1, .col-10, .col-11, .col-12, 
+.col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, 
+.col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, 
+.col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, 
+.col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, 
+.col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, 
+.col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, 
+.col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, 
+.col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, 
+.col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, 
+.col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, 
+.col-xl-8, .col-xl-9, .col-xl-auto {
+    padding-left: 1px;
+    padding-right: 1px;
+}
+</style>
+   <title>Page</title>
+</head><body><div class="container-fluid">
+<h1 class="jumbotron">PROJECT - <em>Optional</em> Python Project</h1>
+<p><strong>This project is entirely optional and will not affect your grade.</strong> If you have any missing required work, <em>please make that your priority.</em> These project options are designed to help you practice and solidify the foundational skills we've covered so far! (This can also be a chance to challenge yourself and include a skill we haven't covered yet, if desired!) You are encouraged to access programs you've created in the class, Jupyter Notebooks, and any course content in Brightspace. Please cite any outside sources using comments.</p>
+<h1 id="skills-to-practice">Skills to Practice</h1>
+<ol class="box-number">
+<li><code>print()</code> - output instructions, results, or other information</li>
+<li><code>input()</code> - get information from the user</li>
+<li>variables - store data such as prices, scores, names, or other</li>
+<li><code>if/elif/else</code> - check conditions / make decisions</li>
+<li><code>while</code> or <code>for</code> loop - repeat a process</li>
+<li><code>random</code> methods - add an element of chance</li>
+<li>comments - explain your code</li>
+</ol>
+<h1 id="project-options---choose-one">Project Options - Choose One</h1>
+<h2 id="🔢-💰-option-1-digital-cash-register-💰-🔢">🔢 💰 Option 1: Digital Cash Register 💰 🔢</h2>
+<p><strong>GOAL:</strong> Create a program that mimics a retail checkout, calculating the final bill including tax.</p>
+<p><strong>SOME IDEAS - Adjust as you wish:</strong></p>
+<ul>
+<li>Define a price for at least three items.</li>
+<li>Display a menu and instructions.</li>
+<li>Use a while loop to ask the user what they want to buy until they type "checkout" or another phrase that indicates their order is complete.</li>
+<li>Keep track of the subtotal as the user selects items.</li>
+<li>Once the user has completed their order, display the subtotal, sales tax (use a fixed rate of your choice), and the grand total.</li>
+</ul>
+<h2 id="⚽-⛳-option-2-soccer-golf-scorecard-⛳-⚽">⚽ ⛳ Option 2: Soccer Golf Scorecard ⛳ ⚽</h2>
+<p><strong>GOAL:</strong> Simulate tracking a player's score for a round of <a target="_blank" href="https://en.wikipedia.org/wiki/Footgolf" rel="noopener">soccer golf</a> (or regular golf). Or create something related to another sport or game if golf isn't your thing!</p>
+<p><strong>SOME IDEAS - Adjust as you wish:</strong></p>
+<ul>
+<li>Consider using <code>random.randint()</code> at the start of each turn to set the par (expected score - e.g., between 3 and 5) for the current hole - or have the user input the par for each hole.</li>
+<li>Alternate idea / challenge - Store the par values for each hole in a list. Access the par values (elements in the list) as you execute the loop described in the next step! <a target="_blank" href="https://www.w3schools.com/python/python_lists.asp" rel="noopener">Here's an overview of basic list skills.</a> We'll cover lists in more depth later in the course!</li>
+</ul>
+<ul>
+<li>Use a loop to track a set number of holes (e.g., 9 or 18). Ask the user for their score on each hole. Tell the user if their score was a “birdie” (1 under par), “par” (equal to par), or “bogey” (1 above par). You can also include “eagle” (2 under par) and “double bogey” (2 over par) if desired.</li>
+<li>After the loop finishes, print the player’s total score and how many strokes they finished over or under par.</li>
+</ul>
+<h2 id="✅-🧠-option-3-multiple-choice-quiz-🧠-✅">✅ 🧠 Option 3: Multiple-Choice Quiz 🧠 ✅</h2>
+<p><strong>GOAL:</strong> Build a multiple-choice quiz about any topic. (I’d suggest a minimum of 3 questions and a maximum of 10 questions, but do what you’d like!)</p>
+<p><strong>SOME IDEAS - Adjust as you wish:</strong></p>
+<ul>
+<li>Start with a score of zero.</li>
+<li>Display a question and choices.</li>
+<li>Have the user input their answer.</li>
+<li>Evaluate if the answer is correct and display customized feedback.</li>
+<li>Update the score based on the accuracy of the user’s response.</li>
+<li>You may find a more interesting or relevant use of loops depending on your quiz, but you could have the user take the quiz again until they get all questions correct.</li>
+</ul>
+<h2 id="🎨-✨-option-4-emoji-art-generator-✨-🎨">🎨 ✨ Option 4: Emoji Art Generator ✨ 🎨</h2>
+<p><strong>GOAL:</strong> Create a visual design using characters and emojis, incorporating your core logic skills to make it dynamic.</p>
+<p><strong>SOME IDEAS - Adjust as you wish:</strong></p>
+<ul>
+<li>Use print statements to design a picture or pattern using emojis.</li>
+<li>Use loop(s) to repeat a section of the art or to create a pattern.</li>
+<li>Include randomness to decide which emoji to put at a certain spot.</li>
+<li>Include conditionals to ask the user for input (day vs. night, or water vs. land) to determine which version of your art is displayed.</li>
+<li>Challenge: Define a function to draw a single shape and call the function multiple times. <a target="_blank" href="https://www.w3schools.com/python/python_functions.asp" rel="noopener">Here's an overview of Python functions.</a> We'll cover functions in more depth later in the course!</li>
+</ul>
+<h2 id="🤔-💡-option-5-your-choice-💡-🤔">🤔 💡 Option 5: Your Choice 💡 🤔</h2>
+<p>If you have a different idea that incorporates the skills listed above, feel free to design your own! Explain an overview of your program in comments at the top of your program.</p>
+<!-- callout begin -->
+<div class="card card-graphic">
+<div class="card-body">
+<div class="card-icon">
+<p><span class="fas fa-users"></span></p>
+</div>
+<div class="card-text">
+<p>Click here to share your program with the class!</p>
+</div>
+</div>
+</div>
+<!-- end callout --><!-------------------------------------------------------------->
+<pre style="display: none;">--------------------------------------------------
+Source markdown in custom md-to-brightspace format
+--------------------------------------------------
+^version 2023-06-08^
+^source markdown start^
+^^ PROJECT - _Optional_ Python Project
+
+**This project is entirely optional and will not affect your grade.** If you have any missing required work, _please make that your priority._ These project options are designed to help you practice and solidify the foundational skills we've covered so far! (This can also be a chance to challenge yourself and include a skill we haven't covered yet, if desired!) You are encouraged to access programs you've created in the class, Jupyter Notebooks, and any course content in Brightspace. Please cite any outside sources using comments.
+
+# Skills to Practice
+
+1. ```print()``` - output instructions, results, or other information ^box^
+2. ```input()``` - get information from the user
+3. variables - store data such as prices, scores, names, or other
+4. ```if/elif/else``` - check conditions / make decisions
+5. ```while``` or ```for``` loop - repeat a process
+6. ```random``` methods - add an element of chance
+7. comments - explain your code
+
+# Project Options - Choose One
+
+## 🔢 💰 Option 1: Digital Cash Register 💰 🔢
+
+**GOAL:** Create a program that mimics a retail checkout, calculating the final bill including tax.
+
+**SOME IDEAS - Adjust as you wish:**
+- Define a price for at least three items.
+- Display a menu and instructions.
+- Use a while loop to ask the user what they want to buy until they type "checkout" or another phrase that indicates their order is complete.
+- Keep track of the subtotal as the user selects items.
+- Once the user has completed their order, display the subtotal, sales tax (use a fixed rate of your choice), and the grand total.
+
+## ⚽ ⛳ Option 2: Soccer Golf Scorecard ⛳ ⚽
+
+**GOAL:** Simulate tracking a player's score for a round of [soccer golf][1] (or regular golf).
+Or create something related to another sport or game if golf isn't your thing!
+
+[1]:https://en.wikipedia.org/wiki/Footgolf
+
+**SOME IDEAS - Adjust as you wish:**
+- Consider using ```random.randint()``` at the start of each turn to set the par (expected score - e.g., between 3 and 5) for the current hole - or have the user input the par for each hole.
+- Alternate idea / challenge - Store the par values for each hole in a list. Access the par values (elements in the list) as you execute the loop described in the next step! [Here's an overview of basic list skills.][2] We'll cover lists in more depth later in the course!
+[2]:https://www.w3schools.com/python/python_lists.asp
+- Use a loop to track a set number of holes (e.g., 9 or 18). Ask the user for their score on each hole. Tell the user if their score was a “birdie” (1 under par), “par” (equal to par), or “bogey” (1 above par). You can also include “eagle” (2 under par) and “double bogey” (2 over par) if desired.
+- After the loop finishes, print the player’s total score and how many strokes they finished over or under par.
+
+## ✅ 🧠 Option 3: Multiple-Choice Quiz 🧠 ✅
+
+**GOAL:** Build a multiple-choice quiz about any topic. (I’d suggest a minimum of 3 questions and a maximum of 10 questions, but do what you’d like!)
+
+**SOME IDEAS - Adjust as you wish:**
+- Start with a score of zero.
+- Display a question and choices.
+- Have the user input their answer.
+- Evaluate if the answer is correct and display customized feedback.
+- Update the score based on the accuracy of the user’s response.
+- You may find a more interesting or relevant use of loops depending on your quiz, but you could have the user take the quiz again until they get all questions correct.
+
+## 🎨 ✨ Option 4: Emoji Art Generator ✨ 🎨
+
+**GOAL:** Create a visual design using characters and emojis, incorporating your core logic skills to make it dynamic.
+
+**SOME IDEAS - Adjust as you wish:**
+- Use print statements to design a picture or pattern using emojis.
+- Use loop(s) to repeat a section of the art or to create a pattern.
+- Include randomness to decide which emoji to put at a certain spot.
+- Include conditionals to ask the user for input (day vs. night, or water vs. land) to determine which version of your art is displayed.
+- Challenge: Define a function to draw a single shape and call the function multiple times. [Here's an overview of Python functions.][3] We'll cover functions in more depth later in the course!
+[3]:https://www.w3schools.com/python/python_functions.asp
+
+## 🤔 💡 Option 5: Your Choice 💡 🤔
+
+If you have a different idea that incorporates the skills listed above, feel free to design your own! Explain an overview of your program in comments at the top of your program.
+
+^callout users
+
+Share your program with the class!
+
+^callout-end
+^source markdown end^
+</pre>
+<!--------------------------------------------------------------></div>
+<p>
+<script src="/shared/Course File templates/Standard/pages/../_assets/thirdpartylib/jquery/jquery-3.3.1.slim.min.js"></script>
+<script src="/shared/Course File templates/Standard/pages/../_assets/thirdpartylib/popper-js/popper.min.js"></script>
+<script src="/shared/Course File templates/Standard/pages/../_assets/thirdpartylib/bootstrap-4.3.1/js/bootstrap.min.js"></script>
+</p>
+<!-- Template JavaScript -->
+<p>
+<script src="/shared/Course File templates/Standard/pages/../_assets/js/scripts.min.js"></script>
+</p></body></html>
