@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html><head><link rel="stylesheet" href="https://s.brightspace.com/lib/fonts/0.6.1/fonts.css"></head><body style="color: rgb(32, 33, 34); font-family: Lato, sans-serif; font-size: 12px;"><h1 style="background-color: #355e3b; color: #fff; text-align: center; padding: 1.875rem; border-radius: .25rem;"><span style="font-size: 32px;">PROJECT - Create a Python Program</span></h1>
+<h1><span style="font-size: 32px;"><strong>1) Have fun.</strong></span></h1>
+<ul>
+<li><span style="font-size: 19px;">You're going to make a Python program. </span></li>
+<li><span style="font-size: 19px;">YOU (yes you! not AI!) will choose the goal and purpose of the program.</span></li>
+<li><span style="font-size: 19px;">Have a conversation with AI to build the program.</span></li>
+<li><span style="font-size: 19px;">You can choose what you use to build the program... one source, ten sources, up to you.</span><span style="font-size: 19px;"></span></li>
+<li><span style="font-size: 19px;">You only NEED one Python file but you can choose to include more than one or include other file types.</span></li>
+</ul>
+<h1><span style="font-size: 32px;"><strong>2) Keep thinking.</strong></span></h1>
+<ul>
+<li><span style="font-size: 19px;">You can't accept the first iteration of the program.</span></li>
+<li><span style="font-size: 19px;">Make it better. Then make it better again.</span></li>
+<li><span style="font-size: 19px;">Something in it you don't understand? Ask.</span></li>
+<li><span style="font-size: 19px;">Understand it enough to explain it to someone else.</span></li>
+</ul>
+<h1><span style="font-size: 32px;"><strong>3) Cite your resources.</strong></span></h1>
+<ul>
+<li><span style="font-size: 19px;">Put a comment at the top of your program describing how you used AI.</span></li>
+<li><span style="font-size: 19px;">Use a Python multi-line comment. <em>If you can't remember how to do that...</em>&nbsp;Look it up!</span></li>
+<li><span style="font-size: 19px;">Link to the sites you used if you can - depends on the source. If you can't, provide enough of an explanation that someone else could recreate a similar product with similar effort.</span></li>
+</ul>
+<h1><span style="font-size: 32px;"><strong>Good luck!</strong></span></h1>
+<p><span style="font-size: 32px;"><strong>One more thing... </strong></span></p>
+<p><span style="font-size: 19px;">You'll submit via GitHub. No autotests because who knows what you're going to create... (You can build tests if you want them! Seriously - you can - how cool!) You have a file called project.py to get started. Have fun!</span></p>
+<p><span style="font-size: 19px;"></span></p>
+<p style="text-align: center;"><span style="font-size: 48px;">CLICK HERE TO SUBMIT YOUR WORK!</span></p></body></html>

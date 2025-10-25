@@ -1,0 +1,159 @@
+Question 1 (1 point) 
+How can AI be used to learn Python? (Select all true statements.)
+
+Question 1 options:
+
+AI can help a programmer understand the "why" behind a recommended change to a program.
+
+
+AI can review code to offer professional feedback. Even if the code runs or meets the program's goal, AI can provide instructions for more improvements.
+
+
+AI can explain programming concepts in detail and provide examples.
+
+
+AI can find the error(s) in a program to help debug.
+
+Question 2 (1 point) 
+Which site allows you to problem solve with other humans to find solutions to programming problems?
+
+Question 2 options:
+
+Claude
+
+
+Stack Overflow
+
+
+Gemini
+
+
+ChatGPT
+
+Question 3 (1 point) 
+Where can you find the OFFICIAL Python documentation? (Reminder: You can provide this to an AI chatbot as a reference to encourage accurate responses.)
+
+Question 3 options:
+
+learnpython.org
+
+
+flcc.edu
+
+
+w3schools.com
+
+
+docs.python.org
+
+Question 4 (1 point) 
+Which of the following should you *NOT* do in an AI conversation?
+
+Question 4 options:
+
+Provide context or appropriate background information for your question. "I'm new to learning Python and recently learned about lists..."
+
+
+Disengage from your own thought process and have AI do all of the work for you. "Here's my lab for the week. I don't get it. Do it for me. Thanks."
+
+
+Ask for clarification if you're provided with information that you don't understand or may potentially be inaccurate. "I'm wondering how you generated this response. Can you provide me with the resources you used so I can learn more?"
+
+
+Share private information. "I wrote a draft of this program if you can take a look - my password is (insert password here) and here's my credit card number too (insert credit card number here) ... so I can upgrade to a pro account!"
+
+Question 5 (1 point) 
+What's the current rule for AI use in college courses?
+
+Question 5 options:
+
+I can use AI on any assignment as long as my intent is positive.
+
+
+Everyone agrees that AI can be used to generate responses for all assignments in all courses.
+
+
+The expectations are the same across all courses. AI is NEVER allowed.
+
+
+Expectations for AI use depend on the college, course, assignment, and instructor. I'll ask questions before making assumptions if I'm unsure!
+
+Question 6 (1 point) 
+Sometimes, AI makes up answers without being 100% accurate. What the term for this behavior?
+
+Question 6 options:
+
+typing
+
+
+lying
+
+
+hallucinating
+
+
+questioning
+
+Question 7 (1 point) 
+Suppose you ask a question about debugging a program and you provide a section of code from your program. How can you verify that the information you receive in an AI-generated response is accurate?
+
+Question 7 options:
+
+ask AI for citations for the sources it used to generate the response
+
+
+wait five minutes and ask the same question again, then compare the responses
+
+
+fact check with other resources such as Stack Overflow, a trusted colleague, and/or a blog with other programmers
+
+
+test the program in an IDE using the feedback from AI and analyze the program's behavior
+
+Question 8 (1 point) 
+In the "10 Prompts" document, there's a reference to refactoring code, which is described as "exploring more 'Pythonic' ways to writing code." What does it mean for code to be Pythonic?
+
+Question 8 options:
+
+It's easy to read.
+
+
+It has clear documentation including accurate variable names.
+
+
+It's beautiful code. (Pause for a quick second and google the "Zen of Python" in another tab - don't get distracted - then come back and finish this question!)
+
+
+It's as straightforward as possible.
+
+Question 9 (1 point) 
+The Jupyter Notebook showed a sample program in the section Three Exercises... > Debug > Find the Error(s). There are two errors. What are the errors?
+
+Question 9 options:
+
+int and input should be switched so their order of execution gets reversed.
+
+
+Python doesn't recognize elif, so this should be rewritten as else if.
+
+
+There's a colon missing after else.
+
+
+The comparison between users_choice and 2 needs == instead of =.
+
+Question 10 (1 point) 
+Which tool can be accessed within Codespaces?
+
+Question 10 options:
+
+Google Gemini
+
+
+Anthropic Claude
+
+
+OpenAI ChatGPT
+
+
+GitHub CoPilot

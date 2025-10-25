@@ -1,0 +1,14 @@
+<h1 style="background-color: #355e3b; color: #fff; text-align: center; padding: 1.875rem; border-radius: .25rem;">Using AI to Learn Python</h1>
+<div style="display: none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vT7IkqhFedY7akIg-2zO-RC1_bdxaOAiowdYEkHoLqCPKdP-FtKuhsdaGOOG7uUYaEt70O1ows2uw6n/pub?w=907&amp;h=385" alt="AI and a heart icon" title="AI text and a heart" width="0" height="0"></div>
+<p>It's time for us to talk about AI to learn some Python. In this chapter, you'll use at least two different AI tools (of your choice, with options provided) to improve your skills as a programmer. Get ready to have fun <em>AND</em> learn something new!</p>
+<h1 style="text-align: center;">Experiences for this chapter</h1>
+<p>Due Monday, November 17&nbsp;at 12:00 PM</p>
+<ul>
+<li>LEARN - PODCAST - AI and Python (Debate Style!)</li>
+<li>LEARN - PDF - 10 Prompt Ideas</li>
+<li>LEARN - JUPYTER NOTEBOOK - Using AI to Learn Python</li>
+<li style="font-weight: bold;"><strong>QUIZ - AI Key Terms, Do, Don't</strong></li>
+<li style="font-weight: bold;"><strong>LAB - Learn a New Concept / Skill<span style="font-family: 'courier new', courier, sans-serif;"></span></strong><strong><span style="font-family: 'courier new', courier, sans-serif;"></span></strong><strong></strong></li>
+<li style="font-weight: bold;"><strong>PROJECT - Create a Python Program</strong><strong><span style="font-family: 'courier new', courier, sans-serif;"></span></strong></li>
+<li style="font-weight: bold;"><strong>DISCUSSION - Reflection - Share Your Thoughts</strong></li>
+</ul>

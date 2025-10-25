@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="/shared/Course File Templates/FLC/pages/../_assets/thirdpartylib/bootstrap-4.3.1/css/bootstrap.min.css">
+   <!-- Font Awesome CSS -->
+   <link rel="stylesheet" href="/shared/Course File Templates/FLC/pages/../_assets/thirdpartylib/fontawesome-free-5.9.0-web/css/all.min.css">
+   <!-- Template CSS -->
+   <link rel="stylesheet" href="/shared/Course File Templates/FLC/pages/../_assets/css/styles.min.css">
+   <link rel="stylesheet" href="/shared/Course File Templates/FLC/pages/../_assets/css/custom.css">
+   <title>Conclusion Page</title>
+</head><body><div class="container-fluid">
+<div class="row">
+<div class="col-12 banner-img"></div>
+<div class="col-sm-10 offset-sm-1">
+<h1>DISCUSSION - Reflection</h1>
+<hr>
+<div class="stacked-panels row">
+<div class="card bg-light col-12">
+<div class="card-body">
+<h2>Share Your Thoughts</h2>
+<p>What did you think?! What did you like about the tools you used? What are your thoughts on using AI to learn Python? What surprised you the most? Any "wow" moments? How do you see yourself using (or not using) AI for future learning?&nbsp;</p>
+<p>Please feel free to share hyperlinks to discussions, resources you stumbled upon during conversations, or anything else you think your classmates might want to know too! Remember, they're here to learn Python too - share your ideas!</p>
+<p>CLICK HERE TO JOIN THE DISCUSSION! - Post at least once. You should respond to at least one other person's post too because it's EXCITING to share cool ideas and have fun conversations with other people. 🙌🎉 (Plus, we didn't get to do that often in this online format, so today's your day!)</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p>
+<script src="/shared/Course File Templates/FLC/pages/../_assets/thirdpartylib/jquery/jquery-3.3.1.slim.min.js"></script>
+<script src="/shared/Course File Templates/FLC/pages/../_assets/thirdpartylib/popper-js/popper.min.js"></script>
+<script src="/shared/Course File Templates/FLC/pages/../_assets/thirdpartylib/bootstrap-4.3.1/js/bootstrap.min.js"></script>
+</p>
+<!-- Template JavaScript -->
+<p>
+<script src="/shared/Course File Templates/FLC/pages/../_assets/js/scripts.min.js"></script>
+</p></body></html>
