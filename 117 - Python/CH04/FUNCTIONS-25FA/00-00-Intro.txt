@@ -1,0 +1,206 @@
+<h1 style="background-color: #355e3b; color: #fff; text-align: center; padding: 1.875rem; border-radius: .25rem;">Functions</h1>
+<div style="display: none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vS2xP_Y9FXpjzs_9_VszKmmoqOzSTagCwifjkP_qLOYNwDaw8Oaq70j537Rz2WTFPx6q5OMqfiW2yFf/pub?w=900&amp;h=380" style="display: none; max-width: 100%;" alt="The word ‘return’." title="The word ‘return’."></div>
+<p>You've probably noticed some functions in the course so far! There are many built-in Python func<span style="font-family: Lato, sans-serif;">tions, like <code>print</code> and&nbsp;<code>input</code>&nbsp;- you can also define (create) and call (use) your own functions!</span></p>
+<pre class="line-numbers d2l-code"><code class="language-python">print("Hey!")
+name = input("What's your name? ")
+team_members.append(name)
+print(f"Welcome to the team, {name}!")</code></pre>
+<p></p>
+<p>You can define your own functions using the <code>def</code> keyword!&nbsp; A great thing about functions is you can write them once and use them as many times as you need!</p>
+<pre class="d2l-code line-numbers"><code class="language-python">def introduce_player(name, jersey_num, position):
+	print("Our starting {position} is #{jersey_num} - {name.upper()}!")
+
+introduce_player("Kiyan Anthony", 7, "guard")
+introduce_player("Caitlin Clark", 22, "guard")
+introduce_player("Lebron James", 23, "forward")</code></pre>
+<p></p>
+<p>In addition to using functions you've defined within a file, Python has a really slick way you can use the code from one file inside another - by <em>importing</em> it.</p>
+<p>It is super simple to do it but there are a few caveats for doing it well (we won't get into those just yet). An interesting way to look at this paradigm is to consider <em>utility</em> files.</p>
+<p>Think of it this way - a calculator program might be broken up into two different files. One file that does all the dirty work (like adding, subtracting, etc.) and one file that is the front-end (the software that gets input from the user). One advantage of this is that multiple calculators can exist, each one with a different interface. But if they all use the <em>utility</em> file, all the complex stuff can be used from all the other calculator front-ends.</p>
+<p>Another example (that you are already familiar with) is <code style="background-color: #f5f2f0; color: #000; padding: 0 .25em 0 .25em; border-radius: .25em;">random</code>. You <em>import</em> random, and in doing so you can now use functions from that file. For instance, <code style="background-color: #f5f2f0; color: #000; padding: 0 .25em 0 .25em; border-radius: .25em;">random.random()</code> or <code style="background-color: #f5f2f0; color: #000; padding: 0 .25em 0 .25em; border-radius: .25em;">random.seed()</code> or <code style="background-color: #f5f2f0; color: #000; padding: 0 .25em 0 .25em; border-radius: .25em;">random.randint(10, 20)</code>. You don't need to see the code for how <code style="background-color: #f5f2f0; color: #000; padding: 0 .25em 0 .25em; border-radius: .25em;">random</code> works - you just need to know how to implement those functions!</p>
+<h3 style="text-align: center;">EXAMPLE CODE</h3>
+<p>Here are two files - one is a <em>driver</em> file with the <code style="background-color: #f5f2f0; color: #000; padding: 0 .25em 0 .25em; border-radius: .25em;">main()</code> function, and the other file has no <code style="background-color: #f5f2f0; color: #000; padding: 0 .25em 0 .25em; border-radius: .25em;">main()</code> and is just the <em>utility</em>:</p>
+<div style="display: flex; flex-flow: row wrap;">
+<div style="width: 390px; padding: 0 .5em; margin: 0 0 .5em 0;">
+<p><br><br></p>
+<h3 style="text-align: center;"><code style="background-color: #f5f2f0; color: #000; padding: 0 .25em 0 .25em; border-radius: .25em;">triangle.py</code></h3>
+<pre class="d2l-code"><code class="language-python">
+# FILE NAME - triangle.py
+
+import triangle_util
+
+def main():
+    triangle()
+
+def triangle():
+    print('===== TRIANGLE INFO =====\n')
+    triangle_util.area()
+
+    print()
+
+    triangle_util.perimeter()
+
+main()
+
+
+
+
+</code></pre>
+</div>
+<div style="width: 390px; padding: 0 .5em; margin: 0 0 .5em 0;">
+<p><br><br></p>
+<h3 style="text-align: center;"><code style="background-color: #f5f2f0; color: #000; padding: 0 .25em 0 .25em; border-radius: .25em;">triangle_util.py</code></h3>
+<pre class="d2l-code"><code class="language-python">
+# FILE NAME - triangle_util.py
+
+def area():
+    base = float(input('Length of base: '))
+    height= float(input('Lenth of height: '))
+
+    area = base * height / 2
+
+    print('\nAREA:', area)
+
+
+def perimeter():
+    side01 = float(input('Length of side 1: '))
+    side02 = float(input('Length of side 2: '))
+    side03 = float(input('Length of side 3: '))
+
+    perimeter = side01 + side02 + side03
+
+    print('\nPERIMETER:', perimeter)
+
+</code></pre>
+</div>
+</div>
+<h3 style="text-align: center;">EXAMPLE OUTPUT</h3>
+<pre class="d2l-code"><code class="language-none">===== TRIANGLE INFO =====
+
+Length of base: 10
+Lenth of height: 20
+
+AREA: 100.0
+
+Length of side 1: 3
+Length of side 2: 4
+Length of side 3: 5
+
+PERIMETER: 12.0
+</code></pre>
+<p></p>
+<h1 style="text-align: center;">Experiences for this chapter</h1>
+<p>Due Wednesday, November 5 at 12:00 PM</p>
+<ul>
+<li>PODCAST - Functions</li>
+<li>JUPYTER NOTEBOOK - Introduction to Functions</li>
+<li>JUPYTER NOTEBOOK - More Functions</li>
+<li>VIDEO - More Functions</li>
+<li style="font-family: Lato, sans-serif;"><span style="font-family: Lato, sans-serif;">PRACTICE - <code>circle.py</code> and <code>circle_util.py</code></span></li>
+<li style="font-family: Lato, sans-serif;"><span style="font-family: Lato, sans-serif;">PLAY - Triangle Demo</span></li>
+<li style="font-weight: bold; color: #000000; font-family: Lato, sans-serif;"><span style="color: #000000; font-family: Lato, sans-serif;"><strong>LAB - <code>fortune_machine</code></strong></span></li>
+<li style="font-weight: bold; color: #000000; font-family: Lato, sans-serif;"><span style="color: #000000; font-family: Lato, sans-serif;"><strong>LAB - <code>calc</code>&nbsp;</strong></span></li>
+<li style="font-weight: bold; color: #000000; font-family: Lato, sans-serif;"><span style="color: #000000; font-family: Lato, sans-serif;"><strong><em>No projects for this chapter</em> :)</strong></span></li>
+</ul>
+<pre style="display: none;">--------------------------------------------------
+Source markdown in custom md-to-brightspace format
+--------------------------------------------------
+^version 2023-06-08^
+^source markdown start^
+^^ More Functions
+
+&lt;div style=”display:none;”&gt;&lt;img src="https://docs.google.com/drawings/d/e/2PACX-1vS2xP_Y9FXpjzs_9_VszKmmoqOzSTagCwifjkP_qLOYNwDaw8Oaq70j537Rz2WTFPx6q5OMqfiW2yFf/pub?w=900&amp;h=380" style="display: none; max-width: 100%;" alt="The word ‘return’." title="The word ‘return’."&gt;&lt;/div&gt;
+
+Python has a really slick way you can use the code from one file inside another - by *importing* it.
+
+It is super simple to do it but there are a few caveats for doing it well (we won't get into those just yet). An interesting way to look at this paradigm is to consider *utility* files.
+
+Think of it this way - a calculator program might be broken up into two different files. One file that does all the dirty work (like adding, subtracting, etc.) and one file that is the front-end (the software that gets input from the user). One advantage of this is that multiple calculators can exist, each one with a different interface. But if they all use the *utility* file, all the complex stuff can be used from all the other calculator front-ends. 
+
+Another example (that you are already familiar with) is `random`. You *import* random, and in doing so you can now use functions from that file. For instance, `random.random()` or `random.seed()` or `random.randint(10, 20)`. You don't need to see the code for how `random` works - you just need to know how to implement those functions!
+
+### EXAMPLE CODE
+
+Here are two files - one is a *driver* file with the `main()` function, and the other file has no `main()` and is just the *utility*:
+
+^= =
+
+&lt;br /&gt;&lt;br /&gt;
+
+### `triangle.py`
+
+```python
+
+# FILE NAME - triangle.py
+
+import triangle_util
+
+def main():
+    triangle()
+
+def triangle():
+    print('===== TRIANGLE INFO =====\n')
+    triangle_util.area()
+
+    print()
+
+    triangle_util.perimeter()
+
+main()
+
+
+
+
+```
+
+^===
+
+&lt;br /&gt;&lt;br /&gt;
+
+### `triangle_util.py`
+
+```python
+
+# FILE NAME - triangle_util.py
+
+def area():
+    base = float(input('Length of base: '))
+    height= float(input('Lenth of height: '))
+    
+    area = base * height / 2
+    
+    print('\nAREA:', area)
+
+
+def perimeter():
+    side01 = float(input('Length of side 1: '))
+    side02 = float(input('Length of side 2: '))
+    side03 = float(input('Length of side 3: '))
+
+    perimeter = side01 + side02 + side03
+
+    print('\nPERIMETER:', perimeter)
+
+```
+
+^=
+
+### EXAMPLE OUTPUT
+
+```
+===== TRIANGLE INFO =====
+
+Length of base: 10
+Lenth of height: 20
+
+AREA: 100.0
+
+Length of side 1: 3
+Length of side 2: 4
+Length of side 3: 5
+
+PERIMETER: 12.0
+```
+
+^source markdown end^
+</pre>
