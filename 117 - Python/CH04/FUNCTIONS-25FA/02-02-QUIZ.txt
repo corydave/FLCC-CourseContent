@@ -1,0 +1,204 @@
+Question 1 (1 point) 
+What is the Python keyword used to define functions?
+
+Question 1 options:
+
+function
+
+
+begin
+
+
+define
+
+
+def
+
+Question 2 (1 point) 
+Why use Python functions? Select all that apply.
+
+Question 2 options:
+
+Functions improve a program's readability.
+
+
+Functions are reusable.
+
+
+Functions force a program to run faster.
+
+
+Functions are guaranteed to make a program run more efficiently.
+
+Question 3 (1 point) 
+In the following function definition, how many parameters are there?
+
+def calculate_triangle_perimeter(a, b, c):
+	# add sides to calculate perimeter
+	perimeter = a + b + c
+	return perimeter
+Question 3 options:
+
+3
+
+
+1
+
+
+0
+
+
+2
+
+Question 4 (1 point) 
+In the following function definition, how many values are returned to the program?
+
+def calculate_triangle_perimeter(a, b, c):
+	# add sides to calculate perimeter
+	perimeter = a + b + c
+	return perimeter
+Question 4 options:
+
+3
+
+
+0
+
+
+1
+
+
+2
+
+Question 5 (1 point) 
+In the following program, how many times is the function called?
+
+def calculate_triangle_perimeter(a, b, c):
+	# add sides to calculate perimeter
+	perimeter = a + b + c
+	return perimeter
+
+calculate_triangle_perimeter(5, 12, 13)
+calculate_triangle_perimeter(16, 30, 34)
+Question 5 options:
+
+2
+
+
+3
+
+
+4
+
+
+6
+
+Question 6 (1 point) 
+What value does this function return when called as welcome_to_FLCC()?
+
+def welcome_to_FLCC():
+	print("Welcome to FLCC!")
+  	print("Go Lakers!")
+Question 6 options:
+
+0
+
+
+Welcome to FLCC! Go Lakers!
+
+
+An error message
+
+
+Go Lakers!
+
+
+None
+
+Question 7 (1 point) 
+Which of the following is a best practice when naming Python functions?
+
+Question 7 options:
+
+Use names that include verbs representing the function's action
+
+
+Use as few characters as possible
+
+
+Name functions after famous people 
+
+
+Use built-in function names like print() to customize results
+
+Question 8 (1 point) 
+What's another best practice when naming Python functions?
+
+Question 8 options:
+
+Use lowercase such as greetuser
+
+
+Use camelcase such as greetUser
+
+
+Use all uppercase such as GREETUSER
+
+
+Use snakecase such as greet_user
+
+Question 9 (1 point) 
+Suppose we want to use a Python function in another module. The function’s name is calculate_rectangle_area and it’s defined in a file called math_util.py. What is the correct way to access and call this function? You can assume the file you're working in already includes import math_util at the top of the program.
+
+Question 9 options:
+
+math_util.py.calculate_rectangle_area()
+
+
+calculate_rectangle_area(math_util)
+
+
+math_util.calculate_rectangle_area()
+
+
+calculate_rectangle_area.math_util()
+
+
+calculate_rectangle_area()
+
+Question 10 (1 point) 
+Examine the following program code. What is the value stored in the variable current_precautions after this code executes?
+
+def check_temperature(temp):
+  if temp > 100:
+    return "Heat Warning"
+  elif temp in range(19, 36):
+    return "Wind Chill Caution"
+  elif temp in range(10, 19):
+    return "Wind Chill Watch"
+  elif temp in range(-10, 10):
+    return "Wind Chill Warning"
+  elif temp < -11:
+    return "Wind Chill Alert - No outside activity"
+  return "No precautions necessary"
+
+current_precautions = check_temperature(3)
+Question 10 options:
+
+Wind Chill Caution
+
+
+Wind Chill Alert - No outside activity
+
+
+No precautions necessary
+
+
+Wind Chill Watch
+
+
+Wind Chill Warning
+
+
+Heat Warning
+
