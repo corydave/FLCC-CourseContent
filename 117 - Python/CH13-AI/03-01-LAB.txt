@@ -144,26 +144,101 @@ ol.box-alpha li:before {
 </style>
    <title>Page</title>
 </head><body><div class="container-fluid">
-<h1 class="jumbotron">JUPYTER NOTEBOOK - Using AI to Learn Python</h1>
-<p>Enjoy!</p>
-<!-- callout begin -->
+<h1 class="jumbotron">LAB - Learn a New Concept / Skill</h1>
+<h2 id="description">DESCRIPTION</h2>
+<ul>
+<li><strong>Use at least <span style="text-decoration: underline;">two</span> different AI tools. </strong>Most of these do not require a log-in but it's recommended so you can access the conversation later.
+<ul>
+<li>
+<div><strong>Gemini</strong> - <a href="https://gemini.google.com/app">https://gemini.google.com/app</a></div>
+<ul>
+<li>by Google - same login as a gmail account</li>
+</ul>
+</li>
+<li>
+<div><strong>Claude</strong> -&nbsp;<a href="https://claude.ai/">https://claude.ai/</a></div>
+<ul>
+<li>by Anthropic</li>
+</ul>
+</li>
+<li>
+<div><strong>ChatGPT </strong>- <a href="https://chatgpt.com/">https://chatgpt.com/</a></div>
+<ul>
+<li>by OpenAI</li>
+</ul>
+</li>
+<li>
+<div><strong>Replit AI</strong> - <a href="https://replit.com/">https://replit.com/</a></div>
+<ul>
+<li>by Replit
+<ul>
+<li>FYI - a lot of the cool stuff I wanted to do here wasn't free</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<div><strong>GitHub CoPilot</strong> - <a href="https://github.com/features/copilot">https://github.com/features/copilot</a></div>
+<ul>
+<li>by GitHub - same login as a GitHub account</li>
+</ul>
+</li>
+<li>
+<div><strong>CodeConvert</strong> - <a href="https://www.codeconvert.ai/free-converter">https://www.codeconvert.ai/free-converter</a></div>
+<ul>
+<li>by CodeConvert
+<ul>
+<li>only use this if you're looking to learn about translating between languages
+<ul>
+<li>Python to Java, Python to JavaScript, Python to Ruby, etc.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>There are other tools out there to explore -<em> you are welcome to use others not listed here!</em></li>
+</ul>
+</li>
+<li>Provide the AI chatbot with prompts from you and compare the quality of responses between the two.</li>
+<li><strong>Learn something new!</strong>
+<ul>
+<li>This is totally up to you - take a look at the 10 Prompt Ideas and modify one to meet your needs, or generate your own prompt.
+<ul>
+<li>Your prompts do not need to perfectly fit in one of the 10 categories.</li>
+</ul>
+</li>
+<li><em><strong>This is the #1 requirement - you HAVE to learn something that is new to you. </strong></em></li>
+<li>Challenge yourself!</li>
+</ul>
+</li>
+<li>Optional: Connect to something (future career options, hobbies, etc.) you're interested in if desired/relevant.</li>
+</ul>
+<h2 id="specifications">SPECIFICATIONS</h2>
+<ul>
+<li><strong>Submit a PDF with your responses to the following questions:</strong>
+<ul>
+<li>Q1:&nbsp; What was the new Python concept or skill ("new thing") that you learned?</li>
+<li>Q2:&nbsp; Which two AI tools/resources did you explore?</li>
+<li>Q3:&nbsp; In your opinion, which tool provided a better response? Why is that your stance?</li>
+</ul>
+</li>
+<li><strong>Use one page <span style="text-decoration: underline;">maximum</span> to craft your response.</strong> For this assignment, please do <span style="text-decoration: underline;"><strong>not</strong></span> paste your entire conversation. Share the highlights! (Or share the low points, if that's important.) If it's a conversation the rest of us should check out, provide the hyperlink to the conversation at the top of the document.</li>
+</ul>
 <div class="card card-graphic">
 <div class="card-body">
-<div class="card-icon">
-<p><span class="fas fa-file-download"></span></p>
-</div>
-<div class="card-text">&nbsp;<strong><span style="font-size: 19px;"><a href="https://drive.google.com/uc?export=download&amp;id=176wHgf9nog-2cGLy7SXtEqBP3NMXjBNe" target="_blank" rel="noopener"><span style="font-family: 'courier new', courier, sans-serif;">ai_python.ipynb</span></a></span></strong>
-<p>Download this file and load it into your IDE.</p>
+<div class="card-text">
+<p style="text-align: center;"><span style="font-size: 24px;">CLICK HERE TO SUBMIT YOUR WORK!</span></p>
 </div>
 </div>
 </div>
-<!-- end callout --></div>
-<p>
 <script src="/shared/Course File templates/Standard/pages/../_assets/thirdpartylib/jquery/jquery-3.3.1.slim.min.js"></script>
 <script src="/shared/Course File templates/Standard/pages/../_assets/thirdpartylib/popper-js/popper.min.js"></script>
 <script src="/shared/Course File templates/Standard/pages/../_assets/thirdpartylib/bootstrap-4.3.1/js/bootstrap.min.js"></script>
-</p>
+<p></p>
 <!-- Template JavaScript -->
 <p>
 <script src="/shared/Course File templates/Standard/pages/../_assets/js/scripts.min.js"></script>
+</p>
+</div></body></html>
 </p></body></html>
