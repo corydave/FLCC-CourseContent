@@ -1,0 +1,5 @@
+^^ Course Survey
+
+This survey is anonymous (unless you put identifiable information in it). Please take five minutes to complete this survey so future learners can experience an improved course!
+
+<center><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc-Jctf7CWDk7DB_2dJZI0BNo1MLWjNxwoPEwMVLjrvbycD0A/viewform?embedded=true" width="640" height="1740" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></center>
