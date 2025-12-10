@@ -1,0 +1,48 @@
+^^ FINAL PROJECT
+
+<center><div style="display:none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vTpUfhYi2NYgX6QAJ3ciu3GTK1i4xcqXDkmREP9835rSmr8Tk1Es7RK6-drSI8F3X_LTJ-IbFqmOjXR/pub?w=907&amp;h=385" width="0" height="0" alt="The words FINAL PROJECT." title="The words FINAL PROJECT." /></div></center>
+
+You've covered a lot of ground in this course - from hardware fundamentals to operating systems, security, and troubleshooting. For your capstone, you get to choose how you demonstrate what you've learned.
+
+Pick a project that lets you apply A+ concepts in a way that matters to you. You can use AI however it's helpful - to research, explain, troubleshoot, or create. The goal is to show critical thinking, not just copying. The only stipulations are:
+
+1. You *must* declare how you used AI
+2. You *must* vet the work that AI does; please do not submit work from AI unless you've reviewed it thoroughly.
+
+Pick one direction. If you want to focus on a specific topic instead of these options, that's fine too - just talk to me first!
+
+## Troubleshooting Documentation
+
+Solve a real problem on a device you have access to (your laptop, a family member's computer, etc.). Document what went wrong, how you diagnosed it, and what the fix was.
+
+## IT Health Audit
+
+Audit a system you can access (your home setup, a small business, a school department). Document the hardware inventory, OS details, security practices, and make recommendations for improvement.
+
+## Teach the Concept
+
+Pick one A+ topic that confused or interested you. Create a teaching artifact—a guide, video script, interactive explanation, or study resource that explains it clearly to someone else.
+
+##  Certification Prep Resource
+
+Create a study guide, practice problem set, or flashcard deck focused on one A+ domain.
+
+## Build an app
+
+Use AI to build an app that showcases some of the learning you've experienced during this course. Or a simulated lab. Whatevs!
+
+## Your Idea
+
+Have something else in mind? Talk to me. If it demonstrates A+ knowledge in a meaningful way, let's do it.
+
+Turn in whatever format makes sense for your project. A document, a GitHub repo, a website, a video, a guide - whatever works.
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
+
+<br /><br />
