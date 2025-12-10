@@ -1,0 +1,54 @@
+^^ Final Project
+
+Congratulations! You've made it to the end of the course! For the final project, you can choose from one of these options (or pitch your own - email me at dave.ghidiu@flcc.edu).
+
+Note that *you can use AI to any extent that you want*. This means that you could use AI to create a fictional poorly architected AWS environment and then you create a remediation plan. Or you could have AI create the plan. Or you could use AI to make a sick website showcasing some of the concepts from this course. Or you could use AI to do something else. But... there are two stipulations to using AI:
+
+1. You *must* be very clear how you used AI
+2. You *must* check your work (and format it) before submitting. 
+
+It is fine to use AI for all of your work, but you need to vet that work and declare the AI you used. 
+
+# "Real Problem" Projects
+
+* Design a disaster recovery strategy for a specific scenario (startup that just got funded, legacy business migrating cloud, nonprofit with tight budget). Have them justify their choices.
+
+* Audit a (fictional or real) poorly-architected AWS environment and create a remediation plan. What would they fix first? Why?
+
+* Build a cost optimization proposal for a company burning money in the cloud. Use AWS Cost Explorer data or simulated data.
+
+# Deep Dives
+
+* Become an expert on one service and create a resource (guide, decision tree, interactive tool) helping others know when/how/why to use it. Their choice of service reveals what they think matters.
+
+* Investigate a real cloud incident (AWS has case studies) and create a post-mortem analysis with prevention strategies.
+
+* Compare how different companies or industries approach a single CloudOps challenge (e.g., compliance, monitoring, disaster recovery).
+
+# Creative/Experiential
+
+* Create a "choose your own adventure" scenario using AI where learners make decisions and see consequences (deployment fails, costs spike, security breach, etc.).
+
+* Build a visual guide or interactive tool explaining a complex concept (VPC networking, IAM permission models, CloudFormation workflows).
+
+* Interview a real cloud ops engineer or architect and synthesize lessons learned into actionable guidance.
+
+# Provocative/Reflective
+
+* "What's missing from this course?" – identify a gap in CloudOps they think matters and develop materials/guidance around it.
+
+* Design the onboarding training for a new CloudOps engineer at a specific company type. What do they need to know?
+
+* Predict: what will cloud operations look like in 3-5 years? What skills matter now vs. then?
+
+You may submit your work any way you'd like.
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
+
+<br /><br />
