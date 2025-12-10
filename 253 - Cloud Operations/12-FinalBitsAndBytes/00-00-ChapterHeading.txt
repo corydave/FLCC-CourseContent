@@ -1,3 +1,7 @@
+<br />
+
+<div style="display: none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vQAx20jYMLaZN8w6nEeag7D7iZ5cUNBWmbmeFKbEwfBreZwU3lrvHa6JKAPR7Gew7ZKWWyi86nzSB5_/pub?w=900&amp;h=400" alt="COURSE SURVEY" title="COURSE SURVEY"></div>
+
 ^^ Final Bits and Bytes
 
 Congratulations! You've made it to the end of the course! There are two things left:
