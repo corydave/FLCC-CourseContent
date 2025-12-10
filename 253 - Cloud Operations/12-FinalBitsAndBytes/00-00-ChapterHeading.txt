@@ -1,0 +1,12 @@
+^^ Final Bits and Bytes
+
+Congratulations! You've made it to the end of the course! There are two things left:
+1. Final Project
+2. Course Survey
+
+The Final Project is intentionally left wide open - I'm curious what threads you will pull.
+
+The Course Survey is not the official survey for the course (you should see that one on the main page of this course). The Course Survey here collect telemetry so the course can be refined for future learners!
+
+
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vT-Kc2uIR7h_5J7zPVxcgpZ3fpxVtqrHRoi4G7PAoT1ux385pRyBO1gxygEU_IXeTEamzNvDcg9MMNc/pubhtml/sheet?headers=false&amp;gid=2020899895&amp;range=B2:D5&amp;single=true&amp;chrome=false&amp;embedded=true5'style="width:100%;max-width:720px;height:163px" frameborder="0"></iframe></center>
