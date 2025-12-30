@@ -2,11 +2,8 @@
 
 Welcome to the AI Module! We will be looking at ways that *you* can use AI to aid in your time here at FLCC. You should always check to see what the AI policy is with each of your instructors. The techniques we review here are designed to show you how AI can *help* you, not how *AI can do your work for you*. 
 
-<center>
-<iframe src="https://docs.google.com/videos/d/1HvNxz2ZZ12B20uj8ENj63wDbvUGnWNb65zy_OVCs7Wg/play" style="border-radius: 15px !important; width:640px; height:360px" frameborder="0"></iframe>
-</center>
 
-<br />
+^youtube <iframe src="https://docs.google.com/videos/d/1HvNxz2ZZ12B20uj8ENj63wDbvUGnWNb65zy_OVCs7Wg/play" style="border-radius: 15px !important;" frameborder="0"></iframe>
 
 If you use AI to deprive you of an opportunity to learn, you're most likely abusing the AI policy in your course (for instance, using the prompt:
 
