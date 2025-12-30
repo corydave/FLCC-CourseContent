@@ -1,0 +1,27 @@
+^^ Introduction
+
+Welcome to the AI Module! We will be looking at ways that *you* can use AI to aid in your time here at FLCC. You should always check to see what the AI policy is with each of your instructors. The techniques we review here are designed to show you how AI can *help* you, not how *AI can do your work for you*. 
+
+<center>
+<iframe src="https://docs.google.com/videos/d/1HvNxz2ZZ12B20uj8ENj63wDbvUGnWNb65zy_OVCs7Wg/play" style="border-radius: 15px !important; width:640px; height:360px" frameborder="0"></iframe>
+</center>
+
+<br />
+
+If you use AI to deprive you of an opportunity to learn, you're most likely abusing the AI policy in your course (for instance, using the prompt:
+
+```
+Write an essay about the French Revolution. Make it six pages long. Use the attached rubric as a guide.
+```
+
+doesn't help you learn anything (and the result will be pretty boring).
+
+However, a prompt like:
+
+```
+I need to write a six page essay on the French Revolution - specifically the "sans-culottes". Please ask me ten questions (one at a time) you think I should know about this topic before starting the essay.
+```
+
+will help you recognize areas where you are confident and expose areas you need to research. Keep in mind that this is just the first step of using AI for writing an essay.
+
+By the time you are done with this module, you'll be equipped to use AI to *help you become a better learner*!

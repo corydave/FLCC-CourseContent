@@ -1,0 +1,29 @@
+^^ Certificate Submission
+
+# Congratulations!!!
+
+You made it through the module! You should have received a certificate. Don't forget the second page of the certificate has summaries of the AI techniques you just learned.
+
+Watch the video below for instructions on how to submit it!
+
+<br />
+
+<center>
+
+^youtube <iframe src="https://docs.google.com/videos/d/1xM36zsbN80Lu3xiMctaLRbI0ykPIs_nXRfkd5cmZEQc/play" style="border-radius: 15px !important;"></iframe>
+
+</center>
+
+<br />
+
+Thank you for taking the time to learn how AI can help you in your academic pursuits!
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
+
+<br />
