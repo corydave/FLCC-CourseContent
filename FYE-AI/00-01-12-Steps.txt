@@ -10,7 +10,7 @@ Have fun!
 
 <center>
 
-<iframe src="https://inlineteaching.com/fye/" style="border: 0px solid orange; width: 95%; height: 800px;"></iframe>
+<iframe src="https://inlineteaching.com/fye/" style="border: 0px solid orange; width: 95%; height: 1100px;"></iframe>
 
 </center>
 
