@@ -5,20 +5,50 @@ Welcome to the AI Module! We will be looking at ways that *you* can use AI to ai
 
 ^youtube <iframe src="https://docs.google.com/videos/d/1HvNxz2ZZ12B20uj8ENj63wDbvUGnWNb65zy_OVCs7Wg/play" style="border-radius: 15px !important;" frameborder="0"></iframe>
 
-If you use AI to deprive you of an opportunity to learn, you're most likely abusing the AI policy in your course (for instance, using the prompt:
+<br />
+
+## Main Takeaway
+
+The main takeaway - **if you use AI to deprive you of an opportunity to learn, you're most likely abusing the AI policy in your course**.
+
+Consider the prompt:
 
 ```
 Write an essay about the French Revolution. Make it six pages long. Use the attached rubric as a guide.
 ```
 
-doesn't help you learn anything (and the result will be pretty boring).
+<br />
 
-However, a prompt like:
+This doesn't help you learn anything - and the result will be pretty boring. Now look at this prompt:
+
 
 ```
 I need to write a six page essay on the French Revolution - specifically the "sans-culottes". Please ask me ten questions (one at a time) you think I should know about this topic before starting the essay.
 ```
 
-will help you recognize areas where you are confident and expose areas you need to research. Keep in mind that this is just the first step of using AI for writing an essay.
+<br />
+
+The response from AI will help you recognize areas where you are confident and expose areas you need to research. Keep in mind that this is just the first step of using AI for writing an essay.
+
+## AI Tools
+
+* [ChatGPT](https://chatgpt.com/) - This is one of the most popular AI tools out there (it was the first tool that was freely available). ChatGPT is a great all-around AI tool.
+* [Google Gemini](https://gemini.google.com/) - Gemini is consistently ranked in the top AI tools. It's a great chatbot but it also excels in image generation and video generation.
+* [Claude](https://claude.ai/) - Claude is a fantastic project planner and a powerhouse when it comes to helping you with schoolwork. It can't make images, but it might be the best AI tool for conversations and human-centered assistant.
+* [Microsoft Copilot](https://copilot.microsoft.com/) - You might already have access to this AI tool if you have a Microsoft account. It typically lags behind ChatGPT, Google Gemini, and Claude in performance.
+* [Grok](https://grok.com/) - This AI tool is owned by X (formerly Twitter). Grok is a pretty good AI tool but it has experienced several controversial events. 
+* [Meta (Facebook)](https://meta.ai/) - Meta seems to be a bit more creative than some of the other AI tools - and their image and video creation tools are bonkers!
+
+Try out some - or all - of these tools and figure out which tool works the best for you.
+
+<br /><br />
+
+^callout brain
+
+<br />
 
 By the time you are done with this module, you'll be equipped to use AI to *help you become a better learner*!
+
+^callout-end
+
+<br /><br />
