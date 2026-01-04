@@ -27,3 +27,13 @@ Click here to submit your work.
 ^callout-end
 
 <br />
+
+<hr />
+
+<br />
+
+<center>
+
+This tutorial used Google Gemini as a thinking partner and coder. If you would like to see the conversation that was used, [click here](https://gemini.google.com/share/b5c8d1514e1d).
+
+</center>
