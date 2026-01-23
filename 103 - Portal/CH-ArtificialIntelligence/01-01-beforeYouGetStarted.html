@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="/shared/Course File templates/Standard/pages/../_assets/thirdpartylib/bootstrap-4.3.1/css/bootstrap.min.css">
+   <!-- Font Awesome CSS -->
+   <link rel="stylesheet" href="/shared/Course File templates/Standard/pages/../_assets/thirdpartylib/fontawesome-free-5.9.0-web/css/all.min.css">
+   <!-- prism.min.css for code linting -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/themes/prism.min.css">
+   <!-- Template CSS -->
+   <link rel="stylesheet" href="/shared/Course File templates/Standard/pages/../_assets/css/styles.min.css">
+   <link rel="stylesheet" href="/shared/Course File templates/Standard/pages/../_assets/css/custom.css">
+<style>
+  code {
+    background-color: #f5f2f0;
+    color: #000;
+    border-radius: .25em;
+    padding: 0 .25em 0 .25em;
+}
+  .h1, .h2, .h3, .h4, .h5, .h6,
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+.h2, h2 {
+    color: #781346;
+}
+.accentColor .h2, .accentColor h2 {
+    color: #f7f7f7;
+}
+.accentDark .h2, .accentDark h2 {
+    color: #e9e9e9;
+}
+.two-col-panels .card .card-body h2 {
+    color: #781346;
+    margin-top: 0px;
+}
+
+  .accentOutline {
+    border-width: 3px; 
+    border-style: solid;
+    border-radius: .25em;
+    border-color: #781346;
+}
+.accentColor {
+    background-color: #781346;
+    color: #f7f7f7;
+}
+.accentColor h1, .accentColor h2, .accentColor h3, .accentColor h4, .accentColor h5, .accentColor h6 {
+    color: #f7f7f7;
+} 
+.accentColor a  {
+    color: #dde;
+    border-color: #dde;
+    font-weight: bold;
+    border-bottom-width: 2px;
+}
+.jumbotron {
+    background-color: #781346;
+    color: #f7f7f7;
+}
+.jumbotron a {
+    color: #f7f7f7;
+    border-color: #dde;
+}
+
+.accentDark {
+    background-color: #555;
+    color: #e9e9e9;
+}
+.accentDark h1, .accentDark h2, .accentDark h3, .accentDark h4, .accentDark h5, .accentDark h6 {
+    color: #e9e9e9;
+} 
+.accentDark a {
+    color: lightblue;
+    border-color: lightblue;
+}
+.accentLite {
+    background-color: #e3e9f1;
+    color: black;
+}
+.accentLite h1, .accentLite .h1, .accentLite h3, .accentLite .h3, .accentLite h4, .accentLite .h4, .accentLite h5, .accentLite .h5, .accentLite h6, .accentLite .h6 {
+    color: black;
+} 
+.accentLite h2, .accentLite .h2 {
+    color: #781346;
+}
+
+.card-graphic {
+    border-color: #781346;
+}
+
+.card-graphic .card-body .card-icon .fa,
+.card-graphic .card-body .card-icon .fas, 
+.card-graphic .card-body .card-icon .fab {
+    font-size: 3.125rem;
+    min-width: 5.313rem;
+    text-align: center;
+    color: #781346;
+}
+
+ol.large-number li:before {
+    color: #781346;
+}
+
+ol.box-number li:before,
+ol.box-alpha li:before {
+    background-color: #781346;
+    color: #f7f7f7;
+}
+
+  /*
+    .center-column {
+    border-width: 3px; 
+    border-style: solid;
+    border-radius: .25em;
+    border-color: #781346;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+*/
+  .table-responsive td,
+.table-responsive tr,
+.table-responsive caption {
+    background-color: #fff;
+}
+  .col, .col-1, .col-10, .col-11, .col-12, 
+.col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, 
+.col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, 
+.col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, 
+.col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, 
+.col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, 
+.col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, 
+.col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, 
+.col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, 
+.col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, 
+.col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, 
+.col-xl-8, .col-xl-9, .col-xl-auto {
+    padding-left: 1px;
+    padding-right: 1px;
+}
+</style>
+   <title>Page</title>
+</head><body><div class="container-fluid">
+<h1 class="jumbotron">REFLECTION - Before You Begin</h1>
+<h1 id="what-is-an-infographic">Answer these questions... Store your answers!</h1>
+<p>Store your answers somewhere - your favorite notebook, a sticky note, a Google doc, a text doc, anywhere... but you will need to find this again throughout this chapter&nbsp;<em>so please keep track of it</em>.&nbsp; Answer the following questions...</p>
+<ol>
+<li>Choose three topics... yes, three. Write them all down. Follow the three rules below when choosing your topics! They can be literally anything - related to this course or not - game design, technical writing, the rules of baseball, butterflies and how they look, how fruits are related to each other - pick anything as long as you follow these three rules!
+<ol>
+<li>One where <strong>you're an expert</strong> - you know as much as the pros on this topic</li>
+<li>One where <strong>you know absolutely nothing</strong> (or very little) about the topic</li>
+<li>One that <strong>you're currently learning</strong> (maybe in a course, maybe academic, maybe a hobby)</li>
+</ol>
+</li>
+<li>What do you know about AI?
+<ol>
+<li>What would you say about AI to someone who knows absolutely nothing (or very little) about AI?</li>
+<li>If you have some (or lots of) experience with AI, what exciting new piece of knowledge would you share with someone that has a similar background to you?</li>
+</ol>
+</li>
+</ol>
+<h1 id="what-is-an-infographic">Remember... Store your answers!</h1>
+<p><em>Nothing to turn in for now, but you'll reference this during and at the end of this chapter...</em></p>
+<!-- end callout --><!-------------------------------------------------------------->
+<pre style="display: none;">--------------------------------------------------
+
+</pre>
+<!--------------------------------------------------------------></div>
+<p>
+<script src="/shared/Course File templates/Standard/pages/../_assets/thirdpartylib/jquery/jquery-3.3.1.slim.min.js"></script>
+<script src="/shared/Course File templates/Standard/pages/../_assets/thirdpartylib/popper-js/popper.min.js"></script>
+<script src="/shared/Course File templates/Standard/pages/../_assets/thirdpartylib/bootstrap-4.3.1/js/bootstrap.min.js"></script>
+</p>
+<!-- Template JavaScript -->
+<p>
+<script src="/shared/Course File templates/Standard/pages/../_assets/js/scripts.min.js"></script>
+</p></body></html>

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="/shared/Course File templates/Standard/pages/../_assets/thirdpartylib/bootstrap-4.3.1/css/bootstrap.min.css">
+   <!-- Font Awesome CSS -->
+   <link rel="stylesheet" href="/shared/Course File templates/Standard/pages/../_assets/thirdpartylib/fontawesome-free-5.9.0-web/css/all.min.css">
+   <!-- prism.min.css for code linting -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/themes/prism.min.css">
+   <!-- Template CSS -->
+   <link rel="stylesheet" href="/shared/Course File templates/Standard/pages/../_assets/css/styles.min.css">
+   <link rel="stylesheet" href="/shared/Course File templates/Standard/pages/../_assets/css/custom.css">
+<style>
+  code {
+    background-color: #f5f2f0;
+    color: #000;
+    border-radius: .25em;
+    padding: 0 .25em 0 .25em;
+}
+  .h1, .h2, .h3, .h4, .h5, .h6,
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+.h2, h2 {
+    color: #781346;
+}
+.accentColor .h2, .accentColor h2 {
+    color: #f7f7f7;
+}
+.accentDark .h2, .accentDark h2 {
+    color: #e9e9e9;
+}
+.two-col-panels .card .card-body h2 {
+    color: #781346;
+    margin-top: 0px;
+}
+
+  .accentOutline {
+    border-width: 3px; 
+    border-style: solid;
+    border-radius: .25em;
+    border-color: #781346;
+}
+.accentColor {
+    background-color: #781346;
+    color: #f7f7f7;
+}
+.accentColor h1, .accentColor h2, .accentColor h3, .accentColor h4, .accentColor h5, .accentColor h6 {
+    color: #f7f7f7;
+} 
+.accentColor a  {
+    color: #dde;
+    border-color: #dde;
+    font-weight: bold;
+    border-bottom-width: 2px;
+}
+.jumbotron {
+    background-color: #781346;
+    color: #f7f7f7;
+}
+.jumbotron a {
+    color: #f7f7f7;
+    border-color: #dde;
+}
+
+.accentDark {
+    background-color: #555;
+    color: #e9e9e9;
+}
+.accentDark h1, .accentDark h2, .accentDark h3, .accentDark h4, .accentDark h5, .accentDark h6 {
+    color: #e9e9e9;
+} 
+.accentDark a {
+    color: lightblue;
+    border-color: lightblue;
+}
+.accentLite {
+    background-color: #e3e9f1;
+    color: black;
+}
+.accentLite h1, .accentLite .h1, .accentLite h3, .accentLite .h3, .accentLite h4, .accentLite .h4, .accentLite h5, .accentLite .h5, .accentLite h6, .accentLite .h6 {
+    color: black;
+} 
+.accentLite h2, .accentLite .h2 {
+    color: #781346;
+}
+
+.card-graphic {
+    border-color: #781346;
+}
+
+.card-graphic .card-body .card-icon .fa,
+.card-graphic .card-body .card-icon .fas, 
+.card-graphic .card-body .card-icon .fab {
+    font-size: 3.125rem;
+    min-width: 5.313rem;
+    text-align: center;
+    color: #781346;
+}
+
+ol.large-number li:before {
+    color: #781346;
+}
+
+ol.box-number li:before,
+ol.box-alpha li:before {
+    background-color: #781346;
+    color: #f7f7f7;
+}
+
+  /*
+    .center-column {
+    border-width: 3px; 
+    border-style: solid;
+    border-radius: .25em;
+    border-color: #781346;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+*/
+  .table-responsive td,
+.table-responsive tr,
+.table-responsive caption {
+    background-color: #fff;
+}
+  .col, .col-1, .col-10, .col-11, .col-12, 
+.col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, 
+.col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, 
+.col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, 
+.col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, 
+.col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, 
+.col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, 
+.col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, 
+.col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, 
+.col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, 
+.col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, 
+.col-xl-8, .col-xl-9, .col-xl-auto {
+    padding-left: 1px;
+    padding-right: 1px;
+}
+</style>
+   <title>Page</title>
+</head><body><div class="container-fluid">
+<h1 class="jumbotron">AI RESOURCES - Readings and Videos</h1>
+<span style="font-size: 20px;">Here are some AMAZING resources. Choose your own adventure... I'll recommend you check out at least two, but I won't stop you if you want to look at all of them!<br></span></div>
+<p><br><br></p>
+<div class="container-fluid"></div>
+<div class="container-fluid"></div>
+<div class="container-fluid">
+<ul>
+<li><span style="font-size: 19px;"><a href="https://cloud.google.com/learn/what-is-artificial-intelligence?hl=en#artificial-intelligence-ai-a-simple-to-understand-guide" target="_blank" rel="noopener">AI: A Simple to Understand Guide</a> - Google</span>
+<ul>
+<li style="font-style: italic;"><em><span style="font-size: 19px;">Published April 8, 2024</span></em></li>
+<li><span style="font-size: 19px;">Includes a video overview (22:01)</span></li>
+</ul>
+</li>
+<li><span style="font-size: 19px;"><a href="https://cloud.google.com/discover/what-is-prompt-engineering?hl=en" target="_blank" rel="noopener">What is Prompt Engineering?</a> - Google</span>
+<ul>
+<li style="font-style: italic;"><em><span style="font-size: 19px;">Published August 16, 2023</span></em></li>
+<li><span style="font-size: 19px;">Includes a video overview (1:53)</span></li>
+</ul>
+</li>
+<li><span style="font-size: 19px;"><a href="https://www.oneusefulthing.org/p/getting-started-with-ai-good-enough" target="_blank" rel="noopener">Getting Started with AI Prompting</a> - Ethan Mollick</span>
+<ul>
+<li style="font-style: italic;"><em><span style="font-size: 19px;">Published November 24, 2025</span></em></li>
+</ul>
+</li>
+<li><span style="font-size: 19px;"><a href="https://cdn.openai.com/pdf/a253471f-8260-40c6-a2cc-aa93fe9f142e/economic-research-chatgpt-usage-paper.pdf" target="_blank" rel="noopener">How People Use ChatGPT</a> - Chatterji et al</span>
+<ul>
+<li style="font-style: italic;"><em><span style="font-size: 19px;">Published September 15, 2025</span></em></li>
+<li><span style="font-size: 19px;">This paper has 63 pages</span>
+<ul>
+<li><span style="font-size: 19px;">At a minimum, I recommend jumping to&nbsp;<strong>Section 5.3 User Intent</strong> which begins on page 16. Look at the visuals!</span></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><span style="font-size: 19px;"><a href="https://arxiv.org/pdf/2306.04141" target="_blank" rel="noopener">Art and the science of generative AI: A deeper dive</a> - Epstein et al</span>
+<ul>
+<li style="font-style: italic;"><em><span style="font-size: 19px;">Published July 16, 2023</span></em></li>
+<li>"As creativity is reimagined, so too may be many sectors of society. Understanding the impact of generative AI—and making policy decisions around it—requires new interdisciplinary scientific inquiry into&nbsp;culture, economics, law, algorithms, and the interaction of technology and creativity."</li>
+<li>Poses many thinking questions on page 12</li>
+</ul>
+</li>
+<li><a href="https://dl.acm.org/doi/pdf/10.1145/3442188.3445922" target="_blank" rel="noopener">On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?</a> - Bender, Gebru, et al<br>
+<ul>
+<li><em>Published March 3, 2021</em>
+<ul>
+<li>That's over four years ago!</li>
+</ul>
+</li>
+<li>"We recall again Birhane and Prabhu’s [18] words (inspired by Ruha Benjamin [15]): '<strong>Feeding AI systems on the world’s beauty, ugliness, and cruelty, but expecting it to reflect only the beauty is a fantasy</strong>.' " (Section 7)</li>
+<li>Poses different topics to consider / potential implications on society</li>
+</ul>
+</li>
+<li><a href="https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier" target="_blank" rel="noopener">The economic potential of generative AI: The next productivity frontier</a> - McKinsey &amp; Company
+<ul>
+<li style="font-style: italic;"><em>Published June 14, 2023</em></li>
+<li>Lots of economic potential / predictions discussed&nbsp;</li>
+</ul>
+</li>
+<li><a href="https://en.wikipedia.org/wiki/Generative_artificial_intelligence" target="_blank" rel="noopener">Generative artificial intelligence</a> - Wikipedia
+<ul>
+<li><em>Updated throughout 2026</em> (most recent edit date at the bottom of the page!)</li>
+</ul>
+</li>
+<li><a href="https://hai.stanford.edu/ai-index/2025-ai-index-report" target="_blank" rel="noopener">2025 AI Index Report</a> - AI Index Steering Committee at Stanford University
+<ul>
+<li style="font-style: italic;"><em>Published April 2025</em></li>
+</ul>
+</li>
+</ul>
+</div>
+<p>
+<script src="/shared/Course File templates/Standard/pages/../_assets/thirdpartylib/jquery/jquery-3.3.1.slim.min.js"></script>
+<script src="/shared/Course File templates/Standard/pages/../_assets/thirdpartylib/popper-js/popper.min.js"></script>
+<script src="/shared/Course File templates/Standard/pages/../_assets/thirdpartylib/bootstrap-4.3.1/js/bootstrap.min.js"></script>
+</p>
+<!-- Template JavaScript -->
+<p>
+<script src="/shared/Course File templates/Standard/pages/../_assets/js/scripts.min.js"></script>
+</p></body></html>
