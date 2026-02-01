@@ -1,0 +1,17 @@
+^^ LAB - Timer
+
+Create a timer! You get to choose the type of timer, the functionality, and the aesthetics.
+
+# Specifications
+* Need to have more than one prompt (if it is perfect on the first shot, alter something or add more functionality)
+* Needs to work properly (verify the timing)
+
+^callout external-link-alt
+
+<br />
+
+Submit your work here.
+
+^callout-end
+
+<br /><br />
