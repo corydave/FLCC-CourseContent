@@ -1,0 +1,7 @@
+^^ DEMO - Cards
+
+<div style="text-align: center;">
+<iframe src="https://flccdave.github.io/cards" style="width: 80%; height: 1000px; border-radius: 15px;" frameborder="0" title="Cards Carousel"></iframe>
+</div>
+
+<br /><br />
