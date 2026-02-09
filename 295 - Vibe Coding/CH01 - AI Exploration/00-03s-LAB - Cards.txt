@@ -1,0 +1,18 @@
+^^ LAB - Cards
+
+Create a carousel with cards.
+
+# Specifications
+* Needs to have images (can be hosted)
+* Needs to have settings (change from carousel to masonry layout)
+* Needs to have night mode toggle in the settings
+
+^callout external-link-alt
+
+<br />
+
+Submit your work here.
+
+^callout-end
+
+<br /><br />
