@@ -1,0 +1,39 @@
+^^ DEMO - Games
+
+
+
+
+<center>
+
+[Voxel Flight](https://inlineteaching.com/games/voxel/flight/) | [ChemCrusher](https://corydave.github.io/websitetest/claude/games/chemCrusher.html) | [Keyboard Hero](https://corydave.github.io/websitetest/claude/games/keyboardhero.html) | [Rhythm Tap](https://corydave.github.io/websitetest/claude/games/tap.html)
+
+</center>
+
+^tabs Flight, ChemCrusher, KeyboardHero, Tap
+
+<center>
+<iframe src="https://inlineteaching.com/games/voxel/flight/" style="width:100%; aspect-ratio: 16/9;"></iframe>
+</center>
+
+^tab
+
+<center>
+<iframe src="https://corydave.github.io/websitetest/claude/games/chemCrusher.html" style="width:100%; aspect-ratio: 16/9;"></iframe>
+</center>
+
+^tab
+
+<center>
+<iframe src="https://corydave.github.io/websitetest/claude/games/keyboardhero.html" style="width:100%; aspect-ratio: 16/9;"></iframe>
+</center>
+
+^tab
+
+<center>
+<iframe src="https://corydave.github.io/websitetest/claude/games/tap.html" style="width:100%; aspect-ratio: 16/9;"></iframe>
+</center>
+
+^tabs-end
+
+
+<br /><br />
