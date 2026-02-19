@@ -1,8 +1,5 @@
 ^^ DEMO - Games
 
-
-
-
 <center>
 
 [Voxel Flight](https://inlineteaching.com/games/voxel/flight/) | [ChemCrusher](https://corydave.github.io/websitetest/claude/games/chemCrusher.html) | [Keyboard Hero](https://corydave.github.io/websitetest/claude/games/keyboardhero.html) | [Rhythm Tap](https://corydave.github.io/websitetest/claude/games/tap.html)
