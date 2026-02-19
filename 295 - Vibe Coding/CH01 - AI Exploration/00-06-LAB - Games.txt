@@ -1,0 +1,20 @@
+^^ LAB - Games
+
+## Specifications
+
+Your game must:
+* Be playable
+* Be hosted in GitHub
+* Have some modifications from the first version.
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
+
+
+
+<br /><br />
