@@ -1,0 +1,80 @@
+^^ PROJECT - Web Content Round Up
+
+## Background
+
+Throughout this chapter, we've explored a number of topics. For instance:
+
+^= =
+
+* **Vocabulary**
+    * card
+    * masonry
+    * directory/folder
+    * webapp
+    * React
+* **Concepts**
+    * HTML
+    * CSS
+    * JavaScript
+    * `index.html`
+    * "platforms" (games, flashcards)
+
+^===
+
+* **Tools**
+    * Gemini/Claude
+    * GitHub
+    * IDE (VSC)
+* **Workflows**
+    * copy/paste into GitHub
+    * GitHub Pages/Site
+    * Extension in VSC
+    * Git commands (`pull`, `add`, `commit`, and `push`)
+
+^=
+
+These are just some of the things we went over in the course. Since we are all trailblazers in Vibe Coding, I am asking for your help. I'm interested in seeing your perspective about this chapter. I want to know what *you* think is important. The list above is not comprehensive - I'm sure we explored other topics as well. 
+
+## Specifications
+
+You can think of this project in two stages. Normally we lean pretty heavily on AI in this course, but the first stage will require you to leave AI aside:
+
+^acc
+
+^^^ Idea Roundup
+
+This will require your human brain to go through what we've done and make a list of concepts. This list should include things we've explored, new things you learned, things that you already knew but you think would be new to someone else, and anything else you believe should be included in this chapter.
+
+You should do a first pass by yourself - go through all the work we've done. Look at the code and also the final products - what should make a detailed list? 
+
+Once you're done with your list, go to your AI-of-Choice and dump the list in. Explain that you are in a vibe coding course and you want to share what you've learned. Ask AI to organize the thoughts for you - and to identify things that have been missed. It's okay if the things that were missed weren't in the course - we need to consider that, too!
+
+^^^ Web App
+
+Using AI, make a web app that summarizes all these findings. The final form factor doesn't really matter, but you **need to include a reflection**. That is, I want to know your thoughts about the chapter. How did it go? What did you learn? Was the cadence appropriate?
+
+^=^ ,,
+
+<center>
+
+**NOTE**
+
+</center>
+
+Your reflection will not be factored into the grade - this is just to help me shape the course. Please be brutally honest. Seriously. You won't lose any points for being critical - that's the point of this reflection. Heck - you might even get *bonus points* for being critical!
+
+^=
+
+^acc-end
+
+I'm curious to see what you do with this!
+
+<br /><br />
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+<br /><br />
