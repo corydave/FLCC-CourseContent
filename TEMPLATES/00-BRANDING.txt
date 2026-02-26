@@ -22,4 +22,7 @@ Cloud Computing
 Cloud Operations
 ^colors bg:#1155cc text:#ffffff link:#ccccff
 
+Vibe Coding
+^colors bg:#9900ff text:#ffffff link:#ffffff
+
 <br /><hr style="height:10px;border-width:0;background-color:#335e3b"><br />
