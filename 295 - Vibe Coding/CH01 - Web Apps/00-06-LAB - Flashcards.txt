@@ -1,0 +1,18 @@
+^^ LAB - Flashcards
+
+## Specifications
+* Flashcards should be able to flip (answer on back) and scroll (advance, go backwards)
+* Needs to pull in at least three different JavaScript files (JSON/objects)
+* Needs to have night mode
+
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
+
+<br /><br />
+
