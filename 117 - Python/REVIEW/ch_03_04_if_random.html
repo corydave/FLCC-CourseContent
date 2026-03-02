@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Review: CH03 Decisions & Random</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #000000;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            background-color: #355E3B;
+            color: #FFFFFF;
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px;
+        }
+        h2 {
+            color: #355E3B;
+            border-bottom: 2px solid #355E3B;
+            padding-bottom: 10px;
+            text-align: center;
+        }
+        h3 {
+            color: #000000;
+            margin-top: 20px;
+        }
+        .card {
+            background: white;
+            border: 3px solid #355E3B;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        code {
+            background-color: #F5F2F0;
+            padding: 2px 4px;
+            border-radius: 4px;
+            font-family: 'Courier New', Courier, monospace;
+            color: #000000;
+        }
+        pre {
+            background-color: #F5F2F0;
+            color: #000000;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            border: 1px solid #ddd;
+        }
+        details {
+            margin-top: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 10px;
+            background-color: #fff;
+        }
+        summary {
+            cursor: pointer;
+            font-weight: bold;
+            color: #355E3B;
+        }
+        ul { list-style-type: none; padding: 0; }
+        li { margin-bottom: 10px; }
+        .accent-box {
+            background-color: #E3E9F1;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 5px solid #355E3B;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🐍 Python Review: Chapter 3</h1>
+    <p>Welcome! This page reviews <strong>Decisions</strong> (If/Else) and the <strong>Random</strong> module. Test your knowledge below!</p>
+
+    <!-- SECTION 1: VOCABULARY -->
+    <div class="card">
+        <h2>🧩 Vocabulary Matching</h2>
+        <p>Match the term to the definition.</p>
+        <ul>
+            <li><strong>A.</strong> <code>Boolean</code> &nbsp;&nbsp; <strong>B.</strong> <code>elif</code> &nbsp;&nbsp; <strong>C.</strong> <code>==</code> &nbsp;&nbsp; <strong>D.</strong> <code>import random</code> &nbsp;&nbsp; <strong>E.</strong> <code>Indentation</code></li>
+        </ul>
+        <hr>
+        <ol>
+            <li>The operator used to compare if two values are equal.</li>
+            <li>A data type that is either <code>True</code> or <code>False</code>.</li>
+            <li>Required in Python to define a block of code under an <code>if</code> statement.</li>
+            <li>The keyword used to check additional conditions if the first <code>if</code> is false.</li>
+            <li>The command needed to use functions like <code>randint()</code>.</li>
+        </ol>
+        <details>
+            <summary>Check Solutions</summary>
+            <p>1 matches <strong>C</strong> (Equality Operator)</p>
+            <p>2 matches <strong>A</strong> (Boolean)</p>
+            <p>3 matches <strong>E</strong> (Indentation)</p>
+            <p>4 matches <strong>B</strong> (Else If)</p>
+            <p>5 matches <strong>D</strong> (Import Random)</p>
+        </details>
+    </div>
+
+    <!-- SECTION 2: RANDOM MODULE -->
+    <div class="card">
+        <h2>🎲 The Random Module</h2>
+        <div class="accent-box">
+            <p><strong>Purpose:</strong> The <code>random</code> module allows programs to simulate chance. This is essential for games (rolling dice), simulations (weather patterns), and security (cryptography).</p>
+        </div>
+        
+        <h3>Sample Program: Virtual Dice</h3>
+        <p>This program simulates rolling a 6-sided die.</p>
+        <pre>
+import random
+
+roll = random.randint(1, 6)
+print("You rolled a " + str(roll))
+
+if roll == 6:
+    print("Critical Hit!")
+elif roll == 1:
+    print("Critical Miss!")
+else:
+    print("Nice roll.")</pre>
+    </div>
+
+    <!-- SECTION 3: FIND THE ERROR -->
+    <div class="card">
+        <h2>🐞 Find the Error</h2>
+        <p>This program tries to ask the user for a number and check if it is 2. There are <strong>three</strong> errors. Can you find them?</p>
+        <pre>
+user_choice = input("Enter a number: ")
+
+if user_choice = 2
+    print("You chose two!")
+else:
+    print("You chose something else.")</pre>
+        <details>
+            <summary>Reveal Answer</summary>
+            <ol>
+                <li><strong>Type Mismatch:</strong> <code>input()</code> returns a string. It should be <code>int(input(...))</code> to compare with the number 2.</li>
+                <li><strong>Assignment vs Equality:</strong> The <code>if</code> statement uses <code>=</code> (assignment) instead of <code>==</code> (comparison).</li>
+                <li><strong>Syntax Error:</strong> The <code>if</code> statement is missing the colon <code>:</code> at the end of the line.</li>
+            </ol>
+        </details>
+    </div>
+
+    <!-- SECTION 4: MINI QUIZ -->
+    <div class="card">
+        <h2>📝 Mini Review Quiz</h2>
+        
+        <p><strong>1. What is the output of this code?</strong></p>
+        <pre>
+x = 10
+if x > 20:
+    print("A")
+elif x == 10:
+    print("B")
+else:
+    print("C")</pre>
+        <details>
+            <summary>Check Answer</summary>
+            <p>Output: <code>B</code></p>
+        </details>
+
+        <hr>
+
+        <p><strong>2. Which operator means "Not Equal"?</strong></p>
+        <ul>
+            <li>A) <code><></code></li>
+            <li>B) <code>!=</code></li>
+            <li>C) <code>!==</code></li>
+        </ul>
+        <details>
+            <summary>Check Answer</summary>
+            <p>Correct: <strong>B) <code>!=</code></strong></p>
+        </details>
+    </div>
+
+</body>
+</html>

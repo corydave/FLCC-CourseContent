@@ -1,0 +1,106 @@
+COURSE CONTENT STYLE GUIDE (PLAIN TEXT VERSION)
+
+This is for CSC-117 Python.
+
+Not part of the style, but there are lots of ways to print in Python. Please use formatted strings whenever showing examples that involve printing.
+
+COLOR PALETTE (Hex Codes)
+
+Primary Accent (Forest Green): #355E3B
+
+Use: Main headings (H2), borders, icons, and primary backgrounds.
+
+Accent Dark (Gray): #555555
+
+Use: Secondary background panels and dark containers.
+
+Accent Lite (Blue-Gray): #E3E9F1
+
+Use: Subtle emphasis panels.
+
+Code Background (Off-White): #F5F2F0
+
+Use: Inline code and code block backgrounds.
+
+Link Accent (Pink): #FFCCEE
+
+Use: Links inside Jumbotrons or Forest Green backgrounds.
+
+Text (Standard): #000000
+
+Use: General body text.
+
+Text (Light): #E9E9E9
+
+Use: Text appearing on Dark or Forest Green backgrounds.
+
+TYPOGRAPHY AND HEADINGS
+
+All headings (H1-H6) are centered by default.
+
+H1 (Jumbotron): Background #355E3B, Text #FFFFFF. Reserved for page titles.
+H2 (Standard): Color #355E3B.
+H2 (Dark/Accent Panels): Color shifts to #FFFFFF or #E9E9E9 for readability.
+H3 - H6: Standard black unless nested in specialized accent panels.
+
+LAYOUT COMPONENTS (Bootstrap 4.3.1)
+
+Row Formatting: Uses class ".row .mx-1 .mb-4" for standard spacing.
+
+Accent Containers (Div Classes):
+
+.accentOutline: 3px solid border in Forest Green (#355E3B).
+
+.accentColor: Solid Forest Green background with white text.
+
+.accentDark: Dark gray background with light gray text. Links = lightblue.
+
+.accentLite: Soft blue-gray background. Keeps green H2s, black body text.
+
+MEDIA AND ICONS
+
+Images:
+
+Standard Rounded: Class ".rounded"
+
+Circular: Class ".rounded-circle"
+
+Float Left: Class ".float-left .mr-3"
+
+Float Right: Class ".float-right .ml-3"
+
+Responsive: Always use class ".img-fluid"
+
+Icons (Font Awesome 5.9.0):
+
+Color: Forest Green (#355E3B)
+
+Size: 3.125rem (standard for card graphics)
+
+TECHNICAL CONTENT
+
+Inline Code:
+
+Background: #F5F2F0
+
+Text: #000000
+
+Border Radius: .25em
+
+Code Blocks:
+
+Uses Prism.js syntax highlighting.
+
+Format: <pre class="language-[insert-language]">
+
+Keyboard Shortcuts:
+
+Use the <kbd> tag for UI buttons or keys (e.g., Ctrl+C).
+
+LIST STYLES
+
+ol.large-number: Numbers appear in Forest Green.
+
+ol.box-number: Numbers appear in a Forest Green box with white text.
+
+ol.box-alpha: Letters appear in a Forest Green box with white text.
