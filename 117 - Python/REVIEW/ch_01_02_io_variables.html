@@ -64,6 +64,42 @@
         }
         ul { list-style-type: none; padding: 0; }
         li { margin-bottom: 10px; }
+        /* Interactive Elements Styles */
+        .btn {
+            background-color: #355E3B;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 1rem;
+            margin-top: 10px;
+        }
+        .btn:hover {
+            background-color: #264229;
+        }
+        .game-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        .match-card {
+            background: #F5F2F0;
+            border: 2px solid #ddd;
+            padding: 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            flex: 1 1 40%;
+            text-align: center;
+            transition: all 0.2s;
+        }
+        .match-card.selected { border-color: #355E3B; background-color: #E3E9F1; }
+        .match-card.matched { background-color: #355E3B; color: white; border-color: #355E3B; cursor: default; }
+        .quiz-option { display: block; margin: 5px 0; padding: 10px; background: #f9f9f9; border: 1px solid #ddd; cursor: pointer; border-radius: 4px; }
+        .quiz-option:hover { background: #E3E9F1; }
+        .quiz-option.correct { background: #d4edda; border-color: #c3e6cb; color: #155724; }
+        .quiz-option.incorrect { background: #f8d7da; border-color: #f5c6cb; color: #721c24; }
     </style>
 </head>
 <body>
@@ -73,85 +109,167 @@
 
     <!-- SECTION 1: PREDICTION -->
     <div class="card">
-        <h2>🤔 What does this program do?</h2>
-        <p>Look at the code snippets below and predict the output. Click to reveal the answer.</p>
-
-        <h3>Snippet #1</h3>
-        <pre>
-print("Python is fun")
-print("!" * 3)</pre>
-        <details>
-            <summary>Reveal Answer</summary>
-            <p><strong>Output:</strong></p>
-            <pre>
-Python is fun
-!!!</pre>
-            <p><em>Explanation:</em> The <code>*</code> operator with a string repeats the string.</p>
-        </details>
-
-        <h3>Snippet #2</h3>
-        <pre>
-first_name = "Grace"
-last_name = "Hopper"
-print(first_name + " " + last_name)</pre>
-        <details>
-            <summary>Reveal Answer</summary>
-            <p><strong>Output:</strong></p>
-            <pre>Grace Hopper</pre>
-            <p><em>Explanation:</em> This is called <strong>string concatenation</strong>. Don't forget the space in the middle!</p>
-        </details>
-
-        <h3>Snippet #3</h3>
-        <pre>
-x = 10
-x = x + 5
-print(x)</pre>
-        <details>
-            <summary>Reveal Answer</summary>
-            <p><strong>Output:</strong></p>
-            <pre>15</pre>
-            <p><em>Explanation:</em> Variables can be updated. We take the current value of x (10), add 5, and assign it back to x.</p>
-        </details>
+        <h2>🤔 Interactive Prediction Quiz</h2>
+        <p>Predict the output of the code snippets below.</p>
+        <div id="prediction-quiz"></div>
     </div>
 
     <!-- SECTION 2: MATCHING -->
     <div class="card">
-        <h2>🧩 Matching Activity</h2>
-        <p>Match the Python term to its description.</p>
-        
-        <ul>
-            <li><strong>A.</strong> <code>int</code> &nbsp;&nbsp; <strong>B.</strong> <code>float</code> &nbsp;&nbsp; <strong>C.</strong> <code>str</code> &nbsp;&nbsp; <strong>D.</strong> <code>input()</code> &nbsp;&nbsp; <strong>E.</strong> <code>#</code></li>
-        </ul>
-        <hr>
-        <ol>
-            <li>Used for comments in code.</li>
-            <li>A data type for text (e.g., "Hello").</li>
-            <li>A function that pauses the program to get text from the user.</li>
-            <li>A data type for whole numbers (e.g., 42).</li>
-            <li>A data type for decimal numbers (e.g., 3.14).</li>
-        </ol>
-
-        <details>
-            <summary>Check Solutions</summary>
-            <p>1 matches <strong>E</strong> (Comments)</p>
-            <p>2 matches <strong>C</strong> (String)</p>
-            <p>3 matches <strong>D</strong> (Input function)</p>
-            <p>4 matches <strong>A</strong> (Integer)</p>
-            <p>5 matches <strong>B</strong> (Float)</p>
-        </details>
+        <h2>🧩 Vocabulary Matching Game</h2>
+        <p>Click a term, then click its definition. Match them all to win!</p>
+        <div id="vocab-game" class="game-container"></div>
+        <p id="vocab-message" style="margin-top:10px; font-weight:bold; color:#355E3B;"></p>
     </div>
 
     <!-- SECTION 3: VARIABLE NAMES -->
     <div class="card">
-        <h2>✅ Valid or Invalid?</h2>
-        <p>Which of these are valid Python variable names?</p>
-        <ul>
-            <li><code>my_variable</code> <details style="display:inline;"><summary>Answer</summary> ✅ Valid (Snake case is preferred!)</details></li>
-            <li><code>2nd_place</code> <details style="display:inline;"><summary>Answer</summary> ❌ Invalid (Cannot start with a number)</details></li>
-            <li><code>total$</code> <details style="display:inline;"><summary>Answer</summary> ❌ Invalid (No special characters like $)</details></li>
-            <li><code>class</code> <details style="display:inline;"><summary>Answer</summary> ❌ Invalid (Reserved keyword)</details></li>
-        </ul>
+        <h2>✅ Valid or Invalid Variable Names?</h2>
+        <p>Test your knowledge of Python variable naming rules.</p>
+        <div id="variable-quiz"></div>
     </div>
 
+    <script>
+        // --- VOCABULARY GAME ---
+        const vocabTerms = [
+            { id: 1, text: "int", type: "term" },
+            { id: 1, text: "Whole numbers (e.g., 42)", type: "def" },
+            { id: 2, text: "float", type: "term" },
+            { id: 2, text: "Decimal numbers (e.g., 3.14)", type: "def" },
+            { id: 3, text: "str", type: "term" },
+            { id: 3, text: "Text strings (e.g., \"Hello\")", type: "def" },
+            { id: 4, text: "input()", type: "term" },
+            { id: 4, text: "Gets text from the user", type: "def" },
+            { id: 5, text: "#", type: "term" },
+            { id: 5, text: "Comment (ignored by Python)", type: "def" }
+        ];
+
+        let selected = null;
+        let matchedCount = 0;
+        const gameContainer = document.getElementById('vocab-game');
+
+        // Shuffle array
+        vocabTerms.sort(() => Math.random() - 0.5);
+
+        vocabTerms.forEach(item => {
+            const card = document.createElement('div');
+            card.className = 'match-card';
+            card.textContent = item.text;
+            card.dataset.id = item.id;
+            
+            card.addEventListener('click', () => {
+                if (card.classList.contains('matched')) return;
+
+                if (selected === null) {
+                    selected = card;
+                    card.classList.add('selected');
+                } else if (selected === card) {
+                    selected.classList.remove('selected');
+                    selected = null;
+                } else {
+                    if (selected.dataset.id === card.dataset.id) {
+                        // Match!
+                        selected.classList.remove('selected');
+                        selected.classList.add('matched');
+                        card.classList.add('matched');
+                        selected = null;
+                        matchedCount++;
+                        if (matchedCount === 5) {
+                            document.getElementById('vocab-message').textContent = "🎉 All terms matched! Great job!";
+                        }
+                    } else {
+                        // No match
+                        selected.classList.remove('selected');
+                        const prev = selected;
+                        prev.style.backgroundColor = '#ffcccc';
+                        card.style.backgroundColor = '#ffcccc';
+                        selected = null;
+                        setTimeout(() => {
+                            prev.style.backgroundColor = '';
+                            card.style.backgroundColor = '';
+                        }, 500);
+                    }
+                }
+            });
+            gameContainer.appendChild(card);
+        });
+
+        // --- QUIZ GENERATOR ---
+        function createQuiz(containerId, questions) {
+            const container = document.getElementById(containerId);
+            questions.forEach((item, index) => {
+                const qDiv = document.createElement('div');
+                qDiv.style.marginBottom = "20px";
+                
+                const qTitle = document.createElement('div');
+                qTitle.innerHTML = `<strong>${index + 1}. ${item.q}</strong>`;
+                qDiv.appendChild(qTitle);
+
+                item.options.forEach((opt, i) => {
+                    const btn = document.createElement('div');
+                    btn.className = 'quiz-option';
+                    btn.innerHTML = opt;
+                    btn.onclick = function() {
+                        if (i === item.answer) {
+                            btn.classList.add('correct');
+                            btn.innerHTML += " ✅";
+                        } else {
+                            btn.classList.add('incorrect');
+                            btn.innerHTML += " ❌";
+                        }
+                    };
+                    qDiv.appendChild(btn);
+                });
+                container.appendChild(qDiv);
+            });
+        }
+
+        // --- PREDICTION QUIZ DATA ---
+        const predictionData = [
+            {
+                q: "What is the output?<br><pre style='text-align:left; margin:10px 0;'>print(\"Python is fun\")\nprint(\"!\" * 3)</pre>",
+                options: ["Python is fun!!!", "Python is fun<br>!!!", "Python is fun<br>!*3"],
+                answer: 1
+            },
+            {
+                q: "What is the output?<br><pre style='text-align:left; margin:10px 0;'>first = \"Grace\"\nlast = \"Hopper\"\nprint(f\"{first} {last}\")</pre>",
+                options: ["GraceHopper", "Grace Hopper", "Grace {last}"],
+                answer: 1
+            },
+            {
+                q: "What is the output?<br><pre style='text-align:left; margin:10px 0;'>x = 10\nx = x + 5\nprint(f\"The value is {x}\")</pre>",
+                options: ["The value is 10", "The value is 15", "The value is x"],
+                answer: 1
+            }
+        ];
+
+        // --- VARIABLE QUIZ DATA ---
+        const variableData = [
+            {
+                q: "Is <code>my_variable</code> a valid variable name?",
+                options: ["✅ Valid", "❌ Invalid"],
+                answer: 0
+            },
+            {
+                q: "Is <code>2nd_place</code> a valid variable name?",
+                options: ["✅ Valid", "❌ Invalid (Cannot start with a number)"],
+                answer: 1
+            },
+            {
+                q: "Is <code>total$</code> a valid variable name?",
+                options: ["✅ Valid", "❌ Invalid (No special characters)"],
+                answer: 1
+            },
+            {
+                q: "Is <code>class</code> a valid variable name?",
+                options: ["✅ Valid", "❌ Invalid (Reserved keyword)"],
+                answer: 1
+            }
+        ];
+
+        createQuiz('prediction-quiz', predictionData);
+        createQuiz('variable-quiz', variableData);
+
+    </script>
 </body>
 </html>

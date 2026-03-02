@@ -74,6 +74,42 @@
             border-radius: 5px;
             border-left: 5px solid #355E3B;
         }
+        /* Interactive Elements Styles */
+        .btn {
+            background-color: #355E3B;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 1rem;
+            margin-top: 10px;
+        }
+        .btn:hover {
+            background-color: #264229;
+        }
+        .game-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        .match-card {
+            background: #F5F2F0;
+            border: 2px solid #ddd;
+            padding: 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            flex: 1 1 40%;
+            text-align: center;
+            transition: all 0.2s;
+        }
+        .match-card.selected { border-color: #355E3B; background-color: #E3E9F1; }
+        .match-card.matched { background-color: #355E3B; color: white; border-color: #355E3B; cursor: default; }
+        .quiz-option { display: block; margin: 5px 0; padding: 10px; background: #f9f9f9; border: 1px solid #ddd; cursor: pointer; border-radius: 4px; }
+        .quiz-option:hover { background: #E3E9F1; }
+        .quiz-option.correct { background: #d4edda; border-color: #c3e6cb; color: #155724; }
+        .quiz-option.incorrect { background: #f8d7da; border-color: #f5c6cb; color: #721c24; }
     </style>
 </head>
 <body>
@@ -83,27 +119,10 @@
 
     <!-- SECTION 1: VOCABULARY -->
     <div class="card">
-        <h2>🧩 Vocabulary Matching</h2>
-        <p>Match the term to the definition.</p>
-        <ul>
-            <li><strong>A.</strong> <code>Boolean</code> &nbsp;&nbsp; <strong>B.</strong> <code>elif</code> &nbsp;&nbsp; <strong>C.</strong> <code>==</code> &nbsp;&nbsp; <strong>D.</strong> <code>import random</code> &nbsp;&nbsp; <strong>E.</strong> <code>Indentation</code></li>
-        </ul>
-        <hr>
-        <ol>
-            <li>The operator used to compare if two values are equal.</li>
-            <li>A data type that is either <code>True</code> or <code>False</code>.</li>
-            <li>Required in Python to define a block of code under an <code>if</code> statement.</li>
-            <li>The keyword used to check additional conditions if the first <code>if</code> is false.</li>
-            <li>The command needed to use functions like <code>randint()</code>.</li>
-        </ol>
-        <details>
-            <summary>Check Solutions</summary>
-            <p>1 matches <strong>C</strong> (Equality Operator)</p>
-            <p>2 matches <strong>A</strong> (Boolean)</p>
-            <p>3 matches <strong>E</strong> (Indentation)</p>
-            <p>4 matches <strong>B</strong> (Else If)</p>
-            <p>5 matches <strong>D</strong> (Import Random)</p>
-        </details>
+        <h2>🧩 Interactive Vocabulary Matching</h2>
+        <p>Click a term, then click its definition. Match them all to win!</p>
+        <div id="vocab-game" class="game-container"></div>
+        <p id="vocab-message" style="margin-top:10px; font-weight:bold; color:#355E3B;"></p>
     </div>
 
     <!-- SECTION 2: RANDOM MODULE -->
@@ -113,7 +132,16 @@
             <p><strong>Purpose:</strong> The <code>random</code> module allows programs to simulate chance. This is essential for games (rolling dice), simulations (weather patterns), and security (cryptography).</p>
         </div>
         
-        <h3>Sample Program: Virtual Dice</h3>
+        <h3>Interactive Demo: Guess the Number</h3>
+        <p>I'm thinking of a number between 1 and 10. Can you guess it? (This uses logic similar to Python's <code>if/elif/else</code>).</p>
+        
+        <div style="background: #F5F2F0; padding: 20px; border-radius: 8px; text-align: center;">
+            <input type="number" id="userGuess" placeholder="1-10" style="padding: 10px; font-size: 1.2rem; width: 80px;">
+            <button class="btn" onclick="checkGuess()">Guess</button>
+            <p id="guessResult" style="font-weight: bold; margin-top: 15px; font-size: 1.2rem;">Make a guess!</p>
+        </div>
+
+        <h3>The Python Code Behind It</h3>
         <p>This program simulates rolling a 6-sided die.</p>
         <pre>
 import random
@@ -152,35 +180,140 @@ else:
 
     <!-- SECTION 4: MINI QUIZ -->
     <div class="card">
-        <h2>📝 Mini Review Quiz</h2>
-        
-        <p><strong>1. What is the output of this code?</strong></p>
-        <pre>
-x = 10
-if x > 20:
-    print("A")
-elif x == 10:
-    print("B")
-else:
-    print("C")</pre>
-        <details>
-            <summary>Check Answer</summary>
-            <p>Output: <code>B</code></p>
-        </details>
-
-        <hr>
-
-        <p><strong>2. Which operator means "Not Equal"?</strong></p>
-        <ul>
-            <li>A) <code><></code></li>
-            <li>B) <code>!=</code></li>
-            <li>C) <code>!==</code></li>
-        </ul>
-        <details>
-            <summary>Check Answer</summary>
-            <p>Correct: <strong>B) <code>!=</code></strong></p>
-        </details>
+        <h2>📝 Interactive Mini Quiz</h2>
+        <div id="quiz-container"></div>
     </div>
 
+    <script>
+        // --- VOCABULARY GAME ---
+        const vocabTerms = [
+            { id: 1, text: "==", type: "term" },
+            { id: 1, text: "Equality Operator", type: "def" },
+            { id: 2, text: "Boolean", type: "term" },
+            { id: 2, text: "True / False", type: "def" },
+            { id: 3, text: "Indentation", type: "term" },
+            { id: 3, text: "Defines a code block", type: "def" },
+            { id: 4, text: "elif", type: "term" },
+            { id: 4, text: "Else If", type: "def" },
+            { id: 5, text: "import random", type: "term" },
+            { id: 5, text: "Enables random functions", type: "def" }
+        ];
+
+        let selected = null;
+        let matchedCount = 0;
+        const gameContainer = document.getElementById('vocab-game');
+
+        // Shuffle array
+        vocabTerms.sort(() => Math.random() - 0.5);
+
+        vocabTerms.forEach(item => {
+            const card = document.createElement('div');
+            card.className = 'match-card';
+            card.textContent = item.text;
+            card.dataset.id = item.id;
+            
+            card.addEventListener('click', () => {
+                if (card.classList.contains('matched')) return;
+
+                if (selected === null) {
+                    selected = card;
+                    card.classList.add('selected');
+                } else if (selected === card) {
+                    selected.classList.remove('selected');
+                    selected = null;
+                } else {
+                    if (selected.dataset.id === card.dataset.id) {
+                        // Match!
+                        selected.classList.remove('selected');
+                        selected.classList.add('matched');
+                        card.classList.add('matched');
+                        selected = null;
+                        matchedCount++;
+                        if (matchedCount === 5) {
+                            document.getElementById('vocab-message').textContent = "🎉 All terms matched! Great job!";
+                        }
+                    } else {
+                        // No match
+                        selected.classList.remove('selected');
+                        const prev = selected;
+                        prev.style.backgroundColor = '#ffcccc';
+                        card.style.backgroundColor = '#ffcccc';
+                        selected = null;
+                        setTimeout(() => {
+                            prev.style.backgroundColor = '';
+                            card.style.backgroundColor = '';
+                        }, 500);
+                    }
+                }
+            });
+            gameContainer.appendChild(card);
+        });
+
+        // --- GUESS THE NUMBER ---
+        let targetNumber = Math.floor(Math.random() * 10) + 1;
+        
+        function checkGuess() {
+            const userIn = parseInt(document.getElementById('userGuess').value);
+            const resultDisplay = document.getElementById('guessResult');
+            
+            if (isNaN(userIn)) {
+                resultDisplay.textContent = "Please enter a valid number.";
+                resultDisplay.style.color = "red";
+            } else if (userIn === targetNumber) {
+                resultDisplay.textContent = "🎉 Correct! I picked a new number.";
+                resultDisplay.style.color = "green";
+                targetNumber = Math.floor(Math.random() * 10) + 1;
+            } else if (userIn < targetNumber) {
+                resultDisplay.textContent = "Too low! Try again.";
+                resultDisplay.style.color = "#d9534f";
+            } else {
+                resultDisplay.textContent = "Too high! Try again.";
+                resultDisplay.style.color = "#d9534f";
+            }
+        }
+
+        // --- QUIZ ---
+        const quizData = [
+            {
+                q: "What is the output of this code?<br><pre style='text-align:left; margin:10px 0;'>x = 10\nif x > 20:\n    print('A')\nelif x == 10:\n    print('B')\nelse:\n    print('C')</pre>",
+                options: ["A", "B", "C"],
+                answer: 1 // Index of B
+            },
+            {
+                q: "Which operator means 'Not Equal'?",
+                options: ["<>", "!=", "!=="],
+                answer: 1 // Index of !=
+            }
+        ];
+
+        const quizContainer = document.getElementById('quiz-container');
+
+        quizData.forEach((item, index) => {
+            const qDiv = document.createElement('div');
+            qDiv.style.marginBottom = "20px";
+            
+            const qTitle = document.createElement('div');
+            qTitle.innerHTML = `<strong>${index + 1}. ${item.q}</strong>`;
+            qDiv.appendChild(qTitle);
+
+            item.options.forEach((opt, i) => {
+                const btn = document.createElement('div');
+                btn.className = 'quiz-option';
+                btn.textContent = opt;
+                btn.onclick = function() {
+                    if (i === item.answer) {
+                        btn.classList.add('correct');
+                        btn.innerHTML += " ✅";
+                    } else {
+                        btn.classList.add('incorrect');
+                        btn.innerHTML += " ❌";
+                    }
+                };
+                qDiv.appendChild(btn);
+            });
+
+            quizContainer.appendChild(qDiv);
+        });
+    </script>
 </body>
 </html>
