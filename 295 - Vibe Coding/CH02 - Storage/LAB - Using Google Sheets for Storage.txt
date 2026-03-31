@@ -1,0 +1,21 @@
+^^ LAB - Using Google Sheets for Storage
+
+* Use Google Sheets for storage
+
+<br /><br />
+
+^=^ ,, 8
+
+<br />
+
+Understand the pros and cons of using Google Sheets for storage
+
+^=
+
+<br /><br />
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
