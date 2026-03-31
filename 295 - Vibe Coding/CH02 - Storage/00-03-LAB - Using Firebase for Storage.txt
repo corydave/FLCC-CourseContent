@@ -1,0 +1,22 @@
+^^ LAB - Using Firebase for Storage
+
+* Use Google's Firebase for storage
+* Setting up Firebase
+
+<br /><br />
+
+^=^ ,, 8
+
+<br />
+
+Understand the pros and cons of using Google Firebase for storage
+
+^=
+
+<br /><br />
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
