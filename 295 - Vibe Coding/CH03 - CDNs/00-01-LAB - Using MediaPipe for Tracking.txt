@@ -1,0 +1,21 @@
+^^ LAB - Using MediaPipe for Tracking
+
+* [Read Google's Blog about MediaPipe](https://developers.googleblog.com/jump-to-play-building-with-gemini-mediapipe/)
+
+<br /><br />
+
+^=^ ,, 8
+
+<br />
+
+Understand how to use JavaScript from a CDN.
+
+^=
+
+<br /><br />
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
