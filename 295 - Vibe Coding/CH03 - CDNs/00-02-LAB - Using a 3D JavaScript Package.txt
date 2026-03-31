@@ -1,0 +1,23 @@
+^^ LAB - Using a 3D JavaScript Package
+
+* [Check out examples from Three.js](https://threejs.org/)
+
+* [Check out examples from Babylon.js](https://www.babylonjs.com/)
+
+<br /><br />
+
+^=^ ,, 8
+
+<br />
+
+Understand how to use JavaScript from a CDN.
+
+^=
+
+<br /><br />
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
