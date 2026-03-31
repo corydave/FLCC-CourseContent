@@ -1,0 +1,21 @@
+^^ LAB - `localStorage`
+
+* Arcade game that uses `localStorage` for high scores.
+
+<br /><br />
+
+^=^ ,, 8
+
+<br />
+
+Understand the pros and cons of using `localStorage`
+
+^=
+
+<br /><br />
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
