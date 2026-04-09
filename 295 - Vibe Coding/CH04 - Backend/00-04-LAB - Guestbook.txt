@@ -1,0 +1,559 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    ============================================================
+    VIBE CODING: AI-Assisted Application Development
+    Finger Lakes Community College
+
+    Lab 3 Step-by-Step Instructions: Public Guestbook
+    Version: 1.0 - Initial build
+
+    Students build a guestbook that persists data to a server
+    file, introducing file I/O, JSON encoding, and the concept
+    of data that survives beyond a single page request.
+    ============================================================
+  -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lab 3: Guestbook - Vibe Coding @ FLCC</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <style>
+    :root {
+      --primary:    #9900ff;
+      --primary-dim:rgba(153,0,255,0.18);
+      --bg:         #0d0d0d;
+      --surface:    #1a1a1a;
+      --surface-2:  #222;
+      --border:     #2e2e2e;
+      --text:       #e8e8e8;
+      --muted:      #888;
+      --green:      #00e5a0;
+      --green-dim:  rgba(0,229,160,0.12);
+      --red:        #ff4d6a;
+      --red-dim:    rgba(255,77,106,0.12);
+      --yellow:     #ffd166;
+      --yellow-dim: rgba(255,209,102,0.12);
+      --blue:       #4fc3f7;
+      --blue-dim:   rgba(79,195,247,0.12);
+      --radius:     10px;
+      --nav-h:      58px;
+      --font-body:  'DM Sans', sans-serif;
+      --font-code:  'Space Mono', monospace;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; scroll-padding-top: calc(var(--nav-h) + 16px); }
+    body { background: var(--bg); color: var(--text); font-family: var(--font-body); font-size: 1rem; line-height: 1.7; }
+    :focus-visible { outline: 2px solid var(--primary); outline-offset: 3px; border-radius: 4px; }
+
+    .nav { position: sticky; top: 0; z-index: 100; height: var(--nav-h); background: rgba(13,13,13,0.95); backdrop-filter: blur(10px); border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; padding: 0 1.5rem; gap: 1rem; }
+    .nav-brand { font-family: var(--font-code); font-size: 0.8rem; color: var(--primary); }
+    .nav-meta  { font-size: 0.8rem; color: var(--muted); display: flex; align-items: center; gap: 1rem; }
+    .nav-meta span { display: flex; align-items: center; gap: 0.35rem; }
+
+    .progress-bar-wrap { background: var(--surface); border-bottom: 1px solid var(--border); padding: 0.6rem 1.5rem; display: flex; align-items: center; gap: 1rem; }
+    .progress-label { font-size: 0.75rem; color: var(--muted); white-space: nowrap; }
+    .progress-track { flex: 1; height: 6px; background: var(--border); border-radius: 99px; overflow: hidden; }
+    .progress-fill  { height: 100%; background: linear-gradient(90deg, var(--yellow), #ff9eb5); border-radius: 99px; width: 0%; transition: width 0.4s ease; }
+    .progress-steps { display: flex; gap: 0.35rem; flex-shrink: 0; }
+    .p-dot { width: 22px; height: 22px; border-radius: 50%; border: 2px solid var(--border); background: var(--surface-2); font-size: 0.65rem; font-family: var(--font-code); font-weight: 700; display: flex; align-items: center; justify-content: center; color: var(--muted); cursor: pointer; transition: all 0.2s; text-decoration: none; }
+    .p-dot:hover  { border-color: var(--yellow); color: var(--yellow); }
+    .p-dot.done   { background: var(--green); border-color: var(--green); color: #000; }
+    .p-dot.active { background: var(--yellow); border-color: var(--yellow); color: #000; }
+
+    .page { max-width: 820px; margin: 0 auto; padding: 2rem 1.25rem 5rem; }
+
+    .hero { text-align: center; padding: 2.5rem 1rem 2rem; margin-bottom: 2rem; }
+    .hero-eyebrow { display: inline-flex; align-items: center; gap: 0.4rem; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--yellow); background: var(--yellow-dim); border: 1px solid var(--yellow); border-radius: 99px; padding: 0.25rem 0.85rem; margin-bottom: 1rem; }
+    .hero h1 { font-size: clamp(1.8rem, 4.5vw, 2.6rem); font-weight: 700; line-height: 1.2; margin-bottom: 0.75rem; }
+    .hero h1 em { color: var(--yellow); font-style: normal; font-family: var(--font-code); }
+    .hero-sub { color: var(--muted); font-size: 1rem; max-width: 520px; margin: 0 auto 1.5rem; }
+    .hero-pills { display: flex; gap: 0.6rem; justify-content: center; flex-wrap: wrap; }
+    .pill { font-size: 0.78rem; padding: 0.25rem 0.8rem; border-radius: 99px; background: var(--surface); border: 1px solid var(--border); color: var(--muted); }
+    .pill strong { color: var(--text); }
+
+    .prereq { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.25rem 1.5rem; margin-bottom: 2.5rem; }
+    .prereq h2 { font-size: 1rem; font-weight: 700; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem; }
+    .prereq ul { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
+    .prereq li { font-size: 0.9rem; display: flex; align-items: flex-start; gap: 0.6rem; }
+    .prereq li::before { content: '✓'; color: var(--green); font-weight: 700; flex-shrink: 0; margin-top: 0.1rem; }
+
+    .step-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); margin-bottom: 1.5rem; overflow: hidden; scroll-margin-top: calc(var(--nav-h) + 80px); }
+    .step-header { display: flex; align-items: center; gap: 1rem; padding: 1rem 1.5rem; border-bottom: 1px solid var(--border); background: var(--surface-2); cursor: pointer; user-select: none; }
+    .step-header:hover { background: #282828; }
+    .step-num { width: 36px; height: 36px; border-radius: 50%; flex-shrink: 0; background: var(--yellow-dim); border: 2px solid var(--yellow); color: var(--yellow); font-family: var(--font-code); font-size: 0.85rem; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+    .step-num.done { background: var(--green); border-color: var(--green); color: #000; }
+    .step-title-wrap { flex: 1; }
+    .step-title { font-size: 1rem; font-weight: 700; }
+    .step-subtitle { font-size: 0.8rem; color: var(--muted); margin-top: 0.1rem; }
+    .step-chevron { color: var(--muted); font-size: 0.8rem; transition: transform 0.2s; }
+    .step-card.open .step-chevron { transform: rotate(180deg); }
+    .step-done-btn { background: var(--surface); border: 1px solid var(--border); color: var(--muted); border-radius: 99px; font-size: 0.72rem; font-family: var(--font-body); padding: 0.2rem 0.65rem; cursor: pointer; transition: all 0.2s; flex-shrink: 0; }
+    .step-done-btn:hover { border-color: var(--green); color: var(--green); }
+    .step-done-btn.marked { background: var(--green-dim); border-color: var(--green); color: var(--green); }
+    .step-body { display: none; padding: 1.5rem; }
+    .step-card.open .step-body { display: block; }
+    .step-body p { margin-bottom: 0.9rem; font-size: 0.95rem; }
+    .step-body p:last-child { margin-bottom: 0; }
+
+    .action-list { list-style: none; padding: 0; counter-reset: action-counter; }
+    .action-list li { counter-increment: action-counter; display: flex; gap: 0.85rem; align-items: flex-start; margin-bottom: 0.85rem; padding: 0.75rem 1rem; background: var(--surface-2); border-radius: 8px; font-size: 0.92rem; }
+    .action-list li::before { content: counter(action-counter); min-width: 24px; height: 24px; background: var(--yellow); color: #000; border-radius: 50%; font-size: 0.7rem; font-weight: 700; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 0.1rem; font-family: var(--font-code); }
+
+    .callout { border-radius: 8px; padding: 0.9rem 1.1rem; border-left: 3px solid; margin: 1rem 0; font-size: 0.9rem; }
+    .callout strong { display: block; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.3rem; }
+    .callout.see   { background: var(--green-dim);  border-color: var(--green);  color: #9ef5d8; }
+    .callout.warn  { background: var(--red-dim);    border-color: var(--red);    color: #ffb3bf; }
+    .callout.tip   { background: var(--blue-dim);   border-color: var(--blue);   color: #b8e4f9; }
+    .callout.note  { background: var(--yellow-dim); border-color: var(--yellow); color: #ffe4a0; }
+
+    .code-block { background: #111; border-radius: 8px; padding: 1rem 1.25rem; font-family: var(--font-code); font-size: 0.78rem; line-height: 1.8; overflow-x: auto; color: #ddd; margin: 0.75rem 0; border: 1px solid var(--border); }
+
+    .prompt-box { background: var(--surface-2); border: 1px solid var(--primary); border-radius: 8px; padding: 1rem 1.25rem; margin: 1rem 0; position: relative; }
+    .prompt-box-label { font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--primary); margin-bottom: 0.6rem; display: flex; align-items: center; gap: 0.4rem; }
+    .prompt-text { font-family: var(--font-code); font-size: 0.78rem; color: #ccc; line-height: 1.7; white-space: pre-wrap; }
+    .copy-btn { position: absolute; top: 0.75rem; right: 0.75rem; background: var(--primary-dim); color: var(--primary); border: 1px solid var(--primary); border-radius: 6px; padding: 0.2rem 0.6rem; font-size: 0.72rem; cursor: pointer; font-family: var(--font-body); transition: all 0.2s; }
+    .copy-btn:hover { background: var(--primary); color: #fff; }
+    .copy-btn.copied { background: var(--green-dim); color: var(--green); border-color: var(--green); }
+
+    code { font-family: var(--font-code); font-size: 0.82em; background: var(--surface-2); border: 1px solid var(--border); border-radius: 4px; padding: 0.1em 0.4em; color: var(--yellow); }
+
+    .screen-mock { background: #111; border: 1px solid var(--border); border-radius: 8px; padding: 1rem 1.25rem; margin: 0.75rem 0; font-size: 0.82rem; color: var(--muted); font-family: var(--font-code); }
+    .screen-mock .mock-bar { display: flex; gap: 0.4rem; margin-bottom: 0.75rem; align-items: center; }
+    .mock-dot { width: 10px; height: 10px; border-radius: 50%; }
+    .mock-url { flex: 1; background: var(--surface); border-radius: 4px; padding: 0.2rem 0.6rem; font-size: 0.72rem; color: var(--muted); }
+
+    /* Raw data preview mock */
+    .data-preview { background: #0a0a0a; border: 1px solid var(--border); border-radius: 8px; padding: 1rem; font-family: var(--font-code); font-size: 0.76rem; color: #aaa; line-height: 1.9; margin: 0.75rem 0; overflow-x: auto; }
+    .data-key   { color: #4fc3f7; }
+    .data-val   { color: #00e5a0; }
+    .data-str   { color: #ffd166; }
+
+    .finish-card { background: var(--yellow-dim); border: 1px solid var(--yellow); border-radius: var(--radius); padding: 2rem; text-align: center; margin-top: 2rem; }
+    .finish-card h2 { font-size: 1.5rem; color: var(--yellow); margin-bottom: 0.5rem; }
+    .finish-card p  { color: #ffe4a0; font-size: 0.95rem; }
+    .finish-icon { font-size: 2.5rem; margin-bottom: 0.75rem; }
+
+    @media (max-width: 600px) { .nav-meta { display: none; } .progress-steps { display: none; } }
+  </style>
+</head>
+<body>
+
+  <nav class="nav" aria-label="Lab navigation">
+    <span class="nav-brand">Lab 03 · Guestbook</span>
+    <div class="nav-meta">
+      <span><i class="fa-solid fa-clock"></i> ~50 minutes</span>
+      <span><i class="fa-solid fa-layer-group"></i> 10 steps</span>
+    </div>
+  </nav>
+
+  <div class="progress-bar-wrap" role="region" aria-label="Lab progress">
+    <span class="progress-label">Your progress</span>
+    <div class="progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="progress-bar">
+      <div class="progress-fill" id="progress-fill"></div>
+    </div>
+    <div class="progress-steps" aria-hidden="true" id="progress-dots"></div>
+  </div>
+
+  <main class="page" id="main">
+
+    <header class="hero">
+      <div class="hero-eyebrow">
+        <i class="fa-solid fa-book"></i>
+        Lab 3 of 4 · File Storage
+      </div>
+      <h1>Public <em>Guestbook</em></h1>
+      <p class="hero-sub">
+        For the first time, data will outlive the page request. One visitor leaves a message;
+        the next visitor sees it. That's persistence - and it changes everything.
+      </p>
+      <div class="hero-pills">
+        <span class="pill"><strong>Skill:</strong> File read/write, JSON, persistence</span>
+        <span class="pill"><strong>Time:</strong> ~50 minutes</span>
+        <span class="pill"><strong>Files:</strong> guestbook.php + data file</span>
+      </div>
+    </header>
+
+    <div class="prereq">
+      <h2><i class="fa-solid fa-circle-check" style="color:var(--green)"></i> Before you start - you'll need:</h2>
+      <ul>
+        <li>Labs 1 and 2 complete - you're comfortable creating and uploading PHP files</li>
+        <li>Your <code>vibe-php</code> folder ready inside <code>public_html</code></li>
+        <li>cPanel File Manager open in one tab, Claude in another</li>
+      </ul>
+    </div>
+
+    <!-- STEP 1 -->
+    <section class="step-card open" id="step-1" aria-labelledby="step-1-title">
+      <div class="step-header" onclick="toggleStep(this)" role="button" tabindex="0" aria-expanded="true">
+        <div class="step-num" id="num-1">1</div>
+        <div class="step-title-wrap">
+          <div class="step-title" id="step-1-title">Create <code style="font-size:0.88rem">guestbook.php</code> in File Manager</div>
+          <div class="step-subtitle">One file will handle both the form and the display</div>
+        </div>
+        <button class="step-done-btn" onclick="markDone(event,1)">Mark done</button>
+        <i class="fa-solid fa-chevron-down step-chevron" aria-hidden="true"></i>
+      </div>
+      <div class="step-body">
+        <ol class="action-list">
+          <li>In File Manager, navigate to your <code>vibe-php</code> folder.</li>
+          <li>Click <strong>"+ File"</strong>.</li>
+          <li>Name it: <code>guestbook.php</code></li>
+          <li>Click <strong>Create New File</strong>.</li>
+        </ol>
+        <div class="callout note">
+          <strong><i class="fa-solid fa-star"></i> One file, two things</strong>
+          This single PHP file will do double duty: when you visit it, it shows the form and all entries. When you submit the form, it saves your entry and then shows the updated list. This is a common PHP pattern called a "self-processing" page.
+        </div>
+      </div>
+    </section>
+
+    <!-- STEP 2 -->
+    <section class="step-card" id="step-2" aria-labelledby="step-2-title">
+      <div class="step-header" onclick="toggleStep(this)" role="button" tabindex="0" aria-expanded="false">
+        <div class="step-num" id="num-2">2</div>
+        <div class="step-title-wrap">
+          <div class="step-title" id="step-2-title">Prompt Claude for the guestbook code</div>
+          <div class="step-subtitle">Get Claude to write the full file-powered guestbook</div>
+        </div>
+        <button class="step-done-btn" onclick="markDone(event,2)">Mark done</button>
+        <i class="fa-solid fa-chevron-down step-chevron" aria-hidden="true"></i>
+      </div>
+      <div class="step-body">
+        <p>Switch to Claude and paste the prompt below. After Claude responds, look for the <code>file_put_contents()</code> and <code>file()</code> calls - those are the lines that write to and read from the server file.</p>
+
+        <div class="prompt-box">
+          <div class="prompt-box-label"><i class="fa-solid fa-robot"></i> Paste this into Claude</div>
+          <button class="copy-btn" onclick="copyPrompt(this)">Copy</button>
+          <div class="prompt-text">Create a single PHP file called guestbook.php for a beginner PHP student. It should be a public guestbook app.
+
+FEATURES:
+- A form to submit a new entry: name (required), message (required, max 200 chars)
+- Entries saved to a file called guestbook-data.txt using file_put_contents() with FILE_APPEND
+- Each entry stored as a JSON-encoded line containing: name, message, and timestamp
+- All saved entries displayed on the page below the form, newest first
+- Show how many total entries exist
+- Limit entries to 100 maximum (delete oldest when over limit)
+
+SECURITY:
+- htmlspecialchars() and trim() on all input
+- Check that name and message aren't empty before saving
+- Use strip_tags() to remove any HTML from messages
+- Enforce the 200-character max on message length
+
+DESIGN: Warm, friendly dark theme with yellow (#ffd166) accents. Responsive, accessible labels and keyboard navigation.
+
+COMMENTS: Explain every single PHP operation in plain English - especially the file read/write steps, and the JSON encoding/decoding.
+
+VERSION: // v1.0 - Lab 3: Guestbook with File Storage</div>
+        </div>
+        <div class="callout tip">
+          <strong><i class="fa-solid fa-lightbulb"></i> Look for this in Claude's code</strong>
+          Find where <code>json_encode()</code> is called. Claude will be packaging the name, message, and timestamp into a single structured line before saving it. And find where <code>json_decode()</code> reads it back. This encode/decode pattern is used everywhere in web development.
+        </div>
+      </div>
+    </section>
+
+    <!-- STEP 3 -->
+    <section class="step-card" id="step-3" aria-labelledby="step-3-title">
+      <div class="step-header" onclick="toggleStep(this)" role="button" tabindex="0" aria-expanded="false">
+        <div class="step-num" id="num-3">3</div>
+        <div class="step-title-wrap">
+          <div class="step-title" id="step-3-title">Paste the code into File Manager and save</div>
+          <div class="step-subtitle">Deploy to your server</div>
+        </div>
+        <button class="step-done-btn" onclick="markDone(event,3)">Mark done</button>
+        <i class="fa-solid fa-chevron-down step-chevron" aria-hidden="true"></i>
+      </div>
+      <div class="step-body">
+        <ol class="action-list">
+          <li>Copy all the code from Claude's response.</li>
+          <li>In File Manager, right-click <code>guestbook.php</code> → <strong>Edit</strong>.</li>
+          <li>Select all (<strong>Ctrl+A</strong> / <strong>Cmd+A</strong>), delete, paste the code.</li>
+          <li>Click <strong>Save Changes</strong> and close the editor.</li>
+        </ol>
+        <div class="callout warn">
+          <strong><i class="fa-solid fa-triangle-exclamation"></i> Do NOT create guestbook-data.txt yourself</strong>
+          PHP will create the data file automatically the first time someone submits an entry. If you create it manually first, the file permissions might not match what PHP expects. Let PHP make it.
+        </div>
+      </div>
+    </section>
+
+    <!-- STEP 4 -->
+    <section class="step-card" id="step-4" aria-labelledby="step-4-title">
+      <div class="step-header" onclick="toggleStep(this)" role="button" tabindex="0" aria-expanded="false">
+        <div class="step-num" id="num-4">4</div>
+        <div class="step-title-wrap">
+          <div class="step-title" id="step-4-title">Visit the guestbook page</div>
+          <div class="step-subtitle">Confirm the page loads and shows an empty guestbook</div>
+        </div>
+        <button class="step-done-btn" onclick="markDone(event,4)">Mark done</button>
+        <i class="fa-solid fa-chevron-down step-chevron" aria-hidden="true"></i>
+      </div>
+      <div class="step-body">
+        <ol class="action-list">
+          <li>Open a new browser tab and go to:</li>
+        </ol>
+        <div class="screen-mock">
+          <div class="mock-bar">
+            <div class="mock-dot" style="background:#ff5f57"></div>
+            <div class="mock-dot" style="background:#febc2e"></div>
+            <div class="mock-dot" style="background:#28c840"></div>
+            <div class="mock-url">yourdomain.com/vibe-php/guestbook.php</div>
+          </div>
+        </div>
+        <div class="callout see">
+          <strong><i class="fa-solid fa-eye"></i> What you should see</strong>
+          The guestbook page with an empty entry list and a form to submit a new entry. There's no data yet - <code>guestbook-data.txt</code> doesn't even exist yet. That's expected.
+        </div>
+      </div>
+    </section>
+
+    <!-- STEP 5 -->
+    <section class="step-card" id="step-5" aria-labelledby="step-5-title">
+      <div class="step-header" onclick="toggleStep(this)" role="button" tabindex="0" aria-expanded="false">
+        <div class="step-num" id="num-5">5</div>
+        <div class="step-title-wrap">
+          <div class="step-title" id="step-5-title">Submit your first entry</div>
+          <div class="step-subtitle">Write data to the server for the very first time</div>
+        </div>
+        <button class="step-done-btn" onclick="markDone(event,5)">Mark done</button>
+        <i class="fa-solid fa-chevron-down step-chevron" aria-hidden="true"></i>
+      </div>
+      <div class="step-body">
+        <ol class="action-list">
+          <li>Fill in your <strong>name</strong>.</li>
+          <li>Write a <strong>message</strong> - something you'd genuinely leave in a guestbook. Say hi to the next person who reads it.</li>
+          <li>Click <strong>Submit</strong> (or whatever the button says).</li>
+        </ol>
+        <div class="callout see">
+          <strong><i class="fa-solid fa-eye"></i> What you should see</strong>
+          The page refreshes and your entry appears in the list. The entry count shows "1 entry." This is a historic moment - you just wrote data from a browser to a server file, and it's going to stay there.
+        </div>
+        <div class="callout note">
+          <strong><i class="fa-solid fa-star"></i> What just happened behind the scenes</strong>
+          PHP received your form data via <code>$_POST</code>, packaged it into a JSON string (something like <code>{"name":"Your Name","message":"Hi there","time":"2025-07-09 14:22:00"}</code>), and appended that line to <code>guestbook-data.txt</code> on the server. Then it read the file back and displayed all entries.
+        </div>
+      </div>
+    </section>
+
+    <!-- STEP 6 -->
+    <section class="step-card" id="step-6" aria-labelledby="step-6-title">
+      <div class="step-header" onclick="toggleStep(this)" role="button" tabindex="0" aria-expanded="false">
+        <div class="step-num" id="num-6">6</div>
+        <div class="step-title-wrap">
+          <div class="step-title" id="step-6-title">Submit 2–3 more entries</div>
+          <div class="step-subtitle">See the list grow and entries stack up</div>
+        </div>
+        <button class="step-done-btn" onclick="markDone(event,6)">Mark done</button>
+        <i class="fa-solid fa-chevron-down step-chevron" aria-hidden="true"></i>
+      </div>
+      <div class="step-body">
+        <ol class="action-list">
+          <li>Submit a second entry with a different name - pretend you're another visitor.</li>
+          <li>Submit a third entry.</li>
+          <li>Notice that the newest entries appear at the top (newest first).</li>
+          <li>Now close the browser tab completely, open a fresh one, and visit the guestbook URL again.</li>
+        </ol>
+        <div class="callout see">
+          <strong><i class="fa-solid fa-eye"></i> What you should see</strong>
+          All your entries are still there after reopening the tab. This is what "persistence" means - the data is on the server, not in the browser. A completely different person on a different computer would see those same entries.
+        </div>
+        <div class="callout note">
+          <strong><i class="fa-solid fa-star"></i> Compare to localStorage</strong>
+          In our earlier localStorage lab, data lived in the browser - close the tab and it might be gone. Here, data lives on the server and is shared by everyone who visits. That's the key difference between client-side and server-side storage.
+        </div>
+      </div>
+    </section>
+
+    <!-- STEP 7 -->
+    <section class="step-card" id="step-7" aria-labelledby="step-7-title">
+      <div class="step-header" onclick="toggleStep(this)" role="button" tabindex="0" aria-expanded="false">
+        <div class="step-num" id="num-7">7</div>
+        <div class="step-title-wrap">
+          <div class="step-title" id="step-7-title">Find the data file in File Manager</div>
+          <div class="step-subtitle">See exactly what PHP saved to disk</div>
+        </div>
+        <button class="step-done-btn" onclick="markDone(event,7)">Mark done</button>
+        <i class="fa-solid fa-chevron-down step-chevron" aria-hidden="true"></i>
+      </div>
+      <div class="step-body">
+        <p>Now go see the raw data - exactly as PHP wrote it to the server.</p>
+        <ol class="action-list">
+          <li>Go to your File Manager tab.</li>
+          <li>Navigate to <code>public_html/vibe-php/</code> - the same folder as your PHP file.</li>
+          <li>Look for a file called <code>guestbook-data.txt</code>. It should have appeared automatically after your first submission.</li>
+          <li>Right-click <code>guestbook-data.txt</code> → <strong>View</strong> (or <strong>Edit</strong> to open it in the editor).</li>
+        </ol>
+        <div class="callout see">
+          <strong><i class="fa-solid fa-eye"></i> What you should see</strong>
+          Each line is one JSON object - one entry. It will look something like this:
+        </div>
+        <div class="data-preview">
+{<span class="data-key">"name"</span>:<span class="data-str">"Your Name"</span>,<span class="data-key">"message"</span>:<span class="data-str">"Hi, this is my first entry!"</span>,<span class="data-key">"time"</span>:<span class="data-str">"2025-07-09 14:22:10"</span>}
+{<span class="data-key">"name"</span>:<span class="data-str">"Another Visitor"</span>,<span class="data-key">"message"</span>:<span class="data-str">"Great guestbook!"</span>,<span class="data-key">"time"</span>:<span class="data-str">"2025-07-09 14:23:45"</span>}
+{<span class="data-key">"name"</span>:<span class="data-str">"Third Person"</span>,<span class="data-key">"message"</span>:<span class="data-str">"Love this site."</span>,<span class="data-key">"time"</span>:<span class="data-str">"2025-07-09 14:25:01"</span>}</div>
+        <p>Each line is a self-contained JSON object. PHP reads every line and decodes each one with <code>json_decode()</code> to display the entries.</p>
+      </div>
+    </section>
+
+    <!-- STEP 8 -->
+    <section class="step-card" id="step-8" aria-labelledby="step-8-title">
+      <div class="step-header" onclick="toggleStep(this)" role="button" tabindex="0" aria-expanded="false">
+        <div class="step-num" id="num-8">8</div>
+        <div class="step-title-wrap">
+          <div class="step-title" id="step-8-title">Test the validation - try to break it</div>
+          <div class="step-subtitle">Confirm security rules are enforced on the server</div>
+        </div>
+        <button class="step-done-btn" onclick="markDone(event,8)">Mark done</button>
+        <i class="fa-solid fa-chevron-down step-chevron" aria-hidden="true"></i>
+      </div>
+      <div class="step-body">
+        <p>Good developers test failure cases - try each of these to make sure PHP rejects them properly:</p>
+        <ol class="action-list">
+          <li><strong>Empty name:</strong> Leave name blank, write a message, click Submit. You should see an error - the entry should NOT appear in the list.</li>
+          <li><strong>Empty message:</strong> Enter a name, leave message blank, click Submit. Same - should be rejected.</li>
+          <li><strong>HTML in message:</strong> Enter a message like <code>&lt;b&gt;Bold text&lt;/b&gt;</code>. Submit it. Check the guestbook - the HTML tags should appear as literal text, not as formatting. That's <code>strip_tags()</code> and <code>htmlspecialchars()</code> doing their job.</li>
+          <li><strong>Very long message:</strong> Paste in a message longer than 200 characters. The 200-char limit should prevent it from saving.</li>
+        </ol>
+        <div class="callout see">
+          <strong><i class="fa-solid fa-eye"></i> What you should see</strong>
+          Every one of these invalid attempts should be caught by PHP. The data file should not gain new entries for the rejected submissions. If any of them slip through, ask Claude to strengthen the validation.
+        </div>
+      </div>
+    </section>
+
+    <!-- STEP 9 -->
+    <section class="step-card" id="step-9" aria-labelledby="step-9-title">
+      <div class="step-header" onclick="toggleStep(this)" role="button" tabindex="0" aria-expanded="false">
+        <div class="step-num" id="num-9">9</div>
+        <div class="step-title-wrap">
+          <div class="step-title" id="step-9-title">Check the file permissions (important security step)</div>
+          <div class="step-subtitle">Make sure the data file isn't too exposed</div>
+        </div>
+        <button class="step-done-btn" onclick="markDone(event,9)">Mark done</button>
+        <i class="fa-solid fa-chevron-down step-chevron" aria-hidden="true"></i>
+      </div>
+      <div class="step-body">
+        <p>Right now, someone could visit <code>yourdomain.com/vibe-php/guestbook-data.txt</code> directly in their browser and read the raw data file. For a public guestbook that's not a huge deal, but it's still worth knowing about and fixing.</p>
+        <ol class="action-list">
+          <li>Try it: open a new tab and go to <code>yourdomain.com/vibe-php/guestbook-data.txt</code>. Can you read the file directly? Probably yes.</li>
+          <li>Go back to File Manager. Right-click <code>guestbook-data.txt</code> → <strong>Change Permissions</strong>.</li>
+          <li>Set permissions to <strong>600</strong> (owner read/write only). This means the web server can still read it (PHP runs as the file owner on cPanel), but it won't serve it directly to browsers.</li>
+          <li>Click <strong>Change Permissions</strong> to save.</li>
+          <li>Try visiting the .txt file URL again. You should now get a 403 Forbidden error.</li>
+        </ol>
+        <div class="callout see">
+          <strong><i class="fa-solid fa-eye"></i> What you should see</strong>
+          A 403 error when visiting the .txt file directly, but the guestbook itself still works perfectly because PHP (running on the server) has permission to read and write the file - only direct browser access is blocked.
+        </div>
+        <div class="callout note">
+          <strong><i class="fa-solid fa-star"></i> Why this matters</strong>
+          File permissions are one of the first things a security professional checks on a server. Good habit: data files should never be directly accessible to the public web. PHP reads them; browsers shouldn't.
+        </div>
+      </div>
+    </section>
+
+    <!-- STEP 10 -->
+    <section class="step-card" id="step-10" aria-labelledby="step-10-title">
+      <div class="step-header" onclick="toggleStep(this)" role="button" tabindex="0" aria-expanded="false">
+        <div class="step-num" id="num-10">10</div>
+        <div class="step-title-wrap">
+          <div class="step-title" id="step-10-title">Personalize - make it feel like yours</div>
+          <div class="step-subtitle">Customize the design or add a feature with Claude</div>
+        </div>
+        <button class="step-done-btn" onclick="markDone(event,10)">Mark done</button>
+        <i class="fa-solid fa-chevron-down step-chevron" aria-hidden="true"></i>
+      </div>
+      <div class="step-body">
+        <p>Before moving on, add one personal touch. Here are some ideas - pick one or come up with your own:</p>
+        <ol class="action-list">
+          <li><strong>Change the theme colors</strong> - ask Claude to update the accent color from yellow to something else. Then find the CSS variable in the code and make the change yourself too.</li>
+          <li><strong>Add a character counter</strong> - ask Claude: "Add a live character counter below the message textarea that shows how many of the 200 characters the user has used. Update it with JavaScript as they type."</li>
+          <li><strong>Add a mood/emoji field</strong> - ask Claude to add an optional emoji or mood selector to the form and save it alongside the name and message in the JSON.</li>
+        </ol>
+        <div class="callout tip">
+          <strong><i class="fa-solid fa-lightbulb"></i> How to add a feature with Claude</strong>
+          Open your <code>guestbook.php</code> in the File Manager editor. Select all the code. Paste it into Claude along with your request - for example: "Here's my guestbook.php. Add a character counter to the message field." Claude will return an updated version of the full file. Paste that back in and save.
+        </div>
+      </div>
+    </section>
+
+    <div class="finish-card">
+      <div class="finish-icon" aria-hidden="true">📖</div>
+      <h2>Lab 3 Complete!</h2>
+      <p>You've built an app that remembers things - data that persists beyond a single session and is shared with every visitor. That's a genuinely powerful thing.</p>
+      <p style="margin-top:0.75rem">One lab left: <strong>Lab 4 - Build Your Own API</strong>, where your PHP talks to JavaScript through a clean JSON interface.</p>
+    </div>
+
+  </main>
+
+  <script>
+    const TOTAL_STEPS = 10;
+    const completed   = new Set();
+
+    const dotsContainer = document.getElementById('progress-dots');
+    for (let i = 1; i <= TOTAL_STEPS; i++) {
+      const dot = document.createElement('a');
+      dot.className   = 'p-dot';
+      dot.textContent = i;
+      dot.href        = `#step-${i}`;
+      dot.id          = `dot-${i}`;
+      dot.setAttribute('aria-label', `Go to step ${i}`);
+      dotsContainer.appendChild(dot);
+    }
+    document.getElementById('dot-1').classList.add('active');
+
+    function toggleStep(header) {
+      const card   = header.closest('.step-card');
+      const isOpen = card.classList.toggle('open');
+      header.setAttribute('aria-expanded', isOpen);
+      const stepId = parseInt(card.id.replace('step-', ''));
+      updateActiveDot(stepId);
+    }
+
+    document.querySelectorAll('.step-header').forEach(header => {
+      header.addEventListener('keydown', e => {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggleStep(header); }
+      });
+    });
+
+    function markDone(event, stepNum) {
+      event.stopPropagation();
+      const btn      = event.target;
+      const numBadge = document.getElementById(`num-${stepNum}`);
+      const dot      = document.getElementById(`dot-${stepNum}`);
+      if (completed.has(stepNum)) {
+        completed.delete(stepNum); btn.textContent = 'Mark done'; btn.classList.remove('marked');
+        numBadge.classList.remove('done'); dot.classList.remove('done');
+      } else {
+        completed.add(stepNum); btn.textContent = '✓ Done'; btn.classList.add('marked');
+        numBadge.classList.add('done'); dot.classList.remove('active'); dot.classList.add('done');
+      }
+      const pct  = Math.round((completed.size / TOTAL_STEPS) * 100);
+      document.getElementById('progress-fill').style.width = pct + '%';
+      document.getElementById('progress-bar').setAttribute('aria-valuenow', pct);
+    }
+
+    function updateActiveDot(stepNum) {
+      document.querySelectorAll('.p-dot').forEach(d => d.classList.remove('active'));
+      const dot = document.getElementById(`dot-${stepNum}`);
+      if (dot && !completed.has(stepNum)) dot.classList.add('active');
+    }
+
+    function copyPrompt(button) {
+      const text = button.closest('.prompt-box').querySelector('.prompt-text');
+      navigator.clipboard.writeText(text.innerText).then(() => {
+        button.textContent = 'Copied!'; button.classList.add('copied');
+        setTimeout(() => { button.textContent = 'Copy'; button.classList.remove('copied'); }, 2000);
+      }).catch(() => { button.textContent = 'Select manually'; setTimeout(() => { button.textContent = 'Copy'; }, 2500); });
+    }
+  </script>
+</body>
+</html>

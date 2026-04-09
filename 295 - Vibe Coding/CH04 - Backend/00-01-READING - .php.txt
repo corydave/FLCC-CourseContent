@@ -1,0 +1,1376 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <!--
+    ============================================================
+    VIBE CODING: AI-Assisted Application Development
+    Finger Lakes Community College
+
+    Handout: Introduction to PHP & Back-End Development
+    Version: 1.0 - Initial build
+
+    This file is a self-contained, self-paced interactive tutorial
+    introducing PHP to students who have no prior back-end experience.
+
+    It covers:
+      - What PHP is and how it differs from JavaScript
+      - Things PHP can do (with annotated examples)
+      - Security fundamentals for back-end code
+      - Four proposed hands-on labs
+
+    Dependencies (loaded from CDN - no installs needed):
+      - Google Fonts: "Space Mono" (monospace/code feel), "DM Sans" (body)
+      - Font Awesome 6 (icons)
+
+    Accessibility:
+      - All interactive elements are keyboard-navigable
+      - ARIA roles and labels on nav, tabs, and expandable panels
+      - Focus styles are visible and high-contrast
+      - Color is never the ONLY way information is conveyed
+
+    Color palette (matches course branding):
+      --primary:  #9900ff  (purple accent)
+      --bg:       #0d0d0d  (near-black background)
+      --surface:  #1a1a1a  (card/panel background)
+      --border:   #2a2a2a  (subtle borders)
+      --text:     #e8e8e8  (main text)
+      --muted:    #888888  (secondary/hint text)
+      --green:    #00e5a0  (success / "do this" accent)
+      --red:      #ff4d6a  (warning / "avoid this" accent)
+      --yellow:   #ffd166  (note/callout accent)
+    ============================================================
+  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PHP &amp; Back-End Basics - Vibe Coding @ FLCC</title>
+
+  <!-- Google Fonts: Space Mono for code feel, DM Sans for readability -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&amp;family=DM+Sans:wght@300;400;500;700&amp;display=swap" rel="stylesheet">
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    /* ============================================================
+       CSS CUSTOM PROPERTIES (design tokens)
+       Changing a value here updates it everywhere on the page.
+    ============================================================ */
+    :root {
+      --primary:        #9900ff;
+      --primary-dim:    #6600aa;
+      --primary-glow:   rgba(153, 0, 255, 0.25);
+      --bg:             #0d0d0d;
+      --surface:        #1a1a1a;
+      --surface-2:      #222222;
+      --border:         #2e2e2e;
+      --text:           #e8e8e8;
+      --muted:          #888;
+      --green:          #00e5a0;
+      --green-dim:      rgba(0, 229, 160, 0.12);
+      --red:            #ff4d6a;
+      --red-dim:        rgba(255, 77, 106, 0.12);
+      --yellow:         #ffd166;
+      --yellow-dim:     rgba(255, 209, 102, 0.12);
+      --blue:           #4fc3f7;
+      --blue-dim:       rgba(79, 195, 247, 0.12);
+      --radius:         10px;
+      --radius-sm:      6px;
+      --font-body:      'DM Sans', sans-serif;
+      --font-code:      'Space Mono', monospace;
+      --nav-height:     60px;
+      --transition:     0.2s ease;
+    }
+
+    /* ============================================================
+       RESET & BASE
+       Zero out default browser spacing; set sensible defaults.
+    ============================================================ */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      /* Smooth scrolling when jumping to anchor links */
+      scroll-behavior: smooth;
+      /* Account for the sticky nav so anchors don't hide under it */
+      scroll-padding-top: calc(var(--nav-height) + 20px);
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: var(--font-body);
+      font-size: 1rem;
+      line-height: 1.7;
+    }
+
+    /* Focus outline - visible ring for keyboard users */
+    :focus-visible {
+      outline: 2px solid var(--primary);
+      outline-offset: 3px;
+      border-radius: var(--radius-sm);
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* ============================================================
+       STICKY NAVIGATION BAR
+       Stays at the top of the screen as the user scrolls.
+    ============================================================ */
+    .site-nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      height: var(--nav-height);
+      background: rgba(13, 13, 13, 0.96);
+      /* Frosted-glass blur effect */
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 1.5rem;
+      gap: 1rem;
+    }
+
+    .nav-brand {
+      font-family: var(--font-code);
+      font-size: 0.85rem;
+      color: var(--primary);
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    /* The nav links scroll to sections on the page */
+    .nav-links {
+      display: flex;
+      list-style: none;
+      gap: 0.25rem;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .nav-links a {
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: var(--muted);
+      padding: 0.3rem 0.65rem;
+      border-radius: var(--radius-sm);
+      transition: color var(--transition), background var(--transition);
+      white-space: nowrap;
+    }
+
+    .nav-links a:hover,
+    .nav-links a:focus-visible {
+      color: var(--text);
+      background: var(--surface);
+      text-decoration: none;
+    }
+
+    /* ============================================================
+       PAGE LAYOUT - main content container
+    ============================================================ */
+    .page-wrap {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 2rem 1.25rem 4rem;
+    }
+
+    /* ============================================================
+       HERO HEADER
+       The big introductory section at the top of the page.
+    ============================================================ */
+    .hero {
+      text-align: center;
+      padding: 3rem 1rem 2.5rem;
+      margin-bottom: 2.5rem;
+    }
+
+    /* Small decorative label above the main title */
+    .hero-eyebrow {
+      display: inline-block;
+      font-family: var(--font-code);
+      font-size: 0.75rem;
+      color: var(--primary);
+      background: var(--primary-glow);
+      border: 1px solid var(--primary);
+      border-radius: 100px;
+      padding: 0.25rem 0.9rem;
+      margin-bottom: 1.25rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .hero h1 {
+      font-size: clamp(2rem, 5vw, 3rem);
+      font-weight: 700;
+      line-height: 1.15;
+      margin-bottom: 1rem;
+    }
+
+    /* The <?php ... ?> tag in the title gets the purple color */
+    .hero h1 .tag {
+      color: var(--primary);
+      font-family: var(--font-code);
+    }
+
+    .hero-subtitle {
+      font-size: 1.1rem;
+      color: var(--muted);
+      max-width: 560px;
+      margin: 0 auto 1.75rem;
+    }
+
+    /* Row of small stat/fact pills under the subtitle */
+    .hero-stats {
+      display: flex;
+      gap: 0.75rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .stat-pill {
+      font-size: 0.8rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 100px;
+      padding: 0.3rem 0.85rem;
+      color: var(--muted);
+    }
+
+    .stat-pill strong {
+      color: var(--text);
+    }
+
+    /* ============================================================
+       SECTION STRUCTURE
+       Each major topic is a <section> with a heading and content.
+    ============================================================ */
+    .section {
+      margin-bottom: 3.5rem;
+    }
+
+    .section-header {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin-bottom: 1.25rem;
+    }
+
+    /* Colored icon badge next to each section title */
+    .section-icon {
+      width: 38px;
+      height: 38px;
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1rem;
+      flex-shrink: 0;
+    }
+
+    .section-icon.purple { background: var(--primary-glow); color: var(--primary); }
+    .section-icon.green  { background: var(--green-dim);    color: var(--green); }
+    .section-icon.red    { background: var(--red-dim);      color: var(--red); }
+    .section-icon.yellow { background: var(--yellow-dim);   color: var(--yellow); }
+    .section-icon.blue   { background: var(--blue-dim);     color: var(--blue); }
+
+    .section h2 {
+      font-size: 1.45rem;
+      font-weight: 700;
+    }
+
+    /* Horizontal rule / divider under sections */
+    .section-divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 3rem 0;
+    }
+
+    /* ============================================================
+       CARDS - general purpose content panels
+    ============================================================ */
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .card h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    .card p {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    /* A two-column grid of cards */
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1rem;
+    }
+
+    /* ============================================================
+       CALLOUT BOXES (info, warning, success, tip)
+       Used to highlight important information.
+    ============================================================ */
+    .callout {
+      border-radius: var(--radius);
+      padding: 1rem 1.25rem;
+      border-left: 3px solid;
+      margin: 1.25rem 0;
+      font-size: 0.95rem;
+    }
+
+    .callout-icon {
+      margin-right: 0.4rem;
+    }
+
+    .callout.info {
+      background: var(--blue-dim);
+      border-color: var(--blue);
+      color: #b8e4f9;
+    }
+
+    .callout.success {
+      background: var(--green-dim);
+      border-color: var(--green);
+      color: #9ef5d8;
+    }
+
+    .callout.warning {
+      background: var(--red-dim);
+      border-color: var(--red);
+      color: #ffb3bf;
+    }
+
+    .callout.note {
+      background: var(--yellow-dim);
+      border-color: var(--yellow);
+      color: #ffe4a0;
+    }
+
+    .callout strong {
+      display: block;
+      margin-bottom: 0.25rem;
+      font-size: 0.85rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    /* ============================================================
+       EXPANDABLE CODE PANELS (accordion-style)
+       Click the header to show/hide the code example.
+    ============================================================ */
+    .code-panel {
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      margin: 1rem 0;
+      overflow: hidden;
+    }
+
+    /* The clickable button that toggles the panel open/closed */
+    .code-panel-toggle {
+      width: 100%;
+      background: var(--surface-2);
+      color: var(--text);
+      border: none;
+      cursor: pointer;
+      padding: 0.85rem 1.1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-family: var(--font-body);
+      font-size: 0.9rem;
+      font-weight: 500;
+      text-align: left;
+      transition: background var(--transition);
+    }
+
+    .code-panel-toggle:hover {
+      background: var(--surface);
+    }
+
+    .code-panel-toggle .toggle-label {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    /* The chevron icon rotates when panel is open */
+    .code-panel-toggle .chevron {
+      transition: transform var(--transition);
+      color: var(--muted);
+      font-size: 0.8rem;
+    }
+
+    /* When the panel has the "open" class, rotate the chevron */
+    .code-panel.open .chevron {
+      transform: rotate(180deg);
+    }
+
+    /* The collapsible body - hidden by default */
+    .code-panel-body {
+      display: none;
+      border-top: 1px solid var(--border);
+    }
+
+    /* When open, show the body */
+    .code-panel.open .code-panel-body {
+      display: block;
+    }
+
+    /* ============================================================
+       CODE BLOCK STYLING
+       The actual <pre><code> blocks for PHP examples.
+    ============================================================ */
+    .code-block {
+      background: #111;
+      padding: 1.25rem 1.5rem;
+      overflow-x: auto;
+      font-family: var(--font-code);
+      font-size: 0.8rem;
+      line-height: 1.75;
+      color: #e0e0e0;
+    }
+
+    /* PHP syntax highlight colors - done manually with <span> tags */
+    .php-tag    { color: #9900ff; font-weight: bold; }  /* <?php ?> */
+    .php-kw     { color: #4fc3f7; }                     /* keywords: echo, if, function */
+    .php-fn     { color: #ffd166; }                     /* built-in functions */
+    .php-str    { color: #00e5a0; }                     /* "strings" */
+    .php-var    { color: #ff9eb5; }                     /* $variables */
+    .php-comment{ color: #666; font-style: italic; }    /* // comments */
+    .php-num    { color: #ffa07a; }                     /* numbers */
+    .php-op     { color: #ccc; }                        /* operators = . -> */
+
+    /* An optional explanation paragraph below a code block */
+    .code-explanation {
+      background: var(--surface);
+      padding: 0.85rem 1.25rem;
+      font-size: 0.88rem;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+    }
+
+    .code-explanation strong {
+      color: var(--text);
+    }
+
+    /* ============================================================
+       AI PROMPT BOXES
+       Shows a suggested prompt the student can paste into Claude.
+    ============================================================ */
+    .ai-prompt-box {
+      background: var(--surface);
+      border: 1px solid var(--primary);
+      border-radius: var(--radius);
+      padding: 1.1rem 1.25rem;
+      margin: 1.25rem 0;
+      position: relative;
+    }
+
+    .ai-prompt-box-label {
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--primary);
+      margin-bottom: 0.6rem;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .ai-prompt-text {
+      font-family: var(--font-code);
+      font-size: 0.8rem;
+      color: #ccc;
+      line-height: 1.7;
+      white-space: pre-wrap;
+    }
+
+    /* Copy button for the prompt */
+    .copy-btn {
+      position: absolute;
+      top: 0.75rem;
+      right: 0.75rem;
+      background: var(--primary-glow);
+      color: var(--primary);
+      border: 1px solid var(--primary);
+      border-radius: var(--radius-sm);
+      padding: 0.25rem 0.65rem;
+      font-size: 0.75rem;
+      font-family: var(--font-body);
+      cursor: pointer;
+      transition: background var(--transition), color var(--transition);
+    }
+
+    .copy-btn:hover {
+      background: var(--primary);
+      color: white;
+    }
+
+    .copy-btn.copied {
+      background: var(--green-dim);
+      color: var(--green);
+      border-color: var(--green);
+    }
+
+    /* ============================================================
+       COMPARISON TABLE (do vs don't)
+    ============================================================ */
+    .compare-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+      margin: 1rem 0;
+    }
+
+    .compare-table th {
+      padding: 0.6rem 1rem;
+      text-align: left;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+    }
+
+    .compare-table th.do   { color: var(--green); background: var(--green-dim); }
+    .compare-table th.dont { color: var(--red);   background: var(--red-dim);   }
+
+    .compare-table td {
+      padding: 0.6rem 1rem;
+      border-top: 1px solid var(--border);
+      font-family: var(--font-code);
+      font-size: 0.78rem;
+      vertical-align: top;
+    }
+
+    .compare-table td.do   { color: var(--green); background: rgba(0,229,160,0.05); }
+    .compare-table td.dont { color: var(--red);   background: rgba(255,77,106,0.05); }
+
+    /* ============================================================
+       LAB CARDS
+       Each proposed lab gets a styled card with number, title,
+       description, objectives, and a suggested AI prompt.
+    ============================================================ */
+    .lab-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Decorative gradient bar on the left edge of each lab card */
+    .lab-card::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 4px;
+      background: linear-gradient(to bottom, var(--card-accent-top), var(--card-accent-bot));
+    }
+
+    /* Each lab has a large faded number in the background */
+    .lab-number {
+      position: absolute;
+      top: 0.5rem;
+      right: 1rem;
+      font-family: var(--font-code);
+      font-size: 5rem;
+      font-weight: 700;
+      color: var(--border);
+      line-height: 1;
+      user-select: none;
+      pointer-events: none;
+    }
+
+    .lab-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      border-radius: 100px;
+      padding: 0.2rem 0.7rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .lab-title {
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    .lab-desc {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-bottom: 1rem;
+    }
+
+    .lab-objectives {
+      list-style: none;
+      margin-bottom: 1.25rem;
+    }
+
+    .lab-objectives li {
+      font-size: 0.88rem;
+      padding: 0.3rem 0;
+      display: flex;
+      align-items: flex-start;
+      gap: 0.5rem;
+    }
+
+    .lab-objectives li::before {
+      content: '✓';
+      color: var(--green);
+      font-weight: 700;
+      flex-shrink: 0;
+      margin-top: 0.05rem;
+    }
+
+    .lab-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .lab-tag {
+      font-size: 0.75rem;
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      border-radius: 100px;
+      padding: 0.2rem 0.65rem;
+      color: var(--muted);
+    }
+
+    /* ============================================================
+       VOCABULARY GLOSSARY SECTION
+    ============================================================ */
+    .vocab-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 0.75rem;
+    }
+
+    .vocab-item {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      padding: 0.85rem 1rem;
+    }
+
+    .vocab-term {
+      font-family: var(--font-code);
+      font-size: 0.85rem;
+      color: var(--primary);
+      font-weight: 700;
+      margin-bottom: 0.25rem;
+    }
+
+    .vocab-def {
+      font-size: 0.85rem;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    /* ============================================================
+       COMPARISON DIAGRAM: Front-end vs Back-end
+    ============================================================ */
+    .flow-diagram {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0;
+      flex-wrap: wrap;
+      margin: 1.5rem 0;
+    }
+
+    .flow-box {
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1rem 1.25rem;
+      text-align: center;
+      min-width: 130px;
+      flex: 1;
+      max-width: 180px;
+    }
+
+    .flow-box .flow-icon {
+      font-size: 1.75rem;
+      display: block;
+      margin-bottom: 0.4rem;
+    }
+
+    .flow-box .flow-label {
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 0.25rem;
+    }
+
+    .flow-box .flow-sub {
+      font-size: 0.72rem;
+      color: var(--muted);
+    }
+
+    .flow-arrow {
+      font-size: 1.5rem;
+      color: var(--muted);
+      padding: 0 0.25rem;
+      flex-shrink: 0;
+    }
+
+    .flow-box.highlight {
+      border-color: var(--primary);
+      background: var(--primary-glow);
+    }
+
+    .flow-box.highlight .flow-label {
+      color: var(--primary);
+    }
+
+    /* ============================================================
+       UTILITY CLASSES
+    ============================================================ */
+    .text-muted  { color: var(--muted); }
+    .text-green  { color: var(--green); }
+    .text-red    { color: var(--red); }
+    .text-yellow { color: var(--yellow); }
+    .text-purple { color: var(--primary); }
+    .text-blue   { color: var(--blue); }
+    .mt-1  { margin-top: 0.5rem; }
+    .mt-2  { margin-top: 1rem; }
+    .mt-3  { margin-top: 1.5rem; }
+    .mb-1  { margin-bottom: 0.5rem; }
+    .mb-2  { margin-bottom: 1rem; }
+    .bold  { font-weight: 700; }
+    .small { font-size: 0.85rem; }
+    .font-code { font-family: var(--font-code); }
+
+    /* ============================================================
+       RESPONSIVE: narrow screens (phones)
+    ============================================================ */
+    @media (max-width: 600px) {
+      .site-nav {
+        padding: 0 1rem;
+      }
+
+      .nav-links {
+        display: none; /* Hide nav links on very small screens */
+      }
+
+      .flow-diagram {
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .flow-arrow {
+        transform: rotate(90deg);
+        text-align: center;
+        width: 100%;
+      }
+
+      .flow-box {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head><body><nav class="site-nav" aria-label="Page navigation"><span class="nav-brand">&lt;?php // Vibe Coding @ FLCC</span>
+<ul class="nav-links" role="list">
+<li><a href="#what-is-php">What Is PHP?</a></li>
+<li><a href="#what-php-can-do">What PHP Can Do</a></li>
+<li><a href="#security">Security</a></li>
+<li><a href="#labs">Labs</a></li>
+<li><a href="#vocab">Vocabulary</a></li>
+</ul>
+</nav><!-- ============================================================
+       MAIN PAGE CONTENT
+  ============================================================ --><main class="page-wrap" id="main-content"><!-- ====== HERO ====== --><header class="hero"><span class="hero-eyebrow"> <i class="fa-solid fa-server"></i> Back-End Development · Phase 2 </span>
+<h1>Hello from the Server:<br><span class="tag">&lt;?php</span> and You <span class="tag">?&gt;</span></h1>
+<p class="hero-subtitle">Your apps have been living entirely in the browser - now it's time to give them a back end. PHP runs on the <em>server</em>, not the screen, and that changes everything.</p>
+<div class="hero-stats"><span class="stat-pill"><strong>4</strong> hands-on labs</span> <span class="stat-pill"><strong>cPanel</strong> ready to go</span> <span class="stat-pill"><strong>No install</strong> required</span> <span class="stat-pill"><strong>AI-assisted</strong> throughout</span></div>
+</header><!-- ============================================================
+         SECTION 1: WHAT IS PHP?
+    ============================================================ -->
+<section class="section" id="what-is-php" aria-labelledby="what-is-php-heading">
+<div class="section-header">
+<div class="section-icon purple" aria-hidden="true"><i class="fa-solid fa-server"></i></div>
+<h2 id="what-is-php-heading">What Is PHP?</h2>
+</div>
+<p>Everything you've built so far - HTML, CSS, JavaScript - runs in the <strong>browser</strong>. The user's computer downloads your files and runs them locally. That's called the <strong>front end</strong>.</p>
+<p class="mt-2">PHP is different. It runs on the <strong>server</strong> - a computer that lives somewhere on the internet. By the time the user's browser receives anything, PHP has already done its job. That's called the <strong>back end</strong>.</p>
+<!-- Visual diagram showing the request/response cycle -->
+<div class="flow-diagram" role="img" aria-label="Request flow: Browser sends request to Server, PHP runs on server, HTML is sent back to browser">
+<div class="flow-box"><span class="flow-icon">💻</span>
+<div class="flow-label">Browser</div>
+<div class="flow-sub">Requests a page<br>Displays the result</div>
+</div>
+<div class="flow-arrow" aria-hidden="true">→</div>
+<div class="flow-box"><span class="flow-icon">🌐</span>
+<div class="flow-label">Internet</div>
+<div class="flow-sub">Request travels<br>to the server</div>
+</div>
+<div class="flow-arrow" aria-hidden="true">→</div>
+<div class="flow-box highlight"><span class="flow-icon">⚙️</span>
+<div class="flow-label">PHP Runs Here</div>
+<div class="flow-sub">On your cPanel<br>server</div>
+</div>
+<div class="flow-arrow" aria-hidden="true">→</div>
+<div class="flow-box"><span class="flow-icon">📄</span>
+<div class="flow-label">HTML Sent Back</div>
+<div class="flow-sub">Plain HTML arrives<br>in the browser</div>
+</div>
+</div>
+<div class="callout info mt-2"><strong><i class="callout-icon fa-solid fa-lightbulb"></i>Key idea</strong> PHP is <em>invisible</em> to the end user. By the time the browser receives the page, PHP is done - the browser only ever sees the resulting HTML. You can't "view source" and see PHP code.</div>
+<!-- What PHP looks like -->
+<h3 class="mt-3 mb-1">What does PHP look like?</h3>
+<p>PHP files end in <code class="font-code text-purple">.php</code> instead of <code class="font-code text-purple">.html</code>. They can contain regular HTML <em>plus</em> PHP code wrapped in special tags.</p>
+<div class="code-panel open" role="region" aria-label="Basic PHP syntax example"><button class="code-panel-toggle" aria-expanded="true" onclick="togglePanel(this)"> <span class="toggle-label"> <i class="fa-solid fa-code text-purple"></i> Example: Your first PHP file </span> <i class="fa-solid fa-chevron-down chevron" aria-hidden="true"></i> </button>
+<div class="code-panel-body">
+<pre class="code-block"><code><span class="php-comment"><!-- This is a normal HTML file ... -->
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;&lt;title&gt;My PHP Page&lt;/title&gt;&lt;/head&gt;
+&lt;body&gt;</span>
+
+  <span class="php-comment">&lt;!-- ... but here, PHP takes over --&gt;</span>
+  <span class="php-tag">&lt;?php</span>
+    <span class="php-comment">// Everything between &lt;?php and ?&gt; is PHP code.</span>
+    <span class="php-comment">// This line creates a variable called $greeting.</span>
+    <span class="php-var">$greeting</span> <span class="php-op">=</span> <span class="php-str">"Hello, world!"</span><span class="php-op">;</span>
+
+    <span class="php-comment">// echo sends text to the browser as HTML output.</span>
+    <span class="php-kw">echo</span> <span class="php-str">"&lt;h1&gt;"</span> <span class="php-op">.</span> <span class="php-var">$greeting</span> <span class="php-op">.</span> <span class="php-str">"&lt;/h1&gt;"</span><span class="php-op">;</span>
+
+    <span class="php-comment">// PHP can do things JS can't - like get the current server date.</span>
+    <span class="php-kw">echo</span> <span class="php-str">"&lt;p&gt;Today is: "</span> <span class="php-op">.</span> <span class="php-fn">date</span>(<span class="php-str">"l, F j, Y"</span>) <span class="php-op">.</span> <span class="php-str">"&lt;/p&gt;"</span><span class="php-op">;</span>
+  <span class="php-tag">?&gt;</span>
+
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+<div class="code-explanation"><strong>What's happening:</strong> The <span class="font-code text-purple">&lt;?php</span> tag starts PHP mode; <span class="font-code text-purple">?&gt;</span> ends it. <span class="font-code text-purple">$greeting</span> is a variable (PHP variables always start with <strong>$</strong>). <span class="font-code text-purple">echo</span> prints output. The <span class="font-code text-yellow">.</span> operator joins strings together (like <code>+</code> does in JavaScript).</div>
+</div>
+</div>
+<!-- Front-end vs back-end comparison -->
+<h3 class="mt-3 mb-1">JavaScript vs PHP: what runs where?</h3>
+<div class="card-grid">
+<div class="card">
+<h3 class="text-blue">🖥️ JavaScript (Front End)</h3>
+<p>Runs in the user's browser. Can update the page without reloading. Has no direct access to files or databases. Everyone can read your code.</p>
+</div>
+<div class="card">
+<h3 class="text-purple">⚙️ PHP (Back End)</h3>
+<p>Runs on the server. Can read/write files and databases. Can talk to external services. Nobody sees your PHP code - only the result.</p>
+</div>
+</div>
+<div class="callout note mt-2"><strong><i class="callout-icon fa-solid fa-star"></i>Fun fact</strong> PHP was created in 1994 and powers approximately 77% of all websites with a known server-side language - including WordPress, Wikipedia, and Facebook (in its early years). It's one of the most widely deployed back-end technologies on the planet.</div>
+</section>
+<hr class="section-divider" aria-hidden="true"><!-- ============================================================
+         SECTION 2: WHAT PHP CAN DO
+    ============================================================ -->
+<section class="section" id="what-php-can-do" aria-labelledby="what-php-can-do-heading">
+<div class="section-header">
+<div class="section-icon green" aria-hidden="true"><i class="fa-solid fa-bolt"></i></div>
+<h2 id="what-php-can-do-heading">What PHP Can Do</h2>
+</div>
+<p>Once code moves to the server, a whole new set of capabilities opens up. Here are the most important things PHP can do that front-end code simply can't.</p>
+<!-- ---- Capability 1: Handle Forms ---- -->
+<h3 class="mt-3 mb-1 text-green">1. Handle Form Submissions</h3>
+<p>When a user fills out a form and clicks Submit, the data travels to the server as an HTTP request. PHP reads that data, processes it (validates, saves, emails, etc.) and sends back a response. This is the foundation of almost every web app.</p>
+<div class="code-panel" role="region" aria-label="Form handling example"><button class="code-panel-toggle" aria-expanded="false" onclick="togglePanel(this)"> <span class="toggle-label"> <i class="fa-solid fa-code text-green"></i> Example: Reading a submitted form </span> <i class="fa-solid fa-chevron-down chevron" aria-hidden="true"></i> </button>
+<div class="code-panel-body">
+<pre class="code-block"><code><span class="php-tag">&lt;?php</span>
+  <span class="php-comment">// $_POST is a special PHP "superglobal" - it holds data</span>
+  <span class="php-comment">// that was submitted via an HTML form with method="POST".</span>
+
+  <span class="php-comment">// isset() checks whether a variable exists before we use it.</span>
+  <span class="php-comment">// This prevents errors if the page loads without a form submission.</span>
+  <span class="php-kw">if</span> (<span class="php-fn">isset</span>(<span class="php-var">$_POST</span>[<span class="php-str">'name'</span>])) {
+
+    <span class="php-comment">// htmlspecialchars() converts special characters to HTML-safe ones.</span>
+    <span class="php-comment">// ALWAYS do this before displaying user input - it prevents attacks.</span>
+    <span class="php-var">$name</span> <span class="php-op">=</span> <span class="php-fn">htmlspecialchars</span>(<span class="php-var">$_POST</span>[<span class="php-str">'name'</span>])<span class="php-op">;</span>
+
+    <span class="php-kw">echo</span> <span class="php-str">"&lt;p&gt;Nice to meet you, "</span> <span class="php-op">.</span> <span class="php-var">$name</span> <span class="php-op">.</span> <span class="php-str">"!&lt;/p&gt;"</span><span class="php-op">;</span>
+  }
+<span class="php-tag">?&gt;</span>
+
+<span class="php-comment">&lt;!-- The HTML form that sends data to this same PHP file --&gt;</span>
+&lt;form method="POST" action=""&gt;
+  &lt;input type="text" name="name" placeholder="Your name" /&gt;
+  &lt;button type="submit"&gt;Say Hello&lt;/button&gt;
+&lt;/form&gt;</code></pre>
+<div class="code-explanation"><strong>Key concepts:</strong> <strong>$_POST</strong> holds form data. Setting <strong>action=""</strong> on the form means it submits to the same PHP file. Notice <strong>htmlspecialchars()</strong> - that's your first security tool, and we'll talk about why it matters in the Security section.</div>
+</div>
+</div>
+<!-- ---- Capability 2: Read/Write Files ---- -->
+<h3 class="mt-3 mb-1 text-green">2. Read and Write Files</h3>
+<p>PHP can create, read, update, and delete files on the server. This lets you persist data without a full database - great for simple apps like a guestbook, a log file, or saving user-submitted content.</p>
+<div class="code-panel" role="region" aria-label="File writing example"><button class="code-panel-toggle" aria-expanded="false" onclick="togglePanel(this)"> <span class="toggle-label"> <i class="fa-solid fa-code text-green"></i> Example: Writing and reading a text file </span> <i class="fa-solid fa-chevron-down chevron" aria-hidden="true"></i> </button>
+<div class="code-panel-body">
+<pre class="code-block"><code><span class="php-tag">&lt;?php</span>
+  <span class="php-comment">// Define where the file will live on the server.</span>
+  <span class="php-comment">// __DIR__ means "the same folder as this PHP file" - safer than a relative path.</span>
+  <span class="php-var">$file_path</span> <span class="php-op">=</span> <span class="php-fn">__DIR__</span> <span class="php-op">.</span> <span class="php-str">'/messages.txt'</span><span class="php-op">;</span>
+
+  <span class="php-comment">// If a form was submitted, save the message to the file.</span>
+  <span class="php-kw">if</span> (<span class="php-fn">isset</span>(<span class="php-var">$_POST</span>[<span class="php-str">'message'</span>])) {
+
+    <span class="php-comment">// Clean the input before saving it. Never trust user data!</span>
+    <span class="php-var">$message</span> <span class="php-op">=</span> <span class="php-fn">htmlspecialchars</span>(<span class="php-fn">trim</span>(<span class="php-var">$_POST</span>[<span class="php-str">'message'</span>]))<span class="php-op">;</span>
+
+    <span class="php-comment">// file_put_contents() writes text to a file.</span>
+    <span class="php-comment">// FILE_APPEND adds to the end instead of overwriting.</span>
+    <span class="php-fn">file_put_contents</span>(<span class="php-var">$file_path</span>, <span class="php-var">$message</span> <span class="php-op">.</span> <span class="php-str">"\n"</span>, <span class="php-kw">FILE_APPEND</span>)<span class="php-op">;</span>
+  }
+
+  <span class="php-comment">// Read all saved messages from the file (returns false if it doesn't exist yet).</span>
+  <span class="php-var">$all_messages</span> <span class="php-op">=</span> <span class="php-fn">file</span>(<span class="php-var">$file_path</span>, <span class="php-kw">FILE_IGNORE_NEW_LINES</span> <span class="php-op">|</span> <span class="php-kw">FILE_SKIP_EMPTY_LINES</span>)<span class="php-op">;</span>
+
+  <span class="php-comment">// Loop through each message and print it as a list item.</span>
+  <span class="php-kw">if</span> (<span class="php-var">$all_messages</span>) {
+    <span class="php-kw">echo</span> <span class="php-str">"&lt;ul&gt;"</span><span class="php-op">;</span>
+    <span class="php-kw">foreach</span> (<span class="php-var">$all_messages</span> <span class="php-kw">as</span> <span class="php-var">$msg</span>) {
+      <span class="php-kw">echo</span> <span class="php-str">"&lt;li&gt;"</span> <span class="php-op">.</span> <span class="php-var">$msg</span> <span class="php-op">.</span> <span class="php-str">"&lt;/li&gt;"</span><span class="php-op">;</span>
+    }
+    <span class="php-kw">echo</span> <span class="php-str">"&lt;/ul&gt;"</span><span class="php-op">;</span>
+  }
+<span class="php-tag">?&gt;</span></code></pre>
+<div class="code-explanation"><strong>Key concepts:</strong> <strong>file_put_contents()</strong> writes to a file. <strong>FILE_APPEND</strong> adds to the existing file rather than replacing it. <strong>file()</strong> reads the file back as an array of lines. <strong>foreach</strong> loops through each item - just like <code>for...of</code> in JavaScript.</div>
+</div>
+</div>
+<!-- ---- Capability 3: Return JSON for fetch() ---- -->
+<h3 class="mt-3 mb-1 text-green">3. Act as an API (Return JSON)</h3>
+<p>PHP can respond with <strong>JSON data</strong> instead of HTML. This is a game-changer: your front-end JavaScript can use <code class="font-code">fetch()</code> to call a PHP file and get structured data back - just like calling a third-party API, except <em>you control it</em>.</p>
+<div class="code-panel" role="region" aria-label="PHP as JSON API example"><button class="code-panel-toggle" aria-expanded="false" onclick="togglePanel(this)"> <span class="toggle-label"> <i class="fa-solid fa-code text-green"></i> Example: PHP file that returns JSON </span> <i class="fa-solid fa-chevron-down chevron" aria-hidden="true"></i> </button>
+<div class="code-panel-body">
+<pre class="code-block"><code><span class="php-comment">// api.php - This file acts like a mini API endpoint.</span>
+<span class="php-tag">&lt;?php</span>
+  <span class="php-comment">// Tell the browser this response is JSON, not HTML.</span>
+  <span class="php-fn">header</span>(<span class="php-str">'Content-Type: application/json'</span>)<span class="php-op">;</span>
+
+  <span class="php-comment">// Build an array of data (just like an object in JavaScript).</span>
+  <span class="php-var">$data</span> <span class="php-op">=</span> [
+    <span class="php-str">'status'</span>   <span class="php-op">=&gt;</span> <span class="php-str">'ok'</span>,
+    <span class="php-str">'time'</span>     <span class="php-op">=&gt;</span> <span class="php-fn">date</span>(<span class="php-str">'H:i:s'</span>),
+    <span class="php-str">'message'</span>  <span class="php-op">=&gt;</span> <span class="php-str">'Hello from the server!'</span>,
+  ]<span class="php-op">;</span>
+
+  <span class="php-comment">// json_encode() converts the PHP array into a JSON string.</span>
+  <span class="php-kw">echo</span> <span class="php-fn">json_encode</span>(<span class="php-var">$data</span>)<span class="php-op">;</span>
+<span class="php-tag">?&gt;</span>
+
+<span class="php-comment">// ----- In your HTML/JS file, call this with fetch(): -----</span>
+
+<span class="php-comment">// fetch('api.php')               → makes a GET request to your PHP file</span>
+<span class="php-comment">// .then(res =&gt; res.json())       → parse the JSON response</span>
+<span class="php-comment">// .then(data =&gt; console.log(data)) → use the data however you want</span></code></pre>
+<div class="code-explanation"><strong>Key concept:</strong> By setting the Content-Type header to <strong>application/json</strong> and using <strong>json_encode()</strong>, a PHP file becomes a proper API endpoint. Your front-end JavaScript doesn't need to know it's PHP - it just calls the URL and gets JSON back, exactly like any other API.</div>
+</div>
+</div>
+<!-- ---- Capability 4: Sessions ---- -->
+<h3 class="mt-3 mb-1 text-green">4. Remember Users with Sessions</h3>
+<p>HTTP is "stateless" - each page request is forgotten immediately. PHP <strong>sessions</strong> let you remember information about a user across multiple page loads, like whether they're logged in or what's in their cart.</p>
+<div class="code-panel" role="region" aria-label="Sessions example"><button class="code-panel-toggle" aria-expanded="false" onclick="togglePanel(this)"> <span class="toggle-label"> <i class="fa-solid fa-code text-green"></i> Example: Counting page visits with sessions </span> <i class="fa-solid fa-chevron-down chevron" aria-hidden="true"></i> </button>
+<div class="code-panel-body">
+<pre class="code-block"><code><span class="php-tag">&lt;?php</span>
+  <span class="php-comment">// session_start() MUST be the very first thing in any PHP file that uses sessions.</span>
+  <span class="php-comment">// It loads any existing session data for this visitor.</span>
+  <span class="php-fn">session_start</span>()<span class="php-op">;</span>
+
+  <span class="php-comment">// $_SESSION is a special array that persists across page loads.</span>
+  <span class="php-comment">// If 'visit_count' doesn't exist yet, set it to 0.</span>
+  <span class="php-kw">if</span> (!<span class="php-fn">isset</span>(<span class="php-var">$_SESSION</span>[<span class="php-str">'visit_count'</span>])) {
+    <span class="php-var">$_SESSION</span>[<span class="php-str">'visit_count'</span>] <span class="php-op">=</span> <span class="php-num">0</span><span class="php-op">;</span>
+  }
+
+  <span class="php-comment">// Increment the count each time this page loads.</span>
+  <span class="php-var">$_SESSION</span>[<span class="php-str">'visit_count'</span>]<span class="php-op">++;</span>
+
+  <span class="php-kw">echo</span> <span class="php-str">"You have visited this page "</span>
+     <span class="php-op">.</span> <span class="php-var">$_SESSION</span>[<span class="php-str">'visit_count'</span>]
+     <span class="php-op">.</span> <span class="php-str">" time(s) this session."</span><span class="php-op">;</span>
+<span class="php-tag">?&gt;</span></code></pre>
+<div class="code-explanation"><strong>Key concept:</strong> Sessions store data on the <em>server</em> and give the browser a cookie with a session ID. Unlike <strong>localStorage</strong> (which stores data in the browser), session data is never sent to the user directly - they only see an ID.</div>
+</div>
+</div>
+<!-- ---- Capability 5: Send Email ---- -->
+<h3 class="mt-3 mb-1 text-green">5. Send Email</h3>
+<p>PHP has a built-in <code class="font-code text-yellow">mail()</code> function, and cPanel accounts usually have a mail server already configured. Combined with a form, this powers the classic "contact us" feature that every website needs.</p>
+<div class="code-panel" role="region" aria-label="Send mail example"><button class="code-panel-toggle" aria-expanded="false" onclick="togglePanel(this)"> <span class="toggle-label"> <i class="fa-solid fa-code text-green"></i> Example: Sending a contact form email </span> <i class="fa-solid fa-chevron-down chevron" aria-hidden="true"></i> </button>
+<div class="code-panel-body">
+<pre class="code-block"><code><span class="php-tag">&lt;?php</span>
+  <span class="php-kw">if</span> (<span class="php-var">$_SERVER</span>[<span class="php-str">'REQUEST_METHOD'</span>] <span class="php-op">===</span> <span class="php-str">'POST'</span>) {
+
+    <span class="php-comment">// Clean every piece of user input before using it.</span>
+    <span class="php-var">$name</span>    <span class="php-op">=</span> <span class="php-fn">htmlspecialchars</span>(<span class="php-fn">trim</span>(<span class="php-var">$_POST</span>[<span class="php-str">'name'</span>] <span class="php-op">??</span> <span class="php-str">''</span>))<span class="php-op">;</span>
+    <span class="php-var">$email</span>   <span class="php-op">=</span> <span class="php-fn">filter_var</span>(<span class="php-var">$_POST</span>[<span class="php-str">'email'</span>] <span class="php-op">??</span> <span class="php-str">''</span>, <span class="php-kw">FILTER_SANITIZE_EMAIL</span>)<span class="php-op">;</span>
+    <span class="php-var">$message</span> <span class="php-op">=</span> <span class="php-fn">htmlspecialchars</span>(<span class="php-fn">trim</span>(<span class="php-var">$_POST</span>[<span class="php-str">'message'</span>] <span class="php-op">??</span> <span class="php-str">''</span>))<span class="php-op">;</span>
+
+    <span class="php-comment">// Validate: make sure the email address looks real.</span>
+    <span class="php-kw">if</span> (<span class="php-fn">filter_var</span>(<span class="php-var">$email</span>, <span class="php-kw">FILTER_VALIDATE_EMAIL</span>)) {
+
+      <span class="php-var">$to</span>      <span class="php-op">=</span> <span class="php-str">'you@yourdomain.com'</span><span class="php-op">;</span>
+      <span class="php-var">$subject</span> <span class="php-op">=</span> <span class="php-str">'Contact Form: '</span> <span class="php-op">.</span> <span class="php-var">$name</span><span class="php-op">;</span>
+      <span class="php-var">$body</span>    <span class="php-op">=</span> <span class="php-str">"From: $name\nEmail: $email\n\n$message"</span><span class="php-op">;</span>
+      <span class="php-var">$headers</span> <span class="php-op">=</span> <span class="php-str">"From: noreply@yourdomain.com"</span><span class="php-op">;</span>
+
+      <span class="php-fn">mail</span>(<span class="php-var">$to</span>, <span class="php-var">$subject</span>, <span class="php-var">$body</span>, <span class="php-var">$headers</span>)<span class="php-op">;</span>
+      <span class="php-kw">echo</span> <span class="php-str">"&lt;p&gt;✅ Message sent!&lt;/p&gt;"</span><span class="php-op">;</span>
+
+    } <span class="php-kw">else</span> {
+      <span class="php-kw">echo</span> <span class="php-str">"&lt;p&gt;❌ Please enter a valid email address.&lt;/p&gt;"</span><span class="php-op">;</span>
+    }
+  }
+<span class="php-tag">?&gt;</span></code></pre>
+<div class="code-explanation"><strong>Key concepts:</strong> <strong>filter_var()</strong> with <strong>FILTER_VALIDATE_EMAIL</strong> checks that the email address looks legitimate before we use it. The <strong>??</strong> operator provides a default value if the field is missing - this prevents PHP warnings. Always validate before you act.</div>
+</div>
+</div>
+<!-- AI Prompt suggestion -->
+<div class="ai-prompt-box mt-3">
+<div class="ai-prompt-box-label"><i class="fa-solid fa-robot"></i> Try this prompt with Claude</div>
+<button class="copy-btn" aria-label="Copy prompt to clipboard" onclick="copyPrompt(this)">Copy</button>
+<div class="ai-prompt-text">Create a single PHP file called contact.php that includes: - An HTML contact form with fields for name, email, and message - PHP at the top that handles the POST submission - Server-side validation for all fields (name can't be empty, email must be valid) - The email message is sent using PHP's mail() function - A success or error message displayed after submission - Responsive design using CSS in the same file - Accessible form labels and keyboard navigation - Very descriptive comments throughout the PHP explaining what each line does</div>
+</div>
+</section>
+<hr class="section-divider" aria-hidden="true"><!-- ============================================================
+         SECTION 3: SECURITY
+    ============================================================ -->
+<section class="section" id="security" aria-labelledby="security-heading">
+<div class="section-header">
+<div class="section-icon red" aria-hidden="true"><i class="fa-solid fa-shield-halved"></i></div>
+<h2 id="security-heading">Security Considerations</h2>
+</div>
+<p>The moment you write code that runs on a server - code that can read files, talk to databases, or send email - security goes from a nice-to-have to a <strong>must-have</strong>. The good news: a handful of consistent habits will protect you from the most common attacks.</p>
+<div class="callout warning"><strong><i class="callout-icon fa-solid fa-triangle-exclamation"></i>Non-negotiable</strong> Security isn't something you add after an app works. It's built in from the very first line. When you ask Claude to write PHP, always include security requirements in your prompt.</div>
+<!-- ---- Threat 1: XSS ---- -->
+<h3 class="mt-3 mb-1 text-red">⚠️ Cross-Site Scripting (XSS)</h3>
+<p>If you display user input directly on a page without sanitizing it, a bad actor can submit JavaScript code as their "name" and have it run in every visitor's browser. This is called a Cross-Site Scripting attack, or XSS.</p>
+<table class="compare-table" aria-label="XSS prevention: do vs don't">
+<thead>
+<tr>
+<th class="dont">❌ Vulnerable (never do this)</th>
+<th class="do">✅ Safe (always do this)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="dont">echo $_POST['name'];</td>
+<td class="do">echo htmlspecialchars($_POST['name']);</td>
+</tr>
+<tr>
+<td class="dont">echo "Hello " . $name;</td>
+<td class="do">echo "Hello " . htmlspecialchars($name);</td>
+</tr>
+</tbody>
+</table>
+<div class="callout info"><strong><i class="callout-icon fa-solid fa-circle-info"></i>What htmlspecialchars() does</strong> It converts characters like <code>&lt;</code>, <code>&gt;</code>, and <code>"</code> into harmless HTML entities. So if someone submits <code>&lt;script&gt;alert('hacked')&lt;/script&gt;</code> as their name, it gets displayed as literal text - not executed as code.</div>
+<!-- ---- Threat 2: SQL Injection ---- -->
+<h3 class="mt-3 mb-1 text-red">⚠️ SQL Injection</h3>
+<p>If your PHP talks to a database (you'll do this in a later unit), user input must <strong>never</strong> be placed directly into a database query. An attacker can craft input that changes the meaning of your query and steal or delete data.</p>
+<div class="code-panel" role="region" aria-label="SQL injection example"><button class="code-panel-toggle" aria-expanded="false" onclick="togglePanel(this)"> <span class="toggle-label"> <i class="fa-solid fa-code text-red"></i> Why SQL injection is dangerous (and how to prevent it) </span> <i class="fa-solid fa-chevron-down chevron" aria-hidden="true"></i> </button>
+<div class="code-panel-body">
+<pre class="code-block"><code><span class="php-comment">// ❌ VULNERABLE: User input goes directly into the query string.</span>
+<span class="php-comment">// If someone enters:  ' OR '1'='1  as the username...</span>
+<span class="php-comment">// ...the query becomes: SELECT * FROM users WHERE username = '' OR '1'='1'</span>
+<span class="php-comment">// ...which returns ALL users. This is SQL injection.</span>
+
+<span class="php-var">$username</span> <span class="php-op">=</span> <span class="php-var">$_POST</span>[<span class="php-str">'username'</span>]<span class="php-op">;</span>
+<span class="php-var">$query</span>    <span class="php-op">=</span> <span class="php-str">"SELECT * FROM users WHERE username = '$username'"</span><span class="php-op">;</span>
+<span class="php-comment">// NEVER do this ^</span>
+
+
+<span class="php-comment">// ✅ SAFE: Use PDO Prepared Statements.</span>
+<span class="php-comment">// The ? is a placeholder. The actual value is sent separately,</span>
+<span class="php-comment">// so the database engine knows what is data and what is code.</span>
+
+<span class="php-var">$stmt</span> <span class="php-op">=</span> <span class="php-var">$pdo</span><span class="php-op">-&gt;</span><span class="php-fn">prepare</span>(<span class="php-str">"SELECT * FROM users WHERE username = ?"</span>)<span class="php-op">;</span>
+<span class="php-var">$stmt</span><span class="php-op">-&gt;</span><span class="php-fn">execute</span>([ <span class="php-var">$_POST</span>[<span class="php-str">'username'</span>] ])<span class="php-op">;</span>
+<span class="php-var">$user</span> <span class="php-op">=</span> <span class="php-var">$stmt</span><span class="php-op">-&gt;</span><span class="php-fn">fetch</span>()<span class="php-op">;</span>
+<span class="php-comment">// Always use prepared statements when touching a database.</span></code></pre>
+<div class="code-explanation"><strong>The rule:</strong> Never put <strong>any</strong> user-supplied value directly into a SQL query string. Always use <strong>prepared statements</strong> with placeholders. Claude knows how to do this - just tell it "use prepared statements" in your prompt.</div>
+</div>
+</div>
+<!-- ---- Threat 3: Error Messages ---- -->
+<h3 class="mt-3 mb-1 text-red">⚠️ Don't Show Error Messages to Users</h3>
+<p>Detailed PHP errors are incredibly useful during development - but if they appear on a live site, they hand attackers a map of your code, file paths, and database structure.</p>
+<div class="code-panel" role="region" aria-label="Error display settings"><button class="code-panel-toggle" aria-expanded="false" onclick="togglePanel(this)"> <span class="toggle-label"> <i class="fa-solid fa-code text-red"></i> Development vs Production error settings </span> <i class="fa-solid fa-chevron-down chevron" aria-hidden="true"></i> </button>
+<div class="code-panel-body">
+<pre class="code-block"><code><span class="php-tag">&lt;?php</span>
+  <span class="php-comment">// ✅ DEVELOPMENT: Turn errors on while you're building.</span>
+  <span class="php-comment">// You want to see everything that goes wrong during development.</span>
+  <span class="php-fn">ini_set</span>(<span class="php-str">'display_errors'</span>, <span class="php-num">1</span>)<span class="php-op">;</span>
+  <span class="php-fn">error_reporting</span>(<span class="php-kw">E_ALL</span>)<span class="php-op">;</span>
+
+  <span class="php-comment">// ❌ On a live / public site, switch to this instead:</span>
+  <span class="php-comment">// Errors are hidden from users but still logged to a file you can check.</span>
+  <span class="php-fn">ini_set</span>(<span class="php-str">'display_errors'</span>, <span class="php-num">0</span>)<span class="php-op">;</span>
+  <span class="php-fn">ini_set</span>(<span class="php-str">'log_errors'</span>, <span class="php-num">1</span>)<span class="php-op">;</span>
+  <span class="php-fn">ini_set</span>(<span class="php-str">'error_log'</span>, <span class="php-fn">__DIR__</span> <span class="php-op">.</span> <span class="php-str">'/error.log'</span>)<span class="php-op">;</span>
+<span class="php-tag">?&gt;</span></code></pre>
+<div class="code-explanation"><strong>The rule:</strong> Log errors to a file, never display them to visitors. cPanel has a built-in Error Log viewer in the "Logs" section - check that instead of displaying errors publicly.</div>
+</div>
+</div>
+<!-- ---- Threat 4: File Uploads ---- -->
+<h3 class="mt-3 mb-1 text-red">⚠️ Be Careful With File Uploads</h3>
+<p>Letting users upload files is a powerful feature - and a major risk if not handled carefully. An attacker might try to upload a PHP file disguised as an image, then execute it on your server.</p>
+<div class="card-grid mt-2">
+<div class="card">
+<h3 class="text-green">✅ Safe practices</h3>
+<p>Check file extension AND MIME type. Rename uploaded files (never use the original name). Store files outside the web root if possible. Limit file size.</p>
+</div>
+<div class="card">
+<h3 class="text-red">❌ What to avoid</h3>
+<p>Never trust <code>$_FILES['type']</code> alone - it can be faked. Never allow PHP, HTML, or executable file types to be uploaded.</p>
+</div>
+</div>
+<!-- ---- Input Validation Principle ---- -->
+<h3 class="mt-3 mb-1 text-red">⚠️ The Golden Rule: Never Trust User Input</h3>
+<div class="callout warning"><strong><i class="callout-icon fa-solid fa-lock"></i>The Golden Rule</strong> Every piece of data that comes from the outside world - form fields, URL parameters, cookies, uploaded files - must be treated as potentially hostile until you have validated and sanitized it. <em>Every time. No exceptions.</em></div>
+<div class="code-panel" role="region" aria-label="PHP validation tools"><button class="code-panel-toggle" aria-expanded="false" onclick="togglePanel(this)"> <span class="toggle-label"> <i class="fa-solid fa-code text-red"></i> PHP's built-in validation toolkit </span> <i class="fa-solid fa-chevron-down chevron" aria-hidden="true"></i> </button>
+<div class="code-panel-body">
+<pre class="code-block"><code><span class="php-tag">&lt;?php</span>
+  <span class="php-comment">// PHP has filter_var() - your best friend for validation.</span>
+
+  <span class="php-comment">// Validate an email address:</span>
+  <span class="php-fn">filter_var</span>(<span class="php-var">$email</span>, <span class="php-kw">FILTER_VALIDATE_EMAIL</span>)<span class="php-op">;</span>
+
+  <span class="php-comment">// Validate that something is a number:</span>
+  <span class="php-fn">filter_var</span>(<span class="php-var">$age</span>, <span class="php-kw">FILTER_VALIDATE_INT</span>)<span class="php-op">;</span>
+
+  <span class="php-comment">// Validate a URL:</span>
+  <span class="php-fn">filter_var</span>(<span class="php-var">$url</span>, <span class="php-kw">FILTER_VALIDATE_URL</span>)<span class="php-op">;</span>
+
+  <span class="php-comment">// Sanitize (clean up) a string - remove HTML tags:</span>
+  <span class="php-fn">strip_tags</span>(<span class="php-var">$input</span>)<span class="php-op">;</span>
+
+  <span class="php-comment">// Sanitize and escape for HTML output:</span>
+  <span class="php-fn">htmlspecialchars</span>(<span class="php-var">$input</span>, <span class="php-kw">ENT_QUOTES</span>, <span class="php-str">'UTF-8'</span>)<span class="php-op">;</span>
+
+  <span class="php-comment">// Trim whitespace from both ends of user input:</span>
+  <span class="php-fn">trim</span>(<span class="php-var">$input</span>)<span class="php-op">;</span>
+
+  <span class="php-comment">// Check a field isn't empty before using it:</span>
+  <span class="php-kw">if</span> (<span class="php-fn">empty</span>(<span class="php-var">$input</span>)) {
+    <span class="php-kw">echo</span> <span class="php-str">"This field is required."</span><span class="php-op">;</span>
+  }
+<span class="php-tag">?&gt;</span></code></pre>
+<div class="code-explanation"><strong>Your standard checklist:</strong> For every piece of user input: (1) <strong>trim()</strong> to remove whitespace, (2) <strong>validate</strong> the format, (3) <strong>sanitize/escape</strong> before using it in output or queries. When you prompt Claude, ask for all three.</div>
+</div>
+</div>
+<!-- ---- Security prompt ---- -->
+<div class="ai-prompt-box mt-3">
+<div class="ai-prompt-box-label"><i class="fa-solid fa-robot"></i> Always include this in your PHP prompts</div>
+<button class="copy-btn" aria-label="Copy prompt to clipboard" onclick="copyPrompt(this)">Copy</button>
+<div class="ai-prompt-text">Security requirements for this PHP file: - Use htmlspecialchars() on ALL user input before displaying it - Validate all form fields server-side (not just front-end) - Use PHP's filter_var() for email and URL validation - If connecting to a database, use PDO with prepared statements only - Never display raw PHP error messages (use display_errors = 0 in production) - Use trim() to clean whitespace from all inputs - Add a descriptive comment explaining each security measure</div>
+</div>
+</section>
+<hr class="section-divider" aria-hidden="true"><!-- ============================================================
+         VOCABULARY SECTION
+    ============================================================ -->
+<section class="section" id="vocab" aria-labelledby="vocab-heading">
+<div class="section-header">
+<div class="section-icon blue" aria-hidden="true"><i class="fa-solid fa-book-open"></i></div>
+<h2 id="vocab-heading">Vocabulary</h2>
+</div>
+<p class="mb-2">New terms from this unit. These will come up constantly in PHP development.</p>
+<div class="vocab-grid">
+<div class="vocab-item">
+<div class="vocab-term">Back End</div>
+<div class="vocab-def">Code that runs on the server, not in the browser. Users never see it directly - only its results.</div>
+</div>
+<div class="vocab-item">
+<div class="vocab-term">Front End</div>
+<div class="vocab-def">HTML, CSS, and JavaScript that runs in the user's browser. Everything we built before PHP.</div>
+</div>
+<div class="vocab-item">
+<div class="vocab-term">Server</div>
+<div class="vocab-def">A computer connected to the internet that responds to requests. Your cPanel account is on a shared server.</div>
+</div>
+<div class="vocab-item">
+<div class="vocab-term">PHP</div>
+<div class="vocab-def">A server-side scripting language. PHP files end in .php and run on the server before any HTML is sent to the browser.</div>
+</div>
+<div class="vocab-item">
+<div class="vocab-term">echo</div>
+<div class="vocab-def">The PHP command that prints output. Whatever you echo gets sent to the browser as part of the HTML response.</div>
+</div>
+<div class="vocab-item">
+<div class="vocab-term">$_POST</div>
+<div class="vocab-def">A PHP superglobal array that contains data submitted by an HTML form using the POST method.</div>
+</div>
+<div class="vocab-item">
+<div class="vocab-term">$_GET</div>
+<div class="vocab-def">A PHP superglobal that contains data sent in the URL as query parameters - like ?name=Dave&amp;page=2.</div>
+</div>
+<div class="vocab-item">
+<div class="vocab-term">$_SERVER</div>
+<div class="vocab-def">A PHP superglobal with information about the server and the incoming request, like the visitor's IP address.</div>
+</div>
+<div class="vocab-item">
+<div class="vocab-term">htmlspecialchars()</div>
+<div class="vocab-def">A PHP function that converts &lt; &gt; " &amp; into safe HTML entities. Your main defense against XSS attacks.</div>
+</div>
+<div class="vocab-item">
+<div class="vocab-term">filter_var()</div>
+<div class="vocab-def">PHP's built-in validation and sanitization tool. Can validate email addresses, URLs, integers, and more.</div>
+</div>
+<div class="vocab-item">
+<div class="vocab-term">Superglobal</div>
+<div class="vocab-def">Special PHP arrays like $_POST and $_GET that are available everywhere in your code without needing to be declared.</div>
+</div>
+<div class="vocab-item">
+<div class="vocab-term">HTTP Request</div>
+<div class="vocab-def">A message a browser sends to a server asking for a resource. Can be a GET (asking for a page) or POST (submitting data).</div>
+</div>
+<div class="vocab-item">
+<div class="vocab-term">POST vs GET</div>
+<div class="vocab-def">GET sends data in the URL (visible). POST sends it in the request body (not visible). Use POST for forms, especially with passwords.</div>
+</div>
+<div class="vocab-item">
+<div class="vocab-term">Session</div>
+<div class="vocab-def">A way for PHP to remember a specific user across multiple page loads. Data is stored on the server; the user gets a session ID cookie.</div>
+</div>
+<div class="vocab-item">
+<div class="vocab-term">XSS</div>
+<div class="vocab-def">Cross-Site Scripting. An attack where malicious JavaScript is injected into a page via unsanitized user input.</div>
+</div>
+<div class="vocab-item">
+<div class="vocab-term">SQL Injection</div>
+<div class="vocab-def">An attack where a malicious user inserts SQL code into input fields to manipulate a database. Prevented with prepared statements.</div>
+</div>
+<div class="vocab-item">
+<div class="vocab-term">Prepared Statement</div>
+<div class="vocab-def">A way to run database queries safely by separating the SQL structure from the data values. Prevents SQL injection.</div>
+</div>
+<div class="vocab-item">
+<div class="vocab-term">json_encode()</div>
+<div class="vocab-def">Converts a PHP array or object into a JSON string that JavaScript can understand.</div>
+</div>
+<div class="vocab-item">
+<div class="vocab-term">header()</div>
+<div class="vocab-def">Sends an HTTP header to the browser. Used to set Content-Type, redirect pages, or control caching.</div>
+</div>
+<div class="vocab-item">
+<div class="vocab-term">cPanel</div>
+<div class="vocab-def">A web-based hosting control panel. Your FLCC account includes cPanel where you can manage files, databases, and email.</div>
+</div>
+</div>
+</section>
+</main><!-- ============================================================
+       JAVASCRIPT
+       All page interactivity - accordion panels, copy buttons.
+  ============================================================ -->
+<p><script>
+    // ============================================================
+    // FUNCTION: togglePanel(button)
+    //
+    // This function is called when a student clicks a code panel
+    // toggle button. It finds the parent .code-panel element and
+    // toggles the "open" class on it.
+    //
+    // When the "open" class is present:
+    //   - CSS shows the .code-panel-body (the code block)
+    //   - CSS rotates the chevron icon 180 degrees
+    //
+    // Parameters:
+    //   button - the <button> element that was clicked
+    // ============================================================
+    function togglePanel(button) {
+      // Walk up the DOM from the button to find the parent .code-panel div
+      const panel = button.closest('.code-panel');
+
+      // Flip the open state: if open → close, if closed → open
+      const isOpen = panel.classList.toggle('open');
+
+      // Update the aria-expanded attribute for screen readers.
+      // Screen readers announce "expanded" or "collapsed" to users.
+      button.setAttribute('aria-expanded', isOpen);
+    }
+
+
+    // ============================================================
+    // FUNCTION: copyPrompt(button)
+    //
+    // Copies the AI prompt text from the nearest .ai-prompt-text
+    // element to the user's clipboard.
+    //
+    // After copying:
+    //   - The button briefly shows "Copied!" with green styling
+    //   - After 2 seconds it returns to normal
+    //
+    // Parameters:
+    //   button - the "Copy" <button> that was clicked
+    // ============================================================
+    function copyPrompt(button) {
+      // Find the .ai-prompt-text element inside the same prompt box
+      const box        = button.closest('.ai-prompt-box');
+      const promptText = box.querySelector('.ai-prompt-text');
+
+      // Use the modern Clipboard API to write text to the clipboard
+      navigator.clipboard.writeText(promptText.innerText).then(() => {
+        // Give visual feedback: change button text and style temporarily
+        button.textContent = 'Copied!';
+        button.classList.add('copied');
+
+        // Reset the button back to normal after 2000 milliseconds (2 seconds)
+        setTimeout(() => {
+          button.textContent = 'Copy';
+          button.classList.remove('copied');
+        }, 2000);
+      }).catch(() => {
+        // If the clipboard API fails (some browsers require HTTPS),
+        // show a fallback message to the user
+        button.textContent = 'Select text manually';
+        setTimeout(() => { button.textContent = 'Copy'; }, 2500);
+      });
+    }
+
+
+    // ============================================================
+    // KEYBOARD NAVIGATION for code panel toggles
+    //
+    // This makes the toggle buttons respond to both Enter and
+    // Space keys when focused - which is standard button behavior,
+    // but we add it explicitly for custom-styled buttons.
+    //
+    // This runs once when the page first loads.
+    // ============================================================
+    document.querySelectorAll('.code-panel-toggle').forEach(function(button) {
+      button.addEventListener('keydown', function(event) {
+        // If the user presses Enter or Space while this button is focused
+        if (event.key === 'Enter' || event.key === ' ') {
+          event.preventDefault();   // Prevent the page from scrolling on Space
+          togglePanel(button);       // Trigger the same toggle as a click
+        }
+      });
+    });
+
+  </script></p></body></html>

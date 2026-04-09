@@ -1,0 +1,9 @@
+^^ Backend
+
+<div style="display:none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vQQ2zPmYuBaDHCMcrGLJN42eTrhPqnKFdij9chGdu6mEYmKv_6mn8bgoMjBSkucUY2X6P_1oDzVi-W5/pub?w=907&amp;h=385" alt="The word BACKEND in bright pink letters." title="The word BACKEND in bright pink letters." width="0" height="0" style="display:none;" /></div>
+
+"Backend" is the term in web development that means "what happens on the *server*... That is, some computational work that happens *before the content leaves the server and the user sees it*. Once the backend server does it's thing (that might mean peaking into other files, it might mean changing some content, and it might mean creating new files), *then* the server sends it to the user. 
+
+
+
+

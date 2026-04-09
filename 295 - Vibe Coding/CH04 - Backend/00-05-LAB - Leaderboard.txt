@@ -1,0 +1,1380 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    ============================================================
+    VIBE CODING: AI-Assisted Application Development
+    Finger Lakes Community College
+
+    Lab 5: Level Up Your Leaderboard - Migrate to PHP
+    Version: 1.0 - Initial build
+
+    This lab helps students migrate the high score system in
+    their existing arcade game from localStorage, Google Sheets
+    (GAS), or Firebase over to a self-hosted PHP API on cPanel.
+
+    THE STAR FEATURE: A file drop zone that sends the student's
+    game code to Claude via the Anthropic API. Claude detects
+    which storage system is in use, finds the exact relevant
+    functions, and writes ready-to-use replacement code -
+    tailored to THEIR specific game, not a generic example.
+
+    BONUS SECTION: A centralized arcade dashboard - one PHP
+    file that reads all game leaderboards and displays
+    cross-game analytics (plays, top scores, total time, etc.)
+
+    Architecture used by scores.php:
+      GET  scores.php?game=mygame      → returns top 10 for that game
+      POST scores.php                  → saves a score for a game
+        body: { game, name, score, level?, duration? }
+      Stored as: scores-{gamename}.json per game
+
+    Dependencies (CDN only, no installs):
+      Google Fonts: Space Mono, DM Sans
+      Font Awesome 6
+    ============================================================
+  -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lab 5: Level Up Your Leaderboard - Vibe Coding @ FLCC</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <style>
+    /* ── DESIGN TOKENS ── */
+    :root {
+      --primary:     #9900ff;
+      --primary-dim: rgba(153,0,255,0.18);
+      --primary-glo: rgba(153,0,255,0.07);
+      --bg:          #0d0d0d;
+      --surface:     #1a1a1a;
+      --surface-2:   #222;
+      --border:      #2e2e2e;
+      --text:        #e8e8e8;
+      --muted:       #777;
+      --green:       #00e5a0;
+      --green-dim:   rgba(0,229,160,0.12);
+      --red:         #ff4d6a;
+      --red-dim:     rgba(255,77,106,0.12);
+      --yellow:      #ffd166;
+      --yellow-dim:  rgba(255,209,102,0.12);
+      --blue:        #4fc3f7;
+      --blue-dim:    rgba(79,195,247,0.12);
+      --orange:      #ff9f43;
+      --orange-dim:  rgba(255,159,67,0.12);
+      --radius:      10px;
+      --nav-h:       58px;
+      --font-body:   'DM Sans', sans-serif;
+      --font-code:   'Space Mono', monospace;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; scroll-padding-top: calc(var(--nav-h) + 16px); }
+    body { background: var(--bg); color: var(--text); font-family: var(--font-body); font-size: 1rem; line-height: 1.7; }
+    :focus-visible { outline: 2px solid var(--primary); outline-offset: 3px; border-radius: 4px; }
+
+    /* ── NAV ── */
+    .nav {
+      position: sticky; top: 0; z-index: 200; height: var(--nav-h);
+      background: rgba(13,13,13,0.97); backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 1.5rem; gap: 1rem;
+    }
+    .nav-brand { font-family: var(--font-code); font-size: 0.8rem; color: var(--primary); flex-shrink: 0; }
+    .nav-links  { display: flex; list-style: none; gap: 0.2rem; }
+    .nav-links a { font-size: 0.76rem; color: var(--muted); padding: 0.25rem 0.55rem; border-radius: 5px; text-decoration: none; transition: all 0.15s; }
+    .nav-links a:hover { color: var(--text); background: var(--surface); }
+
+    /* ── PROGRESS BAR ── */
+    .prog-wrap { background: var(--surface); border-bottom: 1px solid var(--border); padding: 0.55rem 1.5rem; display: flex; align-items: center; gap: 1rem; }
+    .prog-label { font-size: 0.7rem; color: var(--muted); white-space: nowrap; font-family: var(--font-code); }
+    .prog-track { flex: 1; height: 5px; background: var(--border); border-radius: 99px; overflow: hidden; }
+    .prog-fill  { height: 100%; width: 0%; background: linear-gradient(90deg, var(--primary), var(--orange)); border-radius: 99px; transition: width 0.4s ease; }
+    .prog-dots  { display: flex; gap: 0.3rem; flex-shrink: 0; }
+    .p-dot { width: 20px; height: 20px; border-radius: 50%; border: 2px solid var(--border); background: var(--surface-2); font-size: 0.6rem; font-family: var(--font-code); font-weight: 700; display: flex; align-items: center; justify-content: center; color: var(--muted); text-decoration: none; transition: all 0.18s; }
+    .p-dot:hover  { border-color: var(--primary); color: var(--primary); }
+    .p-dot.done   { background: var(--green); border-color: var(--green); color: #000; }
+    .p-dot.active { background: var(--primary); border-color: var(--primary); color: #fff; }
+
+    /* ── PAGE ── */
+    .page { max-width: 860px; margin: 0 auto; padding: 2rem 1.25rem 5rem; }
+
+    /* ── HERO ── */
+    .hero { text-align: center; padding: 2.5rem 1rem 2rem; margin-bottom: 2rem; }
+    .hero-eyebrow { display: inline-flex; align-items: center; gap: 0.4rem; font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: var(--primary); background: var(--primary-dim); border: 1px solid var(--primary); border-radius: 99px; padding: 0.22rem 0.9rem; margin-bottom: 1rem; }
+    .hero h1 { font-size: clamp(1.9rem, 5vw, 2.9rem); font-weight: 700; line-height: 1.15; margin-bottom: 0.75rem; }
+    .hero h1 .ac { color: var(--primary); font-family: var(--font-code); }
+    .hero h1 .ag { color: var(--orange); font-family: var(--font-code); }
+    .hero-sub { color: var(--muted); font-size: 1rem; max-width: 540px; margin: 0 auto 1.5rem; }
+    .hero-pills { display: flex; gap: 0.55rem; justify-content: center; flex-wrap: wrap; }
+    .pill { font-size: 0.76rem; padding: 0.22rem 0.75rem; border-radius: 99px; background: var(--surface); border: 1px solid var(--border); color: var(--muted); }
+    .pill strong { color: var(--text); }
+
+    /* ── STORAGE TYPE BADGES ── */
+    .storage-cards {
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.75rem;
+      margin-bottom: 2rem;
+    }
+    .storage-card {
+      background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+      padding: 1rem; text-align: center;
+    }
+    .storage-card .s-icon { font-size: 1.5rem; margin-bottom: 0.4rem; }
+    .storage-card .s-name { font-weight: 700; font-size: 0.88rem; margin-bottom: 0.2rem; }
+    .storage-card .s-desc { font-size: 0.75rem; color: var(--muted); }
+    .storage-card .s-badge { display: inline-block; font-size: 0.65rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em; border-radius: 99px; padding: 0.15rem 0.55rem; margin-top: 0.5rem; }
+    .sc-local  { border-color: rgba(0,229,160,0.3); }
+    .sc-local  .s-badge { background: var(--green-dim); color: var(--green); border: 1px solid var(--green); }
+    .sc-sheets { border-color: rgba(79,195,247,0.3); }
+    .sc-sheets .s-badge { background: var(--blue-dim);  color: var(--blue);  border: 1px solid var(--blue); }
+    .sc-fire   { border-color: rgba(255,159,67,0.3); }
+    .sc-fire   .s-badge { background: var(--orange-dim); color: var(--orange); border: 1px solid var(--orange); }
+
+    /* ── SECTION HEADERS ── */
+    .section-label { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1.25rem; }
+    .section-icon  { width: 36px; height: 36px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 1rem; flex-shrink: 0; }
+    .si-purple { background: var(--primary-dim); color: var(--primary); }
+    .si-green  { background: var(--green-dim);   color: var(--green); }
+    .si-orange { background: var(--orange-dim);  color: var(--orange); }
+    .si-yellow { background: var(--yellow-dim);  color: var(--yellow); }
+    .section-label h2 { font-size: 1.25rem; font-weight: 700; }
+    .section-divider { border: none; border-top: 1px solid var(--border); margin: 2.5rem 0; }
+
+    /* ════════════════════════════════════════════════════════
+       AI ANALYSIS DROP ZONE
+    ════════════════════════════════════════════════════════ */
+    .drop-zone {
+      border: 2px dashed var(--primary);
+      border-radius: var(--radius);
+      background: var(--primary-glo);
+      padding: 2.5rem 2rem;
+      text-align: center;
+      transition: all 0.2s;
+      cursor: pointer;
+      position: relative;
+    }
+    .drop-zone.dragover {
+      background: var(--primary-dim);
+      border-style: solid;
+      box-shadow: 0 0 30px rgba(153,0,255,0.2);
+    }
+    .drop-zone input[type="file"] {
+      position: absolute; inset: 0; opacity: 0; cursor: pointer; width: 100%; height: 100%;
+    }
+    .drop-icon { font-size: 2.5rem; color: var(--primary); margin-bottom: 0.75rem; }
+    .drop-title { font-size: 1.05rem; font-weight: 700; margin-bottom: 0.35rem; }
+    .drop-sub   { font-size: 0.85rem; color: var(--muted); }
+    .drop-sub code { color: var(--primary); }
+
+    /* ── Analysis states ── */
+    .analysis-wrap { margin-top: 1.25rem; }
+
+    /* Loading spinner */
+    .analysis-loading {
+      display: none;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      text-align: center;
+    }
+    .spinner {
+      width: 32px; height: 32px; border-radius: 50%;
+      border: 3px solid var(--border);
+      border-top-color: var(--primary);
+      animation: spin 0.8s linear infinite;
+      margin: 0 auto 0.75rem;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .loading-msg { font-size: 0.88rem; color: var(--muted); }
+    .loading-msg strong { color: var(--primary); }
+
+    /* Analysis result card */
+    .analysis-result {
+      display: none;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+    .analysis-head {
+      background: var(--surface-2);
+      border-bottom: 1px solid var(--border);
+      padding: 0.85rem 1.25rem;
+      display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+    }
+    .analysis-head-left { display: flex; align-items: center; gap: 0.75rem; }
+    .detection-badge {
+      display: inline-flex; align-items: center; gap: 0.35rem;
+      font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em;
+      border-radius: 99px; padding: 0.2rem 0.7rem;
+      border: 1px solid;
+    }
+    .db-local  { background: var(--green-dim);  color: var(--green);  border-color: var(--green); }
+    .db-sheets { background: var(--blue-dim);   color: var(--blue);   border-color: var(--blue); }
+    .db-fire   { background: var(--orange-dim); color: var(--orange); border-color: var(--orange); }
+    .db-unknown{ background: var(--yellow-dim); color: var(--yellow); border-color: var(--yellow); }
+
+    .re-analyze-btn {
+      background: transparent; border: 1px solid var(--border); color: var(--muted);
+      border-radius: 6px; padding: 0.2rem 0.65rem; font-size: 0.72rem;
+      font-family: var(--font-body); cursor: pointer; transition: all 0.15s;
+    }
+    .re-analyze-btn:hover { border-color: var(--primary); color: var(--primary); }
+
+    .analysis-body { padding: 1.25rem; }
+
+    /* Tabs inside analysis result */
+    .analysis-tabs { display: flex; gap: 0; border-bottom: 1px solid var(--border); margin-bottom: 1.25rem; }
+    .a-tab {
+      font-size: 0.8rem; font-weight: 500; color: var(--muted); padding: 0.5rem 1rem;
+      border-bottom: 2px solid transparent; cursor: pointer; transition: all 0.15s;
+      background: none; border-top: none; border-left: none; border-right: none;
+      font-family: var(--font-body);
+    }
+    .a-tab:hover   { color: var(--text); }
+    .a-tab.active  { color: var(--primary); border-bottom-color: var(--primary); }
+
+    .a-panel { display: none; }
+    .a-panel.active { display: block; }
+
+    .analysis-explanation { font-size: 0.9rem; color: var(--text); line-height: 1.7; margin-bottom: 1rem; }
+    .analysis-code-label  { font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin-bottom: 0.4rem; }
+
+    /* error state */
+    .analysis-error { display: none; background: var(--red-dim); border: 1px solid var(--red); border-radius: var(--radius); padding: 1rem 1.25rem; color: #ffb3bf; font-size: 0.9rem; margin-top: 0.75rem; }
+
+    /* ── CODE BLOCKS ── */
+    .code-block {
+      background: #0d0d0d; border: 1px solid var(--border); border-radius: 7px;
+      padding: 0.9rem 1.1rem; font-family: var(--font-code); font-size: 0.76rem;
+      line-height: 1.8; overflow-x: auto; color: #ddd; margin: 0.65rem 0;
+      position: relative;
+    }
+    .code-copy-btn {
+      position: absolute; top: 0.5rem; right: 0.5rem;
+      background: var(--surface-2); border: 1px solid var(--border);
+      color: var(--muted); border-radius: 5px; padding: 0.15rem 0.5rem;
+      font-size: 0.65rem; cursor: pointer; font-family: var(--font-body);
+      transition: all 0.15s;
+    }
+    .code-copy-btn:hover  { border-color: var(--primary); color: var(--primary); }
+    .code-copy-btn.copied { background: var(--green-dim); color: var(--green); border-color: var(--green); }
+
+    /* Syntax coloring */
+    .php-tag { color: #9900ff; font-weight: bold; }
+    .php-kw  { color: #4fc3f7; }
+    .php-fn  { color: #ffd166; }
+    .php-str { color: #00e5a0; }
+    .php-var { color: #ff9eb5; }
+    .php-cm  { color: #555; font-style: italic; }
+    .js-fn   { color: #ffd166; }
+    .js-kw   { color: #4fc3f7; }
+    .js-str  { color: #00e5a0; }
+    .js-cm   { color: #555; font-style: italic; }
+
+    /* ── PREREQS ── */
+    .prereq { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.1rem 1.4rem; margin-bottom: 1.5rem; }
+    .prereq h3 { font-size: 0.9rem; font-weight: 700; margin-bottom: 0.55rem; display: flex; align-items: center; gap: 0.4rem; }
+    .prereq ul { list-style: none; }
+    .prereq li { font-size: 0.88rem; padding: 0.2rem 0; display: flex; align-items: flex-start; gap: 0.5rem; }
+    .prereq li::before { content: '✓'; color: var(--green); font-weight: 700; flex-shrink: 0; margin-top: 0.1rem; }
+
+    /* ── STEP CARDS ── */
+    .step-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); margin-bottom: 1.25rem; overflow: hidden; scroll-margin-top: calc(var(--nav-h) + 80px); }
+    .step-header { display: flex; align-items: center; gap: 0.85rem; padding: 0.9rem 1.25rem; border-bottom: 1px solid var(--border); background: var(--surface-2); cursor: pointer; user-select: none; }
+    .step-header:hover { background: #252525; }
+    .step-num { width: 34px; height: 34px; border-radius: 50%; flex-shrink: 0; background: var(--primary-dim); border: 2px solid var(--primary); color: var(--primary); font-family: var(--font-code); font-size: 0.8rem; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+    .step-num.done { background: var(--green); border-color: var(--green); color: #000; }
+    .step-title-wrap { flex: 1; }
+    .step-title    { font-size: 0.95rem; font-weight: 700; }
+    .step-subtitle { font-size: 0.77rem; color: var(--muted); margin-top: 0.05rem; }
+    .step-chevron  { color: var(--muted); font-size: 0.75rem; transition: transform 0.2s; }
+    .step-card.open .step-chevron { transform: rotate(180deg); }
+    .step-done-btn { background: var(--surface); border: 1px solid var(--border); color: var(--muted); border-radius: 99px; font-size: 0.7rem; font-family: var(--font-body); padding: 0.18rem 0.6rem; cursor: pointer; transition: all 0.18s; flex-shrink: 0; }
+    .step-done-btn:hover { border-color: var(--green); color: var(--green); }
+    .step-done-btn.marked { background: var(--green-dim); border-color: var(--green); color: var(--green); }
+    .step-body { display: none; padding: 1.25rem 1.4rem; }
+    .step-card.open .step-body { display: block; }
+    .step-body p { margin-bottom: 0.85rem; font-size: 0.92rem; }
+    .step-body p:last-child { margin-bottom: 0; }
+
+    /* ── ACTION LIST ── */
+    .action-list { list-style: none; padding: 0; counter-reset: ac; margin-bottom: 0.5rem; }
+    .action-list li { counter-increment: ac; display: flex; gap: 0.75rem; align-items: flex-start; margin-bottom: 0.7rem; padding: 0.65rem 0.9rem; background: var(--surface-2); border-radius: 7px; font-size: 0.9rem; }
+    .action-list li::before { content: counter(ac); min-width: 22px; height: 22px; background: var(--primary); color: #fff; border-radius: 50%; font-size: 0.65rem; font-weight: 700; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 0.12rem; font-family: var(--font-code); }
+
+    /* ── CALLOUTS ── */
+    .callout { border-radius: 7px; padding: 0.8rem 1rem; border-left: 3px solid; margin: 0.85rem 0; font-size: 0.88rem; }
+    .callout strong { display: block; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.25rem; }
+    .callout.see   { background: var(--green-dim);  border-color: var(--green);  color: #9ef5d8; }
+    .callout.warn  { background: var(--red-dim);    border-color: var(--red);    color: #ffb3bf; }
+    .callout.tip   { background: var(--blue-dim);   border-color: var(--blue);   color: #b8e4f9; }
+    .callout.note  { background: var(--yellow-dim); border-color: var(--yellow); color: #ffe4a0; }
+
+    /* ── PROMPT BOX ── */
+    .prompt-box { background: var(--surface-2); border: 1px solid var(--primary); border-radius: 7px; padding: 0.9rem 1.1rem; margin: 0.85rem 0; position: relative; }
+    .prompt-label { font-size: 0.67rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--primary); margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.35rem; }
+    .prompt-text { font-family: var(--font-code); font-size: 0.75rem; color: #ccc; line-height: 1.7; white-space: pre-wrap; }
+    .copy-btn { position: absolute; top: 0.65rem; right: 0.65rem; background: var(--primary-dim); color: var(--primary); border: 1px solid var(--primary); border-radius: 5px; padding: 0.18rem 0.55rem; font-size: 0.68rem; cursor: pointer; font-family: var(--font-body); transition: all 0.18s; }
+    .copy-btn:hover { background: var(--primary); color: #fff; }
+    .copy-btn.copied { background: var(--green-dim); color: var(--green); border-color: var(--green); }
+
+    /* ── INLINE CODE ── */
+    code { font-family: var(--font-code); font-size: 0.82em; background: var(--surface-2); border: 1px solid var(--border); border-radius: 4px; padding: 0.08em 0.38em; color: var(--primary); }
+
+    /* ── SCREEN MOCK ── */
+    .screen-mock { background: #111; border: 1px solid var(--border); border-radius: 7px; padding: 0.75rem 1rem; margin: 0.65rem 0; font-size: 0.78rem; color: var(--muted); font-family: var(--font-code); }
+    .mock-bar { display: flex; gap: 0.35rem; margin-bottom: 0.6rem; align-items: center; }
+    .mock-dot { width: 9px; height: 9px; border-radius: 50%; }
+    .mock-url { flex: 1; background: var(--surface); border-radius: 3px; padding: 0.18rem 0.55rem; font-size: 0.68rem; color: var(--muted); }
+
+    /* ══════════════════════════════════════════════════
+       BONUS SECTION
+    ══════════════════════════════════════════════════ */
+    .bonus-wrap {
+      background: linear-gradient(135deg, rgba(255,159,67,0.06), rgba(153,0,255,0.06));
+      border: 1px solid var(--orange);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .bonus-header {
+      display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;
+    }
+    .bonus-tag {
+      font-size: 0.65rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em;
+      background: var(--orange-dim); color: var(--orange); border: 1px solid var(--orange);
+      border-radius: 99px; padding: 0.2rem 0.7rem;
+    }
+    .bonus-wrap h2 { font-size: 1.25rem; font-weight: 700; }
+    .bonus-wrap .bonus-desc { color: var(--muted); font-size: 0.92rem; margin-bottom: 1.25rem; }
+
+    /* Analytics preview mockup */
+    .analytics-mock {
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      overflow: hidden;
+      margin: 1rem 0;
+    }
+    .am-topbar {
+      background: #111; border-bottom: 1px solid var(--border);
+      padding: 0.5rem 1rem; font-family: var(--font-code); font-size: 0.68rem; color: var(--muted);
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .am-topbar-title { color: var(--orange); font-weight: 700; display: flex; align-items: center; gap: 0.4rem; }
+    .am-stats-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; border-bottom: 1px solid var(--border); }
+    .am-stat { padding: 0.75rem 1rem; border-right: 1px solid var(--border); }
+    .am-stat:last-child { border-right: none; }
+    .am-stat-val { font-family: var(--font-code); font-size: 1.1rem; font-weight: 700; color: var(--orange); }
+    .am-stat-lbl { font-size: 0.68rem; color: var(--muted); }
+    .am-game-row { display: flex; align-items: center; padding: 0.6rem 1rem; border-bottom: 1px solid var(--border); gap: 1rem; font-size: 0.82rem; }
+    .am-game-row:last-child { border-bottom: none; }
+    .am-game-name { font-weight: 700; flex: 1; }
+    .am-game-stat { font-family: var(--font-code); font-size: 0.75rem; color: var(--muted); text-align: right; min-width: 60px; }
+    .am-game-stat span { display: block; color: var(--text); font-size: 0.8rem; }
+    .am-bar-wrap { width: 80px; height: 6px; background: var(--border); border-radius: 99px; overflow: hidden; }
+    .am-bar { height: 100%; border-radius: 99px; background: linear-gradient(90deg, var(--orange), var(--primary)); }
+
+    /* ── FINISH CARD ── */
+    .finish-card { background: linear-gradient(135deg, var(--primary-glo), rgba(255,159,67,0.05)); border: 1px solid var(--primary); border-radius: var(--radius); padding: 2rem; text-align: center; margin-top: 2rem; }
+    .finish-card h2 { font-size: 1.5rem; color: var(--primary); margin-bottom: 0.5rem; }
+    .finish-card p  { color: #c9a0ff; font-size: 0.95rem; }
+    .finish-icon { font-size: 2.5rem; margin-bottom: 0.75rem; }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 640px) {
+      .nav-links { display: none; }
+      .prog-dots { display: none; }
+      .storage-cards { grid-template-columns: 1fr; }
+      .am-stats-row { grid-template-columns: repeat(2, 1fr); }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="nav" aria-label="Lab navigation">
+    <span class="nav-brand">Lab 05 · Level Up Your Leaderboard</span>
+    <ul class="nav-links" role="list">
+      <li><a href="#analyze">Analyze</a></li>
+      <li><a href="#step-1">Steps</a></li>
+      <li><a href="#bonus">Bonus</a></li>
+    </ul>
+  </nav>
+
+  <div class="prog-wrap" role="region" aria-label="Lab progress">
+    <span class="prog-label">progress</span>
+    <div class="prog-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="prog-bar">
+      <div class="prog-fill" id="prog-fill"></div>
+    </div>
+    <div class="prog-dots" aria-hidden="true" id="prog-dots"></div>
+  </div>
+
+  <main class="page" id="main">
+
+    <!-- ── HERO ── -->
+    <header class="hero">
+      <div class="hero-eyebrow">
+        <i class="fa-solid fa-arrow-up-right-dots"></i>
+        Lab 5 of 5 · Migration & Analytics
+      </div>
+      <h1>Level Up Your<br /><span class="ac">Leaderboard</span></h1>
+      <p class="hero-sub">
+        You've already built arcade games with localStorage, Google Sheets, or Firebase.
+        Now migrate your leaderboard to a self-hosted PHP API - persistent, fast,
+        and fully under your control.
+      </p>
+      <div class="hero-pills">
+        <span class="pill"><strong>Skill:</strong> PHP API, storage migration, analytics</span>
+        <span class="pill"><strong>Time:</strong> ~60 min</span>
+        <span class="pill"><strong>Bring:</strong> your existing game file</span>
+      </div>
+    </header>
+
+    <!-- Which storage do I have? -->
+    <div class="storage-cards" role="list" aria-label="Supported storage types">
+      <div class="storage-card sc-local" role="listitem">
+        <div class="s-icon">💾</div>
+        <div class="s-name">localStorage</div>
+        <div class="s-desc">Scores saved in the browser - lost on clear, invisible to others</div>
+        <span class="s-badge">Supported ✓</span>
+      </div>
+      <div class="storage-card sc-sheets" role="listitem">
+        <div class="s-icon">📊</div>
+        <div class="s-name">Google Sheets / GAS</div>
+        <div class="s-desc">Scores posted to a Google Apps Script URL then stored in a Sheet</div>
+        <span class="s-badge">Supported ✓</span>
+      </div>
+      <div class="storage-card sc-fire" role="listitem">
+        <div class="s-icon">🔥</div>
+        <div class="s-name">Firebase</div>
+        <div class="s-desc">Scores in Firestore or Realtime Database - third-party dependency</div>
+        <span class="s-badge">Supported ✓</span>
+      </div>
+    </div>
+
+    <div class="prereq">
+      <h3><i class="fa-solid fa-circle-check" style="color:var(--green)"></i> Before you start</h3>
+      <ul>
+        <li>Labs 1–4 done - you're comfortable with cPanel, PHP files, and fetch()</li>
+        <li>Your finished arcade game file (the <code>.html</code> file) ready on your computer</li>
+        <li>Your <code>vibe-php</code> folder already exists inside <code>public_html</code> on cPanel</li>
+        <li>Claude open in another browser tab</li>
+      </ul>
+    </div>
+
+    <!-- ════════════════════════════════════════════════════════
+         SECTION 1: AI CODE ANALYSIS DROP ZONE
+    ════════════════════════════════════════════════════════ -->
+    <section id="analyze" aria-labelledby="analyze-heading">
+
+      <div class="section-label">
+        <div class="section-icon si-purple" aria-hidden="true">
+          <i class="fa-solid fa-robot"></i>
+        </div>
+        <h2 id="analyze-heading">Drop Your Game - Let Claude Read It</h2>
+      </div>
+
+      <p style="font-size:0.95rem; color:var(--muted); margin-bottom:1.25rem">
+        Drop your <code>.html</code> game file here. Claude will read the code, identify which
+        storage system you used, find the exact score-saving functions, and write
+        ready-to-paste replacement code tailored to <em>your specific game</em>.
+      </p>
+
+      <!-- FILE DROP ZONE -->
+      <div class="drop-zone" id="dropZone" role="button" tabindex="0" aria-label="Drop your game HTML file here or click to browse">
+        <input type="file" id="fileInput" accept=".html,.htm" aria-label="Choose your game HTML file" />
+        <div class="drop-icon" aria-hidden="true"><i class="fa-solid fa-cloud-arrow-up"></i></div>
+        <div class="drop-title">Drop your game file here</div>
+        <div class="drop-sub">or click to browse - accepts <code>.html</code> files</div>
+      </div>
+
+      <div class="analysis-wrap">
+
+        <!-- Loading state -->
+        <div class="analysis-loading" id="analysisLoading">
+          <div class="spinner" aria-hidden="true"></div>
+          <div class="loading-msg">Claude is reading your game code...<br /><strong>Finding your score storage</strong></div>
+        </div>
+
+        <!-- Result card -->
+        <div class="analysis-result" id="analysisResult">
+          <div class="analysis-head">
+            <div class="analysis-head-left">
+              <i class="fa-solid fa-circle-check" style="color:var(--green)"></i>
+              <span style="font-weight:700; font-size:0.9rem" id="detectedFileName">-</span>
+              <span class="detection-badge" id="detectionBadge">-</span>
+            </div>
+            <button class="re-analyze-btn" onclick="resetAnalysis()">
+              <i class="fa-solid fa-rotate-left"></i> Analyze a different file
+            </button>
+          </div>
+          <div class="analysis-body">
+            <div class="analysis-tabs" role="tablist">
+              <button class="a-tab active" role="tab" aria-selected="true"  onclick="switchTab(this,'tab-explain')">What Claude found</button>
+              <button class="a-tab"        role="tab" aria-selected="false" onclick="switchTab(this,'tab-original')">Original code</button>
+              <button class="a-tab"        role="tab" aria-selected="false" onclick="switchTab(this,'tab-replace')">Replacement code</button>
+              <button class="a-tab"        role="tab" aria-selected="false" onclick="switchTab(this,'tab-prompt')">Full migration prompt</button>
+            </div>
+
+            <!-- Tab: Explanation -->
+            <div class="a-panel active" id="tab-explain">
+              <div class="analysis-explanation" id="explanationText">-</div>
+            </div>
+
+            <!-- Tab: Original code snippets -->
+            <div class="a-panel" id="tab-original">
+              <div class="analysis-code-label">Detected score-related code in your game</div>
+              <div class="code-block" id="originalCode" style="max-height:320px; overflow-y:auto">-</div>
+            </div>
+
+            <!-- Tab: Replacement code -->
+            <div class="a-panel" id="tab-replace">
+              <div class="analysis-code-label">Drop-in replacement - uses fetch() to call scores.php</div>
+              <div class="code-block" style="position:relative; max-height:380px; overflow-y:auto">
+                <button class="code-copy-btn" onclick="copyCodeBlock(this)">Copy</button>
+                <div id="replacementCode">-</div>
+              </div>
+              <div class="callout tip" style="margin-top:0.85rem">
+                <strong><i class="fa-solid fa-lightbulb"></i> How to use this</strong>
+                Copy the replacement code, open your game in File Manager's editor, find the original score functions (shown in the "Original code" tab), and swap them out. Keep your game's look and feel - only the storage layer changes.
+              </div>
+            </div>
+
+            <!-- Tab: Full prompt for Claude -->
+            <div class="a-panel" id="tab-prompt">
+              <p style="font-size:0.88rem; color:var(--muted); margin-bottom:0.75rem">
+                Paste this prompt - along with your game code - into Claude for a complete, fully integrated migration. This is the recommended approach for complex games.
+              </p>
+              <div class="prompt-box" style="margin:0">
+                <div class="prompt-label"><i class="fa-solid fa-robot"></i> Paste into Claude (with your game code)</div>
+                <button class="copy-btn" onclick="copyPrompt(this)">Copy</button>
+                <div class="prompt-text" id="migrationPrompt">-</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Error state -->
+        <div class="analysis-error" id="analysisError">
+          <strong><i class="fa-solid fa-triangle-exclamation"></i> Analysis failed</strong>
+          <span id="errorMessage">Something went wrong. Please try again.</span>
+        </div>
+
+      </div>
+    </section>
+
+    <hr class="section-divider" aria-hidden="true" />
+
+    <!-- ════════════════════════════════════════════════════════
+         THE LAB STEPS
+    ════════════════════════════════════════════════════════ -->
+    <section id="step-1-section" aria-labelledby="steps-heading">
+
+      <div class="section-label">
+        <div class="section-icon si-green" aria-hidden="true">
+          <i class="fa-solid fa-list-check"></i>
+        </div>
+        <h2 id="steps-heading">Step-by-Step: Build the PHP Leaderboard</h2>
+      </div>
+
+      <!-- STEP 1 -->
+      <section class="step-card open" id="step-1" aria-labelledby="s1t">
+        <div class="step-header" onclick="toggleStep(this)" role="button" tabindex="0" aria-expanded="true">
+          <div class="step-num" id="num-1">1</div>
+          <div class="step-title-wrap">
+            <div class="step-title" id="s1t">Upload your game to cPanel</div>
+            <div class="step-subtitle">Get your existing game file onto your server</div>
+          </div>
+          <button class="step-done-btn" onclick="markDone(event,1)">Mark done</button>
+          <i class="fa-solid fa-chevron-down step-chevron" aria-hidden="true"></i>
+        </div>
+        <div class="step-body">
+          <p>Your game already works on your local machine. Let's get it onto the server before touching anything else.</p>
+          <ol class="action-list">
+            <li>Go to cPanel → File Manager → navigate to <code>public_html/vibe-php/</code>.</li>
+            <li>Click the <strong>Upload</strong> button in the top toolbar (it looks like an arrow pointing up).</li>
+            <li>In the upload panel, click <strong>Select File</strong> and choose your game's <code>.html</code> file from your computer.</li>
+            <li>Wait for the upload to complete - a green bar shows progress. Then click <strong>Go Back</strong> to return to File Manager.</li>
+            <li>You should see your game file listed alongside the files from earlier labs.</li>
+          </ol>
+          <div class="callout see">
+            <strong><i class="fa-solid fa-eye"></i> Quick sanity check</strong>
+            Visit your game in the browser right now - before changing anything. Navigate to <code>yourdomain.com/vibe-php/your-game-name.html</code>. Confirm it loads and plays correctly. This gives you a clean baseline to compare against after the migration.
+          </div>
+          <div class="callout note">
+            <strong><i class="fa-solid fa-star"></i> Multiple games?</strong>
+            Upload all of them - the scoring system you'll build in Steps 2–5 supports any number of games simultaneously. Each game gets its own leaderboard file, but they all share one <code>scores.php</code>.
+          </div>
+        </div>
+      </section>
+
+      <!-- STEP 2 -->
+      <section class="step-card" id="step-2" aria-labelledby="s2t">
+        <div class="step-header" onclick="toggleStep(this)" role="button" tabindex="0" aria-expanded="false">
+          <div class="step-num" id="num-2">2</div>
+          <div class="step-title-wrap">
+            <div class="step-title" id="s2t">Prompt Claude for <code style="font-size:0.88rem">scores.php</code></div>
+            <div class="step-subtitle">One PHP file that handles leaderboards for every game</div>
+          </div>
+          <button class="step-done-btn" onclick="markDone(event,2)">Mark done</button>
+          <i class="fa-solid fa-chevron-down step-chevron" aria-hidden="true"></i>
+        </div>
+        <div class="step-body">
+          <p>
+            This PHP file is designed from the start to handle <em>multiple games</em> - each game passes a
+            <code>game</code> identifier, and scores are stored in separate files like
+            <code>scores-snake.json</code>, <code>scores-asteroids.json</code>, etc.
+            One PHP file, unlimited games.
+          </p>
+          <div class="prompt-box">
+            <div class="prompt-label"><i class="fa-solid fa-robot"></i> Paste this into Claude</div>
+            <button class="copy-btn" onclick="copyPrompt(this)">Copy</button>
+            <div class="prompt-text">Create a PHP file called scores.php for a beginner PHP student. It's a multi-game high score API.
+
+HOW IT WORKS:
+- GET  scores.php?game=mygame       → returns top 10 scores for that game as JSON array
+- POST scores.php                   → saves a new score entry
+
+POST body (JSON): { game, name, score, level, duration }
+  - game:     required, string, max 40 chars, alphanumeric + hyphens only (used as filename)
+  - name:     required, string, max 16 chars
+  - score:    required, integer, 0–9999999
+  - level:    optional, integer, defaults to 1
+  - duration: optional, integer (seconds played this session), defaults to 0
+
+STORAGE:
+- Each game's scores stored in scores-{gamename}.json (e.g. scores-snake.json)
+- Each file is a JSON array of objects: {name, score, level, duration, date}
+- Keep top 100 scores per game (trim after each save)
+- Create the file automatically if it doesn't exist
+
+SECURITY:
+- header('Content-Type: application/json') as the very first output
+- header('Access-Control-Allow-Origin: *') for same-server cross-file calls
+- Validate ALL inputs - reject bad types, out-of-range values, and non-alphanumeric game names
+- Sanitize name with htmlspecialchars, strip_tags, trim
+- Wrap everything in try/catch - return {"error": "..."} on failure, never expose PHP errors
+- Do NOT display PHP error messages - use display_errors = 0
+
+COMMENTS: Very descriptive comments on every single line explaining what it does and why.
+VERSION: // v1.0 - Lab 5: Multi-game High Score API</div>
+          </div>
+          <div class="callout tip">
+            <strong><i class="fa-solid fa-lightbulb"></i> Why one PHP file handles all games</strong>
+            The <code>game</code> parameter acts like a namespace. When your Snake game calls <code>scores.php?game=snake</code>, PHP creates and reads <code>scores-snake.json</code>. When your asteroids game calls <code>scores.php?game=asteroids</code>, it gets its own separate file. All through one API endpoint.
+          </div>
+        </div>
+      </section>
+
+      <!-- STEP 3 -->
+      <section class="step-card" id="step-3" aria-labelledby="s3t">
+        <div class="step-header" onclick="toggleStep(this)" role="button" tabindex="0" aria-expanded="false">
+          <div class="step-num" id="num-3">3</div>
+          <div class="step-title-wrap">
+            <div class="step-title" id="s3t">Create scores.php and paste the code</div>
+            <div class="step-subtitle">Deploy the back end</div>
+          </div>
+          <button class="step-done-btn" onclick="markDone(event,3)">Mark done</button>
+          <i class="fa-solid fa-chevron-down step-chevron" aria-hidden="true"></i>
+        </div>
+        <div class="step-body">
+          <ol class="action-list">
+            <li>In File Manager inside <code>vibe-php/</code>, click <strong>+ File</strong>, name it <code>scores.php</code>, click <strong>Create New File</strong>.</li>
+            <li>Right-click <code>scores.php</code> → <strong>Edit</strong>.</li>
+            <li>Select all, delete, paste Claude's code, click <strong>Save Changes</strong>.</li>
+          </ol>
+          <p>Now test it. Open a new browser tab and visit:</p>
+          <div class="screen-mock">
+            <div class="mock-bar">
+              <div class="mock-dot" style="background:#ff5f57"></div>
+              <div class="mock-dot" style="background:#febc2e"></div>
+              <div class="mock-dot" style="background:#28c840"></div>
+              <div class="mock-url">yourdomain.com/vibe-php/scores.php?game=test</div>
+            </div>
+          </div>
+          <div class="callout see">
+            <strong><i class="fa-solid fa-eye"></i> What you should see</strong>
+            An empty JSON array: <code>[]</code>. No PHP errors, no HTML - just clean JSON. If you see anything else, copy the output and ask Claude to fix it.
+          </div>
+        </div>
+      </section>
+
+      <!-- STEP 4 -->
+      <section class="step-card" id="step-4" aria-labelledby="s4t">
+        <div class="step-header" onclick="toggleStep(this)" role="button" tabindex="0" aria-expanded="false">
+          <div class="step-num" id="num-4">4</div>
+          <div class="step-title-wrap">
+            <div class="step-title" id="s4t">Migrate your game's score code</div>
+            <div class="step-subtitle">Use the analysis above - or paste your code into Claude</div>
+          </div>
+          <button class="step-done-btn" onclick="markDone(event,4)">Mark done</button>
+          <i class="fa-solid fa-chevron-down step-chevron" aria-hidden="true"></i>
+        </div>
+        <div class="step-body">
+          <p>This is the main event. You're replacing your game's score-saving code with <code>fetch()</code> calls to your new PHP API. Use whichever approach works best for you:</p>
+
+          <p><strong>Option A - use the analysis above (recommended):</strong> If you dropped your game file into the analyzer, click the <strong>"Replacement code"</strong> tab above and copy that code. Then in File Manager, edit your game file and swap out the original score functions.</p>
+
+          <p><strong>Option B - let Claude do the full migration:</strong> If you skipped the analyzer or want Claude to handle the whole thing, use the prompt in the <strong>"Full migration prompt"</strong> tab above. Paste it into Claude along with your entire game code. Claude will return a fully updated version of your game.</p>
+
+          <p><strong>Option C - manual, if you're curious:</strong> The core pattern for all three storage types is the same - replace the save/load calls with these two functions:</p>
+
+          <div class="code-block" style="position:relative">
+            <button class="code-copy-btn" onclick="copyCodeBlock(this)">Copy</button>
+<span class="js-cm">// ── DEFINE YOUR GAME'S UNIQUE NAME (used as the file key) ──────────
+// Change "my-game" to something short that describes your game.
+// Use only letters, numbers, and hyphens - no spaces.</span>
+<span class="js-kw">const</span> GAME_ID = <span class="js-str">"my-game"</span>;
+
+<span class="js-cm">// ── SAVE A SCORE TO THE PHP API ─────────────────────────────────────
+// Call this function after game over instead of your old storage call.
+// Parameters:
+//   name     - the player's name (string)
+//   score    - their final score (number)
+//   level    - level they reached (number, optional)
+//   duration - seconds they played this session (number, optional)</span>
+<span class="js-kw">async function</span> <span class="js-fn">saveScore</span>(name, score, level = 1, duration = 0) {
+  <span class="js-kw">try</span> {
+    <span class="js-kw">const</span> response = <span class="js-kw">await</span> <span class="js-fn">fetch</span>(<span class="js-str">'scores.php'</span>, {
+      method: <span class="js-str">'POST'</span>,
+      headers: { <span class="js-str">'Content-Type'</span>: <span class="js-str">'application/json'</span> },
+      body: JSON.stringify({ game: GAME_ID, name, score, level, duration })
+    });
+    <span class="js-kw">const</span> result = <span class="js-kw">await</span> response.json();
+    <span class="js-kw">if</span> (result.error) <span class="js-kw">throw new</span> Error(result.error);
+    <span class="js-kw">return</span> <span class="js-kw">true</span>;
+  } <span class="js-kw">catch</span> (err) {
+    console.error(<span class="js-str">'Could not save score:'</span>, err);
+    <span class="js-kw">return</span> <span class="js-kw">false</span>;
+  }
+}
+
+<span class="js-cm">// ── LOAD THE TOP 10 SCORES FROM THE PHP API ─────────────────────────
+// Call this on page load and after a score is saved.
+// Returns an array of score objects: [{name, score, level, duration, date}]</span>
+<span class="js-kw">async function</span> <span class="js-fn">loadScores</span>() {
+  <span class="js-kw">try</span> {
+    <span class="js-kw">const</span> response = <span class="js-kw">await</span> <span class="js-fn">fetch</span>(<span class="js-str">`scores.php?game=${GAME_ID}`</span>);
+    <span class="js-kw">return await</span> response.json();
+  } <span class="js-kw">catch</span> (err) {
+    console.error(<span class="js-str">'Could not load scores:'</span>, err);
+    <span class="js-kw">return</span> [];
+  }
+}
+          </div>
+
+          <div class="callout warn">
+            <strong><i class="fa-solid fa-triangle-exclamation"></i> Important: change GAME_ID for each game</strong>
+            If you have three games, each one needs a unique <code>GAME_ID</code> - like <code>"snake"</code>, <code>"asteroids"</code>, <code>"pong"</code>. This is what separates their leaderboards. Using the same ID in two games means they'll share one leaderboard.
+          </div>
+        </div>
+      </section>
+
+      <!-- STEP 5 -->
+      <section class="step-card" id="step-5" aria-labelledby="s5t">
+        <div class="step-header" onclick="toggleStep(this)" role="button" tabindex="0" aria-expanded="false">
+          <div class="step-num" id="num-5">5</div>
+          <div class="step-title-wrap">
+            <div class="step-title" id="s5t">Upload the updated game and test it</div>
+            <div class="step-subtitle">Play, submit a score, and watch it appear in the leaderboard</div>
+          </div>
+          <button class="step-done-btn" onclick="markDone(event,5)">Mark done</button>
+          <i class="fa-solid fa-chevron-down step-chevron" aria-hidden="true"></i>
+        </div>
+        <div class="step-body">
+          <ol class="action-list">
+            <li>Save your updated game file and replace it on the server - either paste the updated code into File Manager's editor, or upload the file again (cPanel will ask if you want to overwrite - say yes).</li>
+            <li>Visit your game in the browser and play a round through to game over.</li>
+            <li>Enter your name and submit your score.</li>
+            <li>Check the leaderboard in-game - your score should appear.</li>
+            <li>Open a separate tab and visit <code>yourdomain.com/vibe-php/scores.php?game=your-game-id</code> - you should see your score in the raw JSON.</li>
+          </ol>
+          <div class="callout see">
+            <strong><i class="fa-solid fa-eye"></i> The proof it's working</strong>
+            Open the game on your phone, submit a score, then refresh the leaderboard on your desktop. Your phone's score appears. Two different devices, one shared server - that's the upgrade you just made.
+          </div>
+          <div class="callout warn">
+            <strong><i class="fa-solid fa-triangle-exclamation"></i> Score not saving?</strong>
+            Open DevTools (F12) → Network tab. Play again and submit. Find the POST to <code>scores.php</code> → click it → Response tab. Read what PHP sent back. Any error message there will point you to the exact problem. Copy it and ask Claude to fix it.
+          </div>
+        </div>
+      </section>
+
+      <!-- STEP 6 -->
+      <section class="step-card" id="step-6" aria-labelledby="s6t">
+        <div class="step-header" onclick="toggleStep(this)" role="button" tabindex="0" aria-expanded="false">
+          <div class="step-num" id="num-6">6</div>
+          <div class="step-title-wrap">
+            <div class="step-title" id="s6t">Lock down the data files</div>
+            <div class="step-subtitle">Prevent visitors from reading scores JSON directly</div>
+          </div>
+          <button class="step-done-btn" onclick="markDone(event,6)">Mark done</button>
+          <i class="fa-solid fa-chevron-down step-chevron" aria-hidden="true"></i>
+        </div>
+        <div class="step-body">
+          <p>Once you've submitted a score, the <code>scores-*.json</code> files exist on your server. Right now they're publicly readable - anyone can visit the URL and see the raw data. Let's fix that.</p>
+          <ol class="action-list">
+            <li>In File Manager, navigate to <code>public_html/vibe-php/</code>.</li>
+            <li>You should see one or more <code>scores-*.json</code> files that appeared after your test submissions.</li>
+            <li>For each one: right-click → <strong>Change Permissions</strong> → set to <strong>600</strong> → click <strong>Change Permissions</strong>.</li>
+            <li>Try visiting one of them directly in the browser - <code>yourdomain.com/vibe-php/scores-your-game.json</code> - you should get a <strong>403 Forbidden</strong> error.</li>
+            <li>Confirm the game and the <code>scores.php</code> API still work normally (they will - PHP reads with owner permissions).</li>
+          </ol>
+          <div class="callout note">
+            <strong><i class="fa-solid fa-star"></i> Do this for every new game</strong>
+            Any time you add a new game and its scores file gets created, come back and set its permissions to 600. Make this a habit - it's one of those things that's trivial to do right and embarrassing to skip.
+          </div>
+        </div>
+      </section>
+
+    </section>
+
+    <hr class="section-divider" aria-hidden="true" />
+
+    <!-- ════════════════════════════════════════════════════════
+         BONUS: CENTRALIZED ARCADE DASHBOARD
+    ════════════════════════════════════════════════════════ -->
+    <section id="bonus" aria-labelledby="bonus-heading">
+
+      <div class="section-label">
+        <div class="section-icon si-orange" aria-hidden="true">
+          <i class="fa-solid fa-chart-line"></i>
+        </div>
+        <h2 id="bonus-heading">Next Level: Centralized Arcade Dashboard</h2>
+      </div>
+
+      <div class="bonus-wrap">
+        <div class="bonus-header">
+          <span class="bonus-tag"><i class="fa-solid fa-star"></i> Bonus</span>
+          <h2>One dashboard. All your games. Full analytics.</h2>
+        </div>
+        <p class="bonus-desc">
+          Since all your games share the same <code>scores.php</code> API and store data in
+          <code>scores-{game}.json</code> files, you can build a single PHP page that reads
+          <em>all</em> of them at once and shows aggregated stats across your entire arcade.
+        </p>
+
+        <!-- Visual preview of what the dashboard looks like -->
+        <div class="analytics-mock" role="img" aria-label="Preview of the arcade analytics dashboard">
+          <div class="am-topbar">
+            <div class="am-topbar-title"><i class="fa-solid fa-gamepad"></i> Arcade Analytics Dashboard</div>
+            <div>arcade.php · Live</div>
+          </div>
+          <div class="am-stats-row">
+            <div class="am-stat">
+              <div class="am-stat-val">847</div>
+              <div class="am-stat-lbl">Total plays</div>
+            </div>
+            <div class="am-stat">
+              <div class="am-stat-val">12,440</div>
+              <div class="am-stat-lbl">Top score</div>
+            </div>
+            <div class="am-stat">
+              <div class="am-stat-val">18</div>
+              <div class="am-stat-lbl">Unique players</div>
+            </div>
+            <div class="am-stat">
+              <div class="am-stat-val">142h</div>
+              <div class="am-stat-lbl">Total time played</div>
+            </div>
+          </div>
+          <div class="am-game-row">
+            <div class="am-game-name">🚀 Void Runner</div>
+            <div class="am-game-stat">Plays <span>312</span></div>
+            <div class="am-game-stat">Top score <span>12,440</span></div>
+            <div class="am-game-stat">Avg <span>1,820</span></div>
+            <div class="am-bar-wrap"><div class="am-bar" style="width:100%"></div></div>
+          </div>
+          <div class="am-game-row">
+            <div class="am-game-name">🐍 Snake</div>
+            <div class="am-game-stat">Plays <span>285</span></div>
+            <div class="am-game-stat">Top score <span>8,900</span></div>
+            <div class="am-game-stat">Avg <span>1,240</span></div>
+            <div class="am-bar-wrap"><div class="am-bar" style="width:72%"></div></div>
+          </div>
+          <div class="am-game-row">
+            <div class="am-game-name">🧱 Breakout</div>
+            <div class="am-game-stat">Plays <span>250</span></div>
+            <div class="am-game-stat">Top score <span>5,200</span></div>
+            <div class="am-game-stat">Avg <span>980</span></div>
+            <div class="am-bar-wrap"><div class="am-bar" style="width:42%"></div></div>
+          </div>
+        </div>
+
+        <!-- What it shows -->
+        <div style="margin: 1.25rem 0; display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem;">
+          <div style="background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 0.85rem 1rem;">
+            <div style="font-size: 0.8rem; font-weight: 700; margin-bottom: 0.5rem; color: var(--orange)"><i class="fa-solid fa-chart-bar"></i> Per-game analytics</div>
+            <ul style="list-style: none; font-size: 0.82rem; color: var(--muted);">
+              <li>• Total number of plays</li>
+              <li>• Highest score ever</li>
+              <li>• Average score</li>
+              <li>• Total minutes played</li>
+              <li>• Unique player count</li>
+              <li>• Last played timestamp</li>
+            </ul>
+          </div>
+          <div style="background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 0.85rem 1rem;">
+            <div style="font-size: 0.8rem; font-weight: 700; margin-bottom: 0.5rem; color: var(--primary)"><i class="fa-solid fa-trophy"></i> Arcade-wide leaderboards</div>
+            <ul style="list-style: none; font-size: 0.82rem; color: var(--muted);">
+              <li>• All-time top 10 per game</li>
+              <li>• Cross-game hall of fame</li>
+              <li>• Most played game ranking</li>
+              <li>• Live "playing now" count</li>
+              <li>• Score distribution chart</li>
+              <li>• Expandable per-game detail</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Bonus Step 1: Create arcade.php -->
+        <section class="step-card" id="bonus-step-1" aria-labelledby="bs1t" style="margin-top:1.25rem">
+          <div class="step-header" onclick="toggleStep(this)" role="button" tabindex="0" aria-expanded="false">
+            <div class="step-num" id="num-b1" style="background:var(--orange-dim);border-color:var(--orange);color:var(--orange)">B1</div>
+            <div class="step-title-wrap">
+              <div class="step-title" id="bs1t">Create <code style="font-size:0.88rem">arcade.php</code> in cPanel</div>
+              <div class="step-subtitle">This will be your dashboard - one new file in vibe-php/</div>
+            </div>
+            <button class="step-done-btn" onclick="markDone(event,'b1')">Mark done</button>
+            <i class="fa-solid fa-chevron-down step-chevron" aria-hidden="true"></i>
+          </div>
+          <div class="step-body">
+            <ol class="action-list">
+              <li>In File Manager → <code>vibe-php/</code>, click <strong>+ File</strong>.</li>
+              <li>Name it <code>arcade.php</code>, click <strong>Create New File</strong>.</li>
+            </ol>
+            <div class="callout note">
+              <strong><i class="fa-solid fa-star"></i> How it works</strong>
+              <code>arcade.php</code> is a pure PHP page - no JavaScript fetch needed. PHP runs on the server, finds all <code>scores-*.json</code> files in the same folder, reads and aggregates their data, and outputs a complete styled HTML dashboard. All the logic happens before the page is sent to your browser.
+            </div>
+          </div>
+        </section>
+
+        <!-- Bonus Step 2: Prompt for arcade.php -->
+        <section class="step-card" id="bonus-step-2" aria-labelledby="bs2t">
+          <div class="step-header" onclick="toggleStep(this)" role="button" tabindex="0" aria-expanded="false">
+            <div class="step-num" id="num-b2" style="background:var(--orange-dim);border-color:var(--orange);color:var(--orange)">B2</div>
+            <div class="step-title-wrap">
+              <div class="step-title" id="bs2t">Prompt Claude for the dashboard</div>
+              <div class="step-subtitle">Generate the full analytics page</div>
+            </div>
+            <button class="step-done-btn" onclick="markDone(event,'b2')">Mark done</button>
+            <i class="fa-solid fa-chevron-down step-chevron" aria-hidden="true"></i>
+          </div>
+          <div class="step-body">
+            <div class="prompt-box">
+              <div class="prompt-label"><i class="fa-solid fa-robot"></i> Paste this into Claude</div>
+              <button class="copy-btn" onclick="copyPrompt(this)">Copy</button>
+              <div class="prompt-text">Create a single PHP file called arcade.php - a beautiful analytics dashboard for a student arcade.
+
+HOW IT READS DATA:
+- Use glob(__DIR__ . '/scores-*.json') to find all score files in the same folder
+- For each file, extract the game name from the filename (e.g. "scores-snake.json" → "snake")
+- Read and json_decode each file into a PHP array
+- Compute per-game stats and arcade-wide totals
+
+PER-GAME ANALYTICS to display (compute from the scores data):
+- Total number of plays (count of entries in the file)
+- All-time highest score
+- Average score (rounded to nearest integer)
+- Total time played across all sessions (sum of the "duration" field, formatted as h:mm)
+- Number of unique players (count unique names, case-insensitive)
+- Date of the most recent play
+- Top 5 leaderboard (name, score, level)
+
+ARCADE-WIDE TOTALS (across all games):
+- Total plays across all games
+- All-time highest score (any game)
+- Total unique players (union of all names)
+- Total time played (sum of all durations)
+
+LAYOUT:
+- A sticky header with the arcade name and live timestamp (PHP's date())
+- Four summary stat tiles at the top (arcade-wide totals)
+- One card per game showing: game name, stats, a visual bar representing popularity relative to most-played game, and a collapsible top-5 leaderboard
+- Games sorted by total plays, most played first
+- A "no data yet" state if the folder has no score files
+
+DESIGN:
+- Dark theme, orange (#ff9f43) primary accent for dashboard stats, purple (#9900ff) for leaderboard elements
+- Responsive grid layout
+- Clean, professional - like something you'd show at a demo day
+- Accessible with proper heading hierarchy and ARIA where needed
+
+SECURITY:
+- htmlspecialchars() on all names before output
+- Validate that json_decode succeeded before using the data
+- Show a graceful error if a file can't be read (not a PHP error, just a skip)
+
+COMMENTS: Explain every PHP loop and every calculation in plain English - written for beginners.
+VERSION: // v1.0 - Lab 5 Bonus: Arcade Analytics Dashboard</div>
+            </div>
+            <div class="callout tip">
+              <strong><i class="fa-solid fa-lightbulb"></i> Tell Claude your game names</strong>
+              After getting the initial response, follow up with: "My games are called [your game IDs]. Can you update the dashboard to show a custom icon and full title for each one instead of the raw filename?" Claude will personalize each game card.
+            </div>
+          </div>
+        </section>
+
+        <!-- Bonus Step 3: Upload and test -->
+        <section class="step-card" id="bonus-step-3" aria-labelledby="bs3t">
+          <div class="step-header" onclick="toggleStep(this)" role="button" tabindex="0" aria-expanded="false">
+            <div class="step-num" id="num-b3" style="background:var(--orange-dim);border-color:var(--orange);color:var(--orange)">B3</div>
+            <div class="step-title-wrap">
+              <div class="step-title" id="bs3t">Paste, save, and visit the dashboard</div>
+              <div class="step-subtitle">See all your games' data in one place</div>
+            </div>
+            <button class="step-done-btn" onclick="markDone(event,'b3')">Mark done</button>
+            <i class="fa-solid fa-chevron-down step-chevron" aria-hidden="true"></i>
+          </div>
+          <div class="step-body">
+            <ol class="action-list">
+              <li>Copy Claude's <code>arcade.php</code> code, right-click the file in File Manager → <strong>Edit</strong>, paste it in, and save.</li>
+              <li>Visit the dashboard:</li>
+            </ol>
+            <div class="screen-mock">
+              <div class="mock-bar">
+                <div class="mock-dot" style="background:#ff5f57"></div>
+                <div class="mock-dot" style="background:#febc2e"></div>
+                <div class="mock-dot" style="background:#28c840"></div>
+                <div class="mock-url">yourdomain.com/vibe-php/arcade.php</div>
+              </div>
+            </div>
+            <ol class="action-list" start="3">
+              <li>You should see a card for each game that has scores saved. Play a few rounds across your different games, refresh the dashboard, and watch the numbers update.</li>
+              <li>Share the dashboard URL with a classmate - their scores will appear on it too as they play.</li>
+            </ol>
+            <div class="callout see">
+              <strong><i class="fa-solid fa-eye"></i> What you should see</strong>
+              A summary row of arcade-wide totals at the top, then a card for each game with its stats and leaderboard. Every metric is calculated live from the JSON files - no database, no special setup, just PHP reading files you already have.
+            </div>
+            <div class="callout note">
+              <strong><i class="fa-solid fa-star"></i> This is a portfolio piece</strong>
+              An analytics dashboard that aggregates live data across multiple projects, built entirely with PHP file I/O - no database, no cloud service, no monthly bill. That's genuinely impressive for a community college project. Screenshot it, link it, keep it running.
+            </div>
+          </div>
+        </section>
+
+      </div>
+
+    </section>
+
+    <!-- ── FINISH ── -->
+    <div class="finish-card">
+      <div class="finish-icon" aria-hidden="true">🏆</div>
+      <h2>Lab 5 Complete.</h2>
+      <p>You migrated a real project from a local or third-party storage system to a self-hosted back end you fully control. That's not a toy - that's production thinking.</p>
+      <p style="margin-top:0.75rem; color:#888; font-size:0.88rem">All five labs done. From a blank <code>.php</code> to a multi-game analytics platform. Nice work.</p>
+    </div>
+
+  </main>
+
+  <!-- ════════════════════════════════════════════════════════
+       JAVASCRIPT
+  ════════════════════════════════════════════════════════ -->
+  <script>
+    // ── PROGRESS / STEP SYSTEM ────────────────────────────────
+    // TOTAL_STEPS counts the numbered steps plus the 3 bonus steps
+    const TOTAL_STEPS = 6;
+    const completed   = new Set();
+
+    // Build numbered progress dots (1–6 for the main steps)
+    const dotsWrap = document.getElementById('prog-dots');
+    for (let i = 1; i <= TOTAL_STEPS; i++) {
+      const dot = document.createElement('a');
+      dot.className   = 'p-dot';
+      dot.textContent = i;
+      dot.href        = `#step-${i}`;
+      dot.id          = `dot-${i}`;
+      dot.setAttribute('aria-label', `Go to step ${i}`);
+      dotsWrap.appendChild(dot);
+    }
+    // Add bonus dots
+    ['B1','B2','B3'].forEach(b => {
+      const dot = document.createElement('a');
+      dot.className = 'p-dot';
+      dot.textContent = b.toLowerCase();
+      dot.href = `#bonus-step-${b.slice(1)}`;
+      dot.id   = `dot-${b}`;
+      dot.setAttribute('aria-label', `Go to bonus step ${b}`);
+      dotsWrap.appendChild(dot);
+    });
+
+    document.getElementById('dot-1').classList.add('active');
+
+    // Opens/closes a step card when its header is clicked
+    function toggleStep(header) {
+      const card   = header.closest('.step-card');
+      const isOpen = card.classList.toggle('open');
+      header.setAttribute('aria-expanded', isOpen);
+    }
+
+    // Keyboard support for step toggles
+    document.querySelectorAll('.step-header').forEach(h => {
+      h.addEventListener('keydown', e => {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggleStep(h); }
+      });
+    });
+
+    // Marks a step done and updates the progress bar
+    function markDone(event, id) {
+      event.stopPropagation();
+      const btn = event.target;
+      const numEl = document.getElementById(`num-${id}`);
+      const dotEl = document.getElementById(`dot-${id}`);
+      if (completed.has(id)) {
+        completed.delete(id);
+        btn.textContent = 'Mark done';
+        btn.classList.remove('marked');
+        if (numEl) numEl.classList.remove('done');
+        if (dotEl) { dotEl.classList.remove('done'); }
+      } else {
+        completed.add(id);
+        btn.textContent = '✓ Done';
+        btn.classList.add('marked');
+        if (numEl) numEl.classList.add('done');
+        if (dotEl) { dotEl.classList.remove('active'); dotEl.classList.add('done'); }
+      }
+      // Update the progress bar percentage
+      const totalItems = TOTAL_STEPS + 3; // 6 main + 3 bonus
+      const pct = Math.round((completed.size / totalItems) * 100);
+      document.getElementById('prog-fill').style.width = pct + '%';
+      document.getElementById('prog-bar').setAttribute('aria-valuenow', pct);
+    }
+
+    // ── TAB SWITCHER (inside the analysis result card) ────────
+    // Shows only the clicked tab's panel, hides the others
+    function switchTab(clickedTab, panelId) {
+      // Deactivate all tabs
+      document.querySelectorAll('.a-tab').forEach(t => {
+        t.classList.remove('active');
+        t.setAttribute('aria-selected', 'false');
+      });
+      // Deactivate all panels
+      document.querySelectorAll('.a-panel').forEach(p => p.classList.remove('active'));
+      // Activate the clicked tab and its panel
+      clickedTab.classList.add('active');
+      clickedTab.setAttribute('aria-selected', 'true');
+      document.getElementById(panelId).classList.add('active');
+    }
+
+    // ── COPY BUTTONS ──────────────────────────────────────────
+    function copyPrompt(btn) {
+      const text = btn.closest('.prompt-box').querySelector('.prompt-text');
+      navigator.clipboard.writeText(text.innerText).then(() => {
+        btn.textContent = 'Copied!'; btn.classList.add('copied');
+        setTimeout(() => { btn.textContent = 'Copy'; btn.classList.remove('copied'); }, 2000);
+      }).catch(() => { btn.textContent = 'Select manually'; setTimeout(() => { btn.textContent = 'Copy'; }, 2500); });
+    }
+
+    function copyCodeBlock(btn) {
+      // The code content is either a direct text node or inside a div sibling
+      const block = btn.parentElement;
+      // Get all text, skipping the button itself
+      const texts = Array.from(block.childNodes)
+        .filter(n => n !== btn)
+        .map(n => n.textContent)
+        .join('');
+      navigator.clipboard.writeText(texts.trim()).then(() => {
+        btn.textContent = 'Copied!'; btn.classList.add('copied');
+        setTimeout(() => { btn.textContent = 'Copy'; btn.classList.remove('copied'); }, 2000);
+      }).catch(() => { btn.textContent = 'Select manually'; setTimeout(() => { btn.textContent = 'Copy'; }, 2500); });
+    }
+
+    // ── FILE DROP ZONE ────────────────────────────────────────
+    const dropZone  = document.getElementById('dropZone');
+    const fileInput = document.getElementById('fileInput');
+
+    // Visual feedback when dragging over the drop zone
+    dropZone.addEventListener('dragover',  e => { e.preventDefault(); dropZone.classList.add('dragover'); });
+    dropZone.addEventListener('dragleave', ()  => dropZone.classList.remove('dragover'));
+    dropZone.addEventListener('drop', e => {
+      e.preventDefault();
+      dropZone.classList.remove('dragover');
+      const file = e.dataTransfer.files[0];
+      if (file) handleFile(file);
+    });
+
+    // When a file is chosen via the regular file input dialog
+    fileInput.addEventListener('change', () => {
+      if (fileInput.files[0]) handleFile(fileInput.files[0]);
+    });
+
+    // Keyboard: pressing Enter or Space on the drop zone triggers file picker
+    dropZone.addEventListener('keydown', e => {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); fileInput.click(); }
+    });
+
+    // ── HANDLE THE UPLOADED FILE ──────────────────────────────
+    // Reads the file as text, then sends it to the Claude API for analysis
+    function handleFile(file) {
+      // Only accept HTML files
+      if (!file.name.match(/\.(html|htm)$/i)) {
+        showError('Please upload an .html file - your arcade game file.');
+        return;
+      }
+
+      const reader = new FileReader();
+
+      // FileReader.onload fires when the file has been read into memory
+      reader.onload = (e) => {
+        const code = e.target.result;
+        // Start the API analysis with the file's text content
+        analyzeWithClaude(file.name, code);
+      };
+
+      // readAsText reads the file as a plain string
+      reader.readAsText(file);
+    }
+
+
+    // ── CLAUDE API ANALYSIS ───────────────────────────────────
+    // Sends the game code to the Anthropic API and asks Claude to:
+    //   1. Detect which storage system is used for high scores
+    //   2. Extract the relevant code snippets
+    //   3. Write replacement code using fetch() → scores.php
+    //   4. Generate a full migration prompt
+    //
+    // The response is expected as a JSON object (see prompt below).
+    async function analyzeWithClaude(fileName, code) {
+      // Show the loading spinner, hide everything else
+      showLoading(true);
+      hideError();
+      hideResult();
+
+      // Build the system prompt that instructs Claude on the expected output format.
+      // We ask for strict JSON so we can parse it reliably.
+      const systemPrompt = `You are a helpful coding assistant for a community college web development course. 
+A student has uploaded their arcade game HTML file. Analyze it and respond with ONLY a valid JSON object - no markdown, no explanation outside the JSON, no code fences.
+
+The JSON must have exactly these keys:
+{
+  "storageType": "localStorage" | "googleSheets" | "firebase" | "unknown",
+  "explanation": "2-3 plain-English sentences describing what storage the game uses and where it is in the code - written for a beginner",
+  "detectedCode": "the exact JavaScript functions/lines that handle saving and loading scores - copy them verbatim from the code",
+  "replacementCode": "complete drop-in JavaScript replacement using fetch() to POST to scores.php and GET from scores.php?game=GAME_ID. Include a GAME_ID constant at the top. Keep the same function names as the original where possible so integration is easy. Add very descriptive comments.",
+  "migrationPrompt": "a ready-to-use Claude prompt (as plain text, not JSON) that the student can paste into Claude along with their full game code, asking Claude to replace all score storage with fetch() calls to scores.php. The prompt should mention their detected storage type, include the scores.php API contract (POST body: {game, name, score, level, duration}; GET: scores.php?game=x returns top 10 array), and ask for descriptive comments throughout."
+}`;
+
+      const userMessage = `Here is my arcade game HTML file called "${fileName}". Please analyze it and return the JSON object as described.
+
+GAME CODE:
+${code.slice(0, 28000)}`; // Trim to stay within reasonable token limits
+
+      try {
+        const response = await fetch('https://api.anthropic.com/v1/messages', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            model: 'claude-sonnet-4-20250514',
+            max_tokens: 1000,
+            system: systemPrompt,
+            messages: [{ role: 'user', content: userMessage }]
+          })
+        });
+
+        // Extract the text content from Claude's response
+        const data = await response.json();
+        const rawText = data.content
+          .filter(block => block.type === 'text')
+          .map(block => block.text)
+          .join('');
+
+        // Strip any accidental markdown code fences before parsing
+        const cleanJson = rawText.replace(/```json|```/g, '').trim();
+        const result    = JSON.parse(cleanJson);
+
+        // Show the result in the UI
+        showResult(fileName, result);
+
+      } catch (err) {
+        // Show a user-friendly error if anything went wrong
+        showError('Analysis failed. ' + (err.message || 'Please try again or paste your code into Claude directly.'));
+      } finally {
+        showLoading(false);
+      }
+    }
+
+
+    // ── UI STATE HELPERS ──────────────────────────────────────
+
+    function showLoading(show) {
+      document.getElementById('analysisLoading').style.display = show ? 'block' : 'none';
+    }
+
+    function hideError() {
+      document.getElementById('analysisError').style.display = 'none';
+    }
+
+    function hideResult() {
+      document.getElementById('analysisResult').style.display = 'none';
+    }
+
+    function showError(msg) {
+      const el = document.getElementById('analysisError');
+      document.getElementById('errorMessage').textContent = msg;
+      el.style.display = 'block';
+    }
+
+    // Populates and shows the result card with Claude's analysis
+    function showResult(fileName, result) {
+      // Filename in the header
+      document.getElementById('detectedFileName').textContent = fileName;
+
+      // Storage type badge - styling depends on which type was detected
+      const badge = document.getElementById('detectionBadge');
+      const badgeMap = {
+        localStorage:  { text: '💾 localStorage',   cls: 'db-local'  },
+        googleSheets:  { text: '📊 Google Sheets',   cls: 'db-sheets' },
+        firebase:      { text: '🔥 Firebase',         cls: 'db-fire'   },
+        unknown:       { text: '❓ Unknown storage',  cls: 'db-unknown'},
+      };
+      const bInfo = badgeMap[result.storageType] || badgeMap.unknown;
+      badge.textContent = bInfo.text;
+      badge.className   = `detection-badge ${bInfo.cls}`;
+
+      // Tab: explanation
+      document.getElementById('explanationText').textContent = result.explanation || 'No explanation returned.';
+
+      // Tab: original code (preserve whitespace with a <pre>)
+      document.getElementById('originalCode').textContent = result.detectedCode || 'No score-related code detected.';
+
+      // Tab: replacement code
+      document.getElementById('replacementCode').textContent = result.replacementCode || 'No replacement code generated.';
+
+      // Tab: migration prompt
+      document.getElementById('migrationPrompt').textContent = result.migrationPrompt || 'No prompt generated.';
+
+      // Show the result card, reset tabs to the first one
+      const resultEl = document.getElementById('analysisResult');
+      resultEl.style.display = 'block';
+      // Reset to the first tab
+      document.querySelectorAll('.a-tab').forEach((t, i) => {
+        t.classList.toggle('active', i === 0);
+        t.setAttribute('aria-selected', i === 0 ? 'true' : 'false');
+      });
+      document.querySelectorAll('.a-panel').forEach((p, i) => {
+        p.classList.toggle('active', i === 0);
+      });
+    }
+
+    // Resets the analysis section back to the drop zone
+    function resetAnalysis() {
+      hideResult();
+      hideError();
+      showLoading(false);
+      // Clear the file input so the same file can be re-selected
+      document.getElementById('fileInput').value = '';
+    }
+
+  </script>
+</body>
+</html>

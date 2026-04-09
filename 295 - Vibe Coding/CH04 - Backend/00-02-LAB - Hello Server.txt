@@ -1,0 +1,871 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    ============================================================
+    VIBE CODING: AI-Assisted Application Development
+    Finger Lakes Community College
+
+    Lab 1 Step-by-Step Instructions: Hello, Server!
+    Version: 1.0 - Initial build
+
+    This handout walks students through creating and uploading
+    their very first PHP file to their cPanel hosting account.
+
+    No prior PHP experience needed - every click is explained.
+    ============================================================
+  -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lab 1: Hello, Server! - Vibe Coding @ FLCC</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <style>
+    /* ── Design tokens ── */
+    :root {
+      --primary:      #9900ff;
+      --primary-dim:  rgba(153,0,255,0.18);
+      --bg:           #0d0d0d;
+      --surface:      #1a1a1a;
+      --surface-2:    #222;
+      --border:       #2e2e2e;
+      --text:         #e8e8e8;
+      --muted:        #888;
+      --green:        #00e5a0;
+      --green-dim:    rgba(0,229,160,0.12);
+      --red:          #ff4d6a;
+      --red-dim:      rgba(255,77,106,0.12);
+      --yellow:       #ffd166;
+      --yellow-dim:   rgba(255,209,102,0.12);
+      --blue:         #4fc3f7;
+      --blue-dim:     rgba(79,195,247,0.12);
+      --radius:       10px;
+      --nav-h:        58px;
+      --font-body:    'DM Sans', sans-serif;
+      --font-code:    'Space Mono', monospace;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; scroll-padding-top: calc(var(--nav-h) + 16px); }
+    body { background: var(--bg); color: var(--text); font-family: var(--font-body); font-size: 1rem; line-height: 1.7; }
+    :focus-visible { outline: 2px solid var(--primary); outline-offset: 3px; border-radius: 4px; }
+
+    /* ── Nav ── */
+    .nav {
+      position: sticky; top: 0; z-index: 100;
+      height: var(--nav-h);
+      background: rgba(13,13,13,0.95);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border);
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 1.5rem; gap: 1rem;
+    }
+    .nav-brand { font-family: var(--font-code); font-size: 0.8rem; color: var(--primary); }
+    .nav-meta  { font-size: 0.8rem; color: var(--muted); display: flex; align-items: center; gap: 1rem; }
+    .nav-meta span { display: flex; align-items: center; gap: 0.35rem; }
+
+    /* ── Progress bar ── */
+    .progress-bar-wrap {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0.6rem 1.5rem;
+      display: flex; align-items: center; gap: 1rem;
+    }
+    .progress-label { font-size: 0.75rem; color: var(--muted); white-space: nowrap; }
+    .progress-track {
+      flex: 1; height: 6px; background: var(--border); border-radius: 99px; overflow: hidden;
+    }
+    .progress-fill {
+      height: 100%; background: linear-gradient(90deg, var(--primary), var(--blue));
+      border-radius: 99px; width: 0%;
+      transition: width 0.4s ease;
+    }
+    .progress-steps { display: flex; gap: 0.35rem; flex-shrink: 0; }
+    .p-dot {
+      width: 22px; height: 22px; border-radius: 50%;
+      border: 2px solid var(--border);
+      background: var(--surface-2);
+      font-size: 0.65rem; font-family: var(--font-code); font-weight: 700;
+      display: flex; align-items: center; justify-content: center;
+      color: var(--muted); cursor: pointer; transition: all 0.2s;
+      text-decoration: none;
+    }
+    .p-dot:hover { border-color: var(--primary); color: var(--primary); }
+    .p-dot.done  { background: var(--green); border-color: var(--green); color: #000; }
+    .p-dot.active{ background: var(--primary); border-color: var(--primary); color: #fff; }
+
+    /* ── Page layout ── */
+    .page { max-width: 820px; margin: 0 auto; padding: 2rem 1.25rem 5rem; }
+
+    /* ── Hero ── */
+    .hero { text-align: center; padding: 2.5rem 1rem 2rem; margin-bottom: 2rem; }
+    .hero-eyebrow {
+      display: inline-flex; align-items: center; gap: 0.4rem;
+      font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em;
+      color: var(--primary); background: var(--primary-dim);
+      border: 1px solid var(--primary); border-radius: 99px;
+      padding: 0.25rem 0.85rem; margin-bottom: 1rem;
+    }
+    .hero h1 { font-size: clamp(1.8rem, 4.5vw, 2.6rem); font-weight: 700; line-height: 1.2; margin-bottom: 0.75rem; }
+    .hero h1 em { color: var(--primary); font-style: normal; font-family: var(--font-code); }
+    .hero-sub { color: var(--muted); font-size: 1rem; max-width: 520px; margin: 0 auto 1.5rem; }
+    .hero-pills { display: flex; gap: 0.6rem; justify-content: center; flex-wrap: wrap; }
+    .pill {
+      font-size: 0.78rem; padding: 0.25rem 0.8rem; border-radius: 99px;
+      background: var(--surface); border: 1px solid var(--border); color: var(--muted);
+    }
+    .pill strong { color: var(--text); }
+
+    /* ── Before you start box ── */
+    .prereq {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 2.5rem;
+    }
+    .prereq h2 { font-size: 1rem; font-weight: 700; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem; }
+    .prereq ul { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
+    .prereq li { font-size: 0.9rem; display: flex; align-items: flex-start; gap: 0.6rem; }
+    .prereq li::before { content: '✓'; color: var(--green); font-weight: 700; flex-shrink: 0; margin-top: 0.1rem; }
+
+    /* ── Step cards ── */
+    .step-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      margin-bottom: 1.5rem;
+      overflow: hidden;
+      scroll-margin-top: calc(var(--nav-h) + 80px);
+    }
+
+    .step-header {
+      display: flex; align-items: center; gap: 1rem;
+      padding: 1rem 1.5rem;
+      border-bottom: 1px solid var(--border);
+      background: var(--surface-2);
+      cursor: pointer;
+      user-select: none;
+    }
+    .step-header:hover { background: #282828; }
+
+    .step-num {
+      width: 36px; height: 36px; border-radius: 50%; flex-shrink: 0;
+      background: var(--primary-dim); border: 2px solid var(--primary);
+      color: var(--primary); font-family: var(--font-code); font-size: 0.85rem; font-weight: 700;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .step-num.done { background: var(--green); border-color: var(--green); color: #000; }
+
+    .step-title-wrap { flex: 1; }
+    .step-title { font-size: 1rem; font-weight: 700; }
+    .step-subtitle { font-size: 0.8rem; color: var(--muted); margin-top: 0.1rem; }
+
+    .step-chevron { color: var(--muted); font-size: 0.8rem; transition: transform 0.2s; }
+    .step-card.open .step-chevron { transform: rotate(180deg); }
+
+    .step-done-btn {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--muted);
+      border-radius: 99px;
+      font-size: 0.72rem;
+      font-family: var(--font-body);
+      padding: 0.2rem 0.65rem;
+      cursor: pointer;
+      transition: all 0.2s;
+      flex-shrink: 0;
+    }
+    .step-done-btn:hover { border-color: var(--green); color: var(--green); }
+    .step-done-btn.marked { background: var(--green-dim); border-color: var(--green); color: var(--green); }
+
+    /* Step body - hidden until open */
+    .step-body { display: none; padding: 1.5rem; }
+    .step-card.open .step-body { display: block; }
+
+    /* ── Content within steps ── */
+    .step-body p { margin-bottom: 0.9rem; font-size: 0.95rem; }
+    .step-body p:last-child { margin-bottom: 0; }
+
+    .step-body ol, .step-body ul {
+      padding-left: 1.3rem;
+      margin-bottom: 0.9rem;
+    }
+    .step-body li { font-size: 0.92rem; margin-bottom: 0.35rem; }
+
+    /* ── Instruction items (numbered action list) ── */
+    .action-list { list-style: none; padding: 0; counter-reset: action-counter; }
+    .action-list li {
+      counter-increment: action-counter;
+      display: flex; gap: 0.85rem; align-items: flex-start;
+      margin-bottom: 0.85rem;
+      padding: 0.75rem 1rem;
+      background: var(--surface-2);
+      border-radius: 8px;
+      font-size: 0.92rem;
+    }
+    .action-list li::before {
+      content: counter(action-counter);
+      min-width: 24px; height: 24px;
+      background: var(--primary); color: #fff;
+      border-radius: 50%; font-size: 0.7rem; font-weight: 700;
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0; margin-top: 0.1rem;
+      font-family: var(--font-code);
+    }
+
+    /* ── Callout boxes ── */
+    .callout {
+      border-radius: 8px; padding: 0.9rem 1.1rem;
+      border-left: 3px solid; margin: 1rem 0; font-size: 0.9rem;
+    }
+    .callout strong { display: block; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.3rem; }
+    .callout.see   { background: var(--green-dim);  border-color: var(--green);  color: #9ef5d8; }
+    .callout.warn  { background: var(--red-dim);    border-color: var(--red);    color: #ffb3bf; }
+    .callout.tip   { background: var(--blue-dim);   border-color: var(--blue);   color: #b8e4f9; }
+    .callout.note  { background: var(--yellow-dim); border-color: var(--yellow); color: #ffe4a0; }
+
+    /* ── Code blocks ── */
+    .code-block {
+      background: #111; border-radius: 8px; padding: 1rem 1.25rem;
+      font-family: var(--font-code); font-size: 0.78rem; line-height: 1.8;
+      overflow-x: auto; color: #ddd; margin: 0.75rem 0;
+      border: 1px solid var(--border);
+    }
+    .php-tag  { color: #9900ff; font-weight: bold; }
+    .php-kw   { color: #4fc3f7; }
+    .php-fn   { color: #ffd166; }
+    .php-str  { color: #00e5a0; }
+    .php-var  { color: #ff9eb5; }
+    .php-cm   { color: #666; font-style: italic; }
+
+    /* ── AI Prompt box ── */
+    .prompt-box {
+      background: var(--surface-2);
+      border: 1px solid var(--primary);
+      border-radius: 8px; padding: 1rem 1.25rem; margin: 1rem 0;
+      position: relative;
+    }
+    .prompt-box-label {
+      font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em;
+      color: var(--primary); margin-bottom: 0.6rem;
+      display: flex; align-items: center; gap: 0.4rem;
+    }
+    .prompt-text {
+      font-family: var(--font-code); font-size: 0.78rem; color: #ccc;
+      line-height: 1.7; white-space: pre-wrap;
+    }
+    .copy-btn {
+      position: absolute; top: 0.75rem; right: 0.75rem;
+      background: var(--primary-dim); color: var(--primary);
+      border: 1px solid var(--primary); border-radius: 6px;
+      padding: 0.2rem 0.6rem; font-size: 0.72rem; cursor: pointer;
+      font-family: var(--font-body); transition: all 0.2s;
+    }
+    .copy-btn:hover { background: var(--primary); color: #fff; }
+    .copy-btn.copied { background: var(--green-dim); color: var(--green); border-color: var(--green); }
+
+    /* ── Inline code ── */
+    code {
+      font-family: var(--font-code); font-size: 0.82em;
+      background: var(--surface-2); border: 1px solid var(--border);
+      border-radius: 4px; padding: 0.1em 0.4em; color: var(--primary);
+    }
+
+    /* ── Screenshot placeholder ── */
+    .screen-mock {
+      background: #111; border: 1px solid var(--border); border-radius: 8px;
+      padding: 1rem 1.25rem; margin: 0.75rem 0;
+      font-size: 0.82rem; color: var(--muted);
+      font-family: var(--font-code);
+    }
+    .screen-mock .mock-bar {
+      display: flex; gap: 0.4rem; margin-bottom: 0.75rem; align-items: center;
+    }
+    .mock-dot { width: 10px; height: 10px; border-radius: 50%; }
+    .mock-url {
+      flex: 1; background: var(--surface); border-radius: 4px;
+      padding: 0.2rem 0.6rem; font-size: 0.72rem; color: var(--muted);
+    }
+
+    /* ── Finish card ── */
+    .finish-card {
+      background: var(--green-dim); border: 1px solid var(--green);
+      border-radius: var(--radius); padding: 2rem; text-align: center; margin-top: 2rem;
+    }
+    .finish-card h2 { font-size: 1.5rem; color: var(--green); margin-bottom: 0.5rem; }
+    .finish-card p  { color: #9ef5d8; font-size: 0.95rem; }
+    .finish-icon { font-size: 2.5rem; margin-bottom: 0.75rem; }
+
+    /* ── Divider ── */
+    hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+
+    /* ── Responsive ── */
+    @media (max-width: 600px) {
+      .nav-meta { display: none; }
+      .progress-steps { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ── Sticky nav ── -->
+  <nav class="nav" aria-label="Lab navigation">
+    <span class="nav-brand">Lab 01 · Hello, Server!</span>
+    <div class="nav-meta">
+      <span><i class="fa-solid fa-clock"></i> ~30 minutes</span>
+      <span><i class="fa-solid fa-layer-group"></i> 10 steps</span>
+    </div>
+  </nav>
+
+  <!-- ── Progress bar ── -->
+  <div class="progress-bar-wrap" role="region" aria-label="Lab progress">
+    <span class="progress-label">Your progress</span>
+    <div class="progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label="Steps completed" id="progress-bar">
+      <div class="progress-fill" id="progress-fill"></div>
+    </div>
+    <div class="progress-steps" aria-hidden="true" id="progress-dots"></div>
+  </div>
+
+  <main class="page" id="main">
+
+    <!-- ── Hero ── -->
+    <header class="hero">
+      <div class="hero-eyebrow">
+        <i class="fa-solid fa-server"></i>
+        Lab 1 of 4 · Foundations
+      </div>
+      <h1>Hello, <em>Server!</em></h1>
+      <p class="hero-sub">
+        You're about to write your very first PHP file, upload it to a real server,
+        and watch it run. By the end, you'll see something the browser alone could never show you.
+      </p>
+      <div class="hero-pills">
+        <span class="pill"><strong>Skill:</strong> PHP basics, cPanel, File Manager</span>
+        <span class="pill"><strong>Time:</strong> ~30 minutes</span>
+        <span class="pill"><strong>File:</strong> hello-server.php</span>
+      </div>
+    </header>
+
+    <!-- ── Before you start ── -->
+    <div class="prereq" role="region" aria-label="Prerequisites">
+      <h2><i class="fa-solid fa-circle-check" style="color:var(--green)"></i> Before you start - make sure you have:</h2>
+      <ul>
+        <li>Your cPanel login URL, username, and password (from your instructor)</li>
+        <li>Claude open in another browser tab - you'll paste a prompt into it</li>
+        <li>A text editor open (even Notepad works) to hold your code temporarily</li>
+      </ul>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════
+         STEP 1: Log into cPanel
+    ═══════════════════════════════════════════════ -->
+    <section class="step-card open" id="step-1" aria-labelledby="step-1-title">
+      <div class="step-header" onclick="toggleStep(this)" role="button" tabindex="0" aria-expanded="true">
+        <div class="step-num" id="num-1">1</div>
+        <div class="step-title-wrap">
+          <div class="step-title" id="step-1-title">Log into cPanel</div>
+          <div class="step-subtitle">Access your hosting control panel</div>
+        </div>
+        <button class="step-done-btn" onclick="markDone(event,1)" aria-label="Mark step 1 complete">Mark done</button>
+        <i class="fa-solid fa-chevron-down step-chevron" aria-hidden="true"></i>
+      </div>
+      <div class="step-body">
+        <p>cPanel is the control panel for your web hosting account. It's where you manage your files, databases, and email - all through a web browser. Think of it like the "settings" app for your server.</p>
+
+        <ol class="action-list">
+          <li>Open a new browser tab and go to the cPanel URL your instructor gave you. It usually looks something like <code>https://yourdomain.com/cpanel</code> or a direct IP address with a port number like <code>:2083</code>.</li>
+          <li>Type your cPanel <strong>username</strong> in the Username field.</li>
+          <li>Type your cPanel <strong>password</strong> in the Password field.</li>
+          <li>Click the <strong>Log in</strong> button.</li>
+        </ol>
+
+        <div class="callout see">
+          <strong><i class="fa-solid fa-eye"></i> What you should see</strong>
+          The cPanel dashboard - a page filled with icons organized into sections like "Files", "Databases", "Email", and "Domains". It can look overwhelming at first, but you only need one section for now.
+        </div>
+
+        <div class="callout warn">
+          <strong><i class="fa-solid fa-triangle-exclamation"></i> Watch out</strong>
+          If you see a security warning about the certificate, it's usually safe to proceed on a student hosting account - click "Advanced" → "Proceed anyway." Ask your instructor if you're unsure.
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════
+         STEP 2: Open File Manager
+    ═══════════════════════════════════════════════ -->
+    <section class="step-card" id="step-2" aria-labelledby="step-2-title">
+      <div class="step-header" onclick="toggleStep(this)" role="button" tabindex="0" aria-expanded="false">
+        <div class="step-num" id="num-2">2</div>
+        <div class="step-title-wrap">
+          <div class="step-title" id="step-2-title">Open File Manager</div>
+          <div class="step-subtitle">Find and open the Files section</div>
+        </div>
+        <button class="step-done-btn" onclick="markDone(event,2)" aria-label="Mark step 2 complete">Mark done</button>
+        <i class="fa-solid fa-chevron-down step-chevron" aria-hidden="true"></i>
+      </div>
+      <div class="step-body">
+        <p>File Manager is cPanel's built-in tool for managing your website's files - like a file explorer (Finder or Windows Explorer) but for your server. You'll use it to create folders, create files, and edit code.</p>
+
+        <ol class="action-list">
+          <li>On the cPanel dashboard, look for a section called <strong>"Files"</strong>.</li>
+          <li>Inside that section, click the <strong>"File Manager"</strong> icon. It usually looks like a folder.</li>
+          <li>File Manager will open - either in the same tab or a new one.</li>
+        </ol>
+
+        <div class="callout see">
+          <strong><i class="fa-solid fa-eye"></i> What you should see</strong>
+          A two-panel file browser. On the left is a folder tree. On the right is the contents of the currently selected folder. The toolbar at the top has buttons like "+ File", "+ Folder", "Upload", "Edit", and "Delete".
+        </div>
+
+        <div class="callout tip">
+          <strong><i class="fa-solid fa-lightbulb"></i> Tip</strong>
+          If File Manager asks you which directory to start in, choose <strong>Document Root</strong> or <strong>public_html</strong>. Either will get you to the right place.
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════
+         STEP 3: Navigate to public_html
+    ═══════════════════════════════════════════════ -->
+    <section class="step-card" id="step-3" aria-labelledby="step-3-title">
+      <div class="step-header" onclick="toggleStep(this)" role="button" tabindex="0" aria-expanded="false">
+        <div class="step-num" id="num-3">3</div>
+        <div class="step-title-wrap">
+          <div class="step-title" id="step-3-title">Navigate to <code style="font-size:0.9rem">public_html</code></div>
+          <div class="step-subtitle">This is the folder the internet can see</div>
+        </div>
+        <button class="step-done-btn" onclick="markDone(event,3)" aria-label="Mark step 3 complete">Mark done</button>
+        <i class="fa-solid fa-chevron-down step-chevron" aria-hidden="true"></i>
+      </div>
+      <div class="step-body">
+        <p>Your server has many folders, but only one of them is accessible via the web: <code>public_html</code>. Any file you place inside <code>public_html</code> can be visited in a browser. Files outside it cannot be reached by the public.</p>
+
+        <ol class="action-list">
+          <li>In the left panel (the folder tree), look for a folder called <strong>public_html</strong>.</li>
+          <li>Click on <strong>public_html</strong> to select it. The right panel will show its contents - these are the files your website currently contains.</li>
+        </ol>
+
+        <div class="callout see">
+          <strong><i class="fa-solid fa-eye"></i> What you should see</strong>
+          The right panel will show files already in your public_html folder - there may be a <code>cgi-bin</code> folder, maybe a default <code>index.html</code>, or it might be mostly empty. That's fine.
+        </div>
+
+        <div class="callout note">
+          <strong><i class="fa-solid fa-star"></i> Key concept</strong>
+          <code>public_html</code> maps directly to your website's root URL. A file at <code>public_html/hello.php</code> is accessible at <code>yourdomain.com/hello.php</code>. A file at <code>public_html/vibe-php/lab1.php</code> is at <code>yourdomain.com/vibe-php/lab1.php</code>.
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════
+         STEP 4: Create the vibe-php folder
+    ═══════════════════════════════════════════════ -->
+    <section class="step-card" id="step-4" aria-labelledby="step-4-title">
+      <div class="step-header" onclick="toggleStep(this)" role="button" tabindex="0" aria-expanded="false">
+        <div class="step-num" id="num-4">4</div>
+        <div class="step-title-wrap">
+          <div class="step-title" id="step-4-title">Create the <code style="font-size:0.9rem">vibe-php</code> folder</div>
+          <div class="step-subtitle">A home for all your PHP labs</div>
+        </div>
+        <button class="step-done-btn" onclick="markDone(event,4)" aria-label="Mark step 4 complete">Mark done</button>
+        <i class="fa-solid fa-chevron-down step-chevron" aria-hidden="true"></i>
+      </div>
+      <div class="step-body">
+        <p>All four of your PHP labs will live inside one organized folder called <code>vibe-php</code>. You only need to create this folder once - all future labs go inside it.</p>
+
+        <ol class="action-list">
+          <li>Make sure you're inside <strong>public_html</strong> (check the path shown at the top of the right panel).</li>
+          <li>Click the <strong>"+ Folder"</strong> button in the top toolbar.</li>
+          <li>A dialog box appears asking for a folder name. Type exactly: <code>vibe-php</code> (all lowercase, with a hyphen).</li>
+          <li>Click <strong>Create New Folder</strong>.</li>
+          <li>You should now see the <code>vibe-php</code> folder appear in the right panel. <strong>Double-click it</strong> to open it.</li>
+        </ol>
+
+        <div class="callout see">
+          <strong><i class="fa-solid fa-eye"></i> What you should see</strong>
+          An empty folder. The path bar at the top should now show something like <code>/home/yourusername/public_html/vibe-php</code>. The right panel should be empty - nothing is in this folder yet.
+        </div>
+
+        <div class="callout warn">
+          <strong><i class="fa-solid fa-triangle-exclamation"></i> Watch out</strong>
+          Use only lowercase letters and hyphens in folder and file names. Avoid spaces, capital letters, and special characters - they cause problems with URLs and server file systems.
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════
+         STEP 5: Create a new PHP file
+    ═══════════════════════════════════════════════ -->
+    <section class="step-card" id="step-5" aria-labelledby="step-5-title">
+      <div class="step-header" onclick="toggleStep(this)" role="button" tabindex="0" aria-expanded="false">
+        <div class="step-num" id="num-5">5</div>
+        <div class="step-title-wrap">
+          <div class="step-title" id="step-5-title">Create a new PHP file</div>
+          <div class="step-subtitle">Make the blank file that will hold your code</div>
+        </div>
+        <button class="step-done-btn" onclick="markDone(event,5)" aria-label="Mark step 5 complete">Mark done</button>
+        <i class="fa-solid fa-chevron-down step-chevron" aria-hidden="true"></i>
+      </div>
+      <div class="step-body">
+        <p>Now you'll create the actual file. Think of this like creating a blank document - you're just making the container. You'll fill it with code in the next step.</p>
+
+        <ol class="action-list">
+          <li>Make sure you're inside the <code>vibe-php</code> folder.</li>
+          <li>Click the <strong>"+ File"</strong> button in the top toolbar.</li>
+          <li>In the dialog, type the filename: <code>hello-server.php</code></li>
+          <li>Click <strong>Create New File</strong>.</li>
+        </ol>
+
+        <div class="callout see">
+          <strong><i class="fa-solid fa-eye"></i> What you should see</strong>
+          The file <code>hello-server.php</code> now appears in the right panel. It's empty - 0 bytes - but it exists on the server.
+        </div>
+
+        <div class="callout tip">
+          <strong><i class="fa-solid fa-lightbulb"></i> Why .php and not .html?</strong>
+          The <code>.php</code> extension tells the server "run this through the PHP interpreter before sending it to the browser." If you name it <code>.html</code>, the PHP code will appear as raw text instead of running.
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════
+         STEP 6: Get the code from Claude
+    ═══════════════════════════════════════════════ -->
+    <section class="step-card" id="step-6" aria-labelledby="step-6-title">
+      <div class="step-header" onclick="toggleStep(this)" role="button" tabindex="0" aria-expanded="false">
+        <div class="step-num" id="num-6">6</div>
+        <div class="step-title-wrap">
+          <div class="step-title" id="step-6-title">Get your code from Claude</div>
+          <div class="step-subtitle">Paste the prompt below and copy what Claude writes</div>
+        </div>
+        <button class="step-done-btn" onclick="markDone(event,6)" aria-label="Mark step 6 complete">Mark done</button>
+        <i class="fa-solid fa-chevron-down step-chevron" aria-hidden="true"></i>
+      </div>
+      <div class="step-body">
+        <p>Switch to your Claude tab. Copy the prompt below and paste it into Claude. Claude will write the entire PHP file for you - your job is to read through it and understand what it does.</p>
+
+        <div class="prompt-box">
+          <div class="prompt-box-label"><i class="fa-solid fa-robot"></i> Paste this into Claude</div>
+          <button class="copy-btn" onclick="copyPrompt(this)">Copy</button>
+          <div class="prompt-text">Create a single PHP file called hello-server.php for a beginner PHP student. The page should:
+
+- Display a styled welcome message using HTML and CSS (dark theme, purple #9900ff accent color)
+- Show the current date and time from the server using PHP's date() function
+- Show the visitor's IP address from $_SERVER['REMOTE_ADDR']
+- Show the current PHP version using phpversion()
+- Include a "Server Stats" section with 3 interesting server facts using $_SERVER variables
+- Use htmlspecialchars() on any server variables before displaying them
+- Add very descriptive PHP comments explaining every single line of PHP code in plain English
+- No frameworks, no npm - one self-contained file with HTML, CSS, and PHP
+- Add a version comment at the top: // v1.0 - Lab 1: Hello Server</div>
+        </div>
+
+        <ol class="action-list">
+          <li>After Claude responds, look for the code block (the dark box containing the code).</li>
+          <li>Click the <strong>copy icon</strong> in the top-right corner of Claude's code block to copy all the code.</li>
+          <li>Paste the code into a plain text editor (Notepad, TextEdit, VS Code) so you have it ready. <em>Don't close Claude yet!</em></li>
+        </ol>
+
+        <div class="callout tip">
+          <strong><i class="fa-solid fa-lightbulb"></i> Take a moment to read the code</strong>
+          Before pasting, scroll through what Claude wrote. Look for the PHP tags <code>&lt;?php</code> and <code>?&gt;</code>. Notice how PHP and HTML are mixed together in the same file. You don't need to understand every line - just get a feel for the shape of it.
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════
+         STEP 7: Paste the code and save
+    ═══════════════════════════════════════════════ -->
+    <section class="step-card" id="step-7" aria-labelledby="step-7-title">
+      <div class="step-header" onclick="toggleStep(this)" role="button" tabindex="0" aria-expanded="false">
+        <div class="step-num" id="num-7">7</div>
+        <div class="step-title-wrap">
+          <div class="step-title" id="step-7-title">Paste the code into File Manager and save</div>
+          <div class="step-subtitle">Put the code onto the server</div>
+        </div>
+        <button class="step-done-btn" onclick="markDone(event,7)" aria-label="Mark step 7 complete">Mark done</button>
+        <i class="fa-solid fa-chevron-down step-chevron" aria-hidden="true"></i>
+      </div>
+      <div class="step-body">
+        <p>Now you'll open the empty file you created and paste in the code Claude wrote.</p>
+
+        <ol class="action-list">
+          <li>Go back to cPanel's File Manager tab.</li>
+          <li><strong>Right-click</strong> on <code>hello-server.php</code> in the right panel. A context menu appears.</li>
+          <li>Click <strong>"Edit"</strong> from the menu. (If a dialog asks about encoding, just click "Edit" again.)</li>
+          <li>A code editor opens in a new tab or popup. It will be mostly empty.</li>
+          <li>Click inside the editor area and press <strong>Ctrl+A</strong> (Windows) or <strong>Cmd+A</strong> (Mac) to select all - even if it looks empty, this clears any hidden characters.</li>
+          <li>Press <strong>Delete</strong> or <strong>Backspace</strong> to clear it.</li>
+          <li>Now paste your code: press <strong>Ctrl+V</strong> (Windows) or <strong>Cmd+V</strong> (Mac).</li>
+          <li>Click the <strong>"Save Changes"</strong> button. It's usually in the top-right of the editor.</li>
+          <li>Close the editor tab and go back to File Manager.</li>
+        </ol>
+
+        <div class="callout see">
+          <strong><i class="fa-solid fa-eye"></i> What you should see</strong>
+          After saving, the file size of <code>hello-server.php</code> in File Manager will no longer say "0 bytes" - it will show the size of your code, like "2 KB". That means code is now on the server.
+        </div>
+
+        <div class="callout warn">
+          <strong><i class="fa-solid fa-triangle-exclamation"></i> Watch out - common mistake!</strong>
+          Make sure you paste the <em>entire</em> file Claude gave you - starting from the very first line (usually <code>&lt;!DOCTYPE html&gt;</code> or <code>&lt;?php</code>) all the way to the last line. If you only paste part of it, the page may show errors or blank output.
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════
+         STEP 8: Visit the page in your browser
+    ═══════════════════════════════════════════════ -->
+    <section class="step-card" id="step-8" aria-labelledby="step-8-title">
+      <div class="step-header" onclick="toggleStep(this)" role="button" tabindex="0" aria-expanded="false">
+        <div class="step-num" id="num-8">8</div>
+        <div class="step-title-wrap">
+          <div class="step-title" id="step-8-title">Visit your page in the browser</div>
+          <div class="step-subtitle">See it actually run on the server</div>
+        </div>
+        <button class="step-done-btn" onclick="markDone(event,8)" aria-label="Mark step 8 complete">Mark done</button>
+        <i class="fa-solid fa-chevron-down step-chevron" aria-hidden="true"></i>
+      </div>
+      <div class="step-body">
+        <p>The moment of truth! Open a new browser tab and navigate to your file's URL.</p>
+
+        <ol class="action-list">
+          <li>Open a new browser tab.</li>
+          <li>In the address bar, type your site's domain followed by the path to the file. It will look like this:</li>
+        </ol>
+
+        <div class="screen-mock">
+          <div class="mock-bar">
+            <div class="mock-dot" style="background:#ff5f57"></div>
+            <div class="mock-dot" style="background:#febc2e"></div>
+            <div class="mock-dot" style="background:#28c840"></div>
+            <div class="mock-url">yourdomain.com/vibe-php/hello-server.php</div>
+          </div>
+          Replace <strong>yourdomain.com</strong> with your actual domain name.
+        </div>
+
+        <ol class="action-list" start="3">
+          <li>Press <strong>Enter</strong> to load the page.</li>
+        </ol>
+
+        <div class="callout see">
+          <strong><i class="fa-solid fa-eye"></i> What you should see</strong>
+          A styled page showing: today's date and time (from the server!), your IP address, the PHP version, and some server statistics. The exact design depends on what Claude created, but it should look like a real webpage - not code.
+        </div>
+
+        <div class="callout warn">
+          <strong><i class="fa-solid fa-triangle-exclamation"></i> Seeing a blank page or raw code?</strong>
+          <strong>Blank page:</strong> The PHP file may have a syntax error. Go back to Claude, paste your code in a new message and ask: "Check this PHP code for syntax errors." <br><br>
+          <strong>Seeing the raw code as text:</strong> Your server may not have PHP enabled. Ask your instructor - it's a server configuration issue, not your fault.
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════
+         STEP 9: View the Page Source (the big reveal!)
+    ═══════════════════════════════════════════════ -->
+    <section class="step-card" id="step-9" aria-labelledby="step-9-title">
+      <div class="step-header" onclick="toggleStep(this)" role="button" tabindex="0" aria-expanded="false">
+        <div class="step-num" id="num-9">9</div>
+        <div class="step-title-wrap">
+          <div class="step-title" id="step-9-title">View the page source - the big reveal</div>
+          <div class="step-subtitle">Prove that PHP is invisible to the browser</div>
+        </div>
+        <button class="step-done-btn" onclick="markDone(event,9)" aria-label="Mark step 9 complete">Mark done</button>
+        <i class="fa-solid fa-chevron-down step-chevron" aria-hidden="true"></i>
+      </div>
+      <div class="step-body">
+        <p>This step demonstrates one of PHP's most important properties: <strong>the browser never sees your PHP code</strong>. It only ever receives the finished HTML that PHP produced.</p>
+
+        <ol class="action-list">
+          <li>While viewing your <code>hello-server.php</code> page in the browser, right-click anywhere on the page.</li>
+          <li>Click <strong>"View Page Source"</strong> (in Chrome or Edge) or <strong>"View Source"</strong> (in Firefox). A new tab opens showing the raw HTML the browser received.</li>
+          <li>Look through the source. Try to find any <code>&lt;?php</code> tags.</li>
+        </ol>
+
+        <div class="callout see">
+          <strong><i class="fa-solid fa-eye"></i> What you should see</strong>
+          No PHP at all! Instead of <code>&lt;?php echo date("l, F j, Y"); ?&gt;</code>, you'll see the actual date text - like "Wednesday, July 9, 2025" - already baked into the HTML. PHP ran on the server and handed the browser a finished product.
+        </div>
+
+        <div class="callout note">
+          <strong><i class="fa-solid fa-star"></i> Why this matters</strong>
+          This is the core difference between front-end and back-end code. JavaScript source code is readable in the browser. PHP source code is never sent to the browser at all - it's private and protected on your server.
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════
+         STEP 10: Make a small tweak
+    ═══════════════════════════════════════════════ -->
+    <section class="step-card" id="step-10" aria-labelledby="step-10-title">
+      <div class="step-header" onclick="toggleStep(this)" role="button" tabindex="0" aria-expanded="false">
+        <div class="step-num" id="num-10">10</div>
+        <div class="step-title-wrap">
+          <div class="step-title" id="step-10-title">Make a small tweak - make it yours</div>
+          <div class="step-subtitle">Practice the edit → save → refresh cycle</div>
+        </div>
+        <button class="step-done-btn" onclick="markDone(event,10)" aria-label="Mark step 10 complete">Mark done</button>
+        <i class="fa-solid fa-chevron-down step-chevron" aria-hidden="true"></i>
+      </div>
+      <div class="step-body">
+        <p>Every coding session ends with iteration - changing something and seeing the result. Let's practice the full cycle: edit the file, save it, refresh the browser.</p>
+
+        <ol class="action-list">
+          <li>Go back to File Manager and right-click <code>hello-server.php</code> → <strong>Edit</strong>.</li>
+          <li>Find the welcome message text (something like "Hello, world!" or the page title). Change it to something personal - your name, a favorite quote, anything.</li>
+          <li>Scroll to the <code>date()</code> line in the PHP code. The format string might look like <code>"l, F j, Y"</code>. Try changing it to <code>"d/m/Y"</code> to get a different date format.</li>
+          <li>Click <strong>Save Changes</strong>.</li>
+          <li>Go back to your browser tab showing the page and press <strong>F5</strong> (or Ctrl+R / Cmd+R) to refresh.</li>
+        </ol>
+
+        <div class="callout see">
+          <strong><i class="fa-solid fa-eye"></i> What you should see</strong>
+          Your changes appear on the page immediately after refreshing. No build step, no restarting anything - edit, save, refresh is all it takes.
+        </div>
+
+        <div class="callout tip">
+          <strong><i class="fa-solid fa-lightbulb"></i> Want to add more?</strong>
+          Ask Claude: "Add a section to my hello-server.php that shows the browser the visitor is using, from <code>$_SERVER['HTTP_USER_AGENT']</code>. Use htmlspecialchars() on it. Add descriptive comments." Then follow the same paste-save-refresh process.
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Completion card ── -->
+    <div class="finish-card" role="region" aria-label="Lab complete">
+      <div class="finish-icon" aria-hidden="true">🎉</div>
+      <h2>Lab 1 Complete!</h2>
+      <p>You've logged into a real server, created a PHP file, deployed it, and watched it run. That's back-end development - you just did it.</p>
+      <p style="margin-top:0.75rem">Next up: <strong>Lab 2 - Contact Form</strong>, where user data travels from the browser to the server and PHP handles it.</p>
+    </div>
+
+  </main>
+
+  <script>
+    // ============================================================
+    // SETUP: define total steps and build the progress dot row
+    // ============================================================
+    const TOTAL_STEPS = 10;
+    const completed   = new Set(); // tracks which steps are marked done
+
+    // Build the row of numbered progress dots at the top of the page
+    const dotsContainer = document.getElementById('progress-dots');
+    for (let i = 1; i <= TOTAL_STEPS; i++) {
+      const dot = document.createElement('a');
+      dot.className   = 'p-dot';
+      dot.textContent = i;
+      dot.href        = `#step-${i}`;
+      dot.id          = `dot-${i}`;
+      dot.setAttribute('aria-label', `Go to step ${i}`);
+      dotsContainer.appendChild(dot);
+    }
+
+    // Mark step 1's dot as active to start
+    document.getElementById('dot-1').classList.add('active');
+
+
+    // ============================================================
+    // FUNCTION: toggleStep(header)
+    // Opens or closes a step card when its header is clicked.
+    // ============================================================
+    function toggleStep(header) {
+      const card   = header.closest('.step-card');
+      const isOpen = card.classList.toggle('open');
+      header.setAttribute('aria-expanded', isOpen);
+
+      // Update the active dot - find which step this is
+      const stepId = parseInt(card.id.replace('step-', ''));
+      updateActiveDot(stepId);
+    }
+
+    // Keyboard support: Enter and Space trigger the toggle
+    document.querySelectorAll('.step-header').forEach(header => {
+      header.addEventListener('keydown', e => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          toggleStep(header);
+        }
+      });
+    });
+
+
+    // ============================================================
+    // FUNCTION: markDone(event, stepNum)
+    // Marks a step as completed, updating the button, number badge,
+    // progress dots, and the progress bar fill.
+    // ============================================================
+    function markDone(event, stepNum) {
+      // Stop the click from also toggling the step open/closed
+      event.stopPropagation();
+
+      const btn     = event.target;
+      const numBadge = document.getElementById(`num-${stepNum}`);
+      const dot      = document.getElementById(`dot-${stepNum}`);
+
+      // Toggle: if already marked, unmark it; otherwise mark it
+      if (completed.has(stepNum)) {
+        completed.delete(stepNum);
+        btn.textContent = 'Mark done';
+        btn.classList.remove('marked');
+        numBadge.classList.remove('done');
+        dot.classList.remove('done');
+      } else {
+        completed.add(stepNum);
+        btn.textContent = '✓ Done';
+        btn.classList.add('marked');
+        numBadge.classList.add('done');
+        dot.classList.remove('active');
+        dot.classList.add('done');
+      }
+
+      // Recalculate and update the progress bar width
+      const pct = Math.round((completed.size / TOTAL_STEPS) * 100);
+      const fill  = document.getElementById('progress-fill');
+      const track = document.getElementById('progress-bar');
+      fill.style.width = pct + '%';
+      track.setAttribute('aria-valuenow', pct);
+    }
+
+
+    // ============================================================
+    // FUNCTION: updateActiveDot(stepNum)
+    // Highlights the dot for the currently open step.
+    // ============================================================
+    function updateActiveDot(stepNum) {
+      document.querySelectorAll('.p-dot').forEach(d => d.classList.remove('active'));
+      const dot = document.getElementById(`dot-${stepNum}`);
+      if (dot && !completed.has(stepNum)) {
+        dot.classList.add('active');
+      }
+    }
+
+
+    // ============================================================
+    // FUNCTION: copyPrompt(button)
+    // Copies the AI prompt text to the clipboard.
+    // ============================================================
+    function copyPrompt(button) {
+      const box  = button.closest('.prompt-box');
+      const text = box.querySelector('.prompt-text');
+      navigator.clipboard.writeText(text.innerText).then(() => {
+        button.textContent = 'Copied!';
+        button.classList.add('copied');
+        setTimeout(() => {
+          button.textContent = 'Copy';
+          button.classList.remove('copied');
+        }, 2000);
+      }).catch(() => {
+        button.textContent = 'Select manually';
+        setTimeout(() => { button.textContent = 'Copy'; }, 2500);
+      });
+    }
+  </script>
+</body>
+</html>

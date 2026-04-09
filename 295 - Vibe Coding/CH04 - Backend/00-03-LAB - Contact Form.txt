@@ -1,0 +1,587 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    ============================================================
+    VIBE CODING: AI-Assisted Application Development
+    Finger Lakes Community College
+
+    Lab 2 Step-by-Step Instructions: Contact Form
+    Version: 1.0 - Initial build
+
+    Students build a contact form with server-side validation.
+    This lab introduces $_POST, filter_var(), and the concept
+    that the server - not the browser - is the final authority
+    on whether data is acceptable.
+    ============================================================
+  -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lab 2: Contact Form - Vibe Coding @ FLCC</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <style>
+    :root {
+      --primary:    #9900ff;
+      --primary-dim:rgba(153,0,255,0.18);
+      --bg:         #0d0d0d;
+      --surface:    #1a1a1a;
+      --surface-2:  #222;
+      --border:     #2e2e2e;
+      --text:       #e8e8e8;
+      --muted:      #888;
+      --green:      #00e5a0;
+      --green-dim:  rgba(0,229,160,0.12);
+      --red:        #ff4d6a;
+      --red-dim:    rgba(255,77,106,0.12);
+      --yellow:     #ffd166;
+      --yellow-dim: rgba(255,209,102,0.12);
+      --blue:       #4fc3f7;
+      --blue-dim:   rgba(79,195,247,0.12);
+      --radius:     10px;
+      --nav-h:      58px;
+      --font-body:  'DM Sans', sans-serif;
+      --font-code:  'Space Mono', monospace;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; scroll-padding-top: calc(var(--nav-h) + 16px); }
+    body { background: var(--bg); color: var(--text); font-family: var(--font-body); font-size: 1rem; line-height: 1.7; }
+    :focus-visible { outline: 2px solid var(--primary); outline-offset: 3px; border-radius: 4px; }
+
+    .nav {
+      position: sticky; top: 0; z-index: 100; height: var(--nav-h);
+      background: rgba(13,13,13,0.95); backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border);
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 1.5rem; gap: 1rem;
+    }
+    .nav-brand { font-family: var(--font-code); font-size: 0.8rem; color: var(--primary); }
+    .nav-meta  { font-size: 0.8rem; color: var(--muted); display: flex; align-items: center; gap: 1rem; }
+    .nav-meta span { display: flex; align-items: center; gap: 0.35rem; }
+
+    .progress-bar-wrap {
+      background: var(--surface); border-bottom: 1px solid var(--border);
+      padding: 0.6rem 1.5rem; display: flex; align-items: center; gap: 1rem;
+    }
+    .progress-label { font-size: 0.75rem; color: var(--muted); white-space: nowrap; }
+    .progress-track { flex: 1; height: 6px; background: var(--border); border-radius: 99px; overflow: hidden; }
+    .progress-fill  { height: 100%; background: linear-gradient(90deg, var(--primary), var(--blue)); border-radius: 99px; width: 0%; transition: width 0.4s ease; }
+    .progress-steps { display: flex; gap: 0.35rem; flex-shrink: 0; }
+    .p-dot {
+      width: 22px; height: 22px; border-radius: 50%; border: 2px solid var(--border);
+      background: var(--surface-2); font-size: 0.65rem; font-family: var(--font-code); font-weight: 700;
+      display: flex; align-items: center; justify-content: center;
+      color: var(--muted); cursor: pointer; transition: all 0.2s; text-decoration: none;
+    }
+    .p-dot:hover  { border-color: var(--primary); color: var(--primary); }
+    .p-dot.done   { background: var(--green); border-color: var(--green); color: #000; }
+    .p-dot.active { background: var(--primary); border-color: var(--primary); color: #fff; }
+
+    .page { max-width: 820px; margin: 0 auto; padding: 2rem 1.25rem 5rem; }
+
+    .hero { text-align: center; padding: 2.5rem 1rem 2rem; margin-bottom: 2rem; }
+    .hero-eyebrow {
+      display: inline-flex; align-items: center; gap: 0.4rem;
+      font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em;
+      color: var(--green); background: var(--green-dim); border: 1px solid var(--green);
+      border-radius: 99px; padding: 0.25rem 0.85rem; margin-bottom: 1rem;
+    }
+    .hero h1 { font-size: clamp(1.8rem, 4.5vw, 2.6rem); font-weight: 700; line-height: 1.2; margin-bottom: 0.75rem; }
+    .hero h1 em { color: var(--green); font-style: normal; font-family: var(--font-code); }
+    .hero-sub { color: var(--muted); font-size: 1rem; max-width: 520px; margin: 0 auto 1.5rem; }
+    .hero-pills { display: flex; gap: 0.6rem; justify-content: center; flex-wrap: wrap; }
+    .pill { font-size: 0.78rem; padding: 0.25rem 0.8rem; border-radius: 99px; background: var(--surface); border: 1px solid var(--border); color: var(--muted); }
+    .pill strong { color: var(--text); }
+
+    .prereq { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.25rem 1.5rem; margin-bottom: 2.5rem; }
+    .prereq h2 { font-size: 1rem; font-weight: 700; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem; }
+    .prereq ul { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
+    .prereq li { font-size: 0.9rem; display: flex; align-items: flex-start; gap: 0.6rem; }
+    .prereq li::before { content: '✓'; color: var(--green); font-weight: 700; flex-shrink: 0; margin-top: 0.1rem; }
+
+    .step-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); margin-bottom: 1.5rem; overflow: hidden; scroll-margin-top: calc(var(--nav-h) + 80px); }
+    .step-header { display: flex; align-items: center; gap: 1rem; padding: 1rem 1.5rem; border-bottom: 1px solid var(--border); background: var(--surface-2); cursor: pointer; user-select: none; }
+    .step-header:hover { background: #282828; }
+    .step-num { width: 36px; height: 36px; border-radius: 50%; flex-shrink: 0; background: var(--green-dim); border: 2px solid var(--green); color: var(--green); font-family: var(--font-code); font-size: 0.85rem; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+    .step-num.done { background: var(--green); border-color: var(--green); color: #000; }
+    .step-title-wrap { flex: 1; }
+    .step-title { font-size: 1rem; font-weight: 700; }
+    .step-subtitle { font-size: 0.8rem; color: var(--muted); margin-top: 0.1rem; }
+    .step-chevron { color: var(--muted); font-size: 0.8rem; transition: transform 0.2s; }
+    .step-card.open .step-chevron { transform: rotate(180deg); }
+    .step-done-btn { background: var(--surface); border: 1px solid var(--border); color: var(--muted); border-radius: 99px; font-size: 0.72rem; font-family: var(--font-body); padding: 0.2rem 0.65rem; cursor: pointer; transition: all 0.2s; flex-shrink: 0; }
+    .step-done-btn:hover { border-color: var(--green); color: var(--green); }
+    .step-done-btn.marked { background: var(--green-dim); border-color: var(--green); color: var(--green); }
+    .step-body { display: none; padding: 1.5rem; }
+    .step-card.open .step-body { display: block; }
+    .step-body p { margin-bottom: 0.9rem; font-size: 0.95rem; }
+    .step-body p:last-child { margin-bottom: 0; }
+
+    .action-list { list-style: none; padding: 0; counter-reset: action-counter; }
+    .action-list li { counter-increment: action-counter; display: flex; gap: 0.85rem; align-items: flex-start; margin-bottom: 0.85rem; padding: 0.75rem 1rem; background: var(--surface-2); border-radius: 8px; font-size: 0.92rem; }
+    .action-list li::before { content: counter(action-counter); min-width: 24px; height: 24px; background: var(--green); color: #000; border-radius: 50%; font-size: 0.7rem; font-weight: 700; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 0.1rem; font-family: var(--font-code); }
+
+    .callout { border-radius: 8px; padding: 0.9rem 1.1rem; border-left: 3px solid; margin: 1rem 0; font-size: 0.9rem; }
+    .callout strong { display: block; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.3rem; }
+    .callout.see   { background: var(--green-dim);  border-color: var(--green);  color: #9ef5d8; }
+    .callout.warn  { background: var(--red-dim);    border-color: var(--red);    color: #ffb3bf; }
+    .callout.tip   { background: var(--blue-dim);   border-color: var(--blue);   color: #b8e4f9; }
+    .callout.note  { background: var(--yellow-dim); border-color: var(--yellow); color: #ffe4a0; }
+
+    .code-block { background: #111; border-radius: 8px; padding: 1rem 1.25rem; font-family: var(--font-code); font-size: 0.78rem; line-height: 1.8; overflow-x: auto; color: #ddd; margin: 0.75rem 0; border: 1px solid var(--border); }
+
+    .prompt-box { background: var(--surface-2); border: 1px solid var(--primary); border-radius: 8px; padding: 1rem 1.25rem; margin: 1rem 0; position: relative; }
+    .prompt-box-label { font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--primary); margin-bottom: 0.6rem; display: flex; align-items: center; gap: 0.4rem; }
+    .prompt-text { font-family: var(--font-code); font-size: 0.78rem; color: #ccc; line-height: 1.7; white-space: pre-wrap; }
+    .copy-btn { position: absolute; top: 0.75rem; right: 0.75rem; background: var(--primary-dim); color: var(--primary); border: 1px solid var(--primary); border-radius: 6px; padding: 0.2rem 0.6rem; font-size: 0.72rem; cursor: pointer; font-family: var(--font-body); transition: all 0.2s; }
+    .copy-btn:hover { background: var(--primary); color: #fff; }
+    .copy-btn.copied { background: var(--green-dim); color: var(--green); border-color: var(--green); }
+
+    code { font-family: var(--font-code); font-size: 0.82em; background: var(--surface-2); border: 1px solid var(--border); border-radius: 4px; padding: 0.1em 0.4em; color: var(--green); }
+
+    .screen-mock { background: #111; border: 1px solid var(--border); border-radius: 8px; padding: 1rem 1.25rem; margin: 0.75rem 0; font-size: 0.82rem; color: var(--muted); font-family: var(--font-code); }
+    .screen-mock .mock-bar { display: flex; gap: 0.4rem; margin-bottom: 0.75rem; align-items: center; }
+    .mock-dot { width: 10px; height: 10px; border-radius: 50%; }
+    .mock-url { flex: 1; background: var(--surface); border-radius: 4px; padding: 0.2rem 0.6rem; font-size: 0.72rem; color: var(--muted); }
+
+    /* Test scenario table */
+    .test-table { width: 100%; border-collapse: collapse; font-size: 0.87rem; margin: 0.75rem 0; }
+    .test-table th { padding: 0.5rem 0.9rem; text-align: left; background: var(--surface-2); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
+    .test-table td { padding: 0.55rem 0.9rem; border-top: 1px solid var(--border); vertical-align: top; }
+    .test-table tr:hover td { background: var(--surface-2); }
+    .badge-pass { background: var(--green-dim); color: var(--green); border-radius: 4px; padding: 0.1rem 0.5rem; font-size: 0.75rem; white-space: nowrap; }
+    .badge-fail { background: var(--red-dim);   color: var(--red);   border-radius: 4px; padding: 0.1rem 0.5rem; font-size: 0.75rem; white-space: nowrap; }
+
+    .finish-card { background: var(--green-dim); border: 1px solid var(--green); border-radius: var(--radius); padding: 2rem; text-align: center; margin-top: 2rem; }
+    .finish-card h2 { font-size: 1.5rem; color: var(--green); margin-bottom: 0.5rem; }
+    .finish-card p  { color: #9ef5d8; font-size: 0.95rem; }
+    .finish-icon { font-size: 2.5rem; margin-bottom: 0.75rem; }
+
+    @media (max-width: 600px) { .nav-meta { display: none; } .progress-steps { display: none; } }
+  </style>
+</head>
+<body>
+
+  <nav class="nav" aria-label="Lab navigation">
+    <span class="nav-brand">Lab 02 · Contact Form</span>
+    <div class="nav-meta">
+      <span><i class="fa-solid fa-clock"></i> ~45 minutes</span>
+      <span><i class="fa-solid fa-layer-group"></i> 9 steps</span>
+    </div>
+  </nav>
+
+  <div class="progress-bar-wrap" role="region" aria-label="Lab progress">
+    <span class="progress-label">Your progress</span>
+    <div class="progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label="Steps completed" id="progress-bar">
+      <div class="progress-fill" id="progress-fill"></div>
+    </div>
+    <div class="progress-steps" aria-hidden="true" id="progress-dots"></div>
+  </div>
+
+  <main class="page" id="main">
+
+    <header class="hero">
+      <div class="hero-eyebrow">
+        <i class="fa-solid fa-envelope"></i>
+        Lab 2 of 4 · Forms &amp; Validation
+      </div>
+      <h1>Contact Form &amp; <em>Validation</em></h1>
+      <p class="hero-sub">
+        A user fills out a form and clicks Submit. PHP catches it, checks it, and
+        decides what happens next. This is the backbone of almost every web app.
+      </p>
+      <div class="hero-pills">
+        <span class="pill"><strong>Skill:</strong> $_POST, filter_var, validation</span>
+        <span class="pill"><strong>Time:</strong> ~45 minutes</span>
+        <span class="pill"><strong>File:</strong> contact.php</span>
+      </div>
+    </header>
+
+    <div class="prereq">
+      <h2><i class="fa-solid fa-circle-check" style="color:var(--green)"></i> Before you start - you'll need:</h2>
+      <ul>
+        <li>Lab 1 completed - you know how to create a file in File Manager and visit it in the browser</li>
+        <li>cPanel File Manager open in one browser tab</li>
+        <li>Claude open in another tab</li>
+        <li>Your <code>vibe-php</code> folder already created inside <code>public_html</code></li>
+      </ul>
+    </div>
+
+    <!-- STEP 1 -->
+    <section class="step-card open" id="step-1" aria-labelledby="step-1-title">
+      <div class="step-header" onclick="toggleStep(this)" role="button" tabindex="0" aria-expanded="true">
+        <div class="step-num" id="num-1">1</div>
+        <div class="step-title-wrap">
+          <div class="step-title" id="step-1-title">Create <code style="font-size:0.88rem">contact.php</code> in File Manager</div>
+          <div class="step-subtitle">Make the blank file inside your vibe-php folder</div>
+        </div>
+        <button class="step-done-btn" onclick="markDone(event,1)">Mark done</button>
+        <i class="fa-solid fa-chevron-down step-chevron" aria-hidden="true"></i>
+      </div>
+      <div class="step-body">
+        <p>Just like in Lab 1, you'll create an empty file first and fill it with code next.</p>
+        <ol class="action-list">
+          <li>In File Manager, navigate to your <code>vibe-php</code> folder inside <code>public_html</code>. You should see <code>hello-server.php</code> already there from Lab 1.</li>
+          <li>Click <strong>"+ File"</strong> in the toolbar.</li>
+          <li>Type the filename: <code>contact.php</code> - all lowercase.</li>
+          <li>Click <strong>Create New File</strong>.</li>
+        </ol>
+        <div class="callout see">
+          <strong><i class="fa-solid fa-eye"></i> What you should see</strong>
+          <code>contact.php</code> appears in the file list alongside <code>hello-server.php</code>. It shows 0 bytes - empty for now.
+        </div>
+      </div>
+    </section>
+
+    <!-- STEP 2 -->
+    <section class="step-card" id="step-2" aria-labelledby="step-2-title">
+      <div class="step-header" onclick="toggleStep(this)" role="button" tabindex="0" aria-expanded="false">
+        <div class="step-num" id="num-2">2</div>
+        <div class="step-title-wrap">
+          <div class="step-title" id="step-2-title">Prompt Claude for the code</div>
+          <div class="step-subtitle">Get Claude to write the full contact form PHP file</div>
+        </div>
+        <button class="step-done-btn" onclick="markDone(event,2)">Mark done</button>
+        <i class="fa-solid fa-chevron-down step-chevron" aria-hidden="true"></i>
+      </div>
+      <div class="step-body">
+        <p>Switch to your Claude tab and paste the prompt below. Take a moment after Claude responds to read through the code - especially any lines that mention <code>$_POST</code>, <code>filter_var</code>, or <code>htmlspecialchars</code>.</p>
+
+        <div class="prompt-box">
+          <div class="prompt-box-label"><i class="fa-solid fa-robot"></i> Paste this into Claude</div>
+          <button class="copy-btn" onclick="copyPrompt(this)">Copy</button>
+          <div class="prompt-text">Create a single PHP file called contact.php for a beginner PHP student. Requirements:
+
+FORM FIELDS: name (required), email (required, must be valid), subject (required), message (required, min 20 characters)
+
+PHP PROCESSING:
+- Check if form was submitted using $_SERVER['REQUEST_METHOD'] === 'POST'
+- Validate each field and store error messages in an $errors array
+- Use htmlspecialchars() and trim() on all input
+- Use filter_var() with FILTER_VALIDATE_EMAIL for the email field
+- If validation passes, attempt to send an email using mail()
+- If validation fails, re-display the form with errors shown next to each field
+- Keep the user's valid input in the form fields so they don't have to retype everything
+
+DESIGN: Dark theme, green (#00e5a0) accent, responsive layout, accessible labels, keyboard navigable
+
+COMMENTS: Very descriptive PHP comments explaining every step - written for someone brand new to PHP
+
+VERSION: // v1.0 - Lab 2: Contact Form with Validation</div>
+        </div>
+
+        <div class="callout tip">
+          <strong><i class="fa-solid fa-lightbulb"></i> Things to look for in Claude's code</strong>
+          Find where Claude checks <code>$_SERVER['REQUEST_METHOD'] === 'POST'</code>. That's the gate - PHP only processes the form when someone actually clicked Submit. Everything else (just visiting the page) falls through to showing the blank form.
+        </div>
+      </div>
+    </section>
+
+    <!-- STEP 3 -->
+    <section class="step-card" id="step-3" aria-labelledby="step-3-title">
+      <div class="step-header" onclick="toggleStep(this)" role="button" tabindex="0" aria-expanded="false">
+        <div class="step-num" id="num-3">3</div>
+        <div class="step-title-wrap">
+          <div class="step-title" id="step-3-title">Paste the code into File Manager and save</div>
+          <div class="step-subtitle">Deploy the code to the server</div>
+        </div>
+        <button class="step-done-btn" onclick="markDone(event,3)">Mark done</button>
+        <i class="fa-solid fa-chevron-down step-chevron" aria-hidden="true"></i>
+      </div>
+      <div class="step-body">
+        <ol class="action-list">
+          <li>Copy all the code Claude gave you (click the copy icon on Claude's code block).</li>
+          <li>In File Manager, right-click <code>contact.php</code> and choose <strong>Edit</strong>.</li>
+          <li>Select all the text in the editor (<strong>Ctrl+A</strong> or <strong>Cmd+A</strong>), then delete it.</li>
+          <li>Paste your code (<strong>Ctrl+V</strong> or <strong>Cmd+V</strong>).</li>
+          <li>Click <strong>Save Changes</strong>.</li>
+          <li>Close the editor tab.</li>
+        </ol>
+        <div class="callout see">
+          <strong><i class="fa-solid fa-eye"></i> What you should see</strong>
+          The file size in File Manager is no longer 0 bytes. The code is now live on the server.
+        </div>
+      </div>
+    </section>
+
+    <!-- STEP 4 -->
+    <section class="step-card" id="step-4" aria-labelledby="step-4-title">
+      <div class="step-header" onclick="toggleStep(this)" role="button" tabindex="0" aria-expanded="false">
+        <div class="step-num" id="num-4">4</div>
+        <div class="step-title-wrap">
+          <div class="step-title" id="step-4-title">Visit the page and see the empty form</div>
+          <div class="step-subtitle">Confirm the page loads without errors</div>
+        </div>
+        <button class="step-done-btn" onclick="markDone(event,4)">Mark done</button>
+        <i class="fa-solid fa-chevron-down step-chevron" aria-hidden="true"></i>
+      </div>
+      <div class="step-body">
+        <ol class="action-list">
+          <li>Open a new browser tab.</li>
+          <li>Navigate to your contact page URL:</li>
+        </ol>
+        <div class="screen-mock">
+          <div class="mock-bar">
+            <div class="mock-dot" style="background:#ff5f57"></div>
+            <div class="mock-dot" style="background:#febc2e"></div>
+            <div class="mock-dot" style="background:#28c840"></div>
+            <div class="mock-url">yourdomain.com/vibe-php/contact.php</div>
+          </div>
+          Replace <strong>yourdomain.com</strong> with your actual domain.
+        </div>
+        <div class="callout see">
+          <strong><i class="fa-solid fa-eye"></i> What you should see</strong>
+          An empty contact form with fields for name, email, subject, and message. No errors, no PHP code visible - just a styled form ready to fill in.
+        </div>
+        <div class="callout note">
+          <strong><i class="fa-solid fa-star"></i> Notice something important</strong>
+          Even though the PHP file has code to process a form submission, visiting the page directly just shows the form. PHP only runs the processing code when you actually submit - because it checks <code>$_SERVER['REQUEST_METHOD'] === 'POST'</code> first.
+        </div>
+      </div>
+    </section>
+
+    <!-- STEP 5 -->
+    <section class="step-card" id="step-5" aria-labelledby="step-5-title">
+      <div class="step-header" onclick="toggleStep(this)" role="button" tabindex="0" aria-expanded="false">
+        <div class="step-num" id="num-5">5</div>
+        <div class="step-title-wrap">
+          <div class="step-title" id="step-5-title">Test with empty fields - see validation in action</div>
+          <div class="step-subtitle">Deliberately trigger error messages</div>
+        </div>
+        <button class="step-done-btn" onclick="markDone(event,5)">Mark done</button>
+        <i class="fa-solid fa-chevron-down step-chevron" aria-hidden="true"></i>
+      </div>
+      <div class="step-body">
+        <p>Good testing means trying to <em>break</em> your own app. Start by submitting completely empty - your PHP validation should catch it.</p>
+        <ol class="action-list">
+          <li>Leave <strong>all fields blank</strong> on your contact form.</li>
+          <li>Click the <strong>Submit</strong> button (or whatever the button is labeled).</li>
+        </ol>
+        <div class="callout see">
+          <strong><i class="fa-solid fa-eye"></i> What you should see</strong>
+          Error messages appear next to (or below) the empty fields - things like "Name is required" and "Please enter a valid email." The form stays on the page so the user can fix their mistakes. This is server-side validation working.
+        </div>
+        <div class="callout note">
+          <strong><i class="fa-solid fa-star"></i> Server-side vs. browser validation</strong>
+          Your browser might also show its own validation pop-ups for empty required fields. But PHP's validation is what really matters - it runs even if someone bypasses browser validation. Try right-clicking the Submit button and inspecting it to remove the "required" attribute, then submit again. PHP still catches it.
+        </div>
+      </div>
+    </section>
+
+    <!-- STEP 6 -->
+    <section class="step-card" id="step-6" aria-labelledby="step-6-title">
+      <div class="step-header" onclick="toggleStep(this)" role="button" tabindex="0" aria-expanded="false">
+        <div class="step-num" id="num-6">6</div>
+        <div class="step-title-wrap">
+          <div class="step-title" id="step-6-title">Test with a bad email address</div>
+          <div class="step-subtitle">See filter_var doing its job</div>
+        </div>
+        <button class="step-done-btn" onclick="markDone(event,6)">Mark done</button>
+        <i class="fa-solid fa-chevron-down step-chevron" aria-hidden="true"></i>
+      </div>
+      <div class="step-body">
+        <p>Now test what happens when the data is present but wrong. Run through each of these test cases one at a time:</p>
+
+        <table class="test-table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Email to enter</th>
+              <th>Expected result</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Your name</td>
+              <td><code>notanemail</code></td>
+              <td><span class="badge-fail">Should fail</span> - invalid format</td>
+            </tr>
+            <tr>
+              <td>Your name</td>
+              <td><code>missing@thedot</code></td>
+              <td><span class="badge-fail">Should fail</span> - no valid TLD</td>
+            </tr>
+            <tr>
+              <td>Your name</td>
+              <td><code>you@yourdomain.com</code></td>
+              <td><span class="badge-pass">Should pass</span> - valid email</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="callout see">
+          <strong><i class="fa-solid fa-eye"></i> What you should see</strong>
+          The first two trigger an email error. The third passes email validation (though other fields might still fail). Notice that PHP's <code>filter_var()</code> with <code>FILTER_VALIDATE_EMAIL</code> is making these decisions - not you manually checking the string.
+        </div>
+      </div>
+    </section>
+
+    <!-- STEP 7 -->
+    <section class="step-card" id="step-7" aria-labelledby="step-7-title">
+      <div class="step-header" onclick="toggleStep(this)" role="button" tabindex="0" aria-expanded="false">
+        <div class="step-num" id="num-7">7</div>
+        <div class="step-title-wrap">
+          <div class="step-title" id="step-7-title">Submit a fully valid form</div>
+          <div class="step-subtitle">Reach the success state</div>
+        </div>
+        <button class="step-done-btn" onclick="markDone(event,7)">Mark done</button>
+        <i class="fa-solid fa-chevron-down step-chevron" aria-hidden="true"></i>
+      </div>
+      <div class="step-body">
+        <p>Fill in every field correctly and submit. This should trigger the success path through the PHP code.</p>
+        <ol class="action-list">
+          <li>Fill in your <strong>name</strong> - anything works.</li>
+          <li>Enter a <strong>real, valid email address</strong> - use your own email so you can check if it arrives.</li>
+          <li>Enter a <strong>subject</strong> - at least a few words.</li>
+          <li>Enter a <strong>message</strong> - at least 20 characters (you may see a minimum enforced).</li>
+          <li>Click <strong>Submit</strong>.</li>
+        </ol>
+        <div class="callout see">
+          <strong><i class="fa-solid fa-eye"></i> What you should see</strong>
+          A success message - something like "Your message has been sent!" The form clears (or the page indicates success). The PHP ran all the way through: validated, sanitized, and called <code>mail()</code>.
+        </div>
+        <div class="callout warn">
+          <strong><i class="fa-solid fa-triangle-exclamation"></i> If you see the form again after a valid submission</strong>
+          This might mean the message field was too short (check the minimum character requirement), or there's a subtle validation rule being triggered. Read any error messages carefully - they'll tell you exactly what's wrong.
+        </div>
+      </div>
+    </section>
+
+    <!-- STEP 8 -->
+    <section class="step-card" id="step-8" aria-labelledby="step-8-title">
+      <div class="step-header" onclick="toggleStep(this)" role="button" tabindex="0" aria-expanded="false">
+        <div class="step-num" id="num-8">8</div>
+        <div class="step-title-wrap">
+          <div class="step-title" id="step-8-title">Check if the email arrived</div>
+          <div class="step-subtitle">Verify the mail() function worked</div>
+        </div>
+        <button class="step-done-btn" onclick="markDone(event,8)">Mark done</button>
+        <i class="fa-solid fa-chevron-down step-chevron" aria-hidden="true"></i>
+      </div>
+      <div class="step-body">
+        <p>The success message means PHP <em>attempted</em> to send the email. Now let's check if it actually arrived.</p>
+        <ol class="action-list">
+          <li>Open the email inbox for the address you entered in the form.</li>
+          <li>Check for an email from your domain. It may take a minute or two.</li>
+          <li>Also check your <strong>Spam or Junk folder</strong> - mail from PHP on shared hosting often ends up there at first.</li>
+        </ol>
+        <div class="callout see">
+          <strong><i class="fa-solid fa-eye"></i> What you should see</strong>
+          An email containing the name, email, subject, and message you entered. The "from" address is the one set in the PHP <code>$headers</code> variable.
+        </div>
+        <div class="callout warn">
+          <strong><i class="fa-solid fa-triangle-exclamation"></i> Email didn't arrive?</strong>
+          PHP's <code>mail()</code> function on shared hosting sometimes has delivery issues. This is a server configuration topic, not a code error. Ask your instructor if emails aren't arriving - they can check the server's mail settings. The <em>code</em> is still correct even if delivery fails.
+        </div>
+      </div>
+    </section>
+
+    <!-- STEP 9 -->
+    <section class="step-card" id="step-9" aria-labelledby="step-9-title">
+      <div class="step-header" onclick="toggleStep(this)" role="button" tabindex="0" aria-expanded="false">
+        <div class="step-num" id="num-9">9</div>
+        <div class="step-title-wrap">
+          <div class="step-title" id="step-9-title">Read the PHP - find the validation section</div>
+          <div class="step-subtitle">Understand what your code is actually doing</div>
+        </div>
+        <button class="step-done-btn" onclick="markDone(event,9)">Mark done</button>
+        <i class="fa-solid fa-chevron-down step-chevron" aria-hidden="true"></i>
+      </div>
+      <div class="step-body">
+        <p>Go back to File Manager, open <code>contact.php</code> in the editor, and take 5 minutes to read the PHP code. Use these questions as a guide - you don't need to understand every character, just get the big picture.</p>
+
+        <ol class="action-list">
+          <li><strong>Find the <code>$errors</code> array.</strong> This is where all the validation messages are collected. Where does it get created? Where does it get values added to it?</li>
+          <li><strong>Find every <code>htmlspecialchars()</code> call.</strong> How many are there? Each one is protecting you from XSS.</li>
+          <li><strong>Find the <code>mail()</code> call.</strong> What four pieces of information does it take? (To, Subject, Body, Headers.)</li>
+          <li><strong>Find the <code>if (empty($errors))</code> check</strong> (or similar). This is the gate - mail only sends when there are no errors.</li>
+        </ol>
+
+        <div class="callout tip">
+          <strong><i class="fa-solid fa-lightbulb"></i> Want to customize it?</strong>
+          Ask Claude: "In my contact.php, change the minimum message length from 20 to 50 characters and update the error message to say so. Keep all the existing comments." Then paste in your current code so Claude can modify it specifically.
+        </div>
+      </div>
+    </section>
+
+    <div class="finish-card">
+      <div class="finish-icon" aria-hidden="true">📬</div>
+      <h2>Lab 2 Complete!</h2>
+      <p>You've built a form that travels from browser to server, gets validated, and sends a real email. That's a genuinely useful feature that millions of websites depend on every day.</p>
+      <p style="margin-top:0.75rem">Next up: <strong>Lab 3 - Public Guestbook</strong>, where data gets saved to the server and shown to every visitor.</p>
+    </div>
+
+  </main>
+
+  <script>
+    const TOTAL_STEPS = 9;
+    const completed   = new Set();
+
+    const dotsContainer = document.getElementById('progress-dots');
+    for (let i = 1; i <= TOTAL_STEPS; i++) {
+      const dot = document.createElement('a');
+      dot.className   = 'p-dot';
+      dot.textContent = i;
+      dot.href        = `#step-${i}`;
+      dot.id          = `dot-${i}`;
+      dot.setAttribute('aria-label', `Go to step ${i}`);
+      dotsContainer.appendChild(dot);
+    }
+    document.getElementById('dot-1').classList.add('active');
+
+    function toggleStep(header) {
+      const card   = header.closest('.step-card');
+      const isOpen = card.classList.toggle('open');
+      header.setAttribute('aria-expanded', isOpen);
+      const stepId = parseInt(card.id.replace('step-', ''));
+      updateActiveDot(stepId);
+    }
+
+    document.querySelectorAll('.step-header').forEach(header => {
+      header.addEventListener('keydown', e => {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggleStep(header); }
+      });
+    });
+
+    function markDone(event, stepNum) {
+      event.stopPropagation();
+      const btn      = event.target;
+      const numBadge = document.getElementById(`num-${stepNum}`);
+      const dot      = document.getElementById(`dot-${stepNum}`);
+      if (completed.has(stepNum)) {
+        completed.delete(stepNum);
+        btn.textContent = 'Mark done'; btn.classList.remove('marked');
+        numBadge.classList.remove('done'); dot.classList.remove('done');
+      } else {
+        completed.add(stepNum);
+        btn.textContent = '✓ Done'; btn.classList.add('marked');
+        numBadge.classList.add('done'); dot.classList.remove('active'); dot.classList.add('done');
+      }
+      const pct  = Math.round((completed.size / TOTAL_STEPS) * 100);
+      const fill  = document.getElementById('progress-fill');
+      const track = document.getElementById('progress-bar');
+      fill.style.width = pct + '%';
+      track.setAttribute('aria-valuenow', pct);
+    }
+
+    function updateActiveDot(stepNum) {
+      document.querySelectorAll('.p-dot').forEach(d => d.classList.remove('active'));
+      const dot = document.getElementById(`dot-${stepNum}`);
+      if (dot && !completed.has(stepNum)) dot.classList.add('active');
+    }
+
+    function copyPrompt(button) {
+      const text = button.closest('.prompt-box').querySelector('.prompt-text');
+      navigator.clipboard.writeText(text.innerText).then(() => {
+        button.textContent = 'Copied!'; button.classList.add('copied');
+        setTimeout(() => { button.textContent = 'Copy'; button.classList.remove('copied'); }, 2000);
+      }).catch(() => { button.textContent = 'Select manually'; setTimeout(() => { button.textContent = 'Copy'; }, 2500); });
+    }
+  </script>
+</body>
+</html>
