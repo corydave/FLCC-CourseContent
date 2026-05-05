@@ -1,0 +1,5 @@
+<!DOCTYPE html>
+<html><head><link rel="stylesheet" href="https://s.brightspace.com/lib/fonts/0.6.1/fonts.css"></head><body style="color: rgb(32, 33, 34); font-family: Lato, sans-serif; font-size: 12px;"><h1 style="background-color: #940000; color: #f7f7f7; text-align: center; padding: 1.875rem; border-radius: .25rem;"><span style="font-size: 32px;">Module Overview: EdTech Sampler</span></h1>
+<center>
+<div class="embed-responsive embed-responsive-16by9 rounded"><iframe class="embed-responsive-item rounded" width="560" height="315" src="https://docs.google.com/videos/d/1krjLcYyDYHBjt8wISdoWXI_MamJyAzPAHEPQ390n4pw/play" title="YouTube video player?wmode=opaque" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" style="border-radius: 15px !important;"></iframe></div>
+</center></body></html>
