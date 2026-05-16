@@ -1,0 +1,2157 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Python Fundamentals</title>
+
+  <!--
+    ================================================================
+    PYTHON FUNDAMENTALS — Interactive Lesson
+    ================================================================
+    A browser-based mini-course that teaches Python to beginners.
+
+    The star feature: this uses PYODIDE — Python compiled to
+    WebAssembly — so when you click "Run", actual Python code
+    executes right here in your browser. No server needed!
+
+    Structure of this file:
+      1. <head>       — fonts and metadata
+      2. <style>      — all CSS (light/dark mode, layout, components)
+      3. <body>       — HTML skeleton (header, panes, footer)
+      4. <script>     — lessons data + all application logic
+    ================================================================
+  -->
+
+  <!-- Google Fonts: Display serif + accessible body + mono for code -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <style>
+    /* ============================================================
+       1. CSS CUSTOM PROPERTIES (Design Tokens)
+       ------------------------------------------------------------
+       We define every colour and font here once, using CSS
+       variables (--name: value). Light and dark modes are handled
+       by swapping the values when [data-theme="dark"] is set on
+       the <html> element. This means we never have to write
+       separate colour rules for dark mode further down.
+       ============================================================ */
+
+    :root {
+      /* --- Page backgrounds --- */
+      --bg-page:       #FBF7F0;   /* warm cream */
+      --bg-pane:       #FFFFFF;   /* white card */
+      --bg-code:       #1C1917;   /* very dark brown — code editor */
+      --bg-output:     #F3EDE4;   /* slightly tinted — output / callout */
+      --bg-header:     #231F1C;   /* near-black header */
+
+      /* --- Text colours --- */
+      --text-primary:  #2D2417;   /* dark brown body text */
+      --text-secondary:#6B5B47;   /* muted secondary text */
+      --text-code:     #F5EFE6;   /* warm white inside dark editor */
+      --text-header:   #F5EFE6;   /* light text on dark header */
+
+      /* --- Accent colours (Python's brand palette!) --- */
+      --accent-orange: #E07B39;   /* Python orange */
+      --accent-blue:   #3572A5;   /* Python blue */
+      --accent-green:  #2A7A4A;   /* success */
+      --accent-red:    #B83232;   /* error */
+
+      /* --- Borders and shadows --- */
+      --border:        #E8DDD0;
+      --shadow:        0 2px 10px rgba(45,36,23,0.10);
+
+      /* --- Typography --- */
+      --font-body:     'Atkinson Hyperlegible', sans-serif;
+      --font-display:  'DM Serif Display', serif;
+      --font-mono:     'JetBrains Mono', monospace;
+
+      /* --- Shape --- */
+      --radius:        0.5rem;
+    }
+
+    /* Dark mode: only the colour tokens change — all other rules
+       below stay exactly the same, which is why this approach is so powerful. */
+    [data-theme="dark"] {
+      --bg-page:       #1A1714;
+      --bg-pane:       #231F1C;
+      --bg-code:       #0F0E0C;
+      --bg-output:     #1A1714;
+      --bg-header:     #0F0E0C;
+
+      --text-primary:  #F0EAE0;
+      --text-secondary:#A89880;
+      --text-code:     #F5EFE6;
+      --text-header:   #F0EAE0;
+
+      --accent-orange: #F0923A;
+      --accent-blue:   #5AAEE8;
+      --accent-green:  #3CB371;
+      --accent-red:    #E05555;
+
+      --border:        #3A3530;
+      --shadow:        0 2px 10px rgba(0,0,0,0.40);
+    }
+
+
+    /* ============================================================
+       2. RESET & BASE
+       ============================================================ */
+
+    *, *::before, *::after {
+      box-sizing: border-box; /* padding doesn't add to width */
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      font-size: 16px;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: var(--font-body);
+      background: var(--bg-page);
+      color: var(--text-primary);
+      /* Flex column makes header + main + footer fill the viewport height */
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      transition: background 0.25s, color 0.25s;
+    }
+
+
+    /* ============================================================
+       3. LOADING SCREEN
+       ------------------------------------------------------------
+       Pyodide (the Python runtime) takes a few seconds to download
+       and initialise. We show this full-screen overlay while we wait.
+       It's hidden once Python is ready.
+       ============================================================ */
+
+    #loading-screen {
+      position: fixed;       /* covers everything */
+      inset: 0;              /* top/right/bottom/left = 0 */
+      background: var(--bg-page);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1.25rem;
+      z-index: 999;          /* above everything else */
+      transition: opacity 0.4s;
+    }
+
+    #loading-screen.fade-out {
+      opacity: 0;
+      pointer-events: none;  /* don't block clicks while fading */
+    }
+
+    .loading-snake {
+      font-size: 3rem;
+      animation: bob 1.4s ease-in-out infinite;
+    }
+
+    @keyframes bob {
+      0%, 100% { transform: translateY(0); }
+      50%       { transform: translateY(-8px); }
+    }
+
+    .loading-title {
+      font-family: var(--font-display);
+      font-size: 1.5rem;
+      color: var(--text-primary);
+    }
+
+    .loading-bar-track {
+      width: 220px;
+      height: 5px;
+      background: var(--border);
+      border-radius: 3px;
+      overflow: hidden;
+    }
+
+    /* The pulsing bar — no real progress, just visual feedback */
+    .loading-bar-fill {
+      height: 100%;
+      background: var(--accent-orange);
+      border-radius: 3px;
+      animation: pulse-bar 1.6s ease-in-out infinite;
+    }
+
+    @keyframes pulse-bar {
+      0%   { width: 5%; }
+      50%  { width: 80%; }
+      100% { width: 5%; }
+    }
+
+    .loading-msg {
+      font-family: var(--font-mono);
+      font-size: 0.8rem;
+      color: var(--text-secondary);
+    }
+
+
+    /* ============================================================
+       4. HEADER
+       ============================================================ */
+
+    .site-header {
+      background: var(--bg-header);
+      color: var(--text-header);
+      padding: 0.85rem 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      box-shadow: var(--shadow);
+      position: sticky;    /* stays at top when you scroll */
+      top: 0;
+      z-index: 100;
+      flex-shrink: 0;      /* never shrinks in the flex column */
+    }
+
+    .header-left {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      flex: 1;
+      min-width: 0;        /* lets flex children shrink below content width */
+    }
+
+    .site-title {
+      font-family: var(--font-display);
+      font-size: 1.3rem;
+      font-weight: normal; /* DM Serif Display is already bold-looking */
+      white-space: nowrap;
+    }
+
+    /* Small orange "Part 1" badge */
+    .part-badge {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      background: var(--accent-orange);
+      color: #fff;
+      padding: 0.2rem 0.55rem;
+      border-radius: 0.3rem;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    /* Progress bar sits inside the header on wide screens */
+    .progress-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      flex: 1;
+      max-width: 280px;
+    }
+
+    .progress-track {
+      flex: 1;
+      height: 5px;
+      background: rgba(255,255,255,0.12);
+      border-radius: 3px;
+      overflow: hidden;
+    }
+
+    .progress-fill {
+      height: 100%;
+      background: var(--accent-orange);
+      border-radius: 3px;
+      width: 0%;
+      transition: width 0.5s ease;
+    }
+
+    .progress-label {
+      font-size: 0.72rem;
+      opacity: 0.6;
+      white-space: nowrap;
+    }
+
+    /* Dark/light mode toggle button */
+    .theme-btn {
+      background: transparent;
+      border: 1px solid rgba(255,255,255,0.18);
+      color: var(--text-header);
+      width: 2.1rem;
+      height: 2.1rem;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 0.95rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.2s, border-color 0.2s;
+      flex-shrink: 0;
+    }
+
+    .theme-btn:hover,
+    .theme-btn:focus-visible {
+      background: rgba(255,255,255,0.14);
+      border-color: rgba(255,255,255,0.35);
+      outline: none;
+    }
+
+    .theme-btn:focus-visible {
+      outline: 2px solid var(--accent-orange);
+      outline-offset: 2px;
+    }
+
+
+    /* ============================================================
+       5. MAIN LAYOUT — two-column split panes
+       ============================================================ */
+
+    .main-layout {
+      flex: 1;               /* takes up all remaining vertical space */
+      display: grid;
+      grid-template-columns: 1fr 1fr;  /* equal halves */
+      min-height: 0;         /* lets grid children scroll independently */
+    }
+
+    /* Both panes scroll on their own */
+    .pane {
+      padding: 2rem;
+      overflow-y: auto;
+    }
+
+    .instruction-pane {
+      background: var(--bg-pane);
+      border-right: 1px solid var(--border);
+    }
+
+    .interactive-pane {
+      background: var(--bg-page);
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+
+    /* ============================================================
+       6. LESSON CONTENT TYPOGRAPHY
+       (Everything rendered into .instruction-pane)
+       ============================================================ */
+
+    .lesson-meta {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      color: var(--accent-orange);
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+      margin-bottom: 0.5rem;
+    }
+
+    .lesson-title {
+      font-family: var(--font-display);
+      font-size: 2rem;
+      font-weight: normal;
+      line-height: 1.15;
+      margin-bottom: 1.5rem;
+      color: var(--text-primary);
+    }
+
+    /* Generic rich-text styles used inside lessons */
+    .lesson-body p {
+      line-height: 1.75;
+      margin-bottom: 0.9rem;
+      color: var(--text-primary);
+    }
+
+    .lesson-body h3 {
+      font-family: var(--font-display);
+      font-size: 1.15rem;
+      font-weight: normal;
+      margin: 1.5rem 0 0.4rem;
+      color: var(--text-primary);
+    }
+
+    .lesson-body ul,
+    .lesson-body ol {
+      padding-left: 1.4rem;
+      line-height: 2.2;
+      margin-bottom: 0.9rem;
+    }
+
+    /* Inline code (inside a sentence) */
+    .lesson-body code {
+      font-family: var(--font-mono);
+      font-size: 0.85em;
+      background: var(--bg-output);
+      color: var(--accent-orange);
+      padding: 0.15em 0.4em;
+      border-radius: 0.25rem;
+    }
+
+    /* Code blocks (multi-line examples) */
+    .lesson-body pre {
+      background: var(--bg-code);
+      color: var(--text-code);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+      line-height: 1.65;
+      padding: 1rem 1.2rem;
+      border-radius: var(--radius);
+      overflow-x: auto;
+      margin: 0.8rem 0;
+    }
+
+    /* Inside a pre, reset code to inherit (no coloured bg) */
+    .lesson-body pre code {
+      background: none;
+      color: inherit;
+      padding: 0;
+      font-size: inherit;
+    }
+
+    /* Orange left-border callout box */
+    .callout {
+      border-left: 3px solid var(--accent-orange);
+      background: rgba(224, 123, 57, 0.08);
+      padding: 0.8rem 1rem;
+      border-radius: 0 var(--radius) var(--radius) 0;
+      margin: 1rem 0;
+      font-size: 0.92rem;
+      line-height: 1.65;
+    }
+
+    /* Blue variant for warnings / important notes */
+    .callout.note {
+      border-color: var(--accent-blue);
+      background: rgba(53, 114, 165, 0.08);
+    }
+
+
+    /* ============================================================
+       7. INTERACTIVE PANE — editor, output, controls
+       ============================================================ */
+
+    /* Small uppercase label above each section */
+    .field-label {
+      font-family: var(--font-mono);
+      font-size: 0.68rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-secondary);
+      margin-bottom: 0.35rem;
+    }
+
+    /* The code editor textarea */
+    .code-editor {
+      width: 100%;
+      background: var(--bg-code);
+      color: var(--text-code);
+      font-family: var(--font-mono);
+      font-size: 0.875rem;
+      line-height: 1.65;
+      padding: 1rem;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      resize: vertical;       /* user can drag the bottom edge to resize */
+      min-height: 160px;
+      outline: none;
+      tab-size: 4;            /* real tabs display as 4 spaces wide */
+      caret-color: var(--accent-orange);  /* coloured cursor */
+      transition: border-color 0.2s;
+    }
+
+    .code-editor:focus {
+      border-color: var(--accent-orange);
+    }
+
+    /* Output area — like a terminal */
+    .output-area {
+      background: var(--bg-code);
+      color: #86EFAC;          /* soft green — terminal feel */
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+      line-height: 1.65;
+      padding: 0.9rem 1rem;
+      border-radius: var(--radius);
+      min-height: 72px;
+      white-space: pre-wrap;   /* respect newlines from print() */
+      border: 1px solid var(--border);
+    }
+
+    .output-area.empty {
+      color: var(--text-secondary);
+      font-style: italic;
+    }
+
+    /* Errors show in red */
+    .output-area.has-error {
+      color: #FCA5A5;
+    }
+
+    /* Feedback strip shown after clicking Check */
+    .feedback {
+      padding: 0.75rem 1rem;
+      border-radius: var(--radius);
+      font-size: 0.9rem;
+      line-height: 1.6;
+      display: none;           /* hidden by default */
+    }
+
+    .feedback.correct {
+      display: block;
+      background: rgba(42, 122, 74, 0.12);
+      border: 1px solid var(--accent-green);
+      color: var(--accent-green);
+    }
+
+    .feedback.incorrect {
+      display: block;
+      background: rgba(184, 50, 50, 0.09);
+      border: 1px solid var(--accent-red);
+      color: var(--accent-red);
+    }
+
+    /* Hint text below the buttons */
+    .hint-text {
+      font-size: 0.83rem;
+      color: var(--text-secondary);
+      line-height: 1.6;
+    }
+
+    .hint-text code {
+      font-family: var(--font-mono);
+      background: var(--bg-output);
+      padding: 0.1em 0.3em;
+      border-radius: 0.2rem;
+      font-size: 0.9em;
+    }
+
+
+    /* ============================================================
+       8. BUTTONS
+       ============================================================ */
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      padding: 0.55rem 1.1rem;
+      border: none;
+      border-radius: var(--radius);
+      font-family: var(--font-body);
+      font-size: 0.88rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: background 0.15s, opacity 0.15s, transform 0.1s;
+    }
+
+    .btn:active { transform: scale(0.97); }
+
+    .btn:focus-visible {
+      outline: 2px solid var(--accent-orange);
+      outline-offset: 2px;
+    }
+
+    /* Run button — Python blue */
+    .btn-run {
+      background: var(--accent-blue);
+      color: #fff;
+      font-family: var(--font-mono);
+    }
+    .btn-run:hover:not(:disabled) { filter: brightness(1.12); }
+    .btn-run:disabled { opacity: 0.4; cursor: not-allowed; }
+
+    /* Check button — orange */
+    .btn-check {
+      background: var(--accent-orange);
+      color: #fff;
+    }
+    .btn-check:hover:not(:disabled) { filter: brightness(1.1); }
+    .btn-check:disabled { opacity: 0.4; cursor: not-allowed; }
+
+    /* Next button — in footer */
+    .btn-next {
+      background: var(--accent-orange);
+      color: #fff;
+      padding: 0.6rem 1.5rem;
+    }
+    .btn-next:hover:not(:disabled) { filter: brightness(1.1); }
+    .btn-next:disabled { opacity: 0.35; cursor: not-allowed; }
+
+    /* Reset / secondary button */
+    .btn-secondary {
+      background: var(--bg-output);
+      color: var(--text-primary);
+      border: 1px solid var(--border);
+    }
+    .btn-secondary:hover { background: var(--border); }
+
+
+    /* ============================================================
+       9. FOOTER
+       ============================================================ */
+
+    .site-footer {
+      background: var(--bg-pane);
+      border-top: 1px solid var(--border);
+      padding: 0.85rem 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      flex-shrink: 0;
+    }
+
+
+    /* ============================================================
+       10. COMPLETION SCREEN
+       ============================================================ */
+
+    .complete-screen {
+      text-align: center;
+      padding: 1.5rem 0;
+    }
+
+    .complete-emoji {
+      font-size: 4rem;
+      display: block;
+      margin-bottom: 1rem;
+    }
+
+    .complete-title {
+      font-family: var(--font-display);
+      font-size: 2.2rem;
+      color: var(--accent-orange);
+      margin-bottom: 1rem;
+    }
+
+    .complete-body {
+      font-size: 1rem;
+      line-height: 1.8;
+      color: var(--text-primary);
+      max-width: 440px;
+      margin: 0 auto 1.5rem;
+    }
+
+    .complete-date {
+      font-family: var(--font-mono);
+      font-size: 0.8rem;
+      color: var(--text-secondary);
+      margin-top: 2rem;
+    }
+
+    .next-steps-list {
+      list-style: none;
+      padding: 0;
+      text-align: left;
+      line-height: 2.4;
+      font-size: 0.95rem;
+    }
+
+    .next-steps-list li::before {
+      content: "→ ";
+      color: var(--accent-orange);
+      font-weight: bold;
+    }
+
+
+    /* ============================================================
+       11. UTILITIES
+       ============================================================ */
+
+    .hidden { display: none !important; }
+
+    /* "sr-only" content is invisible but readable by screen readers */
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      clip: rect(0,0,0,0);
+      white-space: nowrap;
+    }
+
+
+    /* ============================================================
+       12. DEBUG PANEL
+       ------------------------------------------------------------
+       Only visible when ?debug=true is in the URL.
+       Fixed to the bottom-right corner so it never overlaps content.
+       ============================================================ */
+
+    #debug-panel {
+      position: fixed;
+      bottom: 1rem;
+      right: 1rem;
+      background: var(--bg-pane);
+      border: 1px solid var(--accent-orange);
+      border-radius: var(--radius);
+      padding: 0.75rem;
+      box-shadow: var(--shadow);
+      z-index: 200;
+      max-width: 220px;
+    }
+
+    .debug-heading {
+      font-family: var(--font-mono);
+      font-size: 0.68rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--accent-orange);
+      margin-bottom: 0.5rem;
+    }
+
+    /* Grid of small numbered buttons — one per lesson */
+    .debug-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 0.3rem;
+    }
+
+    .debug-grid button {
+      background: var(--bg-output);
+      border: 1px solid var(--border);
+      color: var(--text-primary);
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      padding: 0.3rem 0;
+      border-radius: 0.25rem;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+
+    .debug-grid button:hover {
+      background: var(--accent-orange);
+      color: #fff;
+      border-color: var(--accent-orange);
+    }
+
+    /* Highlight the currently active lesson button */
+    .debug-grid button.active {
+      background: var(--accent-orange);
+      color: #fff;
+      border-color: var(--accent-orange);
+    }
+
+
+    /* ============================================================
+       14. RESPONSIVE — stack panes on small screens
+       ============================================================ */
+
+    @media (max-width: 800px) {
+      .main-layout {
+        grid-template-columns: 1fr;   /* single column */
+      }
+
+      .instruction-pane {
+        border-right: none;
+        border-bottom: 1px solid var(--border);
+      }
+
+      /* Hide progress bar in header on small screens */
+      .progress-wrapper { display: none; }
+
+      .site-title { font-size: 1.1rem; }
+      .pane { padding: 1.5rem; }
+    }
+
+
+    /* ============================================================
+       15. REDUCED MOTION — respect user preference
+       ============================================================ */
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!--
+    ================================================================
+    LOADING SCREEN
+    ================================================================
+    Shown while Pyodide (the Python WebAssembly runtime) downloads.
+    The JS will hide this once Python is ready.
+    ================================================================
+  -->
+  <div id="loading-screen" aria-live="polite" aria-label="Loading Python environment">
+    <span class="loading-snake" role="img" aria-label="snake emoji">🐍</span>
+    <p class="loading-title">Python Fundamentals</p>
+    <div class="loading-bar-track" role="progressbar" aria-label="Loading progress">
+      <div class="loading-bar-fill"></div>
+    </div>
+    <p class="loading-msg" id="loading-msg">Loading Python…</p>
+  </div>
+
+
+  <!--
+    ================================================================
+    HEADER
+    ================================================================
+  -->
+  <header class="site-header">
+    <div class="header-left">
+      <h1 class="site-title">Python Fundamentals</h1>
+      <span class="part-badge">Part 1</span>
+      <div class="progress-wrapper" aria-label="Course progress">
+        <div class="progress-track">
+          <div class="progress-fill" id="progress-fill"></div>
+        </div>
+        <span class="progress-label" id="progress-label" aria-live="polite">0 / 10</span>
+      </div>
+    </div>
+    <button class="theme-btn" id="theme-btn" aria-label="Toggle dark mode">🌙</button>
+  </header>
+
+
+  <!--
+    ================================================================
+    MAIN — two-column layout
+    ================================================================
+    The instruction pane (left) holds lesson explanations.
+    The interactive pane (right) holds the code editor and output.
+    Both are filled by JavaScript.
+    ================================================================
+  -->
+  <main class="main-layout" id="main-layout">
+    <section class="pane instruction-pane" id="instruction-pane"
+             aria-label="Lesson explanation">
+      <!-- Filled by renderLesson() -->
+    </section>
+
+    <section class="pane interactive-pane" id="interactive-pane"
+             aria-label="Code editor and output">
+      <!-- Filled by renderLesson() -->
+    </section>
+  </main>
+
+
+  <!--
+    ================================================================
+    FOOTER — navigation controls
+    ================================================================
+  -->
+  <footer class="site-footer">
+    <button class="btn btn-secondary hidden" id="btn-reset"
+            aria-label="Reset code to starter template">↺ Reset</button>
+    <button class="btn btn-next" id="btn-next" disabled
+            aria-label="Go to next lesson">Next Lesson →</button>
+  </footer>
+
+
+  <!--
+    ================================================================
+    DEBUG PANEL
+    ----------------------------------------------------------------
+    Only rendered / made visible when the URL contains ?debug=true
+    Lets developers jump straight to any lesson without clicking
+    through them one by one. Very handy when editing lesson content.
+
+    Usage:  open the file with  ?debug=true  in the URL, e.g.
+            file:///path/to/python-fundamentals.html?debug=true
+
+    You can also jump to a specific lesson directly:
+            ?debug=true&lesson=5   (goes straight to lesson 5)
+    ================================================================
+  -->
+  <aside id="debug-panel" class="hidden" aria-label="Debug: jump to lesson">
+    <p class="debug-heading">🛠 Debug — jump to lesson</p>
+    <div class="debug-grid" id="debug-grid">
+      <!-- Buttons are built by JS so they can use LESSONS.length -->
+    </div>
+  </aside>
+
+
+  <!--
+    ----------------------------------------------------------------
+    Pyodide is Python compiled to WebAssembly. It lets us run
+    actual Python code inside the browser, with no server needed.
+    The script tag makes loadPyodide() available globally.
+    ================================================================
+  -->
+  <script src="https://cdn.jsdelivr.net/pyodide/v0.25.0/full/pyodide.js"></script>
+
+
+  <script>
+    /*
+      ================================================================
+      APPLICATION — Python Fundamentals
+      ================================================================
+      Everything is in this one script block, in this order:
+
+        A. LESSONS ARRAY     — the content and validation for each lesson
+        B. APP STATE         — a single object tracking what's happening now
+        C. PYTHON RUNNER     — loads Pyodide, runs code, captures output
+        D. RENDERER          — turns lesson data into HTML on the page
+        E. VALIDATORS        — run/check buttons, show feedback
+        F. NAVIGATION        — next lesson, progress bar
+        G. THEME             — light/dark mode
+        H. UTILITIES         — escapeHtml(), Tab-key handler
+        I. STARTUP           — wire everything together and begin
+      ================================================================
+    */
+
+    'use strict'; // Catches common mistakes like misspelled variable names
+
+
+    /* ================================================================
+       A. LESSONS ARRAY
+       ----------------------------------------------------------------
+       Each lesson object has:
+         title       — shown as the heading
+         description — HTML for the left (instruction) pane
+         starterCode — pre-fills the editor
+         validate    — function(output, code) → { correct, message }
+                       'output' = what print() produced (a string)
+                       'code'   = the raw code the student typed
+         hint        — small nudge shown below the editor buttons
+       ================================================================ */
+
+    const LESSONS = [
+
+      /* ── Lesson 1: Hello, World! ──────────────────────────────── */
+      {
+        title: 'Hello, World!',
+
+        description: `
+          <p class="lesson-meta">Lesson 1 of 10</p>
+          <h2 class="lesson-title">Hello, World!</h2>
+          <div class="lesson-body">
+            <p>Welcome to Python! Every programmer starts here.
+            The very first thing you'll learn is how to make the computer
+            display a message — a tradition going back to the 1970s.</p>
+
+            <p>In Python, you use the <code>print()</code> <strong>function</strong>
+            to show text on screen. A function is a named command you can call
+            whenever you need it.</p>
+
+            <h3>Example</h3>
+            <pre><code>print("Hello, World!")</code></pre>
+
+            <p>The text inside the quotes is called a <strong>string</strong>.
+            Strings can use either double quotes <code>"…"</code> or
+            single quotes <code>'…'</code> — both work.</p>
+
+            <div class="callout">
+              💡 <strong>Your challenge:</strong> In the editor, type the
+              <code>print()</code> line shown above. Click <strong>▶ Run</strong>
+              to see the output, then click <strong>✓ Check</strong> to move on.
+            </div>
+
+            <div class="callout note">
+              ℹ️ Lines starting with <code>#</code> are <strong>comments</strong> — Python
+              ignores them completely. They're notes for the human reading the code.
+            </div>
+          </div>
+        `,
+
+        starterCode:
+`# Your code goes here.
+# Lines starting with # are comments — Python ignores them.
+
+`,
+
+        validate(output, code) {
+          if (output.trim() === 'Hello, World!') {
+            return { correct: true,  message: '✓ Perfect! You just wrote your very first Python program.' };
+          }
+          if (output.includes('Hello') && !output.includes('Hello, World!')) {
+            return { correct: false, message: 'Almost! The text must be exactly: Hello, World! (capital H, capital W, comma, exclamation mark).' };
+          }
+          if (code.includes('print') && output.trim() === '') {
+            return { correct: false, message: 'You called print() but nothing appeared — check your quotes and parentheses.' };
+          }
+          return { correct: false, message: 'Try: print("Hello, World!") — with the quotes.' };
+        },
+
+        hint: 'Type <code>print("Hello, World!")</code> — copy it exactly, then click Run.'
+      },
+
+
+      /* ── Lesson 2: Variables ──────────────────────────────────── */
+      {
+        title: 'Variables',
+
+        description: `
+          <p class="lesson-meta">Lesson 2 of 10</p>
+          <h2 class="lesson-title">Variables</h2>
+          <div class="lesson-body">
+            <p>A <strong>variable</strong> is like a labelled box for storing a value.
+            You choose a name, and Python remembers the value for you.</p>
+
+            <h3>Assigning a variable</h3>
+            <p>Use a single <code>=</code> sign (the <em>assignment operator</em>):</p>
+            <pre><code>name = "Alice"
+age  = 25
+print(name)   # Alice
+print(age)    # 25</code></pre>
+
+            <p>Variable names can contain letters, numbers, and underscores,
+            but must <em>start</em> with a letter or underscore.
+            They are case-sensitive: <code>Name</code> and <code>name</code>
+            are two different variables.</p>
+
+            <h3>Printing multiple values</h3>
+            <p>Separate items with commas inside <code>print()</code> and
+            Python adds a space between them automatically:</p>
+            <pre><code>print(name, "is", age, "years old")
+# Alice is 25 years old</code></pre>
+
+            <div class="callout">
+              💡 <strong>Challenge:</strong> Create a variable called
+              <code>name</code> with your name (as a string, in quotes),
+              and a variable called <code>age</code> with your age
+              (as a number, no quotes). Then <code>print()</code> both
+              on the same line.
+            </div>
+          </div>
+        `,
+
+        starterCode:
+`# Store your name and age in variables
+name = "Your Name"
+age  = 0
+
+# Print them both on one line
+print(name, age)
+`,
+
+        validate(output, code) {
+          // Look for: name = "something"  (quotes = it's a string)
+          const nameMatch = code.match(/name\s*=\s*["']([^"']+)["']/);
+          // Look for: age  = digits
+          const hasAgeNum = /age\s*=\s*\d+/.test(code);
+          const out       = output.trim();
+
+          if (!nameMatch) {
+            return { correct: false, message: 'Set name to a string: name = "Alice" (with quotes around the text).' };
+          }
+          if (!hasAgeNum) {
+            return { correct: false, message: 'Set age to a number: age = 25 (no quotes — numbers don\'t need them).' };
+          }
+          if (nameMatch[1] === 'Your Name') {
+            return { correct: false, message: 'Change "Your Name" to your actual name first!' };
+          }
+          if (out === '') {
+            return { correct: false, message: 'Nothing printed — add print(name, age) at the bottom.' };
+          }
+          if (out.includes(nameMatch[1])) {
+            return { correct: true, message: '✓ Great work! You created variables and printed them together.' };
+          }
+          return { correct: false, message: 'Your name should appear in the output — make sure print() includes the name variable.' };
+        },
+
+        hint: 'Change <code>"Your Name"</code> to your real name, set <code>age</code> to a real number, then run.'
+      },
+
+
+      /* ── Lesson 3: Strings & f-strings ───────────────────────── */
+      {
+        title: 'Strings & f-strings',
+
+        description: `
+          <p class="lesson-meta">Lesson 3 of 10</p>
+          <h2 class="lesson-title">Strings &amp; f-strings</h2>
+          <div class="lesson-body">
+            <p>A <strong>string</strong> is any sequence of text characters.
+            Python has several handy ways to work with strings.</p>
+
+            <h3>f-strings — the easy way to mix text and variables</h3>
+            <p>Put an <code>f</code> directly before the opening quote.
+            Then use curly braces <code>{}</code> to embed any variable or
+            expression right inside the text:</p>
+            <pre><code>name = "Alice"
+age  = 25
+print(f"My name is {name} and I am {age} years old.")
+# My name is Alice and I am 25 years old.</code></pre>
+
+            <h3>Useful string methods</h3>
+            <pre><code>word = "hello"
+print(len(word))          # 5  ← number of characters
+print(word.upper())       # HELLO
+print(word.capitalize())  # Hello
+print(word[0])            # h  ← first character (index 0)</code></pre>
+
+            <div class="callout note">
+              ℹ️ In Python, positions start counting at <strong>0</strong>,
+              not 1. So the first letter is at index <code>[0]</code>,
+              the second at <code>[1]</code>, and so on.
+            </div>
+
+            <div class="callout">
+              💡 <strong>Challenge:</strong> Store your name in a variable.
+              Use an f-string to print the sentence:
+              <code>My name is [name]!</code>
+            </div>
+          </div>
+        `,
+
+        starterCode:
+`name = "Your Name"
+
+# Use an f-string to print: My name is [name]!
+print(f"My name is {name}!")
+`,
+
+        validate(output, code) {
+          const hasFString = code.includes('f"') || code.includes("f'");
+          const nameMatch  = code.match(/name\s*=\s*["']([^"']+)["']/);
+          const out        = output.trim();
+
+          if (!hasFString) {
+            return { correct: false, message: 'Use an f-string! Put an f before the opening quote: print(f"My name is {name}!")' };
+          }
+          if (!nameMatch || nameMatch[1] === 'Your Name') {
+            return { correct: false, message: 'Change "Your Name" to your actual name first.' };
+          }
+          if (out === '') {
+            return { correct: false, message: 'Nothing printed — check your print() call.' };
+          }
+          if (out.toLowerCase().startsWith('my name is') && out.includes(nameMatch[1])) {
+            return { correct: true, message: '✓ Excellent! f-strings make it effortless to build sentences from variables.' };
+          }
+          return { correct: false, message: 'The output should start with "My name is " and include your actual name.' };
+        },
+
+        hint: '<code>print(f"My name is {name}!")</code> — the <code>f</code> before the quote is the key part.'
+      },
+
+
+      /* ── Lesson 4: Numbers & Math ──────────────────────────────── */
+      {
+        title: 'Numbers & Math',
+
+        description: `
+          <p class="lesson-meta">Lesson 4 of 10</p>
+          <h2 class="lesson-title">Numbers &amp; Math</h2>
+          <div class="lesson-body">
+            <p>Python handles two main types of numbers:
+            <strong>integers</strong> (whole numbers: 3, -7, 1000) and
+            <strong>floats</strong> (decimals: 3.14, -0.5).</p>
+
+            <h3>Arithmetic operators</h3>
+            <pre><code>print(10 + 3)   #  13   addition
+print(10 - 3)   #   7   subtraction
+print(10 * 3)   #  30   multiplication
+print(10 / 3)   #   3.333…  division (always a float)
+print(10 // 3)  #   3   floor division (drops the remainder)
+print(10 % 3)   #   1   modulo (the remainder only)
+print(2 ** 8)   # 256   exponentiation (2 to the power 8)</code></pre>
+
+            <h3>Order of operations</h3>
+            <p>Python follows the same rules as maths: parentheses first,
+            then exponents, then ×÷, then ±.</p>
+            <pre><code>result = (4 + 6) * 2   # 20, not 16
+print(result)</code></pre>
+
+            <div class="callout">
+              💡 <strong>Challenge:</strong> There are 24 hours in a day
+              and 60 minutes in an hour. Calculate how many minutes are
+              in a week and print the result.
+            </div>
+          </div>
+        `,
+
+        starterCode:
+`# 7 days × 24 hours × 60 minutes = ?
+minutes_in_a_week = 7 * 24 * 60
+print(minutes_in_a_week)
+`,
+
+        validate(output, code) {
+          const ANSWER   = 7 * 24 * 60; // 10080
+          const outputNum = parseInt(output.trim(), 10);
+
+          if (outputNum === ANSWER) {
+            return { correct: true,  message: `✓ Correct! There are ${ANSWER.toLocaleString()} minutes in a week. Python is a fantastic calculator.` };
+          }
+          if (output.trim() === '') {
+            return { correct: false, message: 'Assign the calculation to a variable and print() it.' };
+          }
+          return { correct: false, message: `Not quite — the answer is ${ANSWER}. Try: 7 * 24 * 60` };
+        },
+
+        hint: 'The starter code already has the answer — just click Run then Check!'
+      },
+
+
+      /* ── Lesson 5: Lists ──────────────────────────────────────── */
+      {
+        title: 'Lists',
+
+        description: `
+          <p class="lesson-meta">Lesson 5 of 10</p>
+          <h2 class="lesson-title">Lists</h2>
+          <div class="lesson-body">
+            <p>A <strong>list</strong> groups multiple items inside one variable.
+            Items go between square brackets <code>[]</code>, separated by commas.</p>
+
+            <h3>Creating and reading a list</h3>
+            <pre><code>fruits = ["apple", "banana", "cherry"]
+
+print(fruits)        # ['apple', 'banana', 'cherry']
+print(fruits[0])     # apple   ← first item (index 0)
+print(fruits[-1])    # cherry  ← last item (negative index)
+print(len(fruits))   # 3       ← number of items</code></pre>
+
+            <h3>Changing a list</h3>
+            <pre><code>fruits.append("mango")   # add to the end
+fruits[0] = "kiwi"       # replace an item
+fruits.remove("banana")  # remove by value</code></pre>
+
+            <div class="callout">
+              💡 <strong>Challenge:</strong> Create a list called
+              <code>hobbies</code> with at least <strong>3</strong> of your
+              hobbies. Then print how many items are in the list using
+              <code>len()</code>.
+            </div>
+          </div>
+        `,
+
+        starterCode:
+`# Create a list with at least 3 hobbies
+hobbies = ["reading", "cooking", "hiking"]
+
+# Print how many hobbies are in the list
+print(len(hobbies))
+`,
+
+        validate(output, code) {
+          const listMatch = code.match(/hobbies\s*=\s*\[([^\]]*)\]/);
+          if (!listMatch) {
+            return { correct: false, message: 'Create the list: hobbies = ["reading", "cooking", "hiking"]' };
+          }
+
+          // Count the comma-separated items
+          const rawItems = listMatch[1].split(',').map(s => s.trim()).filter(s => s.length > 0);
+          if (rawItems.length < 3) {
+            return { correct: false, message: 'Add at least 3 hobbies to your list.' };
+          }
+
+          const outputNum = parseInt(output.trim(), 10);
+          if (outputNum >= 3) {
+            return { correct: true,  message: `✓ Your list has ${outputNum} hobbies. Lists are one of Python's most used data structures.` };
+          }
+          if (output.trim() === '') {
+            return { correct: false, message: 'Call print(len(hobbies)) to display the count.' };
+          }
+          return { correct: false, message: 'Use print(len(hobbies)) — it should print a number ≥ 3.' };
+        },
+
+        hint: 'The starter code is correct — just swap in your own hobbies and run.'
+      },
+
+
+      /* ── Lesson 6: if / elif / else ───────────────────────────── */
+      {
+        title: 'if / elif / else',
+
+        description: `
+          <p class="lesson-meta">Lesson 6 of 10</p>
+          <h2 class="lesson-title">if / elif / else</h2>
+          <div class="lesson-body">
+            <p><strong>Conditionals</strong> let your program make decisions.
+            Python uses <code>if</code>, <code>elif</code> (short for
+            "else if"), and <code>else</code>.</p>
+
+            <h3>Basic shape</h3>
+            <pre><code>temperature = 25
+
+if temperature > 30:
+    print("Hot!")
+elif temperature > 15:
+    print("Warm.")
+else:
+    print("Cool.")</code></pre>
+
+            <div class="callout note">
+              ⚠️ <strong>Indentation is not optional!</strong> Python uses
+              the spaces at the start of a line to know which code belongs
+              inside an <code>if</code> block. The standard is
+              <strong>4 spaces</strong>. The editor's Tab key inserts 4
+              spaces for you.
+            </div>
+
+            <h3>Comparison operators</h3>
+            <pre><code>==   equal to          !=  not equal to
+>    greater than       <   less than
+>=   greater or equal   <=  less or equal</code></pre>
+
+            <div class="callout">
+              💡 <strong>Challenge:</strong> Set a variable <code>score</code>
+              to any number. Write an <code>if / else</code> that prints
+              <code>Pass</code> if the score is 60 or above,
+              or <code>Fail</code> if it is below 60.
+            </div>
+          </div>
+        `,
+
+        starterCode:
+`score = 75
+
+if score >= 60:
+    print("Pass")
+else:
+    print("Fail")
+`,
+
+        validate(output, code) {
+          const hasIf   = code.includes('if');
+          const hasElse = code.includes('else');
+          const out     = output.trim();
+
+          if (!hasIf)   return { correct: false, message: 'You need an if statement: if score >= 60:' };
+          if (!hasElse) return { correct: false, message: 'Add an else block for the failing case.' };
+
+          if (out === 'Pass' || out === 'Fail') {
+            return { correct: true, message: `✓ Your conditional works — it printed "${out}". Try changing score and running again!` };
+          }
+          if (out === '') {
+            return { correct: false, message: 'Add print("Pass") inside the if block and print("Fail") inside else.' };
+          }
+          return { correct: false, message: 'Output should be exactly "Pass" or "Fail" — check capitalisation.' };
+        },
+
+        hint: 'The starter code is already correct! Try changing <code>score</code> to 50 and see what happens.'
+      },
+
+
+      /* ── Lesson 7: for Loops ──────────────────────────────────── */
+      {
+        title: 'for Loops',
+
+        description: `
+          <p class="lesson-meta">Lesson 7 of 10</p>
+          <h2 class="lesson-title">for Loops</h2>
+          <div class="lesson-body">
+            <p>A <strong>for loop</strong> repeats a block of code for each
+            item in a sequence. It's one of the most powerful ideas in
+            programming — one line of code can repeat thousands of times.</p>
+
+            <h3>Looping over a list</h3>
+            <pre><code>fruits = ["apple", "banana", "cherry"]
+
+for fruit in fruits:
+    print(fruit)
+# apple
+# banana
+# cherry</code></pre>
+
+            <h3>Counting with range()</h3>
+            <p><code>range(n)</code> produces numbers from <code>0</code>
+            up to (but not including) <code>n</code>:</p>
+            <pre><code>for i in range(5):
+    print(i)   # 0 1 2 3 4</code></pre>
+
+            <p>Give it a start and stop to control the range:</p>
+            <pre><code>for i in range(1, 6):
+    print(i)   # 1 2 3 4 5</code></pre>
+
+            <div class="callout">
+              💡 <strong>Challenge:</strong> Use a <code>for</code> loop
+              and <code>range()</code> to print the numbers
+              <strong>1 through 5</strong>, each on its own line.
+            </div>
+          </div>
+        `,
+
+        starterCode:
+`# Print 1, 2, 3, 4, 5 using a for loop
+for i in range(1, 6):
+    print(i)
+`,
+
+        validate(output, code) {
+          const lines = output.trim().split('\n').map(l => l.trim()).filter(Boolean);
+          const hasFor = code.includes('for');
+
+          if (!hasFor) {
+            return { correct: false, message: 'Use a for loop: for i in range(...)' };
+          }
+          if (lines.length === 5 && lines.every((l, idx) => parseInt(l) === idx + 1)) {
+            return { correct: true, message: '✓ Excellent! Your loop printed 1 through 5. Loops make repetitive tasks trivial.' };
+          }
+          if (lines.length === 5 && lines[0] === '0') {
+            return { correct: false, message: 'Close — but you printed 0–4. Use range(1, 6) to start at 1.' };
+          }
+          if (output.trim() === '') {
+            return { correct: false, message: 'Add print(i) inside your loop (4 spaces indent).' };
+          }
+          return { correct: false, message: 'Output should be 1, 2, 3, 4, 5 — one number per line. Use range(1, 6).' };
+        },
+
+        hint: 'The starter code is already correct — click Run then Check!'
+      },
+
+
+      /* ── Lesson 8: Functions ──────────────────────────────────── */
+      {
+        title: 'Functions',
+
+        description: `
+          <p class="lesson-meta">Lesson 8 of 10</p>
+          <h2 class="lesson-title">Functions</h2>
+          <div class="lesson-body">
+            <p>A <strong>function</strong> is a named, reusable block of code.
+            You define it once, then call it as many times as you like —
+            with different inputs each time.</p>
+
+            <h3>Defining a function</h3>
+            <pre><code>def greet(name):
+    message = f"Hello, {name}!"
+    return message
+
+print(greet("Alice"))   # Hello, Alice!
+print(greet("Bob"))     # Hello, Bob!</code></pre>
+
+            <ul>
+              <li><code>def</code> starts the definition</li>
+              <li><code>greet</code> is the function's name</li>
+              <li><code>name</code> is a <strong>parameter</strong> — a variable the caller fills in</li>
+              <li><code>return</code> sends a value back to the caller</li>
+            </ul>
+
+            <h3>Functions without return</h3>
+            <p>Some functions just do something, without returning a value:</p>
+            <pre><code>def shout(text):
+    print(text.upper() + "!!!")
+
+shout("hello")   # HELLO!!!</code></pre>
+
+            <div class="callout">
+              💡 <strong>Challenge:</strong> Write a function called
+              <code>double</code> that takes one number as a parameter and
+              returns that number multiplied by 2. Call it with 7 and print
+              the result.
+            </div>
+          </div>
+        `,
+
+        starterCode:
+`# Define a function that doubles a number
+def double(number):
+    return number * 2
+
+# Call it with 7 and print the result
+print(double(7))
+`,
+
+        validate(output, code) {
+          const hasDef    = /def\s+double\s*\(/.test(code);
+          const hasReturn = code.includes('return');
+          const outputNum = parseInt(output.trim(), 10);
+
+          if (!hasDef)    return { correct: false, message: 'Define the function: def double(number):' };
+          if (!hasReturn) return { correct: false, message: 'Your function needs: return number * 2' };
+
+          if (outputNum === 14) {
+            return { correct: true, message: '✓ Perfect! double(7) = 14. Functions let you write logic once and reuse it everywhere.' };
+          }
+          if (output.trim() === '') {
+            return { correct: false, message: 'Call print(double(7)) to see the result.' };
+          }
+          return { correct: false, message: `Expected 14 (7 × 2), got "${output.trim()}". Make sure you return number * 2.` };
+        },
+
+        hint: 'The starter code is correct — run it and check!'
+      },
+
+
+      /* ── Lesson 9: Dictionaries ───────────────────────────────── */
+      {
+        title: 'Dictionaries',
+
+        description: `
+          <p class="lesson-meta">Lesson 9 of 10</p>
+          <h2 class="lesson-title">Dictionaries</h2>
+          <div class="lesson-body">
+            <p>A <strong>dictionary</strong> stores data as
+            <em>key → value</em> pairs — like a real dictionary where
+            each word (key) has a definition (value).</p>
+
+            <h3>Creating and reading a dictionary</h3>
+            <pre><code>person = {
+    "name": "Alice",
+    "age":  25,
+    "city": "Paris"
+}
+
+print(person["name"])    # Alice
+print(person["age"])     # 25</code></pre>
+
+            <h3>Modifying a dictionary</h3>
+            <pre><code>person["age"] = 26           # update a value
+person["job"] = "Engineer"   # add a new key
+del person["city"]            # remove a key</code></pre>
+
+            <h3>Looping over a dictionary</h3>
+            <pre><code>for key, value in person.items():
+    print(f"{key}: {value}")</code></pre>
+
+            <div class="callout">
+              💡 <strong>Challenge:</strong> Create a dictionary called
+              <code>book</code> with keys <code>"title"</code>,
+              <code>"author"</code>, and <code>"year"</code>. Fill in
+              any book you like. Then print the value of
+              <code>"title"</code>.
+            </div>
+          </div>
+        `,
+
+        starterCode:
+`book = {
+    "title":  "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "year":   1937
+}
+
+print(book["title"])
+`,
+
+        validate(output, code) {
+          const hasDict   = /book\s*=\s*\{/.test(code);
+          const hasTitle  = /"title"|'title'/.test(code);
+          const hasAuthor = /"author"|'author'/.test(code);
+          const hasYear   = /"year"|'year'/.test(code);
+          const out       = output.trim();
+
+          if (!hasDict)   return { correct: false, message: 'Create the dictionary: book = { "title": "...", ... }' };
+          if (!hasTitle)  return { correct: false, message: 'Add a "title" key to your dictionary.' };
+          if (!hasAuthor) return { correct: false, message: 'Add an "author" key to your dictionary.' };
+          if (!hasYear)   return { correct: false, message: 'Add a "year" key to your dictionary.' };
+
+          if (out === '') return { correct: false, message: 'Call print(book["title"]) to display the title.' };
+          if (!isNaN(out))return { correct: false, message: 'You\'re printing a number — use book["title"] to get the title string.' };
+
+          return { correct: true, message: `✓ Great work! "${out}" — dictionaries are perfect for grouping related data.` };
+        },
+
+        hint: 'Fill in a real book title, then <code>print(book["title"])</code>.'
+      },
+
+
+      /* ── Lesson 10: Putting It All Together ───────────────────── */
+      {
+        title: 'Putting It All Together',
+
+        description: `
+          <p class="lesson-meta">Lesson 10 of 10</p>
+          <h2 class="lesson-title">Putting It All Together</h2>
+          <div class="lesson-body">
+            <p>You've learned the core building blocks of Python:</p>
+            <ul>
+              <li>✅ <code>print()</code> — display output</li>
+              <li>✅ Variables — store values</li>
+              <li>✅ Strings &amp; f-strings — work with text</li>
+              <li>✅ Numbers &amp; arithmetic</li>
+              <li>✅ Lists — ordered collections</li>
+              <li>✅ <code>if / elif / else</code> — decisions</li>
+              <li>✅ <code>for</code> loops — repetition</li>
+              <li>✅ Functions — reusable blocks of logic</li>
+              <li>✅ Dictionaries — key-value pairs</li>
+            </ul>
+            <p>Now let's combine them in one mini program.</p>
+            <div class="callout">
+              💡 <strong>Final challenge:</strong> Write a function called
+              <code>summarise</code> that takes a list of numbers and prints:
+              <ul>
+                <li>The count of numbers</li>
+                <li>Their total</li>
+                <li>Whether the total is <code>Above 100</code> or <code>Below 100</code></li>
+              </ul>
+              Then call it with <code>[10, 20, 30, 25]</code>.
+            </div>
+          </div>
+        `,
+
+        starterCode:
+`def summarise(numbers):
+    count = len(numbers)
+    total = sum(numbers)
+    print(f"Count: {count}")
+    print(f"Total: {total}")
+    if total > 100:
+        print("Above 100")
+    else:
+        print("Below 100")
+
+summarise([10, 20, 30, 25])
+`,
+
+        validate(output, code) {
+          const hasDef = /def\s+summarise\s*\(/.test(code);
+
+          if (!hasDef) {
+            return { correct: false, message: 'Define the function: def summarise(numbers):' };
+          }
+
+          const lines        = output.trim().split('\n').map(l => l.trim());
+          const hasCount     = lines.some(l => l.toLowerCase().startsWith('count'));
+          const hasTotal     = lines.some(l => l.toLowerCase().startsWith('total'));
+          const hasAboveBelow= lines.some(l => l.includes('Above') || l.includes('Below'));
+
+          if (hasCount && hasTotal && hasAboveBelow) {
+            return { correct: true, message: '🎉 You did it! Python Fundamentals complete. You can write real programs now!' };
+          }
+
+          if (!hasCount)      return { correct: false, message: 'Print the count — e.g. print(f"Count: {count}")' };
+          if (!hasTotal)      return { correct: false, message: 'Print the total — e.g. print(f"Total: {total}")' };
+          if (!hasAboveBelow) return { correct: false, message: 'Use if/else to print "Above 100" or "Below 100".' };
+
+          return { correct: false, message: 'Check that you print count, total, and the above/below comparison.' };
+        },
+
+        hint: 'The starter code is complete — run it and check to finish the course!'
+      }
+
+    ]; // end LESSONS array
+
+
+    /* ================================================================
+       B. APP STATE
+       ----------------------------------------------------------------
+       A single plain object holds everything that changes over time.
+       This makes the app much easier to reason about — state is always
+       in one place, not scattered across many variables.
+       ================================================================ */
+
+    const app = {
+      currentIndex: 0,           // Which lesson we're on (0-based)
+      pyodide:      null,        // Python runtime (set after loading)
+      passed:       [],          // Boolean per lesson: has the user passed it?
+    };
+
+
+    /* ================================================================
+       C. PYTHON RUNNER
+       ----------------------------------------------------------------
+       We use Pyodide — Python compiled to WebAssembly — so the code
+       really executes. loadPython() downloads and initialises Pyodide
+       once at startup. runPython() executes a code string and captures
+       any print() output.
+       ================================================================ */
+
+    /**
+     * Download and initialise Pyodide.
+     * Hides the loading screen when done, then calls initApp().
+     */
+    async function loadPython() {
+      const loadingMsg = document.getElementById('loading-msg');
+
+      try {
+        loadingMsg.textContent = 'Starting Python runtime…';
+
+        /*
+          loadPyodide() is a global function injected by the Pyodide
+          <script> tag. We tell it where to fetch its WebAssembly files.
+        */
+        app.pyodide = await loadPyodide({
+          indexURL: 'https://cdn.jsdelivr.net/pyodide/v0.25.0/full/'
+        });
+
+        loadingMsg.textContent = 'Python ready!';
+
+        // Fade out the loading screen, then remove it from view
+        const screen = document.getElementById('loading-screen');
+        screen.classList.add('fade-out');
+
+        // Wait for the CSS transition to finish before hiding
+        setTimeout(() => {
+          screen.classList.add('hidden');
+          initApp();
+        }, 450);
+
+      } catch (err) {
+        loadingMsg.textContent = '❌ Could not load Python. Please refresh.';
+        console.error('Pyodide load error:', err);
+      }
+    }
+
+
+    /**
+     * Execute a string of Python code and return what was printed.
+     *
+     * @param {string} code   The Python source code to run
+     * @returns {{ output: string, hasError: boolean }}
+     */
+    async function runPython(code) {
+      let captured = '';     // We'll collect all print() output here
+      let hasError  = false;
+
+      /*
+        Redirect Python's stdout (normal print output) and stderr
+        (error messages) so they go into our 'captured' variable
+        instead of the browser console.
+      */
+      app.pyodide.setStdout({ batched: text => { captured += text + '\n'; } });
+      app.pyodide.setStderr({ batched: text => { captured += text + '\n'; hasError = true; } });
+
+      try {
+        // runPythonAsync handles async Pyodide operations correctly
+        await app.pyodide.runPythonAsync(code);
+      } catch (err) {
+        // Python syntax errors and runtime errors land here
+        captured = err.message;
+        hasError = true;
+      }
+
+      // Remove trailing newline from the last print()
+      return { output: captured.trimEnd(), hasError };
+    }
+
+
+    /* ================================================================
+       D. RENDERER
+       ----------------------------------------------------------------
+       renderLesson() builds the HTML for a lesson and injects it
+       into the two page panes.
+       ================================================================ */
+
+    /**
+     * Render a lesson into the instruction and interactive panes.
+     * @param {number} index  0-based lesson index
+     */
+    function renderLesson(index) {
+      const lesson          = LESSONS[index];
+      const instructionPane = document.getElementById('instruction-pane');
+      const interactivePane = document.getElementById('interactive-pane');
+      const btnNext         = document.getElementById('btn-next');
+      const btnReset        = document.getElementById('btn-reset');
+
+      document.title = `${lesson.title} — Python Fundamentals`;
+
+      /* ── Left pane: lesson explanation ── */
+      instructionPane.innerHTML = lesson.description;
+
+      /* ── Right pane: editor + controls + output ── */
+      interactivePane.innerHTML = `
+        <div>
+          <div class="field-label">editor.py</div>
+          <textarea
+            class="code-editor"
+            id="code-editor"
+            aria-label="Python code editor"
+            spellcheck="false"
+            autocorrect="off"
+            autocapitalize="off"
+          >${escapeHtml(lesson.starterCode)}</textarea>
+        </div>
+
+        <div style="display:flex; gap:0.6rem; align-items:flex-start; flex-wrap:wrap;">
+          <button class="btn btn-run"   id="btn-run"   aria-label="Run your code">▶ Run</button>
+          <button class="btn btn-check" id="btn-check" aria-label="Check your answer">✓ Check</button>
+          <p class="hint-text" id="hint-area" style="margin-top:0.3rem;">${lesson.hint}</p>
+        </div>
+
+        <div>
+          <div class="field-label">output</div>
+          <div
+            class="output-area empty"
+            id="output-area"
+            role="log"
+            aria-live="polite"
+            aria-label="Code output"
+          >— click ▶ Run to see output —</div>
+        </div>
+
+        <div class="feedback" id="feedback-area" role="alert" aria-live="assertive"></div>
+      `;
+
+      /* ── Enable / disable Next based on whether already passed ── */
+      btnNext.disabled = !app.passed[index];
+      btnReset.classList.remove('hidden');
+
+      /* ── Wire up the Tab key in the editor ── */
+      document.getElementById('code-editor').addEventListener('keydown', handleEditorTab);
+
+      /* ── Wire up Run button ── */
+      document.getElementById('btn-run').addEventListener('click', runAndDisplay);
+
+      /* ── Wire up Check button ── */
+      document.getElementById('btn-check').addEventListener('click', checkAnswer);
+
+      /* ── Wire up Reset button (in footer) ── */
+      btnReset.onclick = () => {
+        document.getElementById('code-editor').value = lesson.starterCode;
+        const out = document.getElementById('output-area');
+        out.textContent  = '— click ▶ Run to see output —';
+        out.className    = 'output-area empty';
+        document.getElementById('feedback-area').className = 'feedback';
+        document.getElementById('feedback-area').textContent = '';
+      };
+
+      updateProgress();
+
+      // Keep the debug panel in sync if it's active
+      highlightDebugButton(index);
+    }
+
+
+    /* ================================================================
+       E. VALIDATORS
+       ----------------------------------------------------------------
+       runAndDisplay() — executes code and shows output, no marking
+       checkAnswer()   — executes code, validates, shows feedback
+       ================================================================ */
+
+    /**
+     * Run the code in the editor and display the output.
+     * Does NOT check whether the answer is right.
+     */
+    async function runAndDisplay() {
+      const code      = document.getElementById('code-editor').value;
+      const outputArea= document.getElementById('output-area');
+      const runBtn    = document.getElementById('btn-run');
+
+      // Show a loading state while Python executes
+      runBtn.disabled    = true;
+      runBtn.textContent = '⏳ Running…';
+      outputArea.className = 'output-area';
+      outputArea.textContent = '';
+
+      const { output, hasError } = await runPython(code);
+
+      outputArea.textContent = output || '(no output)';
+      outputArea.className   = hasError ? 'output-area has-error' : 'output-area';
+
+      runBtn.disabled    = false;
+      runBtn.textContent = '▶ Run';
+    }
+
+
+    /**
+     * Run the code AND validate it against the lesson's validate() function.
+     * Shows a coloured feedback message and unlocks Next if correct.
+     */
+    async function checkAnswer() {
+      const code        = document.getElementById('code-editor').value;
+      const outputArea  = document.getElementById('output-area');
+      const feedbackArea= document.getElementById('feedback-area');
+      const checkBtn    = document.getElementById('btn-check');
+
+      // Disable the button while processing
+      checkBtn.disabled    = true;
+      checkBtn.textContent = '⏳ Checking…';
+
+      const { output, hasError } = await runPython(code);
+
+      // Show the raw output
+      outputArea.textContent = output || '(no output)';
+      outputArea.className   = hasError ? 'output-area has-error' : 'output-area';
+
+      // If Python threw an error, stop before calling validate()
+      if (hasError) {
+        feedbackArea.textContent = '⚠️ Your code has an error — fix it, then check again.';
+        feedbackArea.className   = 'feedback incorrect';
+        checkBtn.disabled        = false;
+        checkBtn.textContent     = '✓ Check';
+        return;
+      }
+
+      // Ask the lesson's validate function for the verdict
+      const lesson = LESSONS[app.currentIndex];
+      const result = lesson.validate(output, code);
+
+      feedbackArea.textContent = result.message;
+      feedbackArea.className   = result.correct ? 'feedback correct' : 'feedback incorrect';
+
+      if (result.correct) {
+        // Mark lesson as passed, unlock the Next button
+        app.passed[app.currentIndex] = true;
+        document.getElementById('btn-next').disabled = false;
+        updateProgress();
+      }
+
+      checkBtn.disabled    = false;
+      checkBtn.textContent = '✓ Check';
+    }
+
+
+    /* ================================================================
+       F. NAVIGATION
+       ================================================================ */
+
+    /** Move to the next lesson, or show the completion screen. */
+    function goNext() {
+      if (app.currentIndex < LESSONS.length - 1) {
+        app.currentIndex++;
+        renderLesson(app.currentIndex);
+        // Scroll both panes back to the top (helpful on mobile)
+        document.getElementById('instruction-pane').scrollTop = 0;
+        document.getElementById('interactive-pane').scrollTop = 0;
+        window.scrollTo(0, 0);
+      } else {
+        showCompletion();
+      }
+    }
+
+
+    /** Update the header progress bar and label. */
+    function updateProgress() {
+      const passedCount = app.passed.filter(Boolean).length;
+      const total       = LESSONS.length;
+      const pct         = (passedCount / total) * 100;
+
+      document.getElementById('progress-fill').style.width = pct + '%';
+      document.getElementById('progress-label').textContent = `${passedCount} / ${total}`;
+    }
+
+
+    /* ================================================================
+       COMPLETION SCREEN
+       Replaces both panes with a congratulations message and a list
+       of suggested next steps.
+       ================================================================ */
+
+    function showCompletion() {
+      const instructionPane = document.getElementById('instruction-pane');
+      const interactivePane = document.getElementById('interactive-pane');
+      const btnNext         = document.getElementById('btn-next');
+      const btnReset        = document.getElementById('btn-reset');
+
+      btnNext.classList.add('hidden');
+      btnReset.classList.add('hidden');
+
+      const today = new Date().toLocaleDateString('en-GB', {
+        day: 'numeric', month: 'long', year: 'numeric'
+      });
+
+      instructionPane.innerHTML = `
+        <div class="complete-screen">
+          <span class="complete-emoji" role="img" aria-label="snake">🐍</span>
+          <h2 class="complete-title">Python Fundamentals Complete!</h2>
+          <p class="complete-body">
+            You've finished <strong>Python Fundamentals Part 1</strong>.
+            You can now write real Python programs — using variables, strings,
+            numbers, lists, conditionals, loops, functions, and dictionaries.
+            That's the foundation everything else is built on.
+          </p>
+          <p class="complete-date">Completed ${today}</p>
+        </div>
+      `;
+
+      interactivePane.innerHTML = `
+        <div>
+          <h3 style="font-family:var(--font-display); font-size:1.4rem; font-weight:normal; margin-bottom:1rem;">
+            What to learn next
+          </h3>
+          <ul class="next-steps-list">
+            <li><strong>Modules &amp; imports</strong> — unlock Python's enormous library ecosystem</li>
+            <li><strong>File reading &amp; writing</strong> — work with real data on disk</li>
+            <li><strong>Error handling</strong> — try / except to catch mistakes gracefully</li>
+            <li><strong>List comprehensions</strong> — Python's elegant shorthand for loops</li>
+            <li><strong>Classes &amp; objects</strong> — object-oriented programming</li>
+            <li><strong>Data science</strong> — pandas, numpy, and matplotlib</li>
+            <li><strong>Web &amp; APIs</strong> — fetch data from the internet</li>
+          </ul>
+          <div class="callout" style="margin-top:1.5rem;">
+            🎉 <strong>Well done!</strong> Python is one of the world's most
+            popular programming languages — and now you know the fundamentals.
+          </div>
+        </div>
+      `;
+    }
+
+
+    /* ================================================================
+       G. THEME
+       ----------------------------------------------------------------
+       Light/dark mode. We store the preference in localStorage so it
+       persists between visits.
+       ================================================================ */
+
+    function initTheme() {
+      // Read saved preference, or fall back to the OS setting
+      const saved      = localStorage.getItem('python-lesson-theme');
+      const prefersDark= window.matchMedia('(prefers-color-scheme: dark)').matches;
+      applyTheme(saved || (prefersDark ? 'dark' : 'light'));
+    }
+
+    function applyTheme(theme) {
+      document.documentElement.setAttribute('data-theme', theme);
+      document.getElementById('theme-btn').textContent = (theme === 'dark') ? '☀️' : '🌙';
+      localStorage.setItem('python-lesson-theme', theme);
+    }
+
+    function toggleTheme() {
+      const current = document.documentElement.getAttribute('data-theme');
+      applyTheme(current === 'dark' ? 'light' : 'dark');
+    }
+
+
+    /* ================================================================
+       H. UTILITIES
+       ================================================================ */
+
+    /**
+     * Convert special HTML characters to safe entities.
+     * This prevents code like <script> in the editor from being
+     * interpreted as actual HTML.
+     *
+     * @param {string} text  Raw text
+     * @returns {string}     Safe HTML string
+     */
+    function escapeHtml(text) {
+      return text
+        .replace(/&/g,  '&amp;')
+        .replace(/</g,  '&lt;')
+        .replace(/>/g,  '&gt;')
+        .replace(/"/g,  '&quot;');
+    }
+
+    /**
+     * Handle Tab key inside the code editor textarea.
+     * By default, Tab moves keyboard focus away from the textarea.
+     * We intercept it and insert 4 spaces at the cursor instead —
+     * which is the standard Python indentation.
+     *
+     * @param {KeyboardEvent} event
+     */
+    function handleEditorTab(event) {
+      if (event.key !== 'Tab') return;
+
+      event.preventDefault(); // Stop Tab from jumping to the next element
+
+      const textarea = event.target;
+      const start    = textarea.selectionStart;
+      const end      = textarea.selectionEnd;
+      const SPACES   = '    '; // 4 spaces — Python's convention
+
+      // Insert the spaces at the cursor position
+      textarea.value =
+        textarea.value.slice(0, start) + SPACES + textarea.value.slice(end);
+
+      // Move the cursor to just after the inserted spaces
+      textarea.selectionStart = textarea.selectionEnd = start + 4;
+    }
+
+
+    /* ================================================================
+       I. DEBUG MODE
+       ----------------------------------------------------------------
+       Activated by adding ?debug=true to the URL.
+       Shows a floating panel of numbered buttons so you can jump to
+       any lesson instantly — no need to click through from lesson 1.
+
+       You can also pre-select a lesson with ?debug=true&lesson=5
+       (lesson numbers are 1-based to match what humans see).
+       ================================================================ */
+
+    /**
+     * Check the URL for ?debug=true and set up the panel if found.
+     * Called once inside initApp().
+     */
+    function initDebugMode() {
+      // URLSearchParams reads query string key/value pairs safely
+      const params   = new URLSearchParams(window.location.search);
+      const isDebug  = params.get('debug') === 'true';
+
+      if (!isDebug) return; // Nothing to do in normal mode
+
+      /* ── Show the panel ── */
+      const panel = document.getElementById('debug-panel');
+      panel.classList.remove('hidden');
+
+      /* ── Build one button per lesson ── */
+      const grid = document.getElementById('debug-grid');
+
+      LESSONS.forEach((lesson, index) => {
+        const btn = document.createElement('button');
+
+        // Label is 1-based ("1" through "10") so it matches the lesson meta text
+        btn.textContent = index + 1;
+        btn.title       = lesson.title;  // tooltip on hover
+        btn.setAttribute('aria-label', `Jump to lesson ${index + 1}: ${lesson.title}`);
+
+        btn.addEventListener('click', () => {
+          // Mark all lessons up to (but not including) this one as passed,
+          // so the Next button is enabled and the progress bar looks right.
+          for (let i = 0; i < index; i++) {
+            app.passed[i] = true;
+          }
+
+          app.currentIndex = index;
+          renderLesson(index);
+          updateProgress();
+          highlightDebugButton(index);
+
+          // Scroll panes to top after jumping
+          document.getElementById('instruction-pane').scrollTop = 0;
+          document.getElementById('interactive-pane').scrollTop = 0;
+        });
+
+        grid.appendChild(btn);
+      });
+
+      /* ── Handle ?lesson=N to jump straight to a lesson on load ── */
+      const lessonParam = parseInt(params.get('lesson'), 10);
+
+      if (!isNaN(lessonParam) && lessonParam >= 1 && lessonParam <= LESSONS.length) {
+        // Convert 1-based URL param to 0-based index
+        const targetIndex = lessonParam - 1;
+
+        // Mark all previous lessons as passed so navigation works
+        for (let i = 0; i < targetIndex; i++) {
+          app.passed[i] = true;
+        }
+
+        app.currentIndex = targetIndex;
+        renderLesson(targetIndex);
+        updateProgress();
+        highlightDebugButton(targetIndex);
+      } else {
+        // Default: highlight button 1
+        highlightDebugButton(0);
+      }
+    }
+
+    /**
+     * Update which debug button appears "active" (orange).
+     * @param {number} index  0-based lesson index
+     */
+    function highlightDebugButton(index) {
+      const grid = document.getElementById('debug-grid');
+      if (!grid) return;
+
+      // Remove active class from all buttons, then add to the right one
+      Array.from(grid.querySelectorAll('button')).forEach((btn, i) => {
+        btn.classList.toggle('active', i === index);
+      });
+    }
+
+
+    /* ================================================================
+       J. STARTUP
+       ----------------------------------------------------------------
+       initApp() is called once Pyodide has loaded successfully.
+       loadPython() kicks everything off when the DOM is ready.
+       ================================================================ */
+
+    /** Set up the app once Pyodide is loaded. */
+    function initApp() {
+      // Initialise the passed array: one false per lesson
+      app.passed = new Array(LESSONS.length).fill(false);
+
+      // Apply theme before first render (prevents flash)
+      initTheme();
+
+      // Wire up UI controls
+      document.getElementById('theme-btn').addEventListener('click', toggleTheme);
+      document.getElementById('btn-next').addEventListener('click', goNext);
+
+      // Render the first lesson (debug mode may override this below)
+      renderLesson(0);
+      updateProgress();
+
+      // Set up debug panel — reads URL params, does nothing if not ?debug=true
+      initDebugMode();
+    }
+
+    // Start loading Python as soon as the DOM is ready
+    window.addEventListener('DOMContentLoaded', loadPython);
+
+  </script>
+</body>
+</html>

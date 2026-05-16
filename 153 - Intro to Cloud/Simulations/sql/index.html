@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQL Fundamentals - Part 1</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.0/sql-wasm.min.js"></script>
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <div class="header-left">
+                <h1>SQL Fundamentals: Part 1</h1>
+                <div class="progress-container">
+                    <div id="progress-bar"></div>
+                </div>
+                <span id="progress-text" class="progress-text"></span>
+            </div>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+                <span class="theme-icon"><i data-lucide="moon"></i></span>
+            </button>
+        </div>
+    </header>
+
+    <main class="main-container">
+
+        <section id="instruction-pane" class="pane instruction-pane">
+            <!-- Lesson content loaded here -->
+        </section>
+
+        <section id="interactive-pane" class="pane interactive-pane">
+            <div class="interactive-content">
+                <!-- Data tables and query editor loaded here -->
+            </div>
+        </section>
+
+        <!-- Debug menu - only visible when debug=true -->
+        <div id="debug-menu" class="debug-menu hidden collapsed">
+            <div class="debug-header" id="debug-header-toggle">
+                <span><i data-lucide="wrench"></i> Dev Controls</span>
+                <span class="debug-toggle-icon">▼</span>
+            </div>
+            <div id="debug-buttons" class="debug-grid"></div>
+        </div>
+    </main>
+
+    <footer>
+        <button id="btn-next" class="primary-btn" disabled>Next Step →</button>
+        <button id="btn-reset" class="secondary-btn hidden">Reset</button>
+    </footer>
+
+    <!-- Scripts in order of dependency -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="utils/sqlExecutor.js"></script>
+    <script src="utils/certificate.js"></script>
+    
+    <!-- Lesson files -->
+    <script src="lessons/1-selectFrom.js"></script>
+    <script src="lessons/2-where.js"></script>
+    <script src="lessons/3-andOr.js"></script>
+    <script src="lessons/4-orderByLimit.js"></script>
+    <script src="lessons/5-aggregates.js"></script>
+    <script src="lessons/6-join.js"></script>
+    <script src="lessons/7-createTable.js"></script>
+    <script src="lessons/8-insert.js"></script>
+    <script src="lessons/9-update.js"></script>
+    <script src="lessons/10-delete.js"></script>
+    <script src="lessons/11-certificate.js"></script>
+
+    <!-- Main app controller -->
+    <script src="app.js"></script>
+
+</body>
+</html>

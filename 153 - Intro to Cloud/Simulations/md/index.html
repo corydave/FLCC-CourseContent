@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown Fundamentals - Part 1</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <!--
+        marked.js is a small, well-maintained markdown parser.
+        We load it from a CDN so there are zero npm installs.
+        It handles GitHub-flavored markdown out of the box,
+        which means tables and task lists work without extra setup.
+    -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.0/marked.min.js"></script>
+</head>
+<body>
+
+    <!--
+        Header: shows course title, a progress bar, and the dark-mode toggle.
+        It sticks to the top of the page so learners always see how far they've come.
+    -->
+    <header>
+        <div class="header-content">
+            <div class="header-left">
+                <h1>Markdown Fundamentals: Part 1</h1>
+                <div class="progress-container" aria-hidden="true">
+                    <div id="progress-bar"></div>
+                </div>
+                <span id="progress-text" class="progress-text"></span>
+            </div>
+            <button id="theme-toggle"
+                    class="theme-toggle"
+                    aria-label="Toggle dark mode"
+                    title="Toggle dark mode">
+                <span class="theme-icon" aria-hidden="true"><i data-lucide="moon"></i></span>
+            </button>
+        </div>
+    </header>
+
+    <!--
+        Main two-pane layout:
+        - Left pane explains the lesson (the "teaching" side)
+        - Right pane is interactive (the "doing" side: editor + live preview)
+        On mobile, these stack vertically.
+    -->
+    <main class="main-container">
+
+        <section id="instruction-pane" class="pane instruction-pane" aria-label="Lesson instructions">
+            <!-- The current lesson's text is injected here by app.js -->
+        </section>
+
+        <section id="interactive-pane" class="pane interactive-pane" aria-label="Markdown editor and preview">
+            <div class="interactive-content">
+                <!-- The editor, preview, and feedback area are injected here by app.js -->
+            </div>
+        </section>
+
+        <!--
+            Debug menu: only visible when the URL contains ?debug=true
+            It lets us (the developers) jump straight to any lesson while testing.
+        -->
+        <div id="debug-menu" class="debug-menu hidden" aria-label="Developer controls">
+            <div class="debug-header"><i data-lucide="wrench"></i> Dev Controls</div>
+            <div id="debug-buttons" class="debug-grid"></div>
+        </div>
+    </main>
+
+    <!--
+        Footer: navigation buttons.
+        "Next" stays disabled until the learner completes the current step.
+        "Reset" clears their editor so they can try again.
+    -->
+    <footer>
+        <button id="btn-reset" class="secondary-btn hidden">Reset</button>
+        <button id="btn-next" class="primary-btn" disabled>Next Step →</button>
+    </footer>
+
+    <!--
+        jsPDF: used to generate the completion certificate at the end of the course.
+        Loaded from CDN so there are no build dependencies.
+    -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+    <!-- Shared utilities -->
+    <script src="utils/markdownExecutor.js"></script>
+    <script src="utils/certificate.js"></script>
+
+    <!--
+        Lesson files - each one pushes a lesson object into window.lessons.
+        Order matters: this is the order learners will progress through.
+        To add a lesson: create a new file here and add another <script> tag.
+    -->
+    <script src="lessons/1-headings.js"></script>
+    <script src="lessons/2-emphasis.js"></script>
+    <script src="lessons/3-paragraphs.js"></script>
+    <script src="lessons/4-lists.js"></script>
+    <script src="lessons/5-linksImages.js"></script>
+    <script src="lessons/6-code.js"></script>
+    <script src="lessons/7-blockquotes.js"></script>
+    <script src="lessons/8-horizontalRules.js"></script>
+    <script src="lessons/9-taskLists.js"></script>
+    <script src="lessons/10-puttingItTogether.js"></script>
+    <script src="lessons/11-certificate.js"></script>
+
+    <!-- Main app controller (must load last because it uses everything above) -->
+    <script src="app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,160 @@
+/* ================================================================
+   Markdown Fundamentals - Tutorial-Specific Styles
+   Shared styles (variables, header, layout, buttons) live in ../styles.css
+   ================================================================ */
+
+
+/* ============================================================
+   Editor label
+   ============================================================ */
+
+.editor-label {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-secondary);
+    margin-bottom: var(--spacing-xs);
+}
+
+
+/* ============================================================
+   Markdown editor textarea
+   ============================================================ */
+
+.markdown-editor {
+    width: 100%;
+    min-height: 180px;
+    padding: var(--spacing-md);
+    background: var(--editor-bg);
+    border: 1px solid var(--editor-border);
+    border-radius: 0.5rem;
+    font-family: var(--font-mono);
+    font-size: 0.95rem;
+    color: var(--text-primary);
+    line-height: 1.5;
+    resize: vertical;
+    transition: border-color 0.2s;
+}
+
+.markdown-editor:focus {
+    outline: none;
+    border-color: var(--color-primary);
+}
+
+
+/* ============================================================
+   Live preview box
+   ============================================================ */
+
+.preview-box {
+    background: var(--preview-bg);
+    border: 1px solid var(--editor-border);
+    border-radius: 0.5rem;
+    padding: var(--spacing-md);
+    min-height: 120px;
+    overflow-x: auto;
+}
+
+.preview-box h1 { font-family: var(--font-heading); font-size: 1.75rem; color: var(--color-primary); margin-bottom: 0.5rem; }
+.preview-box h2 { font-family: var(--font-heading); font-size: 1.4rem;  color: var(--color-primary); margin-bottom: 0.5rem; }
+.preview-box h3 { font-family: var(--font-heading); font-size: 1.2rem;  color: var(--color-primary); margin-bottom: 0.5rem; }
+.preview-box h4 { font-family: var(--font-heading); font-size: 1.05rem; color: var(--color-primary); margin-bottom: 0.5rem; }
+.preview-box h5 { font-family: var(--font-heading); font-size: 0.95rem; color: var(--color-primary); margin-bottom: 0.5rem; }
+.preview-box h6 { font-family: var(--font-heading); font-size: 0.85rem; margin-bottom: 0.5rem; color: var(--text-secondary); }
+
+.preview-box p   { margin-bottom: 0.75rem; }
+.preview-box ul,
+.preview-box ol  { margin-bottom: 0.75rem; padding-left: 1.5rem; }
+.preview-box li  { margin-bottom: 0.25rem; }
+.preview-box a   { color: var(--color-primary); }
+
+.preview-box code {
+    background: var(--bg-tertiary);
+    padding: 0.1rem 0.35rem;
+    border-radius: 0.2rem;
+    font-family: var(--font-mono);
+    font-size: 0.9em;
+}
+
+.preview-box pre {
+    background: var(--bg-tertiary);
+    padding: var(--spacing-md);
+    border-radius: 0.4rem;
+    overflow-x: auto;
+    margin-bottom: 0.75rem;
+}
+
+.preview-box pre code { background: none; padding: 0; }
+
+.preview-box blockquote {
+    border-left: 3px solid var(--color-primary);
+    padding-left: var(--spacing-md);
+    color: var(--text-secondary);
+    margin-bottom: 0.75rem;
+}
+
+.preview-box hr {
+    border: 0;
+    border-top: 1px solid var(--border-color);
+    margin: var(--spacing-md) 0;
+}
+
+.preview-box img { max-width: 100%; height: auto; border-radius: 0.25rem; }
+
+.preview-box table          { border-collapse: collapse; margin-bottom: 0.75rem; }
+.preview-box th,
+.preview-box td             { border: 1px solid var(--border-color); padding: 0.4rem 0.75rem; }
+.preview-box th             { background: var(--bg-tertiary); }
+.preview-box input[type="checkbox"] { margin-right: 0.5rem; }
+
+
+/* ============================================================
+   Feedback
+   ============================================================ */
+
+.feedback {
+    padding: var(--spacing-md);
+    border-radius: 0.5rem;
+    font-size: 0.95rem;
+    border: 1px solid;
+}
+
+.feedback.success {
+    background: rgba(22, 163, 74, 0.1);
+    border-color: var(--color-success);
+    color: var(--color-success);
+}
+
+.feedback.error {
+    background: rgba(220, 38, 38, 0.1);
+    border-color: var(--color-error);
+    color: var(--color-error);
+}
+
+.feedback.hint {
+    background: rgba(245, 158, 11, 0.1);
+    border-color: var(--color-warning);
+    color: var(--color-warning);
+}
+
+
+/* ============================================================
+   Check button (inside interactive pane)
+   ============================================================ */
+
+.check-btn {
+    background: var(--color-primary);
+    color: white;
+    border: none;
+    padding: var(--spacing-sm) var(--spacing-lg);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-family: var(--font-sans);
+    font-size: 0.95rem;
+    font-weight: 600;
+    align-self: flex-start;
+    transition: background 0.2s;
+}
+
+.check-btn:hover { background: var(--color-primary-dark); }

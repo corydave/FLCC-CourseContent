@@ -1,0 +1,1678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linux Fundamentals: Part 1</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+</head>
+<body>
+
+    <!--
+        Header - course title, progress bar, dark-mode toggle.
+        Sticks to the top so learners always see how far they've come.
+    -->
+    <header>
+        <div class="header-content">
+            <div class="header-left">
+                <h1>Linux Fundamentals: Part 1</h1>
+                <div class="progress-container" aria-hidden="true">
+                    <div id="progress-bar"></div>
+                </div>
+                <span id="progress-text" class="progress-text"></span>
+            </div>
+            <button id="theme-toggle"
+                    class="theme-toggle"
+                    aria-label="Toggle dark mode"
+                    title="Toggle dark mode">
+                <span class="theme-icon" aria-hidden="true"><i data-lucide="moon"></i></span>
+            </button>
+        </div>
+    </header>
+
+
+    <!--
+        Main two-pane layout.
+        Left pane: lesson explanation ("teaching" side).
+        Right pane: the simulated terminal ("doing" side).
+        On mobile, they stack vertically.
+    -->
+    <main class="main-container">
+
+        <section id="instruction-pane"
+                 class="pane instruction-pane"
+                 aria-label="Lesson instructions">
+            <!-- Populated by renderLesson() -->
+        </section>
+
+        <section id="interactive-pane"
+                 class="pane interactive-pane"
+                 aria-label="Linux terminal simulator">
+            <!-- Populated by renderLesson() - terminal header, output, input -->
+        </section>
+
+        <!--
+            Debug menu - only visible when ?debug=true is in the URL.
+            Lets developers jump to any lesson without clicking through.
+        -->
+        <div id="debug-menu"
+             class="debug-menu hidden"
+             aria-label="Developer controls: jump to lesson">
+            <div class="debug-header"><i data-lucide="wrench"></i> Dev Controls</div>
+            <div id="debug-buttons" class="debug-grid"></div>
+        </div>
+
+    </main>
+
+
+    <!--
+        Footer - navigation buttons.
+        Next is disabled until the learner passes the current lesson.
+        Reset clears the terminal so they can try again.
+    -->
+    <footer>
+        <button id="btn-reset" class="secondary-btn hidden">↺ Reset</button>
+        <button id="btn-next" class="primary-btn" disabled>Next Lesson →</button>
+    </footer>
+
+
+    <!--
+        jsPDF - used only on the final certificate screen.
+        Loaded from cdnjs so there are zero npm installs.
+        It does not run until the learner reaches lesson 10.
+    -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+
+    <script>
+    /*
+        ================================================================
+        APPLICATION - Linux Fundamentals
+        ================================================================
+        Sections:
+          A. FILESYSTEM        - in-memory virtual filesystem
+          B. COMMAND PARSER    - splits a line into tokens
+          C. COMMANDS          - pwd, ls, cd, mkdir, touch, cat, ...
+          D. LESSONS ARRAY     - content + initial fs + validators
+          E. APP STATE         - single object tracking current state
+          F. RENDERER          - builds HTML from lesson data
+          G. RUN / CHECK       - executes commands, validates, feedback
+          H. NAVIGATION        - Next button, progress bar
+          I. COMPLETION        - final screen + certificate (jsPDF)
+          J. THEME             - light/dark toggle, localStorage
+          K. DEBUG MODE        - ?debug=true panel
+          L. UTILITIES         - escapeHtml, etc.
+          M. STARTUP           - wires everything together
+        ================================================================
+    */
+
+    'use strict';
+
+
+    /* ================================================================
+       A. FILESYSTEM
+       ----------------------------------------------------------------
+       The virtual filesystem is a plain JavaScript object. Each node
+       is either:
+           { type: 'dir',  children: { name: node, ... }, perms: '...' }
+       or
+           { type: 'file', content: 'string',           perms: '...' }
+       Permissions are stored as the 9-character rwx string Linux shows
+       (e.g. 'rw-r--r--'), prefixed with 'd' for directories or '-' for
+       files when we display them.
+
+       This object never escapes the browser tab - there is no network
+       call, no real disk access, no eval(). It's pure simulation.
+       ================================================================ */
+
+    /**
+     * Build a fresh deep-copy of a filesystem tree.
+     * Used so each lesson starts with a clean, known state.
+     */
+    function cloneFs(node) {
+        if (node.type === 'file') {
+            return { type: 'file', content: node.content, perms: node.perms };
+        }
+        const copy = { type: 'dir', children: {}, perms: node.perms };
+        for (const name in node.children) {
+            copy.children[name] = cloneFs(node.children[name]);
+        }
+        return copy;
+    }
+
+    /**
+     * Helper to create file / directory nodes more compactly when
+     * building each lesson's starting filesystem.
+     */
+    function file(content, perms = 'rw-r--r--') {
+        return { type: 'file', content, perms };
+    }
+    function dir(children = {}, perms = 'rwxr-xr-x') {
+        return { type: 'dir', children, perms };
+    }
+
+
+    /* ================================================================
+       B. COMMAND PARSER
+       ----------------------------------------------------------------
+       Linux commands look like:
+           command arg1 arg2 -flag --long-flag "quoted argument"
+       We tokenize a line into pieces, respecting single and double
+       quotes. We deliberately do NOT support pipes, redirection, or
+       shell variables - that's deferred to Part 2 (and well outside
+       the "first 9 commands" scope).
+       ================================================================ */
+
+    /**
+     * Tokenize a command line into an array of strings.
+     * Handles single and double quoted strings.
+     *
+     * @param {string} line - the raw command line
+     * @returns {string[]}  - array of tokens
+     */
+    function tokenize(line) {
+        const tokens = [];
+        let current = '';
+        let inSingle = false;
+        let inDouble = false;
+
+        for (let i = 0; i < line.length; i++) {
+            const ch = line[i];
+            if (ch === "'" && !inDouble) {
+                inSingle = !inSingle;
+                continue;
+            }
+            if (ch === '"' && !inSingle) {
+                inDouble = !inDouble;
+                continue;
+            }
+            if (ch === ' ' && !inSingle && !inDouble) {
+                if (current.length) { tokens.push(current); current = ''; }
+                continue;
+            }
+            current += ch;
+        }
+        if (current.length) tokens.push(current);
+        return tokens;
+    }
+
+
+    /* ================================================================
+       C. COMMANDS
+       ----------------------------------------------------------------
+       Each command is a function: (fs, cwd, args) => { output, cwd?, ok }
+         • fs:   the filesystem root node (mutable)
+         • cwd:  current working directory as an absolute path string
+         • args: array of strings (without the command itself)
+       It returns:
+         • output: text to display in the terminal
+         • cwd:    new cwd (only `cd` changes this; others omit it)
+         • ok:     true if the command succeeded, false if it errored
+       ================================================================ */
+
+    /**
+     * Resolve a path (possibly relative, possibly containing .. or ~)
+     * into a normalised absolute path.
+     */
+    function resolvePath(cwd, target) {
+        if (!target || target === '') return cwd;
+
+        let path;
+        if (target === '~' || target.startsWith('~/')) {
+            // ~ always means /home/learner in our simulated world
+            path = '/home/learner' + target.slice(1);
+        } else if (target.startsWith('/')) {
+            path = target;
+        } else {
+            path = cwd.replace(/\/$/, '') + '/' + target;
+        }
+
+        // Normalise - handle . and ..
+        const parts = path.split('/').filter(p => p !== '' && p !== '.');
+        const stack = [];
+        for (const p of parts) {
+            if (p === '..') stack.pop();
+            else stack.push(p);
+        }
+        return '/' + stack.join('/');
+    }
+
+    /**
+     * Get a node at an absolute path. Returns null if the path
+     * doesn't exist.
+     */
+    function getNode(fs, absPath) {
+        if (absPath === '/' || absPath === '') return fs;
+        const parts = absPath.split('/').filter(Boolean);
+        let node = fs;
+        for (const p of parts) {
+            if (node.type !== 'dir' || !node.children[p]) return null;
+            node = node.children[p];
+        }
+        return node;
+    }
+
+    /**
+     * Get the parent directory node and the basename for an absolute
+     * path. Useful when creating / deleting things.
+     */
+    function getParent(fs, absPath) {
+        const parts = absPath.split('/').filter(Boolean);
+        if (!parts.length) return { parent: null, name: null };
+        const name = parts.pop();
+        const parentPath = '/' + parts.join('/');
+        return { parent: getNode(fs, parentPath), name, parentPath };
+    }
+
+    /* ---------- pwd ---------- */
+    function cmd_pwd(fs, cwd, args) {
+        return { output: cwd, ok: true };
+    }
+
+    /* ---------- ls ---------- */
+    function cmd_ls(fs, cwd, args) {
+        // Separate flags (start with -) from path arguments
+        const flags = args.filter(a => a.startsWith('-')).join('');
+        const paths = args.filter(a => !a.startsWith('-'));
+        const showHidden = flags.includes('a');
+        const longFormat = flags.includes('l');
+
+        const target = paths.length ? resolvePath(cwd, paths[0]) : cwd;
+        const node = getNode(fs, target);
+
+        if (!node) {
+            return { output: `ls: cannot access '${paths[0]}': No such file or directory`, ok: false };
+        }
+
+        // If the target is a single file, just print its name
+        if (node.type === 'file') {
+            const name = target.split('/').filter(Boolean).pop();
+            return { output: longFormat ? formatLongLine(name, node) : name, ok: true };
+        }
+
+        // Otherwise list children
+        let names = Object.keys(node.children);
+        if (!showHidden) names = names.filter(n => !n.startsWith('.'));
+        names.sort();
+
+        if (longFormat) {
+            const lines = names.map(n => formatLongLine(n, node.children[n]));
+            return { output: lines.join('\n') || '', ok: true };
+        }
+        return { output: names.join('  '), ok: true };
+    }
+
+    /**
+     * Build a single line of `ls -l` output for a node.
+     * e.g.  "-rw-r--r-- 1 learner learner    42 May 15  hello.txt"
+     */
+    function formatLongLine(name, node) {
+        const typeChar = node.type === 'dir' ? 'd' : '-';
+        const perms = node.perms || 'rw-r--r--';
+        const size = node.type === 'file' ? String(node.content.length).padStart(5) : '   --';
+        return `${typeChar}${perms} 1 learner learner ${size} May 15 ${name}`;
+    }
+
+    /* ---------- cd ---------- */
+    function cmd_cd(fs, cwd, args) {
+        const target = args[0] || '~';
+        const absPath = resolvePath(cwd, target);
+        const node = getNode(fs, absPath);
+        if (!node) {
+            return { output: `cd: no such file or directory: ${target}`, ok: false };
+        }
+        if (node.type !== 'dir') {
+            return { output: `cd: not a directory: ${target}`, ok: false };
+        }
+        return { output: '', cwd: absPath || '/', ok: true };
+    }
+
+    /* ---------- mkdir ---------- */
+    function cmd_mkdir(fs, cwd, args) {
+        if (!args.length) return { output: 'mkdir: missing operand', ok: false };
+        // Strip flags (we accept -p but it's the default behaviour for
+        // a single-level mkdir, so it's effectively cosmetic)
+        const paths = args.filter(a => !a.startsWith('-'));
+        for (const target of paths) {
+            const absPath = resolvePath(cwd, target);
+            const { parent, name } = getParent(fs, absPath);
+            if (!parent || parent.type !== 'dir') {
+                return { output: `mkdir: cannot create directory '${target}': No such file or directory`, ok: false };
+            }
+            if (parent.children[name]) {
+                return { output: `mkdir: cannot create directory '${target}': File exists`, ok: false };
+            }
+            parent.children[name] = dir();
+        }
+        return { output: '', ok: true };
+    }
+
+    /* ---------- touch ---------- */
+    function cmd_touch(fs, cwd, args) {
+        if (!args.length) return { output: 'touch: missing file operand', ok: false };
+        for (const target of args) {
+            const absPath = resolvePath(cwd, target);
+            const node = getNode(fs, absPath);
+            if (node) continue;   // exists - touch just updates timestamp; nothing to do
+            const { parent, name } = getParent(fs, absPath);
+            if (!parent || parent.type !== 'dir') {
+                return { output: `touch: cannot touch '${target}': No such file or directory`, ok: false };
+            }
+            parent.children[name] = file('');
+        }
+        return { output: '', ok: true };
+    }
+
+    /* ---------- cat ---------- */
+    function cmd_cat(fs, cwd, args) {
+        if (!args.length) return { output: 'cat: missing file operand', ok: false };
+        const parts = [];
+        for (const target of args) {
+            const absPath = resolvePath(cwd, target);
+            const node = getNode(fs, absPath);
+            if (!node) return { output: `cat: ${target}: No such file or directory`, ok: false };
+            if (node.type !== 'file') return { output: `cat: ${target}: Is a directory`, ok: false };
+            parts.push(node.content);
+        }
+        return { output: parts.join(''), ok: true };
+    }
+
+    /* ---------- head ---------- */
+    function cmd_head(fs, cwd, args) {
+        let n = 10;
+        const paths = [];
+        for (let i = 0; i < args.length; i++) {
+            if (args[i] === '-n' && args[i+1]) { n = parseInt(args[++i], 10) || 10; }
+            else if (args[i].startsWith('-')) { /* ignore other flags */ }
+            else paths.push(args[i]);
+        }
+        if (!paths.length) return { output: 'head: missing file operand', ok: false };
+        const absPath = resolvePath(cwd, paths[0]);
+        const node = getNode(fs, absPath);
+        if (!node) return { output: `head: cannot open '${paths[0]}' for reading: No such file or directory`, ok: false };
+        if (node.type !== 'file') return { output: `head: ${paths[0]}: Is a directory`, ok: false };
+        return { output: node.content.split('\n').slice(0, n).join('\n'), ok: true };
+    }
+
+    /* ---------- tail ---------- */
+    function cmd_tail(fs, cwd, args) {
+        let n = 10;
+        const paths = [];
+        for (let i = 0; i < args.length; i++) {
+            if (args[i] === '-n' && args[i+1]) { n = parseInt(args[++i], 10) || 10; }
+            else if (args[i].startsWith('-')) { /* ignore */ }
+            else paths.push(args[i]);
+        }
+        if (!paths.length) return { output: 'tail: missing file operand', ok: false };
+        const absPath = resolvePath(cwd, paths[0]);
+        const node = getNode(fs, absPath);
+        if (!node) return { output: `tail: cannot open '${paths[0]}' for reading: No such file or directory`, ok: false };
+        if (node.type !== 'file') return { output: `tail: ${paths[0]}: Is a directory`, ok: false };
+        const lines = node.content.split('\n');
+        return { output: lines.slice(Math.max(0, lines.length - n)).join('\n'), ok: true };
+    }
+
+    /* ---------- less ---------- */
+    // Real `less` is paginated and interactive. In our simulator
+    // we just dump the file contents - same as cat - and mention
+    // it so the lesson can explain the difference.
+    function cmd_less(fs, cwd, args) {
+        return cmd_cat(fs, cwd, args);
+    }
+
+    /* ---------- cp ---------- */
+    function cmd_cp(fs, cwd, args) {
+        const paths = args.filter(a => !a.startsWith('-'));
+        if (paths.length < 2) return { output: 'cp: missing destination file operand', ok: false };
+        const src = paths[0], dst = paths[1];
+        const srcAbs = resolvePath(cwd, src);
+        const dstAbs = resolvePath(cwd, dst);
+        const srcNode = getNode(fs, srcAbs);
+        if (!srcNode) return { output: `cp: cannot stat '${src}': No such file or directory`, ok: false };
+        if (srcNode.type !== 'file') return { output: `cp: -r not specified; omitting directory '${src}'`, ok: false };
+
+        const { parent, name } = getParent(fs, dstAbs);
+        if (!parent || parent.type !== 'dir') return { output: `cp: cannot create '${dst}': No such file or directory`, ok: false };
+        parent.children[name] = cloneFs(srcNode);
+        return { output: '', ok: true };
+    }
+
+    /* ---------- mv ---------- */
+    function cmd_mv(fs, cwd, args) {
+        const paths = args.filter(a => !a.startsWith('-'));
+        if (paths.length < 2) return { output: 'mv: missing destination file operand', ok: false };
+        const src = paths[0], dst = paths[1];
+        const srcAbs = resolvePath(cwd, src);
+        const dstAbs = resolvePath(cwd, dst);
+        const srcNode = getNode(fs, srcAbs);
+        if (!srcNode) return { output: `mv: cannot stat '${src}': No such file or directory`, ok: false };
+
+        // Place at destination, then remove from source
+        const dstParent = getParent(fs, dstAbs);
+        const srcParent = getParent(fs, srcAbs);
+        if (!dstParent.parent || dstParent.parent.type !== 'dir') {
+            return { output: `mv: cannot move to '${dst}': No such file or directory`, ok: false };
+        }
+        dstParent.parent.children[dstParent.name] = srcNode;
+        delete srcParent.parent.children[srcParent.name];
+        return { output: '', ok: true };
+    }
+
+    /* ---------- rm ---------- */
+    function cmd_rm(fs, cwd, args) {
+        const flags = args.filter(a => a.startsWith('-')).join('');
+        const paths = args.filter(a => !a.startsWith('-'));
+        const recursive = flags.includes('r') || flags.includes('R');
+        if (!paths.length) return { output: 'rm: missing operand', ok: false };
+
+        for (const target of paths) {
+            const absPath = resolvePath(cwd, target);
+            const node = getNode(fs, absPath);
+            if (!node) return { output: `rm: cannot remove '${target}': No such file or directory`, ok: false };
+            if (node.type === 'dir' && !recursive) {
+                return { output: `rm: cannot remove '${target}': Is a directory`, ok: false };
+            }
+            const { parent, name } = getParent(fs, absPath);
+            delete parent.children[name];
+        }
+        return { output: '', ok: true };
+    }
+
+    /* ---------- rmdir ---------- */
+    function cmd_rmdir(fs, cwd, args) {
+        if (!args.length) return { output: 'rmdir: missing operand', ok: false };
+        for (const target of args.filter(a => !a.startsWith('-'))) {
+            const absPath = resolvePath(cwd, target);
+            const node = getNode(fs, absPath);
+            if (!node) return { output: `rmdir: failed to remove '${target}': No such file or directory`, ok: false };
+            if (node.type !== 'dir') return { output: `rmdir: failed to remove '${target}': Not a directory`, ok: false };
+            if (Object.keys(node.children).length) {
+                return { output: `rmdir: failed to remove '${target}': Directory not empty`, ok: false };
+            }
+            const { parent, name } = getParent(fs, absPath);
+            delete parent.children[name];
+        }
+        return { output: '', ok: true };
+    }
+
+    /* ---------- grep ---------- */
+    function cmd_grep(fs, cwd, args) {
+        if (args.length < 2) return { output: 'grep: usage: grep PATTERN FILE...', ok: false };
+        const pattern = args[0];
+        const lines = [];
+        // Expand simple * globs (e.g. *.txt → matching files in cwd)
+        const files = [];
+        for (let i = 1; i < args.length; i++) {
+            const a = args[i];
+            if (a.includes('*')) {
+                const dir = getNode(fs, cwd);
+                if (dir && dir.type === 'dir') {
+                    const regex = new RegExp('^' + a.replace(/\./g, '\\.').replace(/\*/g, '.*') + '$');
+                    for (const name of Object.keys(dir.children)) {
+                        if (regex.test(name)) files.push(name);
+                    }
+                }
+            } else {
+                files.push(a);
+            }
+        }
+        let foundAny = false;
+        for (const target of files) {
+            const absPath = resolvePath(cwd, target);
+            const node = getNode(fs, absPath);
+            if (!node || node.type !== 'file') continue;
+            const matched = node.content.split('\n').filter(l => l.includes(pattern));
+            if (matched.length) {
+                foundAny = true;
+                for (const line of matched) {
+                    // Prefix with filename when grepping multiple files,
+                    // matching real grep behaviour
+                    lines.push(files.length > 1 ? `${target}:${line}` : line);
+                }
+            }
+        }
+        return { output: lines.join('\n'), ok: foundAny };
+    }
+
+    /* ---------- find ---------- */
+    function cmd_find(fs, cwd, args) {
+        // Supported usage: find PATH [-name PATTERN]
+        let startPath = '.';
+        let namePattern = null;
+        for (let i = 0; i < args.length; i++) {
+            if (args[i] === '-name' && args[i+1]) { namePattern = args[++i]; }
+            else if (!args[i].startsWith('-') && startPath === '.') { startPath = args[i]; }
+        }
+        const absStart = resolvePath(cwd, startPath);
+        const start = getNode(fs, absStart);
+        if (!start) return { output: `find: '${startPath}': No such file or directory`, ok: false };
+
+        const results = [];
+        const regex = namePattern
+            ? new RegExp('^' + namePattern.replace(/\./g, '\\.').replace(/\*/g, '.*') + '$')
+            : null;
+
+        function walk(node, path) {
+            const name = path.split('/').filter(Boolean).pop() || path;
+            if (!regex || regex.test(name)) results.push(path);
+            if (node.type === 'dir') {
+                for (const child in node.children) {
+                    const childPath = (path === '/' ? '' : path) + '/' + child;
+                    walk(node.children[child], childPath);
+                }
+            }
+        }
+        // Display paths relative to the requested start, like real find
+        walk(start, startPath === '.' ? '.' : absStart);
+        return { output: results.join('\n'), ok: true };
+    }
+
+    /* ---------- chmod ---------- */
+    function cmd_chmod(fs, cwd, args) {
+        if (args.length < 2) return { output: 'chmod: missing operand', ok: false };
+        const mode = args[0];
+        const target = args[1];
+        const absPath = resolvePath(cwd, target);
+        const node = getNode(fs, absPath);
+        if (!node) return { output: `chmod: cannot access '${target}': No such file or directory`, ok: false };
+
+        // We support two forms:
+        //   chmod +x file   → add execute for everyone
+        //   chmod -x file   → remove execute for everyone
+        //   chmod NNN file  → numeric (e.g. 755)
+        if (mode === '+x' || mode === 'a+x' || mode === 'u+x') {
+            node.perms = setExecute(node.perms, true);
+        } else if (mode === '-x' || mode === 'a-x' || mode === 'u-x') {
+            node.perms = setExecute(node.perms, false);
+        } else if (/^[0-7]{3}$/.test(mode)) {
+            node.perms = octalToPerms(mode);
+        } else {
+            return { output: `chmod: invalid mode: '${mode}'`, ok: false };
+        }
+        return { output: '', ok: true };
+    }
+
+    /** Helper: flip the 'x' bit in each rwx triple of a 9-char perm string. */
+    function setExecute(perms, on) {
+        const chars = perms.split('');
+        // Positions of the three 'x' slots: 2, 5, 8
+        for (const i of [2, 5, 8]) chars[i] = on ? 'x' : '-';
+        return chars.join('');
+    }
+
+    /** Helper: '755' → 'rwxr-xr-x'. */
+    function octalToPerms(octal) {
+        const map = ['---','--x','-w-','-wx','r--','r-x','rw-','rwx'];
+        return octal.split('').map(d => map[parseInt(d, 10)]).join('');
+    }
+
+    /* ---------- man / --help ---------- */
+    // We ship a tiny set of "man pages" so the lesson can demonstrate
+    // looking up help without inventing tons of unrealistic detail.
+    const MAN_PAGES = {
+        ls: `LS(1)\n\nNAME\n    ls - list directory contents\n\nSYNOPSIS\n    ls [OPTION]... [FILE]...\n\nCOMMON OPTIONS\n    -a    show hidden files (those starting with .)\n    -l    use long listing format with permissions, size, date\n\nSee also: cd, pwd`,
+        cd: `CD(1)\n\nNAME\n    cd - change the working directory\n\nSYNOPSIS\n    cd [DIRECTORY]\n\nNOTES\n    cd ..   moves up one level\n    cd ~    goes to your home directory\n    cd -    goes back to the previous directory`,
+        pwd: `PWD(1)\n\nNAME\n    pwd - print working directory\n\nSYNOPSIS\n    pwd\n\nNo options needed. Just tells you where you are.`,
+        mkdir: `MKDIR(1)\n\nNAME\n    mkdir - make directories\n\nSYNOPSIS\n    mkdir [OPTION]... DIRECTORY...\n\nOPTIONS\n    -p    create parent directories as needed`,
+        touch: `TOUCH(1)\n\nNAME\n    touch - create empty files or update timestamps\n\nSYNOPSIS\n    touch FILE...`,
+        cat: `CAT(1)\n\nNAME\n    cat - concatenate and print files\n\nSYNOPSIS\n    cat FILE...`,
+        rm: `RM(1)\n\nNAME\n    rm - remove files or directories\n\nSYNOPSIS\n    rm [OPTION]... FILE...\n\nOPTIONS\n    -r    remove directories and their contents recursively\n\nWARNING\n    Removed files are NOT moved to a trash bin. They are GONE.`,
+        chmod: `CHMOD(1)\n\nNAME\n    chmod - change file permissions\n\nSYNOPSIS\n    chmod MODE FILE\n\nMODE\n    +x        make executable for everyone\n    755       rwxr-xr-x (owner: rwx, others: r-x)`,
+    };
+
+    function cmd_man(fs, cwd, args) {
+        if (!args.length) return { output: 'What manual page do you want?', ok: false };
+        const page = MAN_PAGES[args[0]];
+        if (!page) return { output: `No manual entry for ${args[0]}`, ok: false };
+        return { output: page, ok: true };
+    }
+
+    /* ---------- echo ---------- */
+    // Tiny bonus - useful for explaining strings & quoting.
+    function cmd_echo(fs, cwd, args) {
+        return { output: args.join(' '), ok: true };
+    }
+
+    /* ---------- clear / history are handled specially in the runner ---------- */
+
+    // Map of command name → function. Order doesn't matter; this is
+    // looked up by name when a command is run.
+    const COMMANDS = {
+        pwd: cmd_pwd, ls: cmd_ls, cd: cmd_cd,
+        mkdir: cmd_mkdir, touch: cmd_touch,
+        cat: cmd_cat, less: cmd_less, head: cmd_head, tail: cmd_tail,
+        cp: cmd_cp, mv: cmd_mv,
+        rm: cmd_rm, rmdir: cmd_rmdir,
+        grep: cmd_grep, find: cmd_find,
+        chmod: cmd_chmod,
+        man: cmd_man, echo: cmd_echo,
+    };
+
+
+    /* ================================================================
+       D. LESSONS ARRAY
+       ----------------------------------------------------------------
+       Each lesson object has:
+         title       - shown as the heading
+         description - HTML for the left (instruction) pane
+         initialFs   - function returning a fresh filesystem root
+         startCwd    - where the prompt starts (e.g. '/home/learner')
+         validate    - function(history, fs, cwd) → { correct, message }
+                       'history' = array of { cmd, args, output, ok }
+                       'fs'      = current filesystem
+                       'cwd'     = current working directory
+         hint        - single-line nudge shown above the input
+       ================================================================ */
+
+    const LESSONS = [
+
+      /* ── Lesson 1: pwd, ls ───────────────────────────────────── */
+      {
+        title: 'Where am I?',
+        description: `
+          <p class="lesson-meta">Lesson 1 of 9</p>
+          <h2 class="lesson-title">Where am I? (pwd &amp; ls)</h2>
+          <div class="lesson-body">
+            <p>Welcome to Linux! In a graphical desktop you can <em>see</em>
+            where you are - folders open in windows. On the command line,
+            you don't. So the very first skill is asking two questions:
+            <strong>"where am I?"</strong> and <strong>"what's here?"</strong></p>
+
+            <h3>The two commands</h3>
+            <ul>
+              <li><code>pwd</code> - <strong>p</strong>rint <strong>w</strong>orking
+              <strong>d</strong>irectory. Tells you your current location.</li>
+              <li><code>ls</code> - <strong>l</strong>i<strong>s</strong>t. Shows what's
+              in the current directory.</li>
+            </ul>
+
+            <h3>Useful flags for <code>ls</code></h3>
+            <ul>
+              <li><code>ls -a</code> - also show hidden files (their names start with a dot)</li>
+              <li><code>ls -l</code> - long format with permissions, size, date</li>
+            </ul>
+
+            <div class="callout">
+              <i data-lucide="lightbulb"></i> <strong>Your challenge:</strong> Run <code>pwd</code> to see
+              where you are, then run <code>ls</code> to see what's around.
+              Try <code>ls -a</code> too - there's a hidden file lurking.
+            </div>
+          </div>
+        `,
+        initialFs: () => dir({
+            home: dir({
+                learner: dir({
+                    'README.txt': file('Welcome to the Linux Fundamentals course!\nPoke around - you cannot break anything.\n'),
+                    'notes':   dir({ 'todo.txt': file('- learn ls\n- learn cd\n- relax\n') }),
+                    'photos':  dir(),
+                    'recipes': dir({
+                        'pancakes.txt': file('flour, milk, eggs, syrup\n'),
+                        'pasta.txt':    file('boil water, add salt, cook pasta\n'),
+                    }),
+                    '.config': dir(),  // a hidden directory for ls -a
+                }),
+            }),
+        }),
+        startCwd: '/home/learner',
+        validate(history, fs, cwd) {
+            const ranPwd = history.some(h => h.cmd === 'pwd' && h.ok);
+            const ranLs  = history.some(h => h.cmd === 'ls'  && h.ok);
+            if (ranPwd && ranLs) return { correct: true, message: '✓ You can look around - that\'s 80% of Linux right there.' };
+            if (ranPwd && !ranLs) return { correct: false, message: 'Good. Now try `ls` to see what\'s in the directory.' };
+            if (!ranPwd && ranLs) return { correct: false, message: 'Good. Now try `pwd` to see your current location.' };
+            return { correct: false, message: 'Try `pwd` first to see where you are.' };
+        },
+        hint: 'Type pwd and press Enter, then try ls.',
+      },
+
+      /* ── Lesson 2: cd ────────────────────────────────────────── */
+      {
+        title: 'Moving around',
+        description: `
+          <p class="lesson-meta">Lesson 2 of 9</p>
+          <h2 class="lesson-title">Moving around (cd)</h2>
+          <div class="lesson-body">
+            <p>The <code>cd</code> command - <strong>c</strong>hange
+            <strong>d</strong>irectory - moves you into a different folder.</p>
+
+            <h3>The basics</h3>
+            <ul>
+              <li><code>cd notes</code> - move into a folder called <code>notes</code></li>
+              <li><code>cd ..</code> - move <em>up</em> one level (the two dots mean "parent")</li>
+              <li><code>cd ~</code> - jump back to your home directory</li>
+              <li><code>cd /</code> - jump to the root of the filesystem</li>
+            </ul>
+
+            <div class="callout note">
+              <i data-lucide="info"></i> After every <code>cd</code>, the prompt updates to show
+              where you are. You can also run <code>pwd</code> to confirm.
+            </div>
+
+            <div class="callout">
+              <i data-lucide="lightbulb"></i> <strong>Your challenge:</strong> Use <code>cd notes</code>
+              to enter the <code>notes</code> folder, then <code>cd ..</code>
+              to come back. Run <code>pwd</code> any time you're unsure.
+            </div>
+          </div>
+        `,
+        initialFs: () => dir({
+            home: dir({
+                learner: dir({
+                    'notes':   dir({ 'todo.txt': file('- buy milk\n') }),
+                    'photos':  dir(),
+                    'recipes': dir(),
+                }),
+            }),
+        }),
+        startCwd: '/home/learner',
+        validate(history, fs, cwd) {
+            const visitedNotes = history.some(h => h.cmd === 'cd' && h.ok && h.cwdAfter === '/home/learner/notes');
+            const cameBack = visitedNotes && cwd === '/home/learner';
+            if (cameBack) return { correct: true, message: '✓ You can navigate. That\'s the skeleton of every Linux session.' };
+            if (visitedNotes) return { correct: false, message: 'Nice - you\'re inside notes. Now use `cd ..` to go back to /home/learner.' };
+            return { correct: false, message: 'Try `cd notes` to step into the notes folder first.' };
+        },
+        hint: 'cd notes, then cd ..',
+      },
+
+      /* ── Lesson 3: touch, mkdir ──────────────────────────────── */
+      {
+        title: 'Creating things',
+        description: `
+          <p class="lesson-meta">Lesson 3 of 9</p>
+          <h2 class="lesson-title">Creating things (touch &amp; mkdir)</h2>
+          <div class="lesson-body">
+            <p>Two commands cover almost all of "making stuff":</p>
+            <ul>
+              <li><code>mkdir name</code> - <strong>m</strong>a<strong>k</strong>e
+              <strong>dir</strong>ectory. Creates a new folder.</li>
+              <li><code>touch name.txt</code> - creates an empty file
+              (or updates the timestamp on an existing one).</li>
+            </ul>
+
+            <p>You can also create files <em>inside</em> directories in one
+            step by naming the path:</p>
+            <pre><code>mkdir projects
+touch projects/hello.txt</code></pre>
+
+            <div class="callout">
+              <i data-lucide="lightbulb"></i> <strong>Your challenge:</strong> Make a directory called
+              <code>projects</code>, then create an empty file inside it
+              called <code>hello.txt</code>.
+            </div>
+
+            <div class="callout note">
+              <i data-lucide="info"></i> Linux filenames are case-sensitive. <code>Hello.txt</code>
+              and <code>hello.txt</code> are different files.
+            </div>
+          </div>
+        `,
+        initialFs: () => dir({
+            home: dir({ learner: dir() }),
+        }),
+        startCwd: '/home/learner',
+        validate(history, fs, cwd) {
+            const home = getNode(fs, '/home/learner');
+            const proj = home && home.children.projects;
+            const hello = proj && proj.type === 'dir' && proj.children['hello.txt'];
+            if (hello) return { correct: true, message: '✓ Directory and file created. You\'re officially building things.' };
+            if (proj && proj.type === 'dir') return { correct: false, message: 'Great - projects exists. Now `touch projects/hello.txt` to add the file.' };
+            return { correct: false, message: 'Start with `mkdir projects` to make the folder.' };
+        },
+        hint: 'mkdir projects   then   touch projects/hello.txt',
+      },
+
+      /* ── Lesson 4: cat, head, tail ───────────────────────────── */
+      {
+        title: 'Reading files',
+        description: `
+          <p class="lesson-meta">Lesson 4 of 9</p>
+          <h2 class="lesson-title">Reading files (cat, head, tail)</h2>
+          <div class="lesson-body">
+            <p>Three ways to peek inside a file:</p>
+            <ul>
+              <li><code>cat file</code> - print the whole file at once.
+              Great for short files.</li>
+              <li><code>head file</code> - show just the first 10 lines.</li>
+              <li><code>tail file</code> - show just the last 10 lines.</li>
+            </ul>
+
+            <p>You can ask for a custom number of lines with <code>-n</code>:</p>
+            <pre><code>head -n 3 poem.txt
+tail -n 5 poem.txt</code></pre>
+
+            <div class="callout note">
+              <i data-lucide="info"></i> There's also <code>less</code>, which paginates long files -
+              press <kbd>q</kbd> to quit. We simulate it like <code>cat</code>
+              here, but on a real machine it's the best way to read big files.
+            </div>
+
+            <div class="callout">
+              <i data-lucide="lightbulb"></i> <strong>Your challenge:</strong> There's a file called
+              <code>poem.txt</code> in this directory. Read it with
+              <code>cat poem.txt</code>, then with <code>head poem.txt</code>,
+              then with <code>tail poem.txt</code>.
+            </div>
+          </div>
+        `,
+        initialFs: () => dir({
+            home: dir({
+                learner: dir({
+                    'poem.txt': file([
+                        'Roses are red',
+                        'Violets are blue',
+                        'I love the terminal',
+                        'And so will you',
+                        '',
+                        'Files have a top',
+                        'And files have a bottom',
+                        'Use head and tail',
+                        'When the file is a long one',
+                        '',
+                        'The end.',
+                    ].join('\n') + '\n'),
+                }),
+            }),
+        }),
+        startCwd: '/home/learner',
+        validate(history, fs, cwd) {
+            const usedOn = (cmd) => history.some(h => h.cmd === cmd && h.ok && h.args.includes('poem.txt'));
+            const cat = usedOn('cat'), head = usedOn('head'), tail = usedOn('tail');
+            if (cat && head && tail) return { correct: true, message: '✓ You can read files three different ways. Pick the right tool for the file size.' };
+            const missing = [!cat && 'cat', !head && 'head', !tail && 'tail'].filter(Boolean);
+            return { correct: false, message: `Still to try on poem.txt: ${missing.join(', ')}.` };
+        },
+        hint: 'cat poem.txt   head poem.txt   tail poem.txt',
+      },
+
+      /* ── Lesson 5: cp, mv ────────────────────────────────────── */
+      {
+        title: 'Copying and moving',
+        description: `
+          <p class="lesson-meta">Lesson 5 of 9</p>
+          <h2 class="lesson-title">Copying and moving (cp &amp; mv)</h2>
+          <div class="lesson-body">
+            <p>Two commands handle almost all file rearrangement:</p>
+            <ul>
+              <li><code>cp source dest</code> - <strong>c</strong>o<strong>p</strong>y.
+              Makes a duplicate. The original stays put.</li>
+              <li><code>mv source dest</code> - <strong>m</strong>o<strong>v</strong>e.
+              Relocates the file. The original is gone.</li>
+            </ul>
+
+            <p><code>mv</code> is also how you <strong>rename</strong> things,
+            because renaming is just "moving to a new name in the same folder":</p>
+            <pre><code>mv old-name.txt new-name.txt</code></pre>
+
+            <div class="callout">
+              <i data-lucide="lightbulb"></i> <strong>Your challenge:</strong> You have a file called
+              <code>report.txt</code>. First, make a backup copy called
+              <code>report-backup.txt</code> using <code>cp</code>. Then,
+              rename the original to <code>final-report.txt</code> using <code>mv</code>.
+            </div>
+
+            <div class="callout warning">
+              <i data-lucide="triangle-alert"></i> Both <code>cp</code> and <code>mv</code> will overwrite the
+              destination if it already exists, without warning. Always
+              double-check before you press Enter.
+            </div>
+          </div>
+        `,
+        initialFs: () => dir({
+            home: dir({
+                learner: dir({
+                    'report.txt': file('Quarterly results: solid.\n'),
+                }),
+            }),
+        }),
+        startCwd: '/home/learner',
+        validate(history, fs, cwd) {
+            const home = getNode(fs, '/home/learner');
+            if (!home) return { correct: false, message: 'Something went wrong - try Reset.' };
+            const hasBackup = !!home.children['report-backup.txt'];
+            const hasFinal  = !!home.children['final-report.txt'];
+            const noOriginal = !home.children['report.txt'];
+            if (hasBackup && hasFinal && noOriginal) return { correct: true, message: '✓ Copied and renamed. cp and mv are the two workhorses of file management.' };
+            if (!hasBackup) return { correct: false, message: 'Start with `cp report.txt report-backup.txt` to make the backup.' };
+            if (!hasFinal) return { correct: false, message: 'Backup made. Now `mv report.txt final-report.txt` to rename the original.' };
+            return { correct: false, message: 'Almost - make sure you have report-backup.txt AND final-report.txt (with no plain report.txt left).' };
+        },
+        hint: 'cp report.txt report-backup.txt   then   mv report.txt final-report.txt',
+      },
+
+      /* ── Lesson 6: rm, rmdir ─────────────────────────────────── */
+      {
+        title: 'Deleting',
+        description: `
+          <p class="lesson-meta">Lesson 6 of 9</p>
+          <h2 class="lesson-title">Deleting (rm &amp; rmdir)</h2>
+          <div class="lesson-body">
+            <div class="callout danger">
+              <i data-lucide="triangle-alert"></i> <strong>Read this first.</strong> On Linux, <code>rm</code>
+              does <strong>not</strong> put files in a Trash bin. There's no
+              "undo". When you delete something, it's gone. Real beginners
+              have lost real work to this. Always read your command before
+              pressing Enter.
+            </div>
+
+            <p>Two commands:</p>
+            <ul>
+              <li><code>rm file.txt</code> - remove a file.</li>
+              <li><code>rmdir folder</code> - remove a folder
+              (must already be empty).</li>
+            </ul>
+
+            <p>For folders that <em>aren't</em> empty, you'd use
+            <code>rm -r folder</code> (the <code>-r</code> means recursive -
+            delete everything inside it too). We won't practise that here;
+            it's the most dangerous command in this whole course.</p>
+
+            <div class="callout">
+              <i data-lucide="lightbulb"></i> <strong>Your challenge:</strong> Delete the file
+              <code>unwanted.txt</code> with <code>rm</code>, then remove
+              the empty folder <code>oldfolder</code> with <code>rmdir</code>.
+            </div>
+          </div>
+        `,
+        initialFs: () => dir({
+            home: dir({
+                learner: dir({
+                    'unwanted.txt': file('junk\n'),
+                    'oldfolder': dir(),
+                    'keep-me.txt': file('Important stuff. Do not delete.\n'),
+                }),
+            }),
+        }),
+        startCwd: '/home/learner',
+        validate(history, fs, cwd) {
+            const home = getNode(fs, '/home/learner');
+            if (!home) return { correct: false, message: 'Something went wrong - try Reset.' };
+            const unwantedGone = !home.children['unwanted.txt'];
+            const folderGone   = !home.children['oldfolder'];
+            const keepMeStill  = !!home.children['keep-me.txt'];
+            if (unwantedGone && folderGone && keepMeStill) return { correct: true, message: '✓ Cleaned up - and you left keep-me.txt alone. That\'s the right instinct.' };
+            if (!keepMeStill) return { correct: false, message: 'You deleted keep-me.txt - that was the one you were supposed to keep. Hit Reset and try again.' };
+            if (!unwantedGone) return { correct: false, message: 'Start with `rm unwanted.txt`.' };
+            return { correct: false, message: 'Now remove the empty folder: `rmdir oldfolder`.' };
+        },
+        hint: 'rm unwanted.txt   then   rmdir oldfolder',
+      },
+
+      /* ── Lesson 7: grep, find ────────────────────────────────── */
+      {
+        title: 'Searching',
+        description: `
+          <p class="lesson-meta">Lesson 7 of 9</p>
+          <h2 class="lesson-title">Searching (grep &amp; find)</h2>
+          <div class="lesson-body">
+            <p>The two search commands answer two different questions:</p>
+            <ul>
+              <li><code>grep PATTERN file</code> - "show me lines <em>inside
+              the file</em> that contain this text." Searches <strong>content</strong>.</li>
+              <li><code>find DIRECTORY -name PATTERN</code> - "find me files
+              by their <em>name</em>." Searches <strong>filenames</strong>.</li>
+            </ul>
+
+            <p>You can use <code>*</code> as a wildcard:</p>
+            <pre><code>grep TODO *.txt        # search for TODO in every .txt here
+find . -name "*.txt"   # find every .txt under the current directory</code></pre>
+
+            <div class="callout">
+              <i data-lucide="lightbulb"></i> <strong>Your challenge:</strong> Find all lines containing
+              <code>TODO</code> across the <code>.txt</code> files here
+              (try <code>grep TODO *.txt</code>), then find every
+              <code>.txt</code> file with <code>find . -name "*.txt"</code>.
+            </div>
+          </div>
+        `,
+        initialFs: () => dir({
+            home: dir({
+                learner: dir({
+                    'monday.txt':  file('TODO: buy milk\nDone: dishes\n'),
+                    'tuesday.txt': file('TODO: call dentist\nWent for a walk\n'),
+                    'lunch.txt':   file('cheese and bread\n'),
+                    'subfolder':   dir({
+                        'notes.txt': file('TODO: read more\n'),
+                    }),
+                }),
+            }),
+        }),
+        startCwd: '/home/learner',
+        validate(history, fs, cwd) {
+            const usedGrep = history.some(h => h.cmd === 'grep' && h.ok);
+            const usedFind = history.some(h => h.cmd === 'find' && h.ok);
+            if (usedGrep && usedFind) return { correct: true, message: '✓ You can search by content AND by filename. Two superpowers.' };
+            if (usedGrep) return { correct: false, message: 'Now try `find . -name "*.txt"` to search by filename.' };
+            if (usedFind) return { correct: false, message: 'Now try `grep TODO *.txt` to search inside files.' };
+            return { correct: false, message: 'Start with `grep TODO *.txt`.' };
+        },
+        hint: 'grep TODO *.txt   then   find . -name "*.txt"',
+      },
+
+      /* ── Lesson 8: chmod, ls -l ──────────────────────────────── */
+      {
+        title: 'Permissions',
+        description: `
+          <p class="lesson-meta">Lesson 8 of 9</p>
+          <h2 class="lesson-title">Permissions (chmod &amp; ls -l)</h2>
+          <div class="lesson-body">
+            <p>Every file has three groups of permissions:
+            owner, group, and everyone else. Each group has three
+            possible permissions: read (r), write (w), execute (x).</p>
+
+            <p>When you run <code>ls -l</code>, the first column tells you all of this:</p>
+            <pre><code>-rwxr-xr-x  1 you you  42  May 15  script.sh
+ │└──┬──┘└┬┘└┬┘
+ │   │    │   └─ others: r-x (read &amp; execute)
+ │   │    └───── group:  r-x (read &amp; execute)
+ │   └────────── owner:  rwx (read, write, execute)
+ └────────────── file type: - is file, d is directory</code></pre>
+
+            <h3>Changing permissions with <code>chmod</code></h3>
+            <ul>
+              <li><code>chmod +x script.sh</code> - make it executable</li>
+              <li><code>chmod -x script.sh</code> - remove execute permission</li>
+              <li><code>chmod 755 script.sh</code> - numeric form (owner: rwx, others: r-x)</li>
+            </ul>
+
+            <div class="callout">
+              <i data-lucide="lightbulb"></i> <strong>Your challenge:</strong> Run <code>ls -l</code> to
+              see the current permissions, then make <code>script.sh</code>
+              executable with <code>chmod +x script.sh</code>.
+            </div>
+          </div>
+        `,
+        initialFs: () => dir({
+            home: dir({
+                learner: dir({
+                    'script.sh': file('echo "hello"\n', 'rw-r--r--'),
+                    'data.txt':  file('1,2,3\n'),
+                }),
+            }),
+        }),
+        startCwd: '/home/learner',
+        validate(history, fs, cwd) {
+            const ranLsL = history.some(h => h.cmd === 'ls' && h.ok && h.args.some(a => a.includes('l')));
+            const script = getNode(fs, '/home/learner/script.sh');
+            const isExec = script && script.perms && script.perms.includes('x');
+            if (ranLsL && isExec) return { correct: true, message: '✓ You can read permissions and change them. That\'s most of what people ever need.' };
+            if (!ranLsL) return { correct: false, message: 'Start with `ls -l` to see the current permissions.' };
+            return { correct: false, message: 'Now `chmod +x script.sh` to make it executable.' };
+        },
+        hint: 'ls -l   then   chmod +x script.sh',
+      },
+
+      /* ── Lesson 9: man, --help, history, clear ───────────────── */
+      {
+        title: 'Getting unstuck',
+        description: `
+          <p class="lesson-meta">Lesson 9 of 9</p>
+          <h2 class="lesson-title">Getting unstuck (man, --help, history, clear)</h2>
+          <div class="lesson-body">
+            <p>You don't need to memorise every Linux command. You just
+            need to know how to look things up. These four tools make
+            you self-sufficient:</p>
+
+            <ul>
+              <li><code>man command</code> - show the <strong>man</strong>ual
+              page for any command. The full documentation.</li>
+              <li><code>command --help</code> - most commands accept this and
+              print a quick summary of their options.</li>
+              <li><code>history</code> - show every command you've run
+              in this session. Great for "wait, what did I just type?"</li>
+              <li><code>clear</code> - wipe the terminal screen. Doesn't
+              delete anything, just gives you a fresh view.</li>
+            </ul>
+
+            <div class="callout note">
+              <i data-lucide="info"></i> Inside <code>man</code> on a real terminal, you press
+              <kbd>q</kbd> to quit and arrow keys to scroll. We just print
+              the page here.
+            </div>
+
+            <div class="callout">
+              <i data-lucide="lightbulb"></i> <strong>Your challenge:</strong> Try all four:
+              <code>man ls</code>, then <code>ls --help</code>, then
+              <code>history</code>, then <code>clear</code>.
+            </div>
+          </div>
+        `,
+        initialFs: () => dir({
+            home: dir({ learner: dir() }),
+        }),
+        startCwd: '/home/learner',
+        validate(history, fs, cwd) {
+            const usedMan     = history.some(h => h.cmd === 'man' && h.ok);
+            const usedHelp    = history.some(h => h.args && h.args.includes('--help'));
+            const usedHistory = history.some(h => h.cmd === 'history');
+            const usedClear   = history.some(h => h.cmd === 'clear');
+            const todo = [];
+            if (!usedMan)     todo.push('man <something>');
+            if (!usedHelp)    todo.push('<command> --help');
+            if (!usedHistory) todo.push('history');
+            if (!usedClear)   todo.push('clear');
+            if (todo.length === 0) return { correct: true, message: 'You can teach yourself anything now. That\'s the whole game.' };
+            return { correct: false, message: `Still to try: ${todo.join(', ')}.` };
+        },
+        hint: 'man ls   ls --help   history   clear',
+      },
+
+    ]; // end LESSONS
+
+
+    /* ================================================================
+       E. APP STATE
+       ----------------------------------------------------------------
+       One plain object holds everything that changes over time.
+       Centralising state makes the app much easier to reason about.
+       ================================================================ */
+
+    const app = {
+        currentIndex: 0,    // which lesson we're on (0-based)
+        passed: [],         // boolean per lesson - has the user passed it?
+        fs: null,           // current lesson's filesystem (mutable)
+        cwd: '/',           // current working directory
+        history: [],        // commands run in the CURRENT lesson
+        terminalHistory: [], // for the `history` command - clears on lesson change
+    };
+
+
+    /* ================================================================
+       F. RENDERER
+       ----------------------------------------------------------------
+       Builds the HTML for the two panes whenever the lesson changes.
+       The instruction pane is just the lesson's description HTML.
+       The interactive pane builds a fresh terminal (output area + input).
+       ================================================================ */
+
+    function renderLesson(index) {
+        const lesson = LESSONS[index];
+        app.currentIndex = index;
+        app.fs  = lesson.initialFs();
+        app.cwd = lesson.startCwd;
+        app.history = [];
+        app.terminalHistory = [];
+
+        // Left pane - lesson description
+        const left = document.getElementById('instruction-pane');
+        // The description HTML is authored by us (in this file), so
+        // innerHTML is safe here. We do NOT use innerHTML for anything
+        // the user types - see appendOutput().
+        left.innerHTML = lesson.description;
+        left.scrollTop = 0;
+        lucide.createIcons();
+
+        // Right pane - terminal
+        const right = document.getElementById('interactive-pane');
+        right.innerHTML = `
+            <div class="terminal-header">
+                <div class="terminal-dots"><span></span><span></span><span></span></div>
+                <span class="terminal-title">learner@linux-course - bash</span>
+            </div>
+            <div id="terminal-output" class="terminal-output" aria-live="polite" aria-label="Terminal output"></div>
+            <div class="feedback" id="feedback" role="status" aria-live="polite"></div>
+            <div class="terminal-input-line">
+                <span id="terminal-prompt" class="terminal-prompt"></span>
+                <input type="text"
+                       id="terminal-input"
+                       class="terminal-input"
+                       autocomplete="off"
+                       autocapitalize="off"
+                       autocorrect="off"
+                       spellcheck="false"
+                       aria-label="Type a Linux command and press Enter">
+            </div>
+        `;
+
+        // Welcome message in the terminal
+        const out = document.getElementById('terminal-output');
+        appendInfo(out, `Welcome to lesson ${index + 1}: ${lesson.title}`);
+        if (lesson.hint) appendInfo(out, `Hint: ${lesson.hint}`);
+
+        // Update the prompt to reflect the starting cwd
+        updatePrompt();
+
+        // Focus the input so the user can start typing immediately
+        const input = document.getElementById('terminal-input');
+        input.focus();
+
+        // Wire up the Enter key
+        input.addEventListener('keydown', handleInputKey);
+
+        // Reset button - re-renders the current lesson
+        const btnReset = document.getElementById('btn-reset');
+        btnReset.classList.remove('hidden');
+        btnReset.onclick = () => renderLesson(index);
+
+        // Next button - disabled until passed
+        document.getElementById('btn-next').disabled = !app.passed[index];
+
+        updateProgress();
+        highlightDebugButton(index);
+    }
+
+
+    /* ================================================================
+       G. RUN / CHECK
+       ----------------------------------------------------------------
+       When the user presses Enter:
+         1. Read the input
+         2. Echo it into the terminal output area
+         3. Parse + dispatch to the matching command
+         4. Append the output
+         5. Record it in app.history
+         6. Run the lesson's validate() and show feedback
+       ================================================================ */
+
+    /** Format the prompt text from the current cwd. */
+    function promptText() {
+        // ~  for home, ~/sub for paths under home, otherwise the absolute path
+        let display = app.cwd;
+        if (display === '/home/learner') display = '~';
+        else if (display.startsWith('/home/learner/')) display = '~' + display.slice('/home/learner'.length);
+        return `learner@linux:${display}$ `;
+    }
+
+    function updatePrompt() {
+        const el = document.getElementById('terminal-prompt');
+        if (el) el.textContent = promptText();
+    }
+
+    /** Append a line of normal output to the terminal display. */
+    function appendOutput(out, text, isError = false) {
+        const line = document.createElement('div');
+        line.className = 'term-line term-output' + (isError ? ' error' : '');
+        // textContent (not innerHTML) prevents any HTML injection from
+        // user input or fake "file contents" sneaking script tags through.
+        line.textContent = text;
+        out.appendChild(line);
+        out.scrollTop = out.scrollHeight;
+    }
+
+    /** Append a faint italic info line - used for hints / welcome messages. */
+    function appendInfo(out, text) {
+        const line = document.createElement('div');
+        line.className = 'term-line term-info';
+        line.textContent = text;
+        out.appendChild(line);
+        out.scrollTop = out.scrollHeight;
+    }
+
+    /** Echo the user's command line back into the output area. */
+    function echoCommand(out, line) {
+        const div = document.createElement('div');
+        div.className = 'term-line term-prompt-line';
+        // Build two text nodes - prompt then command - using textContent
+        // so nothing the user types gets interpreted as HTML.
+        const prompt = document.createElement('span');
+        prompt.textContent = promptText();
+        const cmd = document.createElement('span');
+        cmd.className = 'cmd';
+        cmd.textContent = line;
+        div.appendChild(prompt);
+        div.appendChild(cmd);
+        out.appendChild(div);
+        out.scrollTop = out.scrollHeight;
+    }
+
+    /** Handle Enter in the terminal input. */
+    function handleInputKey(e) {
+        // Up / Down arrows could scroll through history - a future
+        // touch we leave out for the Part 1 scope.
+        if (e.key !== 'Enter') return;
+        e.preventDefault();
+        const input = e.target;
+        const line = input.value;
+        input.value = '';
+        runLine(line);
+    }
+
+    /** Parse and execute one command line. */
+    function runLine(line) {
+        const out = document.getElementById('terminal-output');
+        echoCommand(out, line);
+
+        const trimmed = line.trim();
+        // Always record raw input for the `history` command, even if empty
+        app.terminalHistory.push(trimmed);
+        if (!trimmed) return;
+
+        const tokens = tokenize(trimmed);
+        const cmd = tokens[0];
+        const args = tokens.slice(1);
+
+        let result;
+        // `clear` and `history` are handled here (they need access to
+        // the UI / app.terminalHistory, not the filesystem)
+        if (cmd === 'clear') {
+            out.innerHTML = '';
+            result = { ok: true, output: '' };
+        } else if (cmd === 'history') {
+            const lines = app.terminalHistory
+                .filter(l => l.length)
+                .map((l, i) => `${String(i + 1).padStart(4)}  ${l}`);
+            const text = lines.join('\n');
+            if (text) appendOutput(out, text);
+            result = { ok: true, output: text };
+        } else if (args.includes('--help')) {
+            // Generic --help support: print the man page if we have one,
+            // otherwise a short message. Real Linux varies wildly here.
+            const page = MAN_PAGES[cmd];
+            const text = page || `Usage: ${cmd} [OPTIONS] [ARGS]\nThis command has no extended help in our simulator.`;
+            appendOutput(out, text);
+            result = { ok: true, output: text };
+        } else if (COMMANDS[cmd]) {
+            result = COMMANDS[cmd](app.fs, app.cwd, args);
+            if (result.output) appendOutput(out, result.output, !result.ok);
+            if (result.cwd) {
+                app.cwd = result.cwd;
+                updatePrompt();
+            }
+        } else {
+            const msg = `bash: ${cmd}: command not found`;
+            appendOutput(out, msg, true);
+            result = { ok: false, output: msg };
+        }
+
+        // Record this attempt for the lesson's validator
+        app.history.push({
+            cmd,
+            args,
+            output: result.output,
+            ok: result.ok,
+            cwdAfter: app.cwd,
+        });
+
+        // Validate after every command
+        evaluateLesson();
+    }
+
+    /** Run the current lesson's validator and update the feedback bar. */
+    function evaluateLesson() {
+        const lesson = LESSONS[app.currentIndex];
+        const fb = document.getElementById('feedback');
+        const verdict = lesson.validate(app.history, app.fs, app.cwd);
+
+        if (verdict.correct) {
+            app.passed[app.currentIndex] = true;
+            fb.className = 'feedback show success';
+            fb.textContent = verdict.message;
+            document.getElementById('btn-next').disabled = false;
+            updateProgress();
+        } else if (verdict.message) {
+            fb.className = 'feedback show warning';
+            fb.textContent = verdict.message;
+        } else {
+            fb.className = 'feedback';
+            fb.textContent = '';
+        }
+    }
+
+
+    /* ================================================================
+       H. NAVIGATION
+       ----------------------------------------------------------------
+       The Next button advances to the next lesson. The progress bar
+       reflects how many lessons have been passed (out of 9, plus the
+       certificate page).
+       ================================================================ */
+
+    function goNext() {
+        const next = app.currentIndex + 1;
+        if (next >= LESSONS.length) {
+            // Past the last lesson → show the certificate screen
+            showCompletion();
+        } else {
+            renderLesson(next);
+        }
+    }
+
+    function updateProgress() {
+        const total = LESSONS.length;
+        const done = app.passed.filter(Boolean).length;
+        const pct = Math.round((done / total) * 100);
+        document.getElementById('progress-bar').style.width = pct + '%';
+        document.getElementById('progress-text').textContent =
+            `${done} / ${total} lessons`;
+    }
+
+
+    /* ================================================================
+       I. COMPLETION + CERTIFICATE
+       ----------------------------------------------------------------
+       After lesson 9, we replace both panes with a celebration screen
+       and a name input. Clicking the download button builds a PDF
+       certificate using jsPDF and saves it to the learner's machine.
+       ================================================================ */
+
+    function showCompletion() {
+        document.getElementById('btn-next').disabled = true;
+        document.getElementById('btn-reset').classList.add('hidden');
+
+        const left = document.getElementById('instruction-pane');
+        left.innerHTML = `
+            <p class="lesson-meta">Course complete</p>
+            <h2 class="lesson-title"><i data-lucide="party-popper"></i> You did it!</h2>
+            <div class="lesson-body">
+                <p>You've finished <strong>Linux Fundamentals: Part 1</strong>.
+                You now know how to:</p>
+                <ul class="completed-list">
+                    <li>Know where you are and what's around (pwd, ls)</li>
+                    <li>Move around the filesystem (cd)</li>
+                    <li>Create files and directories (touch, mkdir)</li>
+                    <li>Read file contents (cat, head, tail, less)</li>
+                    <li>Copy and move files (cp, mv)</li>
+                    <li>Delete files and folders safely (rm, rmdir)</li>
+                    <li>Search files by content and name (grep, find)</li>
+                    <li>Read and change permissions (ls -l, chmod)</li>
+                    <li>Look things up for yourself (man, --help, history, clear)</li>
+                </ul>
+                <p>That's a real foundation. The next time you SSH into a
+                server, set up a Raspberry Pi, or open a terminal anywhere,
+                you'll know what to do.</p>
+            </div>
+        `;
+
+        const right = document.getElementById('interactive-pane');
+        // Reset to default styling for this screen
+        right.style.background = 'var(--bg-primary)';
+        right.style.color = 'var(--text-primary)';
+        right.innerHTML = `
+            <div style="padding: 2rem;">
+                <h2 class="lesson-title">Your Certificate</h2>
+                <p style="color: var(--text-secondary); margin-bottom: 1rem;">
+                    Enter your name and download a PDF certificate to keep.
+                </p>
+                <div class="certificate-form">
+                    <label for="cert-name">Your name</label>
+                    <input id="cert-name"
+                           type="text"
+                           placeholder="e.g. Alex Morgan"
+                           autocomplete="name"
+                           maxlength="60">
+                    <button id="cert-download" class="primary-btn">
+                        ⬇ Download Certificate (PDF)
+                    </button>
+                </div>
+            </div>
+        `;
+        document.getElementById('cert-download').addEventListener('click', downloadCertificate);
+        document.getElementById('cert-name').focus();
+    }
+
+    /** Build and trigger download of the PDF certificate. */
+    function downloadCertificate() {
+        const nameInput = document.getElementById('cert-name');
+        const name = (nameInput.value || '').trim() || 'Learner';
+
+        // jsPDF is loaded via CDN; it attaches to window.jspdf.
+        const { jsPDF } = window.jspdf;
+        const doc = new jsPDF({ orientation: 'landscape', unit: 'pt', format: 'letter' });
+        const pageW = doc.internal.pageSize.getWidth();
+        const pageH = doc.internal.pageSize.getHeight();
+
+        // Outer border
+        doc.setDrawColor(37, 99, 235);
+        doc.setLineWidth(4);
+        doc.rect(30, 30, pageW - 60, pageH - 60);
+        // Inner border - thinner, for that "official" feel
+        doc.setLineWidth(1);
+        doc.rect(45, 45, pageW - 90, pageH - 90);
+
+        // Title
+        doc.setFont('helvetica', 'bold');
+        doc.setFontSize(36);
+        doc.setTextColor(31, 41, 55);
+        doc.text('Certificate of Completion', pageW / 2, 140, { align: 'center' });
+
+        // "Awarded to..."
+        doc.setFont('helvetica', 'normal');
+        doc.setFontSize(16);
+        doc.setTextColor(107, 114, 128);
+        doc.text('This certifies that', pageW / 2, 200, { align: 'center' });
+
+        // Name - the centrepiece
+        doc.setFont('helvetica', 'bold');
+        doc.setFontSize(32);
+        doc.setTextColor(37, 99, 235);
+        doc.text(name, pageW / 2, 250, { align: 'center' });
+
+        // Course description
+        doc.setFont('helvetica', 'normal');
+        doc.setFontSize(16);
+        doc.setTextColor(107, 114, 128);
+        doc.text('has successfully completed', pageW / 2, 295, { align: 'center' });
+
+        doc.setFont('helvetica', 'bold');
+        doc.setFontSize(22);
+        doc.setTextColor(31, 41, 55);
+        doc.text('Linux Fundamentals: Part 1', pageW / 2, 335, { align: 'center' });
+
+        // Footer
+        doc.setFont('helvetica', 'normal');
+        doc.setFontSize(12);
+        doc.setTextColor(107, 114, 128);
+        doc.text(formattedDate(), pageW / 2, pageH - 110, { align: 'center' });
+        doc.text('9 commands mastered • Real terminal habits learned', pageW / 2, pageH - 90, { align: 'center' });
+
+        doc.save(`linux-fundamentals-${name.replace(/\s+/g, '-').toLowerCase()}.pdf`);
+    }
+
+    /** Pretty date like "May 15, 2026". */
+    function formattedDate() {
+        const months = ['January','February','March','April','May','June',
+                        'July','August','September','October','November','December'];
+        const d = new Date();
+        return `${months[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`;
+    }
+
+
+    /* ================================================================
+       J. THEME (light / dark)
+       ----------------------------------------------------------------
+       Three sources of truth, in priority order:
+         1. localStorage value (if user has clicked the toggle before)
+         2. OS preference (prefers-color-scheme)
+         3. Light default
+       The toggle button cycles light → dark → light.
+       ================================================================ */
+
+    function initTheme() {
+        const saved = localStorage.getItem('linux-theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const startDark = saved ? (saved === 'dark') : prefersDark;
+        applyTheme(startDark);
+    }
+
+    function applyTheme(isDark) {
+        document.body.classList.toggle('dark-mode', isDark);
+        const icon = document.querySelector('.theme-icon');
+        if (icon) {
+            icon.innerHTML = `<i data-lucide="${isDark ? 'sun' : 'moon'}"></i>`;
+            lucide.createIcons();
+        }
+    }
+
+    function toggleTheme() {
+        const isDark = !document.body.classList.contains('dark-mode');
+        applyTheme(isDark);
+        localStorage.setItem('linux-theme', isDark ? 'dark' : 'light');
+    }
+
+
+    /* ================================================================
+       K. DEBUG MODE (?debug=true)
+       ----------------------------------------------------------------
+       Adds a floating panel of buttons - one per lesson - so we can
+       jump straight to any lesson during development. Off by default.
+       ================================================================ */
+
+    function initDebugMode() {
+        const params = new URLSearchParams(window.location.search);
+        if (params.get('debug') !== 'true') return;
+
+        const menu = document.getElementById('debug-menu');
+        const grid = document.getElementById('debug-buttons');
+        menu.classList.remove('hidden');
+
+        for (let i = 0; i < LESSONS.length; i++) {
+            const btn = document.createElement('button');
+            btn.className = 'debug-btn';
+            btn.textContent = String(i + 1);
+            btn.title = LESSONS[i].title;
+            btn.addEventListener('click', () => {
+                // Mark all previous lessons as passed so Next + progress work
+                for (let j = 0; j < i; j++) app.passed[j] = true;
+                renderLesson(i);
+            });
+            grid.appendChild(btn);
+        }
+
+        // Optional ?lesson=N to jump directly on load
+        const lessonParam = parseInt(params.get('lesson'), 10);
+        if (!isNaN(lessonParam) && lessonParam >= 1 && lessonParam <= LESSONS.length) {
+            for (let j = 0; j < lessonParam - 1; j++) app.passed[j] = true;
+            renderLesson(lessonParam - 1);
+        }
+    }
+
+    function highlightDebugButton(index) {
+        const buttons = document.querySelectorAll('.debug-btn');
+        buttons.forEach((b, i) => b.classList.toggle('active', i === index));
+    }
+
+
+    /* ================================================================
+       L. STARTUP
+       ----------------------------------------------------------------
+       Wire everything up once the DOM is ready.
+       ================================================================ */
+
+    function initApp() {
+        // One "passed" flag per lesson, all false to start
+        app.passed = new Array(LESSONS.length).fill(false);
+
+        initTheme();
+
+        // Wire UI controls
+        document.getElementById('theme-toggle').addEventListener('click', toggleTheme);
+        document.getElementById('btn-next').addEventListener('click', goNext);
+
+        // Render the first lesson
+        renderLesson(0);
+        updateProgress();
+
+        // Optional dev panel
+        initDebugMode();
+    }
+
+    window.addEventListener('DOMContentLoaded', () => {
+        lucide.createIcons(); // activate static icons before app init
+        initApp();
+    });
+
+    </script>
+</body>
+</html>

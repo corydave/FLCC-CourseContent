@@ -1,0 +1,246 @@
+/* ================================================================
+   Linux Fundamentals - Tutorial-Specific Styles
+   Shared styles (variables, header, layout, buttons) live in ../styles.css
+   ================================================================ */
+
+
+/* ============================================================
+   Terminal color tokens
+   ============================================================ */
+
+:root {
+    --terminal-bg:     #1e1e2e;
+    --terminal-fg:     #cdd6f4;
+    --terminal-prompt: #a6e3a1;
+    --terminal-error:  #f38ba8;
+    --terminal-dim:    #6c7086;
+}
+
+body.dark-mode {
+    --bg-primary:    #0f172a;
+    --bg-secondary:  #1e293b;
+    --bg-tertiary:   #334155;
+    --text-primary:  #f1f5f9;
+    --text-secondary:#cbd5e1;
+    --text-tertiary: #94a3b8;
+    --border-color:  #475569;
+    --border-light:  #334155;
+}
+
+
+/* ============================================================
+   Terminal interactive pane - overrides shared .pane
+   ============================================================ */
+
+.interactive-pane {
+    padding: 0;
+    background: var(--terminal-bg);
+    border-color: var(--terminal-bg);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+
+/* ============================================================
+   Terminal chrome (title bar with traffic-light dots)
+   ============================================================ */
+
+.terminal-header {
+    background: #181825;
+    color: var(--terminal-dim);
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-bottom: 1px solid #313244;
+    border-radius: 12px 12px 0 0;
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+}
+
+.terminal-dots { display: flex; gap: 6px; }
+
+.terminal-dots span {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #45475a;
+}
+
+.terminal-dots span:nth-child(1) { background: #f38ba8; }
+.terminal-dots span:nth-child(2) { background: #f9e2af; }
+.terminal-dots span:nth-child(3) { background: #a6e3a1; }
+
+.terminal-title { margin-left: var(--spacing-sm); }
+
+
+/* ============================================================
+   Scrolling output area
+   ============================================================ */
+
+.terminal-output {
+    flex: 1;
+    overflow-y: auto;
+    padding: var(--spacing-md);
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: var(--terminal-fg);
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+.term-line              { margin-bottom: var(--spacing-xs); }
+.term-prompt-line       { color: var(--terminal-prompt); }
+.term-prompt-line .cmd  { color: var(--terminal-fg); }
+.term-output            { color: var(--terminal-fg); }
+.term-output.error      { color: var(--terminal-error); }
+.term-info              { color: var(--terminal-dim); font-style: italic; }
+
+
+/* ============================================================
+   Input line (at the bottom of the terminal)
+   ============================================================ */
+
+.terminal-input-line {
+    display: flex;
+    align-items: center;
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-top: 1px solid #313244;
+    background: var(--terminal-bg);
+    border-radius: 0 0 12px 12px;
+    gap: var(--spacing-sm);
+}
+
+.terminal-prompt {
+    color: var(--terminal-prompt);
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+    white-space: nowrap;
+}
+
+.terminal-input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    color: var(--terminal-fg);
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+    outline: none;
+    caret-color: var(--terminal-prompt);
+}
+
+
+/* ============================================================
+   Feedback strip (shown below the terminal)
+   ============================================================ */
+
+.feedback {
+    margin: var(--spacing-md);
+    margin-top: 0;
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: 6px;
+    font-size: 0.9rem;
+    display: none;
+    font-family: var(--font-sans);
+}
+
+.feedback.show { display: block; }
+
+.feedback.success {
+    background: rgba(22, 163, 74, 0.15);
+    color: var(--color-success);
+    border: 1px solid var(--color-success);
+}
+
+.feedback.warning {
+    background: rgba(245, 158, 11, 0.15);
+    color: var(--color-warning);
+    border: 1px solid var(--color-warning);
+}
+
+.feedback.error {
+    background: rgba(220, 38, 38, 0.15);
+    color: var(--color-error);
+    border: 1px solid var(--color-error);
+}
+
+
+/* ============================================================
+   Certificate / completion form
+   ============================================================ */
+
+.certificate-form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+    max-width: 400px;
+    margin: var(--spacing-lg) auto;
+}
+
+.certificate-form label {
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.certificate-form input {
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    padding: 0.65rem 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    background: var(--bg-primary);
+    color: var(--text-primary);
+}
+
+.completed-list             { list-style: none; padding-left: 0; }
+.completed-list li          { padding: var(--spacing-xs) 0; color: var(--text-secondary); }
+.completed-list li::before  { content: '✓ '; color: var(--color-success); font-weight: 700; }
+
+
+/* ============================================================
+   Linux-specific debug menu overrides
+   ============================================================ */
+
+.debug-header {
+    font-family: var(--font-mono);
+    text-transform: none;
+    letter-spacing: 0;
+}
+
+.debug-btn {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    cursor: pointer;
+    color: var(--text-primary);
+}
+
+.debug-btn:hover { background: var(--bg-tertiary); }
+
+.debug-btn.active {
+    background: var(--color-warning);
+    color: white;
+    border-color: var(--color-warning);
+}
+
+
+/* ============================================================
+   Responsive - mobile
+   ============================================================ */
+
+@media (max-width: 768px) {
+    .main-container { gap: var(--spacing-sm); }
+    .pane           { min-height: 350px; }
+    .header-content { flex-wrap: wrap; }
+    header h1       { font-size: 1.05rem; }
+
+    .debug-menu {
+        bottom: 80px;
+        right: var(--spacing-sm);
+    }
+}

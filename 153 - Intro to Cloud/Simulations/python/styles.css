@@ -1,0 +1,345 @@
+/* ================================================================
+   Python Fundamentals - Tutorial-Specific Styles
+   Shared styles (variables, header, layout, buttons) live in ../styles.css
+   ================================================================ */
+
+
+/* ============================================================
+   Python-specific editor color tokens
+   Always dark (VS Code style) even in light mode.
+   ============================================================ */
+
+:root {
+    --python-editor-bg:   #1e1e1e;
+    --python-editor-text: #d4d4d4;
+}
+
+body.dark-mode {
+    --python-editor-bg:   #0d1117;
+    --python-editor-text: #e6edf3;
+}
+
+
+/* ============================================================
+   Loading screen
+   Visible while Pyodide (Python/WASM) initialises.
+   ============================================================ */
+
+#loading-screen {
+    position: fixed;
+    inset: 0;
+    background-color: var(--bg-secondary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-md);
+    z-index: 999;
+    transition: opacity 0.35s;
+}
+
+#loading-screen.fade-out {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.loading-icon {
+    font-size: 2.5rem;
+    animation: bob 1.4s ease-in-out infinite;
+}
+
+@keyframes bob {
+    0%, 100% { transform: translateY(0); }
+    50%       { transform: translateY(-8px); }
+}
+
+.loading-title {
+    font-family: var(--font-heading);
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.loading-bar-track {
+    width: 200px;
+    height: 5px;
+    background-color: var(--bg-tertiary);
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.loading-bar-fill {
+    height: 100%;
+    background-color: var(--color-primary);
+    border-radius: 3px;
+    animation: pulse-bar 1.6s ease-in-out infinite;
+}
+
+@keyframes pulse-bar {
+    0%   { width: 5%; }
+    50%  { width: 80%; }
+    100% { width: 5%; }
+}
+
+.loading-msg {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+}
+
+
+/* ============================================================
+   Editor label
+   ============================================================ */
+
+.editor-label {
+    font-size: 0.7rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--text-tertiary);
+    margin-bottom: var(--spacing-xs);
+}
+
+
+/* ============================================================
+   Code editor textarea (dark VS Code style)
+   ============================================================ */
+
+.code-editor {
+    width: 100%;
+    background-color: var(--python-editor-bg);
+    color: var(--python-editor-text);
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+    line-height: 1.6;
+    padding: var(--spacing-md);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    resize: vertical;
+    min-height: 160px;
+    outline: none;
+    tab-size: 4;
+    /* caret-color: var(--color-primary); */
+    caret-color: #ffffff;
+    transition: border-color 0.2s;
+}
+
+.code-editor:focus {
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px rgba(0, 70, 173, 0.15);
+}
+
+
+/* ============================================================
+   Output area (terminal feel)
+   ============================================================ */
+
+.output-area {
+    background-color: var(--python-editor-bg);
+    color: #4ade80;
+    font-family: var(--font-mono);
+    font-size: 0.875rem;
+    line-height: 1.6;
+    padding: var(--spacing-md);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    min-height: 72px;
+    white-space: pre-wrap;
+}
+
+.output-area.empty    { color: var(--text-tertiary); font-style: italic; }
+.output-area.has-error { color: #f87171; }
+
+
+/* ============================================================
+   Feedback area
+   ============================================================ */
+
+.feedback-area {
+    padding: var(--spacing-md);
+    border-radius: 6px;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    display: none;
+}
+
+.feedback-area.correct {
+    display: block;
+    background-color: rgba(22, 163, 74, 0.1);
+    border: 1px solid var(--color-success);
+    color: var(--color-success);
+}
+
+.feedback-area.incorrect {
+    display: block;
+    background-color: rgba(220, 38, 38, 0.08);
+    border: 1px solid var(--color-error);
+    color: var(--color-error);
+}
+
+
+/* ============================================================
+   Hint text
+   ============================================================ */
+
+.hint-text {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+}
+
+.hint-text code {
+    font-family: var(--font-mono);
+    background-color: var(--bg-tertiary);
+    padding: 0.1em 0.3em;
+    border-radius: 3px;
+    font-size: 0.9em;
+}
+
+
+/* ============================================================
+   Button row
+   ============================================================ */
+
+.button-row {
+    display: flex;
+    gap: var(--spacing-sm);
+    align-items: center;
+    flex-wrap: wrap;
+    padding: var(--spacing-xs) 0;
+}
+
+
+/* ============================================================
+   Run button (green)
+   ============================================================ */
+
+.run-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.5rem 1.1rem;
+    border: none;
+    border-radius: 6px;
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #16a34a;
+    color: #ffffff;
+    transition: background-color 0.15s, opacity 0.15s, transform 0.1s;
+}
+
+.run-btn:hover:not(:disabled) { background-color: #15803d; }
+.run-btn:active                { transform: scale(0.97); }
+.run-btn:disabled              { opacity: 0.4; cursor: not-allowed; }
+.run-btn:focus-visible         { outline: 2px solid var(--color-primary); outline-offset: 2px; }
+
+
+/* ============================================================
+   Check button
+   ============================================================ */
+
+.check-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.5rem 1.1rem;
+    border: none;
+    border-radius: 6px;
+    font-family: var(--font-sans);
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: var(--color-primary);
+    color: #ffffff;
+    transition: background-color 0.15s, opacity 0.15s, transform 0.1s;
+}
+
+.check-btn:hover:not(:disabled) { background-color: var(--color-primary-dark); }
+.check-btn:active                { transform: scale(0.97); }
+.check-btn:disabled              { opacity: 0.4; cursor: not-allowed; }
+.check-btn:focus-visible         { outline: 2px solid var(--color-primary); outline-offset: 2px; }
+
+
+/* ============================================================
+   Completion screen
+   ============================================================ */
+
+.complete-screen {
+    text-align: center;
+    padding: var(--spacing-xl) 0;
+}
+
+.complete-icon {
+    font-size: 3.5rem;
+    display: block;
+    margin-bottom: var(--spacing-md);
+}
+
+.complete-title {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin-bottom: var(--spacing-md);
+}
+
+.complete-body {
+    font-size: 1rem;
+    line-height: 1.75;
+    color: var(--text-primary);
+    max-width: 440px;
+    margin: 0 auto var(--spacing-lg);
+}
+
+.complete-date {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    margin-top: var(--spacing-xl);
+}
+
+.next-steps-list {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    line-height: 2.2;
+    font-size: 0.95rem;
+}
+
+.next-steps-list li::before {
+    content: "→ ";
+    color: var(--color-primary);
+    font-weight: 700;
+}
+
+
+/* ============================================================
+   Python debug grid override (mono font, active state)
+   ============================================================ */
+
+.debug-grid button { font-family: var(--font-mono); }
+
+.debug-grid button.active {
+    background: var(--color-primary);
+    color: white;
+    border-color: var(--color-primary);
+}
+
+
+/* ============================================================
+   Responsive
+   ============================================================ */
+
+@media (max-width: 800px) {
+    .main-container {
+        grid-template-columns: 1fr;
+    }
+
+    .instruction-pane {
+        border-right: none;
+        border-bottom: 1px solid var(--border-color);
+    }
+}
