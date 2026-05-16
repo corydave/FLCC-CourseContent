@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Fundamentals - Interactive Simulations</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Comfortaa:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: "Atkinson Hyperlegible", -apple-system, sans-serif;
+            background: #eaecf2;
+            color: #1f2937;
+            min-height: 100vh;
+        }
+
+        /* ── Header ── */
+        header {
+            background: #ffffff;
+            border-bottom: 1px solid #e5e7eb;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+        }
+
+        .header-inner {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 1.25rem 2rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .logo-badge {
+            background: #0046ad;
+            color: #ffffff;
+            font-family: "Comfortaa", sans-serif;
+            font-weight: 700;
+            font-size: 0.95rem;
+            padding: 0.45rem 0.9rem;
+            border-radius: 10px;
+            letter-spacing: 0.02em;
+            flex-shrink: 0;
+        }
+
+        .header-text h1 {
+            font-family: "Comfortaa", sans-serif;
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #1f2937;
+            line-height: 1.2;
+        }
+
+        .header-text p {
+            font-size: 0.85rem;
+            color: #6b7280;
+            margin-top: 0.15rem;
+        }
+
+        /* ── Card grid ── */
+        main {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 2.5rem 2rem 3rem;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.75rem;
+        }
+
+        /* ── Individual card ── */
+        .card {
+            background: #ffffff;
+            border-radius: 16px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08), 0 0 0 1px rgba(0,0,0,0.04);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            transition: box-shadow 0.2s ease, transform 0.2s ease;
+        }
+
+        .card:hover {
+            box-shadow: 0 8px 24px rgba(0,0,0,0.12), 0 0 0 1px rgba(0,0,0,0.06);
+            transform: translateY(-2px);
+        }
+
+        .card-preview {
+            width: 100%;
+            height: 220px;
+            overflow: hidden;
+            flex-shrink: 0;
+        }
+
+        .card-preview svg {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+
+        .card-body {
+            padding: 1.4rem 1.5rem 1.25rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            flex: 1;
+        }
+
+        .card-body h2 {
+            font-family: "Comfortaa", sans-serif;
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #1f2937;
+            line-height: 1.3;
+        }
+
+        .card-body p {
+            font-size: 0.875rem;
+            color: #6b7280;
+            line-height: 1.65;
+            flex: 1;
+        }
+
+        .card-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 0.75rem;
+            padding-top: 0.75rem;
+            border-top: 1px solid #f3f4f6;
+        }
+
+        .card-link {
+            font-size: 0.875rem;
+            font-weight: 700;
+            color: #0046ad;
+            text-decoration: none;
+            letter-spacing: 0.01em;
+        }
+
+        .card-link:hover { text-decoration: underline; }
+
+        .card-version {
+            font-size: 0.78rem;
+            color: #9ca3af;
+            font-family: "Atkinson Hyperlegible", monospace;
+        }
+
+        /* ── Responsive ── */
+        @media (max-width: 700px) {
+            .cards { grid-template-columns: 1fr; }
+            .header-inner { padding: 1rem 1.25rem; }
+            main { padding: 1.5rem 1.25rem 2rem; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="header-inner">
+        <span class="logo-badge">FLCC</span>
+        <div class="header-text">
+            <h1>Cloud Fundamentals</h1>
+            <p>Interactive simulations for Web &amp; Mobile learners</p>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div class="cards">
+
+        <!-- ── Markdown ── -->
+        <article class="card">
+            <div class="card-preview">
+                <svg viewBox="0 0 460 220" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Left instruction pane -->
+                    <rect width="220" height="220" fill="#f0f4f8"/>
+                    <!-- Header bar -->
+                    <rect width="220" height="30" fill="#0046ad"/>
+                    <rect x="10" y="10" width="100" height="10" rx="3" fill="rgba(255,255,255,0.55)"/>
+                    <!-- Progress bar track + fill -->
+                    <rect y="30" width="220" height="4" fill="#dde3ef"/>
+                    <rect y="30" width="70" height="4" fill="#0046ad"/>
+                    <!-- Lesson heading -->
+                    <rect x="14" y="46" width="110" height="9" rx="2" fill="#1f2937" opacity="0.75"/>
+                    <!-- Body text lines -->
+                    <rect x="14" y="63" width="188" height="5" rx="1.5" fill="#6b7280" opacity="0.55"/>
+                    <rect x="14" y="73" width="175" height="5" rx="1.5" fill="#6b7280" opacity="0.55"/>
+                    <rect x="14" y="83" width="193" height="5" rx="1.5" fill="#6b7280" opacity="0.55"/>
+                    <!-- Code example block -->
+                    <rect x="14" y="97" width="192" height="48" rx="5" fill="#e2e8f0"/>
+                    <rect x="22" y="107" width="10" height="8" rx="1" fill="#0046ad" opacity="0.9"/>
+                    <rect x="36" y="109" width="80" height="5" rx="1.5" fill="#1f2937" opacity="0.65"/>
+                    <rect x="22" y="120" width="14" height="5" rx="1.5" fill="#0046ad" opacity="0.7"/>
+                    <rect x="40" y="120" width="65" height="5" rx="1.5" fill="#1f2937" opacity="0.55"/>
+                    <rect x="22" y="131" width="10" height="5" rx="1.5" fill="#0046ad" opacity="0.5"/>
+                    <rect x="36" y="131" width="75" height="5" rx="1.5" fill="#1f2937" opacity="0.45"/>
+                    <!-- Callout -->
+                    <rect x="14" y="153" width="3" height="36" rx="1.5" fill="#0046ad"/>
+                    <rect x="22" y="157" width="140" height="5" rx="1.5" fill="#1f2937" opacity="0.55"/>
+                    <rect x="22" y="167" width="160" height="5" rx="1.5" fill="#6b7280" opacity="0.45"/>
+                    <rect x="22" y="177" width="130" height="5" rx="1.5" fill="#6b7280" opacity="0.45"/>
+
+                    <!-- Divider -->
+                    <rect x="220" width="1" height="220" fill="#d1d5db"/>
+
+                    <!-- Right pane: top half = editor -->
+                    <rect x="221" width="239" height="110" fill="#f3f4f6"/>
+                    <!-- Editor label -->
+                    <rect x="232" y="10" width="40" height="5" rx="1.5" fill="#9ca3af" opacity="0.7"/>
+                    <!-- Monospace code lines -->
+                    <rect x="232" y="24" width="16" height="7" rx="1" fill="#0046ad" opacity="0.8"/>
+                    <rect x="252" y="26" width="80" height="5" rx="1.5" fill="#1f2937" opacity="0.6"/>
+                    <rect x="232" y="38" width="22" height="5" rx="1.5" fill="#0046ad" opacity="0.65"/>
+                    <rect x="258" y="38" width="65" height="5" rx="1.5" fill="#1f2937" opacity="0.55"/>
+                    <rect x="232" y="50" width="180" height="5" rx="1.5" fill="#6b7280" opacity="0.5"/>
+                    <rect x="232" y="62" width="10" height="5" rx="1.5" fill="#6b7280" opacity="0.6"/>
+                    <rect x="246" y="62" width="60" height="5" rx="1.5" fill="#6b7280" opacity="0.45"/>
+                    <rect x="232" y="74" width="10" height="5" rx="1.5" fill="#6b7280" opacity="0.6"/>
+                    <rect x="246" y="74" width="70" height="5" rx="1.5" fill="#6b7280" opacity="0.45"/>
+                    <!-- Editor border-right line -->
+                    <rect x="221" y="110" width="239" height="1" fill="#e5e7eb"/>
+
+                    <!-- Right pane: bottom half = preview -->
+                    <rect x="221" y="111" width="239" height="109" fill="#ffffff"/>
+                    <!-- Preview label -->
+                    <rect x="232" y="120" width="46" height="5" rx="1.5" fill="#9ca3af" opacity="0.7"/>
+                    <!-- Rendered heading -->
+                    <rect x="232" y="134" width="90" height="10" rx="2" fill="#0046ad" opacity="0.85"/>
+                    <!-- Sub-heading -->
+                    <rect x="232" y="152" width="70" height="7" rx="2" fill="#0046ad" opacity="0.6"/>
+                    <!-- Paragraph -->
+                    <rect x="232" y="166" width="180" height="5" rx="1.5" fill="#4b5563" opacity="0.5"/>
+                    <rect x="232" y="176" width="155" height="5" rx="1.5" fill="#4b5563" opacity="0.4"/>
+                    <!-- List items -->
+                    <circle cx="237" cy="191" r="2.5" fill="#4b5563" opacity="0.5"/>
+                    <rect x="244" y="188" width="80" height="5" rx="1.5" fill="#4b5563" opacity="0.45"/>
+                    <circle cx="237" cy="203" r="2.5" fill="#4b5563" opacity="0.5"/>
+                    <rect x="244" y="200" width="65" height="5" rx="1.5" fill="#4b5563" opacity="0.45"/>
+                </svg>
+            </div>
+            <div class="card-body">
+                <h2>Markdown Fundamentals</h2>
+                <p>Learn Markdown formatting from headings and emphasis to links, code blocks, tables, and task lists. Write in the editor and see a live preview update in real time.</p>
+                <div class="card-footer">
+                    <a href="md/" class="card-link">View details &rarr;</a>
+                    <span class="card-version">v1.0</span>
+                </div>
+            </div>
+        </article>
+
+        <!-- ── Python ── -->
+        <article class="card">
+            <div class="card-preview">
+                <svg viewBox="0 0 460 220" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Left instruction pane -->
+                    <rect width="220" height="220" fill="#f0f4f8"/>
+                    <rect width="220" height="30" fill="#0046ad"/>
+                    <rect x="10" y="10" width="100" height="10" rx="3" fill="rgba(255,255,255,0.55)"/>
+                    <rect y="30" width="220" height="4" fill="#dde3ef"/>
+                    <rect y="30" width="100" height="4" fill="#0046ad"/>
+                    <!-- Lesson heading -->
+                    <rect x="14" y="46" width="120" height="9" rx="2" fill="#1f2937" opacity="0.75"/>
+                    <!-- Body text -->
+                    <rect x="14" y="63" width="188" height="5" rx="1.5" fill="#6b7280" opacity="0.55"/>
+                    <rect x="14" y="73" width="170" height="5" rx="1.5" fill="#6b7280" opacity="0.55"/>
+                    <rect x="14" y="83" width="185" height="5" rx="1.5" fill="#6b7280" opacity="0.55"/>
+                    <!-- Code example -->
+                    <rect x="14" y="97" width="192" height="56" rx="5" fill="#1e1e1e"/>
+                    <rect x="22" y="107" width="130" height="5" rx="1.5" fill="#4ade80" opacity="0.8"/>
+                    <rect x="22" y="118" width="80" height="5" rx="1.5" fill="#9ca3af" opacity="0.6"/>
+                    <rect x="22" y="129" width="105" height="5" rx="1.5" fill="#93c5fd" opacity="0.75"/>
+                    <rect x="22" y="140" width="60" height="5" rx="1.5" fill="#fbbf24" opacity="0.7"/>
+                    <!-- Callout -->
+                    <rect x="14" y="163" width="3" height="36" rx="1.5" fill="#0046ad"/>
+                    <rect x="22" y="167" width="145" height="5" rx="1.5" fill="#1f2937" opacity="0.55"/>
+                    <rect x="22" y="177" width="160" height="5" rx="1.5" fill="#6b7280" opacity="0.45"/>
+                    <rect x="22" y="187" width="125" height="5" rx="1.5" fill="#6b7280" opacity="0.45"/>
+
+                    <!-- Divider -->
+                    <rect x="220" width="1" height="220" fill="#d1d5db"/>
+
+                    <!-- Right pane header bar -->
+                    <rect x="221" width="239" height="30" fill="#0046ad"/>
+                    <rect x="232" y="10" width="90" height="10" rx="3" fill="rgba(255,255,255,0.55)"/>
+                    <!-- Progress strip -->
+                    <rect x="221" y="30" width="239" height="4" fill="#dde3ef"/>
+                    <rect x="221" y="30" width="100" height="4" fill="#a3c4f8"/>
+
+                    <!-- Editor area (dark) -->
+                    <rect x="221" y="34" width="239" height="118" fill="#1e1e1e"/>
+                    <!-- Editor label -->
+                    <rect x="232" y="44" width="48" height="5" rx="1.5" fill="#6b7280" opacity="0.6"/>
+                    <!-- Code lines -->
+                    <rect x="232" y="57" width="40" height="5" rx="1.5" fill="#6b7280" opacity="0.6"/>
+                    <rect x="276" y="57" width="60" height="5" rx="1.5" fill="#4ade80" opacity="0.8"/>
+                    <rect x="340" y="57" width="35" height="5" rx="1.5" fill="#fbbf24" opacity="0.75"/>
+                    <rect x="232" y="70" width="50" height="5" rx="1.5" fill="#93c5fd" opacity="0.8"/>
+                    <rect x="286" y="70" width="20" height="5" rx="1.5" fill="#6b7280" opacity="0.5"/>
+                    <rect x="310" y="70" width="55" height="5" rx="1.5" fill="#4ade80" opacity="0.75"/>
+                    <rect x="232" y="83" width="65" height="5" rx="1.5" fill="#93c5fd" opacity="0.7"/>
+                    <rect x="232" y="96" width="30" height="5" rx="1.5" fill="#6b7280" opacity="0.5"/>
+                    <rect x="265" y="96" width="15" height="5" rx="1.5" fill="#fbbf24" opacity="0.7"/>
+                    <rect x="285" y="96" width="55" height="5" rx="1.5" fill="#4ade80" opacity="0.75"/>
+                    <rect x="232" y="109" width="80" height="5" rx="1.5" fill="#9ca3af" opacity="0.45"/>
+                    <!-- Cursor blink -->
+                    <rect x="232" y="122" width="8" height="8" rx="1" fill="#0046ad" opacity="0.8"/>
+
+                    <!-- Buttons row -->
+                    <rect x="221" y="152" width="239" height="1" fill="#2d2d2d"/>
+                    <rect x="232" y="157" width="55" height="18" rx="4" fill="#16a34a"/>
+                    <rect x="296" y="157" width="55" height="18" rx="4" fill="#0046ad"/>
+                    <rect x="238" y="164" width="44" height="4" rx="1" fill="rgba(255,255,255,0.7)"/>
+                    <rect x="302" y="164" width="44" height="4" rx="1" fill="rgba(255,255,255,0.7)"/>
+
+                    <!-- Output area -->
+                    <rect x="221" y="178" width="239" height="42" fill="#111827"/>
+                    <rect x="232" y="187" width="36" height="5" rx="1.5" fill="#9ca3af" opacity="0.6"/>
+                    <rect x="232" y="198" width="120" height="5" rx="1.5" fill="#4ade80" opacity="0.85"/>
+                    <rect x="232" y="208" width="80" height="5" rx="1.5" fill="#4ade80" opacity="0.65"/>
+                </svg>
+            </div>
+            <div class="card-body">
+                <h2>Python Fundamentals</h2>
+                <p>Write and run real Python code in your browser via Pyodide. Covers variables, strings, f-strings, lists, conditionals, loops, functions, and dictionaries across 10 hands-on lessons.</p>
+                <div class="card-footer">
+                    <a href="python/" class="card-link">View details &rarr;</a>
+                    <span class="card-version">v1.0</span>
+                </div>
+            </div>
+        </article>
+
+        <!-- ── SQL ── -->
+        <article class="card">
+            <div class="card-preview">
+                <svg viewBox="0 0 460 220" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Left instruction pane -->
+                    <rect width="220" height="220" fill="#f0f4f8"/>
+                    <rect width="220" height="30" fill="#0046ad"/>
+                    <rect x="10" y="10" width="100" height="10" rx="3" fill="rgba(255,255,255,0.55)"/>
+                    <rect y="30" width="220" height="4" fill="#dde3ef"/>
+                    <rect y="30" width="130" height="4" fill="#0046ad"/>
+                    <!-- Lesson heading -->
+                    <rect x="14" y="46" width="105" height="9" rx="2" fill="#1f2937" opacity="0.75"/>
+                    <!-- Body text -->
+                    <rect x="14" y="63" width="188" height="5" rx="1.5" fill="#6b7280" opacity="0.55"/>
+                    <rect x="14" y="73" width="175" height="5" rx="1.5" fill="#6b7280" opacity="0.55"/>
+                    <rect x="14" y="83" width="190" height="5" rx="1.5" fill="#6b7280" opacity="0.55"/>
+                    <!-- Code example block -->
+                    <rect x="14" y="97" width="192" height="44" rx="5" fill="#e2e8f0"/>
+                    <rect x="22" y="108" width="35" height="6" rx="1.5" fill="#0046ad" opacity="0.85"/>
+                    <rect x="61" y="108" width="20" height="6" rx="1.5" fill="#1f2937" opacity="0.5"/>
+                    <rect x="85" y="108" width="30" height="6" rx="1.5" fill="#0046ad" opacity="0.6"/>
+                    <rect x="22" y="120" width="25" height="6" rx="1.5" fill="#0046ad" opacity="0.75"/>
+                    <rect x="51" y="120" width="65" height="6" rx="1.5" fill="#1f2937" opacity="0.5"/>
+                    <rect x="22" y="132" width="30" height="6" rx="1.5" fill="#0046ad" opacity="0.75"/>
+                    <rect x="56" y="132" width="45" height="6" rx="1.5" fill="#1f2937" opacity="0.5"/>
+                    <rect x="105" y="132" width="25" height="6" rx="1.5" fill="#6b7280" opacity="0.55"/>
+                    <!-- List items -->
+                    <rect x="14" y="150" width="8" height="5" rx="1.5" fill="#0046ad" opacity="0.7"/>
+                    <rect x="26" y="150" width="130" height="5" rx="1.5" fill="#6b7280" opacity="0.5"/>
+                    <rect x="14" y="162" width="8" height="5" rx="1.5" fill="#0046ad" opacity="0.7"/>
+                    <rect x="26" y="162" width="115" height="5" rx="1.5" fill="#6b7280" opacity="0.5"/>
+                    <rect x="14" y="174" width="8" height="5" rx="1.5" fill="#0046ad" opacity="0.7"/>
+                    <rect x="26" y="174" width="125" height="5" rx="1.5" fill="#6b7280" opacity="0.5"/>
+
+                    <!-- Divider -->
+                    <rect x="220" width="1" height="220" fill="#d1d5db"/>
+
+                    <!-- Right pane -->
+                    <rect x="221" width="239" height="220" fill="#f8f9fa"/>
+                    <!-- Header bar -->
+                    <rect x="221" width="239" height="30" fill="#0046ad"/>
+                    <rect x="232" y="10" width="85" height="10" rx="3" fill="rgba(255,255,255,0.55)"/>
+                    <rect x="221" y="30" width="239" height="4" fill="#dde3ef"/>
+                    <rect x="221" y="30" width="130" height="4" fill="#a3c4f8"/>
+
+                    <!-- Data table -->
+                    <rect x="232" y="44" width="218" height="80" rx="5" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+                    <!-- Table header -->
+                    <rect x="232" y="44" width="218" height="18" rx="5" fill="#e8ecf1"/>
+                    <rect x="232" y="57" width="218" height="5" rx="0" fill="#e8ecf1"/>
+                    <rect x="242" y="49" width="35" height="6" rx="1.5" fill="#1f2937" opacity="0.7"/>
+                    <rect x="295" y="49" width="50" height="6" rx="1.5" fill="#1f2937" opacity="0.7"/>
+                    <rect x="363" y="49" width="35" height="6" rx="1.5" fill="#1f2937" opacity="0.7"/>
+                    <!-- Table rows -->
+                    <rect x="242" y="66" width="30" height="5" rx="1.5" fill="#4b5563" opacity="0.6"/>
+                    <rect x="295" y="66" width="55" height="5" rx="1.5" fill="#4b5563" opacity="0.6"/>
+                    <rect x="363" y="66" width="28" height="5" rx="1.5" fill="#4b5563" opacity="0.6"/>
+                    <rect x="232" y="78" width="218" height="1" fill="#f3f4f6"/>
+                    <rect x="242" y="82" width="25" height="5" rx="1.5" fill="#4b5563" opacity="0.5"/>
+                    <rect x="295" y="82" width="65" height="5" rx="1.5" fill="#4b5563" opacity="0.5"/>
+                    <rect x="363" y="82" width="22" height="5" rx="1.5" fill="#4b5563" opacity="0.5"/>
+                    <rect x="232" y="94" width="218" height="1" fill="#f3f4f6"/>
+                    <rect x="242" y="98" width="28" height="5" rx="1.5" fill="#4b5563" opacity="0.45"/>
+                    <rect x="295" y="98" width="48" height="5" rx="1.5" fill="#4b5563" opacity="0.45"/>
+                    <rect x="363" y="98" width="30" height="5" rx="1.5" fill="#4b5563" opacity="0.45"/>
+                    <rect x="232" y="110" width="218" height="1" fill="#f3f4f6"/>
+                    <rect x="242" y="114" width="22" height="5" rx="1.5" fill="#4b5563" opacity="0.4"/>
+                    <rect x="295" y="114" width="58" height="5" rx="1.5" fill="#4b5563" opacity="0.4"/>
+                    <rect x="363" y="114" width="24" height="5" rx="1.5" fill="#4b5563" opacity="0.4"/>
+
+                    <!-- Query editor -->
+                    <rect x="232" y="134" width="218" height="48" rx="5" fill="#f3f4f6" stroke="#e5e7eb" stroke-width="1"/>
+                    <rect x="242" y="144" width="30" height="6" rx="1.5" fill="#0046ad" opacity="0.85"/>
+                    <rect x="276" y="144" width="10" height="6" rx="1.5" fill="#6b7280" opacity="0.55"/>
+                    <rect x="290" y="144" width="20" height="6" rx="1.5" fill="#4b5563" opacity="0.55"/>
+                    <rect x="242" y="156" width="22" height="6" rx="1.5" fill="#0046ad" opacity="0.7"/>
+                    <rect x="268" y="156" width="70" height="6" rx="1.5" fill="#4b5563" opacity="0.55"/>
+                    <rect x="242" y="168" width="25" height="6" rx="1.5" fill="#0046ad" opacity="0.7"/>
+                    <rect x="271" y="168" width="40" height="6" rx="1.5" fill="#4b5563" opacity="0.5"/>
+
+                    <!-- Run button + result hint -->
+                    <rect x="232" y="190" width="70" height="20" rx="5" fill="#0046ad"/>
+                    <rect x="243" y="198" width="48" height="5" rx="1.5" fill="rgba(255,255,255,0.7)"/>
+                    <rect x="315" y="194" width="120" height="11" rx="4" fill="rgba(22,163,74,0.15)" stroke="rgba(22,163,74,0.4)" stroke-width="1"/>
+                    <rect x="322" y="197" width="80" height="5" rx="1.5" fill="#16a34a" opacity="0.7"/>
+                </svg>
+            </div>
+            <div class="card-body">
+                <h2>SQL Fundamentals</h2>
+                <p>Query a real in-browser SQLite database. Covers SELECT, WHERE, AND/OR, ORDER BY, aggregates, JOINs, CREATE TABLE, INSERT, UPDATE, and DELETE across 11 progressive lessons.</p>
+                <div class="card-footer">
+                    <a href="sql/" class="card-link">View details &rarr;</a>
+                    <span class="card-version">v1.0</span>
+                </div>
+            </div>
+        </article>
+
+        <!-- ── Linux ── -->
+        <article class="card">
+            <div class="card-preview">
+                <svg viewBox="0 0 460 220" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Left instruction pane -->
+                    <rect width="220" height="220" fill="#f0f4f8"/>
+                    <rect width="220" height="30" fill="#0046ad"/>
+                    <rect x="10" y="10" width="100" height="10" rx="3" fill="rgba(255,255,255,0.55)"/>
+                    <rect y="30" width="220" height="4" fill="#dde3ef"/>
+                    <rect y="30" width="160" height="4" fill="#0046ad"/>
+                    <!-- Lesson heading -->
+                    <rect x="14" y="46" width="115" height="9" rx="2" fill="#1f2937" opacity="0.75"/>
+                    <!-- Body text -->
+                    <rect x="14" y="63" width="188" height="5" rx="1.5" fill="#6b7280" opacity="0.55"/>
+                    <rect x="14" y="73" width="178" height="5" rx="1.5" fill="#6b7280" opacity="0.55"/>
+                    <rect x="14" y="83" width="190" height="5" rx="1.5" fill="#6b7280" opacity="0.55"/>
+                    <!-- Command list -->
+                    <rect x="14" y="97" width="192" height="82" rx="5" fill="#e2e8f0"/>
+                    <rect x="22" y="107" width="40" height="6" rx="2" fill="#1e1e2e"/>
+                    <rect x="66" y="109" width="100" height="4" rx="1.5" fill="#4b5563" opacity="0.6"/>
+                    <rect x="22" y="119" width="40" height="6" rx="2" fill="#1e1e2e"/>
+                    <rect x="66" y="121" width="110" height="4" rx="1.5" fill="#4b5563" opacity="0.6"/>
+                    <rect x="22" y="131" width="44" height="6" rx="2" fill="#1e1e2e"/>
+                    <rect x="70" y="133" width="90" height="4" rx="1.5" fill="#4b5563" opacity="0.6"/>
+                    <rect x="22" y="143" width="36" height="6" rx="2" fill="#1e1e2e"/>
+                    <rect x="62" y="145" width="105" height="4" rx="1.5" fill="#4b5563" opacity="0.6"/>
+                    <rect x="22" y="155" width="40" height="6" rx="2" fill="#1e1e2e"/>
+                    <rect x="66" y="157" width="95" height="4" rx="1.5" fill="#4b5563" opacity="0.6"/>
+                    <rect x="22" y="167" width="48" height="6" rx="2" fill="#1e1e2e"/>
+                    <rect x="74" y="169" width="80" height="4" rx="1.5" fill="#4b5563" opacity="0.6"/>
+
+                    <!-- Divider -->
+                    <rect x="220" width="1" height="220" fill="#d1d5db"/>
+
+                    <!-- Right: full dark terminal -->
+                    <rect x="221" width="239" height="220" fill="#1e1e2e"/>
+
+                    <!-- Terminal header bar -->
+                    <rect x="221" width="239" height="28" fill="#181825"/>
+                    <circle cx="237" cy="14" r="5" fill="#f38ba8"/>
+                    <circle cx="252" cy="14" r="5" fill="#f9e2af"/>
+                    <circle cx="267" cy="14" r="5" fill="#a6e3a1"/>
+                    <rect x="290" y="9" width="120" height="10" rx="3" fill="#6c7086" opacity="0.5"/>
+
+                    <!-- Terminal output lines -->
+                    <!-- Line 1: prompt + command -->
+                    <rect x="232" y="42" width="55" height="6" rx="1.5" fill="#a6e3a1" opacity="0.9"/>
+                    <rect x="291" y="42" width="60" height="6" rx="1.5" fill="#cdd6f4" opacity="0.8"/>
+                    <!-- Output -->
+                    <rect x="232" y="55" width="150" height="5" rx="1.5" fill="#cdd6f4" opacity="0.5"/>
+                    <rect x="232" y="65" width="130" height="5" rx="1.5" fill="#cdd6f4" opacity="0.5"/>
+                    <!-- Line 2: prompt + command -->
+                    <rect x="232" y="80" width="55" height="6" rx="1.5" fill="#a6e3a1" opacity="0.9"/>
+                    <rect x="291" y="80" width="80" height="6" rx="1.5" fill="#cdd6f4" opacity="0.8"/>
+                    <!-- Output -->
+                    <rect x="232" y="93" width="100" height="5" rx="1.5" fill="#cdd6f4" opacity="0.5"/>
+                    <rect x="232" y="103" width="80" height="5" rx="1.5" fill="#cdd6f4" opacity="0.5"/>
+                    <rect x="232" y="113" width="120" height="5" rx="1.5" fill="#cdd6f4" opacity="0.5"/>
+                    <!-- Line 3: prompt + command -->
+                    <rect x="232" y="128" width="55" height="6" rx="1.5" fill="#a6e3a1" opacity="0.9"/>
+                    <rect x="291" y="128" width="70" height="6" rx="1.5" fill="#cdd6f4" opacity="0.8"/>
+                    <!-- Output -->
+                    <rect x="232" y="141" width="90" height="5" rx="1.5" fill="#cdd6f4" opacity="0.5"/>
+                    <rect x="232" y="151" width="140" height="5" rx="1.5" fill="#cdd6f4" opacity="0.5"/>
+                    <!-- Success message -->
+                    <rect x="232" y="165" width="175" height="16" rx="4" fill="rgba(166,227,161,0.15)" stroke="rgba(166,227,161,0.4)" stroke-width="1"/>
+                    <rect x="241" y="171" width="110" height="5" rx="1.5" fill="#a6e3a1" opacity="0.8"/>
+                    <!-- Active prompt line -->
+                    <rect x="232" y="190" width="55" height="6" rx="1.5" fill="#a6e3a1" opacity="0.9"/>
+                    <rect x="292" y="190" width="8" height="8" rx="1" fill="#a6e3a1" opacity="0.7"/>
+                </svg>
+            </div>
+            <div class="card-body">
+                <h2>Linux Fundamentals</h2>
+                <p>Practice Linux commands in a fully simulated in-browser terminal. Covers navigation, file management, reading files, copying and moving, permissions, searching, and more.</p>
+                <div class="card-footer">
+                    <a href="linux/" class="card-link">View details &rarr;</a>
+                    <span class="card-version">v1.0</span>
+                </div>
+            </div>
+        </article>
+
+    </div>
+</main>
+
+</body>
+</html>
