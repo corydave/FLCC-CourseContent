@@ -33,6 +33,26 @@
     </header>
 
 
+    <!-- Collapsible video panel - starts collapsed, src loaded lazily on open -->
+    <div class="video-panel" id="video-panel" data-open="false">
+        <button class="video-panel-toggle"
+                id="video-panel-toggle"
+                aria-expanded="false"
+                aria-controls="video-panel-body">
+            <i data-lucide="video"></i>
+            <span class="video-panel-title">VIDEO - Lesson 1</span>
+            <i data-lucide="chevron-down" class="toggle-chevron"></i>
+        </button>
+        <div class="video-panel-body" id="video-panel-body" hidden>
+            <div class="video-embed-wrapper">
+                <iframe data-src=""
+                        title="Lesson video"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
     <!--
         Main two-pane layout.
         Left pane: lesson explanation ("teaching" side).
@@ -1187,6 +1207,19 @@ find . -name "*.txt"   # find every .txt under the current directory</code></pre
        The interactive pane builds a fresh terminal (output area + input).
        ================================================================ */
 
+    function updateVideoPanel(lesson) {
+        const panel   = document.getElementById('video-panel');
+        if (!panel) return;
+        const titleEl = panel.querySelector('.video-panel-title');
+        const iframe  = panel.querySelector('iframe');
+        const videoId = lesson.videoId || 'dQw4w9WgXcQ';
+        if (titleEl) titleEl.textContent = `VIDEO - ${lesson.title}`;
+        if (iframe) {
+            iframe.dataset.src = `https://www.youtube.com/embed/${videoId}`;
+            if (panel.dataset.open === 'true') iframe.src = iframe.dataset.src;
+        }
+    }
+
     function renderLesson(index) {
         const lesson = LESSONS[index];
         app.currentIndex = index;
@@ -1194,6 +1227,7 @@ find . -name "*.txt"   # find every .txt under the current directory</code></pre
         app.cwd = lesson.startCwd;
         app.history = [];
         app.terminalHistory = [];
+        updateVideoPanel(lesson);
 
         // Left pane - lesson description
         const left = document.getElementById('instruction-pane');
@@ -1673,6 +1707,24 @@ find . -name "*.txt"   # find every .txt under the current directory</code></pre
         initApp();
     });
 
+    </script>
+
+    <script>
+    // Video panel toggle - loads iframe lazily on first open
+    document.getElementById('video-panel-toggle').addEventListener('click', function () {
+        const panel  = document.getElementById('video-panel');
+        const body   = document.getElementById('video-panel-body');
+        const iframe = body.querySelector('iframe');
+        const isOpen = panel.dataset.open === 'true';
+        panel.dataset.open = String(!isOpen);
+        body.hidden = isOpen;
+        this.setAttribute('aria-expanded', String(!isOpen));
+        if (!isOpen && iframe && iframe.dataset.src) {
+            iframe.src = iframe.dataset.src;
+        } else if (isOpen && iframe) {
+            iframe.src = '';
+        }
+    });
     </script>
 </body>
 </html>

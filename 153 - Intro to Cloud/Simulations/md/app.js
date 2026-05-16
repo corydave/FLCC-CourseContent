@@ -152,6 +152,7 @@ class MarkdownCourse {
         const lesson = this.lessons[index];
 
         this.updateProgress();
+        this.updateVideoPanel(lesson);
         this.renderInstruction(lesson);
         this.renderInteractive(lesson);
 
@@ -185,6 +186,19 @@ class MarkdownCourse {
         this.progressBar.style.width = `${percent}%`;
         this.progressText.textContent =
             `Lesson ${this.currentIndex + 1} of ${this.lessons.length} - ${this.lessons[this.currentIndex].title}`;
+    }
+
+    updateVideoPanel(lesson) {
+        const panel   = document.getElementById('video-panel');
+        if (!panel) return;
+        const titleEl = panel.querySelector('.video-panel-title');
+        const iframe  = panel.querySelector('iframe');
+        const videoId = lesson.videoId || 'dQw4w9WgXcQ';
+        if (titleEl) titleEl.textContent = `VIDEO - ${lesson.title}`;
+        if (iframe) {
+            iframe.dataset.src = `https://www.youtube.com/embed/${videoId}`;
+            if (panel.dataset.open === 'true') iframe.src = iframe.dataset.src;
+        }
     }
 
     /**

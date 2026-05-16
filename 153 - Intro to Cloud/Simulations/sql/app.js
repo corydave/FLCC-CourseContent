@@ -84,9 +84,10 @@ class SQLCourseApp {
 
         // Update progress
         this.updateProgress();
-        
+        this.updateVideoPanel(lesson);
+
         // Setup database for this lesson
-        this.setupDatabaseForLesson(lesson);        
+        this.setupDatabaseForLesson(lesson);
 
         // Render instruction pane
         this.renderInstruction(lesson);
@@ -523,6 +524,19 @@ class SQLCourseApp {
         // Update page title
         const lesson = this.lessons[this.currentLessonIndex];
         document.title = `${lesson.title} - SQL Fundamentals`;
+    }
+
+    updateVideoPanel(lesson) {
+        const panel   = document.getElementById('video-panel');
+        if (!panel) return;
+        const titleEl = panel.querySelector('.video-panel-title');
+        const iframe  = panel.querySelector('iframe');
+        const videoId = lesson.videoId || 'dQw4w9WgXcQ';
+        if (titleEl) titleEl.textContent = `VIDEO - ${lesson.title}`;
+        if (iframe) {
+            iframe.dataset.src = `https://www.youtube.com/embed/${videoId}`;
+            if (panel.dataset.open === 'true') iframe.src = iframe.dataset.src;
+        }
     }
 
     /**
