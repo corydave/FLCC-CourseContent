@@ -1,0 +1,5 @@
+<center><img src="https://docs.google.com/drawings/d/e/2PACX-1vRa-BbUv1ZltiwlAUxeC3nQlzSD2e7Ax5SzxS9YSkVmrcnTz3YLDm979G8NgsnQKK4GYPA6Gl2_v0up/pub?w=900&amp;h=400" width="100%" alt="A brown rectangle with the word PYTHON in the center - the logo for the Python programming language is to the left of it." title="A brown rectangle with the word PYTHON in the center - the logo for the Python programming language is to the left of it." style="display: none;" /></center>
+
+This chapter is a self-guided tutorial for Python. We'll look at some of the basic commands in Python (some you may recognize - but don't worry if you don't). Python is an approachable programming language and is one of the most popular (and versatile). We will just be looking at some very basic things you can do with Python, but the possibilities are endless!
+
+The idea is for you to go through this tutorial, get a certificate, and upload that at the end.

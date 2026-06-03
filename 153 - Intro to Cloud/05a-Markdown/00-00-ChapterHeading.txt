@@ -1,0 +1,5 @@
+<center><img src="https://docs.google.com/drawings/d/e/2PACX-1vQC4KyKzVERfS-v33SG0-cRjzF6-zjU6xsk1vefsH3fAQASbDgLegkqMpTSvGQY_flcPERPfdcETIRD/pub?w=900&amp;h=400" width="100%" alt="The Markdown icon with the word MARKDOWN next to it." title="The Markdown icon with the word MARKDOWN next to it." style="display: none;" /></center>
+
+This chapter is a self-guided tutorial for Markdown. We'll look at some of the basic commands in Markdown (some you may recognize - but don't worry if you don't). MarkDown is valuable in a lot of contexts (like AI "Skills", Gmail, Google Docs, Discord...).
+
+The idea is for you to go through this tutorial, get a certificate, and upload that at the end.

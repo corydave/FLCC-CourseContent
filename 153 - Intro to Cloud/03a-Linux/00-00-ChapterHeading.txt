@@ -1,0 +1,5 @@
+<center><img src="https://docs.google.com/drawings/d/e/2PACX-1vQzQLZSLoVHKYx_ebbFTd_M_ieM0jkQIt0mpgFQH9qqafHAI2f9d93JVUz29NY021-qRz--GyxJftpf/pub?w=900&amp;h=400" width="100%" alt="The Linux Penguin logo and the words LINUX." title="The Linux Penguin logo and the words LINUX." style="display: none;"></center>
+
+This chapter is a self-guided tutorial for Linux. We'll look at some of the basic commands in Linux (some you may recognize - but don't worry if you don't).
+
+The idea is for you to go through this tutorial, get a certificate, and upload that at the end.

@@ -1,0 +1,22 @@
+^^ LAB - Learning Linux
+
+Go through this tutorial - at the end, you can download a certificate (save it! You'll need to upload that later on).
+
+If you'd prefer to go to the actual website (instead of the embedded one here), [click here](https://inlineteaching.com/flcc/153/linux/).
+
+<center>
+  <iframe src="https://inlineteaching.com/flcc/153/linux/" style="width: 100%; height: 1000px; border: 0px; border-radius: 15px;"></iframe>
+</center>
+
+<br /><br />
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
+
+<br />
+<br />
