@@ -12,9 +12,11 @@ Learners will produce a document that explains how AWS cloud architectural princ
 
 ^=
 
-I'm interested in what *you* think this should look like. We will discuss the specifications in class and formalize the content and format. Things to consider:
-
 ## CONTENT COVERED
+
+Here is a list of all the content that was covered in AWS:
+
+
 * This project needs to demonstrate understanding of the AWS content:
     * Describing Cloud Concepts
     * Cloud Economics & Billing
@@ -27,23 +29,19 @@ I'm interested in what *you* think this should look like. We will discuss the sp
     * Cloud Architecture
     * Auto Scaling & Monitoring
 
-## EXPLORING OTHER CLOUD SERVICES
-* This project should involve comparing and contrasting services and prices from other competitors (Microsoft Azure and Google Cloud).
+## SPECIFICATIONS
 
-## SCENARIO-BASED
-* There will most likely be a scenario where you will be working at a fictitious company.
-    * A scenario where you work at a company and are tasked with determining if cloud computing is appropriate for your company and, if so, providing a rational argument (using the knowledge accrued through the AWS modules).
+I'm interested in what *you* think this should look like. There are no rules, no formats, no suggestions. Well, that's not true. I suggest that you experiment with AI if you'd like. Given your major, you will almost certainly be dealing with AI in your career. 
 
-## FORMAT
-* Formats might include:
-    * A recorded presentation
-    * A written report
-    * Other formats - open to suggestions
+So take this opportunity to experiment with it. Design a manual. Make a study guide for the content in this course. Work with AI to do a slideshow. Make an interactive app (this one is easier than you think!). You can use AI for any (or all) of this. This project could involve comparing and contrasting services and prices from other competitors (Microsoft Azure and Google Cloud). You might write a scenario where you work at a company and are tasked with determining if cloud computing is appropriate for your company and, if so, providing a rational argument
+
+One rule: You _have_ to be the "human in the lead". You can't just prompt AI once, get a response, and submit it. You need to vet the content. Make it your own.
+
+Although you can use AI as much as you'd like, you do not have to use AI. You can do this without AI if you'd prefer.
 
 ## SPECIFICATIONS
-* The final submission will be a link to your GitHub repository that houses all the materials for your project
-* There must be a `README.md` file that describes the project and links to individual assets.
-* Assets such as documents, spreadsheets, or slide shows should be stored in the cloud and referenced via hyperlinks/embeds when possible.
+If you used AI, you must also submit a small piece detailing how you used AI.
+
 
 ^callout external-link-alt
 
@@ -52,4 +50,3 @@ I'm interested in what *you* think this should look like. We will discuss the sp
 Click here to submit your work.
 
 ^callout-end
-
