@@ -1,0 +1,15 @@
+^colors bg:#f45922 text:#ffffff link:#ffffff
+
+^^ WELCOME!!!!
+
+Hey folks! Thanks for tuning in! Welcome to CSC-150 - AI Foundations!!! The course officially opens Monday, August 31, at noon. But to whet your appetite, please check out the video below and look over the syllabus.
+
+<br />
+
+<center><iframe src="https://inlineteaching.com/tools/vids-iframer.html?id=1iUKI8C3VFtUhtrrbCW_HGbi-6NIhtNpaNVIvRRFxMQ8&amp;title=Let+us+AI+Together&amp;bg=1e1e1e&amp;titleColor=ffffff&amp;clickColor=ffffff" allowfullscreen="" title="AI tutorial video: Hallucinations" style="width: 80%; aspect-ratio: 16/9; border: 0px; border-radius: 15px;"></iframe></center>
+
+
+<br /><br />
+
+
+<center><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/17XTjueDqKl5QqN8HswioxRjxvw3qzXAQvmCY6HCwtx8/copy" target="_blank"><span style="background-color:#243d70;padding: 15px; width:250px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 12pt; text-transform: uppercase; font-weight: bold;">Copy Google Doc</span></a><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/17XTjueDqKl5QqN8HswioxRjxvw3qzXAQvmCY6HCwtx8/export?format=doc" target="_blank"><span style="background-color:#0300a8;padding: 15px; width:250px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 12pt; text-transform: uppercase; font-weight: bold;">Download Word</span></a><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/17XTjueDqKl5QqN8HswioxRjxvw3qzXAQvmCY6HCwtx8/export?format=pdf" target="_blank"><span style="background-color:#c00215;padding: 15px; width:250px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 12pt; text-transform: uppercase; font-weight: bold;">Download PDF</span></a><br /><br /><iframe src="https://docs.google.com/document/d/17XTjueDqKl5QqN8HswioxRjxvw3qzXAQvmCY6HCwtx8/preview" height="1000" width="800" frameborder="0" style="width: 100%; max-width: 800px; title=Syllabus for AI Foundations"></iframe></center>
