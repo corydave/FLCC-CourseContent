@@ -28,4 +28,7 @@ Vibe Coding
 Blue
 ^colors bg:#0000ff text:#ffffff link:#ffffff
 
+FLCC Orange
+^colors bg:#f45922 text:#ffffff link:#ffffff
+
 <br /><hr style="height:10px;border-width:0;background-color:#335e3b"><br />
