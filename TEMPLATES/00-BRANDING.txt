@@ -28,7 +28,10 @@ Vibe Coding
 Blue
 ^colors bg:#0000ff text:#ffffff link:#ffffff
 
-FLCC Orange
+Dave Orange
 ^colors bg:#f45922 text:#ffffff link:#ffffff
+
+150 Orange
+^colors bg:#d4400b text:#ffffff link:#ffffff
 
 <br /><hr style="height:10px;border-width:0;background-color:#335e3b"><br />
