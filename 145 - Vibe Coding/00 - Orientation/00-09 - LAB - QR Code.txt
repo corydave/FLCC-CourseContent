@@ -2,4 +2,44 @@
 
 ^^ LAB - QR Code
 
-This will be released on Wednesday
+Ready to build your first app?
+
+## Background
+
+We are going to build a simple app. It's an app you can test immediately. It's an app you can easily build. It's an app that is actually pretty useful as it gives you a tool you might use regularly.
+
+We are going to build... *a QR Code Generator*!
+
+This is actually a little fascinating because we don't need to know anything about QR codes (other than what they are and how to use them). 
+
+## Rationale
+
+Have you ever wanted to make a QR code, but the site you use charges? Or they brand it? Or they collect all sorts of information? This is a typical problem you should *always* be on the lookout for. Because you can solve it easily!
+
+## Expectations
+
+This is just to kick the tires. We just want to see if our AI system can do it. We aren't going to deploy anything. We're just going to go through the motions to make an app. That's it. And all you need to do is take a screenshot at the end and submit it.
+
+## Prompt
+
+Use this prompt (or something similar - you do you!). But your end result needs to be a QR code generator:
+
+```
+Please make a simple webapp that asks the user for a URL and converts it to a QR code.
+```
+
+## Tutorial
+
+<center>
+<iframe src="https://www.youtube.com/embed/eAFtkcGPHGM?si=H_UFbbhjgkgV9nKk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius: 15px !important; width: 80%; aspect-ratio: 16/9;"></iframe>
+</center>
+
+<br /><br />
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
