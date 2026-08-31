@@ -1,0 +1,49 @@
+^colors bg:#d4400b text:#ffffff link:#ffffff
+
+^^ LAB - Get AI
+
+So, like, you'll need to have an account with an AI service for this course. You probably can get by without a paid account (and if that winds up to not be the case, let me know). But if I were you, I'd create accounts at several different services.
+
+Here's *my* list, in order of preference. But don't let me yuck your yum:
+
+* [Claude](https://claude.ai/) - In my opinion, the most sophisticated AI service. It just seems "smart".
+* [Google Gemini](https://gemini.google.com/) - My favorite for daily tasks (and it is *everywhere* in the apps I use).
+* [OpenAI ChatGPT](https://chatgpt.com/) - Great for many tasks, the newer models are really impressive.
+* [MetaAI](https://www.meta.ai/) - I mostly use it for image generation and video generation. 
+* [Microsoft Copilot](https://copilot.microsoft.com/) - I use this as a last resort.
+
+<br />
+
+Your task is to create one (or more) accounts, and take screenshots ([click here if you need a brief tutorial](https://www.youtube.com/watch?v=xFbjVvCXAwo)) of each of the services you choose to use. You'll need to submit those images!
+
+## Optional Stuff
+
+If you'd like, you can spend some time in each tool and poke around. Some of these tips are good if you prefer privacy, and others are good if you just want to learn more about the AI tool you are using:
+
+* **Pick one chat tool and make an account** - One is enough to start. You will compare several tools later on in the course, and picking “wrong” now costs you nothing. FLCC provides you with Microsoft Copilot, and institutional accounts usually come with better data terms than a free personal signup. The tradeoff is that Copilot is not a good AI tool.
+
+* **Turn off training on your conversations** - Look under Settings for something like Data controls, Privacy, or Improve the model for everyone. On several consumer free tiers this is on by default. Turn it off now; later on in the course we'll look at exactly what you just changed and why it matters more than it sounds.
+
+* **Run the verification prompt** - Paste the prompt below and check you get something back. It does three jobs at once: proves your account works, introduces a term you will meet properly later on, and shows you how a model behaves when asked about its own limits - which is more interesting than it sounds.
+
+```
+In exactly three sentences, explain what a "knowledge cutoff" is to someone who has never used an AI tool before. Then tell me your own knowledge cutoff date, and say how confident you are that the date is correct.
+```
+
+* **Find your rate limit** - Free tiers cap how much you can use them in a window. Find yours before an assignment is due rather than during one. It is usually in the same settings area, or it appears as a message when you hit it.
+
+* **Install it on your phone** - Useful if you will be using AI while on the move. Not required, and nothing in this course assumes you have it
+
+## Let's be careful out there!
+
+^callout external-link-alt
+
+<br />
+
+Submit your work here.
+
+Note that if you've done this for another class, you can just submit the same work here.
+
+^callout-end
+
+<br /><br />

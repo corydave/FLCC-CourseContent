@@ -1,0 +1,30 @@
+^colors bg:#d4400b text:#ffffff link:#ffffff
+
+^^ QUIZ - Course Orientation
+
+## Description
+
+Quiz time! This quiz assesses content covered in the Syllabus. You don't have to remember everything you read in the syllabus, though; there are videos in this quiz to help you recall the quirks of this class. Honestly, you could probably ace the quiz without studying. In fact, don't study. Take it now. Seriously.
+
+And don't worry - you can take the quiz as many times as you'd like!
+
+<div style="display:block;width:100%;clear:both;">
+
+## Specifications
+
+* The quiz has questions based on the Syllabus.
+* The quiz is open book.
+* You may take the quiz as many times as you'd like!
+* ***You must get an 80% or better to see the rest of the content in this course.***
+
+</div>
+
+## Let's be careful out there!
+
+^callout external-link-alt
+
+<br />
+
+Take the quiz here.
+
+^callout-end 
