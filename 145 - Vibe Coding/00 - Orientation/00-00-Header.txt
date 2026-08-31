@@ -3,4 +3,20 @@
 ^^ Orientation
 
 <div style="display: none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vSVhbNfbpJPjIWkm561LDQeAjN0E-GDrvPbzStyGV73BcPwRoWWw-xhILTvz_Qc-mAK1rwO03tKGH37/pub?w=907&amp;h=385" alt="The word ORIENTATION in bright pink letters." title="The word ORIENTATION in bright pink letters." width="0" height="0" style="display: none;"></div>
-<p>abc</p>
+
+## Welcome
+
+Welcome to the Orientation Chapter! Check out the video below and look through the activities. You are on the hook for a few things:
+
+* **LAB - Get AI**
+* **LAB - Get GitHub**
+* **LAB - AI Inventory**
+* **LAB - QR Code**
+
+Everything else is informational - but cool!
+
+<br />
+
+<center><iframe  src="https://www.youtube.com/embed/RMMtrOCBjaw?si=I6qm-SHvdeFsIVfh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius: 15px !important; width: 100%; aspect-ratio: 16/9;"></iframe></center>
+
+<br /><br />

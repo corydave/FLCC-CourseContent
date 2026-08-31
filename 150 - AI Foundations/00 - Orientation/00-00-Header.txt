@@ -2,15 +2,14 @@
 
 ^^ Orientation
 
+## Welcome
+
 <div style="display:none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vSg0uSdF7VZ1FsR4TxrM7EK47fZEuLL8c3Od2fkGiMojhdkU5ZibxM7IXjetwOZ6WZDCn1Sq9LhOjg3/pub?w=907&amp;h=385" alt="The words WELCOME AND ORIENTATION and a cute robot with the number 0 on its body." title="The words WELCOME AND ORIENTATION and a cute robot with the number 0 on its body." width="0" height="0" style="display:none;" /></div>
 
-abc
+Welcome to the Orientation Chapter! Check out the video below and look through the activities. You are on the hook for two things - **LAB - Get AI** and **LAB - AI Inventory**. Everything else is informational (but cool!).
 
-* Course Syllabus
-* Brightspace Orientation
-* How this course works
-  * LEARN (Prediction/Retrieval)
-  * Interactives, Guide (digital or hand)
-* QUIZ - Orientation
-* Discussion
-* Learner Time/Set up time to chat
+<br />
+
+<center><iframe  src="https://www.youtube.com/embed/anhJPuAtWVw?si=I6qm-SHvdeFsIVfh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius: 15px !important; width: 100%; aspect-ratio: 16/9;"></iframe></center>
+
+<br /><br />
