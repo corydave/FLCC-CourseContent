@@ -1,0 +1,19 @@
+^^ 0% on a Lab?
+
+^youtube <iframe width="100%" height="500" src="https://www.youtube.com/embed/lFnV6n-eqV0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius: 15px !important;"></iframe>
+
+<br />
+
+If you get a 0% on work in this class, what should you do?
+
+<!--
+
+Nothing. A zero is a zero.
+
+Fix the errors and resubmit it for a better grade!
+
+Schedule an appointment with Dave.
+
+Focus on upcoming work.
+
+-->

@@ -1,0 +1,19 @@
+^^ Working Ahead
+
+^youtube <iframe width="100%" height="500" src="https://www.youtube.com/embed/nl7hAlNr1Cw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius: 15px !important;"></iframe>
+
+<br />
+
+What are the policies for working ahead?
+
+<!--
+
+Even though the course is open, you should not work ahead and focus on the current content.
+
+Working ahead is necessary to earn an A in this course.
+
+Working ahead is the only way to get through all the content.
+
+Working ahead is optional! Do it if you'd like.
+
+-->

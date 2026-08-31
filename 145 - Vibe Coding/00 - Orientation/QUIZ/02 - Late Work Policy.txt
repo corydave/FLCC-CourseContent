@@ -1,0 +1,19 @@
+^^ Late Work Policy
+
+^youtube <iframe width="100%" height="500" src="https://www.youtube.com/embed/HNeSAcyYmWw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius: 15px !important;"></iframe>
+
+<br />
+
+Which statement below best reflects the late policy in this course?
+
+<!--
+
+Work will not be accepted late.
+
+Work will be accepted up until one week late.
+
+All late work needs permission from the instructor prior to the due date.
+
+There is an automatic 2-week grace period for all work.
+
+-->
