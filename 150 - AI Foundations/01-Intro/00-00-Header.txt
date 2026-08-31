@@ -1,0 +1,7 @@
+^colors bg:#d4400b text:#ffffff link:#ffffff
+
+^^ Introduction to AI
+
+<div style="display:none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vQj_XBYzjhqYZAzHcby1e6rGi4waD7kk_HxdLY_H_iotno74U1hilYMut3pNSCOf_tXUEFHl075GSYV/pub?w=907&amp;h=385" alt="The words INTRO and a cute robot with the number 1 on its body." title="The words INTRO and a cute robot with the number 1 on its body." width="0" height="0" style="display:none;" /></div>
+
+abc
