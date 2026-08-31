@@ -1,4 +1,4 @@
-^colors bg:#d4400b text:#ffffff link:#ffffff
+^colors bg:#9900ff text:#ffffff link:#ffffff
 
 ^^ Tutoring
 

@@ -1,6 +1,6 @@
 ^colors bg:#d4400b text:#ffffff link:#ffffff
 
-^^ DISCUSSION - Your Work Area
+^^ DISCUSSION - Learning Space
 
 ## Description
 

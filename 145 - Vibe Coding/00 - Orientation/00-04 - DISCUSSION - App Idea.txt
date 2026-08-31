@@ -1,0 +1,36 @@
+^colors bg:#9900ff text:#ffffff link:#ffffff
+
+^^ DISCUSSION - Your Big App Idea
+
+Welcome to Vibe Coding!!!
+
+## Description
+
+Throughout this course, we'll be making all sorts of different apps. Many of the apps we'll be making will be personal apps that solve a problem *for no one other than yourself*. And that's okay if no one else needs your program; that's kind of the point!
+
+Sometimes you'll make an app that for yourself that really reduces the amount of time it takes you to do a task. Sometimes that app is helpful for others and it takes off! But most of the time, it's just for you. About two years ago, it would be almost impossible for you to make apps like these (or you'd have to pay someone to do it). Now, it just takes a few hours.
+
+We are limited not by technology, but by our imagination.
+
+## Specifications
+
+For this Discussion, please introduce yourself to the rest of the class. Be sure to include:
+* Your name
+* Where you live (if you feel comfortable)
+* A really cool app idea (if you have one)
+
+Don't worry - if you don't have an app idea, that's okay. And if you give an app idea, you are not beholden to it. You don't have to make it.
+
+Your post can be as long or as short as you'd like - but everybody wants to hear the cool things you are thinking about. If you're feelin' spunky, leave some feedback for your peers. Say something you like about someone else's app or make a suggestion for an addition to it.
+
+## Let's be careful out there!
+
+^callout external-link-alt
+
+<br />
+
+Submit your work here.
+
+^callout-end
+
+<br /><br />

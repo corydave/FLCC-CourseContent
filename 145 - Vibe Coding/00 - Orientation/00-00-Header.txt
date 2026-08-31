@@ -1,0 +1,6 @@
+^colors bg:#9900ff text:#ffffff link:#ffffff
+
+^^ Orientation
+
+<div style="display: none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vSVhbNfbpJPjIWkm561LDQeAjN0E-GDrvPbzStyGV73BcPwRoWWw-xhILTvz_Qc-mAK1rwO03tKGH37/pub?w=907&amp;h=385" alt="The word ORIENTATION in bright pink letters." title="The word ORIENTATION in bright pink letters." width="0" height="0" style="display: none;"></div>
+<p>abc</p>

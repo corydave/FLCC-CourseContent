@@ -1,3 +1,5 @@
+^colors bg:#9900ff text:#ffffff link:#ffffff
+
 ^^ GitHub Repository
 
 <center>

@@ -1,0 +1,22 @@
+^colors bg:#9900ff text:#ffffff link:#ffffff
+
+^^ LAB - AI Inventory
+
+Please complete this self-inventory of your AI experience. At the end, you'll get a PDF. Don't lose it - you'll need to submit that!
+
+<center><iframe src="https://corydave.github.io/websitetest/mc/csc-145/00-orientation/inventory.html" style="border: 0px; border-radius: 15px; width: 90%; height: 1000px;" title="AI Self Inventory"></iframe></center>
+
+
+## Let's be careful out there!
+
+^callout external-link-alt
+
+<br />
+
+Submit your work here.
+
+Note that if you've done this for another class, you can just submit the same work here.
+
+^callout-end
+
+<br /><br />

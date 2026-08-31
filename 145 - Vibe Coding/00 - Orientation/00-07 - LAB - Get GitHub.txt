@@ -1,0 +1,23 @@
+^colors bg:#9900ff text:#ffffff link:#ffffff
+
+^^ LAB - Get GitHub
+
+GitHub is like Google Drive - but for computer nerds. It's where we will be putting our work. It's also a free way to host a website, so we have that going for us.
+
+You may have heard of GitHub before, and it might look very confusing at first. That's because it is. There are *a lot* of things we can do with GitHub. But we are only going to use like 0.01% of the features.
+
+You'll need to go to [GitHub](https://github.com/) and create an account. It's up to you if you want to use your school account, but be warned - if you leave FLCC, you might leave your email address, too, which will make getting into GitHub kinda challenging.
+
+For right now, you just need to get a picture of your GitHub account. Make sure you have your username in the image and submit it!
+
+## Let's be careful out there!
+
+^callout external-link-alt
+
+<br />
+
+Submit your work here.
+
+^callout-end
+
+<br /><br />
