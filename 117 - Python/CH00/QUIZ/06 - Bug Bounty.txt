@@ -10,7 +10,7 @@ What does the term *Bug Bounty* mean in this course?
 
 It is a warning that there are errors in the course and you should not expect perfection.
 
-It is an invitation to point out mistakes to Dave - and to get extra credit for it!
+It is an invitation to point out mistakes to your instructor - and to get extra credit for it!
 
 It is an invitation to try and hack Brightspace.
 
