@@ -1,0 +1,59 @@
+^colors bg:#d4400b text:#ffffff link:#ffffff
+
+^^ LAB - Compare the Three Tools You Can Reach
+
+## Description
+
+Three numbers explain most of the frustration people have with these tools: the *context window*, the *knowledge cutoff*, and the *rate limit*. This lab is where you go and find two of them yourself, on tools you can actually get to, and then watch what happens at the edge of one.
+
+## What to do
+
+1. Pick three AI tools you have access to. Free accounts are fine and are the point. If you want to use more than three services, go for it!
+   
+^=^ ,,,, 10
+
+I like these tools, but use whatever you'd like:
+
+[Anthropic - Claude](https://claude.ai/)
+
+[Google - Gemini](https://gemini.google.com/)
+
+[OpenAI - ChatGPT](https://chatgpt.com/)
+
+[Microsoft - Copilot](https://copilot.microsoft.com/)
+
+
+
+^=
+
+2. For each, find and write down: the cost, the knowledge cutoff if it will tell you, and one thing it refuses to do.
+
+3. Ask all three the same question about something recent in your field.
+
+4. Note which hedged, which refused, and which answered confidently.
+
+<br />
+
+## What to submit
+
+A one-page comparison, in whatever format suits you - a table, a list, three short paragraphs. Plus your note on step 4.
+
+<br />
+
+### What I am actually looking at
+
+* Three tools you can actually reach, with the cost and the cutoff you found - or an honest *it would not tell me*, which is itself a finding.
+
+* One mistake you found. It's okay if there wasn't any mistake.
+
+* Your note on step 4: who hedged, who refused, who answered confidently.
+
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
+
+<br /><br />
