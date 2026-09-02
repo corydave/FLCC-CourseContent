@@ -1,0 +1,43 @@
+^colors bg:#d4400b text:#ffffff link:#ffffff
+
+^^ DISCUSSION - Three you did not notice
+
+## Description
+
+The chatbot is a small, recent corner of a wide and fairly old field. Let's poke that assertion a little bit by inspecting arenas in our daily life where AI has silently lived - and sharing them here.
+
+You have been using AI all week. You may have noticed it. You may have not noticed it (it's easy to miss!).
+
+## What to do
+
+1. Name three AI systems you used this week without thinking of them as AI. Your phone, your inbox and your streaming service are all fair game.
+
+2. For each one, say which ring it sits in - machine learning, deep learning, or generative.
+
+3. One of the three should be something you would have called 'just software' a week ago. If none of them is, look again.
+
+## What to post
+
+One post. Three systems, and for each one: the ring it sits in. Six or seven sentences altogether is plenty. But don't let me yuck your yum. You wanna write a few paragraphs and throw in some images? Go for it!
+
+## Reading everybody else's
+
+**There is no reply requirement here.** I am not going to make you write *great post!* under two strangers' posts, and you should not have to read twenty of those under yours.
+
+Do read a few though, because this is the thread where our understanding of the rings get strengthened. If you see something in a ring you would have put somewhere else, say so - that argument is the single most useful thing that can happen on this board, and it cannot happen if everybody only posts.
+
+## What I am actually looking at
+
+* The three are genuinely yours, from your own week, rather than examples lifted from the lesson. If you need to use AI to brainstorm or walk through some examples, go for it! But please don't just copy and paste from AI into here. That's boring. Use your big, beautiful brain to carry over your conversation with AI into this Discussion.
+
+* If you discuss limitations, be specific. *It makes mistakes* is not a limitation; *it cannot tell my sister and my mother apart in photos* is. By the way, Google Photos struggles to tell my twin brother and I apart. And it is even worse with my three doggos.
+
+* If you get a ring wrong, that is fine, and it is useful. Being confidently wrong in public and then corrected is one of the better ways to remember something - which is the same reason every lesson opens with a question you are not expected to know the answer to.
+
+^callout external-link-alt
+
+<br />
+
+Click here to join the Discussion.
+
+^callout-end
