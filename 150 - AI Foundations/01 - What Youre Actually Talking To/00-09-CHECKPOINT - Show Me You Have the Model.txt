@@ -1,75 +1,24 @@
-<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<title>Checkpoint: Show Me You Have The Model</title>
-<style>
-  html, body { margin: 0; padding: 0; background: transparent; }
-  iframe { display: block; width: 100%; border: 0; min-height: 60vh; }
-  noscript p { font: 16px/1.5 system-ui, sans-serif; padding: 1rem; }
-</style>
-</head>
-<body>
+^colors bg:#d4400b text:#ffffff link:#ffffff
+
+^^ CHECKPOINT - Show Me You Have the Model
+
 <iframe id="csc150frame" src="https://corydave.github.io/websitetest/mc/csc-150/01-intro/01-module-1-checkpoint.html" title="Checkpoint: Show Me You Have The Model"
-        style="border-radius: 15px !important;"
+        style="border-radius: 15px !important; border: 0px;"
         allow="clipboard-write"
         referrerpolicy="no-referrer-when-downgrade"
-        scrolling="no"></iframe>
-<noscript><p><a href="https://corydave.github.io/websitetest/mc/csc-150/01-intro/01-module-1-checkpoint.html">Open Checkpoint: Show Me You Have The Model</a></p></noscript>
-<script>
-/* Resize the frame to whatever the page says it needs, so there is never a
-   scrollbar inside a scrollbar, and hand the page the little context this
-   window knows about itself.
+        width= 100%;
+        height= 1000;
+        scrolling="yes"></iframe>
 
-   Only messages from the content host are honoured. Anything on the internet
-   can postMessage into a window, and a listener that resizes a frame on
-   unvalidated input will resize it to whatever it is told. */
-(function () {
-  var f = document.getElementById("csc150frame");
-  if (!f) return;
-  /* Read the origin off the iframe rather than hard-coding it: event.origin is
-     scheme+host+port with no path and no trailing slash, and deriving it here
-     means the two can never disagree. */
-  var ORIGIN = new URL(f.src, location.href).origin;
 
-  /* Brightspace puts the course and topic ids in its own URL. That is all the
-     context available from here - replace strings like {FirstName} do NOT
-     resolve inside an HTML document; they bake in whoever saved the file, so
-     every learner would see that person's name. Do not use them. */
-  function context() {
-    var m = location.pathname.match(/\/(\d{3,})\//g) || [];
-    var ids = m.map(function (x) { return x.replace(/\//g, ""); });
-    return {
-      tag: "csc150", type: "host", host: "brightspace",
-      course: ids[0] || "", topic: ids[1] || "",
-      hash: location.hash || "",
-      /* Dave's call: keep our h1 even though Brightspace prints its own title
-         above the frame. Set this back to true to hide the duplicate. */
-      chrome: false
-    };
-  }
+<br /><br />
 
-  window.addEventListener("message", function (e) {
-    if (e.origin !== ORIGIN) return;
-    var d = e.data;
-    if (!d || d.tag !== "csc150") return;
-    if (d.type === "ready") {
-      f.contentWindow.postMessage(context(), ORIGIN);
-    } else if (d.type === "height" && typeof d.height === "number") {
-      /* Clamp. A buggy or hostile child should not be able to set a page to
-         four million pixels, and a page that briefly measures near zero should
-         not collapse the frame to nothing. */
-      f.style.height = Math.min(Math.max(d.height, 200), 20000) + "px";
-    } else if (d.type === "scroll") {
-      /* The page asked to scroll to something inside itself. Only this window
-         can actually move, so translate the offset and do it here. */
-      var top = f.getBoundingClientRect().top + window.pageYOffset + d.top;
-      if (d.block === "center") top -= (window.innerHeight - d.height) / 2;
-      else top -= 16;
-      window.scrollTo({ top: Math.max(0, top), behavior: d.smooth ? "smooth" : "auto" });
-    }
-  });
-})();
-</script>
-</body>
-</html>
+^callout external-link-alt
+
+<br />
+
+Click here to submit your work.
+
+^callout-end
+
+<br /><br />
