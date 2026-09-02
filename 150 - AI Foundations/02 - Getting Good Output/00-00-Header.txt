@@ -1,0 +1,7 @@
+^colors bg:#d4400b text:#ffffff link:#ffffff
+
+^^ Getting Good Output
+
+<div style="display:none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vTTsMSDkLnlqQWpxi8lE6N5ouP9w5Mc8bEJADilHgvsO4urs3m8XIcS-IYgXCjKDvtv4Z4WErKT6QdB/pub?w=907&amp;h=385" alt="The words GETTING GOOD OUTPUT and a cute robot with the number 2 on its body." title="The words GETTING GOOD OUTPUT and a cute robot with the number 2 on its body." width="0" height="0" style="display:none;" /></div>
+
+Nothing to see here yet.

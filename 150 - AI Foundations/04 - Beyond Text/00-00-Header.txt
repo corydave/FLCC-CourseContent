@@ -1,0 +1,7 @@
+^colors bg:#d4400b text:#ffffff link:#ffffff
+
+^^ Beyond Text
+
+<div style="display:none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vQD5LA6EWqY-ngms7YeWPKzLYpJfbgq3uuQWYKwYFYOKkyvqg_ZqL0GTBHQG1R-VL9St0K9C_8e7L6I/pub?w=907&amp;h=385" alt="The words BEYOND TEXT and a cute robot with the number 4 on its body." title="The words BEYOND TEXT and a cute robot with the number 4 on its body." width="0" height="0" style="display:none;" /></div>
+
+This module is *beyond* today.

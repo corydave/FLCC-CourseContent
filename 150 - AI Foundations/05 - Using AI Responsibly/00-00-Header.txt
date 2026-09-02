@@ -1,0 +1,9 @@
+^colors bg:#d4400b text:#ffffff link:#ffffff
+
+^^ Using AI Responsibly
+
+<div style="display:none;"><img src="https://docs.google.com/drawings/d/e/PACX-1vTNC_VlHTG6rL4DeOtUuDYB00giUFHz0YVDdIeV1taj63BVy31ye6yNd7HeU85n9CMeHwByfkM8uDoL/pub?w=907&amp;h=385" alt="The words USING AI RESPONSIBLY and a cute robot with the number 5 on its body." title="The words USING AI RESPONSIBLY and a cute robot with the number 5 on its body." width="0" height="0" style="display:none;" /></div>
+
+...loading... loading... loading...
+
+DONE LOADING. 
