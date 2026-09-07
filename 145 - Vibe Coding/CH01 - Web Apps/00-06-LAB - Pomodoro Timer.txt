@@ -1,0 +1,25 @@
+<iframe id="lab"
+        src="https://corydave.github.io/websitetest/mc/csc-145/01-files/04-pomodoro.html"
+        title="Pomodoro Timer"
+        style="width:100%; border:0; height:85vh; height:85dvh;"></iframe>
+<script>
+  var SITE   = 'https://corydave.github.io';
+  var SUBMIT = 'CODEGOESHERE';
+
+  var lab = document.getElementById('lab');
+  var desktop = window.matchMedia('(min-width: 900px) and (hover: hover)');
+
+  // Desktop: grow the frame to fit the handout. Phones: leave it screen-height.
+  window.addEventListener('message', function (e) {
+    if (e.origin !== SITE) return;
+    if (!desktop.matches) return;
+    if (e.data && typeof e.data.vibeHeight === 'number') {
+      lab.style.height = (e.data.vibeHeight + 20) + 'px';
+    }
+  });
+
+  // Hand the page its "submit your work" link. Sent only to our site's origin.
+  lab.addEventListener('load', function () {
+    lab.contentWindow.postMessage({ vibeSubmit: SUBMIT }, SITE);
+  });
+</script>
