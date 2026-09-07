@@ -1,10 +1,10 @@
 <iframe id="lab"
         src="https://corydave.github.io/websitetest/mc/csc-145/01-files/02-qr-code-v2.html"
-        title="Pomodoro timer lab"
+        title="QR Code Generator v2"
         style="width:100%; border:0; height:85vh; height:85dvh;"></iframe>
 <script>
   var SITE   = 'https://corydave.github.io';
-  var SUBMIT = 'PUTCODEHERE';
+  var SUBMIT = 'CODEGOESHERE';
 
   var lab = document.getElementById('lab');
   var desktop = window.matchMedia('(min-width: 900px) and (hover: hover)');
