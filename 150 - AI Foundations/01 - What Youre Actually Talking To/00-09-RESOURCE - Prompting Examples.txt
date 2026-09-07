@@ -10,8 +10,11 @@
 
 Check out the [Prompt Library](https://www.flcc.ai/tools/general-prompt-library.html) - it has really interesting prompts that might show you ways to use AI that you haven't seen before. At the very least, it should provide inspiration for new ways for you to engage AI.
 
-<a href="https://www.flcc.ai/tools/general-prompt-library.html"><img src="https://www.flcc.ai/tools/images/general-prompt-library.jpg" /></a>
+<a href="https://www.flcc.ai/tools/general-prompt-library.html" target="_blank"><img src="https://www.flcc.ai/tools/images/general-prompt-library.jpg" /></a>
 
 </div>
 
 </center>
+
+
+<br /><br />
