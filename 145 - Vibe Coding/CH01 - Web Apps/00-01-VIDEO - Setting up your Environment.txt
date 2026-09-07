@@ -1,0 +1,17 @@
+^^ VIDEO - Setting up Your Workflow
+
+Have you ever been in a situation where you *know* you should do something - and you know it will save you so much time in the long run - but you just don't want to do it?
+
+Well, this is probably one of those situations.
+
+But - and this is important - you *have* to do it. Honestly, this stuff (though it may seem boring - and probably is a little boring) will position you for success later on in this class. Please watch the following video. It covers captivating ideas like:
+* Understanding folders and file hierarchy
+* Revealing file extensions
+* Getting a text editor
+* Getting code from your AI tool to your computer - and running a program!
+
+Yes, folks, that's right! The greatest hits of the popular album "Everything You Need to Know About Coding but Totally Don't Want to do Right Now Because it's More Fun to Vibe Code!"
+
+Also, there will be a test on this. Not really a test, but a lab. So, like, take your medicine and have a watch.
+
+<center><iframe src="https://inlineteaching.com/tools/vids-iframer.html?id=1G5xTXowZpM-zgIcNtNITkWB0R3gJoECIB3jpMyxopMo&amp;title=Setting+up+Your+Environment&amp;bg=9900ff&amp;titleColor=ffffff&amp;clickColor=ffffff" style="width: 90%;aspect-ratio: 16/9;border: 0px;border-radius: 15px !important;" title="Google Vids Content" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; web-share" allowfullscreen="allowfullscreen"></iframe></center>
