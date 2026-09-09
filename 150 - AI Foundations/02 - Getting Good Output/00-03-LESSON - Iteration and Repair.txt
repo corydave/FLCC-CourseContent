@@ -1,0 +1,10 @@
+<!-- CSC 150 - Iteration and Repair
+     Paste into a Brightspace HTML page (Content > New > Create a
+     File), using the HTML source view. Nothing else here needs editing: the
+     listener reads the origin off the iframe's own src. -->
+<iframe id="csc150frame" src="https://corydave.github.io/websitetest/mc/csc-150/02-output/07-iteration-and-repair.html" title="Iteration and Repair"
+        width="100%" height="700"
+        style="display:block;width:100%;border:0;height:85vh;height:85dvh;border-radius:15px !important"
+        allow="clipboard-write"></iframe>
+<noscript><p align="center" style="text-align:center"><a href="https://corydave.github.io/websitetest/mc/csc-150/02-output/07-iteration-and-repair.html">Open Iteration and Repair</a></p></noscript>
+<script src="https://corydave.github.io/websitetest/mc/lms-listener.js"></script>

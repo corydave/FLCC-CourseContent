@@ -1,0 +1,16 @@
+<!-- CSC 150 - Checkpoint: Show Me You Can Get Good Output
+     Paste into a Brightspace HTML page (Content > New > Create a
+     File), using the HTML source view. Nothing else here needs editing: the
+     listener reads the origin off the iframe's own src.
+
+     ONE THING TO EDIT: put this section's link in data-submit below - the
+     dropbox for a Lab or Checkpoint, the discussion thread for a Discussion -
+     and the button appears at the foot of the page. Leave it empty and the
+     button stays hidden, which is the correct state for a section that is not
+     collecting this one. -->
+<iframe id="csc150frame" src="https://corydave.github.io/websitetest/mc/csc-150/02-output/02-module-2-checkpoint.html" title="Checkpoint: Show Me You Can Get Good Output" data-submit=""
+        width="100%" height="700"
+        style="display:block;width:100%;border:0;height:85vh;height:85dvh;border-radius:15px !important"
+        allow="clipboard-write"></iframe>
+<noscript><p align="center" style="text-align:center"><a href="https://corydave.github.io/websitetest/mc/csc-150/02-output/02-module-2-checkpoint.html">Open Checkpoint: Show Me You Can Get Good Output</a></p></noscript>
+<script src="https://corydave.github.io/websitetest/mc/lms-listener.js"></script>

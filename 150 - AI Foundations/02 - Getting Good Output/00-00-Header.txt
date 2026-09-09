@@ -4,4 +4,13 @@
 
 <div style="display:none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vTTsMSDkLnlqQWpxi8lE6N5ouP9w5Mc8bEJADilHgvsO4urs3m8XIcS-IYgXCjKDvtv4Z4WErKT6QdB/pub?w=907&amp;h=385" alt="The words GETTING GOOD OUTPUT and a cute robot with the number 2 on its body." title="The words GETTING GOOD OUTPUT and a cute robot with the number 2 on its body." width="0" height="0" style="display:none;" /></div>
 
-Nothing to see here yet.
+<!-- CSC 150 - Module 2 overview
+     Paste into a Brightspace HTML page (Content > New > Create a
+     File), using the HTML source view. Nothing else here needs editing: the
+     listener reads the origin off the iframe's own src. -->
+<iframe id="csc150frame" src="https://corydave.github.io/websitetest/mc/csc-150/02-output/module-2-overview.html" title="Module 2 overview"
+        width="100%" height="480"
+        style="display:block;width:100%;border:0;min-height:480px;border-radius:15px !important"
+        allow="clipboard-write"></iframe>
+<noscript><p align="center" style="text-align:center"><a href="https://corydave.github.io/websitetest/mc/csc-150/02-output/module-2-overview.html">Open Module 2 overview</a></p></noscript>
+<script src="https://corydave.github.io/websitetest/mc/lms-listener.js"></script>
