@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Where Bias Comes From</title>
+<style>
+  html, body { margin: 0; padding: 0; background: transparent; }
+  iframe { display: block; width: 100%; border: 0; }
+  noscript p { font: 16px/1.5 system-ui, sans-serif; padding: 1rem; }
+</style>
+</head>
+<body>
+<iframe id="csc150frame" src="https://corydave.github.io/websitetest/mc/csc-150/03-checking/10-where-bias-comes-from.html" title="Where Bias Comes From"
+        width="100%" height="700"
+        style="height:85vh;height:85dvh;border-radius: 15px !important;border:0px;"
+        allow="clipboard-write"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+<noscript><p><a href="https://corydave.github.io/websitetest/mc/csc-150/03-checking/10-where-bias-comes-from.html">Open Where Bias Comes From</a></p></noscript>
+<script src="https://corydave.github.io/websitetest/mc/lms-listener.js"></script>
+</body>
+</html>
