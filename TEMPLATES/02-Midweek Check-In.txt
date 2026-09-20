@@ -1,4 +1,4 @@
-^^ WEEK #7 - Midweek Check-In
+# WEEK #7 - Midweek Check-In
 
 <center>
 
@@ -8,7 +8,7 @@
 
 </center><br />
 
-# TL;DR
+## TL;DR
 
 
 
