@@ -4,4 +4,10 @@
 
 <div style="display:none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vQD5LA6EWqY-ngms7YeWPKzLYpJfbgq3uuQWYKwYFYOKkyvqg_ZqL0GTBHQG1R-VL9St0K9C_8e7L6I/pub?w=907&amp;h=385" alt="The words BEYOND TEXT and a cute robot with the number 4 on its body." title="The words BEYOND TEXT and a cute robot with the number 4 on its body." width="0" height="0" style="display:none;" /></div>
 
-This module is *beyond* today.
+<iframe id="csc150frame" src="https://corydave.github.io/websitetest/mc/csc-150/04-beyond-text/module-4-overview.html" title="Module 4 overview"
+        width="100%" height="480"
+        style="min-height:480px;border:0;border-radius: 15px !important;"
+        allow="clipboard-write"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+<noscript><p><a href="https://corydave.github.io/websitetest/mc/csc-150/04-beyond-text/module-4-overview.html">Open Module 4 overview</a></p></noscript>
+<script src="https://corydave.github.io/websitetest/mc/lms-listener.js"></script>

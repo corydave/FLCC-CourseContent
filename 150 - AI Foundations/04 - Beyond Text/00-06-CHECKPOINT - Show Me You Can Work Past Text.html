@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Show Me You Can Work Past Text</title>
+<style>
+  html, body { margin: 0; padding: 0; background: transparent; }
+  iframe { display: block; width: 100%; border: 0; }
+  noscript p { font: 16px/1.5 system-ui, sans-serif; padding: 1rem; }
+</style>
+</head>
+<body>
+<!-- border:0 is INLINE, not left to the iframe rule in the <style> block above.
+     The rule is still there and still correct, and it still loses: Brightspace
+     wraps an uploaded HTML file in its own document, and whatever cascade that
+     produces puts a border back on the frame. Reported from a live topic and
+     fixed by hand in the LMS before it was fixed here.
+
+     The style attribute beats any stylesheet by specificity, so it is the one
+     place a rule cannot be overruled from outside. The paste snippet below has
+     always carried it inline for the same reason - this form is the one that
+     was relying on a stylesheet surviving a host it does not control. -->
+<iframe id="csc150frame" src="https://corydave.github.io/websitetest/mc/csc-150/04-beyond-text/04-module-4-checkpoint.html" title="Show Me You Can Work Past Text" data-submit=""
+        width="100%" height="700"
+        style="height:85vh;height:85dvh;border:0;border-radius: 15px !important;"
+        allow="clipboard-write"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+<noscript><p><a href="https://corydave.github.io/websitetest/mc/csc-150/04-beyond-text/04-module-4-checkpoint.html">Open Show Me You Can Work Past Text</a></p></noscript>
+<script src="https://corydave.github.io/websitetest/mc/lms-listener.js"></script>
+</body>
+</html>
