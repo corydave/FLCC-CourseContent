@@ -1,0 +1,10 @@
+^^ WELCOME!!!!
+
+Hey folks! Thanks for tuning in! Welcome to CSC-240 - AI Workflows and Automation!!! Check out the syllabus below. The course content will drop at 6:00pm on Monday, October 5. Expect two deliveries:
+* A background lesson on what automation is and how to use *markdown* - a language that is great when giving instructions to AI.
+* A more comprehensive approach to laying out automations!
+
+<br />
+
+
+<center><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/1RyxLvJ1fzopjUWoH6Y5CAi2dOSqJNEDZms-Min5zpjY/copy" target="_blank"><span style="background-color:#243d70;padding: 15px; width:250px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 12pt; text-transform: uppercase; font-weight: bold;">Copy Google Doc</span></a><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/1RyxLvJ1fzopjUWoH6Y5CAi2dOSqJNEDZms-Min5zpjY/export?format=doc" target="_blank"><span style="background-color:#0300a8;padding: 15px; width:250px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 12pt; text-transform: uppercase; font-weight: bold;">Download Word</span></a><a style="text-decoration: none !important; margin: 10px; display: inline-block;" href="https://docs.google.com/document/d/1RyxLvJ1fzopjUWoH6Y5CAi2dOSqJNEDZms-Min5zpjY/export?format=pdf" target="_blank"><span style="background-color:#c00215;padding: 15px; width:250px; border-radius: 50px; color: white; text-align: center; font-family: arial, helvetica, sans-serif; font-size: 12pt; text-transform: uppercase; font-weight: bold;">Download PDF</span></a><br /><br /><iframe src="https://docs.google.com/document/d/1RyxLvJ1fzopjUWoH6Y5CAi2dOSqJNEDZms-Min5zpjY/preview" height="1000" width="800" frameborder="0" style="width: 100%; max-width: 800px; title=Course Syllabus for CSC-240"></iframe></center>
