@@ -1,3 +1,5 @@
+<div style="display:none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vTeyvAWmnc4dtzyO3OMk6vGqKXLlGmQ3yYvFU7ZOmSTFtJYoCTLGFxWXwH1v1s5pCUxrSGKpFE4wj4y/pub?w=907&amp;h=385" alt="The words BLUEPRINTS and a cute robot with the number 1 on its body." title="The words BLUEPRINTS and a cute robot with the number 1 on its body." width="0" height="0" style="display:none;" /></div>
+
 <!-- CSC 240 - Module 1 overview
      Paste into a Brightspace HTML page (Content > New > Create a File), or
      into the module's description, using the HTML source view. Nothing here
