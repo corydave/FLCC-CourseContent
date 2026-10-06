@@ -1,4 +1,4 @@
-<div style="display:none;"><img src="https://docs.google.com/drawings/d/e/PACX-1vSXpuqU8Ydr8TR6Axt-m6CJuQjPTOmh3-kNB-MJV-a5Y9fgQFEC5rDS2FfSGSucYVDEqckrliuRobZp/pub?w=907&amp;h=385" alt="The words PROMPTS TO PROCESS and a cute robot with the number 2 on its body." title="The words PROMPTS TO PROCESS and a cute robot with the number 2 on its body." width="0" height="0" style="display:none;" /></div>
+<div style="display:none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vSXpuqU8Ydr8TR6Axt-m6CJuQjPTOmh3-kNB-MJV-a5Y9fgQFEC5rDS2FfSGSucYVDEqckrliuRobZp/pub?w=907&amp;h=385" alt="The words PROMPTS TO PROCESS and a cute robot with the number 2 on its body." title="The words PROMPTS TO PROCESS and a cute robot with the number 2 on its body." width="0" height="0" style="display:none;" /></div>
 
 <!-- CSC 240 - Module 2 overview
      Paste into a Brightspace HTML page (Content > New > Create a File), or
