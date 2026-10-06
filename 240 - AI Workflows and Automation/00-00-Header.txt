@@ -1,5 +1,11 @@
 ^^ WELCOME!!!!
 
+<div style="display:none;"><img src="https://i.giphy.com/ASd0Ukj0y3qMM.webp" alt="Ralph Wiggums from The Simpsons waving at you." title="The words WELCOME AND ORIENTATION and a cute robot with the number 0 on its body." width="0" height="0" style="display:none;" /></div>
+
+^youtube https://www.youtube.com/watch?v=k3hFkIAOMqI
+
+<br />
+
 Hey folks! Thanks for tuning in! Welcome to CSC-240 - AI Workflows and Automation!!! Check out the syllabus below. The course content will drop at 6:00pm on Monday, October 5. Expect two deliveries:
 * A background lesson on what automation is and how to use *markdown* - a language that is great when giving instructions to AI.
 * A more comprehensive approach to laying out automations!
