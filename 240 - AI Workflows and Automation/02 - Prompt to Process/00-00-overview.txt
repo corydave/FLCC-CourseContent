@@ -1,0 +1,15 @@
+<!-- CSC 240 - Module 2 overview
+     Paste into a Brightspace HTML page (Content > New > Create a File), or
+     into the module's description, using the HTML source view. Nothing here
+     needs editing: due dates live in courses/csc-240/course-dates.txt and
+     reach this panel when the page is rebuilt and uploaded.
+
+     Every module's wrapper points at the SAME page, overviews.html, so
+     Brightspace asks to trust it once rather than once per module. The
+     ?module=2 on the end picks which module it shows. -->
+<iframe id="csc150frame" src="https://corydave.github.io/websitetest/mc/csc-240/overviews.html?module=2" title="Module 2 overview"
+        width="100%" height="480"
+        style="display:block;width:100%;border:0;min-height:480px;border-radius:15px !important"
+        allow="clipboard-write"></iframe>
+<noscript><p align="center" style="text-align:center"><a href="https://corydave.github.io/websitetest/mc/csc-240/overviews.html?module=2">Open the Module 2 overview</a></p></noscript>
+<script src="https://corydave.github.io/websitetest/mc/lms-listener.js"></script>
