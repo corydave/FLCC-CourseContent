@@ -1,6 +1,6 @@
-^^ Accessibility: did the AI keep its promise?
+# Accessibility: did the AI keep its promise?
 
+<div style="display:none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vSA47kOD5kBMVvZTvRzCwUBoV22BnPF8XZOI7KmUc5ROq2WQnD3k7QJktJWrRdHjkKsG-eoIzLoIzTY/pub?w=907&amp;h=385" alt="The icon for accessibility." title="The icon for accessibility." width="0" height="0" style="display:none;" /></div>
 
-
-<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vSps3XJ5pDsQhfhodPzJsuo8atELgHfmdmWSkSHpbtR7mMNEsy0ZwegjEN_3y1fCHsJPk8FrFCeiJDb/pubhtml/sheet?headers=false&amp;gid=1265930329&amp;range=B2:D11'style="width:100%;max-width:720px;height:289px" frameborder="0"></iframe></center>
+<center><iframe src='https://docs.google.com/spreadsheets/d/e/2PACX-1vSps3XJ5pDsQhfhodPzJsuo8atELgHfmdmWSkSHpbtR7mMNEsy0ZwegjEN_3y1fCHsJPk8FrFCeiJDb/pubhtml/sheet?headers=false&amp;gid=277957836&amp;range=B2:D9'style="width:100%;max-width:720px;height:247px" frameborder="0"></iframe></center>
 
