@@ -1,7 +1,5 @@
-<div style="font-family: 'Atkinson Hyperlegible', Verdana, 'Segoe UI', system-ui, sans-serif; font-size: 12pt; line-height: 1.6;">
-<h1 id="an-assistant-that-remembers" style="font-family: 'Comfortaa', 'Trebuchet MS', Verdana, system-ui, sans-serif; background-color: #9900ff; color: #ffffff; text-align: center; padding: 1.875rem 1.25rem; margin: 0 0 1.5rem; border-radius: .25rem;">
-   An Assistant that Remembers
-</h1>
+# An Assistant that Remembers
+
 <div style="display:none;"><img src="https://docs.google.com/drawings/d/e/2PACX-1vTwuPB2OCH-Hw745IwMhMiOeQn6TRFqQSOO4CUucOfc0AvtG0zOZlIyAcMygJPRw2lZ1nHCI1E8U4qO/pub?w=907&amp;h=385" alt="The words AN ASSISTANT THAT REMEMBERS and a cute robot with the number 3 on its body." title="The words AN ASSISTANT THAT REMEMBERS and a cute robot with the number 3 on its body." width="0" height="0" style="display:none;" /></div>
 
 <!-- CSC 240 - Module 3 overview
@@ -19,4 +17,3 @@
         allow="clipboard-write"></iframe>
 <noscript><p align="center" style="text-align:center"><a href="https://corydave.github.io/websitetest/mc/csc-240/overviews.html?module=3">Open the Module 3 overview</a></p></noscript>
 <script src="https://corydave.github.io/websitetest/mc/lms-listener.js"></script>
-</div>
