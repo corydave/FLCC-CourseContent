@@ -1,0 +1,16 @@
+<!-- CSC 240 - Module 4, Giving It Your Stuff - Lab 12: Three Ways to Cut a Document
+     Paste into a Brightspace HTML page (Content > New > Create a
+     File), or into an assignment's Description, using the HTML source view.
+     The listener reads the origin off the iframe's own src. Same shape as
+     every CSC 150 wrapper, so the same listener sizes it.
+
+     ONE THING TO EDIT: put the link to the Lab 12 dropbox in data-submit below, and a
+     hand-in button appears under the download buttons. Leave it empty and the
+     button stays hidden. The link must start with https:// or the page
+     ignores it. -->
+<iframe id="csc150frame" src="https://corydave.github.io/websitetest/mc/csc-240/04-giving-it-your-stuff/12-three-ways-to-cut.html" title="Three Ways to Cut a Document" data-submit=""
+        width="100%" height="700"
+        style="display:block;width:100%;border:0;height:85vh;height:85dvh;border-radius:15px !important"
+        allow="clipboard-write"></iframe>
+<noscript><p align="center" style="text-align:center"><a href="https://corydave.github.io/websitetest/mc/csc-240/04-giving-it-your-stuff/12-three-ways-to-cut.html">Open Three Ways to Cut a Document</a></p></noscript>
+<script src="https://corydave.github.io/websitetest/mc/lms-listener.js"></script>
