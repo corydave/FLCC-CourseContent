@@ -1,0 +1,13 @@
+<!-- CSC 240 - Module 6, How Much Rope - Lesson: How Much Rope
+     Paste into a Brightspace HTML page (Content > New > Create a
+     File), or into an assignment's Description, using the HTML source view.
+     The listener reads the origin off the iframe's own src. Same shape as
+     every CSC 150 wrapper, so the same listener sizes it.
+
+     Nothing is handed in on this page, so there is no data-submit. -->
+<iframe id="csc150frame" src="https://corydave.github.io/websitetest/mc/csc-240/06-how-much-rope/17-how-much-rope.html" title="How Much Rope"
+        width="100%" height="700"
+        style="display:block;width:100%;border:0;height:85vh;height:85dvh;border-radius:15px !important"
+        allow="clipboard-write"></iframe>
+<noscript><p align="center" style="text-align:center"><a href="https://corydave.github.io/websitetest/mc/csc-240/06-how-much-rope/17-how-much-rope.html">Open How Much Rope</a></p></noscript>
+<script src="https://corydave.github.io/websitetest/mc/lms-listener.js"></script>
