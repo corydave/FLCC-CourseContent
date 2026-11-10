@@ -1,0 +1,11 @@
+<!-- CSC 280 - Vocabulary
+     Paste into a Brightspace HTML page (Content > New > Create a File), using
+     the HTML source view. Nothing here needs editing: the terms come from
+     courses/csc-280/glossary.md and reach this page when it is rebuilt and
+     uploaded. -->
+<iframe id="csc150frame" src="https://corydave.github.io/websitetest/mc/csc-280/vocabulary.html" title="CSC 280 Vocabulary"
+        width="100%" height="700"
+        style="display:block;width:100%;border:0;height:85vh;height:85dvh;border-radius:15px !important"
+        allow="clipboard-write"></iframe>
+<noscript><p align="center" style="text-align:center"><a href="https://corydave.github.io/websitetest/mc/csc-280/vocabulary.html">Open the CSC 280 Vocabulary</a></p></noscript>
+<script src="https://corydave.github.io/websitetest/mc/lms-listener.js"></script>
